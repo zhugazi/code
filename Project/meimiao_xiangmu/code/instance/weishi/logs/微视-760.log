@@ -1,0 +1,18 @@
+[2016-11-29 16:47:07.882] [TRACE] 微视 - DealWith instantiation ...
+[2016-11-29 16:47:07.882] [TRACE] 微视 - spiderCore instantiation ...
+[2016-11-29 16:47:07.882] [TRACE] 微视 - 启动函数
+[2016-11-29 16:47:07.914] [DEBUG] 微视 - 任务信息数据库连接建立...成功
+[2016-11-29 16:47:07.914] [DEBUG] 微视 - 缓存队列数据库连接建立...成功
+[2016-11-29 16:47:07.914] [DEBUG] 微视 - 创建数据库连接完毕
+[2016-11-29 16:47:07.914] [INFO] 微视 - { p: '16', id: '4020933', name: '飞碟说', type: '0' }
+[2016-11-29 16:47:07.945] [DEBUG] 微视 - { url: 'http://wsm.qq.com/weishi/user/getUserInfo.php?v=w&g_tk=&ukey=147010735534085719&uid=4020933',
+  referer: 'http://weishi.qq.com/u/4020933' }
+[2016-11-29 16:47:08.217] [ERROR] 微视 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }

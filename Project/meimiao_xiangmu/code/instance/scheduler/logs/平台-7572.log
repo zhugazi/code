@@ -1,0 +1,7 @@
+[2016-12-20 16:44:08.804] [DEBUG] 平台 - 处理器实例化...
+[2016-12-20 16:44:08.804] [DEBUG] 平台 - 控制器实例化...
+[2016-12-20 16:44:08.804] [DEBUG] 平台 - server实例化
+[2016-12-20 16:44:08.820] [DEBUG] 平台 - Server running at 2016 port
+[2016-12-20 16:44:12.357] [DEBUG] 平台 - 请求[object Object]
+[2016-12-20 16:44:12.383] [DEBUG] 平台 - http://proxy.app.cztv.com/getCommentList.do?videoId=/222311&page=1&pageSize=20
+[2016-12-20 16:44:12.761] [DEBUG] 平台 - 您输入的值没找到

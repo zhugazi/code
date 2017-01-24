@@ -1,0 +1,253 @@
+[2016-11-29 16:39:12.802] [TRACE] 微视 - DealWith instantiation ...
+[2016-11-29 16:39:12.802] [TRACE] 微视 - spiderCore instantiation ...
+[2016-11-29 16:39:12.818] [TRACE] 微视 - 启动函数
+[2016-11-29 16:39:12.833] [DEBUG] 微视 - 任务信息数据库连接建立...成功
+[2016-11-29 16:39:12.833] [DEBUG] 微视 - 缓存队列数据库连接建立...成功
+[2016-11-29 16:39:12.849] [DEBUG] 微视 - 创建数据库连接完毕
+[2016-11-29 16:39:12.849] [TRACE] 微视 - Queue get ready
+[2016-11-29 16:39:12.911] [TRACE] 微视 - Get weishi task!
+[2016-11-29 16:39:12.911] [INFO] 微视 - { id: '4020933', p: '16', name: '飞碟说', type: '0' }
+[2016-11-29 16:39:12.942] [DEBUG] 微视 - { url: 'http://wsm.qq.com/weishi/user/getUserInfo.php?v=w&g_tk=&ukey=147010735534085719&uid=4020933',
+  referer: 'http://weishi.qq.com/u/4020933' }
+[2016-11-29 16:39:12.966] [TRACE] 微视 - Get weishi task!
+[2016-11-29 16:39:12.967] [INFO] 微视 - { id: '12005663', p: '16', name: '何仙姑夫', type: '0' }
+[2016-11-29 16:39:12.970] [DEBUG] 微视 - { url: 'http://wsm.qq.com/weishi/user/getUserInfo.php?v=w&g_tk=&ukey=147010735534085719&uid=12005663',
+  referer: 'http://weishi.qq.com/u/12005663' }
+[2016-11-29 16:39:12.973] [TRACE] 微视 - Get weishi task!
+[2016-11-29 16:39:12.973] [INFO] 微视 - { id: '8030177', p: '16', name: '快看电影', type: '0' }
+[2016-11-29 16:39:12.973] [DEBUG] 微视 - { url: 'http://wsm.qq.com/weishi/user/getUserInfo.php?v=w&g_tk=&ukey=147010735534085719&uid=8030177',
+  referer: 'http://weishi.qq.com/u/8030177' }
+[2016-11-29 16:39:12.973] [TRACE] 微视 - Get weishi task!
+[2016-11-29 16:39:12.973] [INFO] 微视 - { id: '12096128', p: '16', name: 'Duo利duo吉', type: '0' }
+[2016-11-29 16:39:12.973] [DEBUG] 微视 - { url: 'http://wsm.qq.com/weishi/user/getUserInfo.php?v=w&g_tk=&ukey=147010735534085719&uid=12096128',
+  referer: 'http://weishi.qq.com/u/12096128' }
+[2016-11-29 16:39:12.989] [TRACE] 微视 - Get weishi task!
+[2016-11-29 16:39:12.989] [INFO] 微视 - { id: '13974375', p: '16', name: '一风之音', type: '0' }
+[2016-11-29 16:39:12.989] [DEBUG] 微视 - { url: 'http://wsm.qq.com/weishi/user/getUserInfo.php?v=w&g_tk=&ukey=147010735534085719&uid=13974375',
+  referer: 'http://weishi.qq.com/u/13974375' }
+[2016-11-29 16:39:12.989] [TRACE] 微视 - Get weishi task!
+[2016-11-29 16:39:12.989] [INFO] 微视 - { id: '2784821', p: '16', name: '牛男网', type: '0' }
+[2016-11-29 16:39:12.989] [DEBUG] 微视 - { url: 'http://wsm.qq.com/weishi/user/getUserInfo.php?v=w&g_tk=&ukey=147010735534085719&uid=2784821',
+  referer: 'http://weishi.qq.com/u/2784821' }
+[2016-11-29 16:39:13.004] [TRACE] 微视 - Get weishi task!
+[2016-11-29 16:39:13.004] [INFO] 微视 - { id: '31724433', p: '16', name: '暴走漫画', type: '0' }
+[2016-11-29 16:39:13.004] [DEBUG] 微视 - { url: 'http://wsm.qq.com/weishi/user/getUserInfo.php?v=w&g_tk=&ukey=147010735534085719&uid=31724433',
+  referer: 'http://weishi.qq.com/u/31724433' }
+[2016-11-29 16:39:13.020] [TRACE] 微视 - Get weishi task!
+[2016-11-29 16:39:13.020] [INFO] 微视 - { id: '2000026', p: '16', name: '龚静tippi', type: '0' }
+[2016-11-29 16:39:13.020] [DEBUG] 微视 - { url: 'http://wsm.qq.com/weishi/user/getUserInfo.php?v=w&g_tk=&ukey=147010735534085719&uid=2000026',
+  referer: 'http://weishi.qq.com/u/2000026' }
+[2016-11-29 16:39:13.020] [TRACE] 微视 - Get weishi task!
+[2016-11-29 16:39:13.020] [INFO] 微视 - { id: '8432386', p: '16', name: '陈翔六点半', type: '0' }
+[2016-11-29 16:39:13.020] [DEBUG] 微视 - { url: 'http://wsm.qq.com/weishi/user/getUserInfo.php?v=w&g_tk=&ukey=147010735534085719&uid=8432386',
+  referer: 'http://weishi.qq.com/u/8432386' }
+[2016-11-29 16:39:13.380] [ERROR] 微视 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-29 16:39:13.395] [ERROR] 微视 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-29 16:39:13.411] [ERROR] 微视 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-29 16:39:13.411] [ERROR] 微视 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-29 16:39:13.411] [ERROR] 微视 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-29 16:39:13.411] [ERROR] 微视 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-29 16:39:13.427] [ERROR] 微视 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-29 16:39:13.427] [ERROR] 微视 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-29 16:39:13.427] [ERROR] 微视 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-29 16:39:34.380] [ERROR] 微视 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-29 16:39:38.426] [INFO] 微视 - 返回微视用户 8432386 连接服务器失败
+[2016-11-29 16:39:38.442] [DEBUG] 微视 - 开始获取第1页视频列表
+[2016-11-29 16:39:38.473] [ERROR] 微视 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-29 16:39:38.473] [INFO] 微视 - 返回微视用户 2000026 连接服务器失败
+[2016-11-29 16:39:38.473] [DEBUG] 微视 - 开始获取第1页视频列表
+[2016-11-29 16:39:38.488] [ERROR] 微视 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-29 16:39:38.488] [INFO] 微视 - 返回微视用户 12096128 连接服务器失败
+[2016-11-29 16:39:38.488] [DEBUG] 微视 - 开始获取第1页视频列表
+[2016-11-29 16:39:38.488] [ERROR] 微视 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-29 16:39:38.488] [INFO] 微视 - 返回微视用户 12005663 连接服务器失败
+[2016-11-29 16:39:38.488] [DEBUG] 微视 - 开始获取第1页视频列表
+[2016-11-29 16:39:38.504] [ERROR] 微视 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-29 16:39:38.504] [INFO] 微视 - 返回微视用户 2784821 连接服务器失败
+[2016-11-29 16:39:38.504] [DEBUG] 微视 - 开始获取第1页视频列表
+[2016-11-29 16:39:38.504] [ERROR] 微视 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-29 16:39:38.504] [INFO] 微视 - 返回微视用户 13974375 连接服务器失败
+[2016-11-29 16:39:38.520] [DEBUG] 微视 - 开始获取第1页视频列表
+[2016-11-29 16:39:38.520] [ERROR] 微视 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-29 16:39:38.520] [INFO] 微视 - 返回微视用户 8030177 连接服务器失败
+[2016-11-29 16:39:38.520] [DEBUG] 微视 - 开始获取第1页视频列表
+[2016-11-29 16:39:38.520] [ERROR] 微视 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-29 16:39:38.535] [INFO] 微视 - 返回微视用户 31724433 连接服务器失败
+[2016-11-29 16:39:38.535] [DEBUG] 微视 - 开始获取第1页视频列表
+[2016-11-29 16:39:38.535] [ERROR] 微视 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-29 16:39:38.535] [INFO] 微视 - 返回微视用户 4020933 连接服务器失败
+[2016-11-29 16:39:38.535] [DEBUG] 微视 - 开始获取第1页视频列表
+[2016-11-29 16:39:38.833] [DEBUG] 微视 - info bug:  { ret: 0,
+  errcode: 0,
+  msg: '成功',
+  data: 
+   { total: 9,
+     hasNext: 0,
+     info: 
+      [ [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object] ],
+     user: { '何仙姑夫': 12005663 } } }
+[2016-11-29 16:39:38.848] [DEBUG] 微视 - result :  { user: '用户信息已找到', media: '视频信息已找到' }
+[2016-11-29 16:39:38.848] [DEBUG] 微视 - info bug:  { ret: 0,
+  errcode: 0,
+  msg: '成功',
+  data: 
+   { total: 405,
+     hasNext: 0,
+     info: [ [Object], [Object], [Object], [Object] ],
+     user: { '飞碟说': 4020933 } } }
+[2016-11-29 16:39:38.895] [DEBUG] 微视 - 开始获取第2页视频列表
+[2016-11-29 16:39:38.895] [DEBUG] 微视 - 微视 2002055041181161 加入缓存队列
+[2016-11-29 16:39:38.895] [DEBUG] 微视 - 微视 2002051089137395 加入缓存队列
+[2016-11-29 16:39:38.911] [DEBUG] 微视 - 微视 2006534067241797 加入缓存队列

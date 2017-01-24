@@ -1,0 +1,244 @@
+[2016-11-28 14:52:59.196] [TRACE] 搜狐视频 - DealWith instantiation ...
+[2016-11-28 14:52:59.203] [TRACE] 搜狐视频 - spiderCore instantiation ...
+[2016-11-28 14:52:59.205] [TRACE] 搜狐视频 - 启动函数
+[2016-11-28 14:52:59.231] [DEBUG] 搜狐视频 - 任务信息数据库连接建立...成功
+[2016-11-28 14:52:59.233] [DEBUG] 搜狐视频 - 缓存队列数据库连接建立...成功
+[2016-11-28 14:52:59.235] [DEBUG] 搜狐视频 - 创建数据库连接完毕
+[2016-11-28 14:52:59.241] [TRACE] 搜狐视频 - Queue get ready
+[2016-11-28 14:52:59.281] [TRACE] 搜狐视频 - Get souhu task!
+[2016-11-28 14:52:59.283] [INFO] 搜狐视频 - { id: '293056438', p: '9', name: '一色神技能', type: '0' }
+[2016-11-28 14:52:59.319] [TRACE] 搜狐视频 - Get souhu task!
+[2016-11-28 14:52:59.320] [INFO] 搜狐视频 - { id: '131742884', p: '9', name: '徐老师视频团队', type: '0' }
+[2016-11-28 14:52:59.325] [TRACE] 搜狐视频 - Get souhu task!
+[2016-11-28 14:52:59.326] [INFO] 搜狐视频 - { id: '66457769', p: '9', name: '兔小贝儿童乐园', type: '0' }
+[2016-11-28 14:52:59.330] [TRACE] 搜狐视频 - Get souhu task!
+[2016-11-28 14:52:59.331] [INFO] 搜狐视频 - { id: '262298399', p: '9', name: '奇奇和悦悦的玩具', type: '0' }
+[2016-11-28 14:52:59.335] [TRACE] 搜狐视频 - Get souhu task!
+[2016-11-28 14:52:59.336] [INFO] 搜狐视频 - { id: '261093389', p: '9', name: '逍遙小楓', type: '0' }
+[2016-11-28 14:52:59.341] [TRACE] 搜狐视频 - Get souhu task!
+[2016-11-28 14:52:59.343] [INFO] 搜狐视频 - { id: '202939688', p: '9', name: 'DS女老诗', type: '0' }
+[2016-11-28 14:52:59.348] [TRACE] 搜狐视频 - Get souhu task!
+[2016-11-28 14:52:59.349] [INFO] 搜狐视频 - { id: '207228309', p: '9', name: '日食记', type: '0' }
+[2016-11-28 14:52:59.352] [TRACE] 搜狐视频 - Get souhu task!
+[2016-11-28 14:52:59.353] [INFO] 搜狐视频 - { id: '12303675', p: '9', name: '起小点', type: '0' }
+[2016-11-28 14:52:59.358] [TRACE] 搜狐视频 - Get souhu task!
+[2016-11-28 14:52:59.360] [INFO] 搜狐视频 - { id: '195738520', p: '9', name: '拍客制造', type: '0' }
+[2016-11-28 14:52:59.445] [ERROR] 搜狐视频 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-28 14:52:59.460] [ERROR] 搜狐视频 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-28 14:52:59.464] [ERROR] 搜狐视频 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-28 14:52:59.468] [ERROR] 搜狐视频 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-28 14:52:59.471] [ERROR] 搜狐视频 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-28 14:52:59.487] [ERROR] 搜狐视频 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-28 14:52:59.490] [ERROR] 搜狐视频 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-28 14:52:59.495] [ERROR] 搜狐视频 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-28 14:53:00.011] [ERROR] 搜狐视频 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-28 14:53:20.444] [ERROR] 搜狐视频 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-28 14:53:20.457] [INFO] 搜狐视频 - 返回搜狐视频用户 undefined 连接服务器失败
+[2016-11-28 14:53:20.476] [ERROR] 搜狐视频 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-28 14:53:20.482] [INFO] 搜狐视频 - 返回搜狐视频用户 261093389 连接服务器失败
+[2016-11-28 14:53:20.491] [ERROR] 搜狐视频 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-28 14:53:20.494] [INFO] 搜狐视频 - 返回搜狐视频用户 131742884 连接服务器失败
+[2016-11-28 14:53:20.498] [ERROR] 搜狐视频 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-28 14:53:20.501] [INFO] 搜狐视频 - 返回搜狐视频用户 202939688 连接服务器失败
+[2016-11-28 14:53:20.505] [ERROR] 搜狐视频 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-28 14:53:20.509] [INFO] 搜狐视频 - 返回搜狐视频用户 undefined 连接服务器失败
+[2016-11-28 14:53:20.515] [ERROR] 搜狐视频 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-28 14:53:20.518] [INFO] 搜狐视频 - 返回搜狐视频用户 293056438 连接服务器失败
+[2016-11-28 14:53:20.523] [ERROR] 搜狐视频 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-28 14:53:20.526] [INFO] 搜狐视频 - 返回搜狐视频用户 262298399 连接服务器失败
+[2016-11-28 14:53:20.533] [ERROR] 搜狐视频 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-28 14:53:20.537] [INFO] 搜狐视频 - 返回搜狐视频用户 66457769 连接服务器失败
+[2016-11-28 14:53:20.553] [DEBUG] 搜狐视频 - result: { user: '用户信息已返回', media: '视频信息已返回' }
+[2016-11-28 14:53:20.623] [DEBUG] 搜狐视频 - result: { user: '用户信息已返回', media: '视频信息已返回' }
+[2016-11-28 14:53:20.668] [TRACE] 搜狐视频 - Get souhu task!
+[2016-11-28 14:53:20.671] [INFO] 搜狐视频 - { id: '291052495',
+  p: '9',
+  name: '大白TWO的玩具魔法世界',
+  type: '0',
+  total: 558 }
+[2016-11-28 14:53:20.678] [TRACE] 搜狐视频 - Get souhu task!
+[2016-11-28 14:53:20.680] [INFO] 搜狐视频 - { id: '235819129', p: '9', name: '真是奇怪le', type: '0', total: 2408 }
+[2016-11-28 14:53:20.722] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/86150873.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=8454358
+[2016-11-28 14:53:20.729] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/86157427.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=9047435
+[2016-11-28 14:53:20.770] [ERROR] 搜狐视频 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-28 14:53:20.775] [ERROR] 搜狐视频 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-28 14:53:20.784] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/86128324.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=9224518
+[2016-11-28 14:53:20.812] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/86158558.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=6934363
+[2016-11-28 14:53:20.835] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/86166784.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=9096516
+[2016-11-28 14:53:20.926] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/86137218.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=9143909
+[2016-11-28 14:53:20.930] [DEBUG] 搜狐视频 - 搜狐视频 86150873 加入缓存队列
+[2016-11-28 14:53:20.934] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/86128464.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=6934363
+[2016-11-28 14:53:20.939] [DEBUG] 搜狐视频 - 搜狐视频 86158558 加入缓存队列
+[2016-11-28 14:53:21.011] [ERROR] 搜狐视频 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-28 14:53:21.020] [INFO] 搜狐视频 - 返回搜狐视频用户 12303675 连接服务器失败
+[2016-11-28 14:53:21.028] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/86134521.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=8453045
+[2016-11-28 14:53:21.034] [DEBUG] 搜狐视频 - 搜狐视频 86137218 加入缓存队列
+[2016-11-28 14:53:21.157] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/86148526.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=9049033
+[2016-11-28 14:53:21.260] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/86114960.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=9049033
+[2016-11-28 14:53:21.267] [DEBUG] 搜狐视频 - 搜狐视频 86148526 加入缓存队列
+[2016-11-28 14:53:21.358] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/86046790.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=9148570
+[2016-11-28 14:53:21.364] [DEBUG] 搜狐视频 - 搜狐视频 86114960 加入缓存队列
+[2016-11-28 14:53:21.454] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/86111109.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=8356417
+[2016-11-28 14:53:21.461] [DEBUG] 搜狐视频 - 搜狐视频 86128464 加入缓存队列
+[2016-11-28 14:53:21.479] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/86023789.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=9071302
+[2016-11-28 14:53:21.484] [DEBUG] 搜狐视频 - 搜狐视频 86046790 加入缓存队列

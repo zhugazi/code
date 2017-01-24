@@ -1,0 +1,66 @@
+[2016-11-29 16:53:16.729] [TRACE] 微视 - DealWith instantiation ...
+[2016-11-29 16:53:16.729] [TRACE] 微视 - spiderCore instantiation ...
+[2016-11-29 16:53:16.729] [TRACE] 微视 - 启动函数
+[2016-11-29 16:53:16.761] [DEBUG] 微视 - 任务信息数据库连接建立...成功
+[2016-11-29 16:53:16.761] [DEBUG] 微视 - 缓存队列数据库连接建立...成功
+[2016-11-29 16:53:16.761] [DEBUG] 微视 - 创建数据库连接完毕
+[2016-11-29 16:53:16.776] [INFO] 微视 - { p: '16', id: '4020933', name: '飞碟说', type: '0' }
+[2016-11-29 16:53:17.072] [ERROR] 微视 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-29 16:53:38.104] [ERROR] 微视 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-29 16:53:38.104] [INFO] 微视 - 返回微视用户 4020933 连接服务器失败
+[2016-11-29 16:53:38.104] [DEBUG] 微视 - 开始获取第1页视频列表
+[2016-11-29 16:53:38.369] [DEBUG] 微视 - info bug:  { ret: 0,
+  errcode: 0,
+  msg: '成功',
+  data: 
+   { total: 405,
+     hasNext: 0,
+     info: [ [Object], [Object], [Object], [Object] ],
+     user: { '飞碟说': 4020933 } } }
+[2016-11-29 16:53:38.369] [DEBUG] 微视 - { ret: 0,
+  errcode: 0,
+  msg: '成功',
+  data: 
+   { total: 405,
+     hasNext: 0,
+     info: [ [Object], [Object], [Object], [Object] ],
+     user: { '飞碟说': 4020933 } } }
+[2016-11-29 16:53:38.385] [DEBUG] 微视 - 开始获取第2页视频列表
+[2016-11-29 16:53:38.400] [DEBUG] 微视 - 微视 2000566106377690 加入缓存队列
+[2016-11-29 16:53:38.400] [DEBUG] 微视 - 微视 2002566105585830 加入缓存队列
+[2016-11-29 16:53:38.400] [DEBUG] 微视 - 微视 2002066105090331 加入缓存队列
+[2016-11-29 16:53:38.400] [DEBUG] 微视 - 微视 2001066104988521 加入缓存队列
+[2016-11-29 16:53:38.556] [DEBUG] 微视 - info bug:  { ret: 0,
+  errcode: 0,
+  msg: '成功',
+  data: { total: 0, hasNext: 0, message: [] } }
+[2016-11-29 16:53:38.556] [DEBUG] 微视 - { ret: 0,
+  errcode: 0,
+  msg: '成功',
+  data: { total: 0, hasNext: 0, message: [] } }
+[2016-11-29 16:53:38.556] [DEBUG] 微视 - 开始获取第3页视频列表
+[2016-11-29 16:53:38.729] [DEBUG] 微视 - info bug:  { ret: 0,
+  errcode: 0,
+  msg: '成功',
+  data: { total: 0, hasNext: 0, message: [] } }
+[2016-11-29 16:53:38.729] [DEBUG] 微视 - { ret: 0,
+  errcode: 0,
+  msg: '成功',
+  data: { total: 0, hasNext: 0, message: [] } }
+[2016-11-29 16:53:38.729] [DEBUG] 微视 - 开始获取第4页视频列表

@@ -1,0 +1,54 @@
+[2016-11-28 14:36:58.228] [TRACE] 天天快报 - DealWith instantiation ...
+[2016-11-28 14:36:58.228] [TRACE] 天天快报 - spiderCore instantiation ...
+[2016-11-28 14:36:58.228] [TRACE] 天天快报 - 启动函数
+[2016-11-28 14:36:58.324] [DEBUG] 天天快报 - 任务信息数据库连接建立...成功
+[2016-11-28 14:36:58.324] [DEBUG] 天天快报 - 缓存队列数据库连接建立...成功
+[2016-11-28 14:36:58.324] [DEBUG] 天天快报 - 创建数据库连接完毕
+[2016-11-28 14:36:58.324] [INFO] 天天快报 - { p: '10', id: '5020454', name: '日日煮DayDayCook' }
+[2016-11-28 14:36:58.777] [ERROR] 天天快报 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-28 14:37:19.839] [ERROR] 天天快报 - occur error: { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-28 14:37:19.839] [INFO] 天天快报 - 返回天天快报用户 5020454 连接服务器失败
+[2016-11-28 14:37:21.514] [DEBUG] 天天快报 - 4
+[2016-11-28 14:37:21.514] [DEBUG] 天天快报 - 04:18
+[2016-11-28 14:37:21.959] [DEBUG] 天天快报 - 4
+[2016-11-28 14:37:21.963] [DEBUG] 天天快报 - 02:28
+[2016-11-28 14:37:23.073] [DEBUG] 天天快报 - 4
+[2016-11-28 14:37:23.073] [DEBUG] 天天快报 - 01:44
+[2016-11-28 14:37:25.341] [DEBUG] 天天快报 - 4
+[2016-11-28 14:37:25.341] [DEBUG] 天天快报 - 02:56
+[2016-11-28 14:37:25.697] [DEBUG] 天天快报 - 4
+[2016-11-28 14:37:25.697] [DEBUG] 天天快报 - 02:12
+[2016-11-28 14:37:26.494] [DEBUG] 天天快报 - 4
+[2016-11-28 14:37:26.494] [DEBUG] 天天快报 - 01:41
+[2016-11-28 14:37:27.025] [DEBUG] 天天快报 - 4
+[2016-11-28 14:37:27.025] [DEBUG] 天天快报 - 01:54
+[2016-11-28 14:37:31.261] [DEBUG] 天天快报 - 4
+[2016-11-28 14:37:31.266] [DEBUG] 天天快报 - 04:22
+[2016-11-28 14:37:31.619] [DEBUG] 天天快报 - 4
+[2016-11-28 14:37:31.619] [DEBUG] 天天快报 - 03:37
+[2016-11-28 14:37:32.374] [DEBUG] 天天快报 - 4
+[2016-11-28 14:37:32.374] [DEBUG] 天天快报 - 01:17
+[2016-11-28 14:37:33.088] [DEBUG] 天天快报 - 4
+[2016-11-28 14:37:33.104] [DEBUG] 天天快报 - 04:45
+[2016-11-28 14:37:33.825] [DEBUG] 天天快报 - 4
+[2016-11-28 14:37:33.825] [DEBUG] 天天快报 - 03:04
+[2016-11-28 14:37:34.197] [DEBUG] 天天快报 - 4
+[2016-11-28 14:37:34.197] [DEBUG] 天天快报 - 01:46
+[2016-11-28 14:37:34.713] [DEBUG] 天天快报 - 4
+[2016-11-28 14:37:34.713] [DEBUG] 天天快报 - 03:58

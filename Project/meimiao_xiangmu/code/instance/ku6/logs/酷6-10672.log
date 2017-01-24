@@ -1,0 +1,47 @@
+[2016-11-30 18:36:24.408] [TRACE] 酷6 - DealWith instantiation ...
+[2016-11-30 18:36:24.414] [TRACE] 酷6 - spiderCore instantiation ...
+[2016-11-30 18:36:24.416] [TRACE] 酷6 - 启动函数
+[2016-11-30 18:36:24.430] [DEBUG] 酷6 - 任务信息数据库连接建立...成功
+[2016-11-30 18:36:24.446] [DEBUG] 酷6 - 缓存队列数据库连接建立...成功
+[2016-11-30 18:36:24.446] [DEBUG] 酷6 - 创建数据库连接完毕
+[2016-11-30 18:36:24.446] [INFO] 酷6 - { id: '24332580', name: 'UNIVERSE', p: '14' }
+[2016-11-30 18:36:25.422] [ERROR] 酷6 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-30 18:36:46.445] [ERROR] 酷6 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-30 18:36:46.461] [DEBUG] 酷6 - 开始获取视频总数
+[2016-11-30 18:36:48.835] [DEBUG] 酷6 - 开始获取第1页视频列表
+[2016-11-30 18:36:50.288] [DEBUG] 酷6 - 大西山,逐格航拍版,宣传片  || 标签
+[2016-11-30 18:36:50.288] [DEBUG] 酷6 - 酷6视频 vtDrQ52rIj2xkoe52u8Anw.. 加入缓存队列
+[2016-11-30 18:36:50.512] [DEBUG] 酷6 - 大西山四季版宣传片  || 标签
+[2016-11-30 18:36:50.512] [DEBUG] 酷6 - 酷6视频 Jcio62AcGSQSPCQ6LPStdw.. 加入缓存队列
+[2016-11-30 18:36:50.748] [DEBUG] 酷6 - 大西山总宣传片  || 标签
+[2016-11-30 18:36:50.755] [DEBUG] 酷6 - 酷6视频 LZfPcdN7mlvp7d3vhZ_abA.. 加入缓存队列
+[2016-11-30 18:36:50.962] [DEBUG] 酷6 - 熊黛林  || 标签
+[2016-11-30 18:36:50.977] [DEBUG] 酷6 - 酷6视频 9o14Q6LNvl18mA74IicVWA.. 加入缓存队列
+[2016-11-30 18:36:51.589] [DEBUG] 酷6 - 霍建华  || 标签
+[2016-11-30 18:36:51.589] [DEBUG] 酷6 - 酷6视频 OpGS77ft1aI2t7zkJH8sPw.. 加入缓存队列
+[2016-11-30 18:36:51.803] [DEBUG] 酷6 - Anglebaby  || 标签
+[2016-11-30 18:36:51.818] [DEBUG] 酷6 - 酷6视频 fiFIDsRxHwZGy71RxuYCXg.. 加入缓存队列
+[2016-11-30 18:36:55.147] [DEBUG] 酷6 - 郭敬明,全家暴毙,博文  || 标签
+[2016-11-30 18:36:55.154] [DEBUG] 酷6 - 酷6视频 -Hn2DqbQ4-HWMPZZ_BUzDg.. 加入缓存队列
+[2016-11-30 18:36:55.366] [DEBUG] 酷6 - 苏永康  || 标签
+[2016-11-30 18:36:55.366] [DEBUG] 酷6 - 酷6视频 hyDBeYz63_hvqewiy9A4Fg.. 加入缓存队列
+[2016-11-30 18:36:55.613] [DEBUG] 酷6 - 杨幂,扶摇皇后  || 标签
+[2016-11-30 18:36:55.613] [DEBUG] 酷6 - 酷6视频 Rqr3xEzprt63vc5vqroWwg.. 加入缓存队列
+[2016-11-30 18:36:55.866] [DEBUG] 酷6 - 老虎,咬人,八达岭,恐怖,伤人  || 标签
+[2016-11-30 18:36:55.866] [DEBUG] 酷6 - 酷6视频 rRZsvFdIfOVs484gCbQ0EA.. 加入缓存队列

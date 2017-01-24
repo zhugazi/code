@@ -1,0 +1,25 @@
+[2016-12-06 11:46:00.669] [DEBUG] 平台 - 处理器实例化...
+[2016-12-06 11:46:00.677] [DEBUG] 平台 - 控制器实例化...
+[2016-12-06 11:46:00.679] [DEBUG] 平台 - server实例化
+[2016-12-06 11:46:00.688] [DEBUG] 平台 - Server running at 2016 port
+[2016-12-06 11:46:03.949] [DEBUG] 平台 - { status: 200,
+  responseHeaders: 
+   { server: 'nginx/1.6.1',
+     date: 'Tue, 06 Dec 2016 03:45:16 GMT',
+     'content-type': 'text/html',
+     'transfer-encoding': 'chunked',
+     connection: 'close',
+     vary: 'Accept-Encoding',
+     'cache-control': 'no-cache, must-revalidate',
+     expires: 'Sat, 26 Jul 1997 05:00:00 GMT',
+     pragma: 'no-cache, no-cache',
+     dpool_header: 'tinker32',
+     'content-encoding': 'gzip',
+     'sina-lb': 'aGEuMTgxLmczLnlmLmxiLnNpbmFub2RlLmNvbQ==',
+     'sina-ts': 'ZDFkYTk2Y2UgMCAwIDAgNSA4Cg==' },
+  finalUrl: 'https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=http%3A%2F%2Fweibo.com%2Ftv%2Fv%2FEkACjxBZO%3Ffrom%3Dvhot&domain=.weibo.com&ua=php-sso_sdk_client-0.6.23&_rand=1480995916.738',
+  redirectCount: 1,
+  cookieJar: 
+   CookieJar {
+     options: { sessionTimeout: 1800 },
+     cookies: { 'YF-Page-G0': [Object] } } }

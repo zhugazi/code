@@ -1,0 +1,23 @@
+[2016-11-28 20:04:34.365] [TRACE] 腾讯视频 - DealWith instantiation ...
+[2016-11-28 20:04:34.372] [TRACE] 腾讯视频 - spiderCore instantiation ...
+[2016-11-28 20:04:34.374] [TRACE] 腾讯视频 - 启动函数
+[2016-11-28 20:04:34.404] [DEBUG] 腾讯视频 - 任务信息数据库连接建立...成功
+[2016-11-28 20:04:34.406] [DEBUG] 腾讯视频 - 缓存队列数据库连接建立...成功
+[2016-11-28 20:04:34.408] [DEBUG] 腾讯视频 - 创建数据库连接完毕
+[2016-11-28 20:04:34.410] [INFO] 腾讯视频 - { p: '4', id: '02a4a5eb7853f3f1', name: '小苍Estelle', type: '1' }
+[2016-11-28 20:04:34.448] [DEBUG] 腾讯视频 - 开始获取视频总数
+[2016-11-28 20:04:34.450] [DEBUG] 腾讯视频 - { p: '4',
+  id: '02a4a5eb7853f3f1',
+  name: '小苍Estelle',
+  type: '1',
+  total: 0 }
+[2016-11-28 20:04:34.679] [ERROR] 腾讯视频 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-28 20:04:34.770] [DEBUG] 腾讯视频 - 开始获取第1页视频列表

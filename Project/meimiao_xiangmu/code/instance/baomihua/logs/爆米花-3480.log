@@ -1,0 +1,34 @@
+[2016-11-29 15:35:51.042] [TRACE] 爆米花 - DealWith instantiation ...
+[2016-11-29 15:35:51.049] [TRACE] 爆米花 - spiderCore instantiation ...
+[2016-11-29 15:35:51.051] [TRACE] 爆米花 - 启动函数
+[2016-11-29 15:35:51.078] [DEBUG] 爆米花 - 任务信息数据库连接建立...成功
+[2016-11-29 15:35:51.080] [DEBUG] 爆米花 - 缓存队列数据库连接建立...成功
+[2016-11-29 15:35:51.082] [DEBUG] 爆米花 - 创建数据库连接完毕
+[2016-11-29 15:35:51.090] [TRACE] 爆米花 - Queue get ready
+[2016-11-29 15:35:51.544] [TRACE] 爆米花 - Get baomihua task!
+[2016-11-29 15:35:51.560] [INFO] 爆米花 - { id: '27703', p: '13', name: '一色神技能', type: '0' }
+[2016-11-29 15:35:51.588] [DEBUG] 爆米花 - http://m.interface.baomihua.com/interfaces/userchannel.ashx?type=channelinfo&channelid=27703 |||||||
+[2016-11-29 15:35:51.601] [TRACE] 爆米花 - Get baomihua task!
+[2016-11-29 15:35:51.603] [INFO] 爆米花 - { id: '25902', p: '13', name: '陈翔六点半', type: '0' }
+[2016-11-29 15:35:51.608] [DEBUG] 爆米花 - http://m.interface.baomihua.com/interfaces/userchannel.ashx?type=channelinfo&channelid=25902 |||||||
+[2016-11-29 15:35:51.611] [TRACE] 爆米花 - Get baomihua task!
+[2016-11-29 15:35:51.613] [INFO] 爆米花 - { id: '25562', p: '13', name: '星座不求人', type: '0' }
+[2016-11-29 15:35:51.616] [DEBUG] 爆米花 - http://m.interface.baomihua.com/interfaces/userchannel.ashx?type=channelinfo&channelid=25562 |||||||
+[2016-11-29 15:35:51.620] [TRACE] 爆米花 - Get baomihua task!
+[2016-11-29 15:35:51.622] [INFO] 爆米花 - { id: '27873', p: '13', name: 'LOL起小点', type: '0' }
+[2016-11-29 15:35:51.626] [DEBUG] 爆米花 - http://m.interface.baomihua.com/interfaces/userchannel.ashx?type=channelinfo&channelid=27873 |||||||
+[2016-11-29 15:35:51.629] [TRACE] 爆米花 - Get baomihua task!
+[2016-11-29 15:35:51.635] [INFO] 爆米花 - { id: '23603', p: '13', name: '一风之音', type: '0' }
+[2016-11-29 15:35:51.640] [DEBUG] 爆米花 - http://m.interface.baomihua.com/interfaces/userchannel.ashx?type=channelinfo&channelid=23603 |||||||
+[2016-11-29 15:35:51.647] [TRACE] 爆米花 - Get baomihua task!
+[2016-11-29 15:35:51.649] [INFO] 爆米花 - { id: '28348', p: '13', name: '木鱼乐风本尊', type: '0' }
+[2016-11-29 15:35:51.655] [DEBUG] 爆米花 - http://m.interface.baomihua.com/interfaces/userchannel.ashx?type=channelinfo&channelid=28348 |||||||
+[2016-11-29 15:35:51.663] [TRACE] 爆米花 - Get baomihua task!
+[2016-11-29 15:35:51.671] [INFO] 爆米花 - { id: '28563', p: '13', name: '开心锤锤', type: '0' }
+[2016-11-29 15:35:51.677] [DEBUG] 爆米花 - http://m.interface.baomihua.com/interfaces/userchannel.ashx?type=channelinfo&channelid=28563 |||||||
+[2016-11-29 15:35:51.680] [TRACE] 爆米花 - Get baomihua task!
+[2016-11-29 15:35:51.683] [INFO] 爆米花 - { id: '28319', p: '13', name: '悠然小天', type: '0' }
+[2016-11-29 15:35:51.688] [DEBUG] 爆米花 - http://m.interface.baomihua.com/interfaces/userchannel.ashx?type=channelinfo&channelid=28319 |||||||
+[2016-11-29 15:35:51.722] [TRACE] 爆米花 - Get baomihua task!
+[2016-11-29 15:35:51.742] [INFO] 爆米花 - { id: '5706', p: '13', name: '兔小贝儿歌', type: '0' }
+[2016-11-29 15:35:51.752] [DEBUG] 爆米花 - http://m.interface.baomihua.com/interfaces/userchannel.ashx?type=channelinfo&channelid=5706 |||||||

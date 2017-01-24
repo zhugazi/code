@@ -1,0 +1,8 @@
+[2017-01-05 20:35:12.276] [TRACE] 新蓝网 - DealWith instantiation ...
+[2017-01-05 20:35:12.287] [TRACE] 新蓝网 - spiderCore instantiation ...
+[2017-01-05 20:35:12.290] [TRACE] 新蓝网 - 启动函数
+[2017-01-05 20:35:12.323] [DEBUG] 新蓝网 - 任务信息数据库连接建立...成功
+[2017-01-05 20:35:12.325] [DEBUG] 新蓝网 - 缓存队列数据库连接建立...成功
+[2017-01-05 20:35:12.327] [DEBUG] 新蓝网 - 创建数据库连接完毕
+[2017-01-05 20:35:12.496] [DEBUG] 新蓝网 - http://proxy.app.cztv.com/getCommentList.do?videoId=184410&page=1&pageSize=20
+[2017-01-05 20:35:12.591] [DEBUG] 新蓝网 - { alertMessage: '服务异常，请稍候再试', state: 1 }

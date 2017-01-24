@@ -1,0 +1,56 @@
+[2016-11-29 11:05:31.021] [TRACE] 乐视 - DealWith instantiation ...
+[2016-11-29 11:05:31.037] [TRACE] 乐视 - spiderCore instantiation ...
+[2016-11-29 11:05:31.037] [TRACE] 乐视 - 启动函数
+[2016-11-29 11:05:31.068] [DEBUG] 乐视 - 任务信息数据库连接建立...成功
+[2016-11-29 11:05:31.068] [DEBUG] 乐视 - 缓存队列数据库连接建立...成功
+[2016-11-29 11:05:31.068] [DEBUG] 乐视 - 创建数据库连接完毕
+[2016-11-29 11:05:31.084] [TRACE] 乐视 - Queue get ready
+[2016-11-29 11:05:31.115] [TRACE] 乐视 - Get le task!
+[2016-11-29 11:05:31.115] [INFO] 乐视 - { id: '181902852', p: '3', name: '大白TWO的玩具魔法世界', type: '1' }
+[2016-11-29 11:05:31.146] [DEBUG] 乐视 - 开始获取视频总页数
+[2016-11-29 11:05:31.162] [TRACE] 乐视 - Get le task!
+[2016-11-29 11:05:31.162] [INFO] 乐视 - { id: '124784746', p: '3', name: 'DS女老诗', type: '1' }
+[2016-11-29 11:05:31.162] [DEBUG] 乐视 - 开始获取视频总页数
+[2016-11-29 11:05:31.162] [TRACE] 乐视 - Get le task!
+[2016-11-29 11:05:31.177] [INFO] 乐视 - { id: '130750219', p: '3', name: '哔哔秀工坊', type: '1' }
+[2016-11-29 11:05:31.177] [DEBUG] 乐视 - 开始获取视频总页数
+[2016-11-29 11:05:31.177] [TRACE] 乐视 - Get le task!
+[2016-11-29 11:05:31.177] [INFO] 乐视 - { id: '68772723', p: '3', name: '畅所欲言秀', type: '1' }
+[2016-11-29 11:05:31.177] [DEBUG] 乐视 - 开始获取视频总页数
+[2016-11-29 11:05:31.193] [TRACE] 乐视 - Get le task!
+[2016-11-29 11:05:31.193] [INFO] 乐视 - { id: '22160014', p: '3', name: '古则决', type: '1' }
+[2016-11-29 11:05:31.193] [DEBUG] 乐视 - 开始获取视频总页数
+[2016-11-29 11:05:31.193] [TRACE] 乐视 - Get le task!
+[2016-11-29 11:05:31.193] [INFO] 乐视 - { id: '131389797', p: '3', name: '嗨小冷官方频道', type: '1' }
+[2016-11-29 11:05:31.193] [DEBUG] 乐视 - 开始获取视频总页数
+[2016-11-29 11:05:31.208] [TRACE] 乐视 - Get le task!
+[2016-11-29 11:05:31.208] [INFO] 乐视 - { id: '70933744', p: '3', name: '大海解说', type: '1' }
+[2016-11-29 11:05:31.208] [DEBUG] 乐视 - 开始获取视频总页数
+[2016-11-29 11:05:31.208] [TRACE] 乐视 - Get le task!
+[2016-11-29 11:05:31.208] [INFO] 乐视 - { id: '73465182', p: '3', name: 'QM工作室', type: '1' }
+[2016-11-29 11:05:31.208] [DEBUG] 乐视 - 开始获取视频总页数
+[2016-11-29 11:05:31.240] [TRACE] 乐视 - Get le task!
+[2016-11-29 11:05:31.240] [INFO] 乐视 - { id: '166648365', p: '3', name: '趣盒子', type: '1' }
+[2016-11-29 11:05:31.240] [DEBUG] 乐视 - 开始获取视频总页数
+[2016-11-29 11:05:31.442] [DEBUG] 乐视 - 开始获取第1页视频列表
+[2016-11-29 11:05:31.442] [DEBUG] 乐视 - http://chuang.le.com/u/130750219/queryvideolist?callback=jsonp&orderType=0&pageSize=48&searchTitleString=&currentPage=1&_=1480388731442
+[2016-11-29 11:05:31.458] [DEBUG] 乐视 - 开始获取第1页视频列表
+[2016-11-29 11:05:31.458] [DEBUG] 乐视 - http://chuang.le.com/u/131389797/queryvideolist?callback=jsonp&orderType=0&pageSize=48&searchTitleString=&currentPage=1&_=1480388731458
+[2016-11-29 11:05:31.474] [DEBUG] 乐视 - 开始获取第1页视频列表
+[2016-11-29 11:05:31.474] [DEBUG] 乐视 - http://chuang.le.com/u/68772723/queryvideolist?callback=jsonp&orderType=0&pageSize=48&searchTitleString=&currentPage=1&_=1480388731474
+[2016-11-29 11:05:31.489] [ERROR] 乐视 - occur error :  { Error: read ECONNRESET
+    at exports._errnoException (util.js:1007:11)
+    at TCP.onread (net.js:563:26) code: 'ECONNRESET', errno: 'ECONNRESET', syscall: 'read' }
+[2016-11-29 11:05:31.505] [ERROR] 乐视 - error url: http://chuang.le.com/u/181902852/queryvideolist?callback=jsonp&orderType=0&pageSize=48&searchTitleString=&currentPage=1&_=1480388731146
+[2016-11-29 11:05:31.505] [ERROR] 乐视 - occur error :  { Error: read ECONNRESET
+    at exports._errnoException (util.js:1007:11)
+    at TCP.onread (net.js:563:26) code: 'ECONNRESET', errno: 'ECONNRESET', syscall: 'read' }
+[2016-11-29 11:05:31.505] [ERROR] 乐视 - error url: http://chuang.le.com/u/22160014/queryvideolist?callback=jsonp&orderType=0&pageSize=48&searchTitleString=&currentPage=1&_=1480388731193
+[2016-11-29 11:05:31.520] [DEBUG] 乐视 - 开始获取第1页视频列表
+[2016-11-29 11:05:31.520] [DEBUG] 乐视 - http://chuang.le.com/u/70933744/queryvideolist?callback=jsonp&orderType=0&pageSize=48&searchTitleString=&currentPage=1&_=1480388731520
+[2016-11-29 11:05:31.520] [DEBUG] 乐视 - 开始获取第1页视频列表
+[2016-11-29 11:05:31.536] [DEBUG] 乐视 - http://chuang.le.com/u/124784746/queryvideolist?callback=jsonp&orderType=0&pageSize=48&searchTitleString=&currentPage=1&_=1480388731536
+[2016-11-29 11:05:31.536] [DEBUG] 乐视 - 开始获取第1页视频列表
+[2016-11-29 11:05:31.536] [DEBUG] 乐视 - http://chuang.le.com/u/166648365/queryvideolist?callback=jsonp&orderType=0&pageSize=48&searchTitleString=&currentPage=1&_=1480388731536
+[2016-11-29 11:05:31.536] [DEBUG] 乐视 - 开始获取第1页视频列表
+[2016-11-29 11:05:31.552] [DEBUG] 乐视 - http://chuang.le.com/u/73465182/queryvideolist?callback=jsonp&orderType=0&pageSize=48&searchTitleString=&currentPage=1&_=1480388731536

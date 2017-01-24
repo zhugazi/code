@@ -1,0 +1,18 @@
+[2016-11-26 21:05:08.429] [TRACE] 今日头条 - DealWith instantiation ...
+[2016-11-26 21:05:08.439] [TRACE] 今日头条 - spiderCore instantiation ...
+[2016-11-26 21:05:08.439] [TRACE] 今日头条 - 启动函数
+[2016-11-26 21:05:08.469] [DEBUG] 今日头条 - 任务信息数据库连接建立...成功
+[2016-11-26 21:05:08.469] [DEBUG] 今日头条 - 缓存队列数据库连接建立...成功
+[2016-11-26 21:05:08.469] [DEBUG] 今日头条 - 创建数据库连接完毕
+[2016-11-26 21:05:08.479] [INFO] 今日头条 - { p: '6', id: '6357224504800280833' }
+[2016-11-26 21:05:08.503] [DEBUG] 今日头条 - http://toutiao.com/ma_mobile/?page_type=0&count=10&version=2&media_id=6357224504800280833&cp=58396868A804DE1&as=A115E81369D8884&max_behot_time=0
+[2016-11-26 21:05:08.633] [DEBUG] 今日头条 - 已经没有数据
+[2016-11-26 21:05:29.680] [ERROR] 今日头条 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }

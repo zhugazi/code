@@ -1,0 +1,13 @@
+[2017-01-20 16:02:27.199] [TRACE] pptv - DealWith instantiation ...
+[2017-01-20 16:02:27.208] [TRACE] pptv - spiderCore instantiation ...
+[2017-01-20 16:02:27.210] [TRACE] pptv - 启动函数
+[2017-01-20 16:02:27.242] [DEBUG] pptv - 任务信息数据库连接建立...成功
+[2017-01-20 16:02:27.244] [DEBUG] pptv - 缓存队列数据库连接建立...成功
+[2017-01-20 16:02:27.246] [DEBUG] pptv - 创建数据库连接完毕
+[2017-01-20 16:02:27.249] [DEBUG] pptv - http://apis.web.pptv.com/show/videoList?from=web&version=1.0.0&format=jsonp&vt=22&pid=8063943&cat_id=undefined
+[2017-01-20 16:02:27.687] [DEBUG] pptv - PPTV 17012382 加入缓存队列
+[2017-01-20 16:02:27.985] [DEBUG] pptv - PPTV 16995346 加入缓存队列
+[2017-01-20 16:02:28.284] [DEBUG] pptv - PPTV 16977796 加入缓存队列
+[2017-01-20 16:02:28.386] [DEBUG] pptv - PPTV 16965524 加入缓存队列
+[2017-01-20 16:02:28.495] [DEBUG] pptv - PPTV 16962063 加入缓存队列
+[2017-01-20 16:02:28.790] [DEBUG] pptv - PPTV 16924656 加入缓存队列

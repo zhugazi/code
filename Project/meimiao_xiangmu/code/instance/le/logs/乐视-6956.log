@@ -1,0 +1,23 @@
+[2016-11-29 11:09:26.465] [TRACE] 乐视 - DealWith instantiation ...
+[2016-11-29 11:09:26.465] [TRACE] 乐视 - spiderCore instantiation ...
+[2016-11-29 11:09:26.465] [TRACE] 乐视 - 启动函数
+[2016-11-29 11:09:26.496] [DEBUG] 乐视 - 任务信息数据库连接建立...成功
+[2016-11-29 11:09:26.496] [DEBUG] 乐视 - 缓存队列数据库连接建立...成功
+[2016-11-29 11:09:26.496] [DEBUG] 乐视 - 创建数据库连接完毕
+[2016-11-29 11:09:26.512] [TRACE] 乐视 - Queue get ready
+[2016-11-29 11:09:27.571] [TRACE] 乐视 - Get le task!
+[2016-11-29 11:09:27.574] [INFO] 乐视 - { id: '22160014', p: '3', name: '古则决', type: '1', total: 0 }
+[2016-11-29 11:09:27.588] [DEBUG] 乐视 - 开始获取视频总页数
+[2016-11-29 11:09:27.698] [DEBUG] 乐视 - 开始获取第1页视频列表
+[2016-11-29 11:09:27.776] [DEBUG] 乐视 - { url: 'http://v.stat.letv.com/vplay/getIdsInfo?type=vlist&ids=24004046&_=1480388967776',
+  referer: 'http://www.le.com/ptv/vplay/24004046.html',
+  ua: 1 }
+[2016-11-29 11:09:28.103] [DEBUG] 乐视 - { url: 'http://v.stat.letv.com/vplay/getIdsInfo?type=vlist&ids=23998999&_=1480388968103',
+  referer: 'http://www.le.com/ptv/vplay/23998999.html',
+  ua: 1 }
+[2016-11-29 11:09:28.276] [DEBUG] 乐视 - { url: 'http://v.stat.letv.com/vplay/getIdsInfo?type=vlist&ids=23998130&_=1480388968276',
+  referer: 'http://www.le.com/ptv/vplay/23998130.html',
+  ua: 1 }
+[2016-11-29 11:09:28.497] [DEBUG] 乐视 - { url: 'http://v.stat.letv.com/vplay/getIdsInfo?type=vlist&ids=23987109&_=1480388968497',
+  referer: 'http://www.le.com/ptv/vplay/23987109.html',
+  ua: 1 }

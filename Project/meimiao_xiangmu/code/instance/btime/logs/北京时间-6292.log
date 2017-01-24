@@ -1,0 +1,15 @@
+[2016-11-24 16:19:58.848] [TRACE] 北京时间 - DealWith instantiation ...
+[2016-11-24 16:19:58.854] [TRACE] 北京时间 - spiderCore instantiation ...
+[2016-11-24 16:19:58.857] [TRACE] 北京时间 - 启动函数
+[2016-11-24 16:19:58.886] [DEBUG] 北京时间 - 任务信息数据库连接建立...成功
+[2016-11-24 16:19:58.888] [DEBUG] 北京时间 - 缓存队列数据库连接建立...成功
+[2016-11-24 16:19:58.890] [DEBUG] 北京时间 - 创建数据库连接完毕
+[2016-11-24 16:19:58.896] [TRACE] 北京时间 - Queue get ready
+[2016-11-24 16:19:58.926] [TRACE] 北京时间 - Get btime task!
+[2016-11-24 16:19:58.928] [INFO] 北京时间 - { id: '58128', p: '15', name: '一色神技能', type: '0' }
+[2016-11-24 16:19:58.975] [TRACE] 北京时间 - Get btime task!
+[2016-11-24 16:19:58.977] [INFO] 北京时间 - { id: '20737', p: '15', name: '明星动态', type: '0' }
+[2016-11-24 16:19:59.223] [ERROR] 北京时间 - json数据解析失败
+[2016-11-24 16:19:59.227] [INFO] 北京时间 - send error: { statusCode: 502,
+  headers: '{"server":"nginx/1.11.2","date":"Thu, 24 Nov 2016 08:19:19 GMT","content-type":"text/html","content-length":"537","connection":"close","etag":"\\"577bdefb-219\\""}',
+  body: '<!DOCTYPE html>\n<html>\n<head>\n<title>Error</title>\n<style>\n    body {\n        width: 35em;\n        margin: 0 auto;\n        font-family: Tahoma, Verdana, Arial, sans-serif;\n    }\n</style>\n</head>\n<body>\n<h1>An error occurred.</h1>\n<p>Sorry, the page you are looking for is currently unavailable.<br/>\nPlease try again later.</p>\n<p>If you are the system administrator of this resource then you should check\nthe <a href="http://nginx.org/r/error_log">error log</a> for details.</p>\n<p><em>Faithfully yours, nginx.</em></p>\n</body>\n</html>\n' }

@@ -1,0 +1,19 @@
+[2016-11-24 18:02:22.507] [TRACE] 美拍 - DealWith instantiation ...
+[2016-11-24 18:02:22.507] [TRACE] 美拍 - spiderCore instantiation ...
+[2016-11-24 18:02:22.523] [TRACE] 美拍 - 启动函数
+[2016-11-24 18:02:22.538] [DEBUG] 美拍 - 任务信息数据库连接建立...成功
+[2016-11-24 18:02:22.554] [DEBUG] 美拍 - 缓存队列数据库连接建立...成功
+[2016-11-24 18:02:22.554] [DEBUG] 美拍 - 创建数据库连接完毕
+[2016-11-24 18:02:22.554] [INFO] 美拍 - { p: 5, id: 1457032027, name: '指尖的太阳~~~' }
+[2016-11-24 18:02:22.896] [DEBUG] 美拍 - 用户: 1457032027 back_end
+[2016-11-24 18:02:43.773] [ERROR] 美拍 - occur error: { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-24 18:02:43.773] [INFO] 美拍 - 返回美拍用户 1457032027 连接服务器失败
+[2016-11-24 18:02:43.850] [DEBUG] 美拍 - 1457032027_result: { user: '用户信息已返回', media: '视频信息已返回' }

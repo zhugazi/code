@@ -1,0 +1,58 @@
+[2016-11-30 11:21:42.028] [TRACE] yy - DealWith instantiation ...
+[2016-11-30 11:21:42.043] [TRACE] yy - spiderCore instantiation ...
+[2016-11-30 11:21:42.043] [TRACE] yy - 启动函数
+[2016-11-30 11:21:42.075] [DEBUG] yy - 任务信息数据库连接建立...成功
+[2016-11-30 11:21:42.075] [DEBUG] yy - 缓存队列数据库连接建立...成功
+[2016-11-30 11:21:42.075] [DEBUG] yy - 创建数据库连接完毕
+[2016-11-30 11:21:42.075] [INFO] yy - { id: '1506744406', p: '20', name: '女神TV官方', type: '0' }
+[2016-11-30 11:21:42.100] [DEBUG] yy - 开始获取视频总数
+[2016-11-30 11:21:43.112] [ERROR] yy - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-30 11:22:04.133] [ERROR] yy - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-30 11:22:04.133] [INFO] yy - 返回YY用户 1506744406 连接服务器失败
+[2016-11-30 11:22:04.149] [DEBUG] yy - 开始获取第1页短拍视频列表
+[2016-11-30 11:22:04.321] [DEBUG] yy - http://www.yy.com/u/works/d?yyno=1506744406&p=1-----
+[2016-11-30 11:22:04.352] [DEBUG] yy - result :  { user: '用户信息已返回',
+  live: '直播回放信息已返回',
+  shenqu: '神曲视频信息已返回',
+  duanpai: '短拍视频信息已返回' }
+[2016-11-30 11:22:04.367] [DEBUG] yy - yy 9203936148978021714 加入缓存队列
+[2016-11-30 11:22:04.367] [DEBUG] yy - yy 9163780124089353826 加入缓存队列
+[2016-11-30 11:22:04.367] [DEBUG] yy - yy 9221052416936543829 加入缓存队列
+[2016-11-30 11:22:04.367] [DEBUG] yy - yy 9188749383594803128 加入缓存队列
+[2016-11-30 11:22:04.383] [DEBUG] yy - yy 9181174333825188006 加入缓存队列
+[2016-11-30 11:22:04.383] [DEBUG] yy - yy 9220996168881004873 加入缓存队列
+[2016-11-30 11:22:04.383] [DEBUG] yy - yy 9171462743696067609 加入缓存队列
+[2016-11-30 11:22:04.383] [DEBUG] yy - yy 9166024359342828419 加入缓存队列
+[2016-11-30 11:22:04.383] [DEBUG] yy - yy 9160121930987849394 加入缓存队列
+[2016-11-30 11:22:04.383] [DEBUG] yy - yy 9170610353387786341 加入缓存队列
+[2016-11-30 11:22:04.383] [DEBUG] yy - yy 9203982839938089205 加入缓存队列
+[2016-11-30 11:22:04.383] [DEBUG] yy - yy 9172995242715520614 加入缓存队列
+[2016-11-30 11:22:04.383] [DEBUG] yy - yy 9187436356895710153 加入缓存队列
+[2016-11-30 11:22:04.399] [DEBUG] yy - yy 9175946518329329810 加入缓存队列
+[2016-11-30 11:22:04.400] [DEBUG] yy - yy 9205894752448150228 加入缓存队列
+[2016-11-30 11:22:04.400] [DEBUG] yy - yy 9151412942522128188 加入缓存队列
+[2016-11-30 11:22:25.371] [ERROR] yy - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }

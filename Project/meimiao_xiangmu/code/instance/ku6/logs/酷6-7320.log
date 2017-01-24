@@ -1,0 +1,16 @@
+[2016-11-30 16:46:45.882] [TRACE] 酷6 - DealWith instantiation ...
+[2016-11-30 16:46:45.897] [TRACE] 酷6 - spiderCore instantiation ...
+[2016-11-30 16:46:45.897] [TRACE] 酷6 - 启动函数
+[2016-11-30 16:46:45.929] [DEBUG] 酷6 - 任务信息数据库连接建立...成功
+[2016-11-30 16:46:45.929] [DEBUG] 酷6 - 缓存队列数据库连接建立...成功
+[2016-11-30 16:46:45.929] [DEBUG] 酷6 - 创建数据库连接完毕
+[2016-11-30 16:46:45.929] [INFO] 酷6 - { id: '24875965', name: '陈翔六点半', p: '14' }
+[2016-11-30 16:46:47.464] [ERROR] 酷6 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }

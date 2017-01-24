@@ -1,0 +1,33 @@
+[2016-11-29 20:04:45.092] [TRACE] 内涵段子 - DealWith instantiation ...
+[2016-11-29 20:04:45.107] [TRACE] 内涵段子 - spiderCore instantiation ...
+[2016-11-29 20:04:45.107] [TRACE] 内涵段子 - 启动函数
+[2016-11-29 20:04:45.138] [DEBUG] 内涵段子 - 任务信息数据库连接建立...成功
+[2016-11-29 20:04:45.138] [DEBUG] 内涵段子 - 缓存队列数据库连接建立...成功
+[2016-11-29 20:04:45.138] [DEBUG] 内涵段子 - 创建数据库连接完毕
+[2016-11-29 20:04:45.138] [INFO] 内涵段子 - { p: '19', id: '52055636616', name: 'A空城135846547', type: '0' }
+[2016-11-29 20:04:46.589] [ERROR] 内涵段子 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-29 20:05:06.395] [ERROR] 内涵段子 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-29 20:05:06.395] [INFO] 内涵段子 - 返回内涵段子用户 52055636616 连接服务器失败
+[2016-11-29 20:05:06.395] [DEBUG] 内涵段子 - 开始获取第1页视频列表
+[2016-11-29 20:05:06.495] [DEBUG] 内涵段子 - http://p1.pstatp.com/large/1205000975463f9d5cf7
+[2016-11-29 20:05:06.495] [DEBUG] 内涵段子 - 81
+[2016-11-29 20:05:06.495] [DEBUG] 内涵段子 - 才艺视频
+[2016-11-29 20:05:06.511] [DEBUG] 内涵段子 - 开始获取第2页视频列表
+[2016-11-29 20:05:06.511] [DEBUG] 内涵段子 - 内涵段子 52530780875 加入缓存队列
+[2016-11-29 20:05:06.651] [DEBUG] 内涵段子 - result :  { user: '用户信息已返回', media: '视频信息已返回' }

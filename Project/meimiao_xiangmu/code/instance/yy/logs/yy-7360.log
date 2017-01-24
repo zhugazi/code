@@ -1,0 +1,152 @@
+[2016-11-30 12:06:10.379] [TRACE] yy - DealWith instantiation ...
+[2016-11-30 12:06:10.395] [TRACE] yy - spiderCore instantiation ...
+[2016-11-30 12:06:10.395] [TRACE] yy - 启动函数
+[2016-11-30 12:06:10.410] [DEBUG] yy - 任务信息数据库连接建立...成功
+[2016-11-30 12:06:10.426] [DEBUG] yy - 缓存队列数据库连接建立...成功
+[2016-11-30 12:06:10.426] [DEBUG] yy - 创建数据库连接完毕
+[2016-11-30 12:06:10.426] [INFO] yy - { id: '1439551148', p: '20', name: '寂寞好了　', type: '0' }
+[2016-11-30 12:06:10.442] [DEBUG] yy - 开始获取视频总数
+[2016-11-30 12:06:11.175] [ERROR] yy - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-30 12:06:32.199] [ERROR] yy - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-30 12:06:32.199] [INFO] yy - 返回YY用户 1439551148 连接服务器失败
+[2016-11-30 12:06:32.215] [DEBUG] yy - 开始获取第1页短拍视频列表
+[2016-11-30 12:06:32.402] [DEBUG] yy - http://godmusic.bs2dl.yy.com/dmE5MDliMGYxNTMwMzY2ODg5YmIyOTU4YzhjZGFlYjY0MTUzNTkxMTk2NA_0.jpg------------
+[2016-11-30 12:06:32.417] [DEBUG] yy - http://godmusic.bs2dl.yy.com/djBkNmVlYzQ1NzJhMDU2MzY2MjVlM2FkNjhhZTJlNjlhMTUzNDUxNTcxNQ_0.jpg------------
+[2016-11-30 12:06:32.433] [DEBUG] yy - http://godmusic.bs2dl.yy.com/dmI2MGY1ZTU2Y2FlYzEyYjhhNzY1YzI0MmNjZGU4NjgwMTUzNTc1NDA4_0.jpg------------
+[2016-11-30 12:06:32.433] [DEBUG] yy - http://godmusic.bs2dl.yy.com/djhmZjcyZTExZDRiZmY1Yzg0NzhlM2Q5MWVjZjRhYzY1MTUzNDQ3MTk0_0.jpg------------
+[2016-11-30 12:06:32.433] [DEBUG] yy - http://godmusic.bs2dl.yy.com/djlmODJkNjQ3YzI5N2RmYzRiN2I2MTg0MGNiMzI1OWYyMTUzNjE1MDYw_0.jpg------------
+[2016-11-30 12:06:32.433] [DEBUG] yy - http://godmusic.bs2dl.yy.com/djBkNmVlYzQ1NzJhMDU2MzY2MjVlM2FkNjhhZTJlNjlhMTUzNDUzNTcy_0.jpg------------
+[2016-11-30 12:06:32.449] [DEBUG] yy - http://godmusic.bs2dl.yy.com/djBkNmVlYzQ1NzJhMDU2MzY2MjVlM2FkNjhhZTJlNjlhMTUzNDUzNDk5_0.jpg------------
+[2016-11-30 12:06:32.449] [DEBUG] yy - http://godmusic.bs2dl.yy.com/dmI2MGY1ZTU2Y2FlYzEyYjhhNzY1YzI0MmNjZGU4NjgwMTUzNTcxOTU4_0.jpg------------
+[2016-11-30 12:06:32.449] [DEBUG] yy - http://godmusic.bs2dl.yy.com/djI4NmM1MTY5MTg2ZDE2Y2QyNmUxMDU2YTA5MGRmZDRkMTM5NzAyMDA4Mw_0.jpg------------
+[2016-11-30 12:06:32.449] [DEBUG] yy - http://godmusic.bs2dl.yy.com/djVmMGRhYjRlZDI4MjkzYjZmYmE5MTAwODk3MzI4ZDU0MTM5NzUyMDIwMA_0.jpg------------
+[2016-11-30 12:06:32.464] [DEBUG] yy - http://godmusic.bs2dl.yy.com/djI4NmM1MTY5MTg2ZDE2Y2QyNmUxMDU2YTA5MGRmZDRkMTM5NzAxODMzOA_0.jpg------------
+[2016-11-30 12:06:32.464] [DEBUG] yy - http://godmusic.bs2dl.yy.com/djEyYTVmZWM2ZWU3Yzc2ZWZlMTdmN2YyN2E2MGRjYmJmMTM5NzkyOTM5OA_0.jpg------------
+[2016-11-30 12:06:32.464] [DEBUG] yy - http://godmusic.bs2dl.yy.com/djQzY2ZmZTEyMGI1NDhlOWQzNzZhZGZjYzY1YzM5N2UyMTM5NjkxNzIyOQ_0.jpg------------
+[2016-11-30 12:06:32.464] [DEBUG] yy - http://godmusic.bs2dl.yy.com/djBjZGFiMzQ4MTQ3ZDg0NGE1YjI1OGNlNjI3MjgxZjUxMTM5NzMxNDYxOQ_0.jpg------------
+[2016-11-30 12:06:32.464] [DEBUG] yy - http://godmusic.bs2dl.yy.com/dmYzZGFmYjdlYTAwMmI2NmExZWIwYmM0MTFkN2EwMzJhMTM5NzIxNTczMQ_0.jpg------------
+[2016-11-30 12:06:32.480] [DEBUG] yy - http://godmusic.bs2dl.yy.com/djlhMTkxMjQwYWE5YTIyN2NhNzhkMWFhYTk5ZTBhNDdmMTM5NzcyMjUzMQ_0.jpg------------
+[2016-11-30 12:06:32.480] [DEBUG] yy - http://godmusic.bs2dl.yy.com/djIzNzQ1Mjk0YzljYTA5Y2NmODc2MzI5ZGJhYzI1MmI5MTM5NjcxMjY5MQ_0.jpg------------
+[2016-11-30 12:06:32.480] [DEBUG] yy - http://godmusic.bs2dl.yy.com/djQzY2ZmZTEyMGI1NDhlOWQzNzZhZGZjYzY1YzM5N2UyMTM5NjkxMjAyMw_0.jpg------------
+[2016-11-30 12:06:32.480] [DEBUG] yy - http://godmusic.bs2dl.yy.com/djEyYTVmZWM2ZWU3Yzc2ZWZlMTdmN2YyN2E2MGRjYmJmMTM5NzkxODg5OQ_0.jpg------------
+[2016-11-30 12:06:32.480] [DEBUG] yy - http://godmusic.bs2dl.yy.com/djEyYTVmZWM2ZWU3Yzc2ZWZlMTdmN2YyN2E2MGRjYmJmMTM5NzkxMzY4MQ_0.jpg------------
+[2016-11-30 12:06:32.480] [DEBUG] yy - 开始获取第2页短拍视频列表
+[2016-11-30 12:06:32.495] [DEBUG] yy - yy 9194725434372885486 加入缓存队列
+[2016-11-30 12:06:32.495] [DEBUG] yy - yy 9212961107567111664 加入缓存队列
+[2016-11-30 12:06:32.495] [DEBUG] yy - yy 9212759657222385839 加入缓存队列
+[2016-11-30 12:06:32.495] [DEBUG] yy - yy 9161175459544097067 加入缓存队列
+[2016-11-30 12:06:32.495] [DEBUG] yy - yy 9190257698151314028 加入缓存队列
+[2016-11-30 12:06:32.495] [DEBUG] yy - yy 9182696091056149679 加入缓存队列
+[2016-11-30 12:06:32.495] [DEBUG] yy - yy 9206160992314447216 加入缓存队列
+[2016-11-30 12:06:32.495] [DEBUG] yy - yy 9151908773061151894 加入缓存队列
+[2016-11-30 12:06:32.495] [DEBUG] yy - yy 9218761923959060420 加入缓存队列
+[2016-11-30 12:06:32.495] [DEBUG] yy - yy 9178839834701649160 加入缓存队列
+[2016-11-30 12:06:32.511] [DEBUG] yy - yy 9171639067621502409 加入缓存队列
+[2016-11-30 12:06:32.511] [DEBUG] yy - yy 9206501911143534132 加入缓存队列
+[2016-11-30 12:06:32.511] [DEBUG] yy - yy 9206544933908848937 加入缓存队列
+[2016-11-30 12:06:32.511] [DEBUG] yy - yy 9216603685877492235 加入缓存队列
+[2016-11-30 12:06:32.511] [DEBUG] yy - yy 9183153774349729179 加入缓存队列
+[2016-11-30 12:06:32.511] [DEBUG] yy - yy 9164055758276886380 加入缓存队列
+[2016-11-30 12:06:32.511] [DEBUG] yy - yy 9188040524882858019 加入缓存队列
+[2016-11-30 12:06:32.511] [DEBUG] yy - yy 9186270035694078156 加入缓存队列
+[2016-11-30 12:06:32.511] [DEBUG] yy - yy 9202698839037561809 加入缓存队列
+[2016-11-30 12:06:32.527] [DEBUG] yy - yy 9190787749856356788 加入缓存队列
+[2016-11-30 12:06:32.683] [DEBUG] yy - http://godmusic.bs2dl.yy.com/djBjZGFiMzQ4MTQ3ZDg0NGE1YjI1OGNlNjI3MjgxZjUxMTM5NzM1OTY0_0.jpg------------
+[2016-11-30 12:06:32.683] [DEBUG] yy - http://godmusic.bs2dl.yy.com/djI4NmM1MTY5MTg2ZDE2Y2QyNmUxMDU2YTA5MGRmZDRkMTM5NzA0MDE2_0.jpg------------
+[2016-11-30 12:06:32.683] [DEBUG] yy - http://godmusic.bs2dl.yy.com/djI4NmM1MTY5MTg2ZDE2Y2QyNmUxMDU2YTA5MGRmZDRkMTM5NzAzODI5_0.jpg------------
+[2016-11-30 12:06:32.683] [DEBUG] yy - http://godmusic.bs2dl.yy.com/djlhMTkxMjQwYWE5YTIyN2NhNzhkMWFhYTk5ZTBhNDdmMTM5NzcyMTg4_0.jpg------------
+[2016-11-30 12:06:32.698] [DEBUG] yy - http://godmusic.bs2dl.yy.com/djFlMDI1NmVkY2QzNGJkYThlMjMyZWE1ODA0NjgzN2VlMTM1Mjg0ODkw_0.jpg------------
+[2016-11-30 12:06:32.698] [DEBUG] yy - http://godmusic.bs2dl.yy.com/djM3YzIzM2MxMzc0MDY4ZTcwYzFkNzA0YzM0ZjNlMzUzMTM1MjExOTI_0.jpg------------
+[2016-11-30 12:06:32.698] [DEBUG] yy - http://godmusic.bs2dl.yy.com/djE2NTdlNzk0MDcwOTlkYTFmMTdiZDM2NGYyOWJkMzliMTMzODQ1OTM_0.jpg------------
+[2016-11-30 12:06:32.698] [DEBUG] yy - http://godmusic.bs2dl.yy.com/dmViZTc5YmI1NTFiMWJkNGQ1ZGFkYTRhZDgxODUyNTEyMTMyMzMyNjkx_0.jpg------------
+[2016-11-30 12:06:32.714] [DEBUG] yy - http://godmusic.bs2dl.yy.com/djA5MmFjNzg1ZjBkYWIzMzEyMzk1ZTNjYzA5N2E3YmE5MTIwMTk5MTIzMw_0.jpg------------
+[2016-11-30 12:06:32.714] [DEBUG] yy - http://godmusic.bs2dl.yy.com/djk3NTI2MTI0M2RkNDAzMjJkMWJlNmIzNDI4OWU2NTEwMTI1NjcxMDA4Nw_0.jpg------------
+[2016-11-30 12:06:32.714] [DEBUG] yy - http://godmusic.bs2dl.yy.com/djA5MmFjNzg1ZjBkYWIzMzEyMzk1ZTNjYzA5N2E3YmE5MTIwMTk1NjM0OQ_0.jpg------------
+[2016-11-30 12:06:32.714] [DEBUG] yy - http://godmusic.bs2dl.yy.com/dmZlNTY3Y2VjZWRlNDM3NGM4MzNkZGE3OGJmYTJhYTVkMTIwMjYzNzQwMQ_0.jpg------------
+[2016-11-30 12:06:32.729] [DEBUG] yy - http://godmusic.bs2dl.yy.com/djMxYTkzNjQzNzNkNmU4ODc1NzY1ODQ3ZmU5ZDJlODkxMTIwMjMzODAzMQ_0.jpg------------
+[2016-11-30 12:06:32.729] [DEBUG] yy - http://godmusic.bs2dl.yy.com/dmZkNTFhZGJiMzhmMDdlNjZmZGFhN2IyNTE3ZTNmN2VjMTIwMjEzNTkzNQ_0.jpg------------
+[2016-11-30 12:06:32.729] [DEBUG] yy - http://godmusic.bs2dl.yy.com/djA5MmFjNzg1ZjBkYWIzMzEyMzk1ZTNjYzA5N2E3YmE5MTIwMTkzMTEzOQ_0.jpg------------
+[2016-11-30 12:06:32.729] [DEBUG] yy - http://godmusic.bs2dl.yy.com/dmZkNTFhZGJiMzhmMDdlNjZmZGFhN2IyNTE3ZTNmN2VjMTIwMjExMjA4OA_0.jpg------------
+[2016-11-30 12:06:32.729] [DEBUG] yy - http://godmusic.bs2dl.yy.com/dmU5MGMyYmVlNmZkZDVhODI4NWY1MDVjZWYwZGU0YjY1MTIwMTgxMjE3OQ_0.jpg------------
+[2016-11-30 12:06:32.729] [DEBUG] yy - http://godmusic.bs2dl.yy.com/dmZlNTY3Y2VjZWRlNDM3NGM4MzNkZGE3OGJmYTJhYTVkMTIwMjY5MTE_0.jpg------------
+[2016-11-30 12:06:32.729] [DEBUG] yy - http://godmusic.bs2dl.yy.com/dmFiYTFkMGE2YzIxNjcxZDljMTgzMTE5ZmFlM2U3NDQzMTE2OTA2MTY2MQ_0.jpg------------
+[2016-11-30 12:06:32.745] [DEBUG] yy - http://godmusic.bs2dl.yy.com/djMwMTFhM2E2NzNjNzU4ZmQ0MDMzZWM4MDA2NTIwOGI3MTE2OTk1MTM5Mw_0.jpg------------
+[2016-11-30 12:06:32.745] [DEBUG] yy - 开始获取第3页短拍视频列表
+[2016-11-30 12:06:32.745] [DEBUG] yy - yy 9161010364933229350 加入缓存队列
+[2016-11-30 12:06:32.745] [DEBUG] yy - yy 9211398495471693499 加入缓存队列
+[2016-11-30 12:06:32.745] [DEBUG] yy - yy 9188254520378031480 加入缓存队列
+[2016-11-30 12:06:32.745] [DEBUG] yy - yy 9196712803419563653 加入缓存队列
+[2016-11-30 12:06:32.745] [DEBUG] yy - yy 9175656627681499336 加入缓存队列
+[2016-11-30 12:06:32.745] [DEBUG] yy - yy 9178878768718673702 加入缓存队列
+[2016-11-30 12:06:32.761] [DEBUG] yy - yy 9151495692709169410 加入缓存队列
+[2016-11-30 12:06:32.761] [DEBUG] yy - yy 9182445458723599737 加入缓存队列
+[2016-11-30 12:06:32.761] [DEBUG] yy - yy 9205062184842404973 加入缓存队列
+[2016-11-30 12:06:32.761] [DEBUG] yy - yy 9155557292854902215 加入缓存队列
+[2016-11-30 12:06:32.761] [DEBUG] yy - yy 9201457544722442922 加入缓存队列
+[2016-11-30 12:06:32.761] [DEBUG] yy - yy 9161901262472794774 加入缓存队列
+[2016-11-30 12:06:32.761] [DEBUG] yy - yy 9152640328625908107 加入缓存队列
+[2016-11-30 12:06:32.761] [DEBUG] yy - yy 9211707878684558238 加入缓存队列
+[2016-11-30 12:06:32.761] [DEBUG] yy - yy 9180201348252948716 加入缓存队列
+[2016-11-30 12:06:32.761] [DEBUG] yy - yy 9194046007520673792 加入缓存队列
+[2016-11-30 12:06:32.761] [DEBUG] yy - yy 9162123918742933380 加入缓存队列
+[2016-11-30 12:06:32.776] [DEBUG] yy - yy 9222248415784894787 加入缓存队列
+[2016-11-30 12:06:32.776] [DEBUG] yy - yy 9168564810310922325 加入缓存队列
+[2016-11-30 12:06:32.776] [DEBUG] yy - yy 9188139582170568437 加入缓存队列
+[2016-11-30 12:06:32.901] [DEBUG] yy - http://godmusic.bs2dl.yy.com/dmQ1ZjU4M2Q5ZjBkYWJkNjlkOTIyMjUyZTI1NWNmOTRkMTE2OTE0NzUzMg_0.jpg------------
+[2016-11-30 12:06:32.901] [DEBUG] yy - http://godmusic.bs2dl.yy.com/djYzYmRiZGYwYmRlOWVlOTNlMDNlOWM3NDRhYjZhZDA3MTE2OTg0MDM0Mw_0.jpg------------
+[2016-11-30 12:06:32.901] [DEBUG] yy - http://godmusic.bs2dl.yy.com/djU5NzYzZDA2NWM5OTU1ZTNjOGRlMmJhMTc5MDA2YjkxMTE2OTczNzA1OQ_0.jpg------------
+[2016-11-30 12:06:32.901] [DEBUG] yy - http://godmusic.bs2dl.yy.com/djMwMTFhM2E2NzNjNzU4ZmQ0MDMzZWM4MDA2NTIwOGI3MTE2OTkyODA1MQ_0.jpg------------
+[2016-11-30 12:06:32.917] [DEBUG] yy - http://godmusic.bs2dl.yy.com/dmI0ZWMzNDExZTIxODMyZDUwMmFlOWIyYWNlMzgyOGY5MTE2ODkzMTk5Nw_0.jpg------------
+[2016-11-30 12:06:32.917] [DEBUG] yy - http://godmusic.bs2dl.yy.com/dmI0ZWMzNDExZTIxODMyZDUwMmFlOWIyYWNlMzgyOGY5MTE2ODkzMDAwNQ_0.jpg------------
+[2016-11-30 12:06:32.917] [DEBUG] yy - http://godmusic.bs2dl.yy.com/dmQ1ZjU4M2Q5ZjBkYWJkNjlkOTIyMjUyZTI1NWNmOTRkMTE2OTEyMTIzNw_0.jpg------------
+[2016-11-30 12:06:32.917] [DEBUG] yy - http://godmusic.bs2dl.yy.com/dmM3NGM5MDZhZWU2YWQxZWFlYjJhZjg2ZjlkNWViNjQ4MTE2OTQ4Mzg3_0.jpg------------
+[2016-11-30 12:06:32.932] [DEBUG] yy - http://godmusic.bs2dl.yy.com/djJiNzE0ZTc2NWRiMmMxMzQxMWUyZmY1MjlhN2U2ZjE2MTE2OTY2NDQy_0.jpg------------
+[2016-11-30 12:06:32.932] [DEBUG] yy - http://godmusic.bs2dl.yy.com/djcyMDE4ODRjMDNiMTUyZWRmMTFiNWY1OWE4MGZiNTgyMTE2NDEyMzYy_0.jpg------------
+[2016-11-30 12:06:32.932] [DEBUG] yy - http://godmusic.bs2dl.yy.com/djUzYTZlOTczZTBhOTgxODA0MTc4OTVmNzk3MzBhMDM5MTE2NDQxNTAx_0.jpg------------
+[2016-11-30 12:06:32.932] [DEBUG] yy - http://godmusic.bs2dl.yy.com/dmZkZDlkNjFjMDNlY2E2MjRhNGQ5MzlkODU4YjgzODBjMTEzOTgyMTAzMQ_0.jpg------------
+[2016-11-30 12:06:32.932] [DEBUG] yy - http://godmusic.bs2dl.yy.com/djA0YmYyMTk3YWFlZTg0NmI2ZGRlM2QwODQ4MDY0NmU1MTEyODExOTY3OA_0.jpg------------
+[2016-11-30 12:06:32.948] [DEBUG] yy - http://godmusic.bs2dl.yy.com/djU3YTgzNmFmYTYyZmVmYTM2ZDkxZmZlOWFmMjBkZGVkMTA2NTQzMDg4Mw_0.jpg------------
+[2016-11-30 12:06:32.948] [DEBUG] yy - http://godmusic.bs2dl.yy.com/djczMzQ4MDVlOThjYjFmMzhhZDRlZTdlOTlmMGFiNThkMTA1MjQzNTk2_0.jpg------------
+[2016-11-30 12:06:32.948] [DEBUG] yy - http://godmusic.bs2dl.yy.com/djczMzQ4MDVlOThjYjFmMzhhZDRlZTdlOTlmMGFiNThkMTA1MjQxNTQy_0.jpg------------
+[2016-11-30 12:06:32.948] [DEBUG] yy - http://godmusic.bs2dl.yy.com/dmVhMjY5YjdjN2RjOTBjNjdhMDZjZTI4ZmFmMGFmNDk4MTA1MDcyNjE4_0.jpg------------
+[2016-11-30 12:06:32.948] [DEBUG] yy - http://godmusic.bs2dl.yy.com/dmFjYzIxMDAyMjIyYWNjZDRjMTg0YzVmZjdmNWQ2N2IxOTkzMjgyNjY_0.jpg------------
+[2016-11-30 12:06:32.948] [DEBUG] yy - http://godmusic.bs2dl.yy.com/dmE3ZGE3ZWM3MTY4MjYxMGViMWQ5N2JjY2Q5Y2IzZjAwOTY1MzY5MzM_0.jpg------------
+[2016-11-30 12:06:32.948] [DEBUG] yy - result :  { user: '用户信息已返回',
+  live: '直播回放信息已返回',
+  shenqu: '神曲视频信息已返回',
+  duanpai: '短拍视频信息已返回' }
+[2016-11-30 12:06:32.963] [DEBUG] yy - yy 9158956662843000649 加入缓存队列
+[2016-11-30 12:06:32.963] [DEBUG] yy - yy 9169610650699287078 加入缓存队列
+[2016-11-30 12:06:32.963] [DEBUG] yy - yy 9159328165887387429 加入缓存队列
+[2016-11-30 12:06:32.963] [DEBUG] yy - yy 9213018503492593660 加入缓存队列
+[2016-11-30 12:06:32.963] [DEBUG] yy - yy 9190799351820972404 加入缓存队列
+[2016-11-30 12:06:32.963] [DEBUG] yy - yy 9208263293295877803 加入缓存队列
+[2016-11-30 12:06:32.963] [DEBUG] yy - yy 9179966708292173923 加入缓存队列
+[2016-11-30 12:06:32.979] [DEBUG] yy - yy 9157527892232990708 加入缓存队列
+[2016-11-30 12:06:32.979] [DEBUG] yy - yy 9188968718627752100 加入缓存队列
+[2016-11-30 12:06:32.979] [DEBUG] yy - yy 9170026035288350029 加入缓存队列
+[2016-11-30 12:06:32.979] [DEBUG] yy - yy 9183805705515659930 加入缓存队列
+[2016-11-30 12:06:32.979] [DEBUG] yy - yy 9180646924243138197 加入缓存队列
+[2016-11-30 12:06:32.979] [DEBUG] yy - yy 9169023354450723993 加入缓存队列
+[2016-11-30 12:06:32.979] [DEBUG] yy - yy 9162115857476152172 加入缓存队列
+[2016-11-30 12:06:32.979] [DEBUG] yy - yy 9189710584878724698 加入缓存队列
+[2016-11-30 12:06:32.979] [DEBUG] yy - yy 9156043635947661698 加入缓存队列
+[2016-11-30 12:06:32.979] [DEBUG] yy - yy 9199299434679511706 加入缓存队列
+[2016-11-30 12:06:32.995] [DEBUG] yy - yy 9188203096984156711 加入缓存队列
+[2016-11-30 12:06:32.995] [DEBUG] yy - yy 9160874116087992526 加入缓存队列

@@ -1,0 +1,351 @@
+[2017-01-19 20:12:22.376] [TRACE] 第一视频 - DealWith instantiation ...
+[2017-01-19 20:12:22.388] [TRACE] 第一视频 - spiderCore instantiation ...
+[2017-01-19 20:12:22.390] [TRACE] 第一视频 - 启动函数
+[2017-01-19 20:12:22.425] [DEBUG] 第一视频 - 任务信息数据库连接建立...成功
+[2017-01-19 20:12:22.427] [DEBUG] 第一视频 - 缓存队列数据库连接建立...成功
+[2017-01-19 20:12:22.428] [DEBUG] 第一视频 - 创建数据库连接完毕
+[2017-01-19 20:12:22.707] [INFO] 第一视频 - { platform: 33, bid: 6046584, fans_num: 27 }
+[2017-01-19 20:12:22.749] [ERROR] 第一视频 - occur error :  { Error: getaddrinfo ENOTFOUND staging-dev.caihongip.com staging-dev.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging-dev.caihongip.com',
+  host: 'staging-dev.caihongip.com',
+  port: 80 }
+[2017-01-19 20:12:22.760] [ERROR] 第一视频 - error url: http://staging-dev.caihongip.com/index.php/Spider/Fans/postFans
+[2017-01-19 20:12:31.267] [ERROR] 第一视频 - occur error :  { Error: ETIMEDOUT
+    at Timeout._onTimeout (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:813:19)
+    at tryOnTimeout (timers.js:224:11)
+    at Timer.listOnTimeout (timers.js:198:5) code: 'ETIMEDOUT', connect: true }
+[2017-01-19 20:12:31.270] [ERROR] 第一视频 - error url: http://user.v1.cn/openapi/getVideoPraise.json?videoId=14469871&callback=jsonp
+[2017-01-19 20:12:31.273] [DEBUG] 第一视频 - 点赞量请求失败
+[2017-01-19 20:12:31.285] [DEBUG] 第一视频 - 第一视频 14469871 加入缓存队列
+[2017-01-19 20:12:39.286] [ERROR] 第一视频 - occur error :  { Error: ETIMEDOUT
+    at Timeout._onTimeout (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:813:19)
+    at tryOnTimeout (timers.js:224:11)
+    at Timer.listOnTimeout (timers.js:198:5) code: 'ETIMEDOUT', connect: true }
+[2017-01-19 20:12:39.290] [ERROR] 第一视频 - error url: http://user.v1.cn/openapi/getVideoPraise.json?videoId=14469862&callback=jsonp
+[2017-01-19 20:12:39.293] [DEBUG] 第一视频 - 点赞量请求失败
+[2017-01-19 20:12:39.302] [DEBUG] 第一视频 - 第一视频 14469862 加入缓存队列
+[2017-01-19 20:12:54.647] [DEBUG] 第一视频 - 第一视频 14469840 加入缓存队列
+[2017-01-19 20:13:02.649] [ERROR] 第一视频 - occur error :  { Error: ETIMEDOUT
+    at Timeout._onTimeout (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:813:19)
+    at tryOnTimeout (timers.js:224:11)
+    at Timer.listOnTimeout (timers.js:198:5) code: 'ETIMEDOUT', connect: true }
+[2017-01-19 20:13:02.652] [ERROR] 第一视频 - error url: http://user.v1.cn/openapi/getVideoPraise.json?videoId=14469417&callback=jsonp
+[2017-01-19 20:13:02.655] [DEBUG] 第一视频 - 点赞量请求失败
+[2017-01-19 20:13:02.686] [DEBUG] 第一视频 - 第一视频 14469417 加入缓存队列
+[2017-01-19 20:13:10.685] [ERROR] 第一视频 - occur error :  { Error: ETIMEDOUT
+    at Timeout._onTimeout (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:813:19)
+    at tryOnTimeout (timers.js:224:11)
+    at Timer.listOnTimeout (timers.js:198:5) code: 'ETIMEDOUT', connect: true }
+[2017-01-19 20:13:10.690] [ERROR] 第一视频 - error url: http://user.v1.cn/openapi/getVideoPraise.json?videoId=14469797&callback=jsonp
+[2017-01-19 20:13:10.694] [DEBUG] 第一视频 - 点赞量请求失败
+[2017-01-19 20:13:10.709] [DEBUG] 第一视频 - 第一视频 14469797 加入缓存队列
+[2017-01-19 20:13:11.266] [DEBUG] 第一视频 - 第一视频 14469627 加入缓存队列
+[2017-01-19 20:13:14.134] [DEBUG] 第一视频 - 第一视频 14469429 加入缓存队列
+[2017-01-19 20:13:16.541] [DEBUG] 第一视频 - 第一视频 14469392 加入缓存队列
+[2017-01-19 20:13:18.801] [DEBUG] 第一视频 - 第一视频 14469382 加入缓存队列
+[2017-01-19 20:13:26.802] [ERROR] 第一视频 - occur error :  { Error: ETIMEDOUT
+    at Timeout._onTimeout (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:813:19)
+    at tryOnTimeout (timers.js:224:11)
+    at Timer.listOnTimeout (timers.js:198:5) code: 'ETIMEDOUT', connect: true }
+[2017-01-19 20:13:26.806] [ERROR] 第一视频 - error url: http://user.v1.cn/openapi/getVideoPraise.json?videoId=14469361&callback=jsonp
+[2017-01-19 20:13:26.808] [DEBUG] 第一视频 - 点赞量请求失败
+[2017-01-19 20:13:26.836] [ERROR] 第一视频 - occur error :  { Error: ESOCKETTIMEDOUT
+    at ClientRequest.<anonymous> (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:778:19)
+    at ClientRequest.g (events.js:286:16)
+    at emitNone (events.js:86:13)
+    at ClientRequest.emit (events.js:185:7)
+    at Socket.emitTimeout (_http_client.js:593:10)
+    at Socket.g (events.js:286:16)
+    at emitNone (events.js:86:13)
+    at Socket.emit (events.js:185:7)
+    at Socket._onTimeout (net.js:333:8)
+    at tryOnTimeout (timers.js:224:11) code: 'ESOCKETTIMEDOUT', connect: false }
+[2017-01-19 20:13:26.841] [ERROR] 第一视频 - error url: http://www.v1.cn/video/v_14469361.jhtml
+[2017-01-19 20:13:26.843] [ERROR] 第一视频 - 单个DOM接口请求错误 :  { Error: ESOCKETTIMEDOUT
+    at ClientRequest.<anonymous> (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:778:19)
+    at ClientRequest.g (events.js:286:16)
+    at emitNone (events.js:86:13)
+    at ClientRequest.emit (events.js:185:7)
+    at Socket.emitTimeout (_http_client.js:593:10)
+    at Socket.g (events.js:286:16)
+    at emitNone (events.js:86:13)
+    at Socket.emit (events.js:185:7)
+    at Socket._onTimeout (net.js:333:8)
+    at tryOnTimeout (timers.js:224:11) code: 'ESOCKETTIMEDOUT', connect: false }
+[2017-01-19 20:13:34.889] [ERROR] 第一视频 - occur error :  { Error: ESOCKETTIMEDOUT
+    at ClientRequest.<anonymous> (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:778:19)
+    at ClientRequest.g (events.js:286:16)
+    at emitNone (events.js:86:13)
+    at ClientRequest.emit (events.js:185:7)
+    at Socket.emitTimeout (_http_client.js:593:10)
+    at Socket.g (events.js:286:16)
+    at emitNone (events.js:86:13)
+    at Socket.emit (events.js:185:7)
+    at Socket._onTimeout (net.js:333:8)
+    at tryOnTimeout (timers.js:224:11) code: 'ESOCKETTIMEDOUT', connect: false }
+[2017-01-19 20:13:34.893] [ERROR] 第一视频 - error url: http://www.v1.cn/video/v_14469361.jhtml
+[2017-01-19 20:13:34.895] [ERROR] 第一视频 - 单个DOM接口请求错误 :  { Error: ESOCKETTIMEDOUT
+    at ClientRequest.<anonymous> (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:778:19)
+    at ClientRequest.g (events.js:286:16)
+    at emitNone (events.js:86:13)
+    at ClientRequest.emit (events.js:185:7)
+    at Socket.emitTimeout (_http_client.js:593:10)
+    at Socket.g (events.js:286:16)
+    at emitNone (events.js:86:13)
+    at Socket.emit (events.js:185:7)
+    at Socket._onTimeout (net.js:333:8)
+    at tryOnTimeout (timers.js:224:11) code: 'ESOCKETTIMEDOUT', connect: false }
+[2017-01-19 20:13:35.227] [DEBUG] 第一视频 - 第一视频 14469361 加入缓存队列
+[2017-01-19 20:13:43.742] [ERROR] 第一视频 - occur error :  { Error: ETIMEDOUT
+    at Timeout._onTimeout (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:813:19)
+    at tryOnTimeout (timers.js:224:11)
+    at Timer.listOnTimeout (timers.js:198:5) code: 'ETIMEDOUT', connect: true }
+[2017-01-19 20:13:50.437] [ERROR] 第一视频 - error url: http://user.v1.cn/openapi/getVideoPraise.json?videoId=14469308&callback=jsonp
+[2017-01-19 20:13:50.438] [DEBUG] 第一视频 - 点赞量请求失败
+[2017-01-19 20:13:50.445] [DEBUG] 第一视频 - 第一视频 14469308 加入缓存队列
+[2017-01-19 20:13:51.745] [DEBUG] 第一视频 - 第一视频 14469290 加入缓存队列
+[2017-01-19 20:13:55.950] [DEBUG] 第一视频 - 第一视频 14468921 加入缓存队列
+[2017-01-19 20:14:00.202] [DEBUG] 第一视频 - 第一视频 14469201 加入缓存队列
+[2017-01-19 20:14:08.221] [ERROR] 第一视频 - occur error :  { Error: ESOCKETTIMEDOUT
+    at ClientRequest.<anonymous> (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:778:19)
+    at ClientRequest.g (events.js:286:16)
+    at emitNone (events.js:86:13)
+    at ClientRequest.emit (events.js:185:7)
+    at Socket.emitTimeout (_http_client.js:593:10)
+    at Socket.g (events.js:286:16)
+    at emitNone (events.js:86:13)
+    at Socket.emit (events.js:185:7)
+    at Socket._onTimeout (net.js:333:8)
+    at tryOnTimeout (timers.js:224:11) code: 'ESOCKETTIMEDOUT', connect: false }
+[2017-01-19 20:14:08.226] [ERROR] 第一视频 - error url: http://www.v1.cn/video/v_14469190.jhtml
+[2017-01-19 20:14:08.229] [ERROR] 第一视频 - 单个DOM接口请求错误 :  { Error: ESOCKETTIMEDOUT
+    at ClientRequest.<anonymous> (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:778:19)
+    at ClientRequest.g (events.js:286:16)
+    at emitNone (events.js:86:13)
+    at ClientRequest.emit (events.js:185:7)
+    at Socket.emitTimeout (_http_client.js:593:10)
+    at Socket.g (events.js:286:16)
+    at emitNone (events.js:86:13)
+    at Socket.emit (events.js:185:7)
+    at Socket._onTimeout (net.js:333:8)
+    at tryOnTimeout (timers.js:224:11) code: 'ESOCKETTIMEDOUT', connect: false }
+[2017-01-19 20:14:16.250] [ERROR] 第一视频 - occur error :  { Error: ESOCKETTIMEDOUT
+    at ClientRequest.<anonymous> (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:778:19)
+    at ClientRequest.g (events.js:286:16)
+    at emitNone (events.js:86:13)
+    at ClientRequest.emit (events.js:185:7)
+    at Socket.emitTimeout (_http_client.js:593:10)
+    at Socket.g (events.js:286:16)
+    at emitNone (events.js:86:13)
+    at Socket.emit (events.js:185:7)
+    at Socket._onTimeout (net.js:333:8)
+    at tryOnTimeout (timers.js:224:11) code: 'ESOCKETTIMEDOUT', connect: false }
+[2017-01-19 20:14:16.254] [ERROR] 第一视频 - error url: http://www.v1.cn/video/v_14469190.jhtml
+[2017-01-19 20:14:16.256] [ERROR] 第一视频 - 单个DOM接口请求错误 :  { Error: ESOCKETTIMEDOUT
+    at ClientRequest.<anonymous> (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:778:19)
+    at ClientRequest.g (events.js:286:16)
+    at emitNone (events.js:86:13)
+    at ClientRequest.emit (events.js:185:7)
+    at Socket.emitTimeout (_http_client.js:593:10)
+    at Socket.g (events.js:286:16)
+    at emitNone (events.js:86:13)
+    at Socket.emit (events.js:185:7)
+    at Socket._onTimeout (net.js:333:8)
+    at tryOnTimeout (timers.js:224:11) code: 'ESOCKETTIMEDOUT', connect: false }
+[2017-01-19 20:14:24.323] [ERROR] 第一视频 - occur error :  { Error: ESOCKETTIMEDOUT
+    at ClientRequest.<anonymous> (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:778:19)
+    at ClientRequest.g (events.js:286:16)
+    at emitNone (events.js:86:13)
+    at ClientRequest.emit (events.js:185:7)
+    at Socket.emitTimeout (_http_client.js:593:10)
+    at Socket.g (events.js:286:16)
+    at emitNone (events.js:86:13)
+    at Socket.emit (events.js:185:7)
+    at Socket._onTimeout (net.js:333:8)
+    at tryOnTimeout (timers.js:224:11) code: 'ESOCKETTIMEDOUT', connect: false }
+[2017-01-19 20:14:24.327] [ERROR] 第一视频 - error url: http://www.v1.cn/video/v_14469190.jhtml
+[2017-01-19 20:14:24.330] [ERROR] 第一视频 - 单个DOM接口请求错误 :  { Error: ESOCKETTIMEDOUT
+    at ClientRequest.<anonymous> (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:778:19)
+    at ClientRequest.g (events.js:286:16)
+    at emitNone (events.js:86:13)
+    at ClientRequest.emit (events.js:185:7)
+    at Socket.emitTimeout (_http_client.js:593:10)
+    at Socket.g (events.js:286:16)
+    at emitNone (events.js:86:13)
+    at Socket.emit (events.js:185:7)
+    at Socket._onTimeout (net.js:333:8)
+    at tryOnTimeout (timers.js:224:11) code: 'ESOCKETTIMEDOUT', connect: false }
+[2017-01-19 20:14:31.052] [DEBUG] 第一视频 - 第一视频 14469190 加入缓存队列
+[2017-01-19 20:14:35.627] [DEBUG] 第一视频 - 第一视频 14469147 加入缓存队列
+[2017-01-19 20:14:43.667] [ERROR] 第一视频 - occur error :  { Error: ESOCKETTIMEDOUT
+    at ClientRequest.<anonymous> (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:778:19)
+    at ClientRequest.g (events.js:286:16)
+    at emitNone (events.js:86:13)
+    at ClientRequest.emit (events.js:185:7)
+    at Socket.emitTimeout (_http_client.js:593:10)
+    at Socket.g (events.js:286:16)
+    at emitNone (events.js:86:13)
+    at Socket.emit (events.js:185:7)
+    at Socket._onTimeout (net.js:333:8)
+    at tryOnTimeout (timers.js:224:11) code: 'ESOCKETTIMEDOUT', connect: false }
+[2017-01-19 20:14:43.671] [ERROR] 第一视频 - error url: http://www.v1.cn/video/v_14468982.jhtml
+[2017-01-19 20:14:43.674] [ERROR] 第一视频 - 单个DOM接口请求错误 :  { Error: ESOCKETTIMEDOUT
+    at ClientRequest.<anonymous> (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:778:19)
+    at ClientRequest.g (events.js:286:16)
+    at emitNone (events.js:86:13)
+    at ClientRequest.emit (events.js:185:7)
+    at Socket.emitTimeout (_http_client.js:593:10)
+    at Socket.g (events.js:286:16)
+    at emitNone (events.js:86:13)
+    at Socket.emit (events.js:185:7)
+    at Socket._onTimeout (net.js:333:8)
+    at tryOnTimeout (timers.js:224:11) code: 'ESOCKETTIMEDOUT', connect: false }
+[2017-01-19 20:14:51.752] [ERROR] 第一视频 - occur error :  { Error: ESOCKETTIMEDOUT
+    at ClientRequest.<anonymous> (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:778:19)
+    at ClientRequest.g (events.js:286:16)
+    at emitNone (events.js:86:13)
+    at ClientRequest.emit (events.js:185:7)
+    at Socket.emitTimeout (_http_client.js:593:10)
+    at Socket.g (events.js:286:16)
+    at emitNone (events.js:86:13)
+    at Socket.emit (events.js:185:7)
+    at Socket._onTimeout (net.js:333:8)
+    at tryOnTimeout (timers.js:224:11) code: 'ESOCKETTIMEDOUT', connect: false }
+[2017-01-19 20:14:51.756] [ERROR] 第一视频 - error url: http://www.v1.cn/video/v_14468982.jhtml
+[2017-01-19 20:14:51.758] [ERROR] 第一视频 - 单个DOM接口请求错误 :  { Error: ESOCKETTIMEDOUT
+    at ClientRequest.<anonymous> (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:778:19)
+    at ClientRequest.g (events.js:286:16)
+    at emitNone (events.js:86:13)
+    at ClientRequest.emit (events.js:185:7)
+    at Socket.emitTimeout (_http_client.js:593:10)
+    at Socket.g (events.js:286:16)
+    at emitNone (events.js:86:13)
+    at Socket.emit (events.js:185:7)
+    at Socket._onTimeout (net.js:333:8)
+    at tryOnTimeout (timers.js:224:11) code: 'ESOCKETTIMEDOUT', connect: false }
+[2017-01-19 20:14:58.201] [DEBUG] 第一视频 - 第一视频 14468982 加入缓存队列
+[2017-01-19 20:14:59.305] [DEBUG] 第一视频 - 第一视频 14468977 加入缓存队列
+[2017-01-19 20:15:07.320] [ERROR] 第一视频 - occur error :  { Error: ESOCKETTIMEDOUT
+    at ClientRequest.<anonymous> (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:778:19)
+    at ClientRequest.g (events.js:286:16)
+    at emitNone (events.js:86:13)
+    at ClientRequest.emit (events.js:185:7)
+    at Socket.emitTimeout (_http_client.js:593:10)
+    at Socket.g (events.js:286:16)
+    at emitNone (events.js:86:13)
+    at Socket.emit (events.js:185:7)
+    at Socket._onTimeout (net.js:333:8)
+    at tryOnTimeout (timers.js:224:11) code: 'ESOCKETTIMEDOUT', connect: false }
+[2017-01-19 20:15:07.324] [ERROR] 第一视频 - error url: http://static.app.m.v1.cn/www/mod/mob/ctl/videoDetails/act/get/vid/14468880/pcode/010210000/version/4.5.4.mindex.html
+[2017-01-19 20:15:07.326] [ERROR] 第一视频 - 单个视频接口请求错误 :  { Error: ESOCKETTIMEDOUT
+    at ClientRequest.<anonymous> (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:778:19)
+    at ClientRequest.g (events.js:286:16)
+    at emitNone (events.js:86:13)
+    at ClientRequest.emit (events.js:185:7)
+    at Socket.emitTimeout (_http_client.js:593:10)
+    at Socket.g (events.js:286:16)
+    at emitNone (events.js:86:13)
+    at Socket.emit (events.js:185:7)
+    at Socket._onTimeout (net.js:333:8)
+    at tryOnTimeout (timers.js:224:11) code: 'ESOCKETTIMEDOUT', connect: false }
+[2017-01-19 20:15:15.341] [ERROR] 第一视频 - occur error :  { Error: ESOCKETTIMEDOUT
+    at ClientRequest.<anonymous> (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:778:19)
+    at ClientRequest.g (events.js:286:16)
+    at emitNone (events.js:86:13)
+    at ClientRequest.emit (events.js:185:7)
+    at Socket.emitTimeout (_http_client.js:593:10)
+    at Socket.g (events.js:286:16)
+    at emitNone (events.js:86:13)
+    at Socket.emit (events.js:185:7)
+    at Socket._onTimeout (net.js:333:8)
+    at tryOnTimeout (timers.js:224:11) code: 'ESOCKETTIMEDOUT', connect: false }
+[2017-01-19 20:15:15.347] [ERROR] 第一视频 - error url: http://static.app.m.v1.cn/www/mod/mob/ctl/videoDetails/act/get/vid/14468880/pcode/010210000/version/4.5.4.mindex.html
+[2017-01-19 20:15:15.350] [ERROR] 第一视频 - 单个视频接口请求错误 :  { Error: ESOCKETTIMEDOUT
+    at ClientRequest.<anonymous> (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:778:19)
+    at ClientRequest.g (events.js:286:16)
+    at emitNone (events.js:86:13)
+    at ClientRequest.emit (events.js:185:7)
+    at Socket.emitTimeout (_http_client.js:593:10)
+    at Socket.g (events.js:286:16)
+    at emitNone (events.js:86:13)
+    at Socket.emit (events.js:185:7)
+    at Socket._onTimeout (net.js:333:8)
+    at tryOnTimeout (timers.js:224:11) code: 'ESOCKETTIMEDOUT', connect: false }
+[2017-01-19 20:15:19.689] [DEBUG] 第一视频 - 第一视频 14468880 加入缓存队列
+[2017-01-19 20:15:21.080] [DEBUG] 第一视频 - 第一视频 14468840 加入缓存队列
+[2017-01-19 20:15:22.435] [DEBUG] 第一视频 - 第一视频 14468826 加入缓存队列
+[2017-01-19 20:15:30.463] [ERROR] 第一视频 - occur error :  { Error: ESOCKETTIMEDOUT
+    at ClientRequest.<anonymous> (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:778:19)
+    at ClientRequest.g (events.js:286:16)
+    at emitNone (events.js:86:13)
+    at ClientRequest.emit (events.js:185:7)
+    at Socket.emitTimeout (_http_client.js:593:10)
+    at Socket.g (events.js:286:16)
+    at emitNone (events.js:86:13)
+    at Socket.emit (events.js:185:7)
+    at Socket._onTimeout (net.js:333:8)
+    at tryOnTimeout (timers.js:224:11) code: 'ESOCKETTIMEDOUT', connect: false }
+[2017-01-19 20:15:32.221] [ERROR] 第一视频 - error url: http://www.v1.cn/video/v_14468816.jhtml
+[2017-01-19 20:15:32.224] [ERROR] 第一视频 - 单个DOM接口请求错误 :  { Error: ESOCKETTIMEDOUT
+    at ClientRequest.<anonymous> (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:778:19)
+    at ClientRequest.g (events.js:286:16)
+    at emitNone (events.js:86:13)
+    at ClientRequest.emit (events.js:185:7)
+    at Socket.emitTimeout (_http_client.js:593:10)
+    at Socket.g (events.js:286:16)
+    at emitNone (events.js:86:13)
+    at Socket.emit (events.js:185:7)
+    at Socket._onTimeout (net.js:333:8)
+    at tryOnTimeout (timers.js:224:11) code: 'ESOCKETTIMEDOUT', connect: false }
+[2017-01-19 20:15:37.928] [DEBUG] 第一视频 - 第一视频 14468816 加入缓存队列
+[2017-01-19 20:15:45.957] [ERROR] 第一视频 - occur error :  { Error: ESOCKETTIMEDOUT
+    at ClientRequest.<anonymous> (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:778:19)
+    at ClientRequest.g (events.js:286:16)
+    at emitNone (events.js:86:13)
+    at ClientRequest.emit (events.js:185:7)
+    at Socket.emitTimeout (_http_client.js:593:10)
+    at Socket.g (events.js:286:16)
+    at emitNone (events.js:86:13)
+    at Socket.emit (events.js:185:7)
+    at Socket._onTimeout (net.js:333:8)
+    at tryOnTimeout (timers.js:224:11) code: 'ESOCKETTIMEDOUT', connect: false }
+[2017-01-19 20:15:45.960] [ERROR] 第一视频 - error url: http://www.v1.cn/video/v_14468641.jhtml
+[2017-01-19 20:15:45.961] [ERROR] 第一视频 - 单个DOM接口请求错误 :  { Error: ESOCKETTIMEDOUT
+    at ClientRequest.<anonymous> (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:778:19)
+    at ClientRequest.g (events.js:286:16)
+    at emitNone (events.js:86:13)
+    at ClientRequest.emit (events.js:185:7)
+    at Socket.emitTimeout (_http_client.js:593:10)
+    at Socket.g (events.js:286:16)
+    at emitNone (events.js:86:13)
+    at Socket.emit (events.js:185:7)
+    at Socket._onTimeout (net.js:333:8)
+    at tryOnTimeout (timers.js:224:11) code: 'ESOCKETTIMEDOUT', connect: false }
+[2017-01-19 20:15:53.988] [ERROR] 第一视频 - occur error :  { Error: ESOCKETTIMEDOUT
+    at ClientRequest.<anonymous> (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:778:19)
+    at ClientRequest.g (events.js:286:16)
+    at emitNone (events.js:86:13)
+    at ClientRequest.emit (events.js:185:7)
+    at Socket.emitTimeout (_http_client.js:593:10)
+    at Socket.g (events.js:286:16)
+    at emitNone (events.js:86:13)
+    at Socket.emit (events.js:185:7)
+    at Socket._onTimeout (net.js:333:8)
+    at tryOnTimeout (timers.js:224:11) code: 'ESOCKETTIMEDOUT', connect: false }
+[2017-01-19 20:15:53.994] [ERROR] 第一视频 - error url: http://www.v1.cn/video/v_14468641.jhtml
+[2017-01-19 20:15:53.999] [ERROR] 第一视频 - 单个DOM接口请求错误 :  { Error: ESOCKETTIMEDOUT
+    at ClientRequest.<anonymous> (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:778:19)
+    at ClientRequest.g (events.js:286:16)
+    at emitNone (events.js:86:13)
+    at ClientRequest.emit (events.js:185:7)
+    at Socket.emitTimeout (_http_client.js:593:10)
+    at Socket.g (events.js:286:16)
+    at emitNone (events.js:86:13)
+    at Socket.emit (events.js:185:7)
+    at Socket._onTimeout (net.js:333:8)
+    at tryOnTimeout (timers.js:224:11) code: 'ESOCKETTIMEDOUT', connect: false }

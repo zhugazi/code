@@ -1,0 +1,8 @@
+[2017-01-05 18:13:39.516] [TRACE] 新蓝网 - DealWith instantiation ...
+[2017-01-05 18:13:39.531] [TRACE] 新蓝网 - spiderCore instantiation ...
+[2017-01-05 18:13:39.533] [TRACE] 新蓝网 - 启动函数
+[2017-01-05 18:13:39.556] [DEBUG] 新蓝网 - 任务信息数据库连接建立...成功
+[2017-01-05 18:13:39.556] [DEBUG] 新蓝网 - 缓存队列数据库连接建立...成功
+[2017-01-05 18:13:39.566] [DEBUG] 新蓝网 - 创建数据库连接完毕
+[2017-01-05 18:13:39.566] [DEBUG] 新蓝网 - { url: 'http://proxy.app.cztv.com/getPlayList.do?videoId=undefined&ablumId=859',
+  user_agent: '中国蓝TV 1.4.2 rv:89 (iPhone; iOS 10.2; zh_CN)' }

@@ -1,0 +1,18 @@
+[2016-11-27 01:00:55.267] [TRACE] 今日头条 - DealWith instantiation ...
+[2016-11-27 01:00:55.275] [TRACE] 今日头条 - spiderCore instantiation ...
+[2016-11-27 01:00:55.276] [TRACE] 今日头条 - 启动函数
+[2016-11-27 01:00:55.304] [DEBUG] 今日头条 - 任务信息数据库连接建立...成功
+[2016-11-27 01:00:55.306] [DEBUG] 今日头条 - 缓存队列数据库连接建立...成功
+[2016-11-27 01:00:55.307] [DEBUG] 今日头条 - 创建数据库连接完毕
+[2016-11-27 01:00:55.309] [INFO] 今日头条 - { p: '6', id: '6518345701', name: '共赏雅俗' }
+[2016-11-27 01:01:00.017] [DEBUG] 今日头条 - 480
+[2016-11-27 01:01:00.328] [DEBUG] 今日头条 - 已经没有数据
+[2016-11-27 01:01:21.353] [ERROR] 今日头条 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }

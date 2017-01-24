@@ -1,0 +1,15 @@
+[2016-12-06 10:10:10.440] [DEBUG] 平台 - 处理器实例化...
+[2016-12-06 10:10:10.440] [DEBUG] 平台 - 控制器实例化...
+[2016-12-06 10:10:10.456] [DEBUG] 平台 - server实例化
+[2016-12-06 10:10:10.456] [DEBUG] 平台 - Server running at 2016 port
+[2016-12-06 10:37:40.913] [ERROR] 平台 - occur error:  Error: Invalid URI "/"
+    at Request.init (D:\AppServ\www\meimiao\code\node_modules\.2.78.0@request\request.js:274:31)
+    at new Request (D:\AppServ\www\meimiao\code\node_modules\.2.78.0@request\request.js:128:8)
+    at request (D:\AppServ\www\meimiao\code\node_modules\.2.78.0@request\index.js:54:10)
+    at Function.get (D:\AppServ\www\meimiao\code\node_modules\.2.78.0@request\index.js:62:12)
+    at DealWith.weibo (D:\AppServ\www\meimiao\code\servant\dealWith.js:1139:15)
+    at Handle.weiboHandle (D:\AppServ\www\meimiao\code\servant\handle.js:224:18)
+    at spiderCore.dispatch (D:\AppServ\www\meimiao\code\servant\index.js:142:24)
+    at spiderCore.getHandle (D:\AppServ\www\meimiao\code\servant\index.js:37:14)
+    at Server.HTTP.createServer (D:\AppServ\www\meimiao\code\servant\index.js:18:26)
+    at emitTwo (events.js:106:13)

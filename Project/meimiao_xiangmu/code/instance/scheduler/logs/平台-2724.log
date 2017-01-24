@@ -1,0 +1,83 @@
+[2016-12-06 16:36:45.245] [DEBUG] 平台 - 处理器实例化...
+[2016-12-06 16:36:45.253] [DEBUG] 平台 - 控制器实例化...
+[2016-12-06 16:36:45.255] [DEBUG] 平台 - server实例化
+[2016-12-06 16:36:45.266] [DEBUG] 平台 - Server running at 2016 port
+[2016-12-06 16:36:48.555] [DEBUG] 平台 - 
+        var timer = null,
+            platform = "nonewx",
+            btn = document.getElementById("uclogo"),
+            ua = window.navigator.userAgent.toLowerCase(),
+            loadDiv = document.getElementById("ucloadPage"),
+            bannerDiv = document.getElementById("gc");
+
+        loadDiv.style.cssText = "height:" + window.innerHeight + "px";
+        bannerDiv.style.display = "none";
+
+        setTimeout(function() {
+            var ifrm = document.createElement("iframe");
+            ifrm.id = "iframepage";
+            ifrm.name = "iframepage";
+            ifrm.style.cssText = "border:0px; width:"+window.innerWidth+"px; min-width:100%; max-width:100%; z-index: 9999; position: relative;height:100%;";
+            ifrm.src = "http://s4.uczzd.cn/ucnews/video?app=ucnews-iflow&aid=8482352226312568011&cid=622736331&zzd_from=ucnews-iflow&uc_param_str=dndsfrvesvntnwpfgi&recoid=6276375967585828086&rd_type=share&original_url=http%3A%2F%2Fv.ums.uc.cn%2Fvideo%2Fv_602398.html&pagetype=share&btifl=100";
+            ifrm.setAttribute("keep-url", "");
+            var ua = window.navigator.userAgent.toLowerCase();
+            if (ua.indexOf("applewebkit")>=0  
+              && ["iphone","ipad","ipod"].some(function (ele) {
+                return ua.indexOf(ele)>=0
+                })) {
+              ifrm.setAttribute("scrolling", "no");
+            } else {
+              document.documentElement.style.setProperty("height","100%","");
+              document.body.style.setProperty("height","100%","");
+              ifrm.style.setProperty("height","100%","");
+              ifrm.style.setProperty("width","100%","");
+            }
+            var docDiv = document.getElementById("uc_share_content");
+            docDiv.appendChild(ifrm);
+            var css_text = "height:100%";
+            docDiv.style.cssText = css_text;
+            //docDiv.style.display = "none"
+            ifrm.onload = function() {
+                onLoadComplete();
+            }
+        }, 500);
+
+        if (ua.indexOf('micromessenger') >= 0) {
+            btn.onclick = function() {
+                window.location.href = "http://track.uc.cn:9080/lct?uc_param_str=dnfrcpve&appid=0294ad34f7ad&platform=wx&pg=clicklogo&turl=http://fusion.qq.com/cgi-bin/qzapps/unified_jump?appid=10936&from=singlemessage&isTimeline=false&actionFlag=0&params=pname%3Dcom.UCMobile%26versioncode%3D165%26channelid%3D%26actionflag%3D0&isappinstalled=0";
+            }
+        } else {
+            btn.onclick = function() {
+                window.location.href = "http://track.uc.cn:9080/lct?uc_param_str=dnfrcpve&appid=0294ad34f7ad&platform=wx&pg=clicklogo&turl=http://wap.uc.cn/?uc_param_str=vepffrbiuplaei&from=wap_ucshare";
+            }
+        }
+
+        timer = setTimeout(function() {
+            doShowContent();
+        }, 3000);
+
+        function onLoadComplete() {
+            doShowContent();
+            clearTimeout(timer);
+        }
+
+        function doShowContent() {
+            loadDiv.style.display = "none";
+            bannerDiv.style.display = '';
+            var css_text = "height:100%";
+            var content_div = document.getElementById("uc_share_content");
+            content_div.style.display = "";
+            content_div.style.cssText = css_text;
+        }
+
+        window.addEventListener('message', function(e){
+            var data = e.data;
+            // console.log('on message',e);
+            if (data==="uc_headlines_banner_closed") {
+                bannerDiv.style.setProperty("display","none","");
+            }
+        }, false);
+
+        // with(document) with(body) with(insertBefore(createElement("script"), firstChild)) setAttribute("exparams", "category=&userid=&aplus&yunid=&asid=AQAAAABHifpVVSIlWgAAAADogoXtsaZ3WQ==", id = "tb-beacon-aplus", src = (location > "https" ? "//s" : "//a") + ".tbcdn.cn/s/aplus_v2.js")
+    
+[2016-12-06 16:36:48.682] [DEBUG] 平台 - UC数据解析失败

@@ -1,0 +1,1761 @@
+[2016-11-26 23:05:45.666] [TRACE] 今日头条 - DealWith instantiation ...
+[2016-11-26 23:05:45.676] [TRACE] 今日头条 - spiderCore instantiation ...
+[2016-11-26 23:05:45.676] [TRACE] 今日头条 - 启动函数
+[2016-11-26 23:05:45.706] [DEBUG] 今日头条 - 任务信息数据库连接建立...成功
+[2016-11-26 23:05:45.706] [DEBUG] 今日头条 - 缓存队列数据库连接建立...成功
+[2016-11-26 23:05:45.706] [DEBUG] 今日头条 - 创建数据库连接完毕
+[2016-11-26 23:05:45.706] [INFO] 今日头条 - { p: '6', id: '6518345701', name: '共赏雅俗' }
+[2016-11-26 23:05:46.076] [DEBUG] 今日头条 - string
+[2016-11-26 23:05:46.076] [DEBUG] 今日头条 - <!--5xx了python很可能没机会了，还有些是uwsgi挂掉了，所以必须用纯静态页-->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+<style type="text/css">
+html,body{ margin: 0; padding: 0; height:100%}
+#icon{
+    padding-top: 100px;
+}
+#icon img{
+    display: block;
+    margin:0 auto;
+    width: 226px;
+}
+#text{
+    font-size: 15px;
+    line-height: 1.5em;
+    color: #999;
+    text-align: center;
+}
+.night{background: #252525;}
+.night #icon{ opacity: .4;}
+.night #text{ color: #707070;}
+@media screen and (-webkit-min-device-pixel-ratio:3) {
+    #icon img{ width: 239px;}
+    #text{ font-size: 17px;}
+}
+</style>
+<script src="http://s2.pstatp.com/inapp/toutiao.js?v=98666"></script>
+</head>
+<body onclick="location.reload()">
+<div id="icon">
+    <img src="http://s2.pstatp.com/site/lib/images/placeholders/500_loading-736h@3x.png">
+</div>
+<div id="text">服务器错误</div>
+<script>
+(function(){
+    var body = document.querySelector("body");
+
+    function hasClass(obj, cls) {
+        var reg = new RegExp('(\\s|^)' + cls + '(\\s|$)');
+        return reg.test(obj.className);
+    };
+
+    function addClass(obj, cls) {
+        cls.split(/\s+/).forEach(function(_cls){
+            if (!hasClass(obj, _cls)) obj.className += " " + _cls;
+        });
+    };
+
+    function removeClass(obj, cls) {
+        cls.split(/\s+/).forEach(function(_cls){
+            var reg = new RegExp('(\\s|^)' + _cls + '(\\s|$)');
+            obj.className = obj.className.replace(reg, ' ');
+        });
+    };
+
+    function hash(arg){
+        var s = location.hash.substr(1),
+            hashQuery = {};
+
+        if(s){
+            var arr = s.split("&");
+            for (var i = 0; i< arr.length; i++ ){
+                var t = arr[i].split("=");
+                hashQuery[t[0]] = t[1];
+            }
+        }
+
+        if(typeof arg == "string"){
+            return hashQuery[arg];
+        }else if(typeof arg == "object"){
+            for(var k in arg){
+                hashQuery[k] = arg[k];
+            }
+            var s2 = "";
+            for(var k in hashQuery){
+                s2 += k+"="+hashQuery[k]+"&";
+            }
+            location.href = "#"+s2.substring(0,s2.length-1);
+        }
+    };
+
+    //日间,夜间模式 0夜间,1日间
+    function TTSetDayMode(flag,callback){
+        if(["0","1",0,1].indexOf(flag) < 0 ) return;
+        flag = parseInt(flag);
+        flag ? removeClass(body, 'night') : addClass(body,'night');
+        if(callback) callback(flag);
+    };
+
+    function _initDayMode(){
+        var daymode =  hash("tt_daymode");
+        if(daymode) TTSetDayMode(daymode);
+    };
+
+    window.onhashchange = _initDayMode;
+    window.TouTiao = { setDayMode : TTSetDayMode };
+
+    _initDayMode();
+
+    // 监听客户端调用
+    window.ToutiaoJSBridge.on( 'refresh', function( params ) {
+        window.location.reload();
+    });
+
+})();
+</script>
+</body>
+</html>
+
+[2016-11-26 23:05:46.566] [DEBUG] 今日头条 - string
+[2016-11-26 23:05:46.566] [DEBUG] 今日头条 - {
+  "media_id": 6518345701, 
+  "has_more": 1, 
+  "next": {
+    "max_behot_time": 1479969028
+  }, 
+  "page_type": 1, 
+  "message": "success", 
+  "data": [
+    {
+      "item_status": 20, 
+      "datetime": "2016-11-11 16:22", 
+      "video_infos": [
+        {
+          "thumb_height": 360, 
+          "vid": "f7d5c4948c3044ddb7f17ba400fa15ee", 
+          "thumb_width": 640, 
+          "sp": "toutiao", 
+          "video_size": {
+            "normal": {
+              "h": 360, 
+              "subjective_score": 2, 
+              "w": 640, 
+              "file_size": 9005129
+            }
+          }, 
+          "video_partner": 0, 
+          "duration": 188, 
+          "thumb_url": "11350003f163309dcb58", 
+          "vu": "f7d5c4948c3044ddb7f17ba400fa15ee"
+        }
+      ], 
+      "has_m3u8_video": 0, 
+      "keywords": "", 
+      "article_live_type": "none", 
+      "has_mp4_video": 0, 
+      "title": "\u771f\u4eba\u771f\u4e8b\uff1a\u65b0\u5a5a19\u5929\uff0c\u65b0\u5a18\u7adf\u906d\u5982\u6b64\u5384\u8fd0", 
+      "source": "\u5171\u8d4f\u96c5\u4fd7", 
+      "natant_level": 0, 
+      "own_group": false, 
+      "share_count": 2786, 
+      "list_play_effective_count": 342108, 
+      "verify_detail": {
+        "pass_time": "2016-11-11 16:24:14", 
+        "auto": {
+          "status": 10
+        }, 
+        "editor": {
+          "status": 20
+        }
+      }, 
+      "is_top_article": true, 
+      "categories": [
+        "video_emotion"
+      ], 
+      "repin_count": 1045, 
+      "display_status": 0, 
+      "level": 0, 
+      "digg_count": 757, 
+      "comments_count": "431", 
+      "cover_image_infos": [
+        {
+          "mimetype": "image/jpeg", 
+          "image_type": 1, 
+          "height": 360, 
+          "width": 640, 
+          "web_uri": "11350003f163309dcb58", 
+          "desc": ""
+        }
+      ], 
+      "group_id": 6351613761225736450, 
+      "middle_image": "http://p2.pstatp.com/list/11350003f163309dcb58", 
+      "pgc_id": 6351623237092246018, 
+      "ad_type": 3, 
+      "live_status": "", 
+      "create_time": 1478852580, 
+      "book_info": "", 
+      "article_sub_type": 0, 
+      "label": [
+        "\u5a5a\u59fb", 
+        "19\u5929"
+      ], 
+      "pgc_ad": 3, 
+      "group_source": 2, 
+      "image_url": "http://p2.pstatp.com/list/11350003f163309dcb58", 
+      "is_key_item": 1, 
+      "str_group_id": "6351613761225736450", 
+      "source_url": "http://ib.snssdk.com/item/6351623237092246018/", 
+      "item_id": 6351623237092246018, 
+      "good_voice": false, 
+      "max_comments": 0, 
+      "language": "zh", 
+      "display_url": "http://toutiao.com/group/6351613761225736450/", 
+      "region": 156, 
+      "content_cards": "", 
+      "has_gallery": false, 
+      "modify_time": 1478852685, 
+      "content_cntw": 17, 
+      "detail_mode": 0, 
+      "impression_count": 2528240, 
+      "image_list": [
+        {
+          "url": "http://p2.pstatp.com/list/11350003f163309dcb58", 
+          "pc_url": "http://p2.pstatp.com/list/194x108/11350003f163309dcb58"
+        }
+      ], 
+      "str_item_id": "6351623237092246018", 
+      "group_status": 1, 
+      "creator_uid": 6518071856, 
+      "original_media_id": 0, 
+      "city": "", 
+      "bury_count": 294, 
+      "web_article_type": 1, 
+      "review_comment": false, 
+      "comment_count": 431, 
+      "media_id": 6518345701, 
+      "go_detail_count": "20\u4e07", 
+      "group_flags": 64, 
+      "detail_play_effective_count": 154464, 
+      "visibility": 3, 
+      "pc_image_url": "http://p2.pstatp.com/list/126x82/11350003f163309dcb58", 
+      "was_recommended": 1, 
+      "thumb_image": [], 
+      "seo_url": "http://ib.snssdk.com/item/6351623237092246018/", 
+      "external_visit_count": 18960, 
+      "image_detail": [], 
+      "ban_action": false, 
+      "review_comment_mode": 0, 
+      "has_inner_video": true, 
+      "has_image": false, 
+      "play_effective_count": "49\u4e07", 
+      "ban_comment": 0, 
+      "show_play_effective_count": true, 
+      "abstract": "\u771f\u4eba\u771f\u4e8b\uff1a\u65b0\u5a5a19\u5929\uff0c\u65b0\u5a18\u7adf\u906d\u5982\u6b64\u5384\u8fd0", 
+      "middle_mode": true, 
+      "is_original": false, 
+      "ban_bury": false, 
+      "article_type": 0, 
+      "tag": "video_emotion", 
+      "image_infos": [], 
+      "optional_data": {
+        "auth_regions": ""
+      }, 
+      "app_url": "sslocal://detail?item_id=6351623237092246018&flags=64&groupid=6351613761225736450&gd_label=click_pgc&aggr_type=2", 
+      "has_video": true, 
+      "article_url": "http://toutiao.com/group/6351613761225736450/", 
+      "video_duration_str": "03:08", 
+      "display_mode": "middle", 
+      "composition": 264, 
+      "publish_time": 1478852526, 
+      "wap_open": 0, 
+      "tag_id": 6351613761225736450, 
+      "pgc_article_type": 1, 
+      "display_type": 0, 
+      "gallery": [], 
+      "detail_source": "\u5171\u8d4f\u96c5\u4fd7", 
+      "url": "http://toutiao.com/group/6351613761225736450/", 
+      "web_display_type": 4, 
+      "behot_time": 1478852526, 
+      "flags": 64
+    }, 
+    {
+      "item_status": 20, 
+      "datetime": "2016-11-26 16:08", 
+      "video_infos": [
+        {
+          "thumb_height": 344, 
+          "vid": "a2a6ce758a814df3b41d17aed9fe2326", 
+          "thumb_width": 616, 
+          "sp": "toutiao", 
+          "video_size": {
+            "normal": {
+              "h": 344, 
+              "subjective_score": 1, 
+              "w": 616, 
+              "file_size": 2909642
+            }
+          }, 
+          "video_partner": 0, 
+          "duration": 132, 
+          "thumb_url": "f90001255447635a417", 
+          "vu": "a2a6ce758a814df3b41d17aed9fe2326"
+        }
+      ], 
+      "has_m3u8_video": 0, 
+      "keywords": "\u5468\u603b\u7406", 
+      "article_live_type": "none", 
+      "has_mp4_video": 0, 
+      "title": "\u5468\u603b\u7406\u77e5\u9053\u6709\u4eba\u8981\u6697\u6740\u81ea\u5df1\u65f6\uff0c\u987f\u65f6\u62cd\u684c\u5b50\u8bf4\u4e86\u8fd9\u756a\u8bdd", 
+      "source": "\u5171\u8d4f\u96c5\u4fd7", 
+      "natant_level": 0, 
+      "own_group": false, 
+      "share_count": 2, 
+      "list_play_effective_count": 348, 
+      "verify_detail": {
+        "pass_time": "2016-11-26 16:09:25", 
+        "auto": {
+          "status": 10
+        }, 
+        "editor": {
+          "status": 20
+        }
+      }, 
+      "categories": [
+        "news"
+      ], 
+      "repin_count": 10, 
+      "display_status": 0, 
+      "level": 0, 
+      "digg_count": 5, 
+      "comments_count": "0", 
+      "cover_image_infos": [
+        {
+          "mimetype": "image/jpeg", 
+          "image_type": 1, 
+          "height": 344, 
+          "width": 616, 
+          "web_uri": "f90001255447635a417", 
+          "desc": ""
+        }
+      ], 
+      "group_id": 6357181466938818817, 
+      "middle_image": "http://p2.pstatp.com/list/f90001255447635a417", 
+      "pgc_id": 6357186028624675329, 
+      "ad_type": 3, 
+      "live_status": "", 
+      "create_time": 1480147735, 
+      "book_info": "", 
+      "article_sub_type": 0, 
+      "label": [
+        "\u5468\u6069\u6765", 
+        "\u6697\u6740"
+      ], 
+      "pgc_ad": 3, 
+      "group_source": 2, 
+      "image_url": "http://p2.pstatp.com/list/f90001255447635a417", 
+      "is_key_item": 1, 
+      "str_group_id": "6357181466938818817", 
+      "source_url": "http://ib.snssdk.com/item/6357186028624675329/", 
+      "item_id": 6357186028624675329, 
+      "good_voice": false, 
+      "max_comments": 0, 
+      "language": "zh", 
+      "display_url": "http://toutiao.com/group/6357181466938818817/", 
+      "region": 156, 
+      "content_cards": "", 
+      "has_gallery": false, 
+      "modify_time": 1480147788, 
+      "content_cntw": 23, 
+      "detail_mode": 0, 
+      "impression_count": 11426, 
+      "image_list": [
+        {
+          "url": "http://p2.pstatp.com/list/f90001255447635a417", 
+          "pc_url": "http://p2.pstatp.com/list/194x108/f90001255447635a417"
+        }
+      ], 
+      "str_item_id": "6357186028624675329", 
+      "group_status": 1, 
+      "creator_uid": 6518071856, 
+      "original_media_id": 0, 
+      "city": "", 
+      "bury_count": 1, 
+      "web_article_type": 1, 
+      "review_comment": true, 
+      "comment_count": 0, 
+      "media_id": 6518345701, 
+      "go_detail_count": "1006", 
+      "group_flags": 64, 
+      "detail_play_effective_count": 660, 
+      "visibility": 3, 
+      "pc_image_url": "http://p2.pstatp.com/list/126x82/f90001255447635a417", 
+      "was_recommended": 1, 
+      "thumb_image": [], 
+      "seo_url": "http://ib.snssdk.com/item/6357186028624675329/", 
+      "external_visit_count": 72, 
+      "image_detail": [], 
+      "ban_action": false, 
+      "review_comment_mode": 0, 
+      "has_inner_video": true, 
+      "has_image": false, 
+      "play_effective_count": "1008", 
+      "ban_comment": 0, 
+      "show_play_effective_count": true, 
+      "abstract": "\u5468\u603b\u7406\u77e5\u9053\u6709\u4eba\u8981\u6697\u6740\u81ea\u5df1\u65f6\uff0c\u987f\u65f6\u62cd\u684c\u5b50\u8bf4\u4e86\u8fd9\u756a\u8bdd", 
+      "middle_mode": true, 
+      "is_original": false, 
+      "ban_bury": false, 
+      "article_type": 0, 
+      "tag": "news", 
+      "image_infos": [], 
+      "optional_data": {
+        "auth_regions": ""
+      }, 
+      "app_url": "sslocal://detail?item_id=6357186028624675329&flags=64&groupid=6357181466938818817&gd_label=click_pgc&aggr_type=2", 
+      "has_video": true, 
+      "article_url": "http://toutiao.com/group/6357181466938818817/", 
+      "video_duration_str": "02:12", 
+      "display_mode": "middle", 
+      "composition": 264, 
+      "publish_time": 1480147714, 
+      "wap_open": 0, 
+      "tag_id": 6357181466938818817, 
+      "pgc_article_type": 1, 
+      "display_type": 0, 
+      "gallery": [], 
+      "detail_source": "\u5171\u8d4f\u96c5\u4fd7", 
+      "url": "http://toutiao.com/group/6357181466938818817/", 
+      "web_display_type": 4, 
+      "behot_time": 1480147714, 
+      "flags": 64
+    }, 
+    {
+      "item_status": 20, 
+      "datetime": "2016-11-26 16:05", 
+      "video_infos": [
+        {
+          "thumb_height": 280, 
+          "vid": "949bed6f6ca74d488dc1e97791acb66d", 
+          "thumb_width": 376, 
+          "sp": "toutiao", 
+          "video_size": {
+            "normal": {
+              "h": 280, 
+              "subjective_score": 3, 
+              "w": 376, 
+              "file_size": 6975224
+            }
+          }, 
+          "video_partner": 0, 
+          "duration": 198, 
+          "thumb_url": "f900012541b58dea2f6", 
+          "vu": "949bed6f6ca74d488dc1e97791acb66d"
+        }
+      ], 
+      "has_m3u8_video": 0, 
+      "keywords": "", 
+      "article_live_type": "none", 
+      "has_mp4_video": 0, 
+      "title": "\u300a\u529f\u592b\u300b\u7684\u8fd9\u4e9b\u7247\u6bb5\u90fd\u6ca1\u5728\u7535\u5f71\u9662\u770b\u5230\uff0c\u53ef\u60dc\u4e86", 
+      "source": "\u5171\u8d4f\u96c5\u4fd7", 
+      "natant_level": 0, 
+      "own_group": false, 
+      "share_count": 0, 
+      "list_play_effective_count": 1, 
+      "verify_detail": {
+        "pass_time": "2016-11-26 16:07:08", 
+        "auto": {
+          "status": 10
+        }, 
+        "editor": {
+          "status": 20
+        }
+      }, 
+      "categories": [
+        "video_movie"
+      ], 
+      "repin_count": 1, 
+      "display_status": 0, 
+      "level": 0, 
+      "digg_count": 1, 
+      "comments_count": "0", 
+      "cover_image_infos": [
+        {
+          "mimetype": "image/jpeg", 
+          "image_type": 1, 
+          "height": 280, 
+          "width": 376, 
+          "web_uri": "f900012541b58dea2f6", 
+          "desc": ""
+        }
+      ], 
+      "group_id": 6357180899378299138, 
+      "middle_image": "http://p2.pstatp.com/list/f900012541b58dea2f6", 
+      "pgc_id": 6357185255589282306, 
+      "ad_type": 3, 
+      "live_status": "", 
+      "create_time": 1480147599, 
+      "book_info": "", 
+      "article_sub_type": 0, 
+      "label": [
+        "\u529f\u592b"
+      ], 
+      "pgc_ad": 3, 
+      "group_source": 2, 
+      "image_url": "http://p2.pstatp.com/list/f900012541b58dea2f6", 
+      "is_key_item": 1, 
+      "str_group_id": "6357180899378299138", 
+      "source_url": "http://ib.snssdk.com/item/6357185255589282306/", 
+      "item_id": 6357185255589282306, 
+      "good_voice": false, 
+      "max_comments": 0, 
+      "language": "zh", 
+      "display_url": "http://toutiao.com/group/6357180899378299138/", 
+      "region": 156, 
+      "content_cards": "", 
+      "has_gallery": false, 
+      "modify_time": 1480147645, 
+      "content_cntw": 20, 
+      "detail_mode": 0, 
+      "impression_count": 209, 
+      "image_list": [
+        {
+          "url": "http://p2.pstatp.com/list/f900012541b58dea2f6", 
+          "pc_url": "http://p2.pstatp.com/list/194x108/f900012541b58dea2f6"
+        }
+      ], 
+      "str_item_id": "6357185255589282306", 
+      "group_status": 1, 
+      "creator_uid": 6518071856, 
+      "original_media_id": 0, 
+      "city": "", 
+      "bury_count": 0, 
+      "web_article_type": 1, 
+      "review_comment": false, 
+      "comment_count": 0, 
+      "media_id": 6518345701, 
+      "go_detail_count": "148", 
+      "group_flags": 64, 
+      "detail_play_effective_count": 84, 
+      "visibility": 3, 
+      "pc_image_url": "http://p2.pstatp.com/list/126x82/f900012541b58dea2f6", 
+      "was_recommended": 1, 
+      "thumb_image": [], 
+      "seo_url": "http://ib.snssdk.com/item/6357185255589282306/", 
+      "external_visit_count": 7, 
+      "image_detail": [], 
+      "ban_action": false, 
+      "review_comment_mode": 0, 
+      "has_inner_video": true, 
+      "has_image": false, 
+      "play_effective_count": "85", 
+      "ban_comment": 0, 
+      "show_play_effective_count": true, 
+      "abstract": "\u300a\u529f\u592b\u300b\u7684\u8fd9\u4e9b\u7247\u6bb5\u90fd\u6ca1\u5728\u7535\u5f71\u9662\u770b\u5230\uff0c\u53ef\u60dc\u4e86", 
+      "middle_mode": true, 
+      "is_original": false, 
+      "ban_bury": false, 
+      "article_type": 0, 
+      "tag": "video_movie", 
+      "image_infos": [], 
+      "optional_data": {
+        "auth_regions": ""
+      }, 
+      "app_url": "sslocal://detail?item_id=6357185255589282306&flags=64&groupid=6357180899378299138&gd_label=click_pgc&aggr_type=2", 
+      "has_video": true, 
+      "article_url": "http://toutiao.com/group/6357180899378299138/", 
+      "video_duration_str": "03:18", 
+      "display_mode": "middle", 
+      "composition": 264, 
+      "publish_time": 1480147534, 
+      "wap_open": 0, 
+      "tag_id": 6357180899378299138, 
+      "pgc_article_type": 1, 
+      "display_type": 0, 
+      "gallery": [], 
+      "detail_source": "\u5171\u8d4f\u96c5\u4fd7", 
+      "url": "http://toutiao.com/group/6357180899378299138/", 
+      "web_display_type": 4, 
+      "behot_time": 1480147534, 
+      "flags": 64
+    }, 
+    {
+      "item_status": 20, 
+      "datetime": "2016-11-25 15:12", 
+      "video_infos": [
+        {
+          "thumb_height": 360, 
+          "vid": "7702e1c5b33a4564bf7129c1a38c026c", 
+          "thumb_width": 640, 
+          "sp": "toutiao", 
+          "video_size": {
+            "high": {
+              "h": 400, 
+              "subjective_score": 2, 
+              "w": 712, 
+              "file_size": 4833909
+            }, 
+            "normal": {
+              "h": 360, 
+              "subjective_score": 2, 
+              "w": 640, 
+              "file_size": 4128108
+            }
+          }, 
+          "video_partner": 0, 
+          "duration": 152, 
+          "thumb_url": "12020000cc05f6369560", 
+          "vu": "7702e1c5b33a4564bf7129c1a38c026c"
+        }
+      ], 
+      "has_m3u8_video": 0, 
+      "keywords": "\u5468\u603b\u7406", 
+      "article_live_type": "none", 
+      "has_mp4_video": 0, 
+      "title": "\u5468\u603b\u7406\u5411\u4e3b\u5e2d\u62a5\u544a\u6797\u5f6a\u51fa\u9003\uff0c\u4e3b\u5e2d\u8bf4\u7684\u6700\u540e\u4e00\u53e5\u8bdd\u6700\u9738\u6c14", 
+      "source": "\u5171\u8d4f\u96c5\u4fd7", 
+      "natant_level": 0, 
+      "own_group": false, 
+      "share_count": 606, 
+      "list_play_effective_count": 89434, 
+      "verify_detail": {
+        "pass_time": "2016-11-25 15:14:38", 
+        "auto": {
+          "status": 10
+        }, 
+        "editor": {
+          "status": 20
+        }
+      }, 
+      "categories": [
+        "video_history"
+      ], 
+      "repin_count": 684, 
+      "display_status": 35180, 
+      "level": 0, 
+      "digg_count": 192, 
+      "comments_count": "47", 
+      "cover_image_infos": [
+        {
+          "mimetype": "image/jpeg", 
+          "image_type": 1, 
+          "height": 360, 
+          "width": 640, 
+          "web_uri": "12020000cc05f6369560", 
+          "desc": ""
+        }
+      ], 
+      "group_id": 6356798259155632386, 
+      "middle_image": "http://p2.pstatp.com/list/12020000cc05f6369560", 
+      "pgc_id": 6356800428897731073, 
+      "ad_type": 3, 
+      "live_status": "", 
+      "create_time": 1480058026, 
+      "book_info": "", 
+      "article_sub_type": 0, 
+      "label": [
+        "\u6797\u5f6a", 
+        "\u5468\u6069\u6765", 
+        "\u4e2d\u56fd\u5386\u53f2"
+      ], 
+      "pgc_ad": 3, 
+      "group_source": 2, 
+      "image_url": "http://p2.pstatp.com/list/12020000cc05f6369560", 
+      "is_key_item": 1, 
+      "str_group_id": "6356798259155632386", 
+      "source_url": "http://ib.snssdk.com/item/6356800428897731073/", 
+      "item_id": 6356800428897731073, 
+      "good_voice": false, 
+      "max_comments": 0, 
+      "language": "zh", 
+      "display_url": "http://toutiao.com/group/6356798259155632386/", 
+      "region": 156, 
+      "content_cards": "", 
+      "has_gallery": false, 
+      "modify_time": 1480096658, 
+      "content_cntw": 24, 
+      "detail_mode": 0, 
+      "impression_count": 1606341, 
+      "image_list": [
+        {
+          "url": "http://p2.pstatp.com/list/12020000cc05f6369560", 
+          "pc_url": "http://p2.pstatp.com/list/194x108/12020000cc05f6369560"
+        }
+      ], 
+      "str_item_id": "6356800428897731073", 
+      "group_status": 127, 
+      "creator_uid": 6518071856, 
+      "original_media_id": 0, 
+      "city": "", 
+      "bury_count": 79, 
+      "web_article_type": 1, 
+      "review_comment": true, 
+      "comment_count": 47, 
+      "media_id": 6518345701, 
+      "go_detail_count": "12\u4e07", 
+      "group_flags": 64, 
+      "detail_play_effective_count": 101306, 
+      "visibility": 3, 
+      "pc_image_url": "http://p2.pstatp.com/list/126x82/12020000cc05f6369560", 
+      "was_recommended": 1, 
+      "thumb_image": [], 
+      "seo_url": "http://ib.snssdk.com/item/6356800428897731073/", 
+      "external_visit_count": 4709, 
+      "image_detail": [], 
+      "ban_action": false, 
+      "review_comment_mode": 0, 
+      "has_inner_video": true, 
+      "has_image": false, 
+      "play_effective_count": "19\u4e07", 
+      "ban_comment": 0, 
+      "show_play_effective_count": true, 
+      "abstract": "\u5468\u603b\u7406\u5411\u4e3b\u5e2d\u62a5\u544a\u6797\u5f6a\u51fa\u9003\uff0c\u4e3b\u5e2d\u8bf4\u7684\u6700\u540e\u4e00\u53e5\u8bdd\u6700\u9738\u6c14", 
+      "middle_mode": true, 
+      "is_original": false, 
+      "ban_bury": false, 
+      "article_type": 0, 
+      "tag": "video_history", 
+      "image_infos": [], 
+      "optional_data": {
+        "auth_regions": ""
+      }, 
+      "app_url": "sslocal://detail?item_id=6356800428897731073&flags=64&groupid=6356798259155632386&gd_label=click_pgc&aggr_type=2", 
+      "has_video": true, 
+      "article_url": "http://toutiao.com/group/6356798259155632386/", 
+      "video_duration_str": "02:32", 
+      "display_mode": "middle", 
+      "composition": 264, 
+      "publish_time": 1480057935, 
+      "wap_open": 0, 
+      "tag_id": 6356798259155632386, 
+      "pgc_article_type": 1, 
+      "display_type": 0, 
+      "gallery": [], 
+      "detail_source": "\u5171\u8d4f\u96c5\u4fd7", 
+      "url": "http://toutiao.com/group/6356798259155632386/", 
+      "web_display_type": 4, 
+      "behot_time": 1480057935, 
+      "flags": 64
+    }, 
+    {
+      "item_status": 20, 
+      "datetime": "2016-11-25 15:07", 
+      "video_infos": [
+        {
+          "thumb_height": 360, 
+          "vid": "6e9092cd49b74041992383474fd03e63", 
+          "thumb_width": 640, 
+          "sp": "toutiao", 
+          "video_size": {
+            "normal": {
+              "h": 360, 
+              "subjective_score": 3, 
+              "w": 640, 
+              "file_size": 11480511
+            }
+          }, 
+          "video_partner": 0, 
+          "duration": 265, 
+          "thumb_url": "f9000111cedb97339b0", 
+          "vu": "6e9092cd49b74041992383474fd03e63"
+        }
+      ], 
+      "has_m3u8_video": 0, 
+      "keywords": "", 
+      "article_live_type": "none", 
+      "has_mp4_video": 0, 
+      "title": "\u5c0f\u592b\u59bb\u5fd9\u9020\u4eba\uff0c\u53ef\u628a\u95e8\u5916\u7684\u4e08\u6bcd\u5a18\u6025\u574f\u4e86", 
+      "source": "\u5171\u8d4f\u96c5\u4fd7", 
+      "natant_level": 0, 
+      "own_group": false, 
+      "share_count": 27674, 
+      "list_play_effective_count": 1420090, 
+      "verify_detail": {
+        "pass_time": "2016-11-25 15:10:40", 
+        "auto": {
+          "status": 10
+        }, 
+        "editor": {
+          "status": 20
+        }
+      }, 
+      "categories": [
+        "video_emotion"
+      ], 
+      "repin_count": 12437, 
+      "display_status": 2052, 
+      "level": 0, 
+      "digg_count": 2066, 
+      "comments_count": "210", 
+      "cover_image_infos": [
+        {
+          "mimetype": "image/jpeg", 
+          "image_type": 1, 
+          "height": 360, 
+          "width": 640, 
+          "web_uri": "f9000111cedb97339b0", 
+          "desc": ""
+        }
+      ], 
+      "group_id": 6356796986112475393, 
+      "middle_image": "http://p2.pstatp.com/list/f9000111cedb97339b0", 
+      "pgc_id": 6356799117179486721, 
+      "ad_type": 3, 
+      "live_status": "", 
+      "create_time": 1480057723, 
+      "book_info": "", 
+      "article_sub_type": 0, 
+      "label": [
+        "\u5907\u5b55"
+      ], 
+      "pgc_ad": 3, 
+      "group_source": 2, 
+      "image_url": "http://p2.pstatp.com/list/f9000111cedb97339b0", 
+      "is_key_item": 1, 
+      "str_group_id": "6356796986112475393", 
+      "source_url": "http://ib.snssdk.com/item/6356799117179486721/", 
+      "item_id": 6356799117179486721, 
+      "good_voice": false, 
+      "max_comments": 0, 
+      "language": "zh", 
+      "display_url": "http://toutiao.com/group/6356796986112475393/", 
+      "region": 156, 
+      "content_cards": "", 
+      "has_gallery": false, 
+      "modify_time": 1480166871, 
+      "content_cntw": 17, 
+      "detail_mode": 0, 
+      "impression_count": 13297726, 
+      "image_list": [
+        {
+          "url": "http://p2.pstatp.com/list/f9000111cedb97339b0", 
+          "pc_url": "http://p2.pstatp.com/list/194x108/f9000111cedb97339b0"
+        }
+      ], 
+      "str_item_id": "6356799117179486721", 
+      "group_status": 1, 
+      "creator_uid": 6518071856, 
+      "original_media_id": 0, 
+      "city": "", 
+      "bury_count": 1537, 
+      "web_article_type": 1, 
+      "review_comment": false, 
+      "comment_count": 210, 
+      "media_id": 6518345701, 
+      "go_detail_count": "165\u4e07", 
+      "group_flags": 64, 
+      "detail_play_effective_count": 1278761, 
+      "visibility": 3, 
+      "pc_image_url": "http://p2.pstatp.com/list/126x82/f9000111cedb97339b0", 
+      "was_recommended": 1, 
+      "thumb_image": [], 
+      "seo_url": "http://ib.snssdk.com/item/6356799117179486721/", 
+      "external_visit_count": 125864, 
+      "image_detail": [], 
+      "ban_action": false, 
+      "review_comment_mode": 0, 
+      "has_inner_video": true, 
+      "has_image": false, 
+      "play_effective_count": "269\u4e07", 
+      "ban_comment": 0, 
+      "show_play_effective_count": true, 
+      "abstract": "\u5c0f\u592b\u59bb\u5fd9\u9020\u4eba\uff0c\u53ef\u628a\u95e8\u5916\u7684\u4e08\u6bcd\u5a18\u6025\u574f\u4e86", 
+      "middle_mode": true, 
+      "is_original": false, 
+      "ban_bury": false, 
+      "article_type": 0, 
+      "tag": "video_emotion", 
+      "image_infos": [], 
+      "optional_data": {
+        "auth_regions": ""
+      }, 
+      "app_url": "sslocal://detail?item_id=6356799117179486721&flags=64&groupid=6356796986112475393&gd_label=click_pgc&aggr_type=2", 
+      "has_video": true, 
+      "article_url": "http://toutiao.com/group/6356796986112475393/", 
+      "video_duration_str": "04:25", 
+      "display_mode": "middle", 
+      "composition": 264, 
+      "publish_time": 1480057630, 
+      "wap_open": 0, 
+      "tag_id": 6356796986112475393, 
+      "pgc_article_type": 1, 
+      "display_type": 0, 
+      "gallery": [], 
+      "detail_source": "\u5171\u8d4f\u96c5\u4fd7", 
+      "url": "http://toutiao.com/group/6356796986112475393/", 
+      "web_display_type": 4, 
+      "behot_time": 1480057630, 
+      "flags": 64
+    }, 
+    {
+      "item_status": 20, 
+      "datetime": "2016-11-25 14:57", 
+      "video_infos": [
+        {
+          "thumb_height": 360, 
+          "vid": "886b367af33949b9aa718bb94269a383", 
+          "thumb_width": 640, 
+          "sp": "toutiao", 
+          "video_size": {
+            "normal": {
+              "h": 360, 
+              "subjective_score": 2, 
+              "w": 640, 
+              "file_size": 6862228
+            }
+          }, 
+          "video_partner": 0, 
+          "duration": 139, 
+          "thumb_url": "1139000c3435cf459721", 
+          "vu": "886b367af33949b9aa718bb94269a383"
+        }
+      ], 
+      "has_m3u8_video": 0, 
+      "keywords": "", 
+      "article_live_type": "none", 
+      "has_mp4_video": 0, 
+      "title": "\u4e24\u4e2a\u5b69\u5b50\u540c\u65f6\u51fa\u751f\uff0c\u4f46\u4e00\u751f\u4e0b\u6765\u5c31\u660e\u663e\u6709\u4e86\u5dee\u8ddd", 
+      "source": "\u5171\u8d4f\u96c5\u4fd7", 
+      "natant_level": 0, 
+      "own_group": false, 
+      "share_count": 0, 
+      "list_play_effective_count": 13, 
+      "verify_detail": {
+        "pass_time": "2016-11-25 15:00:10", 
+        "auto": {
+          "status": 10
+        }, 
+        "editor": {
+          "status": 20
+        }
+      }, 
+      "categories": [
+        "news_baby/other", 
+        "news_baby"
+      ], 
+      "repin_count": 15, 
+      "display_status": 0, 
+      "level": 0, 
+      "digg_count": 2, 
+      "comments_count": "1", 
+      "cover_image_infos": [
+        {
+          "mimetype": "image/jpeg", 
+          "image_type": 1, 
+          "height": 360, 
+          "width": 640, 
+          "web_uri": "1139000c3435cf459721", 
+          "desc": ""
+        }
+      ], 
+      "group_id": 6356794450065064193, 
+      "middle_image": "http://p2.pstatp.com/list/1139000c3435cf459721", 
+      "pgc_id": 6356796511648481794, 
+      "ad_type": 3, 
+      "live_status": "", 
+      "create_time": 1480057073, 
+      "book_info": "", 
+      "article_sub_type": 0, 
+      "label": [
+        "\u80b2\u513f"
+      ], 
+      "pgc_ad": 3, 
+      "group_source": 2, 
+      "image_url": "http://p2.pstatp.com/list/1139000c3435cf459721", 
+      "is_key_item": 1, 
+      "str_group_id": "6356794450065064193", 
+      "source_url": "http://ib.snssdk.com/item/6356796511648481794/", 
+      "item_id": 6356796511648481794, 
+      "good_voice": false, 
+      "max_comments": 0, 
+      "language": "zh", 
+      "display_url": "http://toutiao.com/group/6356794450065064193/", 
+      "region": 156, 
+      "content_cards": "", 
+      "has_gallery": false, 
+      "modify_time": 1480057242, 
+      "content_cntw": 20, 
+      "detail_mode": 0, 
+      "impression_count": 808, 
+      "image_list": [
+        {
+          "url": "http://p2.pstatp.com/list/1139000c3435cf459721", 
+          "pc_url": "http://p2.pstatp.com/list/194x108/1139000c3435cf459721"
+        }
+      ], 
+      "str_item_id": "6356796511648481794", 
+      "group_status": 1, 
+      "creator_uid": 6518071856, 
+      "original_media_id": 0, 
+      "city": "", 
+      "bury_count": 0, 
+      "web_article_type": 1, 
+      "review_comment": false, 
+      "comment_count": 1, 
+      "media_id": 6518345701, 
+      "go_detail_count": "842", 
+      "group_flags": 64, 
+      "detail_play_effective_count": 485, 
+      "visibility": 3, 
+      "pc_image_url": "http://p2.pstatp.com/list/126x82/1139000c3435cf459721", 
+      "was_recommended": 1, 
+      "thumb_image": [], 
+      "seo_url": "http://ib.snssdk.com/item/6356796511648481794/", 
+      "external_visit_count": 43, 
+      "image_detail": [], 
+      "ban_action": false, 
+      "review_comment_mode": 0, 
+      "has_inner_video": true, 
+      "has_image": false, 
+      "play_effective_count": "498", 
+      "ban_comment": 0, 
+      "show_play_effective_count": true, 
+      "abstract": "\u4e24\u4e2a\u5b69\u5b50\u540c\u65f6\u51fa\u751f\uff0c\u4f46\u4e00\u751f\u4e0b\u6765\u5c31\u660e\u663e\u6709\u4e86\u5dee\u8ddd", 
+      "middle_mode": true, 
+      "is_original": false, 
+      "ban_bury": false, 
+      "article_type": 0, 
+      "tag": "news_baby", 
+      "image_infos": [], 
+      "optional_data": {
+        "auth_regions": ""
+      }, 
+      "app_url": "sslocal://detail?item_id=6356796511648481794&flags=64&groupid=6356794450065064193&gd_label=click_pgc&aggr_type=2", 
+      "has_video": true, 
+      "article_url": "http://toutiao.com/group/6356794450065064193/", 
+      "video_duration_str": "02:19", 
+      "display_mode": "middle", 
+      "composition": 264, 
+      "publish_time": 1480057023, 
+      "wap_open": 0, 
+      "tag_id": 6356794450065064193, 
+      "pgc_article_type": 1, 
+      "display_type": 0, 
+      "gallery": [], 
+      "detail_source": "\u5171\u8d4f\u96c5\u4fd7", 
+      "url": "http://toutiao.com/group/6356794450065064193/", 
+      "web_display_type": 4, 
+      "behot_time": 1480057023, 
+      "flags": 64
+    }, 
+    {
+      "item_status": 20, 
+      "datetime": "2016-11-25 14:53", 
+      "video_infos": [
+        {
+          "thumb_height": 344, 
+          "vid": "9b6e26bf2cb64b659fdb0e6a6f55b70d", 
+          "thumb_width": 616, 
+          "sp": "toutiao", 
+          "video_size": {
+            "normal": {
+              "h": 344, 
+              "subjective_score": 3, 
+              "w": 616, 
+              "file_size": 5595349
+            }
+          }, 
+          "video_partner": 0, 
+          "duration": 146, 
+          "thumb_url": "120900036b0c2f87f736", 
+          "vu": "9b6e26bf2cb64b659fdb0e6a6f55b70d"
+        }
+      ], 
+      "has_m3u8_video": 0, 
+      "keywords": "", 
+      "article_live_type": "none", 
+      "has_mp4_video": 0, 
+      "title": "\u5973\u5b50\u7a7a\u59d0\u9762\u8bd5\uff0c\u5f53\u8003\u5b98\u7684\u8001\u516c\u5413\u5f97\u5750\u5230\u4e86\u5730\u4e0a", 
+      "source": "\u5171\u8d4f\u96c5\u4fd7", 
+      "natant_level": 0, 
+      "own_group": false, 
+      "share_count": 4, 
+      "list_play_effective_count": 0, 
+      "verify_detail": {
+        "pass_time": "2016-11-25 15:01:19", 
+        "auto": {
+          "status": 10
+        }, 
+        "editor": {
+          "status": 20
+        }
+      }, 
+      "categories": [
+        "video_funny"
+      ], 
+      "repin_count": 10, 
+      "display_status": 0, 
+      "level": 0, 
+      "digg_count": 0, 
+      "comments_count": "0", 
+      "cover_image_infos": [
+        {
+          "mimetype": "image/jpeg", 
+          "image_type": 1, 
+          "height": 344, 
+          "width": 616, 
+          "web_uri": "120900036b0c2f87f736", 
+          "desc": ""
+        }
+      ], 
+      "group_id": 6347543885123813634, 
+      "middle_image": "http://p2.pstatp.com/list/120900036b0c2f87f736", 
+      "pgc_id": 6356795680157073921, 
+      "ad_type": 3, 
+      "live_status": "", 
+      "create_time": 1480056902, 
+      "book_info": "", 
+      "article_sub_type": 0, 
+      "label": [], 
+      "pgc_ad": 3, 
+      "group_source": 2, 
+      "image_url": "http://p2.pstatp.com/list/120900036b0c2f87f736", 
+      "is_key_item": 0, 
+      "str_group_id": "6347543885123813634", 
+      "source_url": "http://ib.snssdk.com/item/6356795680157073921/", 
+      "item_id": 6356795680157073921, 
+      "good_voice": false, 
+      "max_comments": 0, 
+      "language": "zh", 
+      "display_url": "http://toutiao.com/group/6347543885123813634/", 
+      "region": 156, 
+      "content_cards": "", 
+      "has_gallery": false, 
+      "modify_time": 1480057279, 
+      "content_cntw": 19, 
+      "detail_mode": 0, 
+      "impression_count": 0, 
+      "image_list": [
+        {
+          "url": "http://p2.pstatp.com/list/120900036b0c2f87f736", 
+          "pc_url": "http://p2.pstatp.com/list/194x108/120900036b0c2f87f736"
+        }
+      ], 
+      "str_item_id": "6356795680157073921", 
+      "group_status": 1, 
+      "creator_uid": 6803984883, 
+      "original_media_id": 0, 
+      "city": "", 
+      "bury_count": 0, 
+      "web_article_type": 1, 
+      "review_comment": false, 
+      "comment_count": 0, 
+      "media_id": 6518345701, 
+      "go_detail_count": "867", 
+      "group_flags": 64, 
+      "detail_play_effective_count": 549, 
+      "visibility": 3, 
+      "pc_image_url": "http://p2.pstatp.com/list/126x82/120900036b0c2f87f736", 
+      "was_recommended": 0, 
+      "thumb_image": [], 
+      "seo_url": "http://ib.snssdk.com/item/6356795680157073921/", 
+      "external_visit_count": 52, 
+      "image_detail": [], 
+      "ban_action": false, 
+      "review_comment_mode": 0, 
+      "has_inner_video": true, 
+      "has_image": false, 
+      "play_effective_count": "549", 
+      "ban_comment": 0, 
+      "show_play_effective_count": true, 
+      "abstract": "\u5973\u5b50\u7a7a\u59d0\u9762\u8bd5\uff0c\u5f53\u8003\u5b98\u7684\u8001\u516c\u5413\u5f97\u5750\u5230\u4e86\u5730\u4e0a", 
+      "middle_mode": true, 
+      "is_original": false, 
+      "ban_bury": false, 
+      "article_type": 0, 
+      "tag": "video_funny", 
+      "image_infos": [], 
+      "optional_data": {
+        "auth_regions": ""
+      }, 
+      "app_url": "sslocal://detail?item_id=6356795680157073921&flags=64&groupid=6347543885123813634&gd_label=click_pgc&aggr_type=2", 
+      "has_video": true, 
+      "article_url": "http://toutiao.com/group/6347543885123813634/", 
+      "video_duration_str": "02:26", 
+      "display_mode": "middle", 
+      "composition": 264, 
+      "publish_time": 1480056829, 
+      "wap_open": 0, 
+      "tag_id": 6347543885123813634, 
+      "pgc_article_type": 1, 
+      "display_type": 0, 
+      "gallery": [], 
+      "detail_source": "\u5171\u8d4f\u96c5\u4fd7", 
+      "url": "http://toutiao.com/group/6347543885123813634/", 
+      "web_display_type": 4, 
+      "behot_time": 1480056829, 
+      "flags": 64
+    }, 
+    {
+      "item_status": 20, 
+      "datetime": "2016-11-25 14:24", 
+      "video_infos": [
+        {
+          "thumb_height": 360, 
+          "vid": "515735a086d54861949a45d28e978dd0", 
+          "thumb_width": 640, 
+          "sp": "toutiao", 
+          "video_size": {
+            "normal": {
+              "h": 360, 
+              "subjective_score": 2, 
+              "w": 640, 
+              "file_size": 8198655
+            }
+          }, 
+          "video_partner": 0, 
+          "duration": 235, 
+          "thumb_url": "1139000c289248769c9c", 
+          "vu": "515735a086d54861949a45d28e978dd0"
+        }
+      ], 
+      "has_m3u8_video": 0, 
+      "keywords": "\u6bdb\u4e3b\u5e2d", 
+      "article_live_type": "none", 
+      "has_mp4_video": 0, 
+      "title": "\u519c\u6751\u4eba\u662f\u8fd9\u4e48\u7eaa\u5ff5\u6bdb\u4e3b\u5e2d\u901d\u4e16\u7684", 
+      "source": "\u5171\u8d4f\u96c5\u4fd7", 
+      "natant_level": 0, 
+      "own_group": false, 
+      "share_count": 307, 
+      "list_play_effective_count": 8295, 
+      "verify_detail": {
+        "pass_time": "2016-11-25 14:27:44", 
+        "auto": {
+          "status": 10
+        }, 
+        "editor": {
+          "status": 20
+        }
+      }, 
+      "categories": [
+        "news_agriculture/farming", 
+        "news_agriculture"
+      ], 
+      "repin_count": 537, 
+      "display_status": 2052, 
+      "level": 0, 
+      "digg_count": 371, 
+      "comments_count": "118", 
+      "cover_image_infos": [
+        {
+          "mimetype": "image/jpeg", 
+          "image_type": 1, 
+          "height": 360, 
+          "width": 640, 
+          "web_uri": "1139000c289248769c9c", 
+          "desc": ""
+        }
+      ], 
+      "group_id": 6356785777225728258, 
+      "middle_image": "http://p2.pstatp.com/list/1139000c289248769c9c", 
+      "pgc_id": 6356788124235858434, 
+      "ad_type": 3, 
+      "live_status": "", 
+      "create_time": 1480055176, 
+      "book_info": "", 
+      "article_sub_type": 0, 
+      "label": [
+        "\u519c\u4e1a", 
+        "\u519c\u6c11", 
+        "\u519c\u6751", 
+        "\u4e09\u519c"
+      ], 
+      "pgc_ad": 3, 
+      "group_source": 2, 
+      "image_url": "http://p2.pstatp.com/list/1139000c289248769c9c", 
+      "is_key_item": 1, 
+      "str_group_id": "6356785777225728258", 
+      "source_url": "http://ib.snssdk.com/item/6356788124235858434/", 
+      "item_id": 6356788124235858434, 
+      "good_voice": false, 
+      "max_comments": 0, 
+      "language": "zh", 
+      "display_url": "http://toutiao.com/group/6356785777225728258/", 
+      "region": 156, 
+      "content_cards": "", 
+      "has_gallery": false, 
+      "modify_time": 1480166032, 
+      "content_cntw": 14, 
+      "detail_mode": 0, 
+      "impression_count": 424709, 
+      "image_list": [
+        {
+          "url": "http://p2.pstatp.com/list/1139000c289248769c9c", 
+          "pc_url": "http://p2.pstatp.com/list/194x108/1139000c289248769c9c"
+        }
+      ], 
+      "str_item_id": "6356788124235858434", 
+      "group_status": 1, 
+      "creator_uid": 6518071856, 
+      "original_media_id": 0, 
+      "city": "", 
+      "bury_count": 62, 
+      "web_article_type": 1, 
+      "review_comment": true, 
+      "comment_count": 118, 
+      "media_id": 6518345701, 
+      "go_detail_count": "6.6\u4e07", 
+      "group_flags": 64, 
+      "detail_play_effective_count": 50606, 
+      "visibility": 3, 
+      "pc_image_url": "http://p2.pstatp.com/list/126x82/1139000c289248769c9c", 
+      "was_recommended": 1, 
+      "thumb_image": [], 
+      "seo_url": "http://ib.snssdk.com/item/6356788124235858434/", 
+      "external_visit_count": 2046, 
+      "image_detail": [], 
+      "ban_action": false, 
+      "review_comment_mode": 0, 
+      "has_inner_video": true, 
+      "has_image": false, 
+      "play_effective_count": "5.9\u4e07", 
+      "ban_comment": 0, 
+      "show_play_effective_count": true, 
+      "abstract": "\u519c\u6751\u4eba\u662f\u8fd9\u4e48\u7eaa\u5ff5\u6bdb\u4e3b\u5e2d\u901d\u4e16\u7684", 
+      "middle_mode": true, 
+      "is_original": false, 
+      "ban_bury": false, 
+      "article_type": 0, 
+      "tag": "news_agriculture", 
+      "image_infos": [], 
+      "optional_data": {
+        "auth_regions": ""
+      }, 
+      "app_url": "sslocal://detail?item_id=6356788124235858434&flags=64&groupid=6356785777225728258&gd_label=click_pgc&aggr_type=2", 
+      "has_video": true, 
+      "article_url": "http://toutiao.com/group/6356785777225728258/", 
+      "video_duration_str": "03:55", 
+      "display_mode": "middle", 
+      "composition": 264, 
+      "publish_time": 1480055070, 
+      "wap_open": 0, 
+      "tag_id": 6356785777225728258, 
+      "pgc_article_type": 1, 
+      "display_type": 0, 
+      "gallery": [], 
+      "detail_source": "\u5171\u8d4f\u96c5\u4fd7", 
+      "url": "http://toutiao.com/group/6356785777225728258/", 
+      "web_display_type": 4, 
+      "behot_time": 1480055070, 
+      "flags": 64
+    }, 
+    {
+      "item_status": 20, 
+      "datetime": "2016-11-24 14:40", 
+      "video_infos": [
+        {
+          "thumb_height": 360, 
+          "vid": "8f8605fe993c43e8a446509e9eb2b233", 
+          "thumb_width": 640, 
+          "sp": "toutiao", 
+          "video_size": {
+            "normal": {
+              "h": 360, 
+              "subjective_score": 1, 
+              "w": 640, 
+              "file_size": 3462804
+            }
+          }, 
+          "video_partner": 0, 
+          "duration": 195, 
+          "thumb_url": "11fd0000dfec2a0b4991", 
+          "vu": "8f8605fe993c43e8a446509e9eb2b233"
+        }
+      ], 
+      "has_m3u8_video": 0, 
+      "keywords": "", 
+      "article_live_type": "none", 
+      "has_mp4_video": 0, 
+      "title": "\u59d1\u5a18\u6df1\u591c\u72ec\u81ea\u5728\u5bb6\uff0c\u53d1\u751f\u7684\u8fd9\u4e9b\u4e8b\u8ba9\u4eba\u5bb3\u6015", 
+      "source": "\u5171\u8d4f\u96c5\u4fd7", 
+      "natant_level": 0, 
+      "own_group": false, 
+      "share_count": 2, 
+      "list_play_effective_count": 3495, 
+      "verify_detail": {
+        "pass_time": "2016-11-24 18:27:54", 
+        "auto": {
+          "status": 10
+        }, 
+        "editor": {
+          "status": 20
+        }
+      }, 
+      "categories": [
+        "news"
+      ], 
+      "repin_count": 7, 
+      "display_status": 0, 
+      "level": 0, 
+      "digg_count": 0, 
+      "comments_count": "0", 
+      "cover_image_infos": [
+        {
+          "mimetype": "image/jpeg", 
+          "image_type": 1, 
+          "height": 360, 
+          "width": 640, 
+          "web_uri": "11fd0000dfec2a0b4991", 
+          "desc": ""
+        }
+      ], 
+      "group_id": 6356418893909852418, 
+      "middle_image": "http://p2.pstatp.com/list/11fd0000dfec2a0b4991", 
+      "pgc_id": 6356421273806963202, 
+      "ad_type": 3, 
+      "live_status": "", 
+      "create_time": 1479969685, 
+      "book_info": "", 
+      "article_sub_type": 0, 
+      "label": [], 
+      "pgc_ad": 3, 
+      "group_source": 2, 
+      "image_url": "http://p2.pstatp.com/list/11fd0000dfec2a0b4991", 
+      "is_key_item": 1, 
+      "str_group_id": "6356418893909852418", 
+      "source_url": "http://ib.snssdk.com/item/6356421273806963202/", 
+      "item_id": 6356421273806963202, 
+      "good_voice": false, 
+      "max_comments": 0, 
+      "language": "zh", 
+      "display_url": "http://toutiao.com/group/6356418893909852418/", 
+      "region": 156, 
+      "content_cards": "", 
+      "has_gallery": false, 
+      "modify_time": 1479983291, 
+      "content_cntw": 18, 
+      "detail_mode": 0, 
+      "impression_count": 31063, 
+      "image_list": [
+        {
+          "url": "http://p2.pstatp.com/list/11fd0000dfec2a0b4991", 
+          "pc_url": "http://p2.pstatp.com/list/194x108/11fd0000dfec2a0b4991"
+        }
+      ], 
+      "str_item_id": "6356421273806963202", 
+      "group_status": 1, 
+      "creator_uid": 6518071856, 
+      "original_media_id": 0, 
+      "city": "", 
+      "bury_count": 2, 
+      "web_article_type": 1, 
+      "review_comment": false, 
+      "comment_count": 0, 
+      "media_id": 6518345701, 
+      "go_detail_count": "1052", 
+      "group_flags": 64, 
+      "detail_play_effective_count": 770, 
+      "visibility": 3, 
+      "pc_image_url": "http://p2.pstatp.com/list/126x82/11fd0000dfec2a0b4991", 
+      "was_recommended": 1, 
+      "thumb_image": [], 
+      "seo_url": "http://ib.snssdk.com/item/6356421273806963202/", 
+      "external_visit_count": 82, 
+      "image_detail": [], 
+      "ban_action": false, 
+      "review_comment_mode": 0, 
+      "has_inner_video": true, 
+      "has_image": false, 
+      "play_effective_count": "4265", 
+      "ban_comment": 0, 
+      "show_play_effective_count": true, 
+      "abstract": "\u59d1\u5a18\u6df1\u591c\u72ec\u81ea\u5728\u5bb6\uff0c\u53d1\u751f\u7684\u8fd9\u4e9b\u4e8b\u8ba9\u4eba\u5bb3\u6015", 
+      "middle_mode": true, 
+      "is_original": false, 
+      "ban_bury": false, 
+      "article_type": 0, 
+      "tag": "news", 
+      "image_infos": [], 
+      "optional_data": {
+        "auth_regions": ""
+      }, 
+      "app_url": "sslocal://detail?item_id=6356421273806963202&flags=64&groupid=6356418893909852418&gd_label=click_pgc&aggr_type=2", 
+      "has_video": true, 
+      "article_url": "http://toutiao.com/group/6356418893909852418/", 
+      "video_duration_str": "03:15", 
+      "display_mode": "middle", 
+      "composition": 264, 
+      "publish_time": 1479969656, 
+      "wap_open": 0, 
+      "tag_id": 6356418893909852418, 
+      "pgc_article_type": 1, 
+      "display_type": 0, 
+      "gallery": [], 
+      "detail_source": "\u5171\u8d4f\u96c5\u4fd7", 
+      "url": "http://toutiao.com/group/6356418893909852418/", 
+      "web_display_type": 4, 
+      "behot_time": 1479969656, 
+      "flags": 64
+    }, 
+    {
+      "item_status": 20, 
+      "datetime": "2016-11-24 14:30", 
+      "video_infos": [
+        {
+          "thumb_height": 360, 
+          "vid": "1b1bfc13fbea45cbaed84596144377c2", 
+          "thumb_width": 640, 
+          "sp": "toutiao", 
+          "video_size": {
+            "normal": {
+              "h": 360, 
+              "subjective_score": 2, 
+              "w": 640, 
+              "file_size": 5310874
+            }
+          }, 
+          "video_partner": 0, 
+          "duration": 157, 
+          "thumb_url": "113600082dbfa973c43c", 
+          "vu": "1b1bfc13fbea45cbaed84596144377c2"
+        }
+      ], 
+      "has_m3u8_video": 0, 
+      "keywords": "", 
+      "article_live_type": "none", 
+      "has_mp4_video": 0, 
+      "title": "\u519c\u6751\u5c0f\u4f19\u6df1\u591c\u88ab\u5973\u8001\u677f\u6559\u5982\u4f55\u670d\u52a1\u5ba2\u4eba", 
+      "source": "\u5171\u8d4f\u96c5\u4fd7", 
+      "natant_level": 0, 
+      "own_group": false, 
+      "share_count": 14, 
+      "list_play_effective_count": 1190, 
+      "verify_detail": {
+        "pass_time": "2016-11-24 14:33:34", 
+        "auto": {
+          "status": 10
+        }, 
+        "editor": {
+          "status": 20
+        }
+      }, 
+      "categories": [
+        "video_emotion"
+      ], 
+      "repin_count": 182, 
+      "display_status": 0, 
+      "level": 0, 
+      "digg_count": 21, 
+      "comments_count": "1", 
+      "cover_image_infos": [
+        {
+          "mimetype": "image/jpeg", 
+          "image_type": 1, 
+          "height": 360, 
+          "width": 640, 
+          "web_uri": "113600082dbfa973c43c", 
+          "desc": ""
+        }
+      ], 
+      "group_id": 6356418430430920962, 
+      "middle_image": "http://p2.pstatp.com/list/113600082dbfa973c43c", 
+      "pgc_id": 6356418578433966593, 
+      "ad_type": 3, 
+      "live_status": "", 
+      "create_time": 1479969160, 
+      "book_info": "", 
+      "article_sub_type": 0, 
+      "label": [
+        "\u519c\u6751", 
+        "\u519c\u4e1a", 
+        "\u519c\u6c11"
+      ], 
+      "pgc_ad": 3, 
+      "group_source": 2, 
+      "image_url": "http://p2.pstatp.com/list/113600082dbfa973c43c", 
+      "is_key_item": 1, 
+      "str_group_id": "6356418430430920962", 
+      "source_url": "http://ib.snssdk.com/item/6356418578433966593/", 
+      "item_id": 6356418578433966593, 
+      "good_voice": false, 
+      "max_comments": 0, 
+      "language": "zh", 
+      "display_url": "http://toutiao.com/group/6356418430430920962/", 
+      "region": 156, 
+      "content_cards": "", 
+      "has_gallery": false, 
+      "modify_time": 1479992975, 
+      "content_cntw": 17, 
+      "detail_mode": 0, 
+      "impression_count": 238981, 
+      "image_list": [
+        {
+          "url": "http://p2.pstatp.com/list/113600082dbfa973c43c", 
+          "pc_url": "http://p2.pstatp.com/list/194x108/113600082dbfa973c43c"
+        }
+      ], 
+      "str_item_id": "6356418578433966593", 
+      "group_status": 1, 
+      "creator_uid": 6518071856, 
+      "original_media_id": 0, 
+      "city": "", 
+      "bury_count": 14, 
+      "web_article_type": 1, 
+      "review_comment": false, 
+      "comment_count": 1, 
+      "media_id": 6518345701, 
+      "go_detail_count": "3.1\u4e07", 
+      "group_flags": 64, 
+      "detail_play_effective_count": 24851, 
+      "visibility": 3, 
+      "pc_image_url": "http://p2.pstatp.com/list/126x82/113600082dbfa973c43c", 
+      "was_recommended": 1, 
+      "thumb_image": [], 
+      "seo_url": "http://ib.snssdk.com/item/6356418578433966593/", 
+      "external_visit_count": 1131, 
+      "image_detail": [], 
+      "ban_action": false, 
+      "review_comment_mode": 0, 
+      "has_inner_video": true, 
+      "has_image": false, 
+      "play_effective_count": "2.6\u4e07", 
+      "ban_comment": 0, 
+      "show_play_effective_count": true, 
+      "abstract": "\u519c\u6751\u5c0f\u4f19\u6df1\u591c\u88ab\u5973\u8001\u677f\u6559\u5982\u4f55\u670d\u52a1\u5ba2\u4eba", 
+      "middle_mode": true, 
+      "is_original": false, 
+      "ban_bury": false, 
+      "article_type": 0, 
+      "tag": "video_emotion", 
+      "image_infos": [], 
+      "optional_data": {
+        "auth_regions": ""
+      }, 
+      "app_url": "sslocal://detail?item_id=6356418578433966593&flags=64&groupid=6356418430430920962&gd_label=click_pgc&aggr_type=2", 
+      "has_video": true, 
+      "article_url": "http://toutiao.com/group/6356418430430920962/", 
+      "video_duration_str": "02:37", 
+      "display_mode": "middle", 
+      "composition": 264, 
+      "publish_time": 1479969028, 
+      "wap_open": 0, 
+      "tag_id": 6356418430430920962, 
+      "pgc_article_type": 1, 
+      "display_type": 0, 
+      "gallery": [], 
+      "detail_source": "\u5171\u8d4f\u96c5\u4fd7", 
+      "url": "http://toutiao.com/group/6356418430430920962/", 
+      "web_display_type": 4, 
+      "behot_time": 1479969028, 
+      "flags": 64
+    }
+  ]
+}
+[2016-11-26 23:05:47.442] [DEBUG] 今日头条 - string
+[2016-11-26 23:05:47.445] [DEBUG] 今日头条 - <!--5xx了python很可能没机会了，还有些是uwsgi挂掉了，所以必须用纯静态页-->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+<style type="text/css">
+html,body{ margin: 0; padding: 0; height:100%}
+#icon{
+    padding-top: 100px;
+}
+#icon img{
+    display: block;
+    margin:0 auto;
+    width: 226px;
+}
+#text{
+    font-size: 15px;
+    line-height: 1.5em;
+    color: #999;
+    text-align: center;
+}
+.night{background: #252525;}
+.night #icon{ opacity: .4;}
+.night #text{ color: #707070;}
+@media screen and (-webkit-min-device-pixel-ratio:3) {
+    #icon img{ width: 239px;}
+    #text{ font-size: 17px;}
+}
+</style>
+<script src="http://s2.pstatp.com/inapp/toutiao.js?v=98666"></script>
+</head>
+<body onclick="location.reload()">
+<div id="icon">
+    <img src="http://s2.pstatp.com/site/lib/images/placeholders/500_loading-736h@3x.png">
+</div>
+<div id="text">服务器错误</div>
+<script>
+(function(){
+    var body = document.querySelector("body");
+
+    function hasClass(obj, cls) {
+        var reg = new RegExp('(\\s|^)' + cls + '(\\s|$)');
+        return reg.test(obj.className);
+    };
+
+    function addClass(obj, cls) {
+        cls.split(/\s+/).forEach(function(_cls){
+            if (!hasClass(obj, _cls)) obj.className += " " + _cls;
+        });
+    };
+
+    function removeClass(obj, cls) {
+        cls.split(/\s+/).forEach(function(_cls){
+            var reg = new RegExp('(\\s|^)' + _cls + '(\\s|$)');
+            obj.className = obj.className.replace(reg, ' ');
+        });
+    };
+
+    function hash(arg){
+        var s = location.hash.substr(1),
+            hashQuery = {};
+
+        if(s){
+            var arr = s.split("&");
+            for (var i = 0; i< arr.length; i++ ){
+                var t = arr[i].split("=");
+                hashQuery[t[0]] = t[1];
+            }
+        }
+
+        if(typeof arg == "string"){
+            return hashQuery[arg];
+        }else if(typeof arg == "object"){
+            for(var k in arg){
+                hashQuery[k] = arg[k];
+            }
+            var s2 = "";
+            for(var k in hashQuery){
+                s2 += k+"="+hashQuery[k]+"&";
+            }
+            location.href = "#"+s2.substring(0,s2.length-1);
+        }
+    };
+
+    //日间,夜间模式 0夜间,1日间
+    function TTSetDayMode(flag,callback){
+        if(["0","1",0,1].indexOf(flag) < 0 ) return;
+        flag = parseInt(flag);
+        flag ? removeClass(body, 'night') : addClass(body,'night');
+        if(callback) callback(flag);
+    };
+
+    function _initDayMode(){
+        var daymode =  hash("tt_daymode");
+        if(daymode) TTSetDayMode(daymode);
+    };
+
+    window.onhashchange = _initDayMode;
+    window.TouTiao = { setDayMode : TTSetDayMode };
+
+    _initDayMode();
+
+    // 监听客户端调用
+    window.ToutiaoJSBridge.on( 'refresh', function( params ) {
+        window.location.reload();
+    });
+
+})();
+</script>
+</body>
+</html>
+

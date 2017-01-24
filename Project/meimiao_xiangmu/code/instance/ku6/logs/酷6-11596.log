@@ -1,0 +1,43 @@
+[2016-11-30 16:40:27.762] [TRACE] 酷6 - DealWith instantiation ...
+[2016-11-30 16:40:27.777] [TRACE] 酷6 - spiderCore instantiation ...
+[2016-11-30 16:40:27.777] [TRACE] 酷6 - 启动函数
+[2016-11-30 16:40:27.808] [DEBUG] 酷6 - 任务信息数据库连接建立...成功
+[2016-11-30 16:40:27.808] [DEBUG] 酷6 - 缓存队列数据库连接建立...成功
+[2016-11-30 16:40:27.808] [DEBUG] 酷6 - 创建数据库连接完毕
+[2016-11-30 16:40:27.808] [INFO] 酷6 - { id: '24875965', name: '陈翔六点半', p: '14' }
+[2016-11-30 16:40:28.573] [ERROR] 酷6 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-30 16:40:49.559] [ERROR] 酷6 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-30 16:40:49.559] [DEBUG] 酷6 - 开始获取视频总数
+[2016-11-30 16:40:50.807] [DEBUG] 酷6 - 开始获取第1页视频列表
+[2016-11-30 16:40:51.166] [DEBUG] 酷6 - 陈翔六点半 陈翔 搞笑 幽默 喜剧
+[2016-11-30 16:40:51.197] [DEBUG] 酷6 - 酷6视频 axah0gJ5aUycxX-XJVwiJg.. 加入缓存队列
+[2016-11-30 16:40:51.400] [DEBUG] 酷6 - 陈翔六点半 搞笑 喜剧 幽默 原创
+[2016-11-30 16:40:51.416] [DEBUG] 酷6 - 酷6视频 0iKPluBS72wwHemtwgmE2g.. 加入缓存队列
+[2016-11-30 16:40:51.572] [DEBUG] 酷6 - 陈翔六点半 陈翔 喜剧 幽默 原创
+[2016-11-30 16:40:51.572] [DEBUG] 酷6 - 酷6视频 5lDq5GN09OGKleSDl0rI5Q.. 加入缓存队列
+[2016-11-30 16:40:51.743] [DEBUG] 酷6 - 陈翔六点半 陈翔 喜剧 幽默
+[2016-11-30 16:40:51.759] [DEBUG] 酷6 - 酷6视频 w57IyfSjvjtvWqNLL8rFHw.. 加入缓存队列
+[2016-11-30 16:40:51.915] [DEBUG] 酷6 - 陈翔六点半 陈翔 喜剧 幽默 原创
+[2016-11-30 16:40:51.915] [DEBUG] 酷6 - 酷6视频 8ybzWg7d5wiKJtifXIc11g.. 加入缓存队列
+[2016-11-30 16:40:52.086] [DEBUG] 酷6 - 陈翔六点半 陈翔 原创 喜剧 幽默
+[2016-11-30 16:40:52.102] [DEBUG] 酷6 - 酷6视频 iV1lBa4pVnzGtDc4Bxg4mg.. 加入缓存队列
+[2016-11-30 16:40:52.242] [DEBUG] 酷6 - 陈翔六点半 陈翔 喜剧 原创 幽默
+[2016-11-30 16:40:52.242] [DEBUG] 酷6 - 酷6视频 N8Gs4ApP9uKfoGDsmDTitg.. 加入缓存队列
+[2016-11-30 16:40:52.398] [DEBUG] 酷6 - 陈翔六点半 陈翔 喜剧 搞笑 幽默
+[2016-11-30 16:40:52.398] [DEBUG] 酷6 - 酷6视频 _FlHI7tk7NNJeZc7yzIG6A.. 加入缓存队列

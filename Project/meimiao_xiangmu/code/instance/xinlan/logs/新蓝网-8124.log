@@ -1,0 +1,35 @@
+[2017-01-05 18:54:43.826] [TRACE] 新蓝网 - DealWith instantiation ...
+[2017-01-05 18:54:43.836] [TRACE] 新蓝网 - spiderCore instantiation ...
+[2017-01-05 18:54:43.836] [TRACE] 新蓝网 - 启动函数
+[2017-01-05 18:54:43.876] [DEBUG] 新蓝网 - 任务信息数据库连接建立...成功
+[2017-01-05 18:54:43.876] [DEBUG] 新蓝网 - 缓存队列数据库连接建立...成功
+[2017-01-05 18:54:43.876] [DEBUG] 新蓝网 - 创建数据库连接完毕
+[2017-01-05 18:54:43.986] [DEBUG] 新蓝网 - http://proxy.app.cztv.com/getVODDetail.do?videoId=184410
+[2017-01-05 18:54:44.076] [DEBUG] 新蓝网 - { alertMessage: '服务异常，请稍候再试', state: 1 }
+[2017-01-05 18:54:44.096] [DEBUG] 新蓝网 - 
+[2017-01-05 18:54:44.096] [DEBUG] 新蓝网 - http://proxy.app.cztv.com/getVODDetail.do?videoId=184410
+[2017-01-05 18:54:44.106] [DEBUG] 新蓝网 - 新蓝网 144916 加入缓存队列
+[2017-01-05 18:54:44.176] [DEBUG] 新蓝网 - { alertMessage: '服务异常，请稍候再试', state: 1 }
+[2017-01-05 18:54:45.366] [DEBUG] 新蓝网 - 
+[2017-01-05 18:54:45.366] [DEBUG] 新蓝网 - http://proxy.app.cztv.com/getVODDetail.do?videoId=184410
+[2017-01-05 18:54:45.366] [DEBUG] 新蓝网 - 新蓝网 144917 加入缓存队列
+[2017-01-05 18:54:45.446] [DEBUG] 新蓝网 - { alertMessage: '服务异常，请稍候再试', state: 1 }
+[2017-01-05 18:54:45.446] [DEBUG] 新蓝网 - 
+[2017-01-05 18:54:45.456] [DEBUG] 新蓝网 - http://proxy.app.cztv.com/getVODDetail.do?videoId=184410
+[2017-01-05 18:54:45.456] [DEBUG] 新蓝网 - 新蓝网 144918 加入缓存队列
+[2017-01-05 18:54:45.536] [DEBUG] 新蓝网 - { alertMessage: '服务异常，请稍候再试', state: 1 }
+[2017-01-05 18:54:45.537] [DEBUG] 新蓝网 - 
+[2017-01-05 18:54:45.537] [DEBUG] 新蓝网 - http://proxy.app.cztv.com/getVODDetail.do?videoId=184410
+[2017-01-05 18:54:45.547] [DEBUG] 新蓝网 - 新蓝网 144923 加入缓存队列
+[2017-01-05 18:54:45.627] [DEBUG] 新蓝网 - { alertMessage: '服务异常，请稍候再试', state: 1 }
+[2017-01-05 18:54:45.637] [DEBUG] 新蓝网 - 
+[2017-01-05 18:54:45.637] [DEBUG] 新蓝网 - http://proxy.app.cztv.com/getVODDetail.do?videoId=184410
+[2017-01-05 18:54:45.647] [DEBUG] 新蓝网 - 新蓝网 144946 加入缓存队列
+[2017-01-05 18:54:45.726] [DEBUG] 新蓝网 - { alertMessage: '服务异常，请稍候再试', state: 1 }
+[2017-01-05 18:54:45.726] [DEBUG] 新蓝网 - 
+[2017-01-05 18:54:45.736] [DEBUG] 新蓝网 - http://proxy.app.cztv.com/getVODDetail.do?videoId=184410
+[2017-01-05 18:54:45.736] [DEBUG] 新蓝网 - 新蓝网 144947 加入缓存队列
+[2017-01-05 18:54:45.826] [DEBUG] 新蓝网 - { alertMessage: '服务异常，请稍候再试', state: 1 }
+[2017-01-05 18:54:45.826] [DEBUG] 新蓝网 - 
+[2017-01-05 18:54:45.826] [DEBUG] 新蓝网 - http://proxy.app.cztv.com/getVODDetail.do?videoId=184410
+[2017-01-05 18:54:45.836] [DEBUG] 新蓝网 - 新蓝网 144948 加入缓存队列

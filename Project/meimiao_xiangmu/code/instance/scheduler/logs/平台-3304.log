@@ -1,0 +1,39 @@
+[2016-12-06 18:28:39.094] [DEBUG] 平台 - 处理器实例化...
+[2016-12-06 18:28:39.101] [DEBUG] 平台 - 控制器实例化...
+[2016-12-06 18:28:39.104] [DEBUG] 平台 - server实例化
+[2016-12-06 18:28:39.113] [DEBUG] 平台 - Server running at 2016 port
+[2016-12-06 18:28:41.701] [DEBUG] 平台 - 请求[object Object]
+[2016-12-06 18:28:42.457] [DEBUG] 平台 - { data: 
+   { comments: 
+      [ '1022504128',
+        '1033403890',
+        '1022924313',
+        '1022584160',
+        '1031685614',
+        '1018721553',
+        '1160741054',
+        '1148184006',
+        '1125428854',
+        '1033723166' ],
+     strategyName: 'user_custom_wemedia',
+     article_id: '8482352226312568011',
+     parent_article_id: '8482352226312568011',
+     comment_cnt: 29,
+     support_cnt: 215,
+     oppose_cnt: 0,
+     has_more: true,
+     my_comments: [],
+     comments_map: 
+      { '1018721553': [Object],
+        '1022504128': [Object],
+        '1022584160': [Object],
+        '1022924313': [Object],
+        '1031685614': [Object],
+        '1033403890': [Object],
+        '1033723166': [Object],
+        '1125428854': [Object],
+        '1148184006': [Object],
+        '1160741054': [Object] } },
+  status: 0,
+  message: 'ok',
+  result: { status: 0, message: 'ok' } }

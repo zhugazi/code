@@ -1,0 +1,81 @@
+[2016-11-25 13:16:35.824] [TRACE] 腾讯视频 - DealWith instantiation ...
+[2016-11-25 13:16:35.830] [TRACE] 腾讯视频 - spiderCore instantiation ...
+[2016-11-25 13:16:35.832] [TRACE] 腾讯视频 - 启动函数
+[2016-11-25 13:16:35.860] [DEBUG] 腾讯视频 - 任务信息数据库连接建立...成功
+[2016-11-25 13:16:35.863] [DEBUG] 腾讯视频 - 缓存队列数据库连接建立...成功
+[2016-11-25 13:16:35.865] [DEBUG] 腾讯视频 - 创建数据库连接完毕
+[2016-11-25 13:16:35.866] [INFO] 腾讯视频 - { p: '4', name: '美食台', id: '0195c9d5fa65e0e3b87401b4530cff9a' }
+[2016-11-25 13:16:35.902] [DEBUG] 腾讯视频 - 开始获取视频总数
+[2016-11-25 13:16:36.093] [DEBUG] 腾讯视频 - 开始获取第1页视频列表
+[2016-11-25 13:16:36.277] [DEBUG] 腾讯视频 - http://data.video.qq.com/fcgi-bin/data?tid=376&appid=10001007&appkey=e075742beb866145&callback=jsonp&low_login=1&otype=json&idlist=g034981m5wp
+[2016-11-25 13:16:36.659] [DEBUG] 腾讯视频 - http://data.video.qq.com/fcgi-bin/data?tid=376&appid=10001007&appkey=e075742beb866145&callback=jsonp&low_login=1&otype=json&idlist=b0349o5y35g
+[2016-11-25 13:16:36.664] [DEBUG] 腾讯视频 - 腾讯视频 g034981m5wp 加入缓存队列
+[2016-11-25 13:16:37.330] [DEBUG] 腾讯视频 - http://data.video.qq.com/fcgi-bin/data?tid=376&appid=10001007&appkey=e075742beb866145&callback=jsonp&low_login=1&otype=json&idlist=n0349ydc7y4
+[2016-11-25 13:16:37.338] [DEBUG] 腾讯视频 - 腾讯视频 b0349o5y35g 加入缓存队列
+[2016-11-25 13:16:37.683] [DEBUG] 腾讯视频 - http://data.video.qq.com/fcgi-bin/data?tid=376&appid=10001007&appkey=e075742beb866145&callback=jsonp&low_login=1&otype=json&idlist=w0349jvidu5
+[2016-11-25 13:16:37.690] [DEBUG] 腾讯视频 - 腾讯视频 n0349ydc7y4 加入缓存队列
+[2016-11-25 13:16:38.048] [DEBUG] 腾讯视频 - http://data.video.qq.com/fcgi-bin/data?tid=376&appid=10001007&appkey=e075742beb866145&callback=jsonp&low_login=1&otype=json&idlist=v0349v303gx
+[2016-11-25 13:16:38.057] [DEBUG] 腾讯视频 - 腾讯视频 w0349jvidu5 加入缓存队列
+[2016-11-25 13:16:38.379] [DEBUG] 腾讯视频 - http://data.video.qq.com/fcgi-bin/data?tid=376&appid=10001007&appkey=e075742beb866145&callback=jsonp&low_login=1&otype=json&idlist=k0349o7v0to
+[2016-11-25 13:16:38.386] [DEBUG] 腾讯视频 - 腾讯视频 v0349v303gx 加入缓存队列
+[2016-11-25 13:16:38.746] [DEBUG] 腾讯视频 - http://data.video.qq.com/fcgi-bin/data?tid=376&appid=10001007&appkey=e075742beb866145&callback=jsonp&low_login=1&otype=json&idlist=k0348qzw6uv
+[2016-11-25 13:16:38.755] [DEBUG] 腾讯视频 - 腾讯视频 k0349o7v0to 加入缓存队列
+[2016-11-25 13:16:39.106] [DEBUG] 腾讯视频 - http://data.video.qq.com/fcgi-bin/data?tid=376&appid=10001007&appkey=e075742beb866145&callback=jsonp&low_login=1&otype=json&idlist=e0348vp0zqj
+[2016-11-25 13:16:39.113] [DEBUG] 腾讯视频 - 腾讯视频 k0348qzw6uv 加入缓存队列
+[2016-11-25 13:16:40.053] [DEBUG] 腾讯视频 - http://data.video.qq.com/fcgi-bin/data?tid=376&appid=10001007&appkey=e075742beb866145&callback=jsonp&low_login=1&otype=json&idlist=l0348h68ytx
+[2016-11-25 13:16:40.060] [DEBUG] 腾讯视频 - 腾讯视频 e0348vp0zqj 加入缓存队列
+[2016-11-25 13:16:43.452] [DEBUG] 腾讯视频 - http://data.video.qq.com/fcgi-bin/data?tid=376&appid=10001007&appkey=e075742beb866145&callback=jsonp&low_login=1&otype=json&idlist=v0348sz9nrp
+[2016-11-25 13:16:43.460] [DEBUG] 腾讯视频 - 腾讯视频 l0348h68ytx 加入缓存队列
+[2016-11-25 13:16:46.841] [DEBUG] 腾讯视频 - http://data.video.qq.com/fcgi-bin/data?tid=376&appid=10001007&appkey=e075742beb866145&callback=jsonp&low_login=1&otype=json&idlist=q0347mfsl2y
+[2016-11-25 13:16:46.848] [DEBUG] 腾讯视频 - 腾讯视频 v0348sz9nrp 加入缓存队列
+[2016-11-25 13:16:47.189] [DEBUG] 腾讯视频 - http://data.video.qq.com/fcgi-bin/data?tid=376&appid=10001007&appkey=e075742beb866145&callback=jsonp&low_login=1&otype=json&idlist=m0347f6qqgb
+[2016-11-25 13:16:47.194] [DEBUG] 腾讯视频 - 腾讯视频 q0347mfsl2y 加入缓存队列
+[2016-11-25 13:16:53.548] [DEBUG] 腾讯视频 - http://data.video.qq.com/fcgi-bin/data?tid=376&appid=10001007&appkey=e075742beb866145&callback=jsonp&low_login=1&otype=json&idlist=z03472kdaqx
+[2016-11-25 13:16:53.555] [DEBUG] 腾讯视频 - 腾讯视频 m0347f6qqgb 加入缓存队列
+[2016-11-25 13:16:53.887] [DEBUG] 腾讯视频 - http://data.video.qq.com/fcgi-bin/data?tid=376&appid=10001007&appkey=e075742beb866145&callback=jsonp&low_login=1&otype=json&idlist=v0347nfgwio
+[2016-11-25 13:16:53.896] [DEBUG] 腾讯视频 - 腾讯视频 z03472kdaqx 加入缓存队列
+[2016-11-25 13:16:54.265] [DEBUG] 腾讯视频 - http://data.video.qq.com/fcgi-bin/data?tid=376&appid=10001007&appkey=e075742beb866145&callback=jsonp&low_login=1&otype=json&idlist=j0347to0neb
+[2016-11-25 13:16:54.272] [DEBUG] 腾讯视频 - 腾讯视频 v0347nfgwio 加入缓存队列
+[2016-11-25 13:16:54.611] [DEBUG] 腾讯视频 - http://data.video.qq.com/fcgi-bin/data?tid=376&appid=10001007&appkey=e075742beb866145&callback=jsonp&low_login=1&otype=json&idlist=d0347iyixrw
+[2016-11-25 13:16:54.617] [DEBUG] 腾讯视频 - 腾讯视频 j0347to0neb 加入缓存队列
+[2016-11-25 13:16:54.947] [DEBUG] 腾讯视频 - http://data.video.qq.com/fcgi-bin/data?tid=376&appid=10001007&appkey=e075742beb866145&callback=jsonp&low_login=1&otype=json&idlist=o0347vk8eq9
+[2016-11-25 13:16:54.953] [DEBUG] 腾讯视频 - 腾讯视频 d0347iyixrw 加入缓存队列
+[2016-11-25 13:16:55.289] [DEBUG] 腾讯视频 - http://data.video.qq.com/fcgi-bin/data?tid=376&appid=10001007&appkey=e075742beb866145&callback=jsonp&low_login=1&otype=json&idlist=x0347k5dq15
+[2016-11-25 13:16:55.297] [DEBUG] 腾讯视频 - 腾讯视频 o0347vk8eq9 加入缓存队列
+[2016-11-25 13:16:55.640] [DEBUG] 腾讯视频 - http://data.video.qq.com/fcgi-bin/data?tid=376&appid=10001007&appkey=e075742beb866145&callback=jsonp&low_login=1&otype=json&idlist=f03471ptibi
+[2016-11-25 13:16:55.647] [DEBUG] 腾讯视频 - 腾讯视频 x0347k5dq15 加入缓存队列
+[2016-11-25 13:16:56.008] [DEBUG] 腾讯视频 - http://data.video.qq.com/fcgi-bin/data?tid=376&appid=10001007&appkey=e075742beb866145&callback=jsonp&low_login=1&otype=json&idlist=m0347hunvrh
+[2016-11-25 13:16:56.014] [DEBUG] 腾讯视频 - 腾讯视频 f03471ptibi 加入缓存队列
+[2016-11-25 13:16:56.361] [DEBUG] 腾讯视频 - http://data.video.qq.com/fcgi-bin/data?tid=376&appid=10001007&appkey=e075742beb866145&callback=jsonp&low_login=1&otype=json&idlist=i0347pyq2rp
+[2016-11-25 13:16:56.370] [DEBUG] 腾讯视频 - 腾讯视频 m0347hunvrh 加入缓存队列
+[2016-11-25 13:16:57.057] [DEBUG] 腾讯视频 - http://data.video.qq.com/fcgi-bin/data?tid=376&appid=10001007&appkey=e075742beb866145&callback=jsonp&low_login=1&otype=json&idlist=f03471qkqck
+[2016-11-25 13:16:57.063] [DEBUG] 腾讯视频 - 腾讯视频 i0347pyq2rp 加入缓存队列
+[2016-11-25 13:16:57.073] [ERROR] 腾讯视频 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-25 13:16:57.085] [INFO] 腾讯视频 - 返回腾讯视频用户 0195c9d5fa65e0e3b87401b4530cff9a 连接服务器失败
+[2016-11-25 13:16:57.429] [DEBUG] 腾讯视频 - http://data.video.qq.com/fcgi-bin/data?tid=376&appid=10001007&appkey=e075742beb866145&callback=jsonp&low_login=1&otype=json&idlist=l034693j7py
+[2016-11-25 13:16:57.436] [DEBUG] 腾讯视频 - 腾讯视频 f03471qkqck 加入缓存队列
+[2016-11-25 13:16:57.795] [DEBUG] 腾讯视频 - http://data.video.qq.com/fcgi-bin/data?tid=376&appid=10001007&appkey=e075742beb866145&callback=jsonp&low_login=1&otype=json&idlist=o0346n1kkqj
+[2016-11-25 13:16:57.802] [DEBUG] 腾讯视频 - 腾讯视频 l034693j7py 加入缓存队列
+[2016-11-25 13:16:58.139] [DEBUG] 腾讯视频 - http://data.video.qq.com/fcgi-bin/data?tid=376&appid=10001007&appkey=e075742beb866145&callback=jsonp&low_login=1&otype=json&idlist=g03464dpi5h
+[2016-11-25 13:16:58.145] [DEBUG] 腾讯视频 - 腾讯视频 o0346n1kkqj 加入缓存队列
+[2016-11-25 13:16:58.494] [DEBUG] 腾讯视频 - 开始获取第2页视频列表
+[2016-11-25 13:16:58.501] [DEBUG] 腾讯视频 - 腾讯视频 g03464dpi5h 加入缓存队列
+[2016-11-25 13:16:58.676] [DEBUG] 腾讯视频 - http://data.video.qq.com/fcgi-bin/data?tid=376&appid=10001007&appkey=e075742beb866145&callback=jsonp&low_login=1&otype=json&idlist=e03468df2m8
+[2016-11-25 13:16:59.033] [DEBUG] 腾讯视频 - http://data.video.qq.com/fcgi-bin/data?tid=376&appid=10001007&appkey=e075742beb866145&callback=jsonp&low_login=1&otype=json&idlist=h0346ohjfr0
+[2016-11-25 13:16:59.039] [DEBUG] 腾讯视频 - 腾讯视频 e03468df2m8 加入缓存队列
+[2016-11-25 13:16:59.889] [DEBUG] 腾讯视频 - http://data.video.qq.com/fcgi-bin/data?tid=376&appid=10001007&appkey=e075742beb866145&callback=jsonp&low_login=1&otype=json&idlist=p0346u8yjbv
+[2016-11-25 13:16:59.900] [DEBUG] 腾讯视频 - 腾讯视频 h0346ohjfr0 加入缓存队列
+[2016-11-25 13:17:03.441] [DEBUG] 腾讯视频 - http://data.video.qq.com/fcgi-bin/data?tid=376&appid=10001007&appkey=e075742beb866145&callback=jsonp&low_login=1&otype=json&idlist=i0346zz3103
+[2016-11-25 13:17:06.416] [DEBUG] 腾讯视频 - 腾讯视频 p0346u8yjbv 加入缓存队列
+[2016-11-25 13:17:06.775] [DEBUG] 腾讯视频 - http://data.video.qq.com/fcgi-bin/data?tid=376&appid=10001007&appkey=e075742beb866145&callback=jsonp&low_login=1&otype=json&idlist=l0346wvnfj0
+[2016-11-25 13:17:06.782] [DEBUG] 腾讯视频 - 腾讯视频 i0346zz3103 加入缓存队列
+[2016-11-25 13:17:07.129] [DEBUG] 腾讯视频 - http://data.video.qq.com/fcgi-bin/data?tid=376&appid=10001007&appkey=e075742beb866145&callback=jsonp&low_login=1&otype=json&idlist=u0346kvenkb
+[2016-11-25 13:17:07.135] [DEBUG] 腾讯视频 - 腾讯视频 l0346wvnfj0 加入缓存队列

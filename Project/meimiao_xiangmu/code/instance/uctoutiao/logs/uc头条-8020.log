@@ -1,0 +1,7 @@
+[2016-12-04 23:48:46.975] [TRACE] uc头条 - DealWith instantiation ...
+[2016-12-04 23:48:46.975] [TRACE] uc头条 - spiderCore instantiation ...
+[2016-12-04 23:48:46.975] [TRACE] uc头条 - 启动函数
+[2016-12-04 23:48:46.975] [INFO] uc头条 - { id: '41ad6b83918746c2ad1a4afbab13e1cd',
+  name: '陈翔六点半',
+  p: '23' }
+[2016-12-04 23:48:47.118] [DEBUG] uc头条 - 良药苦口利于病, 唧唧歪歪利于停!

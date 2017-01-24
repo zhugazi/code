@@ -1,0 +1,91 @@
+[2016-11-28 15:26:27.037] [TRACE] 秒拍 - DealWith instantiation ...
+[2016-11-28 15:26:27.052] [TRACE] 秒拍 - spiderCore instantiation ...
+[2016-11-28 15:26:27.052] [TRACE] 秒拍 - 启动函数
+[2016-11-28 15:26:27.084] [DEBUG] 秒拍 - 任务信息数据库连接建立...成功
+[2016-11-28 15:26:27.084] [DEBUG] 秒拍 - 缓存队列数据库连接建立...成功
+[2016-11-28 15:26:27.084] [DEBUG] 秒拍 - 创建数据库连接完毕
+[2016-11-28 15:26:27.084] [TRACE] 秒拍 - Queue get ready
+[2016-11-28 15:26:27.130] [TRACE] 秒拍 - Get miaopai task!
+[2016-11-28 15:26:27.130] [INFO] 秒拍 - { id: 'dLk-9t6gsjVk4Ig7', p: '7', name: '袁超工作室', type: '0' }
+[2016-11-28 15:26:27.162] [DEBUG] 秒拍 - http://api.miaopai.com/m/shot_channel.json?version=6.3.7&os=ios&page=1&per=20&suid=dLk-9t6gsjVk4Ig7
+[2016-11-28 15:26:27.177] [TRACE] 秒拍 - Get miaopai task!
+[2016-11-28 15:26:27.177] [INFO] 秒拍 - { id: 'Mxqmv0u3Z6DoDF9o', p: '7', name: '微在涨姿势', type: '0' }
+[2016-11-28 15:26:27.177] [DEBUG] 秒拍 - http://api.miaopai.com/m/shot_channel.json?version=6.3.7&os=ios&page=1&per=20&suid=Mxqmv0u3Z6DoDF9o
+[2016-11-28 15:26:27.177] [TRACE] 秒拍 - Get miaopai task!
+[2016-11-28 15:26:27.177] [INFO] 秒拍 - { id: 'TibXNeQpIy0Gl-yA',
+  p: '7',
+  name: '日日煮DayDayCook',
+  type: '0' }
+[2016-11-28 15:26:27.193] [DEBUG] 秒拍 - http://api.miaopai.com/m/shot_channel.json?version=6.3.7&os=ios&page=1&per=20&suid=TibXNeQpIy0Gl-yA
+[2016-11-28 15:26:27.193] [TRACE] 秒拍 - Get miaopai task!
+[2016-11-28 15:26:27.193] [INFO] 秒拍 - { id: 'rQeAg5WAriRhbyLz', p: '7', name: '胥渡吧', type: '0' }
+[2016-11-28 15:26:27.193] [DEBUG] 秒拍 - http://api.miaopai.com/m/shot_channel.json?version=6.3.7&os=ios&page=1&per=20&suid=rQeAg5WAriRhbyLz
+[2016-11-28 15:26:27.193] [TRACE] 秒拍 - Get miaopai task!
+[2016-11-28 15:26:27.193] [INFO] 秒拍 - { id: '9CiOGIn58bJFvyTd', p: '7', name: '任真天', type: '0' }
+[2016-11-28 15:26:27.208] [DEBUG] 秒拍 - http://api.miaopai.com/m/shot_channel.json?version=6.3.7&os=ios&page=1&per=20&suid=9CiOGIn58bJFvyTd
+[2016-11-28 15:26:27.208] [TRACE] 秒拍 - Get miaopai task!
+[2016-11-28 15:26:27.208] [INFO] 秒拍 - { id: 'jRPjQ370LTp0IRih', p: '7', name: 'QM工作室', type: '0' }
+[2016-11-28 15:26:27.208] [DEBUG] 秒拍 - http://api.miaopai.com/m/shot_channel.json?version=6.3.7&os=ios&page=1&per=20&suid=jRPjQ370LTp0IRih
+[2016-11-28 15:26:27.208] [TRACE] 秒拍 - Get miaopai task!
+[2016-11-28 15:26:27.224] [INFO] 秒拍 - { id: 'zWoez8QsO7NMsQpR', p: '7', name: '哔哔秀工坊', type: '0' }
+[2016-11-28 15:26:27.224] [DEBUG] 秒拍 - http://api.miaopai.com/m/shot_channel.json?version=6.3.7&os=ios&page=1&per=20&suid=zWoez8QsO7NMsQpR
+[2016-11-28 15:26:27.224] [TRACE] 秒拍 - Get miaopai task!
+[2016-11-28 15:26:27.224] [INFO] 秒拍 - { id: 'mZTgSzMxcnsfXBIU', p: '7', name: '一风之音', type: '0' }
+[2016-11-28 15:26:27.224] [DEBUG] 秒拍 - http://api.miaopai.com/m/shot_channel.json?version=6.3.7&os=ios&page=1&per=20&suid=mZTgSzMxcnsfXBIU
+[2016-11-28 15:26:27.224] [TRACE] 秒拍 - Get miaopai task!
+[2016-11-28 15:26:27.240] [INFO] 秒拍 - { id: 'PoPnUx13yq2sPaWC', p: '7', name: '一条视频', type: '0' }
+[2016-11-28 15:26:27.240] [DEBUG] 秒拍 - http://api.miaopai.com/m/shot_channel.json?version=6.3.7&os=ios&page=1&per=20&suid=PoPnUx13yq2sPaWC
+[2016-11-28 15:26:27.645] [ERROR] 秒拍 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-28 15:26:27.661] [ERROR] 秒拍 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-28 15:26:27.661] [ERROR] 秒拍 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-28 15:26:27.676] [ERROR] 秒拍 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-28 15:26:27.723] [ERROR] 秒拍 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-28 15:26:28.082] [ERROR] 秒拍 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }

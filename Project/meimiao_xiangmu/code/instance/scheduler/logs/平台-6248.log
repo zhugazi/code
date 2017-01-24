@@ -1,0 +1,22 @@
+[2016-12-19 20:21:26.019] [DEBUG] 平台 - 处理器实例化...
+[2016-12-19 20:21:26.025] [DEBUG] 平台 - 控制器实例化...
+[2016-12-19 20:21:26.026] [DEBUG] 平台 - server实例化
+[2016-12-19 20:21:26.034] [DEBUG] 平台 - Server running at 2016 port
+[2016-12-19 20:21:28.404] [DEBUG] 平台 - 请求[object Object]
+[2016-12-19 20:21:28.435] [DEBUG] 平台 - http://m.weibo.cn/article/rcMod?id=4054451058243989&type=comment&page=1
+[2016-12-19 20:21:29.280] [DEBUG] 平台 - 20 || 150
+[2016-12-19 20:21:29.283] [DEBUG] 平台 - http://m.weibo.cn/article/rcMod?id=4054451058243989&type=comment&page=2
+[2016-12-19 20:21:29.401] [DEBUG] 平台 - 40 || 150
+[2016-12-19 20:21:29.402] [DEBUG] 平台 - http://m.weibo.cn/article/rcMod?id=4054451058243989&type=comment&page=3
+[2016-12-19 20:21:29.884] [DEBUG] 平台 - 59 || 150
+[2016-12-19 20:21:29.887] [DEBUG] 平台 - http://m.weibo.cn/article/rcMod?id=4054451058243989&type=comment&page=4
+[2016-12-19 20:21:30.317] [DEBUG] 平台 - 79 || 150
+[2016-12-19 20:21:30.318] [DEBUG] 平台 - http://m.weibo.cn/article/rcMod?id=4054451058243989&type=comment&page=5
+[2016-12-19 20:21:30.434] [DEBUG] 平台 - 99 || 150
+[2016-12-19 20:21:30.437] [DEBUG] 平台 - http://m.weibo.cn/article/rcMod?id=4054451058243989&type=comment&page=6
+[2016-12-19 20:21:30.592] [DEBUG] 平台 - 119 || 150
+[2016-12-19 20:21:30.595] [DEBUG] 平台 - http://m.weibo.cn/article/rcMod?id=4054451058243989&type=comment&page=7
+[2016-12-19 20:21:30.710] [DEBUG] 平台 - 138 || 150
+[2016-12-19 20:21:30.712] [DEBUG] 平台 - http://m.weibo.cn/article/rcMod?id=4054451058243989&type=comment&page=8
+[2016-12-19 20:21:31.018] [DEBUG] 平台 - 146 || 150
+[2016-12-19 20:21:31.020] [DEBUG] 平台 - http://m.weibo.cn/article/rcMod?id=4054451058243989&type=comment&page=9

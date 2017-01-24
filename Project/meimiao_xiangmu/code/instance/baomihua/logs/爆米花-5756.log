@@ -1,0 +1,17 @@
+[2016-11-29 15:43:32.548] [TRACE] 爆米花 - DealWith instantiation ...
+[2016-11-29 15:43:32.558] [TRACE] 爆米花 - spiderCore instantiation ...
+[2016-11-29 15:43:32.560] [TRACE] 爆米花 - 启动函数
+[2016-11-29 15:43:32.595] [DEBUG] 爆米花 - 任务信息数据库连接建立...成功
+[2016-11-29 15:43:32.598] [DEBUG] 爆米花 - 缓存队列数据库连接建立...成功
+[2016-11-29 15:43:32.601] [DEBUG] 爆米花 - 创建数据库连接完毕
+[2016-11-29 15:43:32.603] [INFO] 爆米花 - { id: '27703', p: '13', name: '一色神技能', type: '0' }
+[2016-11-29 15:43:36.023] [DEBUG] 爆米花 - 171
+[2016-11-29 15:43:37.279] [ERROR] 爆米花 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }

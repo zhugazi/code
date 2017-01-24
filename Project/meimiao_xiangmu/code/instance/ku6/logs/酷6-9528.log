@@ -1,0 +1,48 @@
+[2016-11-30 18:25:47.990] [TRACE] 酷6 - DealWith instantiation ...
+[2016-11-30 18:25:47.990] [TRACE] 酷6 - spiderCore instantiation ...
+[2016-11-30 18:25:47.990] [TRACE] 酷6 - 启动函数
+[2016-11-30 18:25:48.025] [DEBUG] 酷6 - 任务信息数据库连接建立...成功
+[2016-11-30 18:25:48.025] [DEBUG] 酷6 - 缓存队列数据库连接建立...成功
+[2016-11-30 18:25:48.025] [DEBUG] 酷6 - 创建数据库连接完毕
+[2016-11-30 18:25:48.025] [INFO] 酷6 - { id: '22743970', name: 'DS女老诗', p: '14' }
+[2016-11-30 18:25:49.764] [ERROR] 酷6 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-30 18:26:10.785] [ERROR] 酷6 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-30 18:26:10.800] [DEBUG] 酷6 - 开始获取视频总数
+[2016-11-30 18:26:11.974] [DEBUG] 酷6 - 开始获取第1页视频列表
+[2016-11-30 18:26:13.010] [DEBUG] 酷6 - object  || 标签
+[2016-11-30 18:26:13.012] [DEBUG] 酷6 - 【萝莉侃剧】极品家丁男生福利IP的正确打开方式  || 标题
+[2016-11-30 18:26:13.029] [DEBUG] 酷6 - 酷6视频 DrPWNmV0UK8uGGvz_XrbvQ.. 加入缓存队列
+[2016-11-30 18:26:13.122] [DEBUG] 酷6 - object  || 标签
+[2016-11-30 18:26:13.122] [DEBUG] 酷6 - 【萝莉侃剧】大明赌神把妹救国两不误  || 标题
+[2016-11-30 18:26:13.138] [DEBUG] 酷6 - 酷6视频 0MFW3bgO89E3PBHUdRJpsg.. 加入缓存队列
+[2016-11-30 18:26:13.228] [DEBUG] 酷6 - object  || 标签
+[2016-11-30 18:26:13.233] [DEBUG] 酷6 - 【萝莉说美女】整容三女神如何选择四美男  || 标题
+[2016-11-30 18:26:13.242] [DEBUG] 酷6 - 酷6视频 4PioRrURpEKcs9OUwk3r4Q.. 加入缓存队列
+[2016-11-30 18:26:13.316] [DEBUG] 酷6 - object  || 标签
+[2016-11-30 18:26:13.332] [DEBUG] 酷6 - 【萝莉侃剧】神还原陈二狗的妖孽人生  || 标题
+[2016-11-30 18:26:13.332] [DEBUG] 酷6 - 酷6视频 omr_6PcdVVaACw050QwUlQ.. 加入缓存队列
+[2016-11-30 18:26:13.423] [DEBUG] 酷6 - object  || 标签
+[2016-11-30 18:26:13.431] [DEBUG] 酷6 - 【萝莉说美女】娱乐圈离婚后净身出户的女明星  || 标题
+[2016-11-30 18:26:13.442] [DEBUG] 酷6 - 酷6视频 VmOkH3ONFaPnJjtK7Lxbog.. 加入缓存队列
+[2016-11-30 18:26:13.522] [DEBUG] 酷6 - object  || 标签
+[2016-11-30 18:26:13.526] [DEBUG] 酷6 - 【萝莉侃剧】女间谍失身搓澡工 《冒牌间谍》有剧毒  || 标题
+[2016-11-30 18:26:13.535] [DEBUG] 酷6 - 酷6视频 mFtVxHiZkWYJBVSG0BeXhg.. 加入缓存队列
+[2016-11-30 18:26:13.605] [DEBUG] 酷6 - object  || 标签
+[2016-11-30 18:26:13.621] [DEBUG] 酷6 - 【萝莉侃剧】锦绣未央四大核能绝密看点  || 标题
+[2016-11-30 18:26:13.621] [DEBUG] 酷6 - 酷6视频 dZhAs50Ov-Y6y877V2pNHw.. 加入缓存队列

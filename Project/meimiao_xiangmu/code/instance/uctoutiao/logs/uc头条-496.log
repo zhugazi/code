@@ -1,0 +1,15 @@
+[2016-12-04 23:46:40.684] [TRACE] uc头条 - DealWith instantiation ...
+[2016-12-04 23:46:40.691] [TRACE] uc头条 - spiderCore instantiation ...
+[2016-12-04 23:46:40.691] [TRACE] uc头条 - 启动函数
+[2016-12-04 23:46:40.691] [INFO] uc头条 - { id: '41ad6b83918746c2ad1a4afbab13e1cd',
+  name: '陈翔六点半',
+  p: '23' }
+[2016-12-04 23:46:40.886] [DEBUG] uc头条 - NaN
+[2016-12-04 23:47:56.971] [TRACE] uc头条 - DealWith instantiation ...
+[2016-12-04 23:47:56.987] [TRACE] uc头条 - spiderCore instantiation ...
+[2016-12-04 23:47:56.987] [TRACE] uc头条 - 启动函数
+[2016-12-04 23:47:56.987] [INFO] uc头条 - { id: '41ad6b83918746c2ad1a4afbab13e1cd',
+  name: '陈翔六点半',
+  p: '23' }
+[2016-12-04 23:47:57.119] [DEBUG] uc头条 - ++++
+[2016-12-04 23:47:57.134] [DEBUG] uc头条 - NaN

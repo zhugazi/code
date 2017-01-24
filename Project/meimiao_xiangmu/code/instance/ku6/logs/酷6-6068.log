@@ -1,0 +1,56 @@
+[2016-11-30 18:39:38.549] [TRACE] 酷6 - DealWith instantiation ...
+[2016-11-30 18:39:38.564] [TRACE] 酷6 - spiderCore instantiation ...
+[2016-11-30 18:39:38.564] [TRACE] 酷6 - 启动函数
+[2016-11-30 18:39:38.595] [DEBUG] 酷6 - 任务信息数据库连接建立...成功
+[2016-11-30 18:39:38.595] [DEBUG] 酷6 - 缓存队列数据库连接建立...成功
+[2016-11-30 18:39:38.595] [DEBUG] 酷6 - 创建数据库连接完毕
+[2016-11-30 18:39:38.595] [INFO] 酷6 - { id: '24332580', name: 'UNIVERSE', p: '14' }
+[2016-11-30 18:39:39.656] [ERROR] 酷6 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-30 18:40:00.723] [ERROR] 酷6 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-30 18:40:00.723] [DEBUG] 酷6 - 开始获取视频总数
+[2016-11-30 18:40:08.643] [DEBUG] 酷6 - 开始获取第1页视频列表
+[2016-11-30 18:40:10.173] [DEBUG] 酷6 - undefined-------------------------------------
+[2016-11-30 18:40:10.173] [DEBUG] 酷6 - 大西山逐格航拍版宣传片  || 标题
+[2016-11-30 18:40:10.188] [DEBUG] 酷6 - 大西山,逐格航拍版,宣传片  || 标签
+[2016-11-30 18:40:10.188] [DEBUG] 酷6 - 酷6视频 vtDrQ52rIj2xkoe52u8Anw.. 加入缓存队列
+[2016-11-30 18:40:10.360] [DEBUG] 酷6 - undefined-------------------------------------
+[2016-11-30 18:40:10.360] [DEBUG] 酷6 - 大西山四季版宣传片  || 标题
+[2016-11-30 18:40:10.360] [DEBUG] 酷6 - 大西山四季版宣传片  || 标签
+[2016-11-30 18:40:10.375] [DEBUG] 酷6 - 酷6视频 Jcio62AcGSQSPCQ6LPStdw.. 加入缓存队列
+[2016-11-30 18:40:10.531] [DEBUG] 酷6 - undefined-------------------------------------
+[2016-11-30 18:40:10.531] [DEBUG] 酷6 - 大西山总宣传片  || 标题
+[2016-11-30 18:40:10.547] [DEBUG] 酷6 - 大西山总宣传片  || 标签
+[2016-11-30 18:40:10.547] [DEBUG] 酷6 - 酷6视频 LZfPcdN7mlvp7d3vhZ_abA.. 加入缓存队列
+[2016-11-30 18:40:10.703] [DEBUG] 酷6 - undefined-------------------------------------
+[2016-11-30 18:40:10.703] [DEBUG] 酷6 - 熊黛林缎裙蜂腰露香肩 玉指纤纤晒签名  || 标题
+[2016-11-30 18:40:10.719] [DEBUG] 酷6 - 熊黛林  || 标签
+[2016-11-30 18:40:10.719] [DEBUG] 酷6 - 酷6视频 9o14Q6LNvl18mA74IicVWA.. 加入缓存队列
+[2016-11-30 18:40:10.890] [DEBUG] 酷6 - undefined-------------------------------------
+[2016-11-30 18:40:10.890] [DEBUG] 酷6 - 霍建华自推行李获赞 网友-这难道不正常？  || 标题
+[2016-11-30 18:40:10.906] [DEBUG] 酷6 - 霍建华  || 标签
+[2016-11-30 18:40:10.906] [DEBUG] 酷6 - 酷6视频 OpGS77ft1aI2t7zkJH8sPw.. 加入缓存队列
+[2016-11-30 18:40:11.065] [DEBUG] 酷6 - undefined-------------------------------------
+[2016-11-30 18:40:11.065] [DEBUG] 酷6 - 除了结婚怀孕 你们不知道的Anglebaby是这样的  || 标题
+[2016-11-30 18:40:11.065] [DEBUG] 酷6 - Anglebaby  || 标签
+[2016-11-30 18:40:11.080] [DEBUG] 酷6 - 酷6视频 fiFIDsRxHwZGy71RxuYCXg.. 加入缓存队列
+[2016-11-30 18:40:11.252] [DEBUG] 酷6 - undefined-------------------------------------
+[2016-11-30 18:40:11.252] [DEBUG] 酷6 - 炒作？郭敬明已删除“全家暴毙”博文  || 标题
+[2016-11-30 18:40:11.252] [DEBUG] 酷6 - 郭敬明,全家暴毙,博文  || 标签
+[2016-11-30 18:40:11.268] [DEBUG] 酷6 - 酷6视频 -Hn2DqbQ4-HWMPZZ_BUzDg.. 加入缓存队列
+[2016-11-30 18:40:11.455] [DEBUG] 酷6 - undefined-------------------------------------

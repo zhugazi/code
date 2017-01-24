@@ -1,0 +1,31 @@
+[2016-11-30 13:27:46.848] [TRACE] yy - DealWith instantiation ...
+[2016-11-30 13:27:46.858] [TRACE] yy - spiderCore instantiation ...
+[2016-11-30 13:27:46.858] [TRACE] yy - 启动函数
+[2016-11-30 13:27:46.878] [DEBUG] yy - 任务信息数据库连接建立...成功
+[2016-11-30 13:27:46.888] [DEBUG] yy - 缓存队列数据库连接建立...成功
+[2016-11-30 13:27:46.888] [DEBUG] yy - 创建数据库连接完毕
+[2016-11-30 13:27:46.888] [INFO] yy - { id: '73847835', name: '951轩轩', p: '20' }
+[2016-11-30 13:27:46.908] [DEBUG] yy - 开始获取视频总数
+[2016-11-30 13:27:48.113] [ERROR] yy - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-30 13:28:09.113] [ERROR] yy - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-30 13:28:09.113] [INFO] yy - 返回YY用户 73847835 连接服务器失败
+[2016-11-30 13:28:09.125] [DEBUG] yy - result :  { user: '用户信息已返回',
+  live: '直播回放信息已返回',
+  shenqu: '神曲视频信息已返回',
+  duanpai: '短拍视频信息已返回' }

@@ -1,0 +1,28 @@
+[2016-11-28 15:07:51.364] [TRACE] 腾讯视频 - DealWith instantiation ...
+[2016-11-28 15:07:51.371] [TRACE] 腾讯视频 - spiderCore instantiation ...
+[2016-11-28 15:07:51.373] [TRACE] 腾讯视频 - 启动函数
+[2016-11-28 15:07:51.401] [DEBUG] 腾讯视频 - 任务信息数据库连接建立...成功
+[2016-11-28 15:07:51.403] [DEBUG] 腾讯视频 - 缓存队列数据库连接建立...成功
+[2016-11-28 15:07:51.405] [DEBUG] 腾讯视频 - 创建数据库连接完毕
+[2016-11-28 15:07:51.407] [INFO] 腾讯视频 - { p: '4', name: '美食台', id: '0195c9d5fa65e0e3b87401b4530cff9a' }
+[2016-11-28 15:07:51.442] [DEBUG] 腾讯视频 - 开始获取视频总数
+[2016-11-28 15:07:51.444] [DEBUG] 腾讯视频 - { p: '4',
+  name: '美食台',
+  id: '0195c9d5fa65e0e3b87401b4530cff9a',
+  total: 0 }
+[2016-11-28 15:07:51.642] [DEBUG] 腾讯视频 - 开始获取第1页视频列表
+[2016-11-28 15:07:52.270] [ERROR] 腾讯视频 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-28 15:07:52.854] [DEBUG] 腾讯视频 - http://vpic.video.qq.com/97066434/p03504smo52_160_90_3.jpg
+[2016-11-28 15:07:56.243] [DEBUG] 腾讯视频 - http://vpic.video.qq.com/79274208/a03506xlajr_160_90_3.jpg
+[2016-11-28 15:07:56.629] [DEBUG] 腾讯视频 - http://vpic.video.qq.com/14771452/a0350l6xxzg_160_90_3.jpg
+[2016-11-28 15:07:56.997] [DEBUG] 腾讯视频 - http://vpic.video.qq.com/75643970/z0349v5o770_160_90_3.jpg
+[2016-11-28 15:07:57.329] [DEBUG] 腾讯视频 - http://vpic.video.qq.com/28055145/y0349i4hgpd_160_90_3.jpg
+[2016-11-28 15:08:00.703] [DEBUG] 腾讯视频 - http://vpic.video.qq.com/54796944/l0349kox6ge_160_90_3.jpg

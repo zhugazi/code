@@ -1,0 +1,85 @@
+[2016-11-30 11:09:04.377] [TRACE] yy - DealWith instantiation ...
+[2016-11-30 11:09:04.392] [TRACE] yy - spiderCore instantiation ...
+[2016-11-30 11:09:04.392] [TRACE] yy - 启动函数
+[2016-11-30 11:09:04.408] [DEBUG] yy - 任务信息数据库连接建立...成功
+[2016-11-30 11:09:04.423] [DEBUG] yy - 缓存队列数据库连接建立...成功
+[2016-11-30 11:09:04.423] [DEBUG] yy - 创建数据库连接完毕
+[2016-11-30 11:09:04.423] [TRACE] yy - Queue get ready
+[2016-11-30 11:09:04.477] [TRACE] yy - Get yy task!
+[2016-11-30 11:09:04.479] [INFO] yy - { id: '1506744406', p: '20', name: '女神TV官方', type: '0' }
+[2016-11-30 11:09:04.501] [DEBUG] yy - 开始获取视频总数
+[2016-11-30 11:09:04.501] [DEBUG] yy - http://www.yy.com/u/1506744406-----
+[2016-11-30 11:09:04.501] [TRACE] yy - Get yy task!
+[2016-11-30 11:09:04.516] [INFO] yy - { id: '1439551148', p: '20', name: '寂寞好了　', type: '0' }
+[2016-11-30 11:09:04.516] [DEBUG] yy - 开始获取视频总数
+[2016-11-30 11:09:04.516] [DEBUG] yy - http://www.yy.com/u/1439551148-----
+[2016-11-30 11:09:04.516] [TRACE] yy - Get yy task!
+[2016-11-30 11:09:04.516] [INFO] yy - { id: '1735499024', p: '20', name: '【65旅游综艺】妍衣', type: '0' }
+[2016-11-30 11:09:04.516] [DEBUG] yy - 开始获取视频总数
+[2016-11-30 11:09:04.516] [DEBUG] yy - http://www.yy.com/u/1735499024-----
+[2016-11-30 11:09:04.516] [TRACE] yy - Get yy task!
+[2016-11-30 11:09:04.532] [INFO] yy - { id: '855852', p: '20', name: '娱+白浩小哥 团结不流浪', type: '0' }
+[2016-11-30 11:09:04.532] [DEBUG] yy - 开始获取视频总数
+[2016-11-30 11:09:04.532] [DEBUG] yy - http://www.yy.com/u/855852-----
+[2016-11-30 11:09:04.547] [TRACE] yy - Get yy task!
+[2016-11-30 11:09:04.547] [INFO] yy - { id: '54552', p: '20', name: '文er', type: '0' }
+[2016-11-30 11:09:04.563] [DEBUG] yy - 开始获取视频总数
+[2016-11-30 11:09:04.563] [DEBUG] yy - http://www.yy.com/u/54552-----
+[2016-11-30 11:09:04.563] [TRACE] yy - Get yy task!
+[2016-11-30 11:09:04.563] [INFO] yy - { id: '1439583259', p: '20', name: '幻化成蝶', type: '0' }
+[2016-11-30 11:09:04.563] [DEBUG] yy - 开始获取视频总数
+[2016-11-30 11:09:04.563] [DEBUG] yy - http://www.yy.com/u/1439583259-----
+[2016-11-30 11:09:05.532] [ERROR] yy - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-30 11:09:05.547] [ERROR] yy - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-30 11:09:05.547] [ERROR] yy - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-30 11:09:05.563] [ERROR] yy - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-30 11:09:05.689] [ERROR] yy - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-30 11:09:05.736] [ERROR] yy - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }

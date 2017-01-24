@@ -1,0 +1,54 @@
+[2017-01-05 17:46:32.673] [TRACE] 第一视频 - DealWith instantiation ...
+[2017-01-05 17:46:32.683] [TRACE] 第一视频 - spiderCore instantiation ...
+[2017-01-05 17:46:32.685] [TRACE] 第一视频 - 启动函数
+[2017-01-05 17:46:32.715] [DEBUG] 第一视频 - 任务信息数据库连接建立...成功
+[2017-01-05 17:46:32.715] [DEBUG] 第一视频 - 缓存队列数据库连接建立...成功
+[2017-01-05 17:46:32.725] [DEBUG] 第一视频 - 创建数据库连接完毕
+[2017-01-05 17:46:33.066] [DEBUG] 第一视频 - 用户: 8495305 back_end
+[2017-01-05 17:46:33.201] [DEBUG] 第一视频 - 
+[2017-01-05 17:46:33.211] [DEBUG] 第一视频 - 点赞量解析失败
+[2017-01-05 17:46:33.254] [INFO] 第一视频 - { statusCode: 200,
+  headers: '{"date":"Thu, 05 Jan 2017 09:45:23 GMT","content-type":"text/html;charset=UTF-8","content-length":"0","connection":"close","cache-control":"no-cache"}',
+  body: '' }
+[2017-01-05 17:46:33.475] [DEBUG] 第一视频 - 0
+[2017-01-05 17:46:33.477] [DEBUG] 第一视频 - 第一视频 14462311 加入缓存队列
+[2017-01-05 17:46:34.203] [DEBUG] 第一视频 - 
+[2017-01-05 17:46:34.205] [DEBUG] 第一视频 - 点赞量解析失败
+[2017-01-05 17:46:34.207] [INFO] 第一视频 - { statusCode: 200,
+  headers: '{"date":"Thu, 05 Jan 2017 09:45:24 GMT","content-type":"text/html;charset=UTF-8","content-length":"0","connection":"close","cache-control":"no-cache"}',
+  body: '' }
+[2017-01-05 17:46:34.807] [DEBUG] 第一视频 - 0
+[2017-01-05 17:46:34.812] [DEBUG] 第一视频 - 第一视频 14459699 加入缓存队列
+[2017-01-05 17:46:35.191] [DEBUG] 第一视频 - 
+[2017-01-05 17:46:35.201] [DEBUG] 第一视频 - 点赞量解析失败
+[2017-01-05 17:46:35.201] [INFO] 第一视频 - { statusCode: 200,
+  headers: '{"date":"Thu, 05 Jan 2017 09:45:25 GMT","content-type":"text/html;charset=UTF-8","content-length":"0","connection":"close","cache-control":"no-cache"}',
+  body: '' }
+[2017-01-05 17:46:35.562] [DEBUG] 第一视频 - 0
+[2017-01-05 17:46:35.565] [DEBUG] 第一视频 - 第一视频 14459698 加入缓存队列
+[2017-01-05 17:46:35.799] [DEBUG] 第一视频 - 
+[2017-01-05 17:46:35.801] [DEBUG] 第一视频 - 点赞量解析失败
+[2017-01-05 17:46:35.802] [INFO] 第一视频 - { statusCode: 200,
+  headers: '{"date":"Thu, 05 Jan 2017 09:45:26 GMT","content-type":"text/html;charset=UTF-8","content-length":"0","connection":"close","cache-control":"no-cache"}',
+  body: '' }
+[2017-01-05 17:46:36.417] [DEBUG] 第一视频 - 0
+[2017-01-05 17:46:36.420] [DEBUG] 第一视频 - 第一视频 14413558 加入缓存队列
+[2017-01-05 17:46:36.673] [DEBUG] 第一视频 - 
+[2017-01-05 17:46:36.679] [DEBUG] 第一视频 - 点赞量解析失败
+[2017-01-05 17:46:36.682] [INFO] 第一视频 - { statusCode: 200,
+  headers: '{"date":"Thu, 05 Jan 2017 09:45:27 GMT","content-type":"text/html;charset=UTF-8","content-length":"0","connection":"close","cache-control":"no-cache"}',
+  body: '' }
+[2017-01-05 17:46:37.280] [DEBUG] 第一视频 - 0
+[2017-01-05 17:46:37.282] [DEBUG] 第一视频 - 第一视频 14413261 加入缓存队列
+[2017-01-05 17:46:37.661] [DEBUG] 第一视频 - 
+[2017-01-05 17:46:37.661] [DEBUG] 第一视频 - 点赞量解析失败
+[2017-01-05 17:46:37.671] [INFO] 第一视频 - { statusCode: 200,
+  headers: '{"date":"Thu, 05 Jan 2017 09:45:28 GMT","content-type":"text/html;charset=UTF-8","content-length":"0","connection":"close","cache-control":"no-cache"}',
+  body: '' }
+[2017-01-05 17:46:37.671] [DEBUG] 第一视频 - 0
+[2017-01-05 17:46:37.671] [DEBUG] 第一视频 - 第一视频 14407493 加入缓存队列
+[2017-01-05 17:46:37.906] [DEBUG] 第一视频 - 
+[2017-01-05 17:46:37.908] [DEBUG] 第一视频 - 点赞量解析失败
+[2017-01-05 17:46:37.911] [INFO] 第一视频 - { statusCode: 200,
+  headers: '{"date":"Thu, 05 Jan 2017 09:45:28 GMT","content-type":"text/html;charset=UTF-8","content-length":"0","connection":"close","cache-control":"no-cache"}',
+  body: '' }

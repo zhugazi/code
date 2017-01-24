@@ -1,0 +1,38 @@
+[2017-01-05 15:04:41.487] [TRACE] 第一视频 - DealWith instantiation ...
+[2017-01-05 15:04:41.503] [TRACE] 第一视频 - spiderCore instantiation ...
+[2017-01-05 15:04:41.503] [TRACE] 第一视频 - 启动函数
+[2017-01-05 15:04:41.543] [DEBUG] 第一视频 - 任务信息数据库连接建立...成功
+[2017-01-05 15:04:41.546] [DEBUG] 第一视频 - 缓存队列数据库连接建立...成功
+[2017-01-05 15:04:41.548] [DEBUG] 第一视频 - 创建数据库连接完毕
+[2017-01-05 15:04:41.720] [DEBUG] 第一视频 - 用户: 8495305 back_end
+[2017-01-05 15:04:41.846] [DEBUG] 第一视频 - http://static.app.m.v1.cn/www/mod/mob/ctl/videoDetails/act/get/vid/14462311/pcode/010210000/version/4.5.4.mindex.html
+[2017-01-05 15:04:42.395] [DEBUG] 第一视频 - 
+[2017-01-05 15:04:42.426] [DEBUG] 第一视频 - 香蕉酱27期改后.flv
+[2017-01-05 15:04:42.427] [DEBUG] 第一视频 - 385
+[2017-01-05 15:04:42.429] [DEBUG] 第一视频 - http://static.app.m.v1.cn/www/mod/mob/ctl/videoDetails/act/get/vid/14459699/pcode/010210000/version/4.5.4.mindex.html
+[2017-01-05 15:04:42.432] [DEBUG] 第一视频 - 第一视频 14462311 加入缓存队列
+[2017-01-05 15:04:42.713] [DEBUG] 第一视频 - 
+[2017-01-05 15:04:42.713] [DEBUG] 第一视频 - 男人的两大幻想：当英雄和姑娘共同存在的世界里...
+[2017-01-05 15:04:42.713] [DEBUG] 第一视频 - 362
+[2017-01-05 15:04:42.713] [DEBUG] 第一视频 - http://static.app.m.v1.cn/www/mod/mob/ctl/videoDetails/act/get/vid/14459698/pcode/010210000/version/4.5.4.mindex.html
+[2017-01-05 15:04:42.713] [DEBUG] 第一视频 - 第一视频 14459699 加入缓存队列
+[2017-01-19 19:43:17.937] [TRACE] 第一视频 - DealWith instantiation ...
+[2017-01-19 19:43:17.947] [TRACE] 第一视频 - spiderCore instantiation ...
+[2017-01-19 19:43:17.947] [TRACE] 第一视频 - 启动函数
+[2017-01-19 19:43:17.977] [DEBUG] 第一视频 - 任务信息数据库连接建立...成功
+[2017-01-19 19:43:17.987] [DEBUG] 第一视频 - 缓存队列数据库连接建立...成功
+[2017-01-19 19:43:17.987] [DEBUG] 第一视频 - 创建数据库连接完毕
+[2017-01-19 19:43:18.087] [ERROR] 第一视频 - occur error :  { Error: getaddrinfo ENOTFOUND staging-dev.caihongip.com staging-dev.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging-dev.caihongip.com',
+  host: 'staging-dev.caihongip.com',
+  port: 80 }
+[2017-01-19 19:43:18.117] [ERROR] 第一视频 - error url: http://staging-dev.caihongip.com/index.php/Spider/Fans/postFans
+[2017-01-19 19:43:26.027] [ERROR] 第一视频 - occur error :  { Error: ETIMEDOUT
+    at Timeout._onTimeout (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:813:19)
+    at tryOnTimeout (timers.js:224:11)
+    at Timer.listOnTimeout (timers.js:198:5) code: 'ETIMEDOUT', connect: true }

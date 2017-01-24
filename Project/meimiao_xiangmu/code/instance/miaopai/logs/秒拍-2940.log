@@ -1,0 +1,101 @@
+[2016-11-28 17:51:58.771] [TRACE] 秒拍 - DealWith instantiation ...
+[2016-11-28 17:51:58.778] [TRACE] 秒拍 - spiderCore instantiation ...
+[2016-11-28 17:51:58.780] [TRACE] 秒拍 - 启动函数
+[2016-11-28 17:51:58.806] [DEBUG] 秒拍 - 任务信息数据库连接建立...成功
+[2016-11-28 17:51:58.808] [DEBUG] 秒拍 - 缓存队列数据库连接建立...成功
+[2016-11-28 17:51:58.810] [DEBUG] 秒拍 - 创建数据库连接完毕
+[2016-11-28 17:51:58.811] [INFO] 秒拍 - { p: '7', id: '6FwITG9yw7HPkPSw', name: '糗事百科', type: '0' }
+[2016-11-28 17:51:59.441] [ERROR] 秒拍 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-28 17:52:20.467] [ERROR] 秒拍 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-28 17:52:20.472] [INFO] 秒拍 - 返回秒拍用户 6FwITG9yw7HPkPSw 连接服务器失败
+[2016-11-28 17:52:22.731] [DEBUG] 秒拍 - 秒拍 -0rOMwAb37JPbOtbwGuWlw__ 加入缓存队列
+[2016-11-28 17:52:22.736] [DEBUG] 秒拍 - 秒拍 mH2YjOSNsFJ1hanIAcn6zw__ 加入缓存队列
+[2016-11-28 17:52:22.740] [DEBUG] 秒拍 - 秒拍 sJ7Q5uv7QDVwAQswJSyedA__ 加入缓存队列
+[2016-11-28 17:52:22.744] [DEBUG] 秒拍 - 秒拍 MBNhDjrTC5-nKB5nQInjDQ__ 加入缓存队列
+[2016-11-28 17:52:22.748] [DEBUG] 秒拍 - 秒拍 6Gc2xbgn~GAwJclNL~WAQg__ 加入缓存队列
+[2016-11-28 17:52:22.752] [DEBUG] 秒拍 - 秒拍 fWBGTxlQujcCPMD1aLK6WQ__ 加入缓存队列
+[2016-11-28 17:52:22.756] [DEBUG] 秒拍 - 秒拍 m45aZISqGN50d23G-ewV0w__ 加入缓存队列
+[2016-11-28 17:52:22.759] [DEBUG] 秒拍 - 秒拍 ~rlZ0r9cTogxBmUc1DxQDg__ 加入缓存队列
+[2016-11-28 17:52:22.762] [DEBUG] 秒拍 - 秒拍 x5ELUvPHuPBMieAJNvrJjA__ 加入缓存队列
+[2016-11-28 17:52:22.766] [DEBUG] 秒拍 - 秒拍 RRHQsOXovx3Nd9ORh1Jslg__ 加入缓存队列
+[2016-11-28 17:52:22.769] [DEBUG] 秒拍 - 秒拍 eJdVFZElPpMgqrfmTmLyVA__ 加入缓存队列
+[2016-11-28 17:52:22.771] [DEBUG] 秒拍 - 秒拍 hUuj7RjkyVC8ooIB6TPsBA__ 加入缓存队列
+[2016-11-28 17:52:22.774] [DEBUG] 秒拍 - 秒拍 QWB1ddrwAO9Ut~0tayfTDA__ 加入缓存队列
+[2016-11-28 17:52:22.775] [DEBUG] 秒拍 - 秒拍 rK23FvMBzNVHb7GvgE9CJw__ 加入缓存队列
+[2016-11-28 17:52:22.778] [DEBUG] 秒拍 - 秒拍 Ogmdx4EOMxE9jmW-OmXirw__ 加入缓存队列
+[2016-11-28 17:52:22.781] [DEBUG] 秒拍 - 秒拍 jWzK~Ha5IcALM2B5R6itnA__ 加入缓存队列
+[2016-11-28 17:52:22.783] [DEBUG] 秒拍 - 秒拍 ~TH86fvQQ8-DOCBNiyZ1IA__ 加入缓存队列
+[2016-11-28 17:52:22.785] [DEBUG] 秒拍 - 秒拍 G0QH-iGGQxNTUXJ8be1W4w__ 加入缓存队列
+[2016-11-28 17:52:22.787] [DEBUG] 秒拍 - 秒拍 SB76xN~LD51ZJD-sSYKThQ__ 加入缓存队列
+[2016-11-28 17:52:22.789] [DEBUG] 秒拍 - 秒拍 ySR1LU~TBEz13SsRkGyzHg__ 加入缓存队列
+[2016-11-28 17:52:22.881] [DEBUG] 秒拍 - 127
+[2016-11-28 17:52:22.887] [DEBUG] 秒拍 - 182
+[2016-11-28 17:52:22.891] [DEBUG] 秒拍 - 47
+[2016-11-28 17:52:22.896] [DEBUG] 秒拍 - 131
+[2016-11-28 17:52:22.901] [DEBUG] 秒拍 - 109
+[2016-11-28 17:52:22.911] [DEBUG] 秒拍 - 91
+[2016-11-28 17:52:22.916] [DEBUG] 秒拍 - 91
+[2016-11-28 17:52:22.921] [DEBUG] 秒拍 - 94
+[2016-11-28 17:52:22.926] [DEBUG] 秒拍 - 75
+[2016-11-28 17:52:22.930] [DEBUG] 秒拍 - 142
+[2016-11-28 17:52:22.935] [DEBUG] 秒拍 - 184
+[2016-11-28 17:52:22.939] [DEBUG] 秒拍 - 100
+[2016-11-28 17:52:22.944] [DEBUG] 秒拍 - 152
+[2016-11-28 17:52:22.952] [DEBUG] 秒拍 - 131
+[2016-11-28 17:52:22.957] [DEBUG] 秒拍 - 64
+[2016-11-28 17:52:22.963] [DEBUG] 秒拍 - 143
+[2016-11-28 17:52:23.143] [DEBUG] 秒拍 - 158
+[2016-11-28 17:52:23.378] [DEBUG] 秒拍 - 秒拍 SgqrtPMNr6Do7Na403g3BA__ 加入缓存队列
+[2016-11-28 17:52:23.381] [DEBUG] 秒拍 - 秒拍 PIySZ2oxD1soiq4uBmmqxA__ 加入缓存队列
+[2016-11-28 17:52:23.383] [DEBUG] 秒拍 - 秒拍 qSgBgbd57SYoB7DLRua97Q__ 加入缓存队列
+[2016-11-28 17:52:23.388] [DEBUG] 秒拍 - 秒拍 YlzlZM09yAEn-PqQl9WXPA__ 加入缓存队列
+[2016-11-28 17:52:23.390] [DEBUG] 秒拍 - 秒拍 B1w3BixpYAZr0mE9f8uQrA__ 加入缓存队列
+[2016-11-28 17:52:23.392] [DEBUG] 秒拍 - 秒拍 aopmK~bXRzcD7VF0JTg64w__ 加入缓存队列
+[2016-11-28 17:52:23.395] [DEBUG] 秒拍 - 秒拍 Ou7m1womP9rsgzTo-PYdkg__ 加入缓存队列
+[2016-11-28 17:52:23.396] [DEBUG] 秒拍 - 秒拍 uJ8yWMN1rDBY7DjcwVKdHA__ 加入缓存队列
+[2016-11-28 17:52:23.398] [DEBUG] 秒拍 - 秒拍 sONARPeateeLkRnA0sqhqA__ 加入缓存队列
+[2016-11-28 17:52:23.400] [DEBUG] 秒拍 - 秒拍 Dj32E8l1mW6LGawlIGReuQ__ 加入缓存队列
+[2016-11-28 17:52:23.403] [DEBUG] 秒拍 - 秒拍 VB71Wi2BeJEtRiCCGDlyFw__ 加入缓存队列
+[2016-11-28 17:52:23.406] [DEBUG] 秒拍 - 秒拍 9DSOHMP4DTusmWjRtHctEQ__ 加入缓存队列
+[2016-11-28 17:52:23.408] [DEBUG] 秒拍 - 秒拍 oBZuXSFuKBoRPmXw~8mKSg__ 加入缓存队列
+[2016-11-28 17:52:23.411] [DEBUG] 秒拍 - 秒拍 sLWfzo5EnKTd6b3N5ykymw__ 加入缓存队列
+[2016-11-28 17:52:23.413] [DEBUG] 秒拍 - 秒拍 F4GjI1KE~MNeReEpAO6CiA__ 加入缓存队列
+[2016-11-28 17:52:23.416] [DEBUG] 秒拍 - 秒拍 X2pwEr0cELuDCDxOoFrV-g__ 加入缓存队列
+[2016-11-28 17:52:23.419] [DEBUG] 秒拍 - 秒拍 1zXxxZrKt395PH6s62ACjg__ 加入缓存队列
+[2016-11-28 17:52:23.422] [DEBUG] 秒拍 - 秒拍 8hwPccJJrhfadKSeLzmFag__ 加入缓存队列
+[2016-11-28 17:52:23.424] [DEBUG] 秒拍 - 秒拍 khD1tcyELE6HMf3MNGf4tw__ 加入缓存队列
+[2016-11-28 17:52:23.428] [DEBUG] 秒拍 - 秒拍 itZrV4pfUcmBe8lwfXdSOQ__ 加入缓存队列
+[2016-11-28 17:52:23.514] [DEBUG] 秒拍 - 72
+[2016-11-28 17:52:23.519] [DEBUG] 秒拍 - 186
+[2016-11-28 17:52:23.529] [DEBUG] 秒拍 - 210
+[2016-11-28 17:52:23.534] [DEBUG] 秒拍 - 124
+[2016-11-28 17:52:23.539] [DEBUG] 秒拍 - 182
+[2016-11-28 17:52:23.544] [DEBUG] 秒拍 - 83
+[2016-11-28 17:52:23.548] [DEBUG] 秒拍 - 229
+[2016-11-28 17:52:23.551] [DEBUG] 秒拍 - 116
+[2016-11-28 17:52:23.555] [DEBUG] 秒拍 - 177
+[2016-11-28 17:52:23.558] [DEBUG] 秒拍 - 58
+[2016-11-28 17:52:23.561] [DEBUG] 秒拍 - 134
+[2016-11-28 17:52:23.564] [DEBUG] 秒拍 - 89
+[2016-11-28 17:52:23.567] [DEBUG] 秒拍 - 229
+[2016-11-28 17:52:23.570] [DEBUG] 秒拍 - 86
+[2016-11-28 17:52:23.573] [DEBUG] 秒拍 - 108
+[2016-11-28 17:52:23.576] [DEBUG] 秒拍 - 163
+[2016-11-28 17:52:23.595] [DEBUG] 秒拍 - 111
+[2016-11-28 17:52:23.616] [DEBUG] 秒拍 - 170

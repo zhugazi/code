@@ -1,0 +1,29 @@
+[2016-11-25 19:05:27.508] [TRACE] 天天快报 - DealWith instantiation ...
+[2016-11-25 19:05:27.516] [TRACE] 天天快报 - spiderCore instantiation ...
+[2016-11-25 19:05:27.517] [TRACE] 天天快报 - 启动函数
+[2016-11-25 19:05:27.544] [DEBUG] 天天快报 - 任务信息数据库连接建立...成功
+[2016-11-25 19:05:27.547] [DEBUG] 天天快报 - 缓存队列数据库连接建立...成功
+[2016-11-25 19:05:27.549] [DEBUG] 天天快报 - 创建数据库连接完毕
+[2016-11-25 19:05:27.550] [INFO] 天天快报 - { p: '10', id: '5105923' }
+[2016-11-25 19:05:28.561] [ERROR] 天天快报 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-25 19:05:49.367] [ERROR] 天天快报 - occur error: { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-25 19:05:49.378] [INFO] 天天快报 - 返回天天快报用户 5105923 连接服务器失败
+[2016-11-25 19:05:52.584] [DEBUG] 天天快报 - {"result":{"code":0,"msg":""},"vid":"j1414b9p0dv","video":{"dwr":1,"pic":"http://shp.qpic.cn/qqvideo_ori/0/j1414b9p0dv_496_280/0","pr":1,"title":"揭秘男子找美女约会，女子竟然当众摔狗","vid":"j1414b9p0dv","viewnum":435518}}--==--
+[2016-11-25 19:05:57.882] [DEBUG] 天天快报 - {"result":{"code":0,"msg":""},"vid":"l0348ek27q6","video":{"betime":0,"c_danmu":1,"c_danmu_status":1,"competitionid":-1,"ctypeid":60,"ctypename":"母婴","desc":"假如孩子看到自己父母突然变老30岁...更多精彩视频快来关注微信公众号吧。","drm":0,"dwr":1,"matchid":-1,"mut":4,"pay":0,"pic":"http://shp.qpic.cn/qqvideo_ori/0/l0348ek27q6_496_280/0","pr":1,"sec":59,"showr":1,"source":"","tags":[{"tag":"亲子互动"},{"tag":"亲子秀"},{"tag":"父母突然变老"}],"title":"亲子篇不完整版","tot":299,"trailer":0,"uptime":"2016-11-22 19:19:51","viewnum":12079,"voteid":""}}--==--
+[2016-11-25 19:06:02.338] [DEBUG] 天天快报 - {"result":{"code":0,"msg":""},"vid":"w03477u26i5","video":{"betime":0,"c_danmu":1,"c_danmu_status":1,"competitionid":-1,"ctypeid":43,"ctypename":"搞笑","desc":"电话恶搞再次恋爱吧1","drm":0,"dwr":1,"matchid":-1,"mut":6,"pay":0,"pic":"http://shp.qpic.cn/qqvideo_ori/0/w03477u26i5_496_280/0","pr":1,"sec":6,"showr":1,"source":"","tags":[{"tag":"原创恶搞视频"},{"tag":"小罗恶搞"}],"title":"电话恶搞：再次恋爱吧！","tot":366,"trailer":0,"uptime":"2016-11-20 19:31:05","viewnum":531722,"voteid":""}}--==--

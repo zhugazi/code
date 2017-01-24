@@ -1,0 +1,8 @@
+[2016-11-18 15:00:10.288] [DEBUG] 平台 - 处理器实例化...
+[2016-11-18 15:00:10.288] [DEBUG] 平台 - 控制器实例化...
+[2016-11-18 15:00:10.288] [DEBUG] 平台 - server实例化
+[2016-11-18 15:00:10.304] [DEBUG] 平台 - Server running at 2016 port
+[2016-11-18 15:00:14.799] [DEBUG] 平台 - 请求[object Object]
+[2016-11-18 15:00:27.180] [ERROR] 平台 - occur error :  { Error: read ECONNRESET
+    at exports._errnoException (util.js:1007:11)
+    at TCP.onread (net.js:563:26) code: 'ECONNRESET', errno: 'ECONNRESET', syscall: 'read' }

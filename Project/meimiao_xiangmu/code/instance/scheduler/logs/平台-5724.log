@@ -1,0 +1,15 @@
+[2016-12-19 20:28:58.570] [DEBUG] 平台 - 处理器实例化...
+[2016-12-19 20:28:58.577] [DEBUG] 平台 - 控制器实例化...
+[2016-12-19 20:28:58.579] [DEBUG] 平台 - server实例化
+[2016-12-19 20:28:58.586] [DEBUG] 平台 - Server running at 2016 port
+[2016-12-19 20:28:59.901] [DEBUG] 平台 - 请求[object Object]
+[2016-12-19 20:28:59.929] [DEBUG] 平台 - http://m.weibo.cn/article/rcMod?id=4054451058243989&type=comment&page=1
+[2016-12-19 20:29:00.393] [DEBUG] 平台 - http://m.weibo.cn/article/rcMod?id=4054451058243989&type=comment&page=2
+[2016-12-19 20:29:00.525] [DEBUG] 平台 - http://m.weibo.cn/article/rcMod?id=4054451058243989&type=comment&page=3
+[2016-12-19 20:29:01.170] [DEBUG] 平台 - http://m.weibo.cn/article/rcMod?id=4054451058243989&type=comment&page=4
+[2016-12-19 20:29:02.006] [DEBUG] 平台 - http://m.weibo.cn/article/rcMod?id=4054451058243989&type=comment&page=5
+[2016-12-19 20:29:02.926] [DEBUG] 平台 - http://m.weibo.cn/article/rcMod?id=4054451058243989&type=comment&page=6
+[2016-12-19 20:29:03.265] [DEBUG] 平台 - http://m.weibo.cn/article/rcMod?id=4054451058243989&type=comment&page=7
+[2016-12-19 20:29:03.987] [DEBUG] 平台 - http://m.weibo.cn/article/rcMod?id=4054451058243989&type=comment&page=8
+[2016-12-19 20:29:04.494] [DEBUG] 平台 - http://m.weibo.cn/article/rcMod?id=4054451058243989&type=comment&page=9
+[2016-12-19 20:29:04.552] [DEBUG] 平台 - 您输入的数据没找到

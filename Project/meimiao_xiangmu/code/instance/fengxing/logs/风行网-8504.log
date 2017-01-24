@@ -1,0 +1,1755 @@
+[2017-01-20 11:36:17.350] [TRACE] 风行网 - DealWith instantiation ...
+[2017-01-20 11:36:17.363] [TRACE] 风行网 - spiderCore instantiation ...
+[2017-01-20 11:36:17.367] [TRACE] 风行网 - 启动函数
+[2017-01-20 11:36:17.409] [DEBUG] 风行网 - 任务信息数据库连接建立...成功
+[2017-01-20 11:36:17.412] [DEBUG] 风行网 - 缓存队列数据库连接建立...成功
+[2017-01-20 11:36:17.413] [DEBUG] 风行网 - 创建数据库连接完毕
+[2017-01-20 11:36:17.416] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:17.472] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:17.488] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:17.491] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:17.493] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:17.501] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:17.505] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:17.508] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:17.510] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:17.518] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:17.521] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:17.524] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:17.526] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:17.534] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:17.537] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:17.539] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:17.541] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:17.549] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:17.552] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:17.554] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:17.556] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:17.563] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:17.571] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:17.573] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:17.575] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:17.580] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:17.584] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:17.588] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:17.590] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:17.597] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:17.601] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:17.605] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:17.610] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:17.615] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:17.617] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:17.620] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:17.623] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:17.628] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:17.633] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:17.638] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:17.640] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:17.651] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:17.662] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:17.670] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:17.673] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:17.686] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:17.690] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:17.693] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:17.696] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:17.701] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:17.707] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:17.709] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:17.711] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:17.717] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:17.722] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:17.724] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:17.725] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:17.727] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:17.734] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:17.736] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:17.741] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:17.745] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:17.748] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:17.750] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:17.752] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:17.756] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:17.758] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:17.759] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:17.760] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:17.763] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:17.767] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:17.769] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:17.770] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:17.772] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:17.775] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:17.777] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:17.778] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:17.783] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:17.789] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:17.791] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:17.793] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:17.796] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:17.799] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:17.800] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:17.801] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:17.804] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:17.807] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:17.810] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:17.812] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:17.815] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:17.818] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:17.820] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:17.821] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:17.823] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:17.826] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:17.828] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:17.830] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:17.832] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:17.836] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:17.838] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:17.841] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:17.849] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:17.851] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:17.855] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:17.858] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:17.866] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:17.872] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:17.874] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:17.877] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:17.880] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:17.883] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:17.886] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:17.888] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:17.891] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:17.895] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:17.897] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:17.898] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:17.906] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:17.911] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:17.912] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:17.913] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:17.917] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:17.921] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:17.922] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:17.924] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:17.928] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:17.950] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:17.951] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:17.952] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:17.956] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:17.964] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:17.965] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:17.966] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:17.968] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:17.972] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:17.974] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:17.976] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:17.979] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:17.981] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:17.983] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:17.984] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:17.986] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:17.988] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:17.990] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:17.991] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:17.993] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:17.995] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:17.996] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:17.998] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.001] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.004] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.005] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.007] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.010] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.016] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.018] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.019] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.021] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.024] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.026] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.028] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.035] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.038] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.041] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.044] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.051] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.054] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.056] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.058] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.060] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.062] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.063] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.065] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.069] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.071] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.072] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.073] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.076] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.080] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.081] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.082] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.085] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.088] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.089] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.090] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.093] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.097] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.099] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.101] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.105] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.109] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.116] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.117] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.121] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.125] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.127] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.128] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.133] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.137] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.139] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.141] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.144] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.149] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.151] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.152] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.155] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.160] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.163] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.167] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.171] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.175] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.177] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.178] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.184] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.187] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.188] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.190] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.193] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.196] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.203] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.205] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.208] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.210] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.211] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.212] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.216] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.220] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.222] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.224] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.227] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.231] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.233] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.236] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.244] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.247] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.251] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.253] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.261] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.266] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.268] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.270] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.274] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.279] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.281] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.282] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.287] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.296] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.298] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.301] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.304] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.307] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.309] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.311] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.316] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.319] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.321] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.322] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.326] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.331] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.335] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.337] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.347] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.368] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.371] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.372] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.377] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.380] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.381] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.382] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.386] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.390] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.391] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.393] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.397] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.401] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.403] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.404] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.408] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.410] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.412] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.414] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.418] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.421] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.422] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.424] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.427] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.430] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.433] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.435] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.439] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.443] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.445] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.450] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.453] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.456] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.459] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.460] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.465] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.469] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.470] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.472] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.475] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.478] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.479] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.481] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.485] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.488] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.490] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.491] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.496] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.500] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.501] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.503] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.507] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.511] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.513] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.514] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.517] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.520] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.521] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.523] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.527] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.531] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.534] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.535] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.539] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.546] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.548] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.550] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.553] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.555] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.557] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.559] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.563] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.568] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.571] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.573] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.578] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.582] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.584] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.586] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.592] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.598] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.601] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.602] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.607] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.609] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.611] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.612] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.615] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.618] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.620] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.622] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.624] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.627] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.628] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.630] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.634] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.638] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.640] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.641] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.644] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.648] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.650] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.653] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.657] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.660] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.664] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.668] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.677] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.681] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.683] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.685] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.688] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.692] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.693] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.695] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.699] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.703] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.708] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.709] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.711] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.714] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.716] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.718] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.723] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.725] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.726] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.727] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.731] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.735] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.737] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.738] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.746] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.749] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.750] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.752] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.754] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.758] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.760] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.762] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.766] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.769] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.771] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.773] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.777] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.781] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.782] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.783] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.787] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.790] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.792] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.796] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.799] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.803] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.804] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.806] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.809] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.812] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.814] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.815] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.819] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.823] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.825] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.826] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.830] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.833] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.835] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.838] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.841] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.844] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.846] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.847] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.850] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.854] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.856] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.857] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.860] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.863] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.866] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.868] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.871] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.874] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.876] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.877] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.880] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.883] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.884] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.887] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.890] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.892] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.894] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.897] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.901] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.904] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.906] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.908] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.911] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.915] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.917] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.918] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.922] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.927] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.929] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.932] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.936] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.938] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.940] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.942] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.946] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.949] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.951] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.952] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.955] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.958] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.959] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.961] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.966] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.969] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.970] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.972] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.975] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.979] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.981] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.982] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.985] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:18.988] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:18.990] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:18.991] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:18.996] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:19.000] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:19.001] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:19.003] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:19.007] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:19.011] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site
+[2017-01-20 11:36:19.013] [DEBUG] 风行网 - 风行网的粉丝数请求失败
+[2017-01-20 11:36:19.015] [DEBUG] 风行网 - { url: 'http://www.fun.tv/search/?word=飞碟一分钟&type=site',
+  referer: 'http://www.fun.tv/search/?word=飞碟一分钟' }
+[2017-01-20 11:36:19.017] [ERROR] 风行网 - occur error :  TypeError: The header content contains invalid characters
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Request.start (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:744:32)
+    at Request.end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:1435:10)
+    at end (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:566:14)
+    at Immediate._onImmediate (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:580:7)
+    at tryOnImmediate (timers.js:543:15)
+    at processImmediate [as _immediateCallback] (timers.js:523:5)
+[2017-01-20 11:36:19.020] [ERROR] 风行网 - error url: http://www.fun.tv/search/?word=飞碟一分钟&type=site

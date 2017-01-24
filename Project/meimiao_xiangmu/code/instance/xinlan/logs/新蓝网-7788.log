@@ -1,0 +1,21 @@
+[2017-01-06 14:37:11.040] [TRACE] 新蓝网 - DealWith instantiation ...
+[2017-01-06 14:37:11.057] [TRACE] 新蓝网 - spiderCore instantiation ...
+[2017-01-06 14:37:11.062] [TRACE] 新蓝网 - 启动函数
+[2017-01-06 14:37:11.098] [DEBUG] 新蓝网 - 任务信息数据库连接建立...成功
+[2017-01-06 14:37:11.101] [DEBUG] 新蓝网 - 缓存队列数据库连接建立...成功
+[2017-01-06 14:37:11.102] [DEBUG] 新蓝网 - 创建数据库连接完毕
+[2017-01-06 14:37:11.301] [DEBUG] 新蓝网 - http://proxy.app.cztv.com/getSupportStatus.do?videoIdList=286423
+[2017-01-06 14:37:11.426] [DEBUG] 新蓝网 - http://proxy.app.cztv.com/getSupportStatus.do?videoIdList=286421
+[2017-01-06 14:37:11.436] [DEBUG] 新蓝网 - 新蓝网 286423 加入缓存队列
+[2017-01-06 14:37:11.872] [DEBUG] 新蓝网 - http://proxy.app.cztv.com/getSupportStatus.do?videoIdList=286420
+[2017-01-06 14:37:11.880] [DEBUG] 新蓝网 - 新蓝网 286421 加入缓存队列
+[2017-01-06 14:37:11.986] [DEBUG] 新蓝网 - http://proxy.app.cztv.com/getSupportStatus.do?videoIdList=286419
+[2017-01-06 14:37:11.996] [DEBUG] 新蓝网 - 新蓝网 286420 加入缓存队列
+[2017-01-06 14:37:12.113] [DEBUG] 新蓝网 - http://proxy.app.cztv.com/getSupportStatus.do?videoIdList=286418
+[2017-01-06 14:37:12.123] [DEBUG] 新蓝网 - 新蓝网 286419 加入缓存队列
+[2017-01-06 14:37:12.240] [DEBUG] 新蓝网 - http://proxy.app.cztv.com/getSupportStatus.do?videoIdList=286417
+[2017-01-06 14:37:12.240] [DEBUG] 新蓝网 - 新蓝网 286418 加入缓存队列
+[2017-01-06 14:37:12.362] [DEBUG] 新蓝网 - http://proxy.app.cztv.com/getSupportStatus.do?videoIdList=286416
+[2017-01-06 14:37:12.366] [DEBUG] 新蓝网 - 新蓝网 286417 加入缓存队列
+[2017-01-06 14:37:12.476] [DEBUG] 新蓝网 - http://proxy.app.cztv.com/getSupportStatus.do?videoIdList=286415
+[2017-01-06 14:37:12.476] [DEBUG] 新蓝网 - 新蓝网 286416 加入缓存队列

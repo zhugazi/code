@@ -1,0 +1,10 @@
+[2016-12-01 19:34:24.255] [TRACE] uc头条 - DealWith instantiation ...
+[2016-12-01 19:34:24.262] [TRACE] uc头条 - spiderCore instantiation ...
+[2016-12-01 19:34:24.264] [TRACE] uc头条 - 启动函数
+[2016-12-01 19:34:24.292] [DEBUG] uc头条 - 任务信息数据库连接建立...成功
+[2016-12-01 19:34:24.293] [DEBUG] uc头条 - 缓存队列数据库连接建立...成功
+[2016-12-01 19:34:24.295] [DEBUG] uc头条 - 创建数据库连接完毕
+[2016-12-01 19:34:24.296] [INFO] uc头条 - { id: '41ad6b83918746c2ad1a4afbab13e1cd',
+  name: '陈翔六点半',
+  p: '23' }
+[2016-12-01 19:34:24.323] [DEBUG] uc头条 - http://iflow.uczzd.cn/iflow/api/v1/article/search?app=ucnews-iflow&query=%23%E9%99%88%E7%BF%94%E5%85%AD%E7%82%B9%E5%8D%8A%23&detail=1&itemtype=30&page=1&size=10&uc_param_str=dnnivebichfrmintcpgieiwidsudsvadpf&dn=&nn=Kvk%3d&ve=2.1.0.919&bi=997&ch=&fr=iphone&mi=iPhone8%2c2&nt=2&pc=Kvk%3d&gp=KvmZeVOHEh95hgvq5A%2fUL5N9lfj3gW6ctED2cZ3oVJOu9g%3d%3d&me=Kvlie%2bFhqKYWgGc6nqdj%2bJzWCA8DHDo1WRqoN4qAmtt3qVrfKK47dc0MCWbbJCUBRG0%3d&wf=&ut=KvkWZBlKc4GpqD%2fPYo64KyNuuC5e%2bP8335GvtVz0BlN%2bNQ%3d%3d&ai=Kvk%3d&sv=app&ad=&pf=195

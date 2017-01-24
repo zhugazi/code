@@ -1,0 +1,88 @@
+[2016-11-25 12:57:46.367] [TRACE] 腾讯视频 - DealWith instantiation ...
+[2016-11-25 12:57:46.374] [TRACE] 腾讯视频 - spiderCore instantiation ...
+[2016-11-25 12:57:46.376] [TRACE] 腾讯视频 - 启动函数
+[2016-11-25 12:57:46.406] [DEBUG] 腾讯视频 - 任务信息数据库连接建立...成功
+[2016-11-25 12:57:46.409] [DEBUG] 腾讯视频 - 缓存队列数据库连接建立...成功
+[2016-11-25 12:57:46.411] [DEBUG] 腾讯视频 - 创建数据库连接完毕
+[2016-11-25 12:57:46.417] [TRACE] 腾讯视频 - Queue get ready
+[2016-11-25 12:57:46.460] [TRACE] 腾讯视频 - Get tencent task!
+[2016-11-25 12:57:46.462] [INFO] 腾讯视频 - { id: 'ddffd802943dd61a49f7dca59105875c',
+  p: '4',
+  name: '畅所欲言',
+  type: '1' }
+[2016-11-25 12:57:46.503] [DEBUG] 腾讯视频 - 开始获取视频总数
+[2016-11-25 12:57:46.508] [TRACE] 腾讯视频 - Get tencent task!
+[2016-11-25 12:57:46.510] [INFO] 腾讯视频 - { id: '38a061c2eb105fc1d5b0b89a1ce27006',
+  p: '4',
+  name: '大海解说',
+  type: '1' }
+[2016-11-25 12:57:46.513] [DEBUG] 腾讯视频 - 开始获取视频总数
+[2016-11-25 12:57:46.516] [TRACE] 腾讯视频 - Get tencent task!
+[2016-11-25 12:57:46.518] [INFO] 腾讯视频 - { id: 'e9ff17f6cc452c956f7512c83666adff',
+  p: '4',
+  name: 'DS女老诗',
+  type: '1' }
+[2016-11-25 12:57:46.522] [DEBUG] 腾讯视频 - 开始获取视频总数
+[2016-11-25 12:57:46.526] [TRACE] 腾讯视频 - Get tencent task!
+[2016-11-25 12:57:46.528] [INFO] 腾讯视频 - { id: '4aab56987952a196d2e414ecc3137397',
+  p: '4',
+  name: 'Maxonor创意公元',
+  type: '1' }
+[2016-11-25 12:57:46.531] [DEBUG] 腾讯视频 - 开始获取视频总数
+[2016-11-25 12:57:46.534] [TRACE] 腾讯视频 - Get tencent task!
+[2016-11-25 12:57:46.536] [INFO] 腾讯视频 - { id: '10eed7d7c0c17ec4d198c58fb86eb4dc',
+  p: '4',
+  name: '嗨小冷',
+  type: '1' }
+[2016-11-25 12:57:46.542] [DEBUG] 腾讯视频 - 开始获取视频总数
+[2016-11-25 12:57:46.546] [TRACE] 腾讯视频 - Get tencent task!
+[2016-11-25 12:57:46.551] [INFO] 腾讯视频 - { id: '09f7be2370615ba8f1e701cbd613f876',
+  p: '4',
+  name: '小本解说',
+  type: '1' }
+[2016-11-25 12:57:46.559] [DEBUG] 腾讯视频 - 开始获取视频总数
+[2016-11-25 12:57:46.565] [TRACE] 腾讯视频 - Get tencent task!
+[2016-11-25 12:57:46.572] [INFO] 腾讯视频 - { id: 'ed05e4048b6691ace370ba49c9e883e0',
+  p: '4',
+  name: '悠然小天',
+  type: '1' }
+[2016-11-25 12:57:46.576] [DEBUG] 腾讯视频 - 开始获取视频总数
+[2016-11-25 12:57:46.579] [TRACE] 腾讯视频 - Get tencent task!
+[2016-11-25 12:57:46.581] [INFO] 腾讯视频 - { id: 'ddff7aac0d45a5467edffb7b1c782739',
+  p: '4',
+  name: '牛男neo',
+  type: '1' }
+[2016-11-25 12:57:46.583] [DEBUG] 腾讯视频 - 开始获取视频总数
+[2016-11-25 12:57:46.620] [TRACE] 腾讯视频 - Get tencent task!
+[2016-11-25 12:57:46.624] [INFO] 腾讯视频 - { id: 'a5e7df9b5e09fd91b87401b4530cff9a',
+  p: '4',
+  name: '暴走漫画',
+  type: '1' }
+[2016-11-25 12:57:46.628] [DEBUG] 腾讯视频 - 开始获取视频总数
+[2016-11-25 12:57:46.771] [ERROR] 腾讯视频 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-25 12:57:46.790] [ERROR] 腾讯视频 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-25 12:57:46.806] [ERROR] 腾讯视频 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }

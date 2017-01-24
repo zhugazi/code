@@ -1,0 +1,253 @@
+[2016-11-28 15:43:16.100] [TRACE] 秒拍 - DealWith instantiation ...
+[2016-11-28 15:43:16.100] [TRACE] 秒拍 - spiderCore instantiation ...
+[2016-11-28 15:43:16.100] [TRACE] 秒拍 - 启动函数
+[2016-11-28 15:43:16.132] [DEBUG] 秒拍 - 任务信息数据库连接建立...成功
+[2016-11-28 15:43:16.132] [DEBUG] 秒拍 - 缓存队列数据库连接建立...成功
+[2016-11-28 15:43:16.132] [DEBUG] 秒拍 - 创建数据库连接完毕
+[2016-11-28 15:43:16.147] [TRACE] 秒拍 - Queue get ready
+[2016-11-28 15:43:16.178] [TRACE] 秒拍 - Get miaopai task!
+[2016-11-28 15:43:16.178] [INFO] 秒拍 - { id: 'WevtTZkNmg19jwaS', p: '7', name: '日食记', type: '0' }
+[2016-11-28 15:43:16.225] [TRACE] 秒拍 - Get miaopai task!
+[2016-11-28 15:43:16.225] [INFO] 秒拍 - { id: 'w8v7O5KFPPGrcWEf',
+  p: '7',
+  name: '厨娘物语BeautyCate',
+  type: '0' }
+[2016-11-28 15:43:16.225] [TRACE] 秒拍 - Get miaopai task!
+[2016-11-28 15:43:16.225] [INFO] 秒拍 - { id: '-bbWcmXAf55IWU6mRJ50lQ__', p: '7', name: '看鉴', type: '0' }
+[2016-11-28 15:43:16.225] [TRACE] 秒拍 - Get miaopai task!
+[2016-11-28 15:43:16.225] [INFO] 秒拍 - { id: 'LmHsZDUhpw8popPOvQlfjQ__',
+  p: '7',
+  name: '罐头视频',
+  type: '0' }
+[2016-11-28 15:43:16.225] [TRACE] 秒拍 - Get miaopai task!
+[2016-11-28 15:43:16.241] [INFO] 秒拍 - { id: 'ZPWwDeYSvPUb23SL', p: '7', name: 'papi酱', type: '0' }
+[2016-11-28 15:43:16.241] [TRACE] 秒拍 - Get miaopai task!
+[2016-11-28 15:43:16.241] [INFO] 秒拍 - { id: '51QodMl~IeMMaakd', p: '7', name: '起小点', type: '0' }
+[2016-11-28 15:43:16.241] [TRACE] 秒拍 - Get miaopai task!
+[2016-11-28 15:43:16.241] [INFO] 秒拍 - { id: 'akaD2btl9Mvyf0MS', p: '7', name: '潮人小罗', type: '0' }
+[2016-11-28 15:43:16.256] [TRACE] 秒拍 - Get miaopai task!
+[2016-11-28 15:43:16.256] [INFO] 秒拍 - { id: '6FwITG9yw7HPkPSw', p: '7', name: '糗事百科', type: '0' }
+[2016-11-28 15:43:16.256] [TRACE] 秒拍 - Get miaopai task!
+[2016-11-28 15:43:16.256] [INFO] 秒拍 - { id: 'C~WutFiFoSFsBLqt', p: '7', name: '女神TV', type: '0' }
+[2016-11-28 15:43:16.522] [DEBUG] 秒拍 - { url: 'http://staging.caihongip.com/index.php/Spider/Fans/postFans',
+  data: { platform: 7, bid: '6FwITG9yw7HPkPSw', fans_num: 5627527 } }
+[2016-11-28 15:43:16.537] [ERROR] 秒拍 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-28 15:43:16.600] [DEBUG] 秒拍 - { url: 'http://staging.caihongip.com/index.php/Spider/Fans/postFans',
+  data: { platform: 7, bid: 'ZPWwDeYSvPUb23SL', fans_num: 20743460 } }
+[2016-11-28 15:43:16.600] [ERROR] 秒拍 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-28 15:43:16.615] [DEBUG] 秒拍 - { url: 'http://staging.caihongip.com/index.php/Spider/Fans/postFans',
+  data: { platform: 7, bid: 'w8v7O5KFPPGrcWEf', fans_num: 1587398 } }
+[2016-11-28 15:43:16.615] [ERROR] 秒拍 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-28 15:43:16.646] [DEBUG] 秒拍 - { url: 'http://staging.caihongip.com/index.php/Spider/Fans/postFans',
+  data: { platform: 7, bid: '51QodMl~IeMMaakd', fans_num: 1573413 } }
+[2016-11-28 15:43:16.662] [ERROR] 秒拍 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-28 15:43:16.709] [DEBUG] 秒拍 - { url: 'http://staging.caihongip.com/index.php/Spider/Fans/postFans',
+  data: { platform: 7, bid: '-bbWcmXAf55IWU6mRJ50lQ__', fans_num: 62703 } }
+[2016-11-28 15:43:16.724] [ERROR] 秒拍 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-28 15:43:17.270] [DEBUG] 秒拍 - { url: 'http://staging.caihongip.com/index.php/Spider/Fans/postFans',
+  data: 
+   { platform: 7,
+     bid: 'LmHsZDUhpw8popPOvQlfjQ__',
+     fans_num: 1293544 } }
+[2016-11-28 15:43:17.302] [ERROR] 秒拍 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-28 15:43:20.359] [DEBUG] 秒拍 - { url: 'http://staging.caihongip.com/index.php/Spider/Fans/postFans',
+  data: { platform: 7, bid: 'C~WutFiFoSFsBLqt', fans_num: 244426 } }
+[2016-11-28 15:43:20.359] [ERROR] 秒拍 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-28 15:43:25.131] [DEBUG] 秒拍 - { url: 'http://staging.caihongip.com/index.php/Spider/Fans/postFans',
+  data: { platform: 7, bid: 'WevtTZkNmg19jwaS', fans_num: 5757134 } }
+[2016-11-28 15:43:25.147] [ERROR] 秒拍 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-28 15:43:25.225] [DEBUG] 秒拍 - { url: 'http://staging.caihongip.com/index.php/Spider/Fans/postFans',
+  data: { platform: 7, bid: 'akaD2btl9Mvyf0MS', fans_num: 2161834 } }
+[2016-11-28 15:43:25.240] [ERROR] 秒拍 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-28 15:43:37.550] [ERROR] 秒拍 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-28 15:43:37.550] [INFO] 秒拍 - 返回秒拍用户 6FwITG9yw7HPkPSw 连接服务器失败
+[2016-11-28 15:43:37.613] [ERROR] 秒拍 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-28 15:43:37.613] [INFO] 秒拍 - 返回秒拍用户 ZPWwDeYSvPUb23SL 连接服务器失败
+[2016-11-28 15:43:37.613] [ERROR] 秒拍 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-28 15:43:37.628] [INFO] 秒拍 - 返回秒拍用户 w8v7O5KFPPGrcWEf 连接服务器失败
+[2016-11-28 15:43:37.675] [ERROR] 秒拍 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-28 15:43:37.675] [INFO] 秒拍 - 返回秒拍用户 51QodMl~IeMMaakd 连接服务器失败
+[2016-11-28 15:43:37.722] [ERROR] 秒拍 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-28 15:43:37.722] [INFO] 秒拍 - 返回秒拍用户 -bbWcmXAf55IWU6mRJ50lQ__ 连接服务器失败
+[2016-11-28 15:43:38.283] [ERROR] 秒拍 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-28 15:43:38.283] [INFO] 秒拍 - 返回秒拍用户 LmHsZDUhpw8popPOvQlfjQ__ 连接服务器失败
+[2016-11-28 15:43:38.627] [DEBUG] 秒拍 - 秒拍 P6uNat~s7G4AJtFtXcHd2A__ 加入缓存队列
+[2016-11-28 15:43:38.642] [DEBUG] 秒拍 - 秒拍 nD9Ohm5alssbOUVDu-DHSg__ 加入缓存队列
+[2016-11-28 15:43:38.642] [DEBUG] 秒拍 - 秒拍 zlvE1nLWtYw~jMJcsq3khg__ 加入缓存队列
+[2016-11-28 15:43:38.642] [DEBUG] 秒拍 - 秒拍 909jj2HHluzR3ag8dV1gzg__ 加入缓存队列
+[2016-11-28 15:43:38.642] [DEBUG] 秒拍 - 秒拍 s6-7zs2hTD1tXViX4FWVCQ__ 加入缓存队列
+[2016-11-28 15:43:38.642] [DEBUG] 秒拍 - 秒拍 bxcuS5fsaBqBbyHA1QDI5g__ 加入缓存队列
+[2016-11-28 15:43:38.642] [DEBUG] 秒拍 - 秒拍 LEvmyYS26kdW8DKJSzo4qA__ 加入缓存队列
+[2016-11-28 15:43:38.642] [DEBUG] 秒拍 - 秒拍 QgNV0DtX8dzXQh~KiJDk2Q__ 加入缓存队列
+[2016-11-28 15:43:38.658] [DEBUG] 秒拍 - 秒拍 0PtbOqHKv1zD98IixS7HDw__ 加入缓存队列
+[2016-11-28 15:43:38.658] [DEBUG] 秒拍 - 秒拍 HSLiytTZLpTghWd~ItMy1w__ 加入缓存队列
+[2016-11-28 15:43:38.658] [DEBUG] 秒拍 - 秒拍 v737eec3B0du1T-F29vULQ__ 加入缓存队列
+[2016-11-28 15:43:38.658] [DEBUG] 秒拍 - 秒拍 6~DQfBMgUibajGByyFV08Q__ 加入缓存队列
+[2016-11-28 15:43:38.658] [DEBUG] 秒拍 - 秒拍 thVLCTX81ojCQpGlxzxPfQ__ 加入缓存队列
+[2016-11-28 15:43:38.658] [DEBUG] 秒拍 - 秒拍 6E8x3Q8b6bGSnKO6Pxawvw__ 加入缓存队列
+[2016-11-28 15:43:38.673] [DEBUG] 秒拍 - 秒拍 ZKwOvu6nN7uCke10InA3BQ__ 加入缓存队列
+[2016-11-28 15:43:38.673] [DEBUG] 秒拍 - 秒拍 Yo6M5zD1751GTn4xd272MQ__ 加入缓存队列
+[2016-11-28 15:43:38.673] [DEBUG] 秒拍 - 秒拍 AJHILdY~iHx9ycq5N-wkpg__ 加入缓存队列
+[2016-11-28 15:43:38.673] [DEBUG] 秒拍 - 秒拍 wpW2QXFM2T4ErKLobYuNfw__ 加入缓存队列
+[2016-11-28 15:43:38.673] [DEBUG] 秒拍 - 秒拍 q1euxRTwrTd75-I7IxtRiQ__ 加入缓存队列
+[2016-11-28 15:43:38.673] [DEBUG] 秒拍 - 秒拍 jU-d7C07eKizCxbSy3ixAw__ 加入缓存队列
+[2016-11-28 15:43:38.689] [DEBUG] 秒拍 - 秒拍 jvVEN1a92-RFpun5tFt-kA__ 加入缓存队列
+[2016-11-28 15:43:38.689] [DEBUG] 秒拍 - 秒拍 EuVJw979SgvFWjII4EHfoQ__ 加入缓存队列
+[2016-11-28 15:43:38.689] [DEBUG] 秒拍 - 秒拍 PPm8IfM6ABoEs~9mavhFaQ__ 加入缓存队列
+[2016-11-28 15:43:38.689] [DEBUG] 秒拍 - 秒拍 Q5AyrKoTt-wJqIRV8b628g__ 加入缓存队列
+[2016-11-28 15:43:38.689] [DEBUG] 秒拍 - 秒拍 UnjkCcV5Qu-l2F6G8qsSzg__ 加入缓存队列
+[2016-11-28 15:43:38.689] [DEBUG] 秒拍 - 秒拍 GxS9fwgdbo748E2YVH7Baw__ 加入缓存队列
+[2016-11-28 15:43:38.689] [DEBUG] 秒拍 - 秒拍 r7AJ6AZLUQaRqK5BltHIRg__ 加入缓存队列
+[2016-11-28 15:43:38.705] [DEBUG] 秒拍 - 秒拍 iFFJSzaATGA5HiscMnDHXQ__ 加入缓存队列
+[2016-11-28 15:43:38.705] [DEBUG] 秒拍 - 秒拍 c4VVecZKtDUNmOoJehRyVw__ 加入缓存队列
+[2016-11-28 15:43:38.705] [DEBUG] 秒拍 - 秒拍 BKl3IbNfAsHWSil~hcnHpA__ 加入缓存队列
+[2016-11-28 15:43:38.705] [DEBUG] 秒拍 - 秒拍 8HK1xSe4B2mcZOAVM8uTyw__ 加入缓存队列
+[2016-11-28 15:43:38.705] [DEBUG] 秒拍 - 秒拍 9wzVbYXrGO3qHsxcIVMbqQ__ 加入缓存队列
+[2016-11-28 15:43:38.705] [DEBUG] 秒拍 - 秒拍 lLqIxILppz0y4osi2LZyCg__ 加入缓存队列
+[2016-11-28 15:43:38.720] [DEBUG] 秒拍 - 秒拍 y7qL-Ylz1pd3osluFFex7Q__ 加入缓存队列
+[2016-11-28 15:43:38.720] [DEBUG] 秒拍 - 秒拍 7i7Ux9BbP3lDHMDEKWLB6g__ 加入缓存队列
+[2016-11-28 15:43:38.720] [DEBUG] 秒拍 - 秒拍 v-PkyP70qVSObamGnR9VUw__ 加入缓存队列
+[2016-11-28 15:43:38.720] [DEBUG] 秒拍 - 秒拍 3iwycTmlijxxbPESYLgM8g__ 加入缓存队列
+[2016-11-28 15:43:38.720] [DEBUG] 秒拍 - 秒拍 SrrESIIYyaTSX7CCKdj9YQ__ 加入缓存队列
+[2016-11-28 15:43:38.736] [DEBUG] 秒拍 - 秒拍 8ZulpvMtzo9b1wGAj-MEmQ__ 加入缓存队列
+[2016-11-28 15:43:38.736] [DEBUG] 秒拍 - 秒拍 JwUHHq0adx2J3hrgSOEzHA__ 加入缓存队列
+[2016-11-28 15:43:38.910] [DEBUG] 秒拍 - 秒拍 BgJVvlB4dRXM2VZd23Zgsg__ 加入缓存队列
+[2016-11-28 15:43:38.926] [DEBUG] 秒拍 - 秒拍 -NNA0N3wnF2zUvYM5yu04A__ 加入缓存队列
+[2016-11-28 15:43:38.926] [DEBUG] 秒拍 - 秒拍 0BWKwlAylnkZ96lPEpn6mQ__ 加入缓存队列
+[2016-11-28 15:43:38.926] [DEBUG] 秒拍 - 秒拍 v~4GNZllN5rZtW0KdU1fdw__ 加入缓存队列
+[2016-11-28 15:43:38.926] [DEBUG] 秒拍 - 秒拍 ds8Wf1p~KJTJ961fa9xqSA__ 加入缓存队列
+[2016-11-28 15:43:38.926] [DEBUG] 秒拍 - 秒拍 OsgjbqlPf4QK5wHLq66hDg__ 加入缓存队列
+[2016-11-28 15:43:38.942] [DEBUG] 秒拍 - 秒拍 JdWpUy5ND9anjASXoYlQVg__ 加入缓存队列
+[2016-11-28 15:43:38.942] [DEBUG] 秒拍 - 秒拍 Baev9OFHiYl7k~el-3Vyeg__ 加入缓存队列
+[2016-11-28 15:43:38.942] [DEBUG] 秒拍 - 秒拍 J-PiXDop5V42FIs4pLAGfw__ 加入缓存队列
+[2016-11-28 15:43:38.942] [DEBUG] 秒拍 - 秒拍 7QQfK2Y8eY6u4eXPV6kVzw__ 加入缓存队列
+[2016-11-28 15:43:38.957] [DEBUG] 秒拍 - 秒拍 Een7LSCytPnWpncBckBYzw__ 加入缓存队列
+[2016-11-28 15:43:38.957] [DEBUG] 秒拍 - 秒拍 wJ5EzchTRwPrQmbueTlY~Q__ 加入缓存队列
+[2016-11-28 15:43:38.957] [DEBUG] 秒拍 - 秒拍 nWLfA2YShWKV43bxXsEu6w__ 加入缓存队列
+[2016-11-28 15:43:38.957] [DEBUG] 秒拍 - 秒拍 G-6q429UdxLKJnS0bhX6gA__ 加入缓存队列
+[2016-11-28 15:43:38.957] [DEBUG] 秒拍 - 秒拍 2CTXTK6O4-rtQDWQT5-Hkg__ 加入缓存队列
+[2016-11-28 15:43:38.973] [DEBUG] 秒拍 - 秒拍 N~kYbn1gbzeuQs7o6RSdZQ__ 加入缓存队列
+[2016-11-28 15:43:38.973] [DEBUG] 秒拍 - 秒拍 obj1UZP6ftem5kFoIDnDWw__ 加入缓存队列
+[2016-11-28 15:43:38.973] [DEBUG] 秒拍 - 秒拍 BWTzpxp6dgfRlK4nYaxd0A__ 加入缓存队列
+[2016-11-28 15:43:38.973] [DEBUG] 秒拍 - 秒拍 TuxX7RGsJYDKzQhBXzMu0Q__ 加入缓存队列
+[2016-11-28 15:43:38.973] [DEBUG] 秒拍 - 秒拍 xNpII4EfIJG6UWHZKHWcgw__ 加入缓存队列

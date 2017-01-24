@@ -1,0 +1,28 @@
+[2016-11-25 19:07:45.583] [TRACE] 天天快报 - DealWith instantiation ...
+[2016-11-25 19:07:45.590] [TRACE] 天天快报 - spiderCore instantiation ...
+[2016-11-25 19:07:45.592] [TRACE] 天天快报 - 启动函数
+[2016-11-25 19:07:45.621] [DEBUG] 天天快报 - 任务信息数据库连接建立...成功
+[2016-11-25 19:07:45.624] [DEBUG] 天天快报 - 缓存队列数据库连接建立...成功
+[2016-11-25 19:07:45.627] [DEBUG] 天天快报 - 创建数据库连接完毕
+[2016-11-25 19:07:45.628] [INFO] 天天快报 - { p: '10', id: '5112017' }
+[2016-11-25 19:07:47.193] [ERROR] 天天快报 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-25 19:08:07.773] [ERROR] 天天快报 - occur error: { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-25 19:08:07.790] [INFO] 天天快报 - 返回天天快报用户 5112017 连接服务器失败
+[2016-11-25 19:08:12.495] [DEBUG] 天天快报 - {"result":{"code":0,"msg":""},"vid":"u0344d6x66m","video":{"betime":0,"c_danmu":1,"c_danmu_status":1,"competitionid":-1,"ctypeid":26,"ctypename":"旅游","desc":"C90同人展是日本乃至全球最大型的同人志即卖会。活动就像是一个大型的社团活动一样，大家参与其中，有人画小黄本，有人贩卖，有人拍照，有人cos角色，有人逛摊子排队，有人狂扫周边，有人调戏coser。这就是一场属于二次元的狂欢，大家都参与进来，燃烧自己。","drm":0,"dwr":1,"matchid":-1,"mut":5,"pay":0,"pic":"http://shp.qpic.cn/qqvideo_ori/0/u0344d6x66m_496_280/0","pr":1,"sec":21,"showr":1,"source":"","tags":[{"tag":"日本"},{"tag":"宅男"},{"tag":"同人展"},{"tag":"动漫"}],"title":"极品萌妹cosplay 场面辣到让你睁不开眼","tot":321,"trailer":0,"uptime":"2016-11-10 19:14:52","viewnum":104021,"voteid":""}}--==--
+[2016-11-25 19:08:17.194] [DEBUG] 天天快报 - {"result":{"code":0,"msg":""},"vid":"f0342mhgbok","video":{"betime":0,"c_danmu":1,"c_danmu_status":1,"competitionid":-1,"ctypeid":26,"ctypename":"旅游","desc":"看他如何用一把剪刀把妈妈变成少女","drm":0,"dwr":1,"matchid":-1,"mut":3,"pay":0,"pic":"http://shp.qpic.cn/qqvideo_ori/0/f0342mhgbok_496_280/0","pr":1,"sec":46,"showr":1,"source":"","subtype":[{"id":"4"},{"id":"7"}],"tags":[{"tag":"剪刀手"},{"tag":"美女"}],"title":"他用一把剪刀把妈妈变成了少女","tot":226,"trailer":0,"uptime":"2016-11-03 21:17:39","viewnum":119011,"voteid":""}}--==--

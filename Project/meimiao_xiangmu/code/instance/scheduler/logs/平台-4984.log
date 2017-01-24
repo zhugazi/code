@@ -1,0 +1,15 @@
+[2016-11-16 17:09:24.013] [DEBUG] 平台 - 处理器实例化...
+[2016-11-16 17:09:24.019] [DEBUG] 平台 - 控制器实例化...
+[2016-11-16 17:09:24.021] [DEBUG] 平台 - server实例化
+[2016-11-16 17:09:24.029] [DEBUG] 平台 - Server running at 2016 port
+[2016-11-16 17:09:28.771] [ERROR] 平台 - occur error :  Error: options.uri is a required argument
+    at Request.init (D:\AppServ\www\meimiao\code\node_modules\.2.78.0@request\request.js:232:31)
+    at new Request (D:\AppServ\www\meimiao\code\node_modules\.2.78.0@request\request.js:128:8)
+    at request (D:\AppServ\www\meimiao\code\node_modules\.2.78.0@request\index.js:54:10)
+    at Function.get (D:\AppServ\www\meimiao\code\node_modules\.2.78.0@request\index.js:62:12)
+    at Object.exports.get (D:\AppServ\www\meimiao\code\lib\request.js:29:13)
+    at async.whilst (D:\AppServ\www\meimiao\code\servant\dealWith.js:381:29)
+    at Object.whilst (D:\AppServ\www\meimiao\code\node_modules\.2.1.2@async\dist\async.js:5098:5)
+    at request.get (D:\AppServ\www\meimiao\code\servant\dealWith.js:373:19)
+    at Request.request.get [as _callback] (D:\AppServ\www\meimiao\code\lib\request.js:45:16)
+    at Request.self.callback (D:\AppServ\www\meimiao\code\node_modules\.2.78.0@request\request.js:186:22)

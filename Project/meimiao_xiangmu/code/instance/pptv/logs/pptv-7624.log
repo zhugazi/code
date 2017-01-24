@@ -1,0 +1,9 @@
+[2017-01-20 15:58:39.293] [TRACE] pptv - DealWith instantiation ...
+[2017-01-20 15:58:39.307] [TRACE] pptv - spiderCore instantiation ...
+[2017-01-20 15:58:39.309] [TRACE] pptv - 启动函数
+[2017-01-20 15:58:39.343] [DEBUG] pptv - 任务信息数据库连接建立...成功
+[2017-01-20 15:58:39.344] [DEBUG] pptv - 缓存队列数据库连接建立...成功
+[2017-01-20 15:58:39.346] [DEBUG] pptv - 创建数据库连接完毕
+[2017-01-20 15:58:39.556] [DEBUG] pptv - http://apicdn.sc.pptv.com/sc/v3/pplive/ref/vod_17012382/feed/list?appplt=web&action=1&pn=0&ps=20
+[2017-01-20 15:58:39.774] [DEBUG] pptv - http://apicdn.sc.pptv.com/sc/v3/pplive/ref/vod_16995346/feed/list?appplt=web&action=1&pn=0&ps=20
+[2017-01-20 15:58:39.779] [DEBUG] pptv - PPTV 17012382 加入缓存队列

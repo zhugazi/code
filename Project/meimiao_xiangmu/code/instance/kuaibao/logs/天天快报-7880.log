@@ -1,0 +1,54 @@
+[2016-11-25 19:02:17.937] [TRACE] 天天快报 - DealWith instantiation ...
+[2016-11-25 19:02:17.944] [TRACE] 天天快报 - spiderCore instantiation ...
+[2016-11-25 19:02:17.946] [TRACE] 天天快报 - 启动函数
+[2016-11-25 19:02:17.973] [DEBUG] 天天快报 - 任务信息数据库连接建立...成功
+[2016-11-25 19:02:17.975] [DEBUG] 天天快报 - 缓存队列数据库连接建立...成功
+[2016-11-25 19:02:17.977] [DEBUG] 天天快报 - 创建数据库连接完毕
+[2016-11-25 19:02:17.978] [INFO] 天天快报 - { p: '10', id: '5105923' }
+[2016-11-25 19:02:19.524] [ERROR] 天天快报 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-25 19:02:40.106] [ERROR] 天天快报 - occur error: { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-25 19:02:40.111] [INFO] 天天快报 - 返回天天快报用户 5105923 连接服务器失败
+[2016-11-25 19:19:44.517] [TRACE] 天天快报 - DealWith instantiation ...
+[2016-11-25 19:19:44.525] [TRACE] 天天快报 - spiderCore instantiation ...
+[2016-11-25 19:19:44.622] [TRACE] 天天快报 - 启动函数
+[2016-11-25 19:19:44.662] [DEBUG] 天天快报 - 任务信息数据库连接建立...成功
+[2016-11-25 19:19:44.665] [DEBUG] 天天快报 - 缓存队列数据库连接建立...成功
+[2016-11-25 19:19:44.668] [DEBUG] 天天快报 - 创建数据库连接完毕
+[2016-11-25 19:19:44.670] [INFO] 天天快报 - { p: '10', id: '5112017' }
+[2016-11-25 19:19:47.153] [DEBUG] 天天快报 - 用户: 5112017 back_end
+[2016-11-25 19:20:07.885] [ERROR] 天天快报 - occur error: { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-25 19:20:07.898] [INFO] 天天快报 - 返回天天快报用户 5112017 连接服务器失败
+[2016-11-25 19:20:11.781] [DEBUG] 天天快报 - object--==--
+[2016-11-25 19:20:11.785] [DEBUG] 天天快报 - object--==--
+[2016-11-25 19:20:18.236] [DEBUG] 天天快报 - object--==--
+[2016-11-25 19:20:18.240] [DEBUG] 天天快报 - object--==--
+[2016-11-25 19:20:25.629] [DEBUG] 天天快报 - object--==--
+[2016-11-25 19:20:25.634] [DEBUG] 天天快报 - object--==--
+[2016-11-25 19:20:32.297] [DEBUG] 天天快报 - object--==--
+[2016-11-25 19:20:32.299] [DEBUG] 天天快报 - object--==--
+[2016-11-25 19:20:37.948] [DEBUG] 天天快报 - object--==--
+[2016-11-25 19:20:37.954] [DEBUG] 天天快报 - object--==--

@@ -1,0 +1,34 @@
+[2016-11-25 12:56:58.774] [TRACE] 腾讯视频 - DealWith instantiation ...
+[2016-11-25 12:56:58.781] [TRACE] 腾讯视频 - spiderCore instantiation ...
+[2016-11-25 12:56:58.784] [TRACE] 腾讯视频 - 启动函数
+[2016-11-25 12:56:58.812] [DEBUG] 腾讯视频 - 任务信息数据库连接建立...成功
+[2016-11-25 12:56:58.814] [DEBUG] 腾讯视频 - 缓存队列数据库连接建立...成功
+[2016-11-25 12:56:58.817] [DEBUG] 腾讯视频 - 创建数据库连接完毕
+[2016-11-25 12:56:58.824] [TRACE] 腾讯视频 - Queue get ready
+[2016-11-25 12:56:58.866] [TRACE] 腾讯视频 - Get tencent task!
+[2016-11-25 12:56:58.881] [DEBUG] 腾讯视频 - 开始获取视频总数
+[2016-11-25 12:56:58.886] [TRACE] 腾讯视频 - Get tencent task!
+[2016-11-25 12:56:58.889] [DEBUG] 腾讯视频 - 开始获取视频总数
+[2016-11-25 12:56:58.891] [TRACE] 腾讯视频 - Get tencent task!
+[2016-11-25 12:56:58.893] [DEBUG] 腾讯视频 - 开始获取视频总数
+[2016-11-25 12:56:58.895] [TRACE] 腾讯视频 - Get tencent task!
+[2016-11-25 12:56:58.898] [DEBUG] 腾讯视频 - 开始获取视频总数
+[2016-11-25 12:56:58.907] [TRACE] 腾讯视频 - Get tencent task!
+[2016-11-25 12:56:58.911] [DEBUG] 腾讯视频 - 开始获取视频总数
+[2016-11-25 12:56:58.917] [TRACE] 腾讯视频 - Get tencent task!
+[2016-11-25 12:56:58.925] [DEBUG] 腾讯视频 - 开始获取视频总数
+[2016-11-25 12:56:58.928] [TRACE] 腾讯视频 - Get tencent task!
+[2016-11-25 12:56:58.930] [DEBUG] 腾讯视频 - 开始获取视频总数
+[2016-11-25 12:56:58.937] [TRACE] 腾讯视频 - Get tencent task!
+[2016-11-25 12:56:58.940] [DEBUG] 腾讯视频 - 开始获取视频总数
+[2016-11-25 12:56:58.989] [TRACE] 腾讯视频 - Get tencent task!
+[2016-11-25 12:56:58.993] [DEBUG] 腾讯视频 - 开始获取视频总数
+[2016-11-25 12:56:59.189] [ERROR] 腾讯视频 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }

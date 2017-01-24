@@ -1,0 +1,34 @@
+[2016-11-25 17:51:36.664] [TRACE] 天天快报 - DealWith instantiation ...
+[2016-11-25 17:51:36.671] [TRACE] 天天快报 - spiderCore instantiation ...
+[2016-11-25 17:51:36.672] [TRACE] 天天快报 - 启动函数
+[2016-11-25 17:51:36.698] [DEBUG] 天天快报 - 任务信息数据库连接建立...成功
+[2016-11-25 17:51:36.701] [DEBUG] 天天快报 - 缓存队列数据库连接建立...成功
+[2016-11-25 17:51:36.702] [DEBUG] 天天快报 - 创建数据库连接完毕
+[2016-11-25 17:51:36.704] [INFO] 天天快报 - { p: '10', id: '5105923' }
+[2016-11-25 17:51:38.322] [ERROR] 天天快报 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-25 17:51:58.823] [ERROR] 天天快报 - occur error: { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-25 17:51:58.828] [INFO] 天天快报 - 返回天天快报用户 5105923 连接服务器失败
+[2016-11-25 17:52:07.950] [DEBUG] 天天快报 - QZOutputJson={"result":{"code":0,"msg":""},"vid":"j1414b9p0dv","video":{"dwr":1,"pic":"http://shp.qpic.cn/qqvideo_ori/0/j1414b9p0dv_496_280/0","pr":1,"title":"揭秘男子找美女约会，女子竟然当众摔狗","vid":"j1414b9p0dv","viewnum":432485}};--==--
+[2016-11-25 17:52:08.436] [DEBUG] 天天快报 - QZOutputJson={"result":{"code":0,"msg":""},"vid":"l0348ek27q6","video":{"betime":0,"c_danmu":1,"c_danmu_status":1,"competitionid":-1,"ctypeid":60,"ctypename":"母婴","desc":"假如孩子看到自己父母突然变老30岁...更多精彩视频快来关注微信公众号吧。","drm":0,"dwr":1,"matchid":-1,"mut":4,"pay":0,"pic":"http://shp.qpic.cn/qqvideo_ori/0/l0348ek27q6_496_280/0","pr":1,"sec":59,"showr":1,"source":"","tags":[{"tag":"亲子互动"},{"tag":"亲子秀"},{"tag":"父母突然变老"}],"title":"亲子篇不完整版","tot":299,"trailer":0,"uptime":"2016-11-22 19:19:51","viewnum":11974,"voteid":""}};--==--
+[2016-11-25 17:52:14.214] [DEBUG] 天天快报 - QZOutputJson={"result":{"code":0,"msg":""},"vid":"w03477u26i5","video":{"betime":0,"c_danmu":1,"c_danmu_status":1,"competitionid":-1,"ctypeid":43,"ctypename":"搞笑","desc":"电话恶搞再次恋爱吧1","drm":0,"dwr":1,"matchid":-1,"mut":6,"pay":0,"pic":"http://shp.qpic.cn/qqvideo_ori/0/w03477u26i5_496_280/0","pr":1,"sec":6,"showr":1,"source":"","tags":[{"tag":"原创恶搞视频"},{"tag":"小罗恶搞"}],"title":"电话恶搞：再次恋爱吧！","tot":366,"trailer":0,"uptime":"2016-11-20 19:31:05","viewnum":530894,"voteid":""}};--==--
+[2016-11-25 17:52:18.773] [DEBUG] 天天快报 - QZOutputJson={"result":{"code":0,"msg":""},"vid":"s034743md12","video":{"betime":0,"c_danmu":1,"c_danmu_status":1,"competitionid":-1,"ctypeid":43,"ctypename":"搞笑","desc":"拜金女爽快答应土豪约会，等待她的是什么？更多精彩视频快来关注潮人小罗微信公众号吧。","drm":0,"dwr":1,"matchid":-1,"mut":4,"pay":0,"pic":"http://shp.qpic.cn/qqvideo_ori/0/s034743md12_496_280/0","pr":1,"sec":55,"showr":1,"source":"","tags":[{"tag":"原创恶搞视频"},{"tag":"小罗恶搞"},{"tag":"宾馆sm"},{"tag":"开宾利约美女"},{"tag":"土豪约美女"}],"title":"拜金女爽快答应土豪约会，等待她的是什么？","tot":295,"trailer":0,"uptime":"2016-11-19 14:27:31","viewnum":7001,"voteid":""}};--==--
+[2016-11-25 17:52:23.950] [DEBUG] 天天快报 - QZOutputJson={"result":{"code":0,"msg":""},"vid":"e0347n1fp4y","video":{"betime":0,"c_danmu":1,"c_danmu_status":1,"competitionid":-1,"ctypeid":43,"ctypename":"搞笑","desc":"美女放屁喷火恶搞路人1","drm":0,"dwr":1,"matchid":-1,"mut":5,"pay":0,"pic":"http://shp.qpic.cn/qqvideo_ori/0/e0347n1fp4y_496_280/0","pr":1,"sec":48,"showr":1,"source":"","tags":[{"tag":"小罗恶搞"},{"tag":"原创恶搞视频"}],"title":"美女放屁喷火！恶搞路人！","tot":348,"trailer":0,"uptime":"2016-11-19 19:34:32","viewnum":626842,"voteid":""}};--==--
+[2016-11-25 17:52:34.685] [DEBUG] 天天快报 - QZOutputJson={"result":{"code":0,"msg":""},"vid":"o0347pvjiup","video":{"betime":0,"c_danmu":1,"c_danmu_status":1,"competitionid":-1,"ctypeid":43,"ctypename":"搞笑","desc":"土豪开宾利约美女揭露某软件黑幕，更多精彩视频快来关注微信公众号","drm":0,"dwr":1,"matchid":-1,"mut":0,"pay":0,"pic":"http://shp.qpic.cn/qqvideo_ori/0/o0347pvjiup_496_280/0","pr":1,"sec":49,"showr":1,"source":"","tags":[{"tag":"原创恶搞视频"},{"tag":"恶搞视频"},{"tag":"美女"},{"tag":"豪车约美女"}],"title":"土豪开宾利约美女揭露某软件黑幕","tot":49,"trailer":0,"uptime":"2016-11-17 16:17:33","viewnum":16857,"voteid":""}};--==--
+[2016-11-25 17:52:37.741] [DEBUG] 天天快报 - QZOutputJson={"result":{"code":0,"msg":""},"vid":"f0347o4ctfb","video":{"betime":0,"c_danmu":1,"c_danmu_status":1,"competitionid":-1,"ctypeid":43,"ctypename":"搞笑","desc":"小罗恶搞之如何治疗屁王室友 更多精彩关注微信公众号潮人小罗","drm":0,"dwr":1,"matchid":-1,"mut":5,"pay":0,"pic":"http://shp.qpic.cn/qqvideo_ori/0/f0347o4ctfb_496_280/0","pr":1,"sec":51,"showr":1,"source":"","tags":[{"tag":"小罗恶搞"},{"tag":"原创恶搞视频"},{"tag":"放屁"}],"title":"小罗恶搞之如何治疗屁王室友","tot":351,"trailer":0,"uptime":"2016-11-18 19:37:57","viewnum":507297,"voteid":""}};--==--
+[2016-11-25 17:52:41.617] [DEBUG] 天天快报 - QZOutputJson={"result":{"code":0,"msg":""},"vid":"s0345pp0z39","video":{"betime":0,"c_danmu":1,"c_danmu_status":1,"competitionid":-1,"ctypeid":29,"ctypename":"汽车","desc":"飘一恶搞飘一恶搞飘一恶搞飘一恶搞","drm":0,"dwr":1,"matchid":-1,"mut":9,"pay":0,"pic":"http://shp.qpic.cn/qqvideo_ori/0/s0345pp0z39_496_280/0","pr":1,"sec":7,"showr":1,"source":"","title":"小罗疯狂漂移恶搞","tot":547,"trailer":0,"uptime":"2016-11-11 21:07:14","viewnum":1529122,"voteid":""}};--==--

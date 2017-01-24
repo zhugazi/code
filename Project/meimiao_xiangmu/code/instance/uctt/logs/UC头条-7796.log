@@ -1,0 +1,346 @@
+[2017-01-21 14:36:59.764] [TRACE] UC头条 - DealWith instantiation ...
+[2017-01-21 14:36:59.764] [TRACE] UC头条 - spiderCore instantiation ...
+[2017-01-21 14:36:59.780] [TRACE] UC头条 - 启动函数
+[2017-01-21 14:36:59.811] [DEBUG] UC头条 - 任务信息数据库连接建立...成功
+[2017-01-21 14:36:59.811] [DEBUG] UC头条 - 缓存队列数据库连接建立...成功
+[2017-01-21 14:36:59.811] [DEBUG] UC头条 - 创建数据库连接完毕
+[2017-01-21 14:36:59.928] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:36:59.928] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:36:59.928] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:00.026] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:00.026] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:00.043] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:00.128] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:00.128] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:00.128] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:00.210] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:00.210] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:00.210] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:00.280] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:00.296] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:00.296] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:00.363] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:00.379] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:00.379] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:00.460] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:00.463] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:00.468] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:00.528] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:00.545] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:00.547] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:00.625] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:00.648] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:00.652] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:00.726] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:00.726] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:00.726] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:00.795] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:00.795] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:00.810] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:00.879] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:00.894] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:00.894] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:00.969] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:00.971] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:00.973] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:01.048] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:01.048] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:01.048] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:01.126] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:01.126] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:01.126] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:01.211] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:01.211] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:01.211] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:01.294] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:01.294] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:01.310] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:01.380] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:01.380] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:01.395] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:01.465] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:01.465] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:01.465] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:01.547] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:01.548] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:01.551] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:01.628] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:01.628] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:01.628] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:01.696] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:01.696] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:01.712] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:01.780] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:01.796] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:01.796] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:01.865] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:01.865] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:01.865] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:01.951] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:01.954] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:01.956] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:02.027] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:02.027] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:02.027] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:02.095] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:02.095] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:02.095] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:02.181] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:02.181] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:02.181] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:02.264] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:02.265] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:02.265] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:02.328] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:02.328] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:02.343] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:02.411] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:02.411] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:02.411] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:02.495] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:02.495] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:02.495] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:02.579] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:02.579] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:02.595] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:02.681] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:02.682] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:02.682] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:02.765] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:02.765] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:02.780] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:02.857] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:02.864] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:02.865] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:02.945] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:02.949] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:02.951] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:03.028] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:03.028] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:03.028] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:03.111] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:03.111] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:03.111] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:03.196] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:03.196] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:03.196] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:03.282] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:03.282] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:03.282] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:03.349] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:03.365] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:03.365] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:03.466] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:03.466] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:03.481] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:03.561] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:03.564] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:03.566] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:03.628] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:03.646] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:03.649] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:03.728] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:03.728] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:03.728] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:03.813] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:03.813] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:03.813] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:03.896] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:03.896] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:03.896] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:03.981] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:03.983] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:03.983] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:04.063] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:04.065] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:04.065] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:04.128] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:04.145] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:04.149] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:04.212] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:04.227] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:04.227] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:04.298] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:04.314] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:04.314] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:04.396] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:04.396] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:04.396] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:04.480] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:04.480] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:04.480] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:04.564] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:04.566] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:04.566] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:04.647] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:04.650] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:04.650] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:04.728] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:04.728] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:04.728] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:04.813] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:04.813] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:04.813] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:04.881] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:04.896] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:04.896] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:04.966] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:04.982] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:04.982] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:05.063] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:05.066] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:05.067] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:05.145] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:05.148] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:05.150] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:05.212] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:05.228] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:05.228] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:05.312] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:05.312] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:05.328] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:05.399] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:05.399] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:05.414] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:05.498] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:05.498] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:05.498] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:05.581] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:05.581] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:05.581] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:05.666] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:05.669] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:05.672] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:05.828] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:05.828] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:05.828] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:05.914] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:05.914] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:05.914] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:05.998] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:05.998] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:05.998] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:06.067] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:06.082] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:06.082] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:06.151] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:06.151] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:06.166] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:06.229] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:06.247] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:06.252] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:06.316] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:06.331] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:06.331] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:06.401] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:06.401] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:06.401] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:06.482] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:06.482] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:06.482] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:06.564] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:06.567] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:06.571] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:06.647] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:06.651] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:06.652] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:06.730] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:06.730] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:06.730] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:06.798] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:06.814] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:06.814] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:06.883] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:06.883] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:06.883] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:06.967] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:06.967] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:06.967] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }
+[2017-01-21 14:37:07.050] [ERROR] UC头条 - 请求状态有误: 404
+[2017-01-21 14:37:07.053] [ERROR] UC头条 - error url: http://napi.uc.cn/3/classes/article/categories/wemedia/lists/eceaaddd29913d17966bc559443d9791?_app_id=cbd10b7b69994dca92e04fe00c05b8c2&_fetch=1&_fetch_incrs=1&_size=5&_max_pos=&uc_param_str=frdnsnpfvecpntnwprdsssnikt
+[2017-01-21 14:37:07.056] [ERROR] UC头条 - 接口请求错误 :  { code: 404,
+  errmsg: '{"error":{"message":"List Category[wemedia] ID[eceaaddd29913d17966bc559443d9791] Not Found","code":20103}}' }

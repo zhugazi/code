@@ -1,0 +1,28 @@
+[2016-11-25 19:51:25.598] [TRACE] 天天快报 - DealWith instantiation ...
+[2016-11-25 19:51:25.604] [TRACE] 天天快报 - spiderCore instantiation ...
+[2016-11-25 19:51:25.606] [TRACE] 天天快报 - 启动函数
+[2016-11-25 19:51:25.631] [DEBUG] 天天快报 - 任务信息数据库连接建立...成功
+[2016-11-25 19:51:25.633] [DEBUG] 天天快报 - 缓存队列数据库连接建立...成功
+[2016-11-25 19:51:25.635] [DEBUG] 天天快报 - 创建数据库连接完毕
+[2016-11-25 19:51:25.637] [INFO] 天天快报 - { p: '10', id: '5112017' }
+[2016-11-25 19:51:28.208] [ERROR] 天天快报 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-25 19:51:47.518] [ERROR] 天天快报 - occur error: { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-25 19:51:47.522] [INFO] 天天快报 - 返回天天快报用户 5112017 连接服务器失败
+[2016-11-25 19:51:52.973] [DEBUG] 天天快报 - C90同人展是日本乃至全球最大型的同人志即卖会。活动就像是一个大型的社团活动一样，大家参与其中，有人画小黄本，有人贩卖，有人拍照，有人cos角色，有人逛摊子排队，有人狂扫周边，有人调戏coser。这就是一场属于二次元的狂欢，大家都参与进来，燃烧自己。
+[2016-11-25 19:51:57.466] [DEBUG] 天天快报 - 看他如何用一把剪刀把妈妈变成少女

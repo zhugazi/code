@@ -1,0 +1,24 @@
+[2016-11-27 15:42:22.588] [TRACE] 今日头条 - DealWith instantiation ...
+[2016-11-27 15:42:22.588] [TRACE] 今日头条 - spiderCore instantiation ...
+[2016-11-27 15:42:22.603] [TRACE] 今日头条 - 启动函数
+[2016-11-27 15:42:22.626] [DEBUG] 今日头条 - 任务信息数据库连接建立...成功
+[2016-11-27 15:42:22.626] [DEBUG] 今日头条 - 缓存队列数据库连接建立...成功
+[2016-11-27 15:42:22.626] [DEBUG] 今日头条 - 创建数据库连接完毕
+[2016-11-27 15:42:22.626] [INFO] 今日头条 - { p: '6', id: '50246551362', name: '视频不重要评论最搞笑' }
+[2016-11-27 15:42:22.657] [DEBUG] 今日头条 - http://ib.snssdk.com/pgc/ma/?media_id=50246551362&output=json&as=A1E5B8837AC8E5E&cp=583A68AEA50EBE1&max_behot_time=
+[2016-11-27 15:42:22.862] [DEBUG] 今日头条 - http://ib.snssdk.com/pgc/ma/?media_id=50246551362&output=json&as=A1E5B8837AC8E5E&cp=583A68AEA50EBE1&max_behot_time=undefined
+[2016-11-27 15:42:22.951] [DEBUG] 今日头条 - http://ib.snssdk.com/pgc/ma/?media_id=50246551362&output=json&as=A1E5B8837AC8E5E&cp=583A68AEA50EBE1&max_behot_time=undefined
+[2016-11-27 15:42:23.044] [DEBUG] 今日头条 - http://ib.snssdk.com/pgc/ma/?media_id=50246551362&output=json&as=A1E5B8837AC8E5E&cp=583A68AEA50EBE1&max_behot_time=undefined
+[2016-11-27 15:42:23.123] [DEBUG] 今日头条 - http://ib.snssdk.com/pgc/ma/?media_id=50246551362&output=json&as=A1E5B8837AC8E5E&cp=583A68AEA50EBE1&max_behot_time=undefined
+[2016-11-27 15:42:23.220] [DEBUG] 今日头条 - http://ib.snssdk.com/pgc/ma/?media_id=50246551362&output=json&as=A1E5B8837AC8E5E&cp=583A68AEA50EBE1&max_behot_time=undefined
+[2016-11-27 15:42:23.304] [DEBUG] 今日头条 - http://ib.snssdk.com/pgc/ma/?media_id=50246551362&output=json&as=A1E5B8837AC8E5E&cp=583A68AEA50EBE1&max_behot_time=undefined
+[2016-11-27 15:42:23.406] [DEBUG] 今日头条 - http://ib.snssdk.com/pgc/ma/?media_id=50246551362&output=json&as=A1E5B8837AC8E5E&cp=583A68AEA50EBE1&max_behot_time=undefined
+[2016-11-27 15:42:23.504] [DEBUG] 今日头条 - http://ib.snssdk.com/pgc/ma/?media_id=50246551362&output=json&as=A1E5B8837AC8E5E&cp=583A68AEA50EBE1&max_behot_time=undefined
+[2016-11-27 15:42:23.589] [DEBUG] 今日头条 - http://ib.snssdk.com/pgc/ma/?media_id=50246551362&output=json&as=A1E5B8837AC8E5E&cp=583A68AEA50EBE1&max_behot_time=undefined
+[2016-11-27 15:42:23.672] [DEBUG] 今日头条 - http://ib.snssdk.com/pgc/ma/?media_id=50246551362&output=json&as=A1E5B8837AC8E5E&cp=583A68AEA50EBE1&max_behot_time=undefined
+[2016-11-27 15:42:23.756] [DEBUG] 今日头条 - http://ib.snssdk.com/pgc/ma/?media_id=50246551362&output=json&as=A1E5B8837AC8E5E&cp=583A68AEA50EBE1&max_behot_time=undefined
+[2016-11-27 15:42:23.875] [DEBUG] 今日头条 - http://ib.snssdk.com/pgc/ma/?media_id=50246551362&output=json&as=A1E5B8837AC8E5E&cp=583A68AEA50EBE1&max_behot_time=undefined
+[2016-11-27 15:42:23.996] [DEBUG] 今日头条 - http://ib.snssdk.com/pgc/ma/?media_id=50246551362&output=json&as=A1E5B8837AC8E5E&cp=583A68AEA50EBE1&max_behot_time=undefined
+[2016-11-27 15:42:24.089] [DEBUG] 今日头条 - http://ib.snssdk.com/pgc/ma/?media_id=50246551362&output=json&as=A1E5B8837AC8E5E&cp=583A68AEA50EBE1&max_behot_time=undefined
+[2016-11-27 15:42:24.187] [DEBUG] 今日头条 - http://ib.snssdk.com/pgc/ma/?media_id=50246551362&output=json&as=A1E5B8837AC8E5E&cp=583A68AEA50EBE1&max_behot_time=undefined
+[2016-11-27 15:42:24.288] [DEBUG] 今日头条 - http://ib.snssdk.com/pgc/ma/?media_id=50246551362&output=json&as=A1E5B8837AC8E5E&cp=583A68AEA50EBE1&max_behot_time=undefined

@@ -1,0 +1,28 @@
+[2016-11-30 16:30:19.229] [TRACE] 酷6 - DealWith instantiation ...
+[2016-11-30 16:30:19.229] [TRACE] 酷6 - spiderCore instantiation ...
+[2016-11-30 16:30:19.229] [TRACE] 酷6 - 启动函数
+[2016-11-30 16:30:19.260] [DEBUG] 酷6 - 任务信息数据库连接建立...成功
+[2016-11-30 16:30:19.260] [DEBUG] 酷6 - 缓存队列数据库连接建立...成功
+[2016-11-30 16:30:19.260] [DEBUG] 酷6 - 创建数据库连接完毕
+[2016-11-30 16:30:19.260] [INFO] 酷6 - { id: '24875965', name: '陈翔六点半', p: '14' }
+[2016-11-30 16:30:19.764] [ERROR] 酷6 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-30 16:30:40.826] [ERROR] 酷6 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-30 16:30:40.830] [DEBUG] 酷6 - 开始获取视频总数
+[2016-11-30 16:30:42.291] [DEBUG] 酷6 - 开始获取第1页视频列表
+[2016-11-30 16:30:42.648] [DEBUG] 酷6 - undefined

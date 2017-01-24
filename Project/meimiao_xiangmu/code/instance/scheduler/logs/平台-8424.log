@@ -1,0 +1,14 @@
+[2016-12-09 16:10:23.088] [DEBUG] 平台 - 处理器实例化...
+[2016-12-09 16:10:23.093] [DEBUG] 平台 - 控制器实例化...
+[2016-12-09 16:10:23.093] [DEBUG] 平台 - server实例化
+[2016-12-09 16:10:23.093] [DEBUG] 平台 - Server running at 2016 port
+[2016-12-09 16:10:27.252] [DEBUG] 平台 - http://pcweb.api.mgtv.com/player/video?video_id=3723332
+[2016-12-09 16:10:48.287] [ERROR] 平台 - occur error:  { Error: connect ETIMEDOUT 54.222.207.154:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '54.222.207.154',
+  port: 80 }

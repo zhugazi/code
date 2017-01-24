@@ -1,0 +1,14 @@
+[2016-11-15 15:31:53.627] [DEBUG] 平台 - 处理器实例化...
+[2016-11-15 15:31:53.627] [DEBUG] 平台 - 控制器实例化...
+[2016-11-15 15:31:53.627] [DEBUG] 平台 - server实例化
+[2016-11-15 15:31:53.642] [DEBUG] 平台 - Server running at 2016 port
+[2016-11-15 15:32:08.794] [ERROR] 平台 - occur error :  { Error: getaddrinfo EAI_AGAIN www.le.com:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at errnoException (dns.js:33:15)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'EAI_AGAIN',
+  errno: 'EAI_AGAIN',
+  syscall: 'getaddrinfo',
+  hostname: 'www.le.com',
+  host: 'www.le.com',
+  port: 80 }

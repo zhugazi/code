@@ -1,0 +1,103 @@
+[2016-11-25 17:36:39.734] [TRACE] 天天快报 - DealWith instantiation ...
+[2016-11-25 17:36:39.741] [TRACE] 天天快报 - spiderCore instantiation ...
+[2016-11-25 17:36:39.743] [TRACE] 天天快报 - 启动函数
+[2016-11-25 17:36:39.770] [DEBUG] 天天快报 - 任务信息数据库连接建立...成功
+[2016-11-25 17:36:39.773] [DEBUG] 天天快报 - 缓存队列数据库连接建立...成功
+[2016-11-25 17:36:39.775] [DEBUG] 天天快报 - 创建数据库连接完毕
+[2016-11-25 17:36:39.781] [TRACE] 天天快报 - Queue get ready
+[2016-11-25 17:36:39.813] [TRACE] 天天快报 - Get kuaibao task!
+[2016-11-25 17:36:39.815] [INFO] 天天快报 - { id: '5037722', p: '10', name: '女神TV', type: '0' }
+[2016-11-25 17:36:39.852] [TRACE] 天天快报 - Get kuaibao task!
+[2016-11-25 17:36:39.853] [INFO] 天天快报 - { id: '5041403', p: '10', name: '我是扁桃', type: '0' }
+[2016-11-25 17:36:39.871] [TRACE] 天天快报 - Get kuaibao task!
+[2016-11-25 17:36:39.873] [INFO] 天天快报 - { id: '5041486', p: '10', name: '籽岷', type: '0' }
+[2016-11-25 17:36:40.908] [ERROR] 天天快报 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-25 17:36:41.131] [ERROR] 天天快报 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-25 17:36:41.160] [ERROR] 天天快报 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-25 17:37:01.641] [ERROR] 天天快报 - occur error: { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-25 17:37:01.648] [INFO] 天天快报 - 返回天天快报用户 5041403 连接服务器失败
+[2016-11-25 17:37:01.662] [ERROR] 天天快报 - occur error: { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-25 17:37:01.668] [INFO] 天天快报 - 返回天天快报用户 5037722 连接服务器失败
+[2016-11-25 17:37:01.674] [ERROR] 天天快报 - occur error: { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-25 17:37:01.679] [INFO] 天天快报 - 返回天天快报用户 5041486 连接服务器失败
+[2016-11-25 17:38:05.944] [TRACE] 天天快报 - Get kuaibao task!
+[2016-11-25 17:38:05.948] [INFO] 天天快报 - { id: '5037722', p: '10', name: '女神TV', type: '0', total: 200 }
+[2016-11-25 17:38:05.956] [TRACE] 天天快报 - Get kuaibao task!
+[2016-11-25 17:38:05.959] [INFO] 天天快报 - { id: '5041486', p: '10', name: '籽岷', type: '0', total: 200 }
+[2016-11-25 17:38:06.942] [TRACE] 天天快报 - Get kuaibao task!
+[2016-11-25 17:38:06.945] [INFO] 天天快报 - { id: '5041403', p: '10', name: '我是扁桃', type: '0', total: 200 }
+[2016-11-25 17:38:07.317] [ERROR] 天天快报 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-25 17:38:07.942] [ERROR] 天天快报 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-25 17:38:08.856] [ERROR] 天天快报 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }

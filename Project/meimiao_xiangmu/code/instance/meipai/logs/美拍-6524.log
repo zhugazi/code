@@ -1,0 +1,46 @@
+[2016-11-24 18:06:20.554] [TRACE] 美拍 - DealWith instantiation ...
+[2016-11-24 18:06:20.561] [TRACE] 美拍 - spiderCore instantiation ...
+[2016-11-24 18:06:20.562] [TRACE] 美拍 - 启动函数
+[2016-11-24 18:06:20.589] [DEBUG] 美拍 - 任务信息数据库连接建立...成功
+[2016-11-24 18:06:20.591] [DEBUG] 美拍 - 缓存队列数据库连接建立...成功
+[2016-11-24 18:06:20.593] [DEBUG] 美拍 - 创建数据库连接完毕
+[2016-11-24 18:06:20.594] [INFO] 美拍 - { p: 5, id: 1457032027, name: '指尖的太阳~~~' }
+[2016-11-24 18:06:20.884] [DEBUG] 美拍 - 用户: 1457032027 back_end
+[2016-11-24 18:06:41.811] [ERROR] 美拍 - occur error: { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-24 18:06:41.823] [INFO] 美拍 - 返回美拍用户 1457032027 连接服务器失败
+[2016-11-24 18:06:41.882] [DEBUG] 美拍 - 1457032027_result: { user: '用户信息已返回', media: '视频信息已返回' }
+[2016-11-24 18:07:02.943] [ERROR] 美拍 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-24 19:07:20.137] [TRACE] 美拍 - DealWith instantiation ...
+[2016-11-24 19:07:20.144] [TRACE] 美拍 - spiderCore instantiation ...
+[2016-11-24 19:07:20.146] [TRACE] 美拍 - 启动函数
+[2016-11-24 19:07:20.173] [DEBUG] 美拍 - 任务信息数据库连接建立...成功
+[2016-11-24 19:07:20.175] [DEBUG] 美拍 - 缓存队列数据库连接建立...成功
+[2016-11-24 19:07:20.177] [DEBUG] 美拍 - 创建数据库连接完毕
+[2016-11-24 19:07:20.179] [INFO] 美拍 - { p: 5, id: 1002934899, name: '飞碟说' }
+[2016-11-24 19:07:23.579] [DEBUG] 美拍 - 用户: 1002934899 back_end
+[2016-11-24 19:07:44.427] [ERROR] 美拍 - occur error: { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-24 19:07:44.435] [INFO] 美拍 - 返回美拍用户 1002934899 连接服务器失败

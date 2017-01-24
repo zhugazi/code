@@ -1,0 +1,145 @@
+[2016-11-25 16:08:45.940] [TRACE] 天天快报 - DealWith instantiation ...
+[2016-11-25 16:08:45.947] [TRACE] 天天快报 - spiderCore instantiation ...
+[2016-11-25 16:08:45.949] [TRACE] 天天快报 - 启动函数
+[2016-11-25 16:08:45.975] [DEBUG] 天天快报 - 任务信息数据库连接建立...成功
+[2016-11-25 16:08:45.977] [DEBUG] 天天快报 - 缓存队列数据库连接建立...成功
+[2016-11-25 16:08:45.979] [DEBUG] 天天快报 - 创建数据库连接完毕
+[2016-11-25 16:08:45.986] [TRACE] 天天快报 - Queue get ready
+[2016-11-25 16:08:46.044] [TRACE] 天天快报 - Get kuaibao task!
+[2016-11-25 16:08:46.063] [TRACE] 天天快报 - Get kuaibao task!
+[2016-11-25 16:08:46.067] [TRACE] 天天快报 - Get kuaibao task!
+[2016-11-25 16:08:46.070] [TRACE] 天天快报 - Get kuaibao task!
+[2016-11-25 16:08:46.072] [TRACE] 天天快报 - Get kuaibao task!
+[2016-11-25 16:08:46.076] [TRACE] 天天快报 - Get kuaibao task!
+[2016-11-25 16:08:46.084] [TRACE] 天天快报 - Get kuaibao task!
+[2016-11-25 16:08:46.086] [TRACE] 天天快报 - Get kuaibao task!
+[2016-11-25 16:08:46.089] [TRACE] 天天快报 - Get kuaibao task!
+[2016-11-25 16:08:46.490] [ERROR] 天天快报 - userInfo异常错误
+[2016-11-25 16:08:46.493] [ERROR] 天天快报 - { ret: 1 }
+[2016-11-25 16:08:46.588] [DEBUG] 天天快报 - result: { user: '用户信息已返回', media: '视频信息已返回' }
+[2016-11-25 16:08:46.604] [TRACE] 天天快报 - Get kuaibao task!
+[2016-11-25 16:08:57.542] [ERROR] 天天快报 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-25 16:09:07.222] [ERROR] 天天快报 - occur error: { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-25 16:09:07.230] [INFO] 天天快报 - 返回天天快报用户 5085982 连接服务器失败
+[2016-11-25 16:09:07.263] [ERROR] 天天快报 - occur error: { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-25 16:09:07.271] [INFO] 天天快报 - 返回天天快报用户 5058888 连接服务器失败
+[2016-11-25 16:09:07.362] [ERROR] 天天快报 - occur error: { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-25 16:09:07.370] [INFO] 天天快报 - 返回天天快报用户 5041449 连接服务器失败
+[2016-11-25 16:09:07.563] [ERROR] 天天快报 - occur error: { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-25 16:09:07.571] [INFO] 天天快报 - 返回天天快报用户 5020454 连接服务器失败
+[2016-11-25 16:09:07.601] [ERROR] 天天快报 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-25 16:09:07.627] [ERROR] 天天快报 - occur error: { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-25 16:09:07.633] [INFO] 天天快报 - 返回天天快报用户 5158990 连接服务器失败
+[2016-11-25 16:09:07.641] [ERROR] 天天快报 - occur error: { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-25 16:09:07.648] [INFO] 天天快报 - 返回天天快报用户 5105948 连接服务器失败
+[2016-11-25 16:09:07.655] [ERROR] 天天快报 - occur error: { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-25 16:09:07.662] [INFO] 天天快报 - 返回天天快报用户 5117154 连接服务器失败
+[2016-11-25 16:09:07.726] [DEBUG] 天天快报 - result: { user: '用户信息已返回', media: '视频信息已返回' }
+[2016-11-25 16:09:07.742] [DEBUG] 天天快报 - http://r.cnews.qq.com/getSubNewsListItems------
+[2016-11-25 16:09:07.761] [TRACE] 天天快报 - Get kuaibao task!
+[2016-11-25 16:09:07.811] [DEBUG] 天天快报 - http://r.cnews.qq.com/getSubNewsListItems------
+[2016-11-25 16:09:07.875] [DEBUG] 天天快报 - http://r.cnews.qq.com/getSubNewsListItems------
+[2016-11-25 16:09:07.901] [DEBUG] 天天快报 - http://r.cnews.qq.com/getSubNewsListItems------
+[2016-11-25 16:09:07.907] [DEBUG] 天天快报 - http://r.cnews.qq.com/getSubNewsListItems------
+[2016-11-25 16:09:07.995] [ERROR] 天天快报 - occur error: { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-25 16:09:08.000] [INFO] 天天快报 - 返回天天快报用户 5162986 连接服务器失败
+[2016-11-25 16:09:08.190] [ERROR] 天天快报 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-25 16:09:08.211] [DEBUG] 天天快报 - http://r.cnews.qq.com/getSubNewsListItems------
+[2016-11-25 16:09:08.298] [DEBUG] 天天快报 - http://r.cnews.qq.com/getSubNewsListItems------
+[2016-11-25 16:09:08.473] [DEBUG] 天天快报 - http://r.cnews.qq.com/getSubNewsListItems------
+[2016-11-25 16:09:08.564] [DEBUG] 天天快报 - http://r.cnews.qq.com/getSubNewsListItems------
+[2016-11-25 16:09:08.645] [DEBUG] 天天快报 - http://r.cnews.qq.com/getSubNewsListItems------
+[2016-11-25 16:09:08.701] [DEBUG] 天天快报 - http://r.cnews.qq.com/getSubNewsListItems------
+[2016-11-25 16:09:09.226] [DEBUG] 天天快报 - http://r.cnews.qq.com/getSubNewsListItems------
+[2016-11-25 16:09:09.372] [DEBUG] 天天快报 - http://r.cnews.qq.com/getSubNewsListItems------
+[2016-11-25 16:09:09.631] [DEBUG] 天天快报 - http://r.cnews.qq.com/getSubNewsListItems------
+[2016-11-25 16:09:09.763] [DEBUG] 天天快报 - http://r.cnews.qq.com/getSubNewsListItems------
+[2016-11-25 16:09:09.966] [DEBUG] 天天快报 - http://r.cnews.qq.com/getSubNewsListItems------

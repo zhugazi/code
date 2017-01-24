@@ -1,0 +1,7 @@
+[2017-01-05 18:05:40.502] [TRACE] 新蓝网 - DealWith instantiation ...
+[2017-01-05 18:05:40.515] [TRACE] 新蓝网 - spiderCore instantiation ...
+[2017-01-05 18:05:40.517] [TRACE] 新蓝网 - 启动函数
+[2017-01-05 18:05:40.546] [DEBUG] 新蓝网 - 任务信息数据库连接建立...成功
+[2017-01-05 18:05:40.548] [DEBUG] 新蓝网 - 缓存队列数据库连接建立...成功
+[2017-01-05 18:05:40.549] [DEBUG] 新蓝网 - 创建数据库连接完毕
+[2017-01-05 18:05:40.549] [DEBUG] 新蓝网 - http://proxy.app.cztv.com/getPlayList.do?videoId=undefined&ablumId=859

@@ -1,0 +1,15 @@
+[2016-12-05 16:42:34.383] [DEBUG] 平台 - 处理器实例化...
+[2016-12-05 16:42:34.402] [DEBUG] 平台 - 控制器实例化...
+[2016-12-05 16:42:34.405] [DEBUG] 平台 - server实例化
+[2016-12-05 16:42:34.414] [DEBUG] 平台 - Server running at 2016 port
+[2016-12-05 16:42:40.041] [ERROR] 平台 - occur error:  Error: options.uri is a required argument
+    at Request.init (D:\AppServ\www\meimiao\code\node_modules\.2.78.0@request\request.js:232:31)
+    at new Request (D:\AppServ\www\meimiao\code\node_modules\.2.78.0@request\request.js:128:8)
+    at request (D:\AppServ\www\meimiao\code\node_modules\.2.78.0@request\index.js:54:10)
+    at Function.get (D:\AppServ\www\meimiao\code\node_modules\.2.78.0@request\index.js:62:12)
+    at Object.exports.get (D:\AppServ\www\meimiao\code\lib\req.js:13:13)
+    at DealWith.uc (D:\AppServ\www\meimiao\code\servant\dealWith.js:1087:17)
+    at Handle.ucHandle (D:\AppServ\www\meimiao\code\servant\handle.js:217:18)
+    at spiderCore.dispatch (D:\AppServ\www\meimiao\code\servant\index.js:137:24)
+    at spiderCore.getHandle (D:\AppServ\www\meimiao\code\servant\index.js:37:14)
+    at Server.HTTP.createServer (D:\AppServ\www\meimiao\code\servant\index.js:18:26)

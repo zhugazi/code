@@ -1,0 +1,114 @@
+[2016-11-29 14:17:19.529] [TRACE] 乐视 - DealWith instantiation ...
+[2016-11-29 14:17:19.533] [TRACE] 乐视 - spiderCore instantiation ...
+[2016-11-29 14:17:19.533] [TRACE] 乐视 - 启动函数
+[2016-11-29 14:17:19.564] [DEBUG] 乐视 - 任务信息数据库连接建立...成功
+[2016-11-29 14:17:19.564] [DEBUG] 乐视 - 缓存队列数据库连接建立...成功
+[2016-11-29 14:17:19.564] [DEBUG] 乐视 - 创建数据库连接完毕
+[2016-11-29 14:17:19.564] [INFO] 乐视 - { id: '31073813', p: '3', name: '起小点', type: '1', total: 0 }
+[2016-11-29 14:17:19.598] [DEBUG] 乐视 - 开始获取视频总页数
+[2016-11-29 14:17:19.715] [DEBUG] 乐视 - 开始获取第1页视频列表
+[2016-11-29 14:17:19.820] [DEBUG] 乐视 - { play_count: 2,
+  vreply: 0,
+  id: '27151587',
+  vcomm_count: 0,
+  up: 0,
+  down: 0,
+  dm_count: 0 }
+[2016-11-29 14:17:20.913] [DEBUG] 乐视 - { play_count: 88737,
+  vreply: 1,
+  id: '27123160',
+  vcomm_count: 2,
+  up: 5,
+  down: 1,
+  dm_count: 0 }
+[2016-11-29 14:17:21.077] [DEBUG] 乐视 - { play_count: 190,
+  vreply: 0,
+  id: '27091966',
+  vcomm_count: 0,
+  up: 0,
+  down: 0,
+  dm_count: 0 }
+[2016-11-29 14:17:21.288] [DEBUG] 乐视 - { play_count: 596,
+  vreply: 0,
+  id: '27077165',
+  vcomm_count: 0,
+  up: 0,
+  down: 0,
+  dm_count: 0 }
+[2016-11-29 14:17:21.530] [DEBUG] 乐视 - { play_count: 1420,
+  vreply: 0,
+  id: '27071270',
+  vcomm_count: 0,
+  up: 1,
+  down: 0,
+  dm_count: 0 }
+[2016-11-29 14:17:21.866] [DEBUG] 乐视 - { play_count: 12520,
+  vreply: 0,
+  id: '27061940',
+  vcomm_count: 1,
+  up: 5,
+  down: 3,
+  dm_count: 0 }
+[2016-11-29 14:17:22.012] [DEBUG] 乐视 - { play_count: 20,
+  vreply: 0,
+  id: '27137372',
+  vcomm_count: 0,
+  up: 0,
+  down: 0,
+  dm_count: 0 }
+[2016-11-29 14:17:22.229] [DEBUG] 乐视 - { play_count: 2873,
+  vreply: 0,
+  id: '27035450',
+  vcomm_count: 0,
+  up: 0,
+  down: 0,
+  dm_count: 0 }
+[2016-11-29 14:17:22.444] [DEBUG] 乐视 - { play_count: 4,
+  vreply: 0,
+  id: '27025952',
+  vcomm_count: 0,
+  up: 0,
+  down: 0,
+  dm_count: 0 }
+[2016-11-29 14:17:22.675] [DEBUG] 乐视 - { play_count: 2009,
+  vreply: 0,
+  id: '27022351',
+  vcomm_count: 0,
+  up: 0,
+  down: 0,
+  dm_count: 0 }
+[2016-11-29 14:17:23.014] [DEBUG] 乐视 - { play_count: 4,
+  vreply: 0,
+  id: '27016568',
+  vcomm_count: 0,
+  up: 0,
+  down: 0,
+  dm_count: 0 }
+[2016-11-29 14:17:23.172] [DEBUG] 乐视 - { play_count: 1917,
+  vreply: 0,
+  id: '27014618',
+  vcomm_count: 1,
+  up: 1,
+  down: 3,
+  dm_count: 0 }
+[2016-11-29 14:17:23.515] [DEBUG] 乐视 - { play_count: 4,
+  vreply: 0,
+  id: '26987265',
+  vcomm_count: 0,
+  up: 0,
+  down: 0,
+  dm_count: 0 }
+[2016-11-29 14:17:23.546] [DEBUG] 乐视 - { play_count: 1127,
+  vreply: 0,
+  id: '27007258',
+  vcomm_count: 0,
+  up: 0,
+  down: 0,
+  dm_count: 0 }
+[2016-11-29 14:17:23.714] [DEBUG] 乐视 - { play_count: 4,
+  vreply: 0,
+  id: '26983409',
+  vcomm_count: 0,
+  up: 0,
+  down: 0,
+  dm_count: 0 }

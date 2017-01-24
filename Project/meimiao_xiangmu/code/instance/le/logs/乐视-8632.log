@@ -1,0 +1,15 @@
+[2016-11-29 18:18:13.858] [TRACE] 乐视 - DealWith instantiation ...
+[2016-11-29 18:18:13.874] [TRACE] 乐视 - spiderCore instantiation ...
+[2016-11-29 18:18:13.874] [TRACE] 乐视 - 启动函数
+[2016-11-29 18:18:13.890] [DEBUG] 乐视 - 任务信息数据库连接建立...成功
+[2016-11-29 18:18:13.906] [DEBUG] 乐视 - 缓存队列数据库连接建立...成功
+[2016-11-29 18:18:13.906] [DEBUG] 乐视 - 创建数据库连接完毕
+[2016-11-29 18:18:13.906] [INFO] 乐视 - { id: '31073813', p: '3', name: '起小点', type: '1', total: 0 }
+[2016-11-29 18:18:13.922] [DEBUG] 乐视 - 开始获取视频总页数
+[2016-11-29 18:18:14.031] [DEBUG] 乐视 - 开始获取第1页视频列表
+[2016-11-29 18:18:14.501] [ERROR] 乐视 - occur error :  { Error: read ECONNRESET
+    at exports._errnoException (util.js:1007:11)
+    at TCP.onread (net.js:563:26) code: 'ECONNRESET', errno: 'ECONNRESET', syscall: 'read' }
+[2016-11-29 18:18:14.501] [ERROR] 乐视 - error url: http://www.le.com/ptv/vplay/27151587.html
+[2016-11-29 18:18:14.875] [DEBUG] 乐视 - 乐视视频 27137372 加入缓存队列
+[2016-11-29 18:18:15.174] [DEBUG] 乐视 - 乐视视频 27123160 加入缓存队列

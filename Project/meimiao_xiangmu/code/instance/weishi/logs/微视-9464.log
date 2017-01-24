@@ -1,0 +1,37 @@
+[2016-11-29 18:05:33.133] [TRACE] 微视 - DealWith instantiation ...
+[2016-11-29 18:05:33.133] [TRACE] 微视 - spiderCore instantiation ...
+[2016-11-29 18:05:33.133] [TRACE] 微视 - 启动函数
+[2016-11-29 18:05:33.198] [DEBUG] 微视 - 缓存队列数据库连接建立...成功
+[2016-11-29 18:05:33.201] [DEBUG] 微视 - 任务信息数据库连接建立...成功
+[2016-11-29 18:05:33.203] [DEBUG] 微视 - 创建数据库连接完毕
+[2016-11-29 18:05:33.205] [INFO] 微视 - { p: '16', id: '4020933', name: '飞碟说', type: '0' }
+[2016-11-29 18:05:33.489] [ERROR] 微视 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-29 18:05:54.521] [ERROR] 微视 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-29 18:05:54.521] [INFO] 微视 - 返回微视用户 4020933 连接服务器失败
+[2016-11-29 18:05:54.521] [DEBUG] 微视 - 开始获取第1页视频列表
+[2016-11-29 18:05:54.807] [DEBUG] 微视 - undefined
+[2016-11-29 18:05:54.815] [DEBUG] 微视 - 开始获取第2页视频列表
+[2016-11-29 18:05:54.817] [DEBUG] 微视 - 微视 2000566106377690 加入缓存队列
+[2016-11-29 18:05:54.817] [DEBUG] 微视 - 微视 2002566105585830 加入缓存队列
+[2016-11-29 18:05:54.817] [DEBUG] 微视 - 微视 2002066105090331 加入缓存队列
+[2016-11-29 18:05:54.833] [DEBUG] 微视 - 微视 2001066104988521 加入缓存队列
+[2016-11-29 18:05:55.008] [DEBUG] 微视 - undefined
+[2016-11-29 18:05:55.010] [DEBUG] 微视 - 开始获取第3页视频列表
+[2016-11-29 18:05:55.205] [DEBUG] 微视 - undefined
+[2016-11-29 18:05:55.208] [DEBUG] 微视 - 开始获取第4页视频列表

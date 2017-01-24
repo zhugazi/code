@@ -1,0 +1,91 @@
+[2016-11-28 14:48:27.153] [TRACE] 天天快报 - DealWith instantiation ...
+[2016-11-28 14:48:27.153] [TRACE] 天天快报 - spiderCore instantiation ...
+[2016-11-28 14:48:27.153] [TRACE] 天天快报 - 启动函数
+[2016-11-28 14:48:27.184] [DEBUG] 天天快报 - 任务信息数据库连接建立...成功
+[2016-11-28 14:48:27.184] [DEBUG] 天天快报 - 缓存队列数据库连接建立...成功
+[2016-11-28 14:48:27.184] [DEBUG] 天天快报 - 创建数据库连接完毕
+[2016-11-28 14:48:27.184] [INFO] 天天快报 - { p: '10', id: '5020454', name: '日日煮DayDayCook' }
+[2016-11-28 14:48:27.421] [ERROR] 天天快报 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-28 14:48:48.546] [ERROR] 天天快报 - occur error: { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-28 14:48:48.551] [INFO] 天天快报 - 返回天天快报用户 5020454 连接服务器失败
+[2016-11-28 14:48:50.105] [DEBUG] 天天快报 - [ { tag: '日日煮' },
+  { tag: '烹饪' },
+  { tag: '生活' },
+  { tag: '美食' },
+  { tag: 'norma' } ]
+[2016-11-28 14:48:53.481] [DEBUG] 天天快报 - [ { tag: 'norma' },
+  { tag: '日日煮' },
+  { tag: '烹饪' },
+  { tag: '生活' },
+  { tag: '美食' } ]
+[2016-11-28 14:48:55.172] [DEBUG] 天天快报 - [ { tag: '日日煮' },
+  { tag: 'norma' },
+  { tag: '生活' },
+  { tag: '美食' },
+  { tag: '烹饪' } ]
+[2016-11-28 14:48:57.154] [DEBUG] 天天快报 - [ { tag: 'norma' },
+  { tag: '日日煮' },
+  { tag: '生活' },
+  { tag: '美食' },
+  { tag: '烘培' } ]
+[2016-11-28 14:48:58.268] [DEBUG] 天天快报 - [ { tag: 'norma' },
+  { tag: '日日煮' },
+  { tag: '烹饪' },
+  { tag: '生活' },
+  { tag: '美食' } ]
+[2016-11-28 14:48:58.742] [DEBUG] 天天快报 - [ { tag: 'norma' },
+  { tag: '日日煮' },
+  { tag: '烹饪' },
+  { tag: '生活' },
+  { tag: '美食' } ]
+[2016-11-28 14:49:02.542] [DEBUG] 天天快报 - [ { tag: '生活' },
+  { tag: '美食' },
+  { tag: '日日煮' },
+  { tag: '烹饪' },
+  { tag: 'norma' } ]
+[2016-11-28 14:49:03.307] [DEBUG] 天天快报 - [ { tag: 'norma' },
+  { tag: '吃货' },
+  { tag: '生活' },
+  { tag: '有趣' },
+  { tag: '桂林' } ]
+[2016-11-28 14:49:03.753] [DEBUG] 天天快报 - [ { tag: 'norma' },
+  { tag: '吃货' },
+  { tag: '日日煮' },
+  { tag: '烹饪' },
+  { tag: '美食' } ]
+[2016-11-28 14:49:04.176] [DEBUG] 天天快报 - [ { tag: 'norma' },
+  { tag: '日日煮' },
+  { tag: '生活' },
+  { tag: '吃货' },
+  { tag: '美食' } ]
+[2016-11-28 14:49:05.865] [DEBUG] 天天快报 - [ { tag: 'norma' },
+  { tag: '吃货' },
+  { tag: '日日煮' },
+  { tag: '有趣' },
+  { tag: '生活' } ]
+[2016-11-28 14:49:08.070] [DEBUG] 天天快报 - [ { tag: 'norma' },
+  { tag: '日日煮' },
+  { tag: '有趣' },
+  { tag: '生活' },
+  { tag: '健身' } ]
+[2016-11-28 14:49:08.552] [DEBUG] 天天快报 - [ { tag: 'norma' },
+  { tag: '美食' },
+  { tag: '吃货' },
+  { tag: '日日煮' },
+  { tag: '烹饪' } ]

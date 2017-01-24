@@ -1,0 +1,13 @@
+[2016-12-06 16:52:26.531] [DEBUG] 平台 - 处理器实例化...
+[2016-12-06 16:52:26.541] [DEBUG] 平台 - 控制器实例化...
+[2016-12-06 16:52:26.541] [DEBUG] 平台 - server实例化
+[2016-12-06 16:52:26.551] [DEBUG] 平台 - Server running at 2016 port
+[2016-12-06 16:52:50.867] [ERROR] 平台 - occur error:  { Error: connect ETIMEDOUT 119.147.224.102:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '119.147.224.102',
+  port: 80 }

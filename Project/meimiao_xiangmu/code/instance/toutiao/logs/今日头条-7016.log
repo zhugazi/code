@@ -1,0 +1,47 @@
+[2016-11-28 11:56:00.841] [TRACE] 今日头条 - DealWith instantiation ...
+[2016-11-28 11:56:00.851] [TRACE] 今日头条 - spiderCore instantiation ...
+[2016-11-28 11:56:00.851] [TRACE] 今日头条 - 启动函数
+[2016-11-28 11:56:00.891] [DEBUG] 今日头条 - 任务信息数据库连接建立...成功
+[2016-11-28 11:56:00.894] [DEBUG] 今日头条 - 缓存队列数据库连接建立...成功
+[2016-11-28 11:56:00.896] [DEBUG] 今日头条 - 创建数据库连接完毕
+[2016-11-28 11:56:00.899] [INFO] 今日头条 - { p: '6', id: '6621038696', name: '聊斋那些事儿' }
+[2016-11-28 11:56:01.792] [DEBUG] 今日头条 - [ '1480303803',
+  '1480290091',
+  '1480290077',
+  '1480233630',
+  '1480230927',
+  '1480223135',
+  '1480222547',
+  '1480222059',
+  '1480153661',
+  '1480152878' ]
+[2016-11-28 11:56:01.792] [DEBUG] 今日头条 - [ 'http://p2.pstatp.com/list/11fc00079c5e2d15462a',
+  'http://p2.pstatp.com/list/119800056ad6ef161649',
+  'http://p2.pstatp.com/list/11f800018995608c9e29',
+  'http://p2.pstatp.com/list/11fc0007077f8a50a504',
+  'http://p2.pstatp.com/list/11fd0004dc30fe135e82',
+  'http://p2.pstatp.com/list/11fc0006ffe70bf83d49',
+  'http://p2.pstatp.com/list/11fd0004d79c26a467d7',
+  'http://p2.pstatp.com/list/11980004d9d86f3b6144',
+  'http://p2.pstatp.com/list/11f70006362ca8894aa8',
+  'http://p2.pstatp.com/list/119800040c1af8023778' ]
+[2016-11-28 11:56:04.331] [DEBUG] 今日头条 - [ '1480136374',
+  '1480135240',
+  '1480131015',
+  '1480075917',
+  '1480056628',
+  '1480046415',
+  '1480044612',
+  '1480044011',
+  '1479986188',
+  '1479986173' ]
+[2016-11-28 11:56:04.335] [DEBUG] 今日头条 - [ 'http://p2.pstatp.com/list/11980003b10f30554f7b',
+  'http://p2.pstatp.com/list/11fd0003ab9d71b42e52',
+  'http://p2.pstatp.com/list/119b000811ece9036f2a',
+  'http://p2.pstatp.com/list/119800031255f392d79d',
+  'http://p2.pstatp.com/list/11980001a9f04f26ee81',
+  'http://p2.pstatp.com/list/11fc0003c39c54120103',
+  'http://p2.pstatp.com/list/11fc000221bcb96114f3',
+  'http://p2.pstatp.com/list/11980001a4449c1e983e',
+  'http://p2.pstatp.com/list/11f900022cc6eee1b254',
+  'http://p2.pstatp.com/list/119b00047e879cb1ab44' ]

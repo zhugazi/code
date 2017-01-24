@@ -1,0 +1,124 @@
+[2016-11-29 18:32:33.392] [TRACE] 内涵段子 - DealWith instantiation ...
+[2016-11-29 18:32:33.398] [TRACE] 内涵段子 - spiderCore instantiation ...
+[2016-11-29 18:32:33.401] [TRACE] 内涵段子 - 启动函数
+[2016-11-29 18:32:33.427] [DEBUG] 内涵段子 - 任务信息数据库连接建立...成功
+[2016-11-29 18:32:33.429] [DEBUG] 内涵段子 - 缓存队列数据库连接建立...成功
+[2016-11-29 18:32:33.431] [DEBUG] 内涵段子 - 创建数据库连接完毕
+[2016-11-29 18:32:33.437] [TRACE] 内涵段子 - Queue get ready
+[2016-11-29 18:32:33.546] [TRACE] 内涵段子 - Get neihan task!
+[2016-11-29 18:32:33.548] [INFO] 内涵段子 - { id: '5808869984', p: '19', name: '女神TV节目', type: '0' }
+[2016-11-29 18:32:33.575] [DEBUG] 内涵段子 - http://isub.snssdk.com/neihan/user/profile/v2/?user_id=5808869984------
+[2016-11-29 18:32:33.587] [TRACE] 内涵段子 - Get neihan task!
+[2016-11-29 18:32:33.589] [INFO] 内涵段子 - { id: '3164006752', p: '19', name: 'V电影', type: '0' }
+[2016-11-29 18:32:33.591] [DEBUG] 内涵段子 - http://isub.snssdk.com/neihan/user/profile/v2/?user_id=3164006752------
+[2016-11-29 18:32:33.595] [TRACE] 内涵段子 - Get neihan task!
+[2016-11-29 18:32:33.597] [INFO] 内涵段子 - { id: '5567057918', p: '19', name: '看鉴', type: '0' }
+[2016-11-29 18:32:33.600] [DEBUG] 内涵段子 - http://isub.snssdk.com/neihan/user/profile/v2/?user_id=5567057918------
+[2016-11-29 18:32:33.603] [TRACE] 内涵段子 - Get neihan task!
+[2016-11-29 18:32:33.605] [INFO] 内涵段子 - { id: '3674840923', p: '19', name: '飞碟说', type: '0' }
+[2016-11-29 18:32:33.607] [DEBUG] 内涵段子 - http://isub.snssdk.com/neihan/user/profile/v2/?user_id=3674840923------
+[2016-11-29 18:32:33.610] [TRACE] 内涵段子 - Get neihan task!
+[2016-11-29 18:32:33.612] [INFO] 内涵段子 - { id: '4143890741', p: '19', name: '丁未34185286', type: '0' }
+[2016-11-29 18:32:33.615] [DEBUG] 内涵段子 - http://isub.snssdk.com/neihan/user/profile/v2/?user_id=4143890741------
+[2016-11-29 18:32:33.619] [TRACE] 内涵段子 - Get neihan task!
+[2016-11-29 18:32:33.621] [INFO] 内涵段子 - { id: '6328336000', p: '19', name: 'papi酱_', type: '0' }
+[2016-11-29 18:32:33.628] [DEBUG] 内涵段子 - http://isub.snssdk.com/neihan/user/profile/v2/?user_id=6328336000------
+[2016-11-29 18:32:33.632] [TRACE] 内涵段子 - Get neihan task!
+[2016-11-29 18:32:33.633] [INFO] 内涵段子 - { id: '4093047425', p: '19', name: '欧子直译', type: '0' }
+[2016-11-29 18:32:33.636] [DEBUG] 内涵段子 - http://isub.snssdk.com/neihan/user/profile/v2/?user_id=4093047425------
+[2016-11-29 18:32:33.639] [TRACE] 内涵段子 - Get neihan task!
+[2016-11-29 18:32:33.640] [INFO] 内涵段子 - { id: '6948583386', p: '19', name: '迷迭香美食', type: '0' }
+[2016-11-29 18:32:33.643] [DEBUG] 内涵段子 - http://isub.snssdk.com/neihan/user/profile/v2/?user_id=6948583386------
+[2016-11-29 18:32:33.647] [TRACE] 内涵段子 - Get neihan task!
+[2016-11-29 18:32:33.650] [INFO] 内涵段子 - { id: '5932049529', p: '19', name: '星座不求人', type: '0' }
+[2016-11-29 18:32:33.653] [DEBUG] 内涵段子 - http://isub.snssdk.com/neihan/user/profile/v2/?user_id=5932049529------
+[2016-11-29 18:32:33.845] [ERROR] 内涵段子 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-29 18:32:33.860] [ERROR] 内涵段子 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-29 18:32:33.865] [ERROR] 内涵段子 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-29 18:32:33.869] [ERROR] 内涵段子 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-29 18:32:33.873] [ERROR] 内涵段子 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-29 18:32:33.877] [ERROR] 内涵段子 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-29 18:32:33.882] [ERROR] 内涵段子 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-29 18:32:33.892] [ERROR] 内涵段子 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-29 18:32:33.898] [ERROR] 内涵段子 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-29 18:32:54.847] [ERROR] 内涵段子 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }

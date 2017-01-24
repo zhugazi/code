@@ -1,0 +1,103 @@
+[2016-11-28 15:36:53.335] [TRACE] 秒拍 - DealWith instantiation ...
+[2016-11-28 15:36:53.345] [TRACE] 秒拍 - spiderCore instantiation ...
+[2016-11-28 15:36:53.345] [TRACE] 秒拍 - 启动函数
+[2016-11-28 15:36:53.375] [DEBUG] 秒拍 - 任务信息数据库连接建立...成功
+[2016-11-28 15:36:53.375] [DEBUG] 秒拍 - 缓存队列数据库连接建立...成功
+[2016-11-28 15:36:53.375] [DEBUG] 秒拍 - 创建数据库连接完毕
+[2016-11-28 15:36:53.386] [TRACE] 秒拍 - Queue get ready
+[2016-11-28 15:36:53.446] [TRACE] 秒拍 - Get miaopai task!
+[2016-11-28 15:36:53.446] [INFO] 秒拍 - { id: 'O-pZzGZtP9v73pru', p: '7', name: '二更视频', type: '0' }
+[2016-11-28 15:36:53.496] [TRACE] 秒拍 - Get miaopai task!
+[2016-11-28 15:36:53.496] [INFO] 秒拍 - { id: 'Psn~aT6DzNIJwBDs', p: '7', name: '陈翔六点半', type: '0' }
+[2016-11-28 15:36:53.506] [TRACE] 秒拍 - Get miaopai task!
+[2016-11-28 15:36:53.506] [INFO] 秒拍 - { id: 'vRJmbv9MK0VbpbB2', p: '7', name: '徐老师视频团队', type: '0' }
+[2016-11-28 15:36:53.506] [TRACE] 秒拍 - Get miaopai task!
+[2016-11-28 15:36:53.516] [INFO] 秒拍 - { id: 'BczbQ4gVW7aFwCpM', p: '7', name: '星座不求人', type: '0' }
+[2016-11-28 15:36:53.516] [TRACE] 秒拍 - Get miaopai task!
+[2016-11-28 15:36:53.516] [INFO] 秒拍 - { id: 'qPeO17buLNjpveac', p: '7', name: '莱可传媒', type: '0' }
+[2016-11-28 15:36:53.526] [TRACE] 秒拍 - Get miaopai task!
+[2016-11-28 15:36:53.526] [INFO] 秒拍 - { id: 'ccE4gkwjgPJNbvLYnUbfdA__',
+  p: '7',
+  name: '微在不懂爱',
+  type: '0' }
+[2016-11-28 15:36:53.536] [TRACE] 秒拍 - Get miaopai task!
+[2016-11-28 15:36:53.536] [INFO] 秒拍 - { id: 'Jjst-fp2~XeOxrRSMSG11A__',
+  p: '7',
+  name: '软软其实不太硬',
+  type: '0' }
+[2016-11-28 15:36:53.536] [TRACE] 秒拍 - Get miaopai task!
+[2016-11-28 15:36:53.536] [INFO] 秒拍 - { id: 'dhUIUyE~GOWpbLxY', p: '7', name: '化妆师MK', type: '0' }
+[2016-11-28 15:36:53.546] [TRACE] 秒拍 - Get miaopai task!
+[2016-11-28 15:36:53.546] [INFO] 秒拍 - { id: 'KZGvse8-KoLtLOoH', p: '7', name: '橙果医生', type: '0' }
+[2016-11-28 15:36:56.398] [DEBUG] 秒拍 - { url: 'http://qiaosuan-intra.caihongip.com/index.php/Spider/Fans/postFans',
+  data: { platform: 7, bid: 'KZGvse8-KoLtLOoH', fans_num: 3882 } }
+[2016-11-28 15:36:56.428] [ERROR] 秒拍 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-28 15:36:56.860] [DEBUG] 秒拍 - { url: 'http://qiaosuan-intra.caihongip.com/index.php/Spider/Fans/postFans',
+  data: { platform: 7, bid: 'dhUIUyE~GOWpbLxY', fans_num: 66740 } }
+[2016-11-28 15:36:56.868] [DEBUG] 秒拍 - { url: 'http://qiaosuan-intra.caihongip.com/index.php/Spider/Fans/postFans',
+  data: { platform: 7, bid: 'vRJmbv9MK0VbpbB2', fans_num: 1493670 } }
+[2016-11-28 15:36:56.872] [ERROR] 秒拍 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-28 15:36:56.882] [ERROR] 秒拍 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-28 15:36:58.498] [DEBUG] 秒拍 - { url: 'http://qiaosuan-intra.caihongip.com/index.php/Spider/Fans/postFans',
+  data: 
+   { platform: 7,
+     bid: 'Jjst-fp2~XeOxrRSMSG11A__',
+     fans_num: 3090982 } }
+[2016-11-28 15:36:58.518] [ERROR] 秒拍 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-28 15:36:58.661] [DEBUG] 秒拍 - { url: 'http://qiaosuan-intra.caihongip.com/index.php/Spider/Fans/postFans',
+  data: 
+   { platform: 7,
+     bid: 'ccE4gkwjgPJNbvLYnUbfdA__',
+     fans_num: 196337 } }
+[2016-11-28 15:36:58.691] [ERROR] 秒拍 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-28 15:36:59.681] [DEBUG] 秒拍 - { url: 'http://qiaosuan-intra.caihongip.com/index.php/Spider/Fans/postFans',
+  data: { platform: 7, bid: 'qPeO17buLNjpveac', fans_num: 250907 } }
+[2016-11-28 15:36:59.701] [ERROR] 秒拍 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }

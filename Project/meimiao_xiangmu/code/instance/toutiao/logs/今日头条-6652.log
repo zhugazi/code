@@ -1,0 +1,47 @@
+[2016-11-28 11:51:09.990] [TRACE] 今日头条 - DealWith instantiation ...
+[2016-11-28 11:51:09.990] [TRACE] 今日头条 - spiderCore instantiation ...
+[2016-11-28 11:51:09.990] [TRACE] 今日头条 - 启动函数
+[2016-11-28 11:51:10.020] [DEBUG] 今日头条 - 任务信息数据库连接建立...成功
+[2016-11-28 11:51:10.030] [DEBUG] 今日头条 - 缓存队列数据库连接建立...成功
+[2016-11-28 11:51:10.030] [DEBUG] 今日头条 - 创建数据库连接完毕
+[2016-11-28 11:51:10.030] [INFO] 今日头条 - { p: '6', id: '6621038696', name: '聊斋那些事儿' }
+[2016-11-28 11:51:10.773] [DEBUG] 今日头条 - [ { picurl: 'http://p2.pstatp.com/list/11fc00079c5e2d15462a',
+    tag: [ '共工氏', '故事' ],
+    seconds: '03:37',
+    title: '上古火神祝融大战水神共工，不周山被撞后河水都向东流' },
+  { picurl: 'http://p2.pstatp.com/list/119800056ad6ef161649',
+    tag: [ '姜子牙', '心理' ],
+    seconds: '03:19',
+    title: '姜子牙封魔家四将为四大天王，封吕岳为昊天大帝' },
+  { picurl: 'http://p2.pstatp.com/list/11f800018995608c9e29',
+    tag: [ '女娲', '盘古', '山海经', '历史' ],
+    seconds: '06:05',
+    title: '先天时期，盘古如何开天地，女娲怎样捏泥人' },
+  { picurl: 'http://p2.pstatp.com/list/11fc0007077f8a50a504',
+    tag: [ '凤凰', '佛教' ],
+    seconds: '02:32',
+    title: '灵山佛家弟子的坐骑是亮点，麒麟凤凰天龙天马神龟仙鳌' },
+  { picurl: 'http://p2.pstatp.com/list/11fd0004dc30fe135e82',
+    tag: [ '长臂猿', '妲己', '历史' ],
+    seconds: '03:56',
+    title: '梅山七怪中的牛精仅次于白猿精，他杀了哼哈二将中的哼将' },
+  { picurl: 'http://p2.pstatp.com/list/11fc0006ffe70bf83d49',
+    tag: [ '哪咤' ],
+    seconds: '02:12',
+    title: '杨戬斗羊精，哪咤战狼怪，真的不要太容易' },
+  { picurl: 'http://p2.pstatp.com/list/11fd0004d79c26a467d7',
+    tag: [ '菩提达摩', '佛学' ],
+    seconds: '06:02',
+    title: '看禅宗达摩祖师如何对付一个女鬼中的厉鬼' },
+  { picurl: 'http://p2.pstatp.com/list/11980004d9d86f3b6144',
+    tag: [ '菩提达摩', '手办', '电竞', '游戏' ],
+    seconds: '03:21',
+    title: '龙族也分长幼尊卑，年幼的小龙变成人形长这样' },
+  { picurl: 'http://p2.pstatp.com/list/11f70006362ca8894aa8',
+    tag: [],
+    seconds: '07:24',
+    title: '中原八大掌门人去西域龙洞抢龙珠，与神龙好一场恶斗' },
+  { picurl: 'http://p2.pstatp.com/list/119800040c1af8023778',
+    tag: [ '蛇' ],
+    seconds: '08:00',
+    title: '年轻人被大蛇吞入腹中不消化，三天后从蛇腹破膛而出' } ]

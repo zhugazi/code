@@ -1,0 +1,17 @@
+[2016-11-21 13:38:57.913] [DEBUG] 平台 - 处理器实例化...
+[2016-11-21 13:38:57.928] [DEBUG] 平台 - 控制器实例化...
+[2016-11-21 13:38:57.928] [DEBUG] 平台 - server实例化
+[2016-11-21 13:38:57.928] [DEBUG] 平台 - Server running at 2016 port
+[2016-11-21 13:39:02.267] [DEBUG] 平台 - 请求[object Object]
+[2016-11-21 13:39:02.298] [ERROR] 平台 - occur error :  Error: options.uri is a required argument
+    at Request.init (D:\AppServ\www\meimiao\code\node_modules\.2.78.0@request\request.js:232:31)
+    at new Request (D:\AppServ\www\meimiao\code\node_modules\.2.78.0@request\request.js:128:8)
+    at request (D:\AppServ\www\meimiao\code\node_modules\.2.78.0@request\index.js:54:10)
+    at Function.get (D:\AppServ\www\meimiao\code\node_modules\.2.78.0@request\index.js:62:12)
+    at Object.exports.get (D:\AppServ\www\meimiao\code\lib\request.js:29:13)
+    at DealWith.tudou (D:\AppServ\www\meimiao\code\servant\dealWith.js:731:17)
+    at Handle.tudouHandle (D:\AppServ\www\meimiao\code\servant\handle.js:145:18)
+    at spiderCore.dispatch (D:\AppServ\www\meimiao\code\servant\index.js:97:24)
+    at spiderCore.getHandle (D:\AppServ\www\meimiao\code\servant\index.js:37:14)
+    at Server.HTTP.createServer (D:\AppServ\www\meimiao\code\servant\index.js:18:26)
+[2016-11-21 13:39:02.313] [ERROR] 平台 - error url: undefined

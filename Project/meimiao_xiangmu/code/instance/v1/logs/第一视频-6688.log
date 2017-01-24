@@ -1,0 +1,17 @@
+[2017-01-19 20:12:15.402] [TRACE] 第一视频 - DealWith instantiation ...
+[2017-01-19 20:12:15.412] [TRACE] 第一视频 - spiderCore instantiation ...
+[2017-01-19 20:12:15.413] [TRACE] 第一视频 - 启动函数
+[2017-01-19 20:12:15.446] [DEBUG] 第一视频 - 任务信息数据库连接建立...成功
+[2017-01-19 20:12:15.448] [DEBUG] 第一视频 - 缓存队列数据库连接建立...成功
+[2017-01-19 20:12:15.450] [DEBUG] 第一视频 - 创建数据库连接完毕
+[2017-01-19 20:12:15.756] [INFO] 第一视频 - { platform: 33, bid: 6046584, fans_num: 27 }
+[2017-01-19 20:12:15.792] [ERROR] 第一视频 - occur error :  { Error: getaddrinfo ENOTFOUND staging-dev.caihongip.com staging-dev.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging-dev.caihongip.com',
+  host: 'staging-dev.caihongip.com',
+  port: 80 }
+[2017-01-19 20:12:15.802] [ERROR] 第一视频 - error url: http://staging-dev.caihongip.com/index.php/Spider/Fans/postFans

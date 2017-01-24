@@ -1,0 +1,32 @@
+[2016-11-25 13:08:05.810] [TRACE] 腾讯视频 - DealWith instantiation ...
+[2016-11-25 13:08:05.817] [TRACE] 腾讯视频 - spiderCore instantiation ...
+[2016-11-25 13:08:05.819] [TRACE] 腾讯视频 - 启动函数
+[2016-11-25 13:08:05.847] [DEBUG] 腾讯视频 - 任务信息数据库连接建立...成功
+[2016-11-25 13:08:05.849] [DEBUG] 腾讯视频 - 缓存队列数据库连接建立...成功
+[2016-11-25 13:08:05.851] [DEBUG] 腾讯视频 - 创建数据库连接完毕
+[2016-11-25 13:08:05.852] [INFO] 腾讯视频 - { p: '4',
+  name: '美食台',
+  type: '1',
+  id: 'abae55a888b23d72e37163dd964d600c' }
+[2016-11-25 13:08:05.890] [DEBUG] 腾讯视频 - 开始获取视频总数
+[2016-11-25 13:08:06.084] [ERROR] 腾讯视频 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-25 13:08:06.123] [DEBUG] 腾讯视频 - 开始获取第1页视频列表
+[2016-11-25 13:08:09.327] [DEBUG] 腾讯视频 - http://data.video.qq.com/fcgi-bin/data?tid=376&appid=10001007&appkey=e075742beb866145&callback=jsonp&low_login=1&otype=json&idlist=k0349zjkwl8
+[2016-11-25 13:08:09.778] [DEBUG] 腾讯视频 - http://data.video.qq.com/fcgi-bin/data?tid=376&appid=10001007&appkey=e075742beb866145&callback=jsonp&low_login=1&otype=json&idlist=i03480d490s
+[2016-11-25 13:08:09.787] [DEBUG] 腾讯视频 - 腾讯视频 k0349zjkwl8 加入缓存队列
+[2016-11-25 13:08:10.116] [DEBUG] 腾讯视频 - http://data.video.qq.com/fcgi-bin/data?tid=376&appid=10001007&appkey=e075742beb866145&callback=jsonp&low_login=1&otype=json&idlist=g0348q5969q
+[2016-11-25 13:08:10.128] [DEBUG] 腾讯视频 - 腾讯视频 i03480d490s 加入缓存队列
+[2016-11-25 13:08:10.461] [DEBUG] 腾讯视频 - http://data.video.qq.com/fcgi-bin/data?tid=376&appid=10001007&appkey=e075742beb866145&callback=jsonp&low_login=1&otype=json&idlist=p03488pqle2
+[2016-11-25 13:08:10.467] [DEBUG] 腾讯视频 - 腾讯视频 g0348q5969q 加入缓存队列
+[2016-11-25 13:08:12.152] [DEBUG] 腾讯视频 - http://data.video.qq.com/fcgi-bin/data?tid=376&appid=10001007&appkey=e075742beb866145&callback=jsonp&low_login=1&otype=json&idlist=o0347dfzxvq
+[2016-11-25 13:08:12.161] [DEBUG] 腾讯视频 - 腾讯视频 p03488pqle2 加入缓存队列
+[2016-11-25 13:08:12.575] [DEBUG] 腾讯视频 - http://data.video.qq.com/fcgi-bin/data?tid=376&appid=10001007&appkey=e075742beb866145&callback=jsonp&low_login=1&otype=json&idlist=s034767o4ih
+[2016-11-25 13:08:12.582] [DEBUG] 腾讯视频 - 腾讯视频 o0347dfzxvq 加入缓存队列

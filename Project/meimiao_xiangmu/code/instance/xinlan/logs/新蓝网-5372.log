@@ -1,0 +1,43 @@
+[2017-01-05 18:49:09.186] [TRACE] 新蓝网 - DealWith instantiation ...
+[2017-01-05 18:49:09.198] [TRACE] 新蓝网 - spiderCore instantiation ...
+[2017-01-05 18:49:09.200] [TRACE] 新蓝网 - 启动函数
+[2017-01-05 18:49:09.229] [DEBUG] 新蓝网 - 任务信息数据库连接建立...成功
+[2017-01-05 18:49:09.231] [DEBUG] 新蓝网 - 缓存队列数据库连接建立...成功
+[2017-01-05 18:49:09.233] [DEBUG] 新蓝网 - 创建数据库连接完毕
+[2017-01-05 18:49:09.697] [DEBUG] 新蓝网 - http://proxy.app.cztv.com/getCommentList.do?videoId=184410&page=1&pageSize=20
+[2017-01-05 18:49:09.774] [DEBUG] 新蓝网 - { alertMessage: '服务异常，请稍候再试', state: 1 }
+[2017-01-05 18:49:09.810] [DEBUG] 新蓝网 - null
+[2017-01-05 18:49:09.810] [DEBUG] 新蓝网 - http://proxy.app.cztv.com/getCommentList.do?videoId=184410&page=1&pageSize=20
+[2017-01-05 18:49:09.810] [DEBUG] 新蓝网 - 新蓝网 144916 加入缓存队列
+[2017-01-05 18:49:09.897] [DEBUG] 新蓝网 - { alertMessage: '服务异常，请稍候再试', state: 1 }
+[2017-01-05 18:49:09.900] [DEBUG] 新蓝网 - null
+[2017-01-05 18:49:09.900] [DEBUG] 新蓝网 - http://proxy.app.cztv.com/getCommentList.do?videoId=184410&page=1&pageSize=20
+[2017-01-05 18:49:09.900] [DEBUG] 新蓝网 - 新蓝网 144917 加入缓存队列
+[2017-01-05 18:49:09.977] [DEBUG] 新蓝网 - { alertMessage: '服务异常，请稍候再试', state: 1 }
+[2017-01-05 18:49:09.984] [DEBUG] 新蓝网 - null
+[2017-01-05 18:49:09.987] [DEBUG] 新蓝网 - http://proxy.app.cztv.com/getCommentList.do?videoId=184410&page=1&pageSize=20
+[2017-01-05 18:49:09.993] [DEBUG] 新蓝网 - 新蓝网 144918 加入缓存队列
+[2017-01-05 18:49:10.076] [DEBUG] 新蓝网 - { alertMessage: '服务异常，请稍候再试', state: 1 }
+[2017-01-05 18:49:10.082] [DEBUG] 新蓝网 - null
+[2017-01-05 18:49:10.091] [DEBUG] 新蓝网 - http://proxy.app.cztv.com/getCommentList.do?videoId=184410&page=1&pageSize=20
+[2017-01-05 18:49:10.101] [DEBUG] 新蓝网 - 新蓝网 144923 加入缓存队列
+[2017-01-05 18:49:10.184] [DEBUG] 新蓝网 - { alertMessage: '服务异常，请稍候再试', state: 1 }
+[2017-01-05 18:49:10.187] [DEBUG] 新蓝网 - null
+[2017-01-05 18:49:10.190] [DEBUG] 新蓝网 - http://proxy.app.cztv.com/getCommentList.do?videoId=184410&page=1&pageSize=20
+[2017-01-05 18:49:10.196] [DEBUG] 新蓝网 - 新蓝网 144946 加入缓存队列
+[2017-01-05 18:49:10.278] [DEBUG] 新蓝网 - { alertMessage: '服务异常，请稍候再试', state: 1 }
+[2017-01-05 18:49:10.281] [DEBUG] 新蓝网 - null
+[2017-01-05 18:49:10.285] [DEBUG] 新蓝网 - http://proxy.app.cztv.com/getCommentList.do?videoId=184410&page=1&pageSize=20
+[2017-01-05 18:49:10.291] [DEBUG] 新蓝网 - 新蓝网 144947 加入缓存队列
+[2017-01-05 18:49:10.374] [DEBUG] 新蓝网 - { alertMessage: '服务异常，请稍候再试', state: 1 }
+[2017-01-05 18:49:10.379] [DEBUG] 新蓝网 - null
+[2017-01-05 18:49:10.383] [DEBUG] 新蓝网 - http://proxy.app.cztv.com/getCommentList.do?videoId=184410&page=1&pageSize=20
+[2017-01-05 18:49:10.388] [DEBUG] 新蓝网 - 新蓝网 144948 加入缓存队列
+[2017-01-05 18:49:10.468] [DEBUG] 新蓝网 - { alertMessage: '服务异常，请稍候再试', state: 1 }
+[2017-01-05 18:49:10.470] [DEBUG] 新蓝网 - null
+[2017-01-05 18:49:10.476] [DEBUG] 新蓝网 - http://proxy.app.cztv.com/getCommentList.do?videoId=184410&page=1&pageSize=20
+[2017-01-05 18:49:10.481] [DEBUG] 新蓝网 - 新蓝网 144949 加入缓存队列
+[2017-01-05 18:49:10.566] [DEBUG] 新蓝网 - { alertMessage: '服务异常，请稍候再试', state: 1 }
+[2017-01-05 18:49:10.568] [DEBUG] 新蓝网 - null
+[2017-01-05 18:49:10.570] [DEBUG] 新蓝网 - http://proxy.app.cztv.com/getCommentList.do?videoId=184410&page=1&pageSize=20
+[2017-01-05 18:49:10.574] [DEBUG] 新蓝网 - 新蓝网 144950 加入缓存队列

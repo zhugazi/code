@@ -1,0 +1,79 @@
+[2016-11-29 15:37:57.936] [TRACE] 爆米花 - DealWith instantiation ...
+[2016-11-29 15:37:57.942] [TRACE] 爆米花 - spiderCore instantiation ...
+[2016-11-29 15:37:57.943] [TRACE] 爆米花 - 启动函数
+[2016-11-29 15:37:57.971] [DEBUG] 爆米花 - 任务信息数据库连接建立...成功
+[2016-11-29 15:37:57.973] [DEBUG] 爆米花 - 缓存队列数据库连接建立...成功
+[2016-11-29 15:37:57.975] [DEBUG] 爆米花 - 创建数据库连接完毕
+[2016-11-29 15:37:57.981] [TRACE] 爆米花 - Queue get ready
+[2016-11-29 15:37:58.109] [TRACE] 爆米花 - Get baomihua task!
+[2016-11-29 15:37:58.111] [INFO] 爆米花 - { id: '13028', p: '13', name: '亲宝儿歌', type: '0' }
+[2016-11-29 15:37:58.139] [DEBUG] 爆米花 - http://m.interface.baomihua.com/interfaces/userchannel.ashx?type=channelinfo&channelid=13028 |||||||
+[2016-11-29 15:37:58.152] [TRACE] 爆米花 - Get baomihua task!
+[2016-11-29 15:37:58.155] [INFO] 爆米花 - { id: '28308', p: '13', name: '我是扁桃', type: '0' }
+[2016-11-29 15:37:58.158] [DEBUG] 爆米花 - http://m.interface.baomihua.com/interfaces/userchannel.ashx?type=channelinfo&channelid=28308 |||||||
+[2016-11-29 15:37:58.162] [TRACE] 爆米花 - Get baomihua task!
+[2016-11-29 15:37:58.164] [INFO] 爆米花 - { id: '28351', p: '13', name: '真是奇怪le', type: '0' }
+[2016-11-29 15:37:58.168] [DEBUG] 爆米花 - http://m.interface.baomihua.com/interfaces/userchannel.ashx?type=channelinfo&channelid=28351 |||||||
+[2016-11-29 15:37:58.323] [DEBUG] 爆米花 - [object Object]=======
+[2016-11-29 15:37:58.335] [DEBUG] 爆米花 - [object Object]=======
+[2016-11-29 15:37:58.341] [DEBUG] 爆米花 - [object Object]=======
+[2016-11-29 15:37:58.351] [ERROR] 爆米花 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-29 15:37:58.362] [ERROR] 爆米花 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-29 15:37:58.368] [ERROR] 爆米花 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-29 15:38:19.359] [ERROR] 爆米花 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-29 15:38:19.363] [INFO] 爆米花 - 返回爆米花用户 13028 连接服务器失败
+[2016-11-29 15:38:19.367] [DEBUG] 爆米花 - http://m.interface.baomihua.com/interfaces/userchannel.ashx?type=channelvideo&channelid=13028-------
+[2016-11-29 15:38:19.398] [ERROR] 爆米花 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-29 15:38:19.403] [INFO] 爆米花 - 返回爆米花用户 28351 连接服务器失败
+[2016-11-29 15:38:19.406] [DEBUG] 爆米花 - http://m.interface.baomihua.com/interfaces/userchannel.ashx?type=channelvideo&channelid=28351-------
+[2016-11-29 15:38:19.412] [ERROR] 爆米花 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-29 15:38:19.418] [INFO] 爆米花 - 返回爆米花用户 28308 连接服务器失败
+[2016-11-29 15:38:19.420] [DEBUG] 爆米花 - http://m.interface.baomihua.com/interfaces/userchannel.ashx?type=channelvideo&channelid=28308-------

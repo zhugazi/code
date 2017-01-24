@@ -1,0 +1,237 @@
+[2016-11-30 14:42:31.251] [TRACE] 酷6 - DealWith instantiation ...
+[2016-11-30 14:42:31.251] [TRACE] 酷6 - spiderCore instantiation ...
+[2016-11-30 14:42:31.267] [TRACE] 酷6 - 启动函数
+[2016-11-30 14:42:31.295] [DEBUG] 酷6 - 任务信息数据库连接建立...成功
+[2016-11-30 14:42:31.297] [DEBUG] 酷6 - 缓存队列数据库连接建立...成功
+[2016-11-30 14:42:31.298] [DEBUG] 酷6 - 创建数据库连接完毕
+[2016-11-30 14:42:31.298] [TRACE] 酷6 - Queue get ready
+[2016-11-30 14:42:31.329] [TRACE] 酷6 - Get ku6 task!
+[2016-11-30 14:42:31.329] [INFO] 酷6 - { id: '24583394', p: '14', name: '小苍mm', type: '0' }
+[2016-11-30 14:42:31.360] [TRACE] 酷6 - Get ku6 task!
+[2016-11-30 14:42:31.360] [INFO] 酷6 - { id: '23591821', p: '14', name: '畅所欲言', type: '0' }
+[2016-11-30 14:42:31.376] [TRACE] 酷6 - Get ku6 task!
+[2016-11-30 14:42:31.376] [INFO] 酷6 - { id: '24875965', p: '14', name: '陈翔六点半', type: '0' }
+[2016-11-30 14:42:31.376] [TRACE] 酷6 - Get ku6 task!
+[2016-11-30 14:42:31.376] [INFO] 酷6 - { id: '19665704', p: '14', name: '淘梦网', type: '0' }
+[2016-11-30 14:42:31.391] [TRACE] 酷6 - Get ku6 task!
+[2016-11-30 14:42:31.391] [INFO] 酷6 - { id: '24452569', p: '14', name: '一风之音', type: '0' }
+[2016-11-30 14:42:31.391] [TRACE] 酷6 - Get ku6 task!
+[2016-11-30 14:42:31.391] [INFO] 酷6 - { id: '24587320', p: '14', name: 'kumi', type: '0' }
+[2016-11-30 14:42:31.866] [ERROR] 酷6 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-30 14:42:31.897] [ERROR] 酷6 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-30 14:42:31.912] [ERROR] 酷6 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-30 14:42:32.054] [ERROR] 酷6 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-30 14:42:32.132] [ERROR] 酷6 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-30 14:42:32.179] [ERROR] 酷6 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-30 14:42:52.793] [ERROR] 酷6 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-30 14:42:52.797] [DEBUG] 酷6 - 开始获取视频总数
+[2016-11-30 14:42:52.797] [DEBUG] 酷6 - http://my.ku6.com/channel/getuploadvideos?channel=19665704
+[2016-11-30 14:42:52.891] [ERROR] 酷6 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-30 14:42:52.891] [DEBUG] 酷6 - 开始获取视频总数
+[2016-11-30 14:42:52.891] [DEBUG] 酷6 - http://my.ku6.com/channel/getuploadvideos?channel=24875965
+[2016-11-30 14:42:52.907] [ERROR] 酷6 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-30 14:42:52.907] [DEBUG] 酷6 - 开始获取视频总数
+[2016-11-30 14:42:52.907] [DEBUG] 酷6 - http://my.ku6.com/channel/getuploadvideos?channel=23591821
+[2016-11-30 14:42:53.064] [ERROR] 酷6 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-30 14:42:53.064] [DEBUG] 酷6 - 开始获取视频总数
+[2016-11-30 14:42:53.064] [DEBUG] 酷6 - http://my.ku6.com/channel/getuploadvideos?channel=24587320
+[2016-11-30 14:42:53.126] [ERROR] 酷6 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-30 14:42:53.126] [DEBUG] 酷6 - 开始获取视频总数
+[2016-11-30 14:42:53.126] [DEBUG] 酷6 - http://my.ku6.com/channel/getuploadvideos?channel=24452569
+[2016-11-30 14:42:53.188] [ERROR] 酷6 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-30 14:42:53.188] [DEBUG] 酷6 - 开始获取视频总数
+[2016-11-30 14:42:53.188] [DEBUG] 酷6 - http://my.ku6.com/channel/getuploadvideos?channel=24583394
+[2016-11-30 14:42:54.037] [DEBUG] 酷6 - 开始获取第1页视频列表
+[2016-11-30 14:42:54.039] [DEBUG] 酷6 - http://new.ku6.com/mobile/getuploadedvideos?rn=20&uid=23591821&pn=0++++
+[2016-11-30 14:42:54.147] [DEBUG] 酷6 - 开始获取第2页视频列表
+[2016-11-30 14:42:54.149] [DEBUG] 酷6 - http://new.ku6.com/mobile/getuploadedvideos?rn=20&uid=23591821&pn=1++++
+[2016-11-30 14:42:54.154] [DEBUG] 酷6 - 酷6视频 NQEnJX2eXpduBBnXdbQeQQ.. 加入缓存队列
+[2016-11-30 14:42:54.155] [DEBUG] 酷6 - 酷6视频 hz2gs0Qar5j_cZvHvNSDkA.. 加入缓存队列
+[2016-11-30 14:42:54.157] [DEBUG] 酷6 - 酷6视频 Rt4uCk34fIgZZ46G2LytNg.. 加入缓存队列
+[2016-11-30 14:42:54.159] [DEBUG] 酷6 - 酷6视频 _k2kf5sKO7I7bkVgohLtMg.. 加入缓存队列
+[2016-11-30 14:42:54.160] [DEBUG] 酷6 - 酷6视频 lpKr56VNJbSQtpc_EkJ9eA.. 加入缓存队列
+[2016-11-30 14:42:54.162] [DEBUG] 酷6 - 酷6视频 leV1UfTEpLt4GB68Sf3ZdA.. 加入缓存队列
+[2016-11-30 14:42:54.165] [DEBUG] 酷6 - 酷6视频 zDL4AOPlJpGwoH2Bg9J2kg.. 加入缓存队列
+[2016-11-30 14:42:54.167] [DEBUG] 酷6 - 酷6视频 TzXR1egyKFycVCmUc4dg1g.. 加入缓存队列
+[2016-11-30 14:42:54.169] [DEBUG] 酷6 - 酷6视频 iuBGXgW0j9lJMsLTxRwyrQ.. 加入缓存队列
+[2016-11-30 14:42:54.171] [DEBUG] 酷6 - 酷6视频 7aL02DhV7mTmtr-HFUW2rQ.. 加入缓存队列
+[2016-11-30 14:42:54.173] [DEBUG] 酷6 - 酷6视频 5yYbG5s7dPIKFhXDEGNRZA.. 加入缓存队列
+[2016-11-30 14:42:54.175] [DEBUG] 酷6 - 酷6视频 f8XF9fpPCp6EbXlOM8DR8g.. 加入缓存队列
+[2016-11-30 14:42:54.176] [DEBUG] 酷6 - 酷6视频 X7EwNwtkpFnh0W9onO-byg.. 加入缓存队列
+[2016-11-30 14:42:54.179] [DEBUG] 酷6 - 酷6视频 xMueCL8g11-toG0hu1PTIA.. 加入缓存队列
+[2016-11-30 14:42:54.182] [DEBUG] 酷6 - 酷6视频 imBTkvkVJmnWUOhtdajSjg.. 加入缓存队列
+[2016-11-30 14:42:54.184] [DEBUG] 酷6 - 酷6视频 6PxxVF_K2NcG1BBe7KzdTg.. 加入缓存队列
+[2016-11-30 14:42:54.187] [DEBUG] 酷6 - 酷6视频 i4To-iDvy7j-ZKI5uUO8ng.. 加入缓存队列
+[2016-11-30 14:42:54.189] [DEBUG] 酷6 - 酷6视频 KYqJdvozC8yYmVr-4_yOFw.. 加入缓存队列
+[2016-11-30 14:42:54.192] [DEBUG] 酷6 - 酷6视频 5Joiw_8Z6GaqFK6I2iXtKg.. 加入缓存队列
+[2016-11-30 14:42:54.196] [DEBUG] 酷6 - 酷6视频 ilHEGMIV6Acp4cAVTOVXuw.. 加入缓存队列
+[2016-11-30 14:42:54.427] [DEBUG] 酷6 - 开始获取第1页视频列表
+[2016-11-30 14:42:54.430] [DEBUG] 酷6 - http://new.ku6.com/mobile/getuploadedvideos?rn=20&uid=24452569&pn=0++++
+[2016-11-30 14:42:54.435] [DEBUG] 酷6 - 开始获取第1页视频列表
+[2016-11-30 14:42:54.437] [DEBUG] 酷6 - http://new.ku6.com/mobile/getuploadedvideos?rn=20&uid=24583394&pn=0++++
+[2016-11-30 14:42:54.449] [DEBUG] 酷6 - 开始获取第1页视频列表
+[2016-11-30 14:42:54.451] [DEBUG] 酷6 - http://new.ku6.com/mobile/getuploadedvideos?rn=20&uid=19665704&pn=0++++
+[2016-11-30 14:42:54.576] [DEBUG] 酷6 - 开始获取第2页视频列表
+[2016-11-30 14:42:54.578] [DEBUG] 酷6 - http://new.ku6.com/mobile/getuploadedvideos?rn=20&uid=24452569&pn=1++++
+[2016-11-30 14:42:54.585] [DEBUG] 酷6 - 酷6视频 -VWe1AJimDjcGvbNJDJYOA.. 加入缓存队列
+[2016-11-30 14:42:54.587] [DEBUG] 酷6 - 酷6视频 ZkHgv4AjQ37kRplWSqhn2Q.. 加入缓存队列
+[2016-11-30 14:42:54.588] [DEBUG] 酷6 - 酷6视频 SiufR9c8ida4lbnatgNmww.. 加入缓存队列
+[2016-11-30 14:42:54.590] [DEBUG] 酷6 - 酷6视频 garh2gl0NupATYDKmcsRJA.. 加入缓存队列
+[2016-11-30 14:42:54.593] [DEBUG] 酷6 - 酷6视频 bMPWuprcxLgH7YHWaK0hkw.. 加入缓存队列
+[2016-11-30 14:42:54.595] [DEBUG] 酷6 - 酷6视频 LbLPFY5kGEsBEn6E2PgO3w.. 加入缓存队列
+[2016-11-30 14:42:54.596] [DEBUG] 酷6 - 酷6视频 KMSfZZwACcdjHxPZewojtA.. 加入缓存队列
+[2016-11-30 14:42:54.599] [DEBUG] 酷6 - 酷6视频 -jJYzyBZ_8PQgxxslSkH-A.. 加入缓存队列
+[2016-11-30 14:42:54.603] [DEBUG] 酷6 - 酷6视频 R4UpZIDWiSIaqOdXUvEuJg.. 加入缓存队列
+[2016-11-30 14:42:54.605] [DEBUG] 酷6 - 酷6视频 mI3y8L0nGC95MTiTzgkUNA.. 加入缓存队列
+[2016-11-30 14:42:54.607] [DEBUG] 酷6 - 酷6视频 NqKi0_2rmYi4lboYE_wB5A.. 加入缓存队列
+[2016-11-30 14:42:54.610] [DEBUG] 酷6 - 酷6视频 2hxaQ-YHWPxESt-88EyBvA.. 加入缓存队列
+[2016-11-30 14:42:54.613] [DEBUG] 酷6 - 酷6视频 4VojIEKAm--LTIHS-zPw2g.. 加入缓存队列
+[2016-11-30 14:42:54.615] [DEBUG] 酷6 - 酷6视频 bXoZdeULUQcHzVoNhp-Ijw.. 加入缓存队列
+[2016-11-30 14:42:54.618] [DEBUG] 酷6 - 酷6视频 yFgRPdChWDe0MmcvIEGmbQ.. 加入缓存队列
+[2016-11-30 14:42:54.620] [DEBUG] 酷6 - 酷6视频 XaEljfKiu8p76uiYHNs1LQ.. 加入缓存队列
+[2016-11-30 14:42:54.623] [DEBUG] 酷6 - 酷6视频 5y34zxvultz0PgQPfws8Ow.. 加入缓存队列
+[2016-11-30 14:42:54.625] [DEBUG] 酷6 - 酷6视频 eQbnskxEj0d7aisXxXDZgw.. 加入缓存队列
+[2016-11-30 14:42:54.629] [DEBUG] 酷6 - 酷6视频 liggyXe4-c59hNq5cwXCiA.. 加入缓存队列
+[2016-11-30 14:42:54.631] [DEBUG] 酷6 - 酷6视频 ToYBD4ibe7rfOGfuWZOoNw.. 加入缓存队列
+[2016-11-30 14:42:54.636] [DEBUG] 酷6 - 开始获取第2页视频列表
+[2016-11-30 14:42:54.637] [DEBUG] 酷6 - http://new.ku6.com/mobile/getuploadedvideos?rn=20&uid=24583394&pn=1++++
+[2016-11-30 14:42:54.643] [DEBUG] 酷6 - 酷6视频 wdUCsH2yTAk2HiHNDvUujg.. 加入缓存队列
+[2016-11-30 14:42:54.645] [DEBUG] 酷6 - 酷6视频 tUKx5ccqIdEIBV7FFPAL_A.. 加入缓存队列
+[2016-11-30 14:42:54.647] [DEBUG] 酷6 - 酷6视频 Av5bjJiFv5Hsu7RNTpzKIQ.. 加入缓存队列
+[2016-11-30 14:42:54.649] [DEBUG] 酷6 - 酷6视频 reK6XcXMSnRtCz8VYla2fg.. 加入缓存队列
+[2016-11-30 14:42:54.651] [DEBUG] 酷6 - 酷6视频 Ahc1mcnoE-RyLLSSq8ZhxA.. 加入缓存队列
+[2016-11-30 14:42:54.653] [DEBUG] 酷6 - 酷6视频 URXQVHIrRfWcgltHx1PeAw.. 加入缓存队列
+[2016-11-30 14:42:54.655] [DEBUG] 酷6 - 酷6视频 Syf6xmgXSk5O4LpsfPCk3Q.. 加入缓存队列
+[2016-11-30 14:42:54.658] [DEBUG] 酷6 - 酷6视频 8nSCflA6LFoQ5U_0ofzqrQ.. 加入缓存队列
+[2016-11-30 14:42:54.660] [DEBUG] 酷6 - 酷6视频 dk3a6QbN5I-ASqw2KqE34Q.. 加入缓存队列
+[2016-11-30 14:42:54.662] [DEBUG] 酷6 - 酷6视频 601o2hKKE02bLx0ndmw05A.. 加入缓存队列
+[2016-11-30 14:42:54.664] [DEBUG] 酷6 - 酷6视频 usALL-ck4vC8JSSuksTEpA.. 加入缓存队列
+[2016-11-30 14:42:54.667] [DEBUG] 酷6 - 酷6视频 HBcHN449rKng7ioZ9FsPWA.. 加入缓存队列
+[2016-11-30 14:42:54.668] [DEBUG] 酷6 - 酷6视频 DcWnSBTUfe5JG-uP7ayf1A.. 加入缓存队列
+[2016-11-30 14:42:54.670] [DEBUG] 酷6 - 酷6视频 PltsdGaIkHX65Zs6UyK1dQ.. 加入缓存队列
+[2016-11-30 14:42:54.672] [DEBUG] 酷6 - 酷6视频 CXqmWA4Ca4GM7bZ-kYxlZQ.. 加入缓存队列
+[2016-11-30 14:42:54.674] [DEBUG] 酷6 - 酷6视频 a8m84J34SOMdd9Birx1E8A.. 加入缓存队列
+[2016-11-30 14:42:54.677] [DEBUG] 酷6 - 酷6视频 qHaahZqG30YB_XzXrW-03A.. 加入缓存队列
+[2016-11-30 14:42:54.678] [DEBUG] 酷6 - 酷6视频 xTT0QMCYvShLa1HMlc7lsQ.. 加入缓存队列
+[2016-11-30 14:42:54.680] [DEBUG] 酷6 - 酷6视频 6Osvrs-uO-XYQzn9Zok3Pw.. 加入缓存队列
+[2016-11-30 14:42:54.681] [DEBUG] 酷6 - 酷6视频 Uy1pdImKR1GzV-JNsk37Jg.. 加入缓存队列
+[2016-11-30 14:42:54.684] [DEBUG] 酷6 - 开始获取第1页视频列表
+[2016-11-30 14:42:54.686] [DEBUG] 酷6 - http://new.ku6.com/mobile/getuploadedvideos?rn=20&uid=24875965&pn=0++++
+[2016-11-30 14:42:54.829] [DEBUG] 酷6 - 开始获取第3页视频列表
+[2016-11-30 14:42:54.831] [DEBUG] 酷6 - http://new.ku6.com/mobile/getuploadedvideos?rn=20&uid=23591821&pn=2++++
+[2016-11-30 14:42:54.833] [DEBUG] 酷6 - 酷6视频 BfBBPN8GeqjBj2K0vTr8jw.. 加入缓存队列
+[2016-11-30 14:42:54.835] [DEBUG] 酷6 - 酷6视频 1PNyXzYjpwjr8IpuojSQlQ.. 加入缓存队列
+[2016-11-30 14:42:54.836] [DEBUG] 酷6 - 酷6视频 kR-F7PFHgrZMnMaPPFMu5w.. 加入缓存队列
+[2016-11-30 14:42:54.838] [DEBUG] 酷6 - 酷6视频 O3FroJ1ek3rqY9iBiiTzzg.. 加入缓存队列
+[2016-11-30 14:42:54.839] [DEBUG] 酷6 - 酷6视频 fsqPHVWR2PbNPItCAfeqww.. 加入缓存队列
+[2016-11-30 14:42:54.842] [DEBUG] 酷6 - 酷6视频 IkxvSYFSVVuSytuHs_Rkqg.. 加入缓存队列
+[2016-11-30 14:42:54.845] [DEBUG] 酷6 - 酷6视频 P7Zx0nyOXblCANCqullSHg.. 加入缓存队列
+[2016-11-30 14:42:54.847] [DEBUG] 酷6 - 酷6视频 iGv5Pfe5ldPp71RugkNW9g.. 加入缓存队列
+[2016-11-30 14:42:54.848] [DEBUG] 酷6 - 酷6视频 hCMyJ6Zs0xLD_WCBr4p_Nw.. 加入缓存队列
+[2016-11-30 14:42:54.850] [DEBUG] 酷6 - 酷6视频 L9DFNAORxS94z4Kmct5V0g.. 加入缓存队列
+[2016-11-30 14:42:54.852] [DEBUG] 酷6 - 酷6视频 p50MCmUmfQTGgwIWH_ahzQ.. 加入缓存队列
+[2016-11-30 14:42:54.865] [DEBUG] 酷6 - 酷6视频 UGZGRYsPzGDMb3DweQPzUg.. 加入缓存队列
+[2016-11-30 14:42:54.866] [DEBUG] 酷6 - 酷6视频 qWMFFgSLimu9lGVpVkOOwA.. 加入缓存队列
+[2016-11-30 14:42:54.868] [DEBUG] 酷6 - 酷6视频 YOADFmHnsXZRe_LMlAg3Yw.. 加入缓存队列
+[2016-11-30 14:42:54.870] [DEBUG] 酷6 - 酷6视频 vl9g8N-3C7jcPyHpAwfEpQ.. 加入缓存队列
+[2016-11-30 14:42:54.872] [DEBUG] 酷6 - 酷6视频 TQLI0efH-apViSMMt3kRAw.. 加入缓存队列
+[2016-11-30 14:42:54.874] [DEBUG] 酷6 - 酷6视频 L4WRbvmv6jlEjNQKkr9gvw.. 加入缓存队列
+[2016-11-30 14:42:54.876] [DEBUG] 酷6 - 酷6视频 6rV3sGXm_yW8NAkteDUOUw.. 加入缓存队列
+[2016-11-30 14:42:54.878] [DEBUG] 酷6 - 酷6视频 ccIpm0iWim9BdDsQTy7pCg.. 加入缓存队列
+[2016-11-30 14:42:54.879] [DEBUG] 酷6 - 酷6视频 VOfVha4-OWlRd4o-g8d8lQ.. 加入缓存队列

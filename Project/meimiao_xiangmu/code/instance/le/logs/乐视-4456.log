@@ -1,0 +1,29 @@
+[2016-11-29 11:07:39.393] [TRACE] 乐视 - DealWith instantiation ...
+[2016-11-29 11:07:39.393] [TRACE] 乐视 - spiderCore instantiation ...
+[2016-11-29 11:07:39.409] [TRACE] 乐视 - 启动函数
+[2016-11-29 11:07:39.429] [DEBUG] 乐视 - 任务信息数据库连接建立...成功
+[2016-11-29 11:07:39.429] [DEBUG] 乐视 - 缓存队列数据库连接建立...成功
+[2016-11-29 11:07:39.429] [DEBUG] 乐视 - 创建数据库连接完毕
+[2016-11-29 11:07:39.445] [TRACE] 乐视 - Queue get ready
+[2016-11-29 11:07:40.503] [TRACE] 乐视 - Get le task!
+[2016-11-29 11:07:40.503] [INFO] 乐视 - { id: '181902852',
+  p: '3',
+  name: '大白TWO的玩具魔法世界',
+  type: '1',
+  total: 0 }
+[2016-11-29 11:07:40.534] [DEBUG] 乐视 - 开始获取视频总页数
+[2016-11-29 11:07:40.534] [TRACE] 乐视 - Get le task!
+[2016-11-29 11:07:40.549] [INFO] 乐视 - { id: '22160014', p: '3', name: '古则决', type: '1', total: 0 }
+[2016-11-29 11:07:40.549] [DEBUG] 乐视 - 开始获取视频总页数
+[2016-11-29 11:07:40.643] [ERROR] 乐视 - occur error :  { Error: read ECONNRESET
+    at exports._errnoException (util.js:1007:11)
+    at TCP.onread (net.js:563:26) code: 'ECONNRESET', errno: 'ECONNRESET', syscall: 'read' }
+[2016-11-29 11:07:40.659] [ERROR] 乐视 - error url: http://chuang.le.com/u/22160014/queryvideolist?callback=jsonp&orderType=0&pageSize=48&searchTitleString=&currentPage=1&_=1480388860549
+[2016-11-29 11:07:40.674] [DEBUG] 乐视 - 开始获取第1页视频列表
+[2016-11-29 11:07:40.737] [DEBUG] 乐视 - http://v.stat.letv.com/vplay/getIdsInfo?type=vlist&ids=27144910&_=1480388860737
+[2016-11-29 11:07:41.004] [DEBUG] 乐视 - http://v.stat.letv.com/vplay/getIdsInfo?type=vlist&ids=27139124&_=1480388861004
+[2016-11-29 11:07:41.019] [DEBUG] 乐视 - 乐视视频 27144910 加入缓存队列
+[2016-11-29 11:07:42.081] [DEBUG] 乐视 - http://v.stat.letv.com/vplay/getIdsInfo?type=vlist&ids=27139120&_=1480388862081
+[2016-11-29 11:07:42.096] [DEBUG] 乐视 - 乐视视频 27139124 加入缓存队列
+[2016-11-29 11:07:42.377] [DEBUG] 乐视 - http://v.stat.letv.com/vplay/getIdsInfo?type=vlist&ids=27139118&_=1480388862377
+[2016-11-29 11:07:42.393] [DEBUG] 乐视 - 乐视视频 27139120 加入缓存队列

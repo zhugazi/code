@@ -1,0 +1,221 @@
+[2016-11-25 10:36:43.372] [TRACE] 搜狐视频 - DealWith instantiation ...
+[2016-11-25 10:36:43.372] [TRACE] 搜狐视频 - spiderCore instantiation ...
+[2016-11-25 10:36:43.372] [TRACE] 搜狐视频 - 启动函数
+[2016-11-25 10:36:43.403] [DEBUG] 搜狐视频 - 任务信息数据库连接建立...成功
+[2016-11-25 10:36:43.403] [DEBUG] 搜狐视频 - 缓存队列数据库连接建立...成功
+[2016-11-25 10:36:43.403] [DEBUG] 搜狐视频 - 创建数据库连接完毕
+[2016-11-25 10:36:43.418] [TRACE] 搜狐视频 - Queue get ready
+[2016-11-25 10:36:43.450] [TRACE] 搜狐视频 - Get souhu task!
+[2016-11-25 10:36:43.450] [INFO] 搜狐视频 - { id: '247245585', p: '9', name: '小题影视', type: '0' }
+[2016-11-25 10:36:43.496] [TRACE] 搜狐视频 - Get souhu task!
+[2016-11-25 10:36:43.496] [INFO] 搜狐视频 - { id: '251025486', p: '9', name: '萝卜报告', type: '0' }
+[2016-11-25 10:36:43.496] [TRACE] 搜狐视频 - Get souhu task!
+[2016-11-25 10:36:43.496] [INFO] 搜狐视频 - { id: '3130826', p: '9', name: '欧子直译', type: '0' }
+[2016-11-25 10:36:43.496] [TRACE] 搜狐视频 - Get souhu task!
+[2016-11-25 10:36:43.496] [INFO] 搜狐视频 - { id: '198160200', p: '9', name: '袁超工作室', type: '0' }
+[2016-11-25 10:36:43.512] [TRACE] 搜狐视频 - Get souhu task!
+[2016-11-25 10:36:43.512] [INFO] 搜狐视频 - { id: '251516311', p: '9', name: '化妆师MK', type: '0' }
+[2016-11-25 10:36:43.512] [TRACE] 搜狐视频 - Get souhu task!
+[2016-11-25 10:36:43.512] [INFO] 搜狐视频 - { id: '242562163', p: '9', name: '小苍cany', type: '0' }
+[2016-11-25 10:36:43.528] [TRACE] 搜狐视频 - Get souhu task!
+[2016-11-25 10:36:43.528] [INFO] 搜狐视频 - { id: '196262702', p: '9', name: 'Big笑工坊', type: '0' }
+[2016-11-25 10:36:43.528] [TRACE] 搜狐视频 - Get souhu task!
+[2016-11-25 10:36:43.528] [INFO] 搜狐视频 - { id: '260191711', p: '9', name: '牛男生活', type: '0' }
+[2016-11-25 10:36:43.528] [TRACE] 搜狐视频 - Get souhu task!
+[2016-11-25 10:36:43.543] [INFO] 搜狐视频 - { id: '252599690', p: '9', name: '微体社区', type: '0' }
+[2016-11-25 10:36:43.684] [DEBUG] 搜狐视频 - 用户: 196262702 back_end
+[2016-11-25 10:36:43.699] [DEBUG] 搜狐视频 - 用户: 260191711 back_end
+[2016-11-25 10:36:43.715] [DEBUG] 搜狐视频 - 用户: 242562163 back_end
+[2016-11-25 10:36:43.897] [DEBUG] 搜狐视频 - 用户: 3130826 back_end
+[2016-11-25 10:36:45.083] [DEBUG] 搜狐视频 - 用户: 198160200 back_end
+[2016-11-25 10:37:04.658] [ERROR] 搜狐视频 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-25 10:37:04.674] [INFO] 搜狐视频 - 返回搜狐视频用户 260191711 连接服务器失败
+[2016-11-25 10:37:04.689] [ERROR] 搜狐视频 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-25 10:37:04.705] [INFO] 搜狐视频 - 返回搜狐视频用户 251516311 连接服务器失败
+[2016-11-25 10:37:04.705] [ERROR] 搜狐视频 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-25 10:37:04.705] [INFO] 搜狐视频 - 返回搜狐视频用户 252599690 连接服务器失败
+[2016-11-25 10:37:04.721] [ERROR] 搜狐视频 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-25 10:37:04.721] [INFO] 搜狐视频 - 返回搜狐视频用户 196262702 连接服务器失败
+[2016-11-25 10:37:04.721] [ERROR] 搜狐视频 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-25 10:37:04.721] [INFO] 搜狐视频 - 返回搜狐视频用户 198160200 连接服务器失败
+[2016-11-25 10:37:04.736] [ERROR] 搜狐视频 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-25 10:37:04.736] [INFO] 搜狐视频 - 返回搜狐视频用户 242562163 连接服务器失败
+[2016-11-25 10:37:04.736] [ERROR] 搜狐视频 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-25 10:37:04.736] [INFO] 搜狐视频 - 返回搜狐视频用户 251025486 连接服务器失败
+[2016-11-25 10:37:04.849] [ERROR] 搜狐视频 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-25 10:37:04.849] [INFO] 搜狐视频 - 返回搜狐视频用户 3130826 连接服务器失败
+[2016-11-25 10:37:04.849] [ERROR] 搜狐视频 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-25 10:37:04.865] [INFO] 搜狐视频 - 返回搜狐视频用户 247245585 连接服务器失败
+[2016-11-25 10:37:05.005] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/86086583.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=9059722------
+[2016-11-25 10:37:05.021] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/86116818.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=6445627------
+[2016-11-25 10:37:05.021] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/86120146.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=9137499------
+[2016-11-25 10:37:05.068] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/86102290.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=6935925------
+[2016-11-25 10:37:05.115] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/86105926.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=9033482------
+[2016-11-25 10:37:05.177] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/86048260.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=6888667------
+[2016-11-25 10:37:05.177] [DEBUG] 搜狐视频 - 搜狐视频 86116818 加入缓存队列
+[2016-11-25 10:37:05.193] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/86009874.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=6935925------
+[2016-11-25 10:37:05.193] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/86090846.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=9111999------
+[2016-11-25 10:37:05.193] [DEBUG] 搜狐视频 - 搜狐视频 86102290 加入缓存队列
+[2016-11-25 10:37:05.193] [DEBUG] 搜狐视频 - 搜狐视频 86120146 加入缓存队列
+[2016-11-25 10:37:05.208] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/86114985.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=8989651------
+[2016-11-25 10:37:05.208] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/86105450.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=9131262------
+[2016-11-25 10:37:05.224] [DEBUG] 搜狐视频 - 搜狐视频 86105926 加入缓存队列
+[2016-11-25 10:37:05.271] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/86113260.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=9153194------
+[2016-11-25 10:37:05.286] [DEBUG] 搜狐视频 - 搜狐视频 86114985 加入缓存队列
+[2016-11-25 10:37:05.286] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/86106307.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=9039872------
+[2016-11-25 10:37:05.302] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/85971956.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=6445627------
+[2016-11-25 10:37:05.302] [DEBUG] 搜狐视频 - 搜狐视频 86048260 加入缓存队列
+[2016-11-25 10:37:05.317] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/86059528.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=9033482------
+[2016-11-25 10:37:05.317] [DEBUG] 搜狐视频 - 搜狐视频 86105450 加入缓存队列
+[2016-11-25 10:37:05.395] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/86035142.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=9131262------
+[2016-11-25 10:37:05.395] [DEBUG] 搜狐视频 - 搜狐视频 86059528 加入缓存队列
+[2016-11-25 10:37:05.411] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/86088042.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=9151025------
+[2016-11-25 10:37:05.411] [DEBUG] 搜狐视频 - 搜狐视频 86106307 加入缓存队列
+[2016-11-25 10:37:05.458] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/86033861.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=8445707------
+[2016-11-25 10:37:05.473] [DEBUG] 搜狐视频 - 搜狐视频 86086583 加入缓存队列
+[2016-11-25 10:37:05.505] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/86076951.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=9196607------
+[2016-11-25 10:37:05.505] [DEBUG] 搜狐视频 - 搜狐视频 86090846 加入缓存队列
+[2016-11-25 10:37:05.551] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/85992076.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=8454122------
+[2016-11-25 10:37:05.551] [DEBUG] 搜狐视频 - 搜狐视频 86033861 加入缓存队列
+[2016-11-25 10:37:05.598] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/86038400.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=9109456------
+[2016-11-25 10:37:05.598] [DEBUG] 搜狐视频 - 搜狐视频 86076951 加入缓存队列
+[2016-11-25 10:37:05.614] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/86036146.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=8412649------
+[2016-11-25 10:37:05.629] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/86085017.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=9039872------
+[2016-11-25 10:37:05.645] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/85910564.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=6888667------
+[2016-11-25 10:37:05.645] [DEBUG] 搜狐视频 - 搜狐视频 86088042 加入缓存队列
+[2016-11-25 10:37:05.645] [DEBUG] 搜狐视频 - 搜狐视频 85971956 加入缓存队列
+[2016-11-25 10:37:05.739] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/86062181.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=8452653------
+[2016-11-25 10:37:05.739] [DEBUG] 搜狐视频 - 搜狐视频 86085017 加入缓存队列
+[2016-11-25 10:37:05.739] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/85847569.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=6888667------
+[2016-11-25 10:37:05.754] [DEBUG] 搜狐视频 - 搜狐视频 85910564 加入缓存队列
+[2016-11-25 10:37:05.832] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/86037408.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=9039872------
+[2016-11-25 10:37:05.832] [DEBUG] 搜狐视频 - 搜狐视频 86062181 加入缓存队列
+[2016-11-25 10:37:05.832] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/85942505.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=9059722------
+[2016-11-25 10:37:05.848] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/85798118.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=6888667------
+[2016-11-25 10:37:05.848] [DEBUG] 搜狐视频 - 搜狐视频 85992076 加入缓存队列
+[2016-11-25 10:37:05.848] [DEBUG] 搜狐视频 - 搜狐视频 85847569 加入缓存队列
+[2016-11-25 10:37:05.926] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/85749576.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=6445627------
+[2016-11-25 10:37:05.941] [DEBUG] 搜狐视频 - 搜狐视频 85798118 加入缓存队列
+[2016-11-25 10:37:05.973] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/86029405.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=9039872------
+[2016-11-25 10:37:05.973] [DEBUG] 搜狐视频 - 搜狐视频 86037408 加入缓存队列
+[2016-11-25 10:37:06.051] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/85961095.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=9057968------
+[2016-11-25 10:37:06.066] [DEBUG] 搜狐视频 - 搜狐视频 86029405 加入缓存队列
+[2016-11-25 10:37:06.129] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/85898750.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=8412649------
+[2016-11-25 10:37:06.144] [DEBUG] 搜狐视频 - 搜狐视频 86036146 加入缓存队列
+[2016-11-25 10:37:06.144] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/85940216.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=9057968------
+[2016-11-25 10:37:06.144] [DEBUG] 搜狐视频 - 搜狐视频 85961095 加入缓存队列
+[2016-11-25 10:37:06.160] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/85894080.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=8445707------
+[2016-11-25 10:37:06.160] [DEBUG] 搜狐视频 - 搜狐视频 85942505 加入缓存队列
+[2016-11-25 10:37:06.222] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/85736269.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=9182538------
+[2016-11-25 10:37:06.222] [DEBUG] 搜狐视频 - 搜狐视频 85749576 加入缓存队列
+[2016-11-25 10:37:06.238] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/85786710.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=8412649------
+[2016-11-25 10:37:06.238] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/85932768.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=9151025------
+[2016-11-25 10:37:06.238] [DEBUG] 搜狐视频 - 搜狐视频 85898750 加入缓存队列
+[2016-11-25 10:37:06.253] [DEBUG] 搜狐视频 - 搜狐视频 85940216 加入缓存队列
+[2016-11-25 10:37:06.331] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/85702522.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=6888667------
+[2016-11-25 10:37:06.331] [DEBUG] 搜狐视频 - 搜狐视频 85736269 加入缓存队列
+[2016-11-25 10:37:06.378] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/86108223.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=9074368------
+[2016-11-25 10:37:06.472] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/86017575.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=8387234------
+[2016-11-25 10:37:06.472] [DEBUG] 搜狐视频 - 搜狐视频 86108223 加入缓存队列
+[2016-11-25 10:37:06.487] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/85933634.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=6935925------
+[2016-11-25 10:37:06.503] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/85919669.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=9128320------
+[2016-11-25 10:37:06.503] [DEBUG] 搜狐视频 - 搜狐视频 86009874 加入缓存队列
+[2016-11-25 10:37:06.503] [DEBUG] 搜狐视频 - 搜狐视频 85932768 加入缓存队列
+[2016-11-25 10:37:06.550] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/85607918.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=8412649------
+[2016-11-25 10:37:06.565] [DEBUG] 搜狐视频 - 搜狐视频 85786710 加入缓存队列
+[2016-11-25 10:37:06.565] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/85925132.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=9074368------
+[2016-11-25 10:37:06.581] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/85853373.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=8454122------
+[2016-11-25 10:37:06.581] [DEBUG] 搜狐视频 - 搜狐视频 86017575 加入缓存队列
+[2016-11-25 10:37:06.581] [DEBUG] 搜狐视频 - 搜狐视频 85894080 加入缓存队列
+[2016-11-25 10:37:06.612] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/85830533.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=6935925------
+[2016-11-25 10:37:06.612] [DEBUG] 搜狐视频 - 搜狐视频 85933634 加入缓存队列
+[2016-11-25 10:37:06.612] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/85901123.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=8995024------
+[2016-11-25 10:37:06.737] [DEBUG] 搜狐视频 - 搜狐视频 85919669 加入缓存队列
+[2016-11-25 10:37:06.799] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/85821515.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=8445707------
+[2016-11-25 10:37:06.818] [DEBUG] 搜狐视频 - 搜狐视频 85853373 加入缓存队列
+[2016-11-25 10:37:06.820] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/85785487.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=6935925------
+[2016-11-25 10:37:06.820] [DEBUG] 搜狐视频 - 搜狐视频 85830533 加入缓存队列
+[2016-11-25 10:37:06.882] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/85652971.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=6445627------
+[2016-11-25 10:37:06.882] [DEBUG] 搜狐视频 - 搜狐视频 85702522 加入缓存队列
+[2016-11-25 10:37:06.882] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/85842946.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=8387234------
+[2016-11-25 10:37:06.882] [DEBUG] 搜狐视频 - 搜狐视频 85925132 加入缓存队列
+[2016-11-25 10:37:06.914] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/85721564.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=6233215------
+[2016-11-25 10:37:06.914] [DEBUG] 搜狐视频 - 搜狐视频 85785487 加入缓存队列
+[2016-11-25 10:37:06.992] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/85819567.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=9074368------
+[2016-11-25 10:37:06.992] [DEBUG] 搜狐视频 - 搜狐视频 85842946 加入缓存队列
+[2016-11-25 10:37:07.007] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/85518250.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=8412649------
+[2016-11-25 10:37:07.007] [DEBUG] 搜狐视频 - http://s1.api.tv.itc.cn/v4/video/info/85691688.json?site=2&api_key=695fe827ffeb7d74260a813025970bd5&aid=6233215------
+[2016-11-25 10:37:07.007] [DEBUG] 搜狐视频 - 搜狐视频 85607918 加入缓存队列
+[2016-11-25 10:37:07.007] [DEBUG] 搜狐视频 - 搜狐视频 85721564 加入缓存队列

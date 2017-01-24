@@ -1,0 +1,583 @@
+[2017-01-05 16:15:31.006] [TRACE] 第一视频 - DealWith instantiation ...
+[2017-01-05 16:15:31.016] [TRACE] 第一视频 - spiderCore instantiation ...
+[2017-01-05 16:15:31.018] [TRACE] 第一视频 - 启动函数
+[2017-01-05 16:15:31.044] [DEBUG] 第一视频 - 任务信息数据库连接建立...成功
+[2017-01-05 16:15:31.047] [DEBUG] 第一视频 - 缓存队列数据库连接建立...成功
+[2017-01-05 16:15:31.048] [DEBUG] 第一视频 - 创建数据库连接完毕
+[2017-01-05 16:15:32.810] [DEBUG] 第一视频 - 用户: 6046584 back_end
+[2017-01-05 16:15:34.769] [DEBUG] 第一视频 - 第一视频 14462714 加入缓存队列
+[2017-01-05 16:15:35.061] [DEBUG] 第一视频 - 第一视频 14463047 加入缓存队列
+[2017-01-05 16:15:35.848] [DEBUG] 第一视频 - 第一视频 14462038 加入缓存队列
+[2017-01-05 16:15:36.788] [DEBUG] 第一视频 - 第一视频 14462639 加入缓存队列
+[2017-01-05 16:15:37.335] [DEBUG] 第一视频 - 第一视频 14462616 加入缓存队列
+[2017-01-05 16:15:37.564] [DEBUG] 第一视频 - 第一视频 14462593 加入缓存队列
+[2017-01-05 16:15:37.730] [DEBUG] 第一视频 - 第一视频 14462567 加入缓存队列
+[2017-01-05 16:15:38.064] [DEBUG] 第一视频 - 第一视频 14461823 加入缓存队列
+[2017-01-05 16:15:39.661] [DEBUG] 第一视频 - 第一视频 14462249 加入缓存队列
+[2017-01-05 16:15:39.837] [DEBUG] 第一视频 - 第一视频 14462101 加入缓存队列
+[2017-01-05 16:15:40.311] [DEBUG] 第一视频 - 第一视频 14462084 加入缓存队列
+[2017-01-05 16:15:40.524] [DEBUG] 第一视频 - 第一视频 14462025 加入缓存队列
+[2017-01-05 16:15:40.719] [DEBUG] 第一视频 - 第一视频 14462021 加入缓存队列
+[2017-01-05 16:15:41.133] [DEBUG] 第一视频 - 第一视频 14461956 加入缓存队列
+[2017-01-05 16:15:41.735] [DEBUG] 第一视频 - 第一视频 14461877 加入缓存队列
+[2017-01-05 16:15:42.299] [DEBUG] 第一视频 - 第一视频 14461626 加入缓存队列
+[2017-01-05 16:15:43.568] [DEBUG] 第一视频 - 第一视频 14461620 加入缓存队列
+[2017-01-05 16:15:43.962] [DEBUG] 第一视频 - 第一视频 14461610 加入缓存队列
+[2017-01-05 16:15:44.155] [DEBUG] 第一视频 - 第一视频 14399808 加入缓存队列
+[2017-01-05 16:15:45.324] [DEBUG] 第一视频 - 第一视频 14460954 加入缓存队列
+[2017-01-05 16:15:46.874] [DEBUG] 第一视频 - 第一视频 14460748 加入缓存队列
+[2017-01-05 16:15:48.061] [DEBUG] 第一视频 - 第一视频 14460505 加入缓存队列
+[2017-01-05 16:15:48.251] [DEBUG] 第一视频 - 第一视频 14459882 加入缓存队列
+[2017-01-05 16:15:49.372] [DEBUG] 第一视频 - 第一视频 14460483 加入缓存队列
+[2017-01-05 16:15:49.640] [DEBUG] 第一视频 - 第一视频 14458968 加入缓存队列
+[2017-01-05 16:15:50.732] [DEBUG] 第一视频 - 第一视频 14459974 加入缓存队列
+[2017-01-05 16:15:50.947] [DEBUG] 第一视频 - 第一视频 14459322 加入缓存队列
+[2017-01-05 16:15:51.818] [DEBUG] 第一视频 - 第一视频 14459907 加入缓存队列
+[2017-01-05 16:15:52.218] [DEBUG] 第一视频 - 第一视频 14459883 加入缓存队列
+[2017-01-05 16:15:52.447] [DEBUG] 第一视频 - 第一视频 14459266 加入缓存队列
+[2017-01-05 16:15:53.225] [DEBUG] 第一视频 - 第一视频 14459621 加入缓存队列
+[2017-01-05 16:15:53.393] [DEBUG] 第一视频 - 第一视频 14458724 加入缓存队列
+[2017-01-05 16:15:54.424] [DEBUG] 第一视频 - 第一视频 14459308 加入缓存队列
+[2017-01-05 16:15:55.461] [DEBUG] 第一视频 - 第一视频 14459307 加入缓存队列
+[2017-01-05 16:15:55.809] [DEBUG] 第一视频 - 第一视频 14459302 加入缓存队列
+[2017-01-05 16:15:56.689] [DEBUG] 第一视频 - 第一视频 14459267 加入缓存队列
+[2017-01-05 16:15:57.046] [DEBUG] 第一视频 - 第一视频 14459255 加入缓存队列
+[2017-01-05 16:15:57.314] [DEBUG] 第一视频 - 第一视频 14459214 加入缓存队列
+[2017-01-05 16:15:57.929] [DEBUG] 第一视频 - 第一视频 14458712 加入缓存队列
+[2017-01-05 16:15:59.663] [DEBUG] 第一视频 - 第一视频 14458643 加入缓存队列
+[2017-01-05 16:16:01.225] [DEBUG] 第一视频 - 第一视频 14458579 加入缓存队列
+[2017-01-05 16:16:02.800] [DEBUG] 第一视频 - 第一视频 14458368 加入缓存队列
+[2017-01-05 16:16:04.050] [DEBUG] 第一视频 - 第一视频 14457818 加入缓存队列
+[2017-01-05 16:16:04.333] [ERROR] 第一视频 - 请求状态有误: 500
+[2017-01-05 16:16:04.335] [ERROR] 第一视频 - error url: http://www.v1.cn/video/v_14458145.jhtml
+[2017-01-05 16:16:04.338] [ERROR] 第一视频 - 单个DOM接口请求错误 :  { code: 500,
+  errmsg: '<html><head><title>Apache Tomcat/6.0.33 - Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 500 - </h1><HR size="1" noshade="noshade"><p><b>type</b> Exception report</p><p><b>message</b> <u></u></p><p><b>description</b> <u>The server encountered an internal error () that prevented it from fulfilling this request.</u></p><p><b>exception</b> <pre>org.springframework.web.util.NestedServletException: Request processing failed; nested exception is net.sf.json.JSONException: null object\n\torg.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:978)\n\torg.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:857)\n\tjavax.servlet.http.HttpServlet.service(HttpServlet.java:617)\n\torg.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)\n\tjavax.servlet.http.HttpServlet.service(HttpServlet.java:717)\n\torg.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)\n\torg.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)\n</pre></p><p><b>root cause</b> <pre>net.sf.json.JSONException: null object\n\tnet.sf.json.JSONObject.verifyIsNull(JSONObject.java:2744)\n\tnet.sf.json.JSONObject.getInt(JSONObject.java:2016)\n\tcn.v1.app.site.controller.PlayController.relatedVideo(PlayController.java:529)\n\tcn.v1.app.site.controller.PlayController.play(PlayController.java:134)\n\tsun.reflect.GeneratedMethodAccessor138.invoke(Unknown Source)\n\tsun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tjava.lang.reflect.Method.invoke(Method.java:606)\n\torg.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)\n\torg.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)\n\torg.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)\n\torg.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:777)\n\torg.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:706)\n\torg.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)\n\torg.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:943)\n\torg.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:877)\n\torg.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)\n\torg.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:857)\n\tjavax.servlet.http.HttpServlet.service(HttpServlet.java:617)\n\torg.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)\n\tjavax.servlet.http.HttpServlet.service(HttpServlet.java:717)\n\torg.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)\n\torg.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)\n</pre></p><p><b>note</b> <u>The full stack trace of the root cause is available in the Apache Tomcat/6.0.33 logs.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/6.0.33</h3></body></html>' }
+[2017-01-05 16:16:05.770] [DEBUG] 第一视频 - 第一视频 14458145 加入缓存队列
+[2017-01-05 16:16:06.049] [ERROR] 第一视频 - 请求状态有误: 500
+[2017-01-05 16:16:06.052] [ERROR] 第一视频 - error url: http://www.v1.cn/video/v_14458131.jhtml
+[2017-01-05 16:16:06.055] [ERROR] 第一视频 - 单个DOM接口请求错误 :  { code: 500,
+  errmsg: '<html><head><title>Apache Tomcat/6.0.33 - Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 500 - </h1><HR size="1" noshade="noshade"><p><b>type</b> Exception report</p><p><b>message</b> <u></u></p><p><b>description</b> <u>The server encountered an internal error () that prevented it from fulfilling this request.</u></p><p><b>exception</b> <pre>org.springframework.web.util.NestedServletException: Request processing failed; nested exception is net.sf.json.JSONException: null object\n\torg.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:978)\n\torg.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:857)\n\tjavax.servlet.http.HttpServlet.service(HttpServlet.java:617)\n\torg.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)\n\tjavax.servlet.http.HttpServlet.service(HttpServlet.java:717)\n\torg.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)\n\torg.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)\n</pre></p><p><b>root cause</b> <pre>net.sf.json.JSONException: null object\n\tnet.sf.json.JSONObject.verifyIsNull(JSONObject.java:2744)\n\tnet.sf.json.JSONObject.getInt(JSONObject.java:2016)\n\tcn.v1.app.site.controller.PlayController.relatedVideo(PlayController.java:529)\n\tcn.v1.app.site.controller.PlayController.play(PlayController.java:134)\n\tsun.reflect.GeneratedMethodAccessor138.invoke(Unknown Source)\n\tsun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tjava.lang.reflect.Method.invoke(Method.java:606)\n\torg.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)\n\torg.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)\n\torg.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)\n\torg.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:777)\n\torg.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:706)\n\torg.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)\n\torg.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:943)\n\torg.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:877)\n\torg.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)\n\torg.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:857)\n\tjavax.servlet.http.HttpServlet.service(HttpServlet.java:617)\n\torg.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)\n\tjavax.servlet.http.HttpServlet.service(HttpServlet.java:717)\n\torg.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)\n\torg.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)\n</pre></p><p><b>note</b> <u>The full stack trace of the root cause is available in the Apache Tomcat/6.0.33 logs.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/6.0.33</h3></body></html>' }
+[2017-01-05 16:16:08.136] [DEBUG] 第一视频 - 第一视频 14458131 加入缓存队列
+[2017-01-05 16:16:09.155] [DEBUG] 第一视频 - 第一视频 14458111 加入缓存队列
+[2017-01-05 16:16:09.729] [DEBUG] 第一视频 - 第一视频 14458029 加入缓存队列
+[2017-01-05 16:16:11.555] [DEBUG] 第一视频 - 第一视频 14456697 加入缓存队列
+[2017-01-05 16:16:13.074] [DEBUG] 第一视频 - 第一视频 14457849 加入缓存队列
+[2017-01-05 16:16:13.645] [DEBUG] 第一视频 - 第一视频 14457806 加入缓存队列
+[2017-01-05 16:16:15.111] [DEBUG] 第一视频 - 第一视频 14457782 加入缓存队列
+[2017-01-05 16:16:15.598] [DEBUG] 第一视频 - 第一视频 14419523 加入缓存队列
+[2017-01-05 16:16:16.746] [DEBUG] 第一视频 - 第一视频 14457205 加入缓存队列
+[2017-01-05 16:16:18.432] [DEBUG] 第一视频 - 第一视频 14456788 加入缓存队列
+[2017-01-05 16:16:20.918] [DEBUG] 第一视频 - 第一视频 14456744 加入缓存队列
+[2017-01-05 16:16:21.966] [DEBUG] 第一视频 - 第一视频 14456602 加入缓存队列
+[2017-01-05 16:16:23.144] [DEBUG] 第一视频 - 第一视频 14456510 加入缓存队列
+[2017-01-05 16:16:24.203] [DEBUG] 第一视频 - 第一视频 14456458 加入缓存队列
+[2017-01-05 16:16:24.747] [DEBUG] 第一视频 - 第一视频 14456211 加入缓存队列
+[2017-01-05 16:16:26.225] [DEBUG] 第一视频 - 第一视频 14456213 加入缓存队列
+[2017-01-05 16:16:27.380] [DEBUG] 第一视频 - 第一视频 14456181 加入缓存队列
+[2017-01-05 16:16:28.690] [DEBUG] 第一视频 - 第一视频 14456148 加入缓存队列
+[2017-01-05 16:16:29.183] [DEBUG] 第一视频 - 第一视频 14456132 加入缓存队列
+[2017-01-05 16:16:30.372] [DEBUG] 第一视频 - 第一视频 14455935 加入缓存队列
+[2017-01-05 16:16:30.871] [DEBUG] 第一视频 - 第一视频 14455328 加入缓存队列
+[2017-01-05 16:16:31.427] [DEBUG] 第一视频 - 第一视频 14455895 加入缓存队列
+[2017-01-05 16:16:32.619] [DEBUG] 第一视频 - 第一视频 14455859 加入缓存队列
+[2017-01-05 16:16:33.354] [DEBUG] 第一视频 - 第一视频 14455612 加入缓存队列
+[2017-01-05 16:16:33.937] [DEBUG] 第一视频 - 第一视频 14455606 加入缓存队列
+[2017-01-05 16:16:35.258] [DEBUG] 第一视频 - 第一视频 14454921 加入缓存队列
+[2017-01-05 16:16:38.053] [DEBUG] 第一视频 - 第一视频 14455534 加入缓存队列
+[2017-01-05 16:16:38.541] [DEBUG] 第一视频 - 第一视频 14454379 加入缓存队列
+[2017-01-05 16:16:39.599] [DEBUG] 第一视频 - 第一视频 14455038 加入缓存队列
+[2017-01-05 16:16:40.091] [DEBUG] 第一视频 - 第一视频 14455034 加入缓存队列
+[2017-01-05 16:16:41.203] [DEBUG] 第一视频 - 第一视频 14454752 加入缓存队列
+[2017-01-05 16:16:42.149] [DEBUG] 第一视频 - 第一视频 14454735 加入缓存队列
+[2017-01-05 16:16:44.111] [DEBUG] 第一视频 - 第一视频 14454697 加入缓存队列
+[2017-01-05 16:16:46.030] [DEBUG] 第一视频 - 第一视频 14454618 加入缓存队列
+[2017-01-05 16:16:46.854] [DEBUG] 第一视频 - 第一视频 14454347 加入缓存队列
+[2017-01-05 16:16:47.464] [DEBUG] 第一视频 - 第一视频 14454284 加入缓存队列
+[2017-01-05 16:16:49.501] [DEBUG] 第一视频 - 第一视频 14454288 加入缓存队列
+[2017-01-05 16:16:50.025] [DEBUG] 第一视频 - 第一视频 14454055 加入缓存队列
+[2017-01-05 16:16:50.791] [DEBUG] 第一视频 - 第一视频 14454040 加入缓存队列
+[2017-01-05 16:16:54.596] [DEBUG] 第一视频 - 第一视频 14454003 加入缓存队列
+[2017-01-05 16:16:55.540] [DEBUG] 第一视频 - 第一视频 14453986 加入缓存队列
+[2017-01-05 16:16:56.249] [DEBUG] 第一视频 - 第一视频 14453156 加入缓存队列
+[2017-01-05 16:16:57.992] [DEBUG] 第一视频 - 第一视频 14449562 加入缓存队列
+[2017-01-05 16:17:19.472] [DEBUG] 第一视频 - 第一视频 14453073 加入缓存队列
+[2017-01-05 16:17:20.620] [DEBUG] 第一视频 - 第一视频 14453052 加入缓存队列
+[2017-01-05 16:17:22.024] [DEBUG] 第一视频 - 第一视频 14452816 加入缓存队列
+[2017-01-05 16:17:23.213] [DEBUG] 第一视频 - 第一视频 14448917 加入缓存队列
+[2017-01-05 16:17:24.269] [DEBUG] 第一视频 - 第一视频 14450467 加入缓存队列
+[2017-01-05 16:17:25.110] [DEBUG] 第一视频 - 第一视频 14450215 加入缓存队列
+[2017-01-05 16:17:25.823] [DEBUG] 第一视频 - 第一视频 14449272 加入缓存队列
+[2017-01-05 16:17:26.891] [DEBUG] 第一视频 - 第一视频 14449240 加入缓存队列
+[2017-01-05 16:17:27.733] [DEBUG] 第一视频 - 第一视频 14448950 加入缓存队列
+[2017-01-05 16:17:28.779] [DEBUG] 第一视频 - 第一视频 14447436 加入缓存队列
+[2017-01-05 16:17:29.901] [DEBUG] 第一视频 - 第一视频 14448392 加入缓存队列
+[2017-01-05 16:17:30.782] [DEBUG] 第一视频 - 第一视频 14448914 加入缓存队列
+[2017-01-05 16:17:31.597] [DEBUG] 第一视频 - 第一视频 14448875 加入缓存队列
+[2017-01-05 16:17:32.819] [DEBUG] 第一视频 - 第一视频 14448598 加入缓存队列
+[2017-01-05 16:17:34.037] [DEBUG] 第一视频 - 第一视频 14448389 加入缓存队列
+[2017-01-05 16:17:34.670] [DEBUG] 第一视频 - 第一视频 14447676 加入缓存队列
+[2017-01-05 16:17:35.442] [DEBUG] 第一视频 - 第一视频 14448348 加入缓存队列
+[2017-01-05 16:17:36.308] [DEBUG] 第一视频 - 第一视频 14448345 加入缓存队列
+[2017-01-05 16:17:37.364] [DEBUG] 第一视频 - 第一视频 14448231 加入缓存队列
+[2017-01-05 16:17:38.196] [DEBUG] 第一视频 - 第一视频 14448046 加入缓存队列
+[2017-01-05 16:17:39.092] [DEBUG] 第一视频 - 第一视频 14448017 加入缓存队列
+[2017-01-05 16:17:39.897] [DEBUG] 第一视频 - 第一视频 14448014 加入缓存队列
+[2017-01-05 16:17:41.004] [DEBUG] 第一视频 - 第一视频 14447798 加入缓存队列
+[2017-01-05 16:17:42.099] [DEBUG] 第一视频 - 第一视频 14446479 加入缓存队列
+[2017-01-05 16:17:42.769] [DEBUG] 第一视频 - 第一视频 14447711 加入缓存队列
+[2017-01-05 16:17:43.802] [DEBUG] 第一视频 - 第一视频 14447672 加入缓存队列
+[2017-01-05 16:17:44.548] [DEBUG] 第一视频 - 第一视频 14447231 加入缓存队列
+[2017-01-05 16:17:45.489] [DEBUG] 第一视频 - 第一视频 14447253 加入缓存队列
+[2017-01-05 16:17:46.209] [DEBUG] 第一视频 - 第一视频 14446469 加入缓存队列
+[2017-01-05 16:17:47.041] [DEBUG] 第一视频 - 第一视频 14446468 加入缓存队列
+[2017-01-05 16:17:48.122] [DEBUG] 第一视频 - 第一视频 14445877 加入缓存队列
+[2017-01-05 16:17:48.821] [DEBUG] 第一视频 - 第一视频 14445241 加入缓存队列
+[2017-01-05 16:17:49.957] [DEBUG] 第一视频 - 第一视频 14445860 加入缓存队列
+[2017-01-05 16:17:55.945] [DEBUG] 第一视频 - 第一视频 14445797 加入缓存队列
+[2017-01-05 16:17:56.959] [DEBUG] 第一视频 - 第一视频 14445743 加入缓存队列
+[2017-01-05 16:17:57.645] [DEBUG] 第一视频 - 第一视频 14445178 加入缓存队列
+[2017-01-05 16:17:58.173] [DEBUG] 第一视频 - 第一视频 14445580 加入缓存队列
+[2017-01-05 16:17:59.153] [DEBUG] 第一视频 - 第一视频 14445521 加入缓存队列
+[2017-01-05 16:17:59.978] [DEBUG] 第一视频 - 第一视频 14444613 加入缓存队列
+[2017-01-05 16:18:00.958] [DEBUG] 第一视频 - 第一视频 14445176 加入缓存队列
+[2017-01-05 16:18:03.821] [DEBUG] 第一视频 - 第一视频 14444929 加入缓存队列
+[2017-01-05 16:18:04.374] [DEBUG] 第一视频 - 第一视频 14444856 加入缓存队列
+[2017-01-05 16:18:05.130] [DEBUG] 第一视频 - 第一视频 14444567 加入缓存队列
+[2017-01-05 16:18:05.927] [DEBUG] 第一视频 - 第一视频 14443913 加入缓存队列
+[2017-01-05 16:18:06.628] [DEBUG] 第一视频 - 第一视频 14444436 加入缓存队列
+[2017-01-05 16:18:07.198] [DEBUG] 第一视频 - 第一视频 14443979 加入缓存队列
+[2017-01-05 16:18:07.941] [DEBUG] 第一视频 - 第一视频 14444298 加入缓存队列
+[2017-01-05 16:18:08.711] [DEBUG] 第一视频 - 第一视频 14443925 加入缓存队列
+[2017-01-05 16:18:09.306] [DEBUG] 第一视频 - 第一视频 14443769 加入缓存队列
+[2017-01-05 16:18:10.019] [DEBUG] 第一视频 - 第一视频 14442629 加入缓存队列
+[2017-01-05 16:18:10.479] [DEBUG] 第一视频 - 第一视频 14442634 加入缓存队列
+[2017-01-05 16:18:11.479] [DEBUG] 第一视频 - 第一视频 14441360 加入缓存队列
+[2017-01-05 16:18:12.578] [DEBUG] 第一视频 - 第一视频 14442531 加入缓存队列
+[2017-01-05 16:18:13.837] [DEBUG] 第一视频 - 第一视频 14441422 加入缓存队列
+[2017-01-05 16:18:14.310] [DEBUG] 第一视频 - 第一视频 14442501 加入缓存队列
+[2017-01-05 16:18:14.954] [DEBUG] 第一视频 - 第一视频 14442387 加入缓存队列
+[2017-01-05 16:18:15.235] [ERROR] 第一视频 - 请求状态有误: 500
+[2017-01-05 16:18:15.237] [ERROR] 第一视频 - error url: http://www.v1.cn/video/v_14441989.jhtml
+[2017-01-05 16:18:15.238] [ERROR] 第一视频 - 单个DOM接口请求错误 :  { code: 500,
+  errmsg: '<html><head><title>Apache Tomcat/6.0.33 - Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 500 - </h1><HR size="1" noshade="noshade"><p><b>type</b> Exception report</p><p><b>message</b> <u></u></p><p><b>description</b> <u>The server encountered an internal error () that prevented it from fulfilling this request.</u></p><p><b>exception</b> <pre>org.springframework.web.util.NestedServletException: Request processing failed; nested exception is net.sf.json.JSONException: null object\n\torg.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:978)\n\torg.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:857)\n\tjavax.servlet.http.HttpServlet.service(HttpServlet.java:617)\n\torg.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)\n\tjavax.servlet.http.HttpServlet.service(HttpServlet.java:717)\n\torg.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)\n\torg.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)\n</pre></p><p><b>root cause</b> <pre>net.sf.json.JSONException: null object\n\tnet.sf.json.JSONObject.verifyIsNull(JSONObject.java:2744)\n\tnet.sf.json.JSONObject.getInt(JSONObject.java:2016)\n\tcn.v1.app.site.controller.PlayController.relatedVideo(PlayController.java:529)\n\tcn.v1.app.site.controller.PlayController.play(PlayController.java:134)\n\tsun.reflect.GeneratedMethodAccessor138.invoke(Unknown Source)\n\tsun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tjava.lang.reflect.Method.invoke(Method.java:606)\n\torg.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)\n\torg.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)\n\torg.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)\n\torg.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:777)\n\torg.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:706)\n\torg.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)\n\torg.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:943)\n\torg.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:877)\n\torg.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)\n\torg.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:857)\n\tjavax.servlet.http.HttpServlet.service(HttpServlet.java:617)\n\torg.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)\n\tjavax.servlet.http.HttpServlet.service(HttpServlet.java:717)\n\torg.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)\n\torg.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)\n</pre></p><p><b>note</b> <u>The full stack trace of the root cause is available in the Apache Tomcat/6.0.33 logs.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/6.0.33</h3></body></html>' }
+[2017-01-05 16:18:15.849] [DEBUG] 第一视频 - 第一视频 14441989 加入缓存队列
+[2017-01-05 16:18:16.428] [ERROR] 第一视频 - 请求状态有误: 500
+[2017-01-05 16:18:16.430] [ERROR] 第一视频 - error url: http://www.v1.cn/video/v_14441304.jhtml
+[2017-01-05 16:18:16.431] [ERROR] 第一视频 - 单个DOM接口请求错误 :  { code: 500,
+  errmsg: '<html><head><title>Apache Tomcat/6.0.33 - Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 500 - </h1><HR size="1" noshade="noshade"><p><b>type</b> Exception report</p><p><b>message</b> <u></u></p><p><b>description</b> <u>The server encountered an internal error () that prevented it from fulfilling this request.</u></p><p><b>exception</b> <pre>org.springframework.web.util.NestedServletException: Request processing failed; nested exception is net.sf.json.JSONException: null object\n\torg.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:978)\n\torg.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:857)\n\tjavax.servlet.http.HttpServlet.service(HttpServlet.java:617)\n\torg.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)\n\tjavax.servlet.http.HttpServlet.service(HttpServlet.java:717)\n\torg.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)\n\torg.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)\n</pre></p><p><b>root cause</b> <pre>net.sf.json.JSONException: null object\n\tnet.sf.json.JSONObject.verifyIsNull(JSONObject.java:2744)\n\tnet.sf.json.JSONObject.getInt(JSONObject.java:2016)\n\tcn.v1.app.site.controller.PlayController.relatedVideo(PlayController.java:529)\n\tcn.v1.app.site.controller.PlayController.play(PlayController.java:134)\n\tsun.reflect.GeneratedMethodAccessor138.invoke(Unknown Source)\n\tsun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tjava.lang.reflect.Method.invoke(Method.java:606)\n\torg.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)\n\torg.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)\n\torg.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)\n\torg.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:777)\n\torg.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:706)\n\torg.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)\n\torg.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:943)\n\torg.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:877)\n\torg.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)\n\torg.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:857)\n\tjavax.servlet.http.HttpServlet.service(HttpServlet.java:617)\n\torg.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)\n\tjavax.servlet.http.HttpServlet.service(HttpServlet.java:717)\n\torg.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)\n\torg.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)\n</pre></p><p><b>note</b> <u>The full stack trace of the root cause is available in the Apache Tomcat/6.0.33 logs.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/6.0.33</h3></body></html>' }
+[2017-01-05 16:18:17.158] [DEBUG] 第一视频 - 第一视频 14441304 加入缓存队列
+[2017-01-05 16:18:17.739] [DEBUG] 第一视频 - 第一视频 14441426 加入缓存队列
+[2017-01-05 16:18:18.002] [ERROR] 第一视频 - 请求状态有误: 500
+[2017-01-05 16:18:18.004] [ERROR] 第一视频 - error url: http://www.v1.cn/video/v_14441425.jhtml
+[2017-01-05 16:18:18.006] [ERROR] 第一视频 - 单个DOM接口请求错误 :  { code: 500,
+  errmsg: '<html><head><title>Apache Tomcat/6.0.33 - Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 500 - </h1><HR size="1" noshade="noshade"><p><b>type</b> Exception report</p><p><b>message</b> <u></u></p><p><b>description</b> <u>The server encountered an internal error () that prevented it from fulfilling this request.</u></p><p><b>exception</b> <pre>org.springframework.web.util.NestedServletException: Request processing failed; nested exception is net.sf.json.JSONException: null object\n\torg.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:978)\n\torg.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:857)\n\tjavax.servlet.http.HttpServlet.service(HttpServlet.java:617)\n\torg.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)\n\tjavax.servlet.http.HttpServlet.service(HttpServlet.java:717)\n\torg.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)\n\torg.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)\n</pre></p><p><b>root cause</b> <pre>net.sf.json.JSONException: null object\n\tnet.sf.json.JSONObject.verifyIsNull(JSONObject.java:2744)\n\tnet.sf.json.JSONObject.getInt(JSONObject.java:2016)\n\tcn.v1.app.site.controller.PlayController.relatedVideo(PlayController.java:529)\n\tcn.v1.app.site.controller.PlayController.play(PlayController.java:134)\n\tsun.reflect.GeneratedMethodAccessor138.invoke(Unknown Source)\n\tsun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tjava.lang.reflect.Method.invoke(Method.java:606)\n\torg.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)\n\torg.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)\n\torg.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)\n\torg.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:777)\n\torg.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:706)\n\torg.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)\n\torg.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:943)\n\torg.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:877)\n\torg.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)\n\torg.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:857)\n\tjavax.servlet.http.HttpServlet.service(HttpServlet.java:617)\n\torg.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)\n\tjavax.servlet.http.HttpServlet.service(HttpServlet.java:717)\n\torg.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)\n\torg.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)\n</pre></p><p><b>note</b> <u>The full stack trace of the root cause is available in the Apache Tomcat/6.0.33 logs.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/6.0.33</h3></body></html>' }
+[2017-01-05 16:18:18.628] [DEBUG] 第一视频 - 第一视频 14441425 加入缓存队列
+[2017-01-05 16:18:18.918] [ERROR] 第一视频 - 请求状态有误: 500
+[2017-01-05 16:18:18.919] [ERROR] 第一视频 - error url: http://www.v1.cn/video/v_14441420.jhtml
+[2017-01-05 16:18:18.922] [ERROR] 第一视频 - 单个DOM接口请求错误 :  { code: 500,
+  errmsg: '<html><head><title>Apache Tomcat/6.0.33 - Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 500 - </h1><HR size="1" noshade="noshade"><p><b>type</b> Exception report</p><p><b>message</b> <u></u></p><p><b>description</b> <u>The server encountered an internal error () that prevented it from fulfilling this request.</u></p><p><b>exception</b> <pre>org.springframework.web.util.NestedServletException: Request processing failed; nested exception is net.sf.json.JSONException: null object\n\torg.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:978)\n\torg.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:857)\n\tjavax.servlet.http.HttpServlet.service(HttpServlet.java:617)\n\torg.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)\n\tjavax.servlet.http.HttpServlet.service(HttpServlet.java:717)\n\torg.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)\n\torg.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)\n</pre></p><p><b>root cause</b> <pre>net.sf.json.JSONException: null object\n\tnet.sf.json.JSONObject.verifyIsNull(JSONObject.java:2744)\n\tnet.sf.json.JSONObject.getInt(JSONObject.java:2016)\n\tcn.v1.app.site.controller.PlayController.relatedVideo(PlayController.java:529)\n\tcn.v1.app.site.controller.PlayController.play(PlayController.java:134)\n\tsun.reflect.GeneratedMethodAccessor138.invoke(Unknown Source)\n\tsun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tjava.lang.reflect.Method.invoke(Method.java:606)\n\torg.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)\n\torg.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)\n\torg.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)\n\torg.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:777)\n\torg.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:706)\n\torg.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)\n\torg.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:943)\n\torg.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:877)\n\torg.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)\n\torg.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:857)\n\tjavax.servlet.http.HttpServlet.service(HttpServlet.java:617)\n\torg.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)\n\tjavax.servlet.http.HttpServlet.service(HttpServlet.java:717)\n\torg.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)\n\torg.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)\n</pre></p><p><b>note</b> <u>The full stack trace of the root cause is available in the Apache Tomcat/6.0.33 logs.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/6.0.33</h3></body></html>' }
+[2017-01-05 16:18:19.697] [DEBUG] 第一视频 - 第一视频 14441420 加入缓存队列
+[2017-01-05 16:18:19.989] [ERROR] 第一视频 - 请求状态有误: 500
+[2017-01-05 16:18:19.990] [ERROR] 第一视频 - error url: http://www.v1.cn/video/v_14441416.jhtml
+[2017-01-05 16:18:19.991] [ERROR] 第一视频 - 单个DOM接口请求错误 :  { code: 500,
+  errmsg: '<html><head><title>Apache Tomcat/6.0.33 - Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 500 - </h1><HR size="1" noshade="noshade"><p><b>type</b> Exception report</p><p><b>message</b> <u></u></p><p><b>description</b> <u>The server encountered an internal error () that prevented it from fulfilling this request.</u></p><p><b>exception</b> <pre>org.springframework.web.util.NestedServletException: Request processing failed; nested exception is net.sf.json.JSONException: null object\n\torg.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:978)\n\torg.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:857)\n\tjavax.servlet.http.HttpServlet.service(HttpServlet.java:617)\n\torg.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)\n\tjavax.servlet.http.HttpServlet.service(HttpServlet.java:717)\n\torg.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)\n\torg.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)\n</pre></p><p><b>root cause</b> <pre>net.sf.json.JSONException: null object\n\tnet.sf.json.JSONObject.verifyIsNull(JSONObject.java:2744)\n\tnet.sf.json.JSONObject.getInt(JSONObject.java:2016)\n\tcn.v1.app.site.controller.PlayController.relatedVideo(PlayController.java:529)\n\tcn.v1.app.site.controller.PlayController.play(PlayController.java:134)\n\tsun.reflect.GeneratedMethodAccessor138.invoke(Unknown Source)\n\tsun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tjava.lang.reflect.Method.invoke(Method.java:606)\n\torg.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)\n\torg.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)\n\torg.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)\n\torg.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:777)\n\torg.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:706)\n\torg.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)\n\torg.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:943)\n\torg.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:877)\n\torg.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)\n\torg.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:857)\n\tjavax.servlet.http.HttpServlet.service(HttpServlet.java:617)\n\torg.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)\n\tjavax.servlet.http.HttpServlet.service(HttpServlet.java:717)\n\torg.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)\n\torg.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)\n</pre></p><p><b>note</b> <u>The full stack trace of the root cause is available in the Apache Tomcat/6.0.33 logs.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/6.0.33</h3></body></html>' }
+[2017-01-05 16:18:20.952] [DEBUG] 第一视频 - 第一视频 14441416 加入缓存队列
+[2017-01-05 16:18:21.205] [ERROR] 第一视频 - 请求状态有误: 500
+[2017-01-05 16:18:21.206] [ERROR] 第一视频 - error url: http://www.v1.cn/video/v_14441413.jhtml
+[2017-01-05 16:18:21.207] [ERROR] 第一视频 - 单个DOM接口请求错误 :  { code: 500,
+  errmsg: '<html><head><title>Apache Tomcat/6.0.33 - Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 500 - </h1><HR size="1" noshade="noshade"><p><b>type</b> Exception report</p><p><b>message</b> <u></u></p><p><b>description</b> <u>The server encountered an internal error () that prevented it from fulfilling this request.</u></p><p><b>exception</b> <pre>org.springframework.web.util.NestedServletException: Request processing failed; nested exception is net.sf.json.JSONException: null object\n\torg.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:978)\n\torg.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:857)\n\tjavax.servlet.http.HttpServlet.service(HttpServlet.java:617)\n\torg.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)\n\tjavax.servlet.http.HttpServlet.service(HttpServlet.java:717)\n\torg.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)\n\torg.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)\n</pre></p><p><b>root cause</b> <pre>net.sf.json.JSONException: null object\n\tnet.sf.json.JSONObject.verifyIsNull(JSONObject.java:2744)\n\tnet.sf.json.JSONObject.getInt(JSONObject.java:2016)\n\tcn.v1.app.site.controller.PlayController.relatedVideo(PlayController.java:529)\n\tcn.v1.app.site.controller.PlayController.play(PlayController.java:134)\n\tsun.reflect.GeneratedMethodAccessor138.invoke(Unknown Source)\n\tsun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tjava.lang.reflect.Method.invoke(Method.java:606)\n\torg.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)\n\torg.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)\n\torg.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)\n\torg.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:777)\n\torg.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:706)\n\torg.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)\n\torg.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:943)\n\torg.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:877)\n\torg.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)\n\torg.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:857)\n\tjavax.servlet.http.HttpServlet.service(HttpServlet.java:617)\n\torg.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)\n\tjavax.servlet.http.HttpServlet.service(HttpServlet.java:717)\n\torg.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)\n\torg.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)\n</pre></p><p><b>note</b> <u>The full stack trace of the root cause is available in the Apache Tomcat/6.0.33 logs.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/6.0.33</h3></body></html>' }
+[2017-01-05 16:18:22.688] [DEBUG] 第一视频 - 第一视频 14441413 加入缓存队列
+[2017-01-05 16:18:23.257] [ERROR] 第一视频 - 请求状态有误: 500
+[2017-01-05 16:18:23.259] [ERROR] 第一视频 - error url: http://www.v1.cn/video/v_14441379.jhtml
+[2017-01-05 16:18:23.261] [ERROR] 第一视频 - 单个DOM接口请求错误 :  { code: 500,
+  errmsg: '<html><head><title>Apache Tomcat/6.0.33 - Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 500 - </h1><HR size="1" noshade="noshade"><p><b>type</b> Exception report</p><p><b>message</b> <u></u></p><p><b>description</b> <u>The server encountered an internal error () that prevented it from fulfilling this request.</u></p><p><b>exception</b> <pre>org.springframework.web.util.NestedServletException: Request processing failed; nested exception is net.sf.json.JSONException: null object\n\torg.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:978)\n\torg.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:857)\n\tjavax.servlet.http.HttpServlet.service(HttpServlet.java:617)\n\torg.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)\n\tjavax.servlet.http.HttpServlet.service(HttpServlet.java:717)\n\torg.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)\n\torg.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)\n</pre></p><p><b>root cause</b> <pre>net.sf.json.JSONException: null object\n\tnet.sf.json.JSONObject.verifyIsNull(JSONObject.java:2744)\n\tnet.sf.json.JSONObject.getInt(JSONObject.java:2016)\n\tcn.v1.app.site.controller.PlayController.relatedVideo(PlayController.java:529)\n\tcn.v1.app.site.controller.PlayController.play(PlayController.java:134)\n\tsun.reflect.GeneratedMethodAccessor138.invoke(Unknown Source)\n\tsun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tjava.lang.reflect.Method.invoke(Method.java:606)\n\torg.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)\n\torg.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)\n\torg.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)\n\torg.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:777)\n\torg.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:706)\n\torg.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)\n\torg.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:943)\n\torg.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:877)\n\torg.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)\n\torg.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:857)\n\tjavax.servlet.http.HttpServlet.service(HttpServlet.java:617)\n\torg.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)\n\tjavax.servlet.http.HttpServlet.service(HttpServlet.java:717)\n\torg.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)\n\torg.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)\n</pre></p><p><b>note</b> <u>The full stack trace of the root cause is available in the Apache Tomcat/6.0.33 logs.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/6.0.33</h3></body></html>' }
+[2017-01-05 16:18:23.923] [DEBUG] 第一视频 - 第一视频 14441379 加入缓存队列
+[2017-01-05 16:18:24.207] [ERROR] 第一视频 - 请求状态有误: 500
+[2017-01-05 16:18:24.207] [ERROR] 第一视频 - error url: http://www.v1.cn/video/v_14441335.jhtml
+[2017-01-05 16:18:24.207] [ERROR] 第一视频 - 单个DOM接口请求错误 :  { code: 500,
+  errmsg: '<html><head><title>Apache Tomcat/6.0.33 - Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 500 - </h1><HR size="1" noshade="noshade"><p><b>type</b> Exception report</p><p><b>message</b> <u></u></p><p><b>description</b> <u>The server encountered an internal error () that prevented it from fulfilling this request.</u></p><p><b>exception</b> <pre>org.springframework.web.util.NestedServletException: Request processing failed; nested exception is net.sf.json.JSONException: null object\n\torg.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:978)\n\torg.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:857)\n\tjavax.servlet.http.HttpServlet.service(HttpServlet.java:617)\n\torg.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)\n\tjavax.servlet.http.HttpServlet.service(HttpServlet.java:717)\n\torg.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)\n\torg.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)\n</pre></p><p><b>root cause</b> <pre>net.sf.json.JSONException: null object\n\tnet.sf.json.JSONObject.verifyIsNull(JSONObject.java:2744)\n\tnet.sf.json.JSONObject.getInt(JSONObject.java:2016)\n\tcn.v1.app.site.controller.PlayController.relatedVideo(PlayController.java:529)\n\tcn.v1.app.site.controller.PlayController.play(PlayController.java:134)\n\tsun.reflect.GeneratedMethodAccessor138.invoke(Unknown Source)\n\tsun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tjava.lang.reflect.Method.invoke(Method.java:606)\n\torg.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)\n\torg.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)\n\torg.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)\n\torg.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:777)\n\torg.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:706)\n\torg.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)\n\torg.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:943)\n\torg.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:877)\n\torg.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)\n\torg.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:857)\n\tjavax.servlet.http.HttpServlet.service(HttpServlet.java:617)\n\torg.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)\n\tjavax.servlet.http.HttpServlet.service(HttpServlet.java:717)\n\torg.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)\n\torg.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)\n</pre></p><p><b>note</b> <u>The full stack trace of the root cause is available in the Apache Tomcat/6.0.33 logs.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/6.0.33</h3></body></html>' }
+[2017-01-05 16:18:24.977] [DEBUG] 第一视频 - 第一视频 14441335 加入缓存队列
+[2017-01-05 16:18:25.487] [DEBUG] 第一视频 - 第一视频 14440759 加入缓存队列
+[2017-01-05 16:18:26.027] [DEBUG] 第一视频 - 第一视频 14441314 加入缓存队列
+[2017-01-05 16:18:26.971] [DEBUG] 第一视频 - 第一视频 14441310 加入缓存队列
+[2017-01-05 16:18:28.089] [DEBUG] 第一视频 - 第一视频 14441286 加入缓存队列
+[2017-01-05 16:18:28.639] [DEBUG] 第一视频 - 第一视频 14441259 加入缓存队列
+[2017-01-05 16:18:29.741] [DEBUG] 第一视频 - 第一视频 14441129 加入缓存队列
+[2017-01-05 16:18:30.285] [DEBUG] 第一视频 - 第一视频 14441098 加入缓存队列
+[2017-01-05 16:18:31.077] [DEBUG] 第一视频 - 第一视频 14440804 加入缓存队列
+[2017-01-05 16:18:32.822] [DEBUG] 第一视频 - 第一视频 14440470 加入缓存队列
+[2017-01-05 16:18:33.609] [DEBUG] 第一视频 - 第一视频 14440458 加入缓存队列
+[2017-01-05 16:18:34.985] [DEBUG] 第一视频 - 第一视频 14440448 加入缓存队列
+[2017-01-05 16:18:37.207] [DEBUG] 第一视频 - 第一视频 14440418 加入缓存队列
+[2017-01-05 16:18:37.872] [DEBUG] 第一视频 - 第一视频 14440229 加入缓存队列
+[2017-01-05 16:18:38.868] [DEBUG] 第一视频 - 第一视频 14440187 加入缓存队列
+[2017-01-05 16:18:39.592] [DEBUG] 第一视频 - 第一视频 14440170 加入缓存队列
+[2017-01-05 16:18:40.802] [DEBUG] 第一视频 - 第一视频 14440147 加入缓存队列
+[2017-01-05 16:18:41.810] [DEBUG] 第一视频 - 第一视频 14439536 加入缓存队列
+[2017-01-05 16:18:42.305] [DEBUG] 第一视频 - 第一视频 14439162 加入缓存队列
+[2017-01-05 16:18:43.343] [DEBUG] 第一视频 - 第一视频 14438158 加入缓存队列
+[2017-01-05 16:18:44.273] [DEBUG] 第一视频 - 第一视频 14438156 加入缓存队列
+[2017-01-05 16:18:44.909] [DEBUG] 第一视频 - 第一视频 14437530 加入缓存队列
+[2017-01-05 16:18:45.579] [DEBUG] 第一视频 - 第一视频 14438151 加入缓存队列
+[2017-01-05 16:18:46.082] [DEBUG] 第一视频 - 第一视频 14438087 加入缓存队列
+[2017-01-05 16:18:47.086] [DEBUG] 第一视频 - 第一视频 14437814 加入缓存队列
+[2017-01-05 16:18:48.439] [DEBUG] 第一视频 - 第一视频 14437572 加入缓存队列
+[2017-01-05 16:18:49.702] [DEBUG] 第一视频 - 第一视频 14436908 加入缓存队列
+[2017-01-05 16:18:50.524] [DEBUG] 第一视频 - 第一视频 14437529 加入缓存队列
+[2017-01-05 16:18:51.054] [DEBUG] 第一视频 - 第一视频 14437189 加入缓存队列
+[2017-01-05 16:18:52.942] [DEBUG] 第一视频 - 第一视频 14437182 加入缓存队列
+[2017-01-05 16:18:53.732] [DEBUG] 第一视频 - 第一视频 14436916 加入缓存队列
+[2017-01-05 16:18:56.070] [DEBUG] 第一视频 - 第一视频 14436258 加入缓存队列
+[2017-01-05 16:18:56.601] [DEBUG] 第一视频 - 第一视频 14436862 加入缓存队列
+[2017-01-05 16:18:57.388] [DEBUG] 第一视频 - 第一视频 14436856 加入缓存队列
+[2017-01-05 16:18:58.869] [DEBUG] 第一视频 - 第一视频 14436854 加入缓存队列
+[2017-01-05 16:18:59.540] [DEBUG] 第一视频 - 第一视频 14436842 加入缓存队列
+[2017-01-05 16:19:00.431] [DEBUG] 第一视频 - 第一视频 14434655 加入缓存队列
+[2017-01-05 16:19:01.786] [DEBUG] 第一视频 - 第一视频 14436256 加入缓存队列
+[2017-01-05 16:19:02.411] [DEBUG] 第一视频 - 第一视频 14434771 加入缓存队列
+[2017-01-05 16:19:05.376] [DEBUG] 第一视频 - 第一视频 14436227 加入缓存队列
+[2017-01-05 16:19:06.728] [DEBUG] 第一视频 - 第一视频 14436044 加入缓存队列
+[2017-01-05 16:19:07.826] [DEBUG] 第一视频 - 第一视频 14434730 加入缓存队列
+[2017-01-05 16:19:09.415] [DEBUG] 第一视频 - 第一视频 14433286 加入缓存队列
+[2017-01-05 16:19:10.652] [DEBUG] 第一视频 - 第一视频 14434772 加入缓存队列
+[2017-01-05 16:19:11.670] [DEBUG] 第一视频 - 第一视频 14434724 加入缓存队列
+[2017-01-05 16:19:12.268] [DEBUG] 第一视频 - 第一视频 14433154 加入缓存队列
+[2017-01-05 16:19:13.304] [DEBUG] 第一视频 - 第一视频 14434474 加入缓存队列
+[2017-01-05 16:19:14.074] [DEBUG] 第一视频 - 第一视频 14434378 加入缓存队列
+[2017-01-05 16:19:15.204] [DEBUG] 第一视频 - 第一视频 14433367 加入缓存队列
+[2017-01-05 16:19:16.982] [DEBUG] 第一视频 - 第一视频 14434054 加入缓存队列
+[2017-01-05 16:19:17.943] [DEBUG] 第一视频 - 第一视频 14433979 加入缓存队列
+[2017-01-05 16:19:19.469] [DEBUG] 第一视频 - 第一视频 14433300 加入缓存队列
+[2017-01-05 16:19:20.448] [DEBUG] 第一视频 - 第一视频 14432427 加入缓存队列
+[2017-01-05 16:19:21.535] [DEBUG] 第一视频 - 第一视频 14433287 加入缓存队列
+[2017-01-05 16:19:23.006] [DEBUG] 第一视频 - 第一视频 14433181 加入缓存队列
+[2017-01-05 16:19:24.156] [DEBUG] 第一视频 - 第一视频 14432295 加入缓存队列
+[2017-01-05 16:19:25.290] [DEBUG] 第一视频 - 第一视频 14432115 加入缓存队列
+[2017-01-05 16:19:27.645] [DEBUG] 第一视频 - 第一视频 14432815 加入缓存队列
+[2017-01-05 16:19:29.344] [DEBUG] 第一视频 - 第一视频 14432770 加入缓存队列
+[2017-01-05 16:19:30.798] [DEBUG] 第一视频 - 第一视频 14432422 加入缓存队列
+[2017-01-05 16:19:32.062] [DEBUG] 第一视频 - 第一视频 14432376 加入缓存队列
+[2017-01-05 16:19:32.772] [DEBUG] 第一视频 - 第一视频 14432026 加入缓存队列
+[2017-01-05 16:19:34.410] [DEBUG] 第一视频 - 第一视频 14431682 加入缓存队列
+[2017-01-05 16:19:35.455] [DEBUG] 第一视频 - 第一视频 14431662 加入缓存队列
+[2017-01-05 16:19:36.337] [DEBUG] 第一视频 - 第一视频 14431252 加入缓存队列
+[2017-01-05 16:19:37.492] [DEBUG] 第一视频 - 第一视频 14431593 加入缓存队列
+[2017-01-05 16:19:39.225] [DEBUG] 第一视频 - 第一视频 14429223 加入缓存队列
+[2017-01-05 16:19:40.179] [DEBUG] 第一视频 - 第一视频 14429264 加入缓存队列
+[2017-01-05 16:19:41.488] [DEBUG] 第一视频 - 第一视频 14431308 加入缓存队列
+[2017-01-05 16:19:43.066] [DEBUG] 第一视频 - 第一视频 14431281 加入缓存队列
+[2017-01-05 16:19:44.333] [DEBUG] 第一视频 - 第一视频 14430924 加入缓存队列
+[2017-01-05 16:19:45.526] [DEBUG] 第一视频 - 第一视频 14428441 加入缓存队列
+[2017-01-05 16:19:46.960] [DEBUG] 第一视频 - 第一视频 14429250 加入缓存队列
+[2017-01-05 16:19:53.433] [DEBUG] 第一视频 - 第一视频 14429174 加入缓存队列
+[2017-01-05 16:19:55.120] [DEBUG] 第一视频 - 第一视频 14429093 加入缓存队列
+[2017-01-05 16:19:56.667] [DEBUG] 第一视频 - 第一视频 14428095 加入缓存队列
+[2017-01-05 16:19:58.188] [DEBUG] 第一视频 - 第一视频 14428429 加入缓存队列
+[2017-01-05 16:19:59.362] [DEBUG] 第一视频 - 第一视频 14428420 加入缓存队列
+[2017-01-05 16:20:01.287] [DEBUG] 第一视频 - 第一视频 14427495 加入缓存队列
+[2017-01-05 16:20:03.553] [DEBUG] 第一视频 - 第一视频 14427719 加入缓存队列
+[2017-01-05 16:20:05.389] [DEBUG] 第一视频 - 第一视频 14427685 加入缓存队列
+[2017-01-05 16:20:06.713] [DEBUG] 第一视频 - 第一视频 14427624 加入缓存队列
+[2017-01-05 16:20:11.594] [DEBUG] 第一视频 - 第一视频 14427379 加入缓存队列
+[2017-01-05 16:20:12.263] [DEBUG] 第一视频 - 第一视频 14427338 加入缓存队列
+[2017-01-05 16:20:14.268] [DEBUG] 第一视频 - 第一视频 14427331 加入缓存队列
+[2017-01-05 16:20:15.468] [DEBUG] 第一视频 - 第一视频 14426995 加入缓存队列
+[2017-01-05 16:20:16.682] [DEBUG] 第一视频 - 第一视频 14426989 加入缓存队列
+[2017-01-05 16:20:17.512] [DEBUG] 第一视频 - 第一视频 14426239 加入缓存队列
+[2017-01-05 16:20:19.800] [DEBUG] 第一视频 - 第一视频 14426150 加入缓存队列
+[2017-01-05 16:20:20.835] [DEBUG] 第一视频 - 第一视频 14425709 加入缓存队列
+[2017-01-05 16:20:22.360] [DEBUG] 第一视频 - 第一视频 14424521 加入缓存队列
+[2017-01-05 16:20:23.344] [DEBUG] 第一视频 - 第一视频 14425171 加入缓存队列
+[2017-01-05 16:20:25.161] [DEBUG] 第一视频 - 第一视频 14423829 加入缓存队列
+[2017-01-05 16:20:26.089] [DEBUG] 第一视频 - 第一视频 14425006 加入缓存队列
+[2017-01-05 16:20:27.496] [DEBUG] 第一视频 - 第一视频 14424904 加入缓存队列
+[2017-01-05 16:20:28.889] [DEBUG] 第一视频 - 第一视频 14424860 加入缓存队列
+[2017-01-05 16:20:30.111] [DEBUG] 第一视频 - 第一视频 14424540 加入缓存队列
+[2017-01-05 16:20:30.872] [DEBUG] 第一视频 - 第一视频 14423785 加入缓存队列
+[2017-01-05 16:20:31.505] [DEBUG] 第一视频 - 第一视频 14423007 加入缓存队列
+[2017-01-05 16:20:33.100] [DEBUG] 第一视频 - 第一视频 14423835 加入缓存队列
+[2017-01-05 16:20:33.641] [DEBUG] 第一视频 - 第一视频 14423787 加入缓存队列
+[2017-01-05 16:20:35.255] [DEBUG] 第一视频 - 第一视频 14422954 加入缓存队列
+[2017-01-05 16:20:35.875] [DEBUG] 第一视频 - 第一视频 14423716 加入缓存队列
+[2017-01-05 16:20:37.095] [DEBUG] 第一视频 - 第一视频 14423428 加入缓存队列
+[2017-01-05 16:20:38.005] [DEBUG] 第一视频 - 第一视频 14423006 加入缓存队列
+[2017-01-05 16:20:39.449] [DEBUG] 第一视频 - 第一视频 14422896 加入缓存队列
+[2017-01-05 16:20:40.494] [DEBUG] 第一视频 - 第一视频 14422660 加入缓存队列
+[2017-01-05 16:20:41.446] [DEBUG] 第一视频 - 第一视频 14422646 加入缓存队列
+[2017-01-05 16:20:42.944] [DEBUG] 第一视频 - 第一视频 14422290 加入缓存队列
+[2017-01-05 16:20:45.270] [DEBUG] 第一视频 - 第一视频 14422265 加入缓存队列
+[2017-01-05 16:20:45.922] [DEBUG] 第一视频 - 第一视频 14422256 加入缓存队列
+[2017-01-05 16:20:48.060] [DEBUG] 第一视频 - 第一视频 14420595 加入缓存队列
+[2017-01-05 16:20:49.380] [DEBUG] 第一视频 - 第一视频 14421935 加入缓存队列
+[2017-01-05 16:20:50.006] [DEBUG] 第一视频 - 第一视频 14421907 加入缓存队列
+[2017-01-05 16:20:53.783] [DEBUG] 第一视频 - 第一视频 14421856 加入缓存队列
+[2017-01-05 16:20:55.473] [DEBUG] 第一视频 - 第一视频 14419870 加入缓存队列
+[2017-01-05 16:20:57.020] [DEBUG] 第一视频 - 第一视频 14419064 加入缓存队列
+[2017-01-05 16:20:57.543] [DEBUG] 第一视频 - 第一视频 14420490 加入缓存队列
+[2017-01-05 16:20:58.626] [DEBUG] 第一视频 - 第一视频 14420457 加入缓存队列
+[2017-01-05 16:20:59.424] [DEBUG] 第一视频 - 第一视频 14420278 加入缓存队列
+[2017-01-05 16:20:59.942] [DEBUG] 第一视频 - 第一视频 14420114 加入缓存队列
+[2017-01-05 16:21:01.117] [DEBUG] 第一视频 - 第一视频 14419187 加入缓存队列
+[2017-01-05 16:21:01.753] [DEBUG] 第一视频 - 第一视频 14419856 加入缓存队列
+[2017-01-05 16:21:03.301] [DEBUG] 第一视频 - 第一视频 14419074 加入缓存队列
+[2017-01-05 16:21:03.955] [DEBUG] 第一视频 - 第一视频 14419743 加入缓存队列
+[2017-01-05 16:21:05.119] [DEBUG] 第一视频 - 第一视频 14418466 加入缓存队列
+[2017-01-05 16:21:06.228] [DEBUG] 第一视频 - 第一视频 14418390 加入缓存队列
+[2017-01-05 16:21:07.307] [DEBUG] 第一视频 - 第一视频 14418375 加入缓存队列
+[2017-01-05 16:21:08.631] [DEBUG] 第一视频 - 第一视频 14418463 加入缓存队列
+[2017-01-05 16:21:09.858] [DEBUG] 第一视频 - 第一视频 14418429 加入缓存队列
+[2017-01-05 16:21:11.507] [DEBUG] 第一视频 - 第一视频 14418421 加入缓存队列
+[2017-01-05 16:21:12.397] [DEBUG] 第一视频 - 第一视频 14417645 加入缓存队列
+[2017-01-05 16:21:13.504] [DEBUG] 第一视频 - 第一视频 14418307 加入缓存队列
+[2017-01-05 16:21:16.728] [DEBUG] 第一视频 - 第一视频 14418189 加入缓存队列
+[2017-01-05 16:21:18.183] [DEBUG] 第一视频 - 第一视频 14418038 加入缓存队列
+[2017-01-05 16:21:19.521] [DEBUG] 第一视频 - 第一视频 14417697 加入缓存队列
+[2017-01-05 16:21:20.043] [DEBUG] 第一视频 - 第一视频 14417649 加入缓存队列
+[2017-01-05 16:21:21.146] [DEBUG] 第一视频 - 第一视频 14417439 加入缓存队列
+[2017-01-05 16:21:22.074] [DEBUG] 第一视频 - 第一视频 14417376 加入缓存队列
+[2017-01-05 16:21:23.930] [DEBUG] 第一视频 - 第一视频 14417289 加入缓存队列
+[2017-01-05 16:21:25.667] [DEBUG] 第一视频 - 第一视频 14415137 加入缓存队列
+[2017-01-05 16:21:26.556] [DEBUG] 第一视频 - 第一视频 14415858 加入缓存队列
+[2017-01-05 16:21:27.641] [DEBUG] 第一视频 - 第一视频 14415840 加入缓存队列
+[2017-01-05 16:21:28.758] [DEBUG] 第一视频 - 第一视频 14415784 加入缓存队列
+[2017-01-05 16:21:29.705] [DEBUG] 第一视频 - 第一视频 14415509 加入缓存队列
+[2017-01-05 16:21:30.187] [DEBUG] 第一视频 - 第一视频 14415138 加入缓存队列
+[2017-01-05 16:21:32.201] [DEBUG] 第一视频 - 第一视频 14414295 加入缓存队列
+[2017-01-05 16:21:33.095] [DEBUG] 第一视频 - 第一视频 14414779 加入缓存队列
+[2017-01-05 16:21:34.901] [DEBUG] 第一视频 - 第一视频 14414753 加入缓存队列
+[2017-01-05 16:21:35.970] [DEBUG] 第一视频 - 第一视频 14414422 加入缓存队列
+[2017-01-05 16:21:37.496] [DEBUG] 第一视频 - 第一视频 14414384 加入缓存队列
+[2017-01-05 16:21:38.945] [DEBUG] 第一视频 - 第一视频 14412803 加入缓存队列
+[2017-01-05 16:21:40.310] [DEBUG] 第一视频 - 第一视频 14414017 加入缓存队列
+[2017-01-05 16:21:42.487] [DEBUG] 第一视频 - 第一视频 14412633 加入缓存队列
+[2017-01-05 16:21:43.151] [DEBUG] 第一视频 - 第一视频 14413610 加入缓存队列
+[2017-01-05 16:21:45.367] [DEBUG] 第一视频 - 第一视频 14413600 加入缓存队列
+[2017-01-05 16:21:46.524] [DEBUG] 第一视频 - 第一视频 14413574 加入缓存队列
+[2017-01-05 16:21:49.092] [DEBUG] 第一视频 - 第一视频 14413571 加入缓存队列
+[2017-01-05 16:21:49.708] [DEBUG] 第一视频 - 第一视频 14413493 加入缓存队列
+[2017-01-05 16:21:50.706] [DEBUG] 第一视频 - 第一视频 14413489 加入缓存队列
+[2017-01-05 16:21:52.176] [DEBUG] 第一视频 - 第一视频 14413402 加入缓存队列
+[2017-01-05 16:21:54.536] [DEBUG] 第一视频 - 第一视频 14413222 加入缓存队列
+[2017-01-05 16:21:55.098] [DEBUG] 第一视频 - 第一视频 14413171 加入缓存队列
+[2017-01-05 16:21:55.912] [DEBUG] 第一视频 - 第一视频 14411034 加入缓存队列
+[2017-01-05 16:21:56.709] [DEBUG] 第一视频 - 第一视频 14412756 加入缓存队列
+[2017-01-05 16:21:57.892] [DEBUG] 第一视频 - 第一视频 14409427 加入缓存队列
+[2017-01-05 16:21:59.169] [DEBUG] 第一视频 - 第一视频 14410924 加入缓存队列
+[2017-01-05 16:22:00.339] [DEBUG] 第一视频 - 第一视频 14409431 加入缓存队列
+[2017-01-05 16:22:00.915] [DEBUG] 第一视频 - 第一视频 14411104 加入缓存队列
+[2017-01-05 16:22:02.433] [DEBUG] 第一视频 - 第一视频 14410292 加入缓存队列
+[2017-01-05 16:22:04.323] [DEBUG] 第一视频 - 第一视频 14411065 加入缓存队列
+[2017-01-05 16:22:05.425] [DEBUG] 第一视频 - 第一视频 14410736 加入缓存队列
+[2017-01-05 16:22:06.009] [DEBUG] 第一视频 - 第一视频 14410685 加入缓存队列
+[2017-01-05 16:22:07.236] [DEBUG] 第一视频 - 第一视频 14408593 加入缓存队列
+[2017-01-05 16:22:07.828] [DEBUG] 第一视频 - 第一视频 14410205 加入缓存队列
+[2017-01-05 16:22:09.101] [DEBUG] 第一视频 - 第一视频 14410170 加入缓存队列
+[2017-01-05 16:22:09.969] [DEBUG] 第一视频 - 第一视频 14409856 加入缓存队列
+[2017-01-05 16:22:11.893] [DEBUG] 第一视频 - 第一视频 14409398 加入缓存队列
+[2017-01-05 16:22:13.277] [DEBUG] 第一视频 - 第一视频 14409296 加入缓存队列
+[2017-01-05 16:22:15.314] [DEBUG] 第一视频 - 第一视频 14409034 加入缓存队列
+[2017-01-05 16:22:16.781] [DEBUG] 第一视频 - 第一视频 14408654 加入缓存队列
+[2017-01-05 16:22:19.253] [DEBUG] 第一视频 - 第一视频 14408634 加入缓存队列
+[2017-01-05 16:22:23.293] [DEBUG] 第一视频 - 第一视频 14407872 加入缓存队列
+[2017-01-05 16:22:25.317] [DEBUG] 第一视频 - 第一视频 14408622 加入缓存队列
+[2017-01-05 16:22:25.892] [DEBUG] 第一视频 - 第一视频 14407859 加入缓存队列
+[2017-01-05 16:22:26.530] [DEBUG] 第一视频 - 第一视频 14408319 加入缓存队列
+[2017-01-05 16:22:27.621] [DEBUG] 第一视频 - 第一视频 14408306 加入缓存队列
+[2017-01-05 16:22:29.352] [DEBUG] 第一视频 - 第一视频 14407582 加入缓存队列
+[2017-01-05 16:22:30.647] [DEBUG] 第一视频 - 第一视频 14407157 加入缓存队列
+[2017-01-05 16:22:31.859] [DEBUG] 第一视频 - 第一视频 14407875 加入缓存队列
+[2017-01-05 16:22:32.625] [DEBUG] 第一视频 - 第一视频 14407873 加入缓存队列
+[2017-01-05 16:22:33.961] [DEBUG] 第一视频 - 第一视频 14407509 加入缓存队列
+[2017-01-05 16:22:34.978] [DEBUG] 第一视频 - 第一视频 14406458 加入缓存队列
+[2017-01-05 16:22:35.783] [DEBUG] 第一视频 - 第一视频 14407163 加入缓存队列
+[2017-01-05 16:22:36.729] [DEBUG] 第一视频 - 第一视频 14407018 加入缓存队列
+[2017-01-05 16:22:37.593] [DEBUG] 第一视频 - 第一视频 14406828 加入缓存队列
+[2017-01-05 16:22:39.079] [DEBUG] 第一视频 - 第一视频 14406819 加入缓存队列
+[2017-01-05 16:22:40.962] [DEBUG] 第一视频 - 第一视频 14406787 加入缓存队列
+[2017-01-05 16:22:42.080] [DEBUG] 第一视频 - 第一视频 14406421 加入缓存队列
+[2017-01-05 16:22:43.254] [DEBUG] 第一视频 - 第一视频 14406203 加入缓存队列
+[2017-01-05 16:22:44.462] [DEBUG] 第一视频 - 第一视频 14405961 加入缓存队列
+[2017-01-05 16:22:45.323] [DEBUG] 第一视频 - 第一视频 14406062 加入缓存队列
+[2017-01-05 16:22:46.108] [DEBUG] 第一视频 - 第一视频 14406054 加入缓存队列
+[2017-01-05 16:22:47.307] [DEBUG] 第一视频 - 第一视频 14405966 加入缓存队列
+[2017-01-05 16:22:48.428] [DEBUG] 第一视频 - 第一视频 14400946 加入缓存队列
+[2017-01-05 16:22:49.598] [DEBUG] 第一视频 - 第一视频 14397553 加入缓存队列
+[2017-01-05 16:22:51.302] [DEBUG] 第一视频 - 第一视频 14400827 加入缓存队列
+[2017-01-05 16:22:52.450] [DEBUG] 第一视频 - 第一视频 14402390 加入缓存队列
+[2017-01-05 16:22:53.369] [DEBUG] 第一视频 - 第一视频 14402351 加入缓存队列
+[2017-01-05 16:22:54.888] [DEBUG] 第一视频 - 第一视频 14402340 加入缓存队列
+[2017-01-05 16:22:55.709] [DEBUG] 第一视频 - 第一视频 14402317 加入缓存队列
+[2017-01-05 16:22:57.066] [DEBUG] 第一视频 - 第一视频 14402306 加入缓存队列
+[2017-01-05 16:22:57.949] [DEBUG] 第一视频 - 第一视频 14402272 加入缓存队列
+[2017-01-05 16:22:59.654] [DEBUG] 第一视频 - 第一视频 14400959 加入缓存队列
+[2017-01-05 16:23:00.487] [DEBUG] 第一视频 - 第一视频 14401655 加入缓存队列
+[2017-01-05 16:23:02.584] [DEBUG] 第一视频 - 第一视频 14401469 加入缓存队列
+[2017-01-05 16:23:04.497] [DEBUG] 第一视频 - 第一视频 14401444 加入缓存队列
+[2017-01-05 16:23:06.752] [DEBUG] 第一视频 - 第一视频 14400970 加入缓存队列
+[2017-01-05 16:23:08.514] [DEBUG] 第一视频 - 第一视频 14400900 加入缓存队列
+[2017-01-05 16:23:17.161] [ERROR] 第一视频 - occur error :  { Error: ETIMEDOUT
+    at Timeout._onTimeout (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:813:19)
+    at tryOnTimeout (timers.js:224:11)
+    at Timer.listOnTimeout (timers.js:198:5) code: 'ETIMEDOUT', connect: true }
+[2017-01-05 16:23:17.180] [ERROR] 第一视频 - error url: http://www.v1.cn/video/v_14400878.jhtml
+[2017-01-05 16:23:17.181] [ERROR] 第一视频 - 单个DOM接口请求错误 :  { Error: ETIMEDOUT
+    at Timeout._onTimeout (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:813:19)
+    at tryOnTimeout (timers.js:224:11)
+    at Timer.listOnTimeout (timers.js:198:5) code: 'ETIMEDOUT', connect: true }
+[2017-01-05 16:23:17.698] [DEBUG] 第一视频 - 第一视频 14400878 加入缓存队列
+[2017-01-05 16:23:19.645] [DEBUG] 第一视频 - 第一视频 14400757 加入缓存队列
+[2017-01-05 16:23:20.159] [DEBUG] 第一视频 - 第一视频 14399829 加入缓存队列
+[2017-01-05 16:23:21.961] [DEBUG] 第一视频 - 第一视频 14400125 加入缓存队列
+[2017-01-05 16:23:22.658] [DEBUG] 第一视频 - 第一视频 14400121 加入缓存队列
+[2017-01-05 16:23:23.813] [DEBUG] 第一视频 - 第一视频 14400116 加入缓存队列
+[2017-01-05 16:23:24.578] [DEBUG] 第一视频 - 第一视频 14396746 加入缓存队列
+[2017-01-05 16:23:25.732] [DEBUG] 第一视频 - 第一视频 14399969 加入缓存队列
+[2017-01-05 16:23:26.223] [DEBUG] 第一视频 - 第一视频 14399962 加入缓存队列
+[2017-01-05 16:23:27.748] [DEBUG] 第一视频 - 第一视频 14399872 加入缓存队列
+[2017-01-05 16:23:30.011] [DEBUG] 第一视频 - 第一视频 14399403 加入缓存队列
+[2017-01-05 16:23:30.624] [DEBUG] 第一视频 - 第一视频 14399364 加入缓存队列
+[2017-01-05 16:23:31.771] [DEBUG] 第一视频 - 第一视频 14399363 加入缓存队列
+[2017-01-05 16:23:33.102] [DEBUG] 第一视频 - 第一视频 14399338 加入缓存队列
+[2017-01-05 16:23:33.913] [DEBUG] 第一视频 - 第一视频 14397426 加入缓存队列
+[2017-01-05 16:23:35.410] [DEBUG] 第一视频 - 第一视频 14397871 加入缓存队列
+[2017-01-05 16:23:35.899] [DEBUG] 第一视频 - 第一视频 14397579 加入缓存队列
+[2017-01-05 16:23:37.468] [DEBUG] 第一视频 - 第一视频 14397573 加入缓存队列
+[2017-01-05 16:23:38.058] [DEBUG] 第一视频 - 第一视频 14396768 加入缓存队列
+[2017-01-05 16:23:39.629] [DEBUG] 第一视频 - 第一视频 14397552 加入缓存队列
+[2017-01-05 16:23:40.461] [DEBUG] 第一视频 - 第一视频 14397540 加入缓存队列
+[2017-01-05 16:23:41.918] [DEBUG] 第一视频 - 第一视频 14397482 加入缓存队列
+[2017-01-05 16:23:42.431] [DEBUG] 第一视频 - 第一视频 14396502 加入缓存队列
+[2017-01-05 16:23:44.295] [DEBUG] 第一视频 - 第一视频 14395960 加入缓存队列
+[2017-01-05 16:23:45.416] [DEBUG] 第一视频 - 第一视频 14396365 加入缓存队列
+[2017-01-05 16:23:46.588] [DEBUG] 第一视频 - 第一视频 14395990 加入缓存队列
+[2017-01-05 16:23:48.876] [DEBUG] 第一视频 - 第一视频 14395988 加入缓存队列
+[2017-01-05 16:23:49.332] [DEBUG] 第一视频 - 第一视频 14395820 加入缓存队列
+[2017-01-05 16:23:50.451] [DEBUG] 第一视频 - 第一视频 14395042 加入缓存队列
+[2017-01-05 16:23:51.058] [DEBUG] 第一视频 - 第一视频 14395409 加入缓存队列
+[2017-01-05 16:23:51.836] [DEBUG] 第一视频 - 第一视频 14395162 加入缓存队列
+[2017-01-05 16:23:53.475] [DEBUG] 第一视频 - 第一视频 14395144 加入缓存队列
+[2017-01-05 16:23:54.586] [DEBUG] 第一视频 - 第一视频 14395087 加入缓存队列
+[2017-01-05 16:23:55.950] [DEBUG] 第一视频 - 第一视频 14394674 加入缓存队列
+[2017-01-05 16:23:58.718] [DEBUG] 第一视频 - 第一视频 14394320 加入缓存队列
+[2017-01-05 16:23:59.826] [DEBUG] 第一视频 - 第一视频 14394317 加入缓存队列
+[2017-01-05 16:24:00.387] [DEBUG] 第一视频 - 第一视频 14394252 加入缓存队列
+[2017-01-05 16:24:01.525] [DEBUG] 第一视频 - 第一视频 14393318 加入缓存队列
+[2017-01-05 16:24:02.090] [DEBUG] 第一视频 - 第一视频 14393918 加入缓存队列
+[2017-01-05 16:24:02.943] [DEBUG] 第一视频 - 第一视频 14393922 加入缓存队列
+[2017-01-05 16:24:06.030] [DEBUG] 第一视频 - 第一视频 14393468 加入缓存队列
+[2017-01-05 16:24:06.644] [DEBUG] 第一视频 - 第一视频 14391896 加入缓存队列
+[2017-01-05 16:24:07.725] [DEBUG] 第一视频 - 第一视频 14391898 加入缓存队列
+[2017-01-05 16:24:08.529] [DEBUG] 第一视频 - 第一视频 14391728 加入缓存队列
+[2017-01-05 16:24:09.010] [DEBUG] 第一视频 - 第一视频 14391359 加入缓存队列
+[2017-01-05 16:24:10.715] [DEBUG] 第一视频 - 第一视频 14391355 加入缓存队列
+[2017-01-05 16:24:11.246] [DEBUG] 第一视频 - 第一视频 14391305 加入缓存队列
+[2017-01-05 16:24:12.131] [DEBUG] 第一视频 - 第一视频 14391303 加入缓存队列
+[2017-01-05 16:24:12.926] [DEBUG] 第一视频 - 第一视频 14391291 加入缓存队列
+[2017-01-05 16:24:13.693] [DEBUG] 第一视频 - 第一视频 14391230 加入缓存队列
+[2017-01-05 16:24:14.503] [DEBUG] 第一视频 - 第一视频 14390436 加入缓存队列
+[2017-01-05 16:24:15.569] [DEBUG] 第一视频 - 第一视频 14390891 加入缓存队列
+[2017-01-05 16:24:16.146] [DEBUG] 第一视频 - 第一视频 14390877 加入缓存队列
+[2017-01-05 16:24:16.936] [DEBUG] 第一视频 - 第一视频 14390504 加入缓存队列
+[2017-01-05 16:24:17.488] [DEBUG] 第一视频 - 第一视频 14390443 加入缓存队列
+[2017-01-05 16:24:18.705] [DEBUG] 第一视频 - 第一视频 14390390 加入缓存队列
+[2017-01-05 16:24:20.220] [DEBUG] 第一视频 - 第一视频 14390250 加入缓存队列
+[2017-01-05 16:24:21.050] [DEBUG] 第一视频 - 第一视频 14390216 加入缓存队列
+[2017-01-05 16:24:21.560] [DEBUG] 第一视频 - 第一视频 14390197 加入缓存队列
+[2017-01-05 16:24:23.080] [DEBUG] 第一视频 - 第一视频 14387784 加入缓存队列
+[2017-01-05 16:24:23.959] [DEBUG] 第一视频 - 第一视频 14389823 加入缓存队列
+[2017-01-05 16:24:26.797] [DEBUG] 第一视频 - 第一视频 14389818 加入缓存队列
+[2017-01-05 16:24:27.306] [DEBUG] 第一视频 - 第一视频 14389353 加入缓存队列
+[2017-01-05 16:24:28.557] [DEBUG] 第一视频 - 第一视频 14389358 加入缓存队列
+[2017-01-05 16:24:29.152] [DEBUG] 第一视频 - 第一视频 14388181 加入缓存队列
+[2017-01-05 16:24:29.914] [DEBUG] 第一视频 - 第一视频 14387293 加入缓存队列
+[2017-01-05 16:24:30.402] [DEBUG] 第一视频 - 第一视频 14387998 加入缓存队列
+[2017-01-05 16:24:31.390] [DEBUG] 第一视频 - 第一视频 14387818 加入缓存队列
+[2017-01-05 16:24:32.262] [DEBUG] 第一视频 - 第一视频 14387377 加入缓存队列
+[2017-01-05 16:24:32.973] [DEBUG] 第一视频 - 第一视频 14387319 加入缓存队列
+[2017-01-05 16:24:34.238] [DEBUG] 第一视频 - 第一视频 14385727 加入缓存队列
+[2017-01-05 16:24:34.825] [DEBUG] 第一视频 - 第一视频 14387040 加入缓存队列
+[2017-01-05 16:24:36.362] [DEBUG] 第一视频 - 第一视频 14386939 加入缓存队列
+[2017-01-05 16:24:37.300] [DEBUG] 第一视频 - 第一视频 14386265 加入缓存队列
+[2017-01-05 16:24:38.135] [DEBUG] 第一视频 - 第一视频 14386505 加入缓存队列
+[2017-01-05 16:24:42.622] [DEBUG] 第一视频 - 第一视频 14385661 加入缓存队列
+[2017-01-05 16:24:44.628] [DEBUG] 第一视频 - 第一视频 14385435 加入缓存队列
+[2017-01-05 16:24:45.337] [DEBUG] 第一视频 - 第一视频 14385735 加入缓存队列
+[2017-01-05 16:24:46.447] [DEBUG] 第一视频 - 第一视频 14385081 加入缓存队列
+[2017-01-05 16:24:46.982] [DEBUG] 第一视频 - 第一视频 14385852 加入缓存队列
+[2017-01-05 16:24:48.305] [DEBUG] 第一视频 - 第一视频 14384879 加入缓存队列
+[2017-01-05 16:24:49.430] [DEBUG] 第一视频 - 第一视频 14384890 加入缓存队列
+[2017-01-05 16:24:49.975] [DEBUG] 第一视频 - 第一视频 14385102 加入缓存队列
+[2017-01-05 16:24:51.227] [DEBUG] 第一视频 - 第一视频 14385057 加入缓存队列
+[2017-01-05 16:24:52.295] [DEBUG] 第一视频 - 第一视频 14384962 加入缓存队列
+[2017-01-05 16:24:52.797] [DEBUG] 第一视频 - 第一视频 14384948 加入缓存队列
+[2017-01-05 16:24:53.959] [DEBUG] 第一视频 - 第一视频 14384922 加入缓存队列
+[2017-01-05 16:24:54.525] [DEBUG] 第一视频 - 第一视频 14382235 加入缓存队列
+[2017-01-05 16:24:55.331] [DEBUG] 第一视频 - 第一视频 14382904 加入缓存队列
+[2017-01-05 16:24:56.205] [DEBUG] 第一视频 - 第一视频 14381365 加入缓存队列
+[2017-01-05 16:24:58.583] [DEBUG] 第一视频 - 第一视频 14382851 加入缓存队列
+[2017-01-05 16:24:59.966] [DEBUG] 第一视频 - 第一视频 14383243 加入缓存队列
+[2017-01-05 16:25:02.087] [DEBUG] 第一视频 - 第一视频 14383063 加入缓存队列
+[2017-01-05 16:25:03.982] [DEBUG] 第一视频 - 第一视频 14381369 加入缓存队列
+[2017-01-05 16:25:06.352] [DEBUG] 第一视频 - 第一视频 14382089 加入缓存队列
+[2017-01-05 16:25:07.214] [DEBUG] 第一视频 - 第一视频 14381362 加入缓存队列
+[2017-01-05 16:25:08.819] [DEBUG] 第一视频 - 第一视频 14380818 加入缓存队列
+[2017-01-05 16:25:09.358] [DEBUG] 第一视频 - 第一视频 14381367 加入缓存队列
+[2017-01-05 16:25:25.936] [ERROR] 第一视频 - occur error :  { Error: ESOCKETTIMEDOUT
+    at ClientRequest.<anonymous> (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:778:19)
+    at ClientRequest.g (events.js:286:16)
+    at emitNone (events.js:86:13)
+    at ClientRequest.emit (events.js:185:7)
+    at Socket.emitTimeout (_http_client.js:593:10)
+    at Socket.g (events.js:286:16)
+    at emitNone (events.js:86:13)
+    at Socket.emit (events.js:185:7)
+    at Socket._onTimeout (net.js:333:8)
+    at tryOnTimeout (timers.js:224:11) code: 'ESOCKETTIMEDOUT', connect: false }
+[2017-01-05 16:25:25.952] [ERROR] 第一视频 - error url: http://www.v1.cn/video/v_14380905.jhtml
+[2017-01-05 16:25:25.954] [ERROR] 第一视频 - 单个DOM接口请求错误 :  { Error: ESOCKETTIMEDOUT
+    at ClientRequest.<anonymous> (D:\AppServ\www\meimiao2\code\node_modules\request\request.js:778:19)
+    at ClientRequest.g (events.js:286:16)
+    at emitNone (events.js:86:13)
+    at ClientRequest.emit (events.js:185:7)
+    at Socket.emitTimeout (_http_client.js:593:10)
+    at Socket.g (events.js:286:16)
+    at emitNone (events.js:86:13)
+    at Socket.emit (events.js:185:7)
+    at Socket._onTimeout (net.js:333:8)
+    at tryOnTimeout (timers.js:224:11) code: 'ESOCKETTIMEDOUT', connect: false }
+[2017-01-05 16:25:26.848] [DEBUG] 第一视频 - 第一视频 14380905 加入缓存队列
+[2017-01-05 16:25:30.123] [DEBUG] 第一视频 - 第一视频 14380838 加入缓存队列
+[2017-01-05 16:25:32.110] [DEBUG] 第一视频 - 第一视频 14381583 加入缓存队列
+[2017-01-05 16:25:32.993] [DEBUG] 第一视频 - 第一视频 14380127 加入缓存队列
+[2017-01-05 16:25:34.094] [DEBUG] 第一视频 - 第一视频 14381355 加入缓存队列
+[2017-01-05 16:25:35.390] [DEBUG] 第一视频 - 第一视频 14377510 加入缓存队列
+[2017-01-05 16:25:36.973] [DEBUG] 第一视频 - 第一视频 14380791 加入缓存队列
+[2017-01-05 16:25:39.281] [DEBUG] 第一视频 - 第一视频 14380790 加入缓存队列
+[2017-01-05 16:25:39.785] [DEBUG] 第一视频 - 第一视频 14380788 加入缓存队列
+[2017-01-05 16:25:41.362] [DEBUG] 第一视频 - 第一视频 14380734 加入缓存队列
+[2017-01-05 16:25:41.886] [DEBUG] 第一视频 - 第一视频 14379786 加入缓存队列
+[2017-01-05 16:25:42.557] [DEBUG] 第一视频 - 第一视频 14379306 加入缓存队列
+[2017-01-05 16:25:45.925] [DEBUG] 第一视频 - 第一视频 14379560 加入缓存队列
+[2017-01-05 16:25:47.813] [DEBUG] 第一视频 - 第一视频 14380106 加入缓存队列
+[2017-01-05 16:25:48.932] [DEBUG] 第一视频 - 第一视频 14379753 加入缓存队列
+[2017-01-05 16:25:49.575] [DEBUG] 第一视频 - 第一视频 14379720 加入缓存队列
+[2017-01-05 16:25:50.853] [DEBUG] 第一视频 - 第一视频 14378412 加入缓存队列
+[2017-01-05 16:26:23.304] [DEBUG] 第一视频 - 第一视频 14378287 加入缓存队列
+[2017-01-05 16:26:24.164] [DEBUG] 第一视频 - 第一视频 14378283 加入缓存队列
+[2017-01-05 16:26:24.628] [DEBUG] 第一视频 - 第一视频 14375352 加入缓存队列
+[2017-01-05 16:26:25.428] [DEBUG] 第一视频 - 第一视频 14377178 加入缓存队列
+[2017-01-05 16:26:26.842] [DEBUG] 第一视频 - 第一视频 14377633 加入缓存队列
+[2017-01-05 16:26:29.692] [DEBUG] 第一视频 - 第一视频 14377585 加入缓存队列
+[2017-01-05 16:26:34.242] [DEBUG] 第一视频 - 第一视频 14377583 加入缓存队列
+[2017-01-05 16:26:34.751] [DEBUG] 第一视频 - 第一视频 14377445 加入缓存队列
+[2017-01-05 16:26:35.321] [DEBUG] 第一视频 - 第一视频 14375966 加入缓存队列
+[2017-01-05 16:26:36.501] [DEBUG] 第一视频 - 第一视频 14376457 加入缓存队列
+[2017-01-05 16:26:37.036] [DEBUG] 第一视频 - 第一视频 14376830 加入缓存队列
+[2017-01-05 17:39:29.471] [TRACE] 第一视频 - DealWith instantiation ...
+[2017-01-05 17:39:29.485] [TRACE] 第一视频 - spiderCore instantiation ...
+[2017-01-05 17:39:29.487] [TRACE] 第一视频 - 启动函数
+[2017-01-05 17:39:29.517] [DEBUG] 第一视频 - 任务信息数据库连接建立...成功
+[2017-01-05 17:39:29.519] [DEBUG] 第一视频 - 缓存队列数据库连接建立...成功
+[2017-01-05 17:39:29.521] [DEBUG] 第一视频 - 创建数据库连接完毕
+[2017-01-05 17:39:31.089] [DEBUG] 第一视频 - 用户: 8495305 back_end
+[2017-01-05 17:39:31.109] [DEBUG] 第一视频 - undefined

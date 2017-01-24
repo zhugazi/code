@@ -1,0 +1,154 @@
+[2016-11-25 11:39:47.037] [TRACE] 搜狐视频 - DealWith instantiation ...
+[2016-11-25 11:39:47.044] [TRACE] 搜狐视频 - spiderCore instantiation ...
+[2016-11-25 11:39:47.047] [TRACE] 搜狐视频 - 启动函数
+[2016-11-25 11:39:47.077] [DEBUG] 搜狐视频 - 任务信息数据库连接建立...成功
+[2016-11-25 11:39:47.077] [DEBUG] 搜狐视频 - 缓存队列数据库连接建立...成功
+[2016-11-25 11:39:47.077] [DEBUG] 搜狐视频 - 创建数据库连接完毕
+[2016-11-25 11:39:47.087] [TRACE] 搜狐视频 - Queue get ready
+[2016-11-25 11:39:47.155] [TRACE] 搜狐视频 - Get souhu task!
+[2016-11-25 11:39:47.157] [INFO] 搜狐视频 - { id: '215300280', p: '9', name: '橙果医生', type: '0' }
+[2016-11-25 11:39:47.194] [TRACE] 搜狐视频 - Get souhu task!
+[2016-11-25 11:39:47.196] [INFO] 搜狐视频 - { id: '268383181', p: '9', name: '微在涨姿势', type: '0' }
+[2016-11-25 11:39:47.203] [TRACE] 搜狐视频 - Get souhu task!
+[2016-11-25 11:39:47.205] [INFO] 搜狐视频 - { id: '57133191', p: '9', name: '一风之音', type: '0' }
+[2016-11-25 11:39:47.208] [TRACE] 搜狐视频 - Get souhu task!
+[2016-11-25 11:39:47.210] [INFO] 搜狐视频 - { id: '288906002', p: '9', name: '欢乐迪士尼', type: '0' }
+[2016-11-25 11:39:47.214] [TRACE] 搜狐视频 - Get souhu task!
+[2016-11-25 11:39:47.219] [INFO] 搜狐视频 - { id: '291052495', p: '9', name: '大白TWO的玩具魔法世界', type: '0' }
+[2016-11-25 11:39:47.225] [TRACE] 搜狐视频 - Get souhu task!
+[2016-11-25 11:39:47.227] [INFO] 搜狐视频 - { id: '175880212', p: '9', name: 'ZEALERChina', type: '0' }
+[2016-11-25 11:39:47.232] [TRACE] 搜狐视频 - Get souhu task!
+[2016-11-25 11:39:47.233] [INFO] 搜狐视频 - { id: '159854242', p: '9', name: '北京郑云工作室', type: '0' }
+[2016-11-25 11:39:47.236] [TRACE] 搜狐视频 - Get souhu task!
+[2016-11-25 11:39:47.237] [INFO] 搜狐视频 - { id: '235819129', p: '9', name: '真是奇怪le', type: '0' }
+[2016-11-25 11:39:47.243] [TRACE] 搜狐视频 - Get souhu task!
+[2016-11-25 11:39:47.245] [INFO] 搜狐视频 - { id: '232653571', p: '9', name: '美拍搞笑精选', type: '0' }
+[2016-11-25 11:39:47.381] [DEBUG] 搜狐视频 - 用户: 291052495 back_end
+[2016-11-25 11:39:47.421] [DEBUG] 搜狐视频 - 用户: 57133191 back_end
+[2016-11-25 11:39:47.501] [DEBUG] 搜狐视频 - 用户: 235819129 back_end
+[2016-11-25 11:39:47.702] [DEBUG] 搜狐视频 - 用户: 268383181 back_end
+[2016-11-25 11:39:47.765] [DEBUG] 搜狐视频 - 用户: 215300280 back_end
+[2016-11-25 11:39:48.775] [DEBUG] 搜狐视频 - 用户: 288906002 back_end
+[2016-11-25 11:40:08.334] [ERROR] 搜狐视频 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-25 11:40:08.340] [INFO] 搜狐视频 - 返回搜狐视频用户 175880212 连接服务器失败
+[2016-11-25 11:40:08.360] [ERROR] 搜狐视频 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-25 11:40:08.360] [INFO] 搜狐视频 - 返回搜狐视频用户 291052495 连接服务器失败
+[2016-11-25 11:40:08.360] [ERROR] 搜狐视频 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-25 11:40:08.370] [INFO] 搜狐视频 - 返回搜狐视频用户 57133191 连接服务器失败
+[2016-11-25 11:40:08.370] [ERROR] 搜狐视频 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-25 11:40:08.380] [INFO] 搜狐视频 - 返回搜狐视频用户 159854242 连接服务器失败
+[2016-11-25 11:40:08.457] [ERROR] 搜狐视频 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-25 11:40:08.457] [INFO] 搜狐视频 - 返回搜狐视频用户 235819129 连接服务器失败
+[2016-11-25 11:40:08.557] [ERROR] 搜狐视频 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-25 11:40:08.557] [INFO] 搜狐视频 - 返回搜狐视频用户 232653571 连接服务器失败
+[2016-11-25 11:40:08.659] [ERROR] 搜狐视频 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-25 11:40:08.664] [INFO] 搜狐视频 - 返回搜狐视频用户 268383181 连接服务器失败
+[2016-11-25 11:40:08.669] [ERROR] 搜狐视频 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-25 11:40:08.672] [INFO] 搜狐视频 - 返回搜狐视频用户 215300280 连接服务器失败
+[2016-11-25 11:40:08.980] [TRACE] 搜狐视频 - Get souhu task!
+[2016-11-25 11:40:08.980] [INFO] 搜狐视频 - { id: '297377275', p: '9', name: '艾公子美遍全球', type: '0' }
+[2016-11-25 11:40:09.010] [DEBUG] 搜狐视频 - http://img.my.tv.sohu.com.cn/o_zoom,w_320,h_180/p225/2016/11/24/9/2/6_1597529e816g102SysCutcloud_86098443_7_2b.jpg
+[2016-11-25 11:40:09.020] [TRACE] 搜狐视频 - Get souhu task!
+[2016-11-25 11:40:09.020] [INFO] 搜狐视频 - { id: '265087007', p: '9', name: '萌星人de那些破事', type: '0' }
+[2016-11-25 11:40:09.050] [TRACE] 搜狐视频 - Get souhu task!
+[2016-11-25 11:40:09.060] [INFO] 搜狐视频 - { id: '300606434', p: '9', name: 'ruan9ruan', type: '0' }
+[2016-11-25 11:40:09.210] [DEBUG] 搜狐视频 - http://001.img.pu.sohu.com.cn/group3/M05/F1/8F/MTAuMTAuODguODQ=/dXBsb2FkRmlsZV8zXzE0Nzk5NTY5NTA2NDc=/cut@m=force,w=320,h=180.jpg
+[2016-11-25 11:40:09.349] [DEBUG] 搜狐视频 - 搜狐视频 86101392 加入缓存队列
+[2016-11-25 11:40:09.359] [DEBUG] 搜狐视频 - 用户: 300606434 back_end
+[2016-11-25 11:40:09.512] [DEBUG] 搜狐视频 - http://001.img.pu.sohu.com.cn/group2/M08/E6/54/MTAuMTAuODguODI=/dXBsb2FkRmlsZV8zXzE0Nzk4Njk1MjE3ODM=/cut@m=force,w=320,h=180.jpg
+[2016-11-25 11:40:09.552] [DEBUG] 搜狐视频 - http://img.my.tv.sohu.com.cn/o_zoom,w_320,h_180/p225/2016/11/24/19/14/6_159773e3b95g102SysCutcloud_86110961_7_1b.jpg
+[2016-11-25 11:40:09.681] [DEBUG] 搜狐视频 - 搜狐视频 86077755 加入缓存队列
+[2016-11-25 11:40:09.691] [ERROR] 搜狐视频 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-25 11:40:09.698] [INFO] 搜狐视频 - 返回搜狐视频用户 288906002 连接服务器失败
+[2016-11-25 11:40:09.832] [DEBUG] 搜狐视频 - http://001.img.pu.sohu.com.cn/group3/M03/F0/0C/MTAuMTAuODguODQ=/dXBsb2FkRmlsZV8zXzE0Nzk3ODk3NjIwMjg=/cut@m=force,w=320,h=180.jpg
+[2016-11-25 11:40:09.911] [DEBUG] 搜狐视频 - 搜狐视频 86110961 加入缓存队列
+[2016-11-25 11:40:10.122] [DEBUG] 搜狐视频 - http://img.my.tv.sohu.com.cn/o_zoom,w_320,h_180/p225/2016/11/24/10/5/6_15975631afdg102SysCutcloud_86100689_7_1b.jpg
+[2016-11-25 11:40:10.183] [DEBUG] 搜狐视频 - http://001.img.pu.sohu.com.cn/group3/M11/F1/B3/MTAuMTAuODguODQ=/dXBsb2FkRmlsZV8zXzE0Nzk5NzAyMDQzMTc=/cut@m=force,w=320,h=180.jpg
+[2016-11-25 11:40:10.282] [TRACE] 搜狐视频 - Get souhu task!
+[2016-11-25 11:40:10.286] [INFO] 搜狐视频 - { id: '256734900', p: '9', name: '兰渡文化', type: '0' }
+[2016-11-25 11:40:10.307] [DEBUG] 搜狐视频 - 搜狐视频 86100689 加入缓存队列
+[2016-11-25 11:40:10.389] [DEBUG] 搜狐视频 - http://img.my.tv.sohu.com.cn/o_zoom,w_320,h_180/p223/2016/11/23/10/18/6_1596f55c032g104SysCutcloud_86077476_7_2b.jpg
+[2016-11-25 11:40:10.582] [DEBUG] 搜狐视频 - 搜狐视频 86105565 加入缓存队列
+[2016-11-25 11:40:10.592] [ERROR] 搜狐视频 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-25 11:40:10.790] [DEBUG] 搜狐视频 - http://img.my.tv.sohu.com.cn/o_zoom,w_320,h_180/p222/2016/11/23/19/6/6_15972110ae4g102SysCutcloud_86091012_7_3b.jpg
+[2016-11-25 11:40:10.978] [DEBUG] 搜狐视频 - 搜狐视频 86091012 加入缓存队列

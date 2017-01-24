@@ -1,0 +1,6 @@
+[2016-12-05 11:51:04.728] [TRACE] uc头条 - DealWith instantiation ...
+[2016-12-05 11:51:04.728] [TRACE] uc头条 - spiderCore instantiation ...
+[2016-12-05 11:51:04.728] [TRACE] uc头条 - 启动函数
+[2016-12-05 11:51:04.744] [INFO] uc头条 - { id: '41ad6b83918746c2ad1a4afbab13e1cd',
+  name: '陈翔六点半',
+  p: '23' }

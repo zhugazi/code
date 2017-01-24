@@ -1,0 +1,45 @@
+[2016-11-30 16:47:58.704] [TRACE] 酷6 - DealWith instantiation ...
+[2016-11-30 16:47:58.712] [TRACE] 酷6 - spiderCore instantiation ...
+[2016-11-30 16:47:58.713] [TRACE] 酷6 - 启动函数
+[2016-11-30 16:47:58.734] [DEBUG] 酷6 - 任务信息数据库连接建立...成功
+[2016-11-30 16:47:58.734] [DEBUG] 酷6 - 缓存队列数据库连接建立...成功
+[2016-11-30 16:47:58.734] [DEBUG] 酷6 - 创建数据库连接完毕
+[2016-11-30 16:47:58.734] [INFO] 酷6 - { id: '24875965', name: '陈翔六点半', p: '14' }
+[2016-11-30 16:47:59.719] [ERROR] 酷6 - occur error :  { Error: getaddrinfo ENOTFOUND staging.caihongip.com staging.caihongip.com:80
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:79:26)
+  code: 'ENOTFOUND',
+  errno: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'staging.caihongip.com',
+  host: 'staging.caihongip.com',
+  port: 80 }
+[2016-11-30 16:48:20.734] [ERROR] 酷6 - occur error :  { Error: connect ETIMEDOUT 100.98.39.12:80
+    at Object.exports._errnoException (util.js:1007:11)
+    at exports._exceptionWithHostPort (util.js:1030:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1080:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '100.98.39.12',
+  port: 80 }
+[2016-11-30 16:48:20.734] [DEBUG] 酷6 - 开始获取视频总数
+[2016-11-30 16:48:25.428] [DEBUG] 酷6 - 开始获取第1页视频列表
+[2016-11-30 16:48:28.781] [DEBUG] 酷6 - 《陈翔六点半》第79集  烈女绝情分手男友被虐成狗！标题
+[2016-11-30 16:48:28.832] [DEBUG] 酷6 - 陈翔六点半 陈翔 搞笑 幽默 喜剧标签
+[2016-11-30 16:48:28.842] [DEBUG] 酷6 - 酷6视频 axah0gJ5aUycxX-XJVwiJg.. 加入缓存队列
+[2016-11-30 16:48:28.974] [DEBUG] 酷6 - 《陈翔六点半》第78集 土豪身患重病耽误娇妻终生！标题
+[2016-11-30 16:48:28.990] [DEBUG] 酷6 - 陈翔六点半 搞笑 喜剧 幽默 原创标签
+[2016-11-30 16:48:28.990] [DEBUG] 酷6 - 酷6视频 0iKPluBS72wwHemtwgmE2g.. 加入缓存队列
+[2016-11-30 16:48:29.131] [DEBUG] 酷6 - 《陈翔六点半》第75集 丑女整容惨被罪恶美貌吞噬标题
+[2016-11-30 16:48:29.152] [DEBUG] 酷6 - 陈翔六点半 陈翔 喜剧 幽默 原创标签
+[2016-11-30 16:48:29.157] [DEBUG] 酷6 - 酷6视频 5lDq5GN09OGKleSDl0rI5Q.. 加入缓存队列
+[2016-11-30 16:48:29.299] [DEBUG] 酷6 - 《陈翔六点半》第74集 虚荣美女浪漫之邀惨遭猥男伤标题
+[2016-11-30 16:48:29.315] [DEBUG] 酷6 - 陈翔六点半 陈翔 喜剧 幽默标签
+[2016-11-30 16:48:29.315] [DEBUG] 酷6 - 酷6视频 w57IyfSjvjtvWqNLL8rFHw.. 加入缓存队列
+[2016-11-30 16:48:29.475] [DEBUG] 酷6 - 《陈翔六点半》第73集 基友深夜撞鬼遇袭惊魂失措！标题
+[2016-11-30 16:48:29.912] [DEBUG] 酷6 - 陈翔六点半 陈翔 喜剧 幽默 原创标签
+[2016-11-30 16:48:29.912] [DEBUG] 酷6 - 酷6视频 8ybzWg7d5wiKJtifXIc11g.. 加入缓存队列
+[2016-11-30 16:48:30.084] [DEBUG] 酷6 - 《陈翔六点半》第72集 娇妻守空床丈夫奔向麻友房标题
+[2016-11-30 16:48:30.084] [DEBUG] 酷6 - 陈翔六点半 陈翔 原创 喜剧 幽默标签
+[2016-11-30 16:48:30.100] [DEBUG] 酷6 - 酷6视频 iV1lBa4pVnzGtDc4Bxg4mg.. 加入缓存队列
