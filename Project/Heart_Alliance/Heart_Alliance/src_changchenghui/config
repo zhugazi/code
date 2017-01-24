@@ -1,0 +1,45 @@
+module.exports = {
+    name : 'demo演示',
+    version: 
+    [
+        {v:"1.0.0",d:"2016-08-08"},
+        {v:"1.0.1",d:"2016-08-09"}
+    ],
+    devConfig:{
+        min:true,
+        path:'./src',
+        sassPath : '/assets/scss/',
+        jsPath:'/assets/js/',
+        imagePath:'/assets/images/',
+        templatePath:'/templates/',
+        htmlPath:'/views/',
+        tempDataPath:'/__tempData/',
+        tempFilePath:'/__tempfiles/'
+    },
+    prodConfig:{
+        pre:{            
+            path:'./dest',
+            cssPath : '/assets/css/',
+            jsPath:'/assets/js/',
+            imagePath:'/assets/images/',
+            templatePath:'/templates/',
+            htmlPath:'/views/',
+            min:false,
+            concat:false,
+            htmlCompress:false,
+            templateCompress:false
+        },
+        build:{
+            path:'./dist',
+            cssPath : '/assets/css/',
+            jsPath:'/assets/js/',
+            imagePath:'/assets/images/',
+            templatePath:'/templates/',
+            htmlPath:'/views/',
+            min:true,
+            concat:true,
+            htmlCompress:true,
+            templateCompress:true
+        }
+    }
+};
