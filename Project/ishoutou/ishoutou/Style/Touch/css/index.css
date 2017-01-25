@@ -1,0 +1,219 @@
+.act-color-deep {
+  color: #7d4e1f;
+  font-weight: bold;
+}
+
+.act-color-red {
+  color: #b72710;
+}
+
+.act-color-blue {
+  color: #0088b5;
+  font-size: 16px;
+  vertical-align: bottom;
+}
+
+.act-color-gray {
+  color: #998e8a;
+  font-size: 12px;
+}
+
+.act-color-green {
+  color: #e8f767;
+}
+
+.act-btn {
+  display: inline-block;
+  width: 188px;
+  height: 31px;
+  text-align: center;
+  background: url("../image/btn.png");
+  background-size: 188px 31px;
+  color: #fff;
+  line-height: 31px;
+  font-size: 14px;
+}
+
+.act-nav {
+  display: flex;
+  display: -webkit-flex;
+  margin: -18% 10px 0 20px;
+}
+.act-nav a {
+  flex: 1;
+  -webit-flex: 1;
+  margin-right: 10px;
+}
+
+.act-container {
+  font-size: 12px;
+  background: #efba00 url("../image/act-bom.png") center bottom no-repeat;
+  padding: 0 5px 70px 5px;
+}
+.act-container img {
+  vertical-align: top;
+}
+
+.act-box {
+  margin-bottom: 20px;
+  position: relative;
+}
+.act_box_left{
+	width: 4px;
+	position: absolute;
+	left: 2px;
+	top: 10%;
+	bottom: 19px;
+	background: #e2cc93;
+	border-left: 1;
+}
+.act_box_right{
+	width: 4px;
+	position: absolute;
+	right: 0;
+	top: 10%;
+	bottom: 19px;
+	background: #e2cc93;
+}
+.act-box .act-title img {
+  vertical-align: top;
+}
+.act-box .box-middle {
+	background:#f6f0e5;
+  padding: 10px 15px 15px 25px;
+  margin-left: 2px;
+  border-left: 4px solid #e2cc93;
+  border-right: 4px solid #e2cc93;
+}
+.act-box .box-middle_chou{
+	width: 100px;
+	height: 31px;
+	line-height: 31px;
+	margin: 10px 0 45px 0;
+	text-align: center;
+	background: url("../image/btn.png") no-repeat;
+	background-size: 100px 31px;
+	color: #fff;
+}
+.act-box .box-middle_tu{
+	display: block;
+	width: 28%;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	margin-right: 4%;
+	margin-bottom: 5%;
+}
+.act-box .box-middle_tu img{
+	display: block;
+	width: 100%;
+}
+
+
+
+.act-box .box-middle.act1 ul {
+	box-sizing: border-box;
+  margin-top: 10px;
+  padding-bottom: 15px;
+  display: flex;
+  display: -webkit-flex;
+}
+.act-box .box-middle.act1 ul .act-btn {
+  margin: 30px 0 0 20px;
+}
+.act-box .box-middle.act2 ul {
+  margin-left: 14px;
+}
+.act-box .box-middle.act2 ul li {
+  text-indent: -20px;
+  margin-bottom: 10px;
+}
+.act-box .box-middle.act2 .note {
+  padding-left: 24px;
+  text-indent: -24px;
+}
+.act-box .box-middle.act3 .act3-award {
+  text-indent: -20px;
+  padding-left: 20px;
+}
+.act-box .box-middle.act3 ul {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding-top: 5px;
+  display: flex;
+  display: -webkit-flex;
+}
+.act-box .box-middle.act3 ul li {
+  flex: 1;
+  -webit-flex: 1;
+  background-color: #fff;
+  font-size: 16px;
+  text-align: center;
+  position: relative;
+}
+.act-box .box-middle.act3 ul li .act-color-gray {
+  font-size: 12px;
+  text-align: center;
+  line-height: 18px;
+  padding-bottom: 10px;
+}
+.act-box .box-middle.act3 ul li i {
+  position: absolute;
+  height: 30px;
+  width: 1px;
+  background-color: #dbcdc3;
+  right: 0;
+  top: 13px;
+}
+.act-box .box-middle.act3 ul li .red {
+  color: #df0101;
+}
+.act-box .box-middle .act3-tip {
+  padding: 0 20px 20px 20px;
+}
+.act-box .box-middle.act4 {
+  text-align: center;
+  line-height: 26px;
+  margin-top: -30px;
+}
+.act-box .box-middle.act4 .act-btn {
+  margin: 10px 0;
+}
+.act-box .act2-time {
+  padding-top: 20px;
+}
+.act-box .act-box-bom img {
+  vertical-align: top;
+}
+
+.act-bottom {
+  height: 55px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+}
+.act-bottom .act-btn-green {
+  margin-top: 8px;
+  display: inline-block;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  background-color: #009944;
+  width: 220px;
+  border-radius: 3px;
+}
+
+.act-pb10 {
+  padding-bottom: 10px;
+}
+
+.activity_Main{background: #f6f0e5;border-left: 4px solid #e2cc93;border-right: 4px solid #e2cc93;margin-left: 2px;}
+.activity_Main .addBg{width:293px;margin:0 auto;padding:12px 0 0;overflow:hidden;}
+.activity_Main .activity_box1{margin-bottom:15px;}
+.activity_Main .step{width:293px;height:22px;margin:0 auto;background:url(../image/12_1.png) no-repeat;background-size:293px}
+.activity_Main .addTime{height:35px;line-height:35px; text-align:center;color:#b72710;}

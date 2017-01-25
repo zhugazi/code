@@ -1,0 +1,23 @@
+header{height: 0.68rem;width: 6.05rem;margin: 0 auto;box-sizing: border-box;font-size: 0.2rem;color: #666;line-height: 0.68rem;margin-bottom: 0.05rem;}
+header img{display: inline-block;width: 0.48rem;vertical-align: middle;margin-left: 0.13rem;}
+.weixin_mian{width: 6.05rem;margin: 0 auto;padding: 0.1rem;box-sizing: border-box; border: 1px solid #d9dad9;}
+.weixin_mian>div{height: 0.97rem;width: 100%;border-bottom: 1px solid #d2d2d2;margin-bottom: 0.1rem;}
+.weixin_mian>div dl.main_left{width: 3.25rem;float: left;}
+.weixin_mian>div dl.main_left dt{width: 0.84rem;height: 0.84rem;overflow:hidden;float: left;border: 1px solid #e9eae9;}
+.weixin_mian>div dl.main_left dt img{width: 100%;display: block;}
+.weixin_mian>div dl.main_left dd{width: 2.3rem;float: left;padding-left: 0.1rem;padding-top:0.08rem;box-sizing: border-box;}
+.weixin_mian>div dl.main_left dd h3{font-size: 0.24rem;color: #6e6e6e;}
+.weixin_mian>div dl.main_left dd p{font-size: 0.18rem;color: #3cc6a2;margin-top: 0.03rem;}
+.weixin_mian>div dl.main_left dd p em{display:block;float: left; width: 0.3rem;height: 0.27rem;margin-right: 0.1rem; background: url(../images/weixin/weixin03_03.png) no-repeat; background-size: 100% 100%;}
+.main_right_pai{width: 2.55rem;float: right;text-align: right;}
+.main_right_pai img{width: 0.27rem;}
+.main_right_pai dt{padding-right: 0.1rem;box-sizing: border-box;}
+.main_right_pai dd{font-size: 0.18rem;color: #9fa09f;padding-right: 0.2rem;box-sizing: border-box;}
+.main_right_pai dd em{font-size: 0.14rem;color: #ea7853;}
+.main_right{width: 2.55rem;float: right;}
+.main_right dt{width: 0.43rem;height: 0.43rem;float: right; border-radius: 100%;font-size: 0.24rem;color: #fff;text-align: center;font-weight: bold;line-height: 0.43rem;background: #00a14b  url(../images/weixin/weixin07_03.jpg) no-repeat; background-size: 100% 100%;}
+.main_right dd{font-size: 0.18rem;color: #9fa09f;padding-right: 0.2rem;box-sizing: border-box;text-align: right;clear: both; }
+.main_right dd em{font-size: 0.14rem;color: #ea7853;}
+
+
+
