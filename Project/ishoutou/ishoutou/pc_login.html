@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>登录账户</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link rel="stylesheet" href="File/css/style.css" type="text/css"/>
+<script src="File/js/jquery-1.8.2.min.js" type="text/javascript" ></script>
+<script src="File/js/common.js" type="text/javascript"></script>
+<script src="File/js/focus2.js" type="text/javascript"></script>
+<!--[if IE]>
+<script src="http://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js"></script>
+<![endif]-->
+</head>
+
+<body class="childBg">
+<div id="header" class="headBox" style="position: static;">
+    <div class="header">
+        <div class="logo"><img src="File/images/login.png"></div>
+        <ul class="navBox">
+            <li><a href="#" target="_blank">首页</a></li>
+            <li><a href="#" target="_blank">我要理财</a></li>
+            <li><a href="#" target="_blank">贷款俱乐部</a></li>
+            <li><a href="#" target="_blank">新手指引</a></li>
+            <li><a href="#" target="_blank">关于我们</a></li>
+        </ul>
+        <!--登录前 B-->
+        <div class="regBox">
+            <a href="#" class="regBtn" target="_blank">注册</a>
+            <a href="#" class="regBtn logoBtn" target="_blank">登录</a>
+        </div>
+        <!--登录前 E-->
+        <!--登录后 B-->
+        <div class="regBox" style="display:none;">
+            <a href="#" class="accountBox" target="_blank"><i class="account">我的帐户</i></a>
+        </div>
+        <!--登录后 E-->
+        <div class="clr"></div>
+    </div>
+</div>
+
+<!--主体 B-->
+<div class="indexBox3" style="background:#dbeaf2;">
+    <div style="height:90px;overflow:hidden;"></div>
+    <div class="loginBox">
+        <!--左侧焦点图 B-->
+        <div id="loginFocus" class="login_focusBox">
+            <a class="btnLeft" id="btnLeft" href="javascript:void(0);"></a>
+            <a class="btnRight" id="btnRight" href="javascript:void(0);"></a>
+            <div class="focus_box">
+                <img style="opacity:1;filter:alpha(opacity=100);" src="File/images/img_20_12.png" />
+                <img src="File/images/img_20_12.png" />
+                <img src="File/images/img_20_12.png" />
+            </div>
+            <div class="focus_page">
+                <a class="active" href="javascript:void(0);">1</a>
+                <a href="javascript:void(0);">2</a>
+                <a href="javascript:void(0);">3</a>
+            </div>
+        </div>
+        <!--左侧焦点图 E-->
+
+        <!--登录帐户 B-->
+        <div class="loginAccount">
+            <h2>登录手投网</h2>
+            <div class="loginCon">
+                <div class="flp">
+                    <div>
+                        <input type="text" id="fname" />
+                        <label for="fname">手机号/用户名/邮箱</label>
+                    </div>
+                    <div>
+                        <input type="password" id="password" />
+                        <label for="password">密码</label>
+                    </div>
+                    <div style="position: relative;margin-bottom:15px;">
+
+                        <input type="text" id="code" style="width:200px;" />
+                        <label for="code" style="width:200px;">验证码</label>
+                        <div class="loginCode">
+                            <img src="https://www.ishoutou.com/Member/common/verify?t=0.21877155063279707?t=0.38135361793017897" style=" width:48px; height:38px;border: 1px solid #ccc;margin:3px 0px 0 5px;background:#fff;" alt="点击换一个校验码" id="imVcode" onclick="this.src=this.src+'?t='+Math.random()">
+                            <a href="javascript:document.getElementById('imVcode').onclick();">刷新</a>
+                        </div>
+                    </div>
+                    <p class="login_tips">
+                        <span class="tipsCon warn">请填写手机号、用户名或邮箱</span><!--warn为警告，error为错误提示-->
+                    </p>
+                </div>
+                <div class="fpwBox">
+                    <p class="fpwTop">
+                        <label for="remember"><span class="selected"></span><input name="" id="remember" type="hidden" />记住我</label>
+                        <span class="fpw"><a href="#">忘记密码？</a>  |  <a href="#">免费注册</a></span>
+                    </p>
+                    <p class="loginBtn" style="margin:0px;"><a href="#">登  录</a></p>
+                </div>
+            </div>
+        </div>
+        <!--登录帐户 E-->
+        <div class="clr"></div>
+    </div>
+    <div class="clr"></div>
+    <div style="height:95px;overflow:hidden;"></div>
+</div>
+<!--主体 E-->
+
+<!--底部 B-->
+<div class="indexBox Bg4">
+    <div class="footerBox">
+        <ul class="aboutUs">
+            <li><a href="#" target="_blank">安全保障</a></li>
+            <li><a href="#" target="_blank">诚聘英才</a></li>
+            <li><a href="#" target="_blank">帮助中心</a></li>
+            <li><a href="#" target="_blank">法律声明</a></li>
+            <li><a href="#" target="_blank">平台数据</a></li>
+            <li><a href="#" target="_blank">联系我们</a></li>
+            <li><a href="#" target="_blank">网站地图</a></li>
+        </ul>
+        <p>我们的建议依赖历史数据。未来收益的历史表现并不是一个保证。</p>
+        <p>©2015手投网 (www.ishoutou.com) | 北京手投网投资控股有限公司　|　京ICP备15028302号　|　版权所有：手投网</p>
+        <div class="followUs">
+            <span>关注我们
+                <a class="wb"><img src="File/images/wb3.png" alt="" style="display: none;"></a>
+                <a class="wx"><img src="File/images/wx3.jpg" alt="" style="display: none;"></a>
+            </span>
+            <span style="margin-left:40px;">客服电话  400-047-5588</span>
+        </div>
+        <ul class="attestation">
+            <li><a href="#" class="tu1" target="_blank"></a></li>
+            <li style="width:126px;"><a href="#" class="tu2" target="_blank"></a></li>
+            <li style="width:126px;margin-right:0;"><a href="#" class="tu3" target="_blank"></a></li>
+        </ul>
+    </div>
+</div>
+<!--底部 E-->
+
+<!-- jQuery -->
+<!-- jQuery easing plugin for animation fun -->
+<script src="File/js/jquery.easing.min.js" type="text/javascript"></script>
+<script>
+    //breakdown the labels into single character spans
+    $(".flp label").each(function(){
+        var sop = '<span class="ch">'; //span opening
+        var scl = '</span>'; //span closing
+        //split the label into single letters and inject span tags around them
+        $(this).html(sop + $(this).html().split("").join(scl+sop) + scl);
+        //to prevent space-only spans from collapsing
+        $(".ch:contains(' ')").html("&nbsp;");
+    })
+
+    var d;
+    //animation time
+    $(".flp input").focus(function(){
+        //calculate movement for .ch = half of input height
+        var tm = $(this).outerHeight()/2 *-1 + "px";
+        //label = next sibling of input
+        //to prevent multiple animation trigger by mistake we will use .stop() before animating any character and clear any animation queued by .delay()
+        $(this).next().addClass("focussed").children().stop(true).each(function(i){
+            d = i*50;//delay
+            $(this).delay(d).animate({top: tm}, 200, 'easeOutBack');
+        })
+    })
+    $(".flp input").blur(function(){
+        //animate the label down if content of the input is empty
+        if($(this).val() == "")
+        {
+            $(this).next().removeClass("focussed").children().stop(true).each(function(i){
+                d = i*50;
+                $(this).delay(d).animate({top: 0}, 500, 'easeInOutBack');
+            })
+        }
+    })
+</script>
+</body>
+</html>

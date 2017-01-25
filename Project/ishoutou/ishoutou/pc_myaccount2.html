@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>个人资料</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link rel="stylesheet" href="File/css/style.css" type="text/css"/>
+<script src="File/js/jquery-1.8.2.min.js" type="text/javascript" ></script>
+<script src="File/js/common.js" type="text/javascript"></script>
+<script type="text/javascript">
+    setInterval("redireact()",1000);
+    function redireact() {
+        var seconds = $('.seconds').html();
+        seconds = parseInt(seconds);
+        if(seconds==0) {
+            location.href = '/';
+        }else {
+            $('.seconds').html(seconds-1);
+        }
+    }
+</script>
+</head>
+
+<body class="childBg">
+<div id="header" class="headBox" style="position: static;">
+    <div class="header">
+        <div class="logo"><img src="File/images/login.png"></div>
+        <ul class="navBox">
+            <li><a href="#" target="_blank">首页</a></li>
+            <li><a href="#" target="_blank">我要理财</a></li>
+            <li><a href="#" target="_blank">贷款俱乐部</a></li>
+            <li><a href="#" target="_blank">新手指引</a></li>
+            <li><a href="#" target="_blank">关于我们</a></li>
+        </ul>
+        <!--登录前 B-->
+        <div class="regBox" style="display:none;">
+            <a href="#" class="regBtn" target="_blank">注册</a>
+            <a href="#" class="regBtn logoBtn" target="_blank">登录</a>
+        </div>
+        <!--登录前 E-->
+        <!--登录后 B-->
+        <div class="regBox">
+            <a href="#" class="accountBox" target="_blank"><i class="account">我的帐户</i></a>
+        </div>
+        <!--登录后 E-->
+        <div class="clr"></div>
+    </div>
+</div>
+
+<!--主体 B-->
+<div class="companyTop">
+    <ul class="companyTitBox friendBox companyTitBox_wrap">
+        <li id="conTab1" onclick="TabMove('con',1,7)"><a href="pc_myaccount1.html">账户总览</a></li>
+        <li id="conTab2" onclick="TabMove('con',2,7)"><a href="pc_myaccount3.html">投标记录</a></li>
+        <li id="conTab3" onclick="TabMove('con',3,7)"><a href="pc_myaccount4.html">借款记录</a></li>
+        <li id="conTab4" onclick="TabMove('con',4,7)"><a href="pc_myaccount5.html">充值提现</a></li>
+        <li id="conTab5" onclick="TabMove('con',5,7)"><a href="pc_myaccount6.html">自动投标</a></li>
+        <li id="conTab6" onclick="TabMove('con',6,7)"><a href="pc_myaccount7.html">邀请好友</a></li>
+        <li id="conTab7" class="current" onclick="TabMove('con',7,7)"><a href="pc_myaccount2.html">个人资料</a></li>
+    </ul>
+</div>
+
+<div class="indexBox3">
+    <div class="eventMain winWith">
+        <!--个人资料 B-->
+        <div class="baseInfoMain">
+            <div class="baseInfoBox">
+                <h2>基本信息</h2>
+                <div class="baseInfo_1020">
+                    <div class="avatarBox">
+                        <div class="headIcon"><a href="#"><img src="File/images/temp2.jpg" width="70" height="70" alt="点击进行头像更换" title="点击进行头像更换"></a></div>
+                        <div class="headIconR">
+                            <p class="userName">路走不好容易闪着腰</p>
+                            <ul class="avatarState">
+                                <li class="icon1 selected"><a href="#" title="实名认证通过"></a></li>
+                                <li class="icon2"><a href="#" title="手机认证通过"></a></li>
+                                <li class="icon3"><a href="#" title="支付密码已设置"></a></li>
+                            </ul>
+                        </div>
+                        <div class="clr"></div>
+                    </div>
+                    <div class="earningsBox">
+                        <ul>
+                            <li>
+                                <div class="earningsTit">累计净收益</div>
+                                <p><i>59999</i>.78<span>元</span></p>
+                            </li>
+                            <li class="last">
+                                <div class="earningsTit">可用金额<label href="#" class="cz" title="充值">充值</label></div>
+                                <p><i>59999</i>.78<span>元</span></p>
+                            </li>
+                        </ul>
+                    </div>
+                    <script>
+                        $(".earningsTit>label").on("click",function(){
+                            if($(this).hasClass("direct")){
+                                return false;
+                            }else{
+                                location.href="pc_myaccount5.html";
+                            }
+                        })
+                    </script>
+                </div>
+            </div>
+        </div>
+        <script>
+            $(function(){
+                $("#perTab1,#perTab2").click(function(){
+                    $(this).find("ul").show();
+                })
+
+                $(".personal_dataTit_oul li").click(function(){
+                    $(this).addClass("cur").siblings("li").removeClass("cur");
+                    $(".changePwMain2 .pd_oul_list").eq($(this).index()).fadeIn(200).siblings(".pd_oul_list").hide();
+                })
+
+                $(".personal_dataTit_oul #Update_Pw").click(function(){
+                    $("#Update_Pw_con .changePwMain").show();
+                    $("#Update_Pw_con .changePwMain3").show();
+                })
+
+                $(".personal_dataTit_oul2 li").click(function(){
+                    $(this).addClass("cur").siblings("li").removeClass("cur");
+                    $(".CA_Main2 .CA_Main_list").eq($(this).index()).fadeIn(200).siblings(".CA_Main_list").hide();
+                })
+
+                $("#perTab1,#perTab2").mouseleave(function(){
+                    $(this).find(".personal_dataTit_oul").hide();
+                    $(this).find(".personal_dataTit_oul2").hide();
+                });
+
+                $(".personal_dataTit_oul,.personal_dataTit_oul2").mouseleave(function(){
+                    $(this).hide();
+                });
+            });
+        </script>
+        <div class="baseInfoMain Bg3" style="overflow: initial;">
+            <div class="baseInfoBox" style="padding:0;overflow: initial;">
+                <ul class="personal_dataTit">
+                    <li id="perTab1" class="current" onclick="TabMove('per',1,4)">
+                        <a class="perTab1" href="javascript:;">
+                            修改密码
+                            <ul class="personal_dataTit_oul">
+                                <li id="Update_Pw" class="cur">修改登录密码</li>
+                                <li>修改支付密码</li>
+                            </ul>
+                        </a>
+                    </li>
+                    <li id="perTab2" onclick="TabMove('per',2,4)">
+                        <a class="perTab2" href="javascript:;">
+                            认证中心
+                            <ul class="personal_dataTit_oul2">
+                                <li class="cur">手机认证</li>
+                                <li>实名认证</li>
+                            </ul>
+                        </a>
+
+                    </li>
+                    <li id="perTab3" onclick="TabMove('per',3,4)"><a href="#">头像设置</a></li>
+                    <li id="perTab4" onclick="TabMove('per',4,4)"><a href="#">个人信息</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="baseInfoMain">
+            <div class="baseInfoBox">
+                <div class="personal_dataMain">
+                    <div id="per_1" class="eventMain">
+
+                        <div class="changePwMain2">
+                            <div id="Update_Pw_con" class="pd_oul_list" style="display:block;">
+                                <!--修改登录密码 B-->
+                                <div class="changePwMain">
+                                    <div class="changePwBox">
+                                        <h2>修改登录密码</h2>
+                                        <div class="changePwL" style="width:100%;">
+                                            <div class="changePwCon">
+                                                <p>
+                                                    <em style="text-align: left;margin-right:0;">请输入用户名：</em>
+                                                    <span class="writeCon">路走不好容易闪着腰</span>
+                                                </p>
+                                                <p>
+                                                    <em style="text-align: left;margin-right:0;">请输入原密码：</em>
+                                                    <input class="inp1" id="" type="password" name="" placeholder="请输入原密码"/>
+                                                </p>
+                                                <p>
+                                                    <em style="text-align: left;margin-right:0;">请输入新密码：</em>
+                                                    <input class="inp1" id="" type="password" name="" placeholder="*************************"/>
+                                                    <span class="new_Tips_ok">输入您的新密码</span>
+                                                </p>
+                                                <p>
+                                                    <em style="text-align: left;margin-right:0;">请再输入新密码：</em>
+                                                    <input class="inp1" id="" type="password" name="" placeholder="*************************"/>
+                                                    <span class="new_Tips_error">新密码输入错误</span>
+                                                </p>
+                                                <p style="text-align: center;">
+                                                    <a href="javascript:;" class="updateBtn">提交更新</a>
+                                                </p>
+                                            </div>
+
+                                        </div>
+                                        <div class="clr"></div>
+                                    </div>
+                                </div>
+                                <div class="changePwMain3">
+                                    <p class="tit">温馨提醒：</p>
+                                    <p>您可以通过经常性修改密码更好的保护您的账号安全，以避免您受到意外损失。</p>
+                                    <p>1、经常性修改密码能有效的保护您的帐号安全。</p>
+                                    <p>2、涉及到您的资金安全，请勿设置简单的密码，不要设置和其它网站相同的密码。</p>
+                                </div>
+                                <!--修改登录密码 E-->
+                            </div>
+                            <div class="pd_oul_list" style="display:none;">
+                                <!--修改支付密码 B-->
+                                <div class="changePwMain">
+                                    <div class="changePwBox">
+                                        <h2>修改支付密码</h2>
+                                        <div class="changePwL" style="width:100%;">
+                                            <div class="changePwCon">
+                                                <p>
+                                                    <em style="text-align: left;margin-right:0;">请输入用户名：</em>
+                                                    <span class="writeCon">路走不好容易闪着腰</span>
+                                                </p>
+                                                <p>
+                                                    <em style="text-align: left;margin-right:0;">请输入原密码：</em>
+                                                    <input class="inp1" id="" type="password" name="" placeholder="请输入原密码"/>
+                                                </p>
+                                                <p>
+                                                    <em style="text-align: left;margin-right:0;">请输入新密码：</em>
+                                                    <input class="inp1" id="" type="password" name="" placeholder="*************************"/>
+                                                    <span class="new_Tips_ok">输入您的新密码</span>
+                                                </p>
+                                                <p>
+                                                    <em style="text-align: left;margin-right:0;">请再输入新密码：</em>
+                                                    <input class="inp1" id="" type="password" name="" placeholder="*************************"/>
+                                                    <span class="new_Tips_error">新密码输入错误</span>
+                                                </p>
+                                                <p style="text-align: center;">
+                                                    <a href="javascript:;" class="updateBtn">提交更新</a><i class="forget_pay_pw">忘记支付密码？</i>
+                                                </p>
+                                            </div>
+
+                                        </div>
+                                        <div class="clr"></div>
+                                    </div>
+                                </div>
+                                <div class="changePwMain3">
+                                    <p class="tit">温馨提醒：</p>
+                                    <p>您可以通过经常性修改密码更好的保护您的账号安全，以避免您受到意外损失。</p>
+                                    <p>1、经常性修改密码能有效的保护您的帐号安全。</p>
+                                    <p>2、涉及到您的资金安全，请勿设置简单的密码，不要设置和其它网站相同的密码。</p>
+                                </div>
+                                <!--修改支付密码 E-->
+
+                                <!--忘记支付密码步骤1 B-->
+                                <div class="forget_pay_pwBox" style="display:none;">
+                                    <div class="loginMain" style="width:1020px;border:0;background:none;">
+                                        <div class="lockArea">提示：为保障您的账号安全，请再次输入登录密码！</div>
+                                        <div class="loginArea">
+                                            <p><em style="width:70px;font-size:16px;text-align: left;">登录密码</em><input type="password" class="inp6" placeholder="请输入登录密码"></p>
+                                            <p>
+                                                <em style="width:70px;font-size:16px;text-align: left;">验证码</em>
+                                                <input type="text" class="inp10" placeholder="点击可刷新图片">
+                                                <img src="https://www.ishoutou.com/Member/common/verify?t=0.21877155063279707?t=0.38135361793017897" style=" width:48px; height:38px;border: 1px solid #ccc;margin:0px 0px 0 10px;background:#fff;" alt="点击换一个校验码" id="imVcode" onclick="this.src=this.src+'?t='+Math.random()">
+                                            </p>
+                                            <p class="login_tips" style="text-align:left;">
+                                                <em style="width:70px;">&nbsp;</em>
+                                                <!--warn为警告，error为错误提示-->
+                                                <span class="tipsCon warn">请输入登录密码。</span>
+                                            </p>
+                                            <p class="loginBtn" style="margin:0px;"><a href="javascript:;" class="nextBtn" style="width:312px;">确认，进入下一步</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--忘记支付密码步骤1 E-->
+
+                                <!--忘记支付密码步骤2 B-->
+                                <div class="forget_pay_pwBox2" style="display:none;">
+                                    <div class="loginMain" style="width:1020px;border:0;background:none;">
+                                        <div class="lockArea">提示：请重新设置您个人账户的支付密码哦！</div>
+                                        <div class="loginArea write_payPw">
+                                            <p><em>您的用户名</em><input type="text" class="inp12" placeholder="请输入您的用户名"></p>
+                                            <p><em>设置支付密码</em><input type="password" class="inp12" placeholder="请输入您的支付密码"></p>
+                                            <p><em>确认支付密码</em><input type="password" class="inp12" placeholder="请重复输入您的支付密码"></p>
+                                            <p class="login_tips" style="text-align:left;">
+                                                <em>&nbsp;</em>
+                                                <!--warn为警告，error为错误提示-->
+                                                <span class="tipsCon warn">请输入您的用户名。</span>
+                                            </p>
+                                            <p class="loginBtn" style="margin:0px;"><a href="javascript:;" class="nextBtn" style="width:312px;">确认，进入下一步</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--忘记支付密码步骤2 E-->
+
+                                <!--忘记支付密码步骤3 B-->
+                                <div class="forget_pay_pwBox3" style="display:none;">
+                                    <div class="loginMain" style="width:1020px;border:0;background:none;">
+                                        <div class="lockArea">提示：为了保持您账号安全性，请您定期更新密码！</div>
+                                        <div class="loginArea">
+                                            <p style="width:100%;height:86px;text-align: center;"><img src="File/images/img_20_10.png" width="85" height="86"></p>
+                                            <p style="text-align: center;font-size:16px;">支付密码设置成功</p>
+                                            <p class="loginBtn" style="margin-bottom:40px;"><a href="#" class="nextBtn" style="float:none;width:312px;margin:0 auto;">进入我的账户</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--忘记支付密码步骤3 E-->
+
+                                <script>
+                                    $(function(){
+                                        $(".changePwMain .forget_pay_pw").click(function(){
+                                            $(this).parents(".changePwMain2").find(".forget_pay_pwBox").show();
+                                            $(this).parents(".changePwMain2").find(".changePwMain").hide();
+                                            $(this).parents(".eventMain").find(".changePwMain3").hide();
+                                        })
+                                    })
+                                </script>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div id="per_2" class="eventMain" style="display:none;">
+
+                        <div class="CA_Main2">
+                            <div class="CA_Main_list" style="display: block;">
+                                <!--手机认证 B-->
+                                <div class="CA_Main stp1">
+                                    <div class="CA_tit" style="margin-top:0;">手机认证</div>
+                                    <p class="CA_msg">您可以通过经常性修改密码更好的保护您的帐号安全，以避免您受到意外损失</p>
+                                    <div class="CA_show">
+                                        <span class="CA_pic"><img src="File/images/img_19_1.jpg" width="255" height="126"></span>
+                                        <div class="CA_picTips">
+                                            <p class="CA_picTipsCon">温馨提示：您好，你已经验证了号码为18*******85的号码。</p>
+                                            <p id="chk5">
+                                                <label for="p1"><span class="chk5Tit1"></span><input name="" id="p1" type="hidden" />通过验证码修改您原有的手机</label>
+                                                <label for="p2"><span class="chk5Tit2"></span><input name="" id="p2" type="hidden" />通过安全问题和邮件安全码回答问题</label>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="chk5Con1" style="display:none;">
+                                        <div class="CA_tit">第一步：获取手机验证码</div>
+                                        <p class="CA_msg">您已绑定的手机号码为<i>18*******85</i>，如要修改，请单击下面按钮，手投网将向您绑定的手机上发送一条包含验证码的短信，请将收到的验证码在第二步时输入。</p>
+                                        <div class="CA_btnArea">
+                                            <a href="javascript:;" class="code sendCode">发送验证码</a><span class="gainCode" style="display: none;"><a href="javascript:;">重新获取</a>（<i class="seconds">58</i>）</span>
+                                        </div>
+                                        <div class="CA_tit">第二步：修改绑定手机号码</div>
+                                        <p class="CA_msg"><i style="color:#007eab;">*</i>手机号码     185****0000</p>
+                                        <div class="CA_btnArea">
+                                            <a href="javascript:;" class="code">完成验证</a>
+                                        </div>
+                                        <p class="CA_msg">（完成新的手机号码绑定后，手投网和您所有的手机联系将即刻转到您的新的手机号码上，请妥善保存您的手机）</p>
+                                    </div>
+                                    <div class="chk5Con2" style="display:none;">
+                                        <div class="CA_tit">通过安全问题重置手机号码</div>
+                                        <div class="changePwCon">
+                                            <p>
+                                                <em>问题一</em>
+                                                <span class="writeCon">怎么证明你是你呢？</span>
+                                            </p>
+                                            <p>
+                                                <em><i style="color:#007eab;">*</i>答案</em>
+                                                <input class="inp1" id="" type="password" name="" placeholder="请填写问题答案"/>
+                                            </p>
+                                            <p>
+                                                <em>问题二</em>
+                                                <span class="writeCon">怎么证明你是你呢？</span>
+                                            </p>
+                                            <p>
+                                                <em><i style="color:#007eab;">*</i>答案</em>
+                                                <input class="inp1" id="" type="password" name="" placeholder="请填写问题答案"/>
+                                            </p>
+                                            <p>
+                                                <em style="color:#007eab;">邮件安全码</em>
+                                                <input class="inp2" id="" type="password" name="" placeholder="请填写邮件中的验证码"/>
+                                                <a href="javascript:;" class="code sendCode">发送验证码</a><span class="gainCode" style="display: none;"><a href="javascript:;">重新获取</a>（<i class="seconds">58</i>）</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--手机认证 E-->
+
+                                <!--信息认证 B-->
+                                <div class="CA_Main stp2" style="display: none;">
+                                    <div class="CA_tit" style="margin-top:0;">修改密码</div>
+                                    <p class="CA_msg">您可以通过经常性修改密码更好的保护您的帐号安全，以避免您受到意外损失</p>
+                                    <div class="CA_show">
+                                        <span class="CA_pic"><img src="File/images/img_19_1.jpg" width="255" height="126"></span>
+                                        <div class="CA_picTips">
+                                            <p class="CA_picTipsCon">温馨提示：您好，你已经验证了号码为18*******85的号码。</p>
+                                            <p id="chk5">
+                                                <label for="p1"><span></span><input name="" id="p1" type="hidden" />通过验证码修改您原有的手机</label>
+                                                <label for="p2"><span></span><input name="" id="p2" type="hidden" />通过安全问题和邮件安全码回答问题</label>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="chk5Con2" style="display:none;">
+                                        <div class="CA_tit">通过安全问题重置手机号码</div>
+                                        <div class="changePwCon">
+                                            <p>
+                                                <em>问题一</em>
+                                                <span class="writeCon">怎么证明你是你呢？</span>
+                                            </p>
+                                            <p>
+                                                <em><i>*</i>答案</em>
+                                                <input class="inp1" id="" type="password" name="" placeholder="请填写问题答案"/>
+                                            </p>
+                                            <p>
+                                                <em>问题二</em>
+                                                <span class="writeCon">怎么证明你是你呢？</span>
+                                            </p>
+                                            <p>
+                                                <em><i>*</i>答案</em>
+                                                <input class="inp1" id="" type="password" name="" placeholder="请填写问题答案"/>
+                                            </p>
+                                            <p>
+                                                <em style="color:#007eab;">邮件安全码</em>
+                                                <input class="inp2" id="" type="password" name="" placeholder="请填写邮件中的验证码"/>
+                                                <a href="javascript:;" class="code sendCode">发送验证码</a><span class="gainCode" style="display: none;"><a href="javascript:;">重新获取</a>（<i class="seconds">58</i>）</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--信息认证 E-->
+                            </div>
+                            <div class="CA_Main_list" style="display: none;">
+                                <!--实名认证 B-->
+                                <div class="CA_Main stp3">
+                                    <div class="CA_tit" style="margin-top:0;">实名认证</div>
+                                    <p class="CA_msg">尊敬的手投网会员，通过身份验证，可以为您在手投网的投资和借款提供有效的安全保障。</p>
+                                    <div class="CA_show">
+                                        <span class="CA_pic"><img src="File/images/img_19_2.jpg" width="255" height="126"></span>
+                                        <div class="CA_picTips">
+                                            <p class="CA_picTipsCon">温馨提示：您好，您已经完成了身份验证，您的身份信息如下：</p>
+                                            <p class="CA_msg_b">真实姓名：杨秘</p>
+                                            <p class="CA_msg_b">身份证号：4104031994********</p>
+                                        </div>
+                                    </div>
+                                    <p class="CA_msg" style="margin-top:20px;">如果你在公安机关修改了名字，请联系我们的客服，凭有关公安机关改名的核证材料修改您的身份信息，谢谢！</p>
+                                </div>
+                                <!--实名认证 E-->
+                            </div>
+                        </div>
+
+                    </div>
+                    <div id="per_3" class="eventMain" style="display:none;">
+                        <!--头像设置 B-->
+                        <div class="setHeadMain">
+                            <div class="setHeadBox">
+                                <!--<iframe width="450px" height="485px" frameborder="0" src="http://www.ishoutou.com/Style/header/upload.php?uid=340" marginheight="0" marginwidth="0" scrolling="no"></iframe>-->
+                                <object id="mycamera" width="450" height="253" align="middle" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000">
+                                    <param value="always" name="allowScriptAccess">
+                                    <param value="exactfit" name="scale">
+                                    <param value="transparent" name="wmode">
+                                    <param value="high" name="quality">
+                                    <param value="#ffffff" name="bgcolor">
+                                    <param value="http://www.ishoutou.com/Style/header/images/camera.swf?nt=1&inajax=1&input=660a4sKuJusrkInX9Rw0Z0ZzbiXTGU9ffMLUBD1SeZ9eYOLOQ9PtOqNnya2twao%2FxAaf5X22kaeVsmk91ofXlxyW4C4Sr4MDaCU0XWGvIaPNPgBmJcG0%2F17hMQ&agent=f17158549169c0110ce3122bf897ae75&ucapi=http%3A%2F%2Fwww.ishoutou.com%2FStyle%2Fheader%2Fupload.php&uploadSize=1024" name="movie">
+                                    <param value="false" name="menu">
+                                    <embed width="450" height="253" align="middle" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" wmode="transparent" scale="exactfit" allowfullscreen="false" allowscriptaccess="always" name="mycamera" bgcolor="#ffffff" quality="high" src="http://www.ishoutou.com/Style/header/images/camera.swf?nt=1&inajax=1&input=660a4sKuJusrkInX9Rw0Z0ZzbiXTGU9ffMLUBD1SeZ9eYOLOQ9PtOqNnya2twao%2FxAaf5X22kaeVsmk91ofXlxyW4C4Sr4MDaCU0XWGvIaPNPgBmJcG0%2F17hMQ&agent=f17158549169c0110ce3122bf897ae75&ucapi=http%3A%2F%2Fwww.ishoutou.com%2FStyle%2Fheader%2Fupload.php&uploadSize=1024">
+                                </object>
+                            </div>
+                            <div class="setHeadTips">
+                                <p class="tit">头像要求：</p>
+                                <p class="con">1、用户头像能直观的向其他用户展示自己，推荐使用真实照片以作为头像，也可以使用系统推荐头像。</p>
+                                <p class="con">2、使用上传图片时请不要小于<i>200 * 200</i>像素，不要大于<i>512KB</i>。</p>
+                                <p class="next"><a href="javascript:;">下一步</a></p>
+                            </div>
+                            <div class="clr"></div>
+                        </div>
+                        <!--头像设置 E-->
+                    </div>
+                    <div id="per_4" class="eventMain stpBox" style="display:none;">
+                        <!--个人信息 B-->
+                        <div class="personal_infoTop">
+                            <a href="javascript:;" class="xgBtn">修 改</a>
+                            <div class="amendConBox_write">
+                                <p>
+                                    <em>用户ID</em>
+                                    <span class="writeCon">lucy</span>
+                                </p>
+                                <p>
+                                    <em>真实姓名</em>
+                                    <span class="writeCon">lucy</span>
+                                </p>
+                                <p>
+                                    <em>身份证号</em>
+                                    <span class="writeCon">123**************</span>
+                                </p>
+                                <p>
+                                    <em>手机号码</em>
+                                    <span class="writeCon">138********</span>
+                                </p>
+                            </div>
+                            <div class="amendConBox"  style="display: none;">
+                                <p>
+                                    <em>用户ID</em>
+                                    <input class="inp1" id="" type="text" name="" placeholder="请输入您的用户名"/>
+                                </p>
+                                <p>
+                                    <em>真实姓名</em>
+                                    <input class="inp1" id="" type="text" name="" placeholder="请输入您的真实姓名"/>
+                                </p>
+                                <p>
+                                    <em>身份证号</em>
+                                    <input class="inp1" id="" type="text" name="" placeholder="请输入您的身份证号"/>
+                                </p>
+                                <p>
+                                    <em>手机号码</em>
+                                    <input class="inp1" id="" type="text" name="" placeholder="请输入您的手机号码"/>
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="fillInfoBox">
+                            <a href="javascript:;" class="xgBtn">修 改</a>
+                            <div class="amendConBox_write">
+                                <p>
+                                    <em>年龄</em>
+                                    <span class="writeCon">30</span>
+                                </p>
+                                <p>
+                                    <em>性别</em>
+                                    <span class="writeCon">女</span>
+                                </p>
+                                <p>
+                                    <em>婚姻状况</em>
+                                    <span class="writeCon">未婚</span>
+                                </p>
+                                <p>
+                                    <em>职业</em>
+                                    <span class="writeCon">助理</span>
+                                </p>
+                                <p>
+                                    <em>工作收入</em>
+                                    <span class="writeCon">5000</span>
+                                </p>
+                                <p>
+                                    <em>最高学历</em>
+                                    <span class="writeCon">大专</span>
+                                </p>
+                                <p>
+                                    <em>籍贯</em>
+                                    <span class="writeCon">某省某市某区</span>
+                                </p>
+                                <p>
+                                    <em>现居住城市</em>
+                                    <span class="writeCon">北京市石景山</span>
+                                </p>
+                            </div>
+                            <div class="amendConBox" style="display: none;">
+                                <p>
+                                    <em>年龄</em>
+                                    <input class="inp1" id="" type="text" name="" placeholder="请输入您的年龄"/>
+                                </p>
+                                <p id="chk1">
+                                    <em>性别</em>
+                                    <label for="nan"><span></span><input name="" id="nan" type="hidden" />男</label>
+                                    <label for="nv"><span></span><input name="" id="nv" type="hidden" />女</label>
+                                </p>
+                                <p id="chk2">
+                                    <em>婚姻状况</em>
+                                    <label for="marry1"><span></span><input name="" id="marry1" type="hidden" />已婚</label>
+                                    <label for="marry2"><span></span><input name="" id="marry2" type="hidden" />未婚</label>
+                                </p>
+                                <p>
+                                    <em>职业</em>
+                                    <input class="inp1" id="" type="text" name="" placeholder="请输入您的职业"/>
+                                </p>
+                                <p id="chk3">
+                                    <em>工作收入</em>
+                                    <label for="num1"><span></span><input name="" id="num1" type="hidden" />5000以下</label>
+                                    <label for="num2"><span></span><input name="" id="num2" type="hidden" />5000-10000</label>
+                                    <label for="num3"><span></span><input name="" id="num3" type="hidden" />10000-50000</label>
+                                    <label for="num4"><span></span><input name="" id="num4" type="hidden" />50000元以上</label>
+                                </p>
+                                <p id="chk4">
+                                    <em>最高学历</em>
+                                    <label for="edu1"><span></span><input name="" id="edu1" type="hidden" />高中以下</label>
+                                    <label for="edu2"><span></span><input name="" id="edu2" type="hidden" />大专或本科</label>
+                                    <label for="edu3"><span></span><input name="" id="edu3" type="hidden" />硕士或硕士以上</label>
+                                </p>
+                                <p>
+                                    <em>籍贯</em>
+                                    <select name="select" id="select1">
+                                        <option>请选择省(市)</option>
+                                    </select>
+                                    <select name="select" id="select2">
+                                        <option>请选择 市</option>
+                                    </select>
+                                    <select name="select" id="select3">
+                                        <option>请选择区(县)</option>
+                                    </select>
+                                </p>
+                                <p>
+                                    <em>现居住城市</em>
+                                    <select name="select" id="select4">
+                                        <option>请选择省(市)</option>
+                                    </select>
+                                    <select name="select" id="select5">
+                                        <option>请选择 市</option>
+                                    </select>
+                                    <select name="select" id="select6">
+                                        <option>请选择区(县)</option>
+                                    </select>
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="btnArea">
+                            <a href="javascript:;" class="saveBtn">保存</a>
+                            <a href="javascript:;" class="saveNoBtn">修改</a>
+                        </div>
+                        <!--个人信息 E-->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--个人资料 E-->
+    </div>
+</div>
+<!--主体 E-->
+
+<!--底部 B-->
+<div class="indexBox Bg4">
+    <div class="footerBox">
+        <ul class="aboutUs">
+            <li><a href="#" target="_blank">安全保障</a></li>
+            <li><a href="#" target="_blank">诚聘英才</a></li>
+            <li><a href="#" target="_blank">帮助中心</a></li>
+            <li><a href="#" target="_blank">法律声明</a></li>
+            <li><a href="#" target="_blank">平台数据</a></li>
+            <li><a href="#" target="_blank">联系我们</a></li>
+            <li><a href="#" target="_blank">网站地图</a></li>
+        </ul>
+        <p>我们的建议依赖历史数据。未来收益的历史表现并不是一个保证。</p>
+        <p>©2015手投网 (www.ishoutou.com) | 北京手投网投资控股有限公司　|　京ICP备15028302号　|　版权所有：手投网</p>
+        <div class="followUs">
+            <span>关注我们
+                <a class="wb"><img src="File/images/wb3.png" alt="" style="display: none;"></a>
+                <a class="wx"><img src="File/images/wx3.jpg" alt="" style="display: none;"></a>
+            </span>
+            <span style="margin-left:40px;">客服电话  400-047-5588</span>
+        </div>
+        <ul class="attestation">
+            <li><a href="#" class="tu1" target="_blank"></a></li>
+            <li style="width:126px;"><a href="#" class="tu2" target="_blank"></a></li>
+            <li style="width:126px;margin-right:0;"><a href="#" class="tu3" target="_blank"></a></li>
+        </ul>
+    </div>
+</div>
+<!--底部 E-->
+
+<!--提示 B-->
+<div class="alertContent" style="display:none;">
+    <p>发送成功</p>
+</div>
+<!--提示 E-->
+</body>
+</html>

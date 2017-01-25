@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>自动投标</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link rel="stylesheet" href="File/css/style.css" type="text/css"/>
+<script src="File/js/jquery-1.8.2.min.js" type="text/javascript" ></script>
+<script src="File/js/common.js" type="text/javascript"></script>
+</head>
+
+<body class="childBg">
+<div id="header" class="headBox" style="position: static;">
+    <div class="header">
+        <div class="logo"><img src="File/images/login.png"></div>
+        <ul class="navBox" style="margin: 0;">
+            <li><a href="#" target="_blank">首页</a></li>
+            <li><a href="#" target="_blank">我要理财</a></li>
+            <li><a href="#" target="_blank">贷款俱乐部</a></li>
+            <li><a href="#" target="_blank">新手指引</a></li>
+            <li><a href="#" target="_blank">关于我们</a></li>
+        </ul>
+        <!--登录前 B-->
+        <div class="regBox" style="display:none;">
+            <a href="#" class="regBtn" target="_blank">注册</a>
+            <a href="#" class="regBtn logoBtn" target="_blank">登录</a>
+        </div>
+        <!--登录前 E-->
+        <!--登录后 B-->
+        <div class="regBox regBox_Box">
+            <a href="#" class="accountBox" target="_blank"><i class="account">我的帐户</i></a>
+        </div>
+        <!--登录后 E-->
+        <div class="clr"></div>
+    </div>
+</div>
+
+<!--主体 B-->
+<div class="companyTop">
+    <ul class="companyTitBox friendBox companyTitBox_wrap">
+        <li id="conTab1" onclick="TabMove('con',1,7)"><a href="pc_myaccount1.html">账户总览</a></li>
+        <li id="conTab2" onclick="TabMove('con',2,7)"><a href="pc_myaccount3.html">投标记录</a></li>
+        <li id="conTab3" onclick="TabMove('con',3,7)"><a href="pc_myaccount4.html">借款记录</a></li>
+        <li id="conTab4" onclick="TabMove('con',4,7)"><a href="pc_myaccount5.html">充值提现</a></li>
+        <li id="conTab5" class="current" onclick="TabMove('con',5,7)"><a href="pc_myaccount6.html">自动投标</a></li>
+        <li id="conTab6" onclick="TabMove('con',6,7)"><a href="pc_myaccount7.html">邀请好友</a></li>
+        <li id="conTab7" onclick="TabMove('con',7,7)"><a href="pc_myaccount2.html">个人资料</a></li>
+    </ul>
+</div>
+
+<div class="indexBox3" style="background:#dbeaf2;">
+
+        <div id="con_7" class="eventMain winWith">
+            <div class="eventMain">
+                <div class="baseInfoMain" style="background:#fff;">
+                    <div class="baseInfoBox">
+                        <div class="personal_dataMain">
+                            <div class="card_manageMain">
+                                <!--自动投标设置 B-->
+                                <div class="card_gl invite3">
+                                    <div class="personal_infoTop new_style" style="margin-bottom:0;border-bottom:0;">
+                                        <p class="card_tit"  style="margin:0 0 20px;border-bottom:1px solid #f1f1f1;">自动投标设置</p>
+                                        <link href="File/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+                                        <link href="File/css/bootstrap-datetimepicker.min.css" rel="stylesheet" media="screen">
+                                        <div class="bidSetMain">
+                                            <p>普通标自动投资同时满足以下条件，请进行自动投标：</p>
+                                            <p>最大投资金额<input type="text"id="" name="tendamount" class="inp3" placeholder="100000.00">该数值为不小于200元的整数；</p>
+                                            <p>最小投资金额<input type="text"id="" name="tendamount" class="inp3" placeholder="50.00">大于等于50元，小于最大投标金额；</p>
+                                            <p class="chooseAll">
+                                                <label for="tb1"><span class="choose"></span><input name="" id="tb1" type="hidden" /></label>年化利率≥<span class="lan_border"><input type="text" id="interestrates" class="inp4" placeholder="">%</span>
+                                            </p>
+                                            <p class="chooseAll">
+                                                <label for="tb2"><span class="choose"></span><input name="" id="tb2" type="hidden" /></label>借款期限在<span class="lan_border"><input type="text" class="inp5">个月</span>到<span class="lan_border"><input type="text" class="inp5">个月</span>
+                                            </p>
+                                            <p class="chooseAll">
+                                                <label for="tb3"><span class="choose"></span><input name="" id="tb3" type="hidden" /></label>账户保留金额≥<span class="lan_border"><input type="text" class="inp4" placeholder="">元</span>（当您账户可用余额低于该值时，将不能自动投标）
+                                            </p>
+                                            <div class="dataArea chooseAll">
+                                                <label for="tb4"><span class="choose"></span><input name="" id="tb4" type="hidden" /></label><em>自动投标日期设置于</em>
+                                                <div class="controls input-append date form_date" style="width:180px;height:30px;margin:0 10px 0 160px;" data-date="" data-date-format="yyyy-mm-dd" data-link-field="dtp_input2" data-link-format="yyyy-mm-dd">
+                                                    <input size="16" type="text" value="" readonly>
+                                                    <span class="add-on"><i class="icon-remove"></i></span>
+                                                    <span class="add-on"><i class="icon-th"></i></span>
+                                                    <input type="hidden" id="dtp_input2" value="" />
+                                                </div>
+                                                <em class="last">自动取消；</em>
+                                            </div>
+                                            <p class="tbMsg">自动投标设置提示：</p>
+                                            <p class="tbMsg">普通标自动投标的总额最高只能达到标的金额的10%（例如您设置自动投标金额为3万，如果有借款人借款20万，那么您最高投标金额为2万）</p>
+                                        </div>
+                                        <div class="btnArea" style="margin-top:30px;">
+                                            <a href="javascript:;" class="saveBtn">确认保存</a>
+                                            <a href="javascript:;" class="saveNoBtn">保存并开启</a>
+                                        </div>
+                                        <script type="text/javascript" src="File/bootstrap/js/bootstrap.min.js"></script>
+                                        <script type="text/javascript" src="File/js/bootstrap-datetimepicker.js" charset="UTF-8"></script>
+                                        <script type="text/javascript" src="File/js/bootstrap-datetimepicker.zh-CN.js" charset="UTF-8"></script>
+                                        <script type="text/javascript">
+
+                                            $('.form_date').datetimepicker({
+                                                language:  'zh-CN',
+                                                weekStart: 1,
+                                                todayBtn:  1,
+                                                autoclose: 1,
+                                                todayHighlight: 1,
+                                                startView: 2,
+                                                minView: 2,
+                                                forceParse: 0
+                                            });
+
+                                        </script>
+                                    </div>
+                                </div>
+                                <!--自动投标设置 E-->
+                                <!--设置说明 B-->
+                                <div class="card_gl invite4" style="display: none;">
+                                    <div class="personal_infoTop new_style" style="margin-bottom:0;border-bottom:0;">
+                                        <p class="card_tit"  style="margin:0 0 20px;border-bottom:1px solid #f1f1f1;">设置说明</p>
+                                        <div class="bidSetMain">
+                                            <p class="tbMsg">手投网自动投标设置规则说明：</p>
+                                            <p class="tbMsg">1、单笔借出金额最小投资金额为50元，最大投资金额必须大于或等于200元。</p>
+                                            <p class="tbMsg">2、设置的自动投标金额<=可用金额-账户保留金额，否则不能自动投标。</p>
+                                            <p class="tbMsg">3、每次自动投标的金额需<=所投标额的10%，若超出，投标金额就是所投标额度的10%.例如：您设置自动投标金额为3万，如果有借款人借款20万，那么您最高投标金额为2万。</p>
+                                            <p class="tbMsg" style="margin-top:30px;">手投网自动投标排序规则说明：</p>
+                                            <p class="tbMsg">1、投标顺序按照开启自动投标功能的时间先后进行排序。</p>
+                                            <p class="tbMsg">2、每个会员每个借款仅自动投标一次，投标成功后，排到所有自动投标会员的末尾。</p>
+                                            <p class="tbMsg">3、中间对自动投标进行修改的，排名不变。</p>
+                                            <p class="tbMsg">4、新开启自动投标用户，自动排到所有自动投标会员的末尾。</p>
+                                            <p class="tbMsg">5、当账户余额不足时，系统按顺序进行，但不投标，依次转移到下一个自动投标。</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--设置说明 E-->
+                            </div>
+                            <div class="invite_stepBox">
+                                <a href="javascript:;" class="invite_step zdtb_step1">
+                                    <i style="display: block;"></i>
+                                </a>
+                                <a href="javascript:;" class="invite_step zdtb_step2">
+                                    <i style="display: none;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+</div>
+
+
+<!--主体 E-->
+
+<!--底部 B-->
+<div class="indexBox Bg4">
+    <div class="footerBox">
+        <ul class="aboutUs">
+            <li><a href="#" target="_blank">安全保障</a></li>
+            <li><a href="#" target="_blank">诚聘英才</a></li>
+            <li><a href="#" target="_blank">帮助中心</a></li>
+            <li><a href="#" target="_blank">法律声明</a></li>
+            <li><a href="#" target="_blank">平台数据</a></li>
+            <li><a href="#" target="_blank">联系我们</a></li>
+            <li><a href="#" target="_blank">网站地图</a></li>
+        </ul>
+        <p>我们的建议依赖历史数据。未来收益的历史表现并不是一个保证。</p>
+        <p>©2015手投网 (www.ishoutou.com) | 北京手投网投资控股有限公司　|　京ICP备15028302号　|　版权所有：手投网</p>
+        <div class="followUs">
+            <span>关注我们
+                <a class="wb"><img src="File/images/wb3.png" alt="" style="display: none;"></a>
+                <a class="wx"><img src="File/images/wx3.jpg" alt="" style="display: none;"></a>
+            </span>
+            <span style="margin-left:40px;">客服电话  400-047-5588</span>
+        </div>
+        <ul class="attestation">
+            <li><a href="#" class="tu1" target="_blank"></a></li>
+            <li style="width:126px;"><a href="#" class="tu2" target="_blank"></a></li>
+            <li style="width:126px;margin-right:0;"><a href="#" class="tu3" target="_blank"></a></li>
+        </ul>
+    </div>
+</div>
+<!--底部 E-->
+
+<script language="JavaScript" type="text/JavaScript">
+    function convertCurrency(currencyDigits) {
+        // Constants:
+        var MAXIMUM_NUMBER = 99999999999.99;
+        // Predefine the radix characters and currency symbols for output:
+        var CN_ZERO = "零";
+        var CN_ONE = "壹";
+        var CN_TWO = "贰";
+        var CN_THREE = "叁";
+        var CN_FOUR = "肆";
+        var CN_FIVE = "伍";
+        var CN_SIX = "陆";
+        var CN_SEVEN = "柒";
+        var CN_EIGHT = "捌";
+        var CN_NINE = "玖";
+        var CN_TEN = "拾";
+        var CN_HUNDRED = "佰";
+        var CN_THOUSAND = "仟";
+        var CN_TEN_THOUSAND = "万";
+        var CN_HUNDRED_MILLION = "亿";
+        var CN_SYMBOL = "";
+        var CN_DOLLAR = "元";
+        var CN_TEN_CENT = "角";
+        var CN_CENT = "分";
+        var CN_INTEGER = "整";
+
+        // Variables:
+        var integral;    // Represent integral part of digit number.
+        var decimal;    // Represent decimal part of digit number.
+        var outputCharacters;    // The output result.
+        var parts;
+        var digits, radices, bigRadices, decimals;
+        var zeroCount;
+        var i, p, d;
+        var quotient, modulus;
+
+        // Validate input string:
+        currencyDigits = currencyDigits.toString();
+        if (currencyDigits == "") {
+            alert("请输入小写金额！");
+            return "";
+        }
+        if (currencyDigits.match(/[^,.\d]/) != null) {
+            alert("小写金额含有无效字符！");
+            return "";
+        }
+        if ((currencyDigits).match(/^((\d{1,3}(,\d{3})*(.((\d{3},)*\d{1,3}))?)|(\d+(.\d+)?))$/) == null) {
+            alert("小写金额的格式不正确！");
+            return "";
+        }
+
+        // Normalize the format of input digits:
+        currencyDigits = currencyDigits.replace(/,/g, "");    // Remove comma delimiters.
+        currencyDigits = currencyDigits.replace(/^0+/, "");    // Trim zeros at the beginning.
+        // Assert the number is not greater than the maximum number.
+        if (Number(currencyDigits) > MAXIMUM_NUMBER) {
+            alert("金额过大，应小于1000亿元！");
+            return "";
+        }
+
+        // Process the coversion from currency digits to characters:
+        // Separate integral and decimal parts before processing coversion:
+        parts = currencyDigits.split(".");
+        if (parts.length > 1) {
+            integral = parts[0];
+            decimal = parts[1];
+            // Cut down redundant decimal digits that are after the second.
+            decimal = decimal.substr(0, 2);
+        }
+        else {
+            integral = parts[0];
+            decimal = "";
+        }
+        // Prepare the characters corresponding to the digits:
+        digits = new Array(CN_ZERO, CN_ONE, CN_TWO, CN_THREE, CN_FOUR, CN_FIVE, CN_SIX, CN_SEVEN, CN_EIGHT, CN_NINE);
+        radices = new Array("", CN_TEN, CN_HUNDRED, CN_THOUSAND);
+        bigRadices = new Array("", CN_TEN_THOUSAND, CN_HUNDRED_MILLION);
+        decimals = new Array(CN_TEN_CENT, CN_CENT);
+        // Start processing:
+        outputCharacters = "";
+        // Process integral part if it is larger than 0:
+        if (Number(integral) > 0) {
+            zeroCount = 0;
+            for (i = 0; i < integral.length; i++) {
+                p = integral.length - i - 1;
+                d = integral.substr(i, 1);
+                quotient = p / 4;
+                modulus = p % 4;
+                if (d == "0") {
+                    zeroCount++;
+                }
+                else {
+                    if (zeroCount > 0)
+                    {
+                        outputCharacters += digits[0];
+                    }
+                    zeroCount = 0;
+                    outputCharacters += digits[Number(d)] + radices[modulus];
+                }
+                if (modulus == 0 && zeroCount < 4) {
+                    outputCharacters += bigRadices[quotient];
+                    zeroCount = 0;
+                }
+            }
+            outputCharacters += CN_DOLLAR;
+        }
+        // Process decimal part if there is:
+        if (decimal != "") {
+            for (i = 0; i < decimal.length; i++) {
+                d = decimal.substr(i, 1);
+                if (d != "0") {
+                    outputCharacters += digits[Number(d)] + decimals[i];
+                }
+            }
+        }
+        // Confirm and return the final output string:
+        if (outputCharacters == "") {
+            outputCharacters = CN_ZERO + CN_DOLLAR;
+        }
+        if (decimal == "") {
+            outputCharacters += CN_INTEGER;
+        }
+        outputCharacters = CN_SYMBOL + outputCharacters;
+        return outputCharacters;
+    }
+</script>
+</body>
+</html>

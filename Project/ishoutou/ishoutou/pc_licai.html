@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>理财</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link rel="stylesheet" href="File/css/style.css" type="text/css"/>
+<link rel="stylesheet" href="http://www.ishoutou.com/Style/css/fancybox.css" type="text/css" media="all"/>
+<script src="File/js/jquery-1.8.2.min.js" type="text/javascript" ></script>
+<script src="File/js/common.js" type="text/javascript"></script>
+<script type="text/javascript" src="http://www.ishoutou.com/Style/css/jquery.fancybox-1.3.1.pack.js"></script>
+<script type="text/javascript">
+    $(function(){
+        $("a[rel=group]").fancybox({
+            'titlePosition' : 'over',
+            'cyclic'        : true,
+            'titleFormat'	: function(title, currentArray, currentIndex, currentOpts) {
+                return '<span id="fancybox-title-over">' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+            }
+        });
+    });
+</script>
+</head>
+
+<body class="childBg">
+<div id="header" class="headBox" style="position: static;">
+    <div class="header">
+        <div class="logo"><a href="#"><img src="File/images/login.png"></a></div>
+        <ul class="navBox">
+            <li><a href="#" target="_blank">首页</a></li>
+            <li><a href="#" class="current" target="_blank">我要理财</a></li>
+            <li><a href="#" target="_blank">贷款俱乐部</a></li>
+            <li><a href="#" target="_blank">新手指引</a></li>
+            <li><a href="#" target="_blank">关于我们</a></li>
+        </ul>
+        <div class="regBox">
+            <a href="#" class="regBtn" target="_blank">注册</a>
+            <a href="#" class="regBtn logoBtn" target="_blank">登录</a>
+        </div>
+        <div class="clr"></div>
+    </div>
+</div>
+
+<!--投标区域 B-->
+<div class="indexBox2">
+    <div class="container">
+        <div class="tb_title">
+            <span class="tbTit">新手专享标</span>
+            <i class="tbPent">&nbsp;</i>
+            <em class="award">
+                <span class="biaoInfo">奖励0.8% 限额2000奖：0.80%</span>
+            </em>
+            <em class="tbHao">借款编号：2344</em>
+        </div>
+        <div class="tb_conArea">
+            <div class="tb_conL">
+                <div class="tb_numBox">
+                    <div class="rote" style="background-position: -13601px 0px;">100%</div>
+                </div>
+                <ul class="tbInfo">
+                    <li>
+                        <h4>借款总额</h4>
+                        <div class="tb_num">1000000.<i>00</i><em>元</em></div>
+                        <p>还款方式：每月还息到期还本</p>
+                        <p>最低投标限额：50元</p>
+                    </li>
+                    <li style="width:170px;">
+                        <h4>年利率</h4>
+                        <div class="tb_num">12.<i>00</i><em>%</em></div>
+                        <p>投标奖励：无</p>
+                        <p>最高投标限额：不限制</p>
+                    </li>
+                    <li style="width:230px;">
+                        <h4>借款期限</h4>
+                        <div class="tb_num">3<em>个月</em></div>
+                        <p>开始招标时间：2016-01-07 10:00</p>
+                        <p>剩余时间：2 天 22 时 29 分 17 秒</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="tb_conR">
+                <p>剩余可投金额：<i>905400.00</i>元</p>
+                <p>您的可用资金：<em>8888</em>元<a href="#">充值</a></p>
+                <div class="tb_moneyBox"><input type="text" class="money" placeholder="请输入投资金额"><a href="javascript:;" class="payBtn">自动填入</a></div>
+                <div class="tbBtnBox"><a href="javascript:;" class="tbBtn">立即投标</a></div>
+            </div>
+        </div>
+        <div class="clr"></div>
+    </div>
+</div>
+<!--投标区域 E-->
+
+<!--活动弹窗 B-->
+<div class="indexBox2 Bg5">
+    <div class="container">
+        <div class="h_tab1">
+            <ul class="add_activity">
+                <li>
+                    <span class="activity_con"><a href="javascript:;" onclick="showPop('#areaPop1','areaPop')" >iPhone 6S Plus免费送</a></span>
+                </li>
+                <li>
+                    <span class="activity_con"><a href="javascript:;" onclick="showPop('#areaPop2','areaPop')" >微信投标奖千二</a></span>
+                </li>
+                <li>
+                    <span class="activity_con"><a href="javascript:;" onclick="showPop('#areaPop3','areaPop')" >一马当先，一锤定音</a></span>
+                </li>
+                <li>
+                    <span class="activity_con"><a href="javascript:;" onclick="showPop('#areaPop4','areaPop')" >新手投标奖10元</a></span>
+                </li>
+                <li>
+                    <span class="activity_con"><a href="javascript:;" onclick="showPop('#areaPop5','areaPop')" >邀请好友奖360元</a></span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--活动弹窗 E-->
+
+<!--借款详情 B-->
+<div class="indexBox2">
+    <div class="container">
+        <div class="tabBar">
+            <ul class="tabTit">
+                <li id="conTab1" class="current" onclick="TabMove('con',1,3)"><a href="javascript:;">借款详情</a></li>
+                <li id="conTab2" onclick="TabMove('con',2,3)"><a href="javascript:;">资金安全保障</a></li>
+                <li id="conTab3" onclick="TabMove('con',3,3)"><a href="javascript:;">投资记录</a></li>
+            </ul>
+        </div>
+        <div class="tabBox">
+            <div id="con_1" class="eventMain">
+                <div class="tb_topCon" style="width:1020px;margin:0 auto;">
+                    <ul>
+                        <li><em>融资人：</em>沈**</li>
+                        <li><em>项目区域位置：</em>杭州</li>
+                        <li><em>年化利率：</em>8%</li>
+                        <li><em>借款用途：</em>个人消费（购车周转）</li>
+                        <li><em>本期融资金额：</em>28.00 万元</li>
+                        <li><em>本次授信额度：</em>28.00 万元</li>
+                        <li><em>计划还款日期：</em>2015-12-18</li>
+                        <li><em>实际还款日期：</em>2015-12-18</li>
+                    </ul>
+                    <ul>
+                        <li><em>投标截止时间：</em>2015-10-19 19:03:39</li>
+                        <li><em>车辆品牌型号：</em>宝马5系 2010款 525Li领先型</li>
+                        <li><em>购买价格：</em>40.47 万元</li>
+                        <li><em>购买历史：</em>新车</li>
+                        <li>&nbsp;</li>
+                        <li>&nbsp;</li>
+                        <li>&nbsp;</li>
+                        <li class="sm"><em>说明：</em>此项目不可债权转让</li>
+                    </ul>
+                </div>
+                <div class="tb_dataInfo">
+                    <h2 style="text-indent: 40px;">相关资料信息：</h2>
+                    <div class="tabpic">
+                    	<span class="tabpic_left"></span>
+                    	<span class="tabpic_right"></span>
+						<div class="tabpic_box">
+							<ul>
+								<li>
+									<a title="" href="http://www.ishoutou.com/UF/Uploads/Product/20151026091856350.jpg" rel="group"><img src="http://www.ishoutou.com/UF/Uploads/Product/20151026091856350.jpg" alt=""></a>
+								</li>
+								<li>	
+									<a title="" href="http://www.ishoutou.com/UF/Uploads/Product/20151026091856930.jpg" rel="group"><img src="http://www.ishoutou.com/UF/Uploads/Product/20151026091856930.jpg" alt=""></a>
+								</li>
+								<li>	
+									<a title="" href="http://www.ishoutou.com/UF/Uploads/Product/20151026091856350.jpg" rel="group"><img src="http://www.ishoutou.com/UF/Uploads/Product/20151026091856350.jpg" alt=""></a>
+								</li>
+								<li>
+									<a title="" href="http://www.ishoutou.com/UF/Uploads/Product/20151026091856930.jpg" rel="group"><img src="http://www.ishoutou.com/UF/Uploads/Product/20151026091856930.jpg" alt=""></a>
+								</li>
+								<li>
+									<a title="" href="http://www.ishoutou.com/UF/Uploads/Product/20151026091856930.jpg" rel="group"><img src="http://www.ishoutou.com/UF/Uploads/Product/20151026091856930.jpg" alt=""></a>
+								</li>
+								<li>	
+									<a title="" href="http://www.ishoutou.com/UF/Uploads/Product/20151026091856350.jpg" rel="group"><img src="http://www.ishoutou.com/UF/Uploads/Product/20151026091856350.jpg"		alt=""></a>
+								</li>
+								<li>	
+									<a title="" href="http://www.ishoutou.com/UF/Uploads/Product/20151026091856350.jpg" rel="group" style="margin-right:0;"><img src="http://www.ishoutou.com/UF/Uploads/Product/20151026091856350.jpg" alt=""></a>
+								</li>
+								<li>	
+									<a title="" href="http://www.ishoutou.com/UF/Uploads/Product/20151026091856350.jpg" rel="group"><img src="http://www.ishoutou.com/UF/Uploads/Product/20151026091856350.jpg"		alt=""></a>
+								</li>
+							</ul>
+						</div>
+						
+					</div>
+                    <div class="clr"></div>
+                </div>
+            </div>
+            <div id="con_2" class="eventMain" style="display:none;">
+                <div class="safety" style="width:1020px;margin:0 auto;">
+                    <h2>项目风险保障方案</h2>
+                    <div class="safetyCon">
+                        <h3>穹顶计划</h3>
+                        <p>第三方机构提供逾期项目资产收购承诺由第三方机构承诺出资收购穹顶计划下所有的发生逾期或违约的项目资产，如果发生项目违约，穹顶计划最迟将在该项目到期日之后的第三十个自然日当日收购该项目债权。为确保收购承诺顺利实现，第三方机构向积木平台缴纳一定比例的保证金，以保证其履约能力。</p>
+                        <p><a href="#" target="_blank">查看详情>></a></p>
+                    </div>
+                    <div class="safetyCon">
+                        <h3>该措施局限性</h3>
+                        <p>第三方机构现金流紧张或财务状况严重恶化，无力履行收购责任，其保证金额度亦未能覆盖当日应回购的债权金额。</p>
+                    </div>
+                    <div class="safetyCon last">
+                        <h3>法律援助基金</h3>
+                        <p>平台资金支持护航维权启动，手投网提取一定额度的自有资金设立法律援助基金，该笔资金专项用于为手投网平台的全部投资人提供法律援助支持。如任一融资项目发生逾期并须启动法律程序时，手投网将启用该笔资金为投资人聘请专业律师代表投资人启动法律程序解决争议，确保投资人在极端情况下能够及时行动有效维权，最大限度地保护投资人的利益。</p>
+                    </div>
+                </div>
+            </div>
+            <div id="con_3" class="eventMain" style="display:none;">
+                <div class="recordList">
+                    <table cellpadding="0" cellspacing="0" class="dataTable">
+                    <thead>
+                    <tr>
+                        <th width="10%">序号</th>
+                        <th width="20%">投标人</th>
+                        <th width="20%">投标类型</th>
+                        <th width="20%">投标金额</th>
+                        <th width="30%">时间</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>lucy</td>
+                        <td class="new_add" >
+                            <em class="new_wechat_tit">微信投标</em>
+                            <i class="new_wechat">
+                                <p class="sweep_wechat" style="display: none;">
+                                    <em class="point1"></em>
+                                    <img src="File/images/wx3.jpg" width="120" height="120">
+                                    <span class="sweep_wechat_con">扫码注册领<i>百元</i>红包</span>
+                                    <span class="sweep_wechat_con">微信投标享<i>干二</i>奖励</span>
+                                </p>
+                            </i>
+                        </td>
+                        <td>500000.00</td>
+                        <td>2015-10-19 14:31:45</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>lucy</td>
+                        <td class="new_add" >
+                            <em class="new_wechat_tit">微信投标</em>
+                            <i class="new_wechat">
+                                <p class="sweep_wechat" style="display: none;">
+                                    <em class="point1"></em>
+                                    <img src="File/images/wx3.jpg" width="120" height="120">
+                                    <span class="sweep_wechat_con">扫码注册领<i>百元</i>红包</span>
+                                    <span class="sweep_wechat_con">微信投标享<i>干二</i>奖励</span>
+                                </p>
+                            </i>
+                        </td>
+                        <td>500000.00</td>
+                        <td>2015-10-19 14:31:45</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>lucy</td>
+                        <td>手动投标</td>
+                        <td>500000.00</td>
+                        <td>2015-10-19 14:31:45</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>kate</td>
+                        <td>自动投标</td>
+                        <td>500000.00</td>
+                        <td>2015-10-19 14:31:45</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>kate</td>
+                        <td>自动投标</td>
+                        <td>500000.00</td>
+                        <td>2015-10-19 14:31:45</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>kate</td>
+                        <td>自动投标</td>
+                        <td>500000.00</td>
+                        <td>2015-10-19 14:31:45</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>kate</td>
+                        <td>自动投标</td>
+                        <td>500000.00</td>
+                        <td>2015-10-19 14:31:45</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>kate</td>
+                        <td>自动投标</td>
+                        <td>500000.00</td>
+                        <td>2015-10-19 14:31:45</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>kate</td>
+                        <td>自动投标</td>
+                        <td>500000.00</td>
+                        <td>2015-10-19 14:31:45</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>kate</td>
+                        <td>自动投标</td>
+                        <td>500000.00</td>
+                        <td>2015-10-19 14:31:45</td>
+                    </tr>
+                    </tbody>
+                </table>
+
+                    <!--分页 B-->
+                    <div class="pages"></span><a href="javascript:void(0);" class="prevPage"></a><a class="current" href="#">1</a><a href="#">2</a><a href="#">3</a><a href="#">4</a><a href="#">5</a><a href="#">6</a><a href="#">7</a><a href="#">8</a><a href="#">9</a><a href="#">10</a><a href="javascript:void(0);" class="nextPage"></a>跳转到<input type="text" class="skip_input">页<button type="button" class="confirm_page">确定</button><span>共<i>10</i>页</span></div>
+                    <!--分页 E-->
+                </div>
+            </div>
+        </div>
+        <div class="clr"></div>
+    </div>
+</div>
+<!--借款详情 E-->
+
+<!--底部 B-->
+<div class="indexBox Bg4">
+    <div class="footerBox">
+        <ul class="aboutUs">
+            <li><a href="#" target="_blank">C2P保障</a></li>
+            <li><a href="#" target="_blank">加入我们</a></li>
+            <li><a href="#" target="_blank">帮助中心</a></li>
+            <li><a href="#" target="_blank">法律声明</a></li>
+            <li><a href="#" target="_blank">平台数据</a></li>
+            <li><a href="#" target="_blank">联系我们</a></li>
+            <li style="width:90px;"><a href="#" target="_blank">贷款俱乐部</a></li>
+            <li><a href="#" target="_blank">网站地图</a></li>
+        </ul>
+        <p>©2015手投网 (www.ishoutou.com)&nbsp;&nbsp;|&nbsp;&nbsp;北京手投网投资控股有限公司&nbsp;&nbsp;|&nbsp;&nbsp;京ICP备15028302号&nbsp;&nbsp;|&nbsp;&nbsp;京ICP备15028302号</p>
+        <div class="followUs">
+            <span>关注我们
+                <a class="wb"><img src="File/images/wb3.png" alt="" style="display: none;"></a>
+                <a class="wx"><img src="File/images/wx3.jpg" alt="" style="display: none;"></a>
+            </span>
+            <span style="margin-left:40px;">客服电话  400-047-5588</span>
+        </div>
+        <ul class="attestation">
+            <li><a href="#" class="tu1" target="_blank"></a></li>
+            <li style="width:126px;"><a href="#" class="tu2" target="_blank"></a></li>
+            <li style="width:126px;margin-right:0;"><a href="#" class="tu3" target="_blank"></a></li>
+        </ul>
+    </div>
+</div>
+<!--底部 E-->
+
+<script type="text/javascript">
+$(function () {
+    function loadImg(obj, data) {
+        var i = 0;
+        setInterval(function () {
+            i++
+            if (i > data) {
+                i = data
+            }
+            var imgLeft = -(i * 130 + (i * 6)) + 'px';
+            var imgLeft = imgLeft + '\t' + '0px';
+            obj.css("backgroundPosition", imgLeft);
+            obj.html(i + '%');
+        }, 1)
+    }
+    var arr = {$progress|default=0};
+	if(arr){
+	    $(".rote").each(function (index, element) {
+	        loadImg($(element),arr[index]);
+	    });
+	}
+})
+</script>
+
+<!--弹出层 开始-->
+<div class="popWrap" id="areaPop1">
+    <iframe class="popIframe" scrolling="0" frameborder="0"></iframe>
+    <div class="popWrap_sub"></div>
+    <div class="popBox">
+        <h3>iPhone 6S Plus免费送<a href="javascript:;" class="popClose" title="关闭" onclick="hidePop('#areaPop1','areaPop')"></a></h3>
+        <div class="areaList">
+            <p>10月1日 至 10月31日：</p>
+            <p>（1）每周累计投标达到5000元，即有对应的现金奖励</p>
+            <p>（2）当月累计投标前5名，轻松拿大奖：iPhone 6S Plus、iWatch、智能电动平衡车、抗战纪念金银币、生肖银条</p>
+            <p><a href="http://www.ishoutou.com/freestock/index#sep1" target="_blank">查看详情</a></p>
+        </div>
+    </div>
+</div>
+<div class="popWrap" id="areaPop2">
+    <iframe class="popIframe" scrolling="0" frameborder="0"></iframe>
+    <div class="popWrap_sub"></div>
+    <div class="popBox">
+        <h3>微信投标奖千二<a href="javascript:;" class="popClose" title="关闭" onclick="hidePop('#areaPop2','areaPop')"></a></h3>
+        <div class="areaList">
+            <p>9月27日 至 10月31日：</p>
+            <p>每天累计投标前10名，奖励投标金额的0.2%</p>
+            <p>首次使用微信投标，奖励投标金额的0.2%</p>
+            <p><a href="http://www.ishoutou.com/freestock/index#sep2" target="_blank">查看详情</a></p>
+        </div>
+    </div>
+</div>
+<div class="popWrap" id="areaPop3">
+    <iframe class="popIframe" scrolling="0" frameborder="0"></iframe>
+    <div class="popWrap_sub"></div>
+    <div class="popBox">
+        <h3>一马当先，一锤定音<a href="javascript:;" class="popClose" title="关闭" onclick="hidePop('#areaPop3','areaPop')"></a></h3>
+        <div class="areaList">
+            <p>9月27日 至 10月31日：</p>
+            <p>第一个投标人，奖励投标金额的0.2%</p>
+            <p>最后一个投标人（满标），奖励投标金额的0.2%</p>
+            <p><a href="http://www.ishoutou.com/freestock/index#sep3" target="_blank">查看详情</a></p>
+        </div>
+    </div>
+</div>
+<div class="popWrap" id="areaPop4">
+    <iframe class="popIframe" scrolling="0" frameborder="0"></iframe>
+    <div class="popWrap_sub"></div>
+    <div class="popBox">
+        <h3>新手投标奖10元<a href="javascript:;" class="popClose" title="关闭" onclick="hidePop('#areaPop4','areaPop')"></a></h3>
+        <div class="areaList">
+            <p>9月27日 至 10月31日：</p>
+            <p>新注册用户，完成实名、手机认证即奖5元，成功出借后再获5元</p>
+            <p><a href="http://www.ishoutou.com/freestock/index#sep4" target="_blank">查看详情</a></p>
+        </div>
+    </div>
+</div>
+<div class="popWrap" id="areaPop5">
+    <iframe class="popIframe" scrolling="0" frameborder="0"></iframe>
+    <div class="popWrap_sub"></div>
+    <div class="popBox">
+        <h3>邀请好友奖360元<a href="javascript:;" class="popClose" title="关闭" onclick="hidePop('#areaPop5','areaPop')"></a></h3>
+        <div class="areaList">
+            <p>9月27日 至 10月31日：</p>
+            <p>邀请好友投标满5万，给您奖励360元</p>
+            <p>邀请的好友越多，您拿到的越多</p>
+            <p><a href="http://www.ishoutou.com/Help/yaoqing" target="_blank">查看详情</a></p>
+        </div>
+    </div>
+</div>
+<!--弹出层 结束-->
+
+<!--背景遮罩层 开始-->
+<iframe id="bgIframe" class="bgIframe" frameborder="0"></iframe>
+<div id="bgDiv" class="bgDiv"></div>
+<!--背景遮罩层 结束-->
+</body>
+</html>

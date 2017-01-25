@@ -1,0 +1,1345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>账户总览</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link rel="stylesheet" href="File/css/style.css" type="text/css"/>
+<script src="File/js/jquery-1.8.2.min.js" type="text/javascript" ></script>
+<script src="File/js/common.js" type="text/javascript"></script>
+<script src="File/js/jqplot.js"></script>
+
+</head>
+
+<body class="childBg">
+<div id="header" class="headBox" style="position: static;">
+    <div class="header">
+        <div class="logo"><img src="File/images/login.png"></div>
+        <ul class="navBox">
+            <li><a href="#" target="_blank">首页</a></li>
+            <li><a href="#" target="_blank">我要理财</a></li>
+            <li><a href="#" target="_blank">贷款俱乐部</a></li>
+            <li><a href="#" target="_blank">新手指引</a></li>
+            <li><a href="#" target="_blank">关于我们</a></li>
+        </ul>
+        <!--登录前 B-->
+        <div class="regBox" style="display:none;">
+            <a href="#" class="regBtn" target="_blank">注册</a>
+            <a href="#" class="regBtn logoBtn" target="_blank">登录</a>
+        </div>
+        <!--登录前 E-->
+        <!--登录后 B-->
+        <div class="regBox">
+            <a href="#" class="accountBox" target="_blank"><i class="account">我的帐户</i></a>
+        </div>
+        <!--登录后 E-->
+        <div class="clr"></div>
+    </div>
+</div>
+
+<!--主体 B-->
+<div class="companyTop">
+    <ul class="companyTitBox friendBox companyTitBox_wrap">
+        <li id="conTab1" class="current" onclick="TabMove('con',1,7)"><a href="pc_myaccount1.html">账户总览</a></li>
+        <li id="conTab2" onclick="TabMove('con',2,7)"><a href="pc_myaccount3.html">投标记录</a></li>
+        <li id="conTab3" onclick="TabMove('con',3,7)"><a href="pc_myaccount4.html">借款记录</a></li>
+        <li id="conTab4" class="direct"onclick="TabMove('con',4,7)">
+        	<img src="File/images/zhe_bg1_03.png" />
+        	<a href="pc_myaccount5.html">充值提现</a>
+        	<div class="direct_box">
+        		<em></em>
+        		<span class="guanbi"></span>
+        		<a href="#Two"><img src="File/images/zhe_bg4_03.png" class="direct_img1"/></a>
+        		<p class="op1">点击此处即可进行充值、提现操作。</p>
+        		<p class="op2">第 1 步，共 4 步</p>
+        	</div>
+        </li>
+        <li id="conTab5" onclick="TabMove('con',5,7)"><a href="pc_myaccount6.html">自动投标</a></li>
+        <li id="conTab6" onclick="TabMove('con',6,7)"><a href="pc_myaccount7.html">邀请好友</a></li>
+        <li id="conTab7" onclick="TabMove('con',7,7)"><a href="pc_myaccount2.html">个人资料</a></li>
+    </ul>
+</div>
+<div class="indexBox3">
+        <div class="eventMain winWith">
+            <!--基本信息 B-->
+            <div class="baseInfoMain">
+                <div class="baseInfoBox" id="Two" name="Two">
+                    <h2>基本信息</h2>
+                    <div class="baseInfo_1020">
+                        <div class="avatarBox">
+                            <div class="headIcon"><a href="#"><img src="File/images/temp2.jpg" width="70" height="70" alt="点击进行头像更换" title="点击进行头像更换"></a></div>
+                            <div class="headIconR">
+                                <p class="userName">路走不好容易闪着腰</p>
+                                <ul class="avatarState">
+                                    <li class="icon1 selected"><a href="#" title="实名认证通过"></a></li>
+                                    <li class="icon2"><a href="#" title="手机认证通过"></a></li>
+                                    <li class="icon3"><a href="#" title="支付密码已设置"></a></li>
+                                </ul>
+                            </div>
+                            <div class="clr"></div>
+                        </div>
+                        <div class="earningsBox">
+                            <ul>
+                                <li>
+                                    <div class="earningsTit">累计净收益</div>
+                                    <p><i>59999</i>.78<span>元</span></p>
+                                </li>
+                                <li class="last">
+                                    <div class="earningsTit">可用金额
+                                    	<label class="cz direct" title="充值">充值
+                                    		<img src="File/images/zhe_bg6_03.png" />
+                                    		<div class="direct_box">
+								        		<em></em>
+								        		<span class="guanbi"></span>
+								        		<a href="#Three"><img src="File/images/zhe_bg4_03.png" class="direct_img2"/></a>
+								        		<p class="op1">点击此处直接快速充值。</p>
+								        		<p class="op2">第 2 步，共 4 步</p>
+								        	</div>
+                                    	</label>
+                                    </div>
+                                    <p><i>59999</i>.78<span>元</span></p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--帐户总资产环形图  B-->
+                    <div class="asset_viewMain" style="position: relative;">
+                    	<div class="canvas_wrap">
+							<a class="canvas_wrap_LJTZ" href="###"></a>
+							<a class="canvas_wrap_DJZJ" href="###"></a>
+							<a class="canvas_wrap_KYZJ" href="###"></a>
+							<a class="canvas_wrap_DSBJ" href="###"></a>
+							<a class="canvas_wrap_DSLX" href="###"></a>
+							<p class="canvas_wrap_DSLX"></p>
+							<canvas id="Mycanvas" width="1020" height="520"></canvas>
+						</div>
+						<script src="File/js/zhanghao.js"></script>
+						
+						<div id="doughnutChart" class="chart"></div>
+						<script src="File/js/index.js"></script>
+						<div style="text-align:center;clear:both">
+						<script src="/gg_bd_ad_720x90.js" type="text/javascript"></script>
+						<script src="/follow.js" type="text/javascript"></script>
+						</div>
+					</div>
+                    <!--帐户总资产环形图  E-->
+                </div>
+            </div>
+
+            <div class="baseInfoMain Bg3">
+                <div class="baseInfoBox direct_Box1" id="Three" name="Three">
+                    <h2 class="panelTit" style="width:1020px;margin:0 auto;">
+                    	<span class="direct">
+                    		投资展板
+                    		<img src="File/images/zhe_bg7_03.png" />
+                    		<div class="direct_box">
+				        		<em></em>
+				        		<span class="guanbi"></span>
+				        		<a href="#Four"><img src="File/images/zhe_bg4_03.png" class="direct_img3"/></a>
+				        		<p class="op1">更方便直观查看每日、每周每月投资情况。</p>
+				        		<p class="op2">第 3 步，共 4 步</p>
+				        	</div>
+                    	</span>
+                        <ul class="chooseTime" style="right: 48px;">
+                            <li>
+                                <select id="Log" name="select" class="">
+                                	<option value="Sev" selected="selected">近七日</option>
+                                    <option value="Jan">近一月纪录</option>
+                                    <option value="Mar">近三月纪录</option>
+                                    <option value="Jun">近六月纪录</option>
+                                </select>
+                            </li>
+                            <li>
+                                <select id="Wen" name="select" class="">
+                                    <option value="Sev">新手专享标</option>
+                                    <option value="Jan">文昌宝一月</option>
+                                    <option value="Mar">文昌宝三月</option>
+                                    <option value="Jun">文昌宝六月</option>
+                                </select>
+                            </li>
+                        </ul>
+                    </h2>
+                    
+                    <script>
+                    	$(function(){
+                    		
+                    		var arrList={
+                    			"Log":[
+                    				{"provinceId":"Sev","provinceName":"近七日"},
+                    				{"provinceId":"Jan","provinceName":"近一月纪录"},
+                    				{"provinceId":"Mar","provinceName":"近三月纪录"},
+                    				{"provinceId":"Jun","provinceName":"近六月纪录"}
+                    			],
+                    			"Wen":[
+                    				{"provinceId":"Sev","provinceName":"新手专享标"},
+                    				{"provinceId":"Jan","provinceName":"文昌宝一月"},
+                    				{"provinceId":"Mar","provinceName":"文昌宝三月"},
+                    				{"provinceId":"Jun","provinceName":"文昌宝六月"}
+                    			]
+                    		}
+                    		//柱状图显示
+                    		var arrlist=[
+                    			{"yi":"100","er":"50","san":"120","si":"180"}
+                    		];
+                    		var num=0,astr="",arr=[],j=10;
+                    		$.each(arrlist[0], function(i,k) {
+                    			num+=parseInt(k);
+                    		});
+                    		$.each(arrlist[0], function(i,k) {
+                    			arr.push(Math.round((k/num)*100))
+                    		});
+                    		arr.sort(function(a,b){return a-b});
+                    		$.each(arr, function(i,k) {
+                    			astr+="<a style='height:"+k+"%; z-index:"+ j-- +"'  class='aOne'>"+
+                    				"<p>"+
+			                			"2015-10-14投入"+
+			                			"<em>4000元</em>"+
+			                			"<em class='sanjiao'></em>"+
+			                		"</p></a>";
+			                });
+                    		$(".histogram-box").html(astr);
+                    		
+                    		//双联菜单
+                    		var provinceHtml="",provinceHtml2="";
+                    		    $.each(arrList.Log,function(ind,val){
+							    	provinceHtml+="<option value="+val.provinceId+">"+val.provinceName+"</option>";
+							    })
+                    		    $.each(arrList.Wen,function(ind,val){
+							    	provinceHtml2+="<option value="+val.provinceId+">"+val.provinceName+"</option>";
+							    })
+							    $("#Log").html(provinceHtml);
+							    $("#Wen").html(provinceHtml2);
+							$("#Log").on("change",function(){
+                                var val=$(this).val(),
+                                	lilength=$("#"+val).find(".histogram-content ul li").length,
+                                	liWidth=$("#"+val).find(".histogram-content ul li").width();
+                                $("#Wen").find("option[value='"+val+"']").attr("selected","selected");
+                            	$("#"+val).show().siblings().hide();
+                            	$("#"+val).find(".histogram-content ul").css("width",lilength*liWidth);
+                            })
+                            $("#Wen").on("change",function(){
+                                var val=$(this).val(),
+                                	lilength=$("#"+val).find(".histogram-content ul li").length,
+                                	liWidth=$("#"+val).find(".histogram-content ul li").width();
+                                $("#Log").find("option[value='"+val+"']").attr("selected","selected")
+                                $("#"+val).show().siblings().hide();
+                                $("#"+val).find(".histogram-content ul").css("width",lilength*liWidth);
+                            })
+                            //tab切换
+                            $(".histogram-content ul li span a").live("mouseenter",function(){
+                            	var listr="",
+                            		thisInd=$(this).index(),
+	                            	fuji=$(this).parent().parent(),
+	                            	fuIndex=fuji.index(),
+	                            	//nextfuIndex=fuIndex+6,
+	                            	liLength=0;
+	                            $(this).css({"width":"40px","margin-left":"-20px"});
+	                            $(this).addClass("on").parent().parent().siblings().find("a").removeClass("on");
+                            	if($(this).parents().hasClass("Sev")){
+                            		Judge($("#Sev .histogram-content ul li"),fuIndex+6);
+                            	}else if($(this).parents().hasClass("Jan")){
+                            		Judge($("#Jan .histogram-content ul li"),fuIndex+7);
+                            	}else if($(this).parents().hasClass("Mar")){
+                            		Judge($("#Mar .histogram-content ul li"),fuIndex+9);
+                            	}else if($(this).parents().hasClass("Jun")){
+                            		Judge($("#Jun .histogram-content ul li"),fuIndex+9);
+                            	}
+                            	function Judge(obj,nextfuIndex){
+                            		console.log(nextfuIndex)
+	                            	liLength=obj.length;
+	                            	obj.eq(nextfuIndex).find("a").eq(thisInd).addClass("on").css({"width":"40px","margin-left":"-20px"});
+	                            }
+                            })
+                            $(".histogram-content ul li").live("click",function(){
+                            	var thisInd=$(this).index();
+                            		
+                            	if($(this).parents().hasClass("Sev")){
+                            		Judge($("#Sev .histogram-content ul li"),thisInd+6);
+                            	}else if($(this).parents().hasClass("Jan")){
+                            		Judge($("#Jan .histogram-content ul li"),thisInd+7);
+                            	}else if($(this).parents().hasClass("Mar")){
+                            		Judge($("#Mar .histogram-content ul li"),thisInd+9);
+                            	}else if($(this).parents().hasClass("Jun")){
+                            		Judge($("#Jun .histogram-content ul li"),thisInd+9);
+                            	}
+                            	function Judge(obj,nextfuIndex){
+	                            	liLength=obj.length-1;
+	                            	var ulLeft=obj.parent(),
+	                            		liWidth=obj.width();
+	                            	if(nextfuIndex>liLength){
+	                            		ulLeft.animate({"left":-(thisInd*liWidth)},500);
+	                            	}
+	                            }
+                            })
+                            $(".histogram-content ul li span a").live("mouseout",function(){
+                            	$(this).css({"width":"30px","margin-left":"-15px"})
+                            	$(".histogram-content ul li").find("a").removeClass("on").css({"width":"30px","margin-left":"-15px"});
+                            })
+                            
+                            
+                            
+                        })
+                    </script>
+                    <style>
+                    	/*柱状图样式*/
+						.histogram-container{position:relative;margin-left:60px;margin-top:10px;margin-bottom:25px;}
+						.histogram-bg-line{border:#7bbadc solid;border-width:0 1px 1px 1px;border-right-color:#eee;overflow:hidden;width:99%;}
+						.histogram-bg-line ul{overflow:hidden;border:#f5f6f7 dashed;border-width:1px 0 0 0;}
+						.histogram-bg-line li{float:left;width:14.28%;/*根据.histogram-bg-line下的ul里面li标签的个数来控制比例*/overflow:hidden;}
+						.histogram-bg-line li div{border-right:1px #f5f6f7 dashed;}
+						.histogram-content{position:absolute;left:0px;top:0;width:99%;height:175px;margin-left: 1px}
+						.histogram-content ul{height:156px;position: absolute;left: 0;top: 0;}
+						.histogram-content li{float:left;height:100%;width:14.28%;/*根据直方图的个数来控制这个width比例*/text-align:center;position:relative;}
+						.histogram-box{position:relative;width: 100%; display:inline-block;height:100%;}
+						.histogram-content li a{position:absolute;bottom:0;left:50%;margin-left: -15px; display:block;width:30px;}
+						.histogram-content li .name{position:absolute;bottom:-20px;left:0px;white-space:nowrap;display:inline-block;width:100%;font-size:12px;}
+						.histogram-y{position:absolute;left:-60px;top:0;font:12px/1.8 verdana,arial;height: 180px;z-index: 10;}
+						.histogram-y ul{position: absolute;top: -10px;height: 100%;background: #dbeaf2;}
+						.histogram-y li{text-align:right;width:55px;padding-right:5px;color:#333;}
+						.histogram-bg-line li div,.histogram-y li{height:30px;/*控制单元格的高度及百分比的高度，使百分数与线条对齐*/}
+						.histogram-bg-line div{ line-height:30px}
+						.histogram-bg-line div img{ position:relative; top:3px; padding-left:10px}
+						.histogram-content ul li span a{background: #edf5f9;margin-bottom:1px;border-top: 2px solid #007eab;}
+						.histogram-content ul li span a.on{background: #007eab;}
+						.histogram-content ul li span a.on p{display: block;}
+						.histogram-content ul li span a p{width: 117px;height: 48px;color: #cacccd;display: none;background: #777c7e;border-radius: 3px;padding-top: 5px;position: absolute;top: -62px;left: -43px;z-index: 500;}
+						.histogram-content ul li span a p em{color: #fff;font-size: 14px;}
+						.histogram-content ul li span a p em.sanjiao{position: absolute;width: 18px;height: 6px;top:53px;left: 47px; background: url(File/images/alertsanjiao_03.png) no-repeat;}
+						#Sev .histogram-bg-line li{width:14.28%;}
+						#Sev .histogram-content li{width: 147px;}
+						#Jan .histogram-bg-line li,#Mar .histogram-bg-line li,#Jun .histogram-bg-line li{width: 10%;}
+						#Jan .histogram-content li,#Mar .histogram-content li,#Jun .histogram-content li{width: 103px;}
+						#Jan .histogram-content ul li span a,#Mar .histogram-content li span a,#Jun .histogram-content li span a{width: 30px;}
+						.zhuzhuangtu>div{
+							display: none;
+						}
+                    </style>
+                    
+                    <!--投资展板柱形图  B-->
+                    <div class="zhuzhuangtu">
+	                    <div class="histogram-container Sev" id="Sev" style="display: block;">
+						    <!--背景方格-->
+						    <div class="histogram-bg-line">
+						        <ul>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						        </ul>
+						        <ul>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						        </ul>
+						        <ul>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						        </ul>
+						        <ul>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						        </ul>
+						        <ul>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						        </ul>
+						    </div>
+						    <!--柱状条-->
+						    <div class="histogram-content">
+						        <ul>
+						            <li>
+						                <span class="histogram-box">
+						                	<a style="height:65%;" class="aOne">
+						                		<p>
+						                			2015-10-14投入
+						                			<em>4000元</em>
+						                			<em class="sanjiao"></em>
+						                		</p>
+						                	</a>
+						                </span>
+						                <span class="name">10-14</span>
+						            </li>
+						            <li>
+						                <span class="histogram-box">
+						                	<a style="height:80%;" class="aOne">
+						                		<p>
+						                			2015-10-14投入
+						                			<em>4000元</em>
+						                			<em class="sanjiao"></em>
+						                		</p>
+						                	</a>
+						                	
+						                </span>
+						                <span class="name">10-15</span>
+						            </li>
+						            <li>
+						                <span class="histogram-box">
+						                	<a style="height:95%;" class="aOne">
+						                		<p>
+						                			2015-10-14投入
+						                			<em>4000元</em>
+						                			<em class="sanjiao"></em>
+						                		</p>
+						                	</a>
+						                </span>
+						                <span class="name">10-16</span>
+						            </li>
+						            <li>
+						                <span class="histogram-box">
+						                	<a style="height:65%;" class="aOne">
+						                		<p>
+						                			2015-10-14投入
+						                			<em>4000元</em>
+						                			<em class="sanjiao"></em>
+						                		</p>
+						                	</a>
+						                </span>
+						                <span class="name">10-17</span>
+						            </li>
+						             <li>
+						             	<span class="histogram-box">
+						             		<a style="height:65%;" title="20%" class="aOne">
+						             			<p>
+						                			2015-10-14投入
+						                			<em>4000元</em>
+						                			<em class="sanjiao"></em>
+						                		</p>
+						             		</a>
+						             	</span>
+						                <span class="name">10-18</span>
+						            </li>
+						            <li>
+						                <span class="histogram-box">
+						                	<a style="height:95%;" title="20%" class="aOne">
+						                		<p>
+						                			2015-10-14投入
+						                			<em>4000元</em>
+						                			<em class="sanjiao"></em>
+						                		</p>
+						                	</a>
+						                </span>
+						                <span class="name">10-19</span>
+						            </li>
+						            <li>
+						                <span class="histogram-box">
+						                	<a style="height:65%;" title="20%" class="aOne">
+						                		<p>
+						                			2015-10-14投入
+						                			<em>4000元</em>
+						                			<em class="sanjiao"></em>
+						                		</p>
+						                	</a>
+						                </span>
+						                <span class="name">10-20</span>
+						            </li>
+						        </ul>
+						    </div>
+						    <!--百分比 y轴-->
+						    <div class="histogram-y">
+						        <ul>
+						            
+						            <li>10</li>
+						            <li>8</li>
+						            <li>5</li>
+						            <li>3</li>
+						            <li>1</li>
+						        </ul>
+						    </div>
+						 </div>
+	                    
+	                    <div class="histogram-container Jan" id="Jan">
+						    <!--背景方格-->
+						    <div class="histogram-bg-line">
+						        <ul>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						        </ul>
+						        <ul>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						        </ul>
+						        <ul>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						        </ul>
+						        <ul>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						        </ul>
+						        <ul>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						        </ul>
+						    </div>
+						    <!--柱状条-->
+						    <div class="histogram-content">
+						        <ul>
+						            <li>
+						                <span class="histogram-box">
+						                	<a style="height:65%;" class="aOne">
+						                		<p>
+						                			2015-10-14投入
+						                			<em>4000元</em>
+						                			<em class="sanjiao"></em>
+						                		</p>
+						                	</a>
+						                </span>
+						                <span class="name">10-14</span>
+						            </li>
+						            <li>
+						                <span class="histogram-box">
+						                	<a style="height:80%;" class="aOne">
+						                		<p>
+						                			2015-10-14投入
+						                			<em>4000元</em>
+						                			<em class="sanjiao"></em>
+						                		</p>
+						                	</a>
+						                </span>
+						                <span class="name">10-15</span>
+						            </li>
+						            <li>
+						                <span class="histogram-box">
+						                	<a style="height:95%;" class="aOne">
+						                		<p>
+						                			2015-10-14投入
+						                			<em>4000元</em>
+						                			<em class="sanjiao"></em>
+						                		</p>
+						                	</a>
+						                </span>
+						                <span class="name">10-16</span>
+						            </li>
+						            <li>
+						                <span class="histogram-box">
+						                	<a style="height:65%;" class="aOne">
+						                		<p>
+						                			2015-10-14投入
+						                			<em>4000元</em>
+						                			<em class="sanjiao"></em>
+						                		</p>
+						                	</a>
+						                </span>
+						                <span class="name">10-17</span>
+						            </li>
+						             <li>
+						                <span class="histogram-box">
+						                	<a style="height:80%;" class="aOne">
+						                		<p>
+						                			2015-10-14投入
+						                			<em>4000元</em>
+						                			<em class="sanjiao"></em>
+						                		</p>
+						                	</a>
+						                </span>
+						                <span class="name">10-18</span>
+						            </li>
+						            <li>
+						                <span class="histogram-box">
+						                	<a style="height:95%;" class="aOne">
+						                		<p>
+						                			2015-10-14投入
+						                			<em>4000元</em>
+						                			<em class="sanjiao"></em>
+						                		</p>
+						                	</a>
+						                </span>
+						                <span class="name">10-19</span>
+						            </li>
+						            <li>
+						                <span class="histogram-box">
+						                	<a style="height:65%;" class="aOne">
+						                		<p>
+						                			2015-10-14投入
+						                			<em>4000元</em>
+						                			<em class="sanjiao"></em>
+						                		</p>
+						                	</a>
+						                </span>
+						                <span class="name">10-20</span>
+						            </li>
+						            <li>
+						                <span class="histogram-box">
+						                	<a style="height:80%;" class="aOne">
+						                		<p>
+						                			2015-10-14投入
+						                			<em>4000元</em>
+						                			<em class="sanjiao"></em>
+						                		</p>
+						                	</a>
+						                </span>
+						                <span class="name">10-18</span>
+						            </li>
+						            <li>
+						                <span class="histogram-box">
+						                	<a style="height:95%;" class="aOne">
+						                		<p>
+						                			2015-10-14投入
+						                			<em>4000元</em>
+						                			<em class="sanjiao"></em>
+						                		</p>
+						                	</a>
+						                </span>
+						                <span class="name">10-19</span>
+						            </li>
+						            <li>
+						                <span class="histogram-box">
+						                	<a style="height:65%;" class="aOne">
+						                		<p>
+						                			2015-10-14投入
+						                			<em>4000元</em>
+						                			<em class="sanjiao"></em>
+						                		</p>
+						                	</a>
+						                </span>
+						                <span class="name">10-20</span>
+						            </li>
+						        </ul>
+						    </div>
+						    <!--百分比 y轴-->
+						    <div class="histogram-y">
+						        <ul>
+						            
+						            <li>10</li>
+						            <li>8</li>
+						            <li>5</li>
+						            <li>3</li>
+						            <li>1</li>
+						        </ul>
+						    </div>
+						 </div>
+                    
+                    	<div class="histogram-container Mar" id="Mar">
+						    <!--背景方格-->
+						    <div class="histogram-bg-line">
+						        <ul>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						        </ul>
+						        <ul>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						        </ul>
+						        <ul>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						        </ul>
+						        <ul>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						        </ul>
+						        <ul>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						        </ul>
+						    </div>
+						    <!--柱状条-->
+						    <div class="histogram-content">
+						        <ul>
+						            <li>
+						                <span class="histogram-box">
+						                	<a style="height:65%;" class="aOne">
+						                		<p>
+						                			2015-10-14投入
+						                			<em>4000元</em>
+						                			<em class="sanjiao"></em>
+						                		</p>
+						                	</a>
+						                </span>
+						                <span class="name">10-14</span>
+						            </li>
+						            <li>
+						                <span class="histogram-box">
+						                	<a style="height:80%;" class="aOne">
+						                		<p>
+						                			2015-10-14投入
+						                			<em>4000元</em>
+						                			<em class="sanjiao"></em>
+						                		</p>
+						                	</a>
+						                </span>
+						                <span class="name">10-15</span>
+						            </li>
+						            <li>
+						                <span class="histogram-box">
+						                	<a style="height:95%;" class="aOne">
+						                		<p>
+						                			2015-10-14投入
+						                			<em>4000元</em>
+						                			<em class="sanjiao"></em>
+						                		</p>
+						                	</a>
+						                </span>
+						                <span class="name">10-16</span>
+						            </li>
+						            <li>
+						                <span class="histogram-box">
+						                	<a style="height:65%;" class="aOne">
+						                		<p>
+						                			2015-10-14投入
+						                			<em>4000元</em>
+						                			<em class="sanjiao"></em>
+						                		</p>
+						                	</a>
+						                </span>
+						                <span class="name">10-17</span>
+						            </li>
+						             <li>
+						                <span class="histogram-box">
+						                	<a style="height:80%;" class="aOne">
+						                		<p>
+						                			2015-10-14投入
+						                			<em>4000元</em>
+						                			<em class="sanjiao"></em>
+						                		</p>
+						                	</a>
+						                </span>
+						                <span class="name">10-18</span>
+						            </li>
+						            <li>
+						                <span class="histogram-box">
+						                	<a style="height:95%;" class="aOne">
+						                		<p>
+						                			2015-10-14投入
+						                			<em>4000元</em>
+						                			<em class="sanjiao"></em>
+						                		</p>
+						                	</a>
+						                </span>
+						                <span class="name">10-19</span>
+						            </li>
+						            <li>
+						                <span class="histogram-box">
+						                	<a style="height:65%;" class="aOne">
+						                		<p>
+						                			2015-10-14投入
+						                			<em>4000元</em>
+						                			<em class="sanjiao"></em>
+						                		</p>
+						                	</a>
+						                </span>
+						                <span class="name">10-20</span>
+						            </li>
+						            <li>
+						                <span class="histogram-box">
+						                	<a style="height:80%;" class="aOne">
+						                		<p>
+						                			2015-10-14投入
+						                			<em>4000元</em>
+						                			<em class="sanjiao"></em>
+						                		</p>
+						                	</a>
+						                </span>
+						                <span class="name">10-18</span>
+						            </li>
+						            <li>
+						                <span class="histogram-box">
+						                	<a style="height:95%;" class="aOne">
+						                		<p>
+						                			2015-10-14投入
+						                			<em>4000元</em>
+						                			<em class="sanjiao"></em>
+						                		</p>
+						                	</a>
+						                </span>
+						                <span class="name">10-19</span>
+						            </li>
+						            <li>
+						                <span class="histogram-box">
+						                	<a style="height:65%;" class="aOne">
+						                		<p>
+						                			2015-10-14投入
+						                			<em>4000元</em>
+						                			<em class="sanjiao"></em>
+						                		</p>
+						                	</a>
+						                </span>
+						                <span class="name">10-20</span>
+						            </li>
+						        </ul>
+						    </div>
+						    <!--百分比 y轴-->
+						    <div class="histogram-y">
+						        <ul>
+						            
+						            <li>10</li>
+						            <li>8</li>
+						            <li>5</li>
+						            <li>3</li>
+						            <li>1</li>
+						        </ul>
+						    </div>
+						 </div>
+                    	
+                    	<div class="histogram-container Jun" id="Jun">
+						    <!--背景方格-->
+						    <div class="histogram-bg-line">
+						        <ul>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						        </ul>
+						        <ul>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						        </ul>
+						        <ul>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						        </ul>
+						        <ul>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						        </ul>
+						        <ul>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						            <li><div></div></li>
+						        </ul>
+						    </div>
+						    <!--柱状条-->
+						    <div class="histogram-content">
+						        <ul>
+						            <li>
+						                <span class="histogram-box">
+						                	<a style="height:65%;" class="aOne">
+						                		<p>
+						                			2015-10-14投入
+						                			<em>4000元</em>
+						                			<em class="sanjiao"></em>
+						                		</p>
+						                	</a>
+						                </span>
+						                <span class="name">10-14</span>
+						            </li>
+						            <li>
+						                <span class="histogram-box">
+						                	<a style="height:80%;" class="aOne">
+						                		<p>
+						                			2015-10-14投入
+						                			<em>4000元</em>
+						                			<em class="sanjiao"></em>
+						                		</p>
+						                	</a>
+						                </span>
+						                <span class="name">10-15</span>
+						            </li>
+						            <li>
+						                <span class="histogram-box">
+						                	<a style="height:95%;" class="aOne">
+						                		<p>
+						                			2015-10-14投入
+						                			<em>4000元</em>
+						                			<em class="sanjiao"></em>
+						                		</p>
+						                	</a>
+						                </span>
+						                <span class="name">10-16</span>
+						            </li>
+						            <li>
+						                <span class="histogram-box">
+						                	<a style="height:65%;" class="aOne">
+						                		<p>
+						                			2015-10-14投入
+						                			<em>4000元</em>
+						                			<em class="sanjiao"></em>
+						                		</p>
+						                	</a>
+						                </span>
+						                <span class="name">10-17</span>
+						            </li>
+						             <li>
+						                <span class="histogram-box">
+						                	<a style="height:80%;" class="aOne">
+						                		<p>
+						                			2015-10-14投入
+						                			<em>4000元</em>
+						                			<em class="sanjiao"></em>
+						                		</p>
+						                	</a>
+						                </span>
+						                <span class="name">10-18</span>
+						            </li>
+						            <li>
+						                <span class="histogram-box">
+						                	<a style="height:95%;" class="aOne">
+						                		<p>
+						                			2015-10-14投入
+						                			<em>4000元</em>
+						                			<em class="sanjiao"></em>
+						                		</p>
+						                	</a>
+						                </span>
+						                <span class="name">10-19</span>
+						            </li>
+						            <li>
+						                <span class="histogram-box">
+						                	<a style="height:65%;" class="aOne">
+						                		<p>
+						                			2015-10-14投入
+						                			<em>4000元</em>
+						                			<em class="sanjiao"></em>
+						                		</p>
+						                	</a>
+						                </span>
+						                <span class="name">10-20</span>
+						            </li>
+						            <li>
+						                <span class="histogram-box">
+						                	<a style="height:80%;" class="aOne">
+						                		<p>
+						                			2015-10-14投入
+						                			<em>4000元</em>
+						                			<em class="sanjiao"></em>
+						                		</p>
+						                	</a>
+						                </span>
+						                <span class="name">10-18</span>
+						            </li>
+						            <li>
+						                <span class="histogram-box">
+						                	<a style="height:95%;" class="aOne">
+						                		<p>
+						                			2015-10-14投入
+						                			<em>4000元</em>
+						                			<em class="sanjiao"></em>
+						                		</p>
+						                	</a>
+						                </span>
+						                <span class="name">10-19</span>
+						            </li>
+						            <li>
+						                <span class="histogram-box">
+						                	<a style="height:65%;" class="aOne">
+						                		<p>
+						                			2015-10-14投入
+						                			<em>4000元</em>
+						                			<em class="sanjiao"></em>
+						                		</p>
+						                	</a>
+						                </span>
+						                <span class="name">10-20</span>
+						            </li>
+						        </ul>
+						    </div>
+						    <!--百分比 y轴-->
+						    <div class="histogram-y">
+						        <ul>
+						            
+						            <li>10</li>
+						            <li>8</li>
+						            <li>5</li>
+						            <li>3</li>
+						            <li>1</li>
+						        </ul>
+						    </div>
+                    </div>
+                    <!--投资展板柱形图  E-->
+                </div>
+            </div>
+			
+            <div class="baseInfoMain Bg6">
+                <div class="baseInfoBox">
+                    <h2>理财收益</h2>
+                    <div class="incomeMain">
+                        <div class="incomeBox" style="margin-right: 120px;">
+                            <div class="incomeTit">天天盈<a href="#" class="more">更多 ></a></div>
+                            <div class="incomeCon">
+                                <ul class="first">
+                                    <li class="lj">累计收益额</li>
+                                    <li class="second"><span class="sum">100.94<i>元</i></span></li>
+                                    <li>总持有<br><i class="red">99999999.2</i>元</li>
+                                </ul>
+                                <ul>
+                                    <li>天天盈四</li>
+                                    <li>天天盈四</li>
+                                    <li>天天盈四</li>
+                                    <li>天天盈四</li>
+                                </ul>
+                                <ul class="last">
+                                    <li><a href="#" class="tz">我要投资</a></li>
+                                    <li><a href="#" class="tz">我要投资</a></li>
+                                    <li><a href="#" class="tz">我要投资</a></li>
+                                    <li><a href="#" class="full">已满额</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="incomeBox">
+                            <div class="incomeTit">天天盈<a href="#" class="more">更多 ></a></div>
+                            <div class="incomeCon">
+                                <ul class="first">
+                                    <li class="lj">累计收益额</li>
+                                    <li class="second"><span class="sum">100.94<i>元</i></span></li>
+                                    <li>总持有<br><i class="red">99999999.2</i>元</li>
+                                </ul>
+                                <ul>
+                                    <li>天天盈四</li>
+                                    <li>天天盈四</li>
+                                    <li>天天盈四</li>
+                                    <li>天天盈四</li>
+                                </ul>
+                                <ul class="last">
+                                    <li><a href="#" class="tz">我要投资</a></li>
+                                    <li><a href="#" class="tz">我要投资</a></li>
+                                    <li><a href="#" class="tz">我要投资</a></li>
+                                    <li><a href="#" class="full">已满额</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="incomeBox" style="margin-right: 120px;">
+                            <div class="incomeTit">天天盈<a href="#" class="more">更多 ></a></div>
+                            <div class="incomeCon">
+                                <ul class="first">
+                                    <li class="lj">累计收益额</li>
+                                    <li class="second"><span class="sum">100.94<i>元</i></span></li>
+                                    <li>总持有<br><i class="red">99999999.2</i>元</li>
+                                </ul>
+                                <ul>
+                                    <li>天天盈四</li>
+                                    <li>天天盈四</li>
+                                    <li>天天盈四</li>
+                                    <li>天天盈四</li>
+                                </ul>
+                                <ul class="last">
+                                    <li><a href="#" class="tz">我要投资</a></li>
+                                    <li><a href="#" class="tz">我要投资</a></li>
+                                    <li><a href="#" class="tz">我要投资</a></li>
+                                    <li><a href="#" class="full">已满额</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="incomeBox">
+                            <div class="incomeTit">天天盈<a href="#" class="more">更多 ></a></div>
+                            <div class="incomeCon">
+                                <ul class="first">
+                                    <li class="lj">累计收益额</li>
+                                    <li class="second"><span class="sum">100.94<i>元</i></span></li>
+                                    <li>总持有<br><i class="red">99999999.2</i>元</li>
+                                </ul>
+                                <ul>
+                                    <li>天天盈四</li>
+                                    <li>天天盈四</li>
+                                    <li>天天盈四</li>
+                                    <li>天天盈四</li>
+                                </ul>
+                                <ul class="last">
+                                    <li><a href="#" class="tz">我要投资</a></li>
+                                    <li><a href="#" class="tz">我要投资</a></li>
+                                    <li><a href="#" class="tz">我要投资</a></li>
+                                    <li><a href="#" class="full">已满额</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="clr"></div>
+                    </div>
+				</div>
+            </div>
+
+            <div class="baseInfoMain Bg3">
+                <div class="baseInfoBox direct_Box2" id="Four" name="Four">
+                    <h2 class="panelTit" style="width:1020px;margin:0 auto;">
+                    	<span class="direct">
+                    		资金流向
+                    		<img src="File/images/zhe_bg7_03.png" />
+                    		<div class="direct_box">
+				        		<em></em>
+				        		<span class="guanbi"></span>
+				        		<p class="op1">更直接详细了解账户所有资金明细</p>
+				        		<p class="op2">第 4 步，共 4 步</p>
+				        	</div>
+                    	</span>
+                    	
+                    	<a href="#" class="lookMore">查看更多 ></a></h2>
+                    <div class="fund_flowList">
+                        <table cellpadding="0" cellspacing="0" class="dataTable">
+                            <thead>
+                                <tr>
+                                    <th width="20%">发生日期</th>
+                                    <th width="16%">类型</th>
+                                    <th width="16%">影响金额</th>
+                                    <th width="16%">冻结资金</th>
+                                    <th width="16%">待收金额</th>
+                                    <th width="16%">可用资金</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>2015-09-09</td>
+                                    <td>提现成功</td>
+                                    <td><i class="red">-8888.88</i></td>
+                                    <td>0.00</td>
+                                    <td>0.00</td>
+                                    <td>40.45</td>
+                                </tr>
+                                <tr>
+                                    <td>2015-09-09</td>
+                                    <td>提现成功</td>
+                                    <td><i class="red">-8888.88</i></td>
+                                    <td>0.00</td>
+                                    <td>0.00</td>
+                                    <td>40.45</td>
+                                </tr>
+                                <tr>
+                                    <td>2015-09-09</td>
+                                    <td>提现成功</td>
+                                    <td><i class="red">-8888.88</i></td>
+                                    <td>0.00</td>
+                                    <td>0.00</td>
+                                    <td>40.45</td>
+                                </tr>
+                                <tr>
+                                    <td>2015-09-09</td>
+                                    <td>提现成功</td>
+                                    <td><i class="red">-8888.88</i></td>
+                                    <td>0.00</td>
+                                    <td>0.00</td>
+                                    <td>40.45</td>
+                                </tr>
+                                <tr>
+                                    <td>2015-09-09</td>
+                                    <td>提现成功</td>
+                                    <td><i class="red">-8888.88</i></td>
+                                    <td>0.00</td>
+                                    <td>0.00</td>
+                                    <td>40.45</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+                </div>
+            </div>
+            <!--基本信息 E-->
+        </div>
+</div>
+</div>
+<!--主体 E-->
+
+<!--底部 B-->
+<div class="indexBox Bg4">
+    <div class="footerBox">
+        <ul class="aboutUs">
+            <li><a href="#" target="_blank">安全保障</a></li>
+            <li><a href="#" target="_blank">诚聘英才</a></li>
+            <li><a href="#" target="_blank">帮助中心</a></li>
+            <li><a href="#" target="_blank">法律声明</a></li>
+            <li><a href="#" target="_blank">平台数据</a></li>
+            <li><a href="#" target="_blank">联系我们</a></li>
+            <li><a href="#" target="_blank">网站地图</a></li>
+        </ul>
+        <p>我们的建议依赖历史数据。未来收益的历史表现并不是一个保证。</p>
+        <p>©2015手投网 (www.ishoutou.com) | 北京手投网投资控股有限公司　|　京ICP备15028302号　|　版权所有：手投网</p>
+        <div class="followUs">
+            <span>关注我们
+                <a class="wb"><img src="File/images/wb3.png" alt="" style="display: none;"></a>
+                <a class="wx"><img src="File/images/wx3.jpg" alt="" style="display: none;"></a>
+            </span>
+            <span style="margin-left:40px;">客服电话  400-047-5588</span>
+        </div>
+        <ul class="attestation">
+            <li><a href="#" class="tu1" target="_blank"></a></li>
+            <li style="width:126px;"><a href="#" class="tu2" target="_blank"></a></li>
+            <li style="width:126px;margin-right:0;"><a href="#" class="tu3" target="_blank"></a></li>
+        </ul>
+    </div>
+</div>
+<!--底部 E-->
+
+<!--遮罩B-->
+<div id="Christmas_zhe"></div>
+<!--弹出层 B-->
+
+<script>
+	window.onload = function(){
+       $("body,html").animate({
+       	"scrollTop":"0"
+       })
+	};
+	$(function(){
+		var h=$(document).height();
+		$("#Christmas_zhe").css({
+			"height":h,
+			"display":"block"
+		})
+		$(".earningsTit>a").removeClass("direct").find("div.direct_box,img").css("display","none");
+		$(".baseInfoBox h2>span").removeClass("direct").find("div.direct_box,img").css("display","none");
+		$(".earningsTit>label").removeClass("direct").find("div.direct_box,img").css("display","none");
+		
+		$(".guanbi").on("click",function(event){
+			event.stopPropagation();
+			$("#Christmas_zhe").css({
+				"display":"none"
+			})
+			$(".companyTop .friendBox li#conTab4").removeClass("direct");
+			$(".earningsTit>a").removeClass("direct").find("div.direct_box,img").css("display","none");
+			$(".baseInfoBox h2>span").removeClass("direct").find("div.direct_box,img").css("display","none");
+			$(".earningsTit>label").removeClass("direct").find("div.direct_box,img").css("display","none");
+			$(".direct_box").css("display","none");
+		})
+		$(".direct_img1").on("click",function(){
+			$("#conTab4").removeClass("direct").find("div.direct_box,img").css("display","none");
+			$(".earningsTit>label").addClass("direct").find("div.direct_box,img").css("display","block");
+		})
+		$(".direct_img2").on("click",function(event){
+			event.stopPropagation();
+			$(".earningsTit>label").removeClass("direct").find("div.direct_box,img").css("display","none");
+			$(".direct_Box1 h2 span").addClass("direct").find("div.direct_box,img").css("display","block");
+		})
+		$(".direct_img3").on("click",function(){
+			$(".direct_Box1 h2 span").removeClass("direct").find("div.direct_box,img").css("display","none");
+			$(".direct_Box2 h2 span").addClass("direct").find("div.direct_box,img").css("display","block");
+		})
+		$(".earningsTit>label").on("click",function(){
+			if($(this).hasClass("direct")){
+				return false;
+			}else{
+				location.href="pc_myaccount5.html";
+			}
+		})
+		
+	})
+</script>
+
+</body>
+</html>
