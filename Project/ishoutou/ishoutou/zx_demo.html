@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<title>demo</title>
+<!--demo展示所用css，不用关心 begin-->
+<link rel="stylesheet" type="text/css" href="http://gmu.baidu.com/demo/assets/reset.css" />
+<!--demo展示所用css end-->
+<!--组件依赖css begin-->
+<link rel="stylesheet" type="text/css" href="zx/css/widget/navigator/navigator.css" />
+<link rel="stylesheet" type="text/css" href="zx/css/widget/navigator/navigator.iscroll.css" />
+<link rel="stylesheet" type="text/css" href="zx/css/widget/navigator/navigator.default.css" /><!--皮肤文件，若不使用该皮肤，可以不加载-->
+<link rel="stylesheet" type="text/css" href="zx/css/widget/navigator/navigator.iscroll.default.css" /><!--皮肤文件，若不使用该皮肤，可以不加载-->
+<!--组件依赖css end-->
+<!--组件依赖js begin-->
+<script type="text/javascript" src="zx/js/zepto.js"></script>
+<script type="text/javascript" src="zx/js/zepto.extend.js"></script>
+<script type="text/javascript" src="zx/js/zepto.ui.js"></script>
+<script type="text/javascript" src="zx/js/zepto.iscroll.js"></script>
+<script type="text/javascript" src="zx/js/widget/navigator.js"></script>
+<script type="text/javascript" src="zx/js/widget/navigator.iscroll.js"></script>
+<!--组件依赖js end-->
+
+<!--滚动下拉菜单功能-->
+	<link rel="stylesheet" type="text/css" href="css/widget/button/button.css" />
+	<link rel="stylesheet" type="text/css" href="css/widget/button/button.default.css" />
+	<style>
+		.section {
+			padding: 0 3px;
+			-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+		}
+		.section h2 {
+			font-size: 16px;
+			font-weight: bold;
+			padding: 5px 5px;
+			color: #5b5b5b;
+		}
+		.btns .ui-button {
+			vertical-align: bottom;
+		}
+		#container {
+			height: 400px;
+		}
+	</style>
+	<!--demo展示所用css end-->
+	<!--组件依赖css begin-->
+	<link rel="stylesheet" type="text/css" href="zx/css/widget/dropmenu/dropmenu.css" />
+	<link rel="stylesheet" type="text/css" href="zx/css/widget/dropmenu/dropmenu.default.css" /> <!--皮肤文件，若不使用该皮肤，可以不加载-->
+	<link rel="stylesheet" type="text/css" href="zx/css/icons.default.css" />
+	<!--组件依赖css end-->
+	<!--组件依赖js begin-->
+
+	<script type="text/javascript" src="zx/js/mobileevent2pc.js"></script><!--此js为在PC端方便查看效果，用在手机上，可去掉此js-->
+	<script type="text/javascript" src="zx/js/zepto.highlight.js"></script>
+	<script type="text/javascript" src="zx/js/widget/dropmenu.js"></script>
+	<script type="text/javascript" src="zx/js/widget/dropmenu.iscroll.js"></script>
+	<!--组件依赖js end-->
+
+	<!--demo展示所用js begin-->
+	<script type="text/javascript" src="zx/js/widget/button.js"></script>
+	<!--demo展示所用js end-->
+</head>
+
+<body>
+<!--导航菜单代码开始 -->
+<div id="fix-both">
+	<a class="ui-navigator-fixleft" href="#">fixleft</a> <!-- 如果只需要右侧固定，请删除这个a标签 -->
+	<ul>
+		<li><a href="#">要闻</a></li>
+		<li><a href="#">国内</a></li>
+		<li><a class="cur" href="#">国际</a></li>
+		<li><a href="#">军事</a></li>
+		<li><a href="#">社会</a></li>
+		<li><a href="#">娱乐</a></li>
+		<li><a href="#">女人</a></li>
+		<li><a href="#">体育</a></li>
+		<li><a href="#">科技</a></li>
+		<li><a href="#">互联网</a></li>
+		<li><a href="#">教育</a></li>
+		<li><a href="#">财经</a></li>
+		<li><a href="#">房产</a></li>
+		<li><a href="#">汽车</a></li>
+	</ul>
+	<a class="ui-navigator-fixright" href="#">fixright</a> <!-- 如果只需要左侧固定，请删除这个a标签 -->
+</div>
+<script type="text/javascript">
+	(function () {
+		/*组件初始化js begin*/
+		$('#fix-both').navigator({     //左右都有fix元素
+			isScrollToNext: false,      //出现半个tab时，不跳动到下一个tab
+			isShowShadow: false       //不显示左右阴影
+		});
+	})();
+</script>
+
+<div id="nav-smartSetup">
+	<ul>
+		<li><a href="#">要闻</a></li>
+		<li><a href="#">国内</a></li>
+		<li><a href="#">国际</a></li>
+		<li><a href="#">军事</a></li>
+		<li><a href="#">社会</a></li>
+		<li><a href="#">娱乐</a></li>
+		<li><a href="#">女人</a></li>
+		<li><a href="#">体育</a></li>
+		<li><a href="#">科技</a></li>
+		<li><a href="#">互联网</a></li>
+		<li><a href="#">教育</a></li>
+		<li><a class="cur" href="#">财经</a></li>
+		<li><a href="#">房产</a></li>
+		<li><a href="#">汽车</a></li>
+	</ul>
+</div>
+
+<script type="text/javascript">
+	(function () {
+		/*组件初始化js begin*/
+		$('#nav-smartSetup').navigator();    //smart setup方式创建 推荐方式
+	})();
+</script>
+
+<style type="text/css">
+	.my_info{ margin:30px;}
+	.my_info p{ text-align:center; font:normal 12px/30px 'MicroSoft YaHei';}
+</style>
+<!--导航菜单代码结束 -->
+
+<!--滚动下拉菜单功能代码 开始 -->
+<div class="section">
+	<div id="container">
+		<div class="btns">
+			<a id="btn1" data-icon="arrow-d" data-iconpos="right">下拉菜单</a><a id="btn4" data-icon="grid"></a>
+		</div>
+		<div id="dropmenu1">
+			<ul>
+				<li><a>item1</a></li>
+				<li><a><span class="ui-icon ui-icon-home"></span>主页</a></li>
+				<li><a><span class="ui-icon ui-icon-grid"></span>设置</a></li>
+				<li><a><span class="ui-icon ui-icon-delete"></span>删除</a></li>
+				<li><a><span class="ui-icon ui-icon-check"></span>检查</a></li>
+				<li><a><span class="ui-icon ui-icon-refresh"></span>刷新</a></li>
+				<li><a><span class="ui-icon ui-icon-forward"></span>前进</a></li>
+				<li><a><span class="ui-icon ui-icon-back"></span>后退</a></li>
+				<li><a><span class="ui-icon ui-icon-info"></span>信息</a></li>
+			</ul>
+		</div>
+		<div id="dropmenu4">
+			<ul>
+				<li><a><span class="ui-icon ui-icon-home"></span></a></li><!--放在下行结尾可以去除display:inline-block带来的间隔-->
+				<li><a><span class="ui-icon ui-icon-grid"></span></a></li>
+				<li><a><span class="ui-icon ui-icon-delete"></span></a></li>
+				<li><a><span class="ui-icon ui-icon-check"></span></a></li>
+				<li><a><span class="ui-icon ui-icon-refresh"></span></a></li>
+				<li><a><span class="ui-icon ui-icon-forward"></span></a></li>
+				<li><a><span class="ui-icon ui-icon-back"></span></a></li>
+				<li><a><span class="ui-icon ui-icon-info"></span></a></li>
+				<li><a><span class="ui-icon ui-icon-delete"></span></a></li>
+				<li><a><span class="ui-icon ui-icon-gear"></span></a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<script>
+	$('#btn1').button();
+	$('#dropmenu1').dropmenu({
+		align:'left',
+		btn:  $('#btn1'),
+		width: $('#btn1').width(),
+		height: 137,
+		iScroll: true
+	}).on('itemClick', function (e, item) {
+		alert(item.text);
+	});
+
+	$('#btn4').button();
+	$('#dropmenu4').dropmenu({
+		direction:'horizontal',
+		btn: $('#btn4'),
+		width: 144,
+		iScroll: true
+	}).on('itemClick', function (e, item) {
+		alert(item.icon);
+	});
+
+	$('body>.section').on('click', function(){//make blank area clickabel
+	});
+</script>
+<!--滚动下拉菜单功能代码 结束 -->
+</body>
+</html>
