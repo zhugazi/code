@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Cache-Control" content="no-cache" />
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=no;" />
+<title>圣诞节</title>
+<meta name="MobileOptimized" content="320"/>
+<meta name="HandheldFriendly" content="True">
+<meta name="format-detection" content="telephone=no" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-touch-fullscreen" content="yes"/>
+<link rel="stylesheet" href="Style/Touch/css/style.css" type="text/css" media="all"/>
+<link rel="stylesheet" href="Style/Touch/css/sep.css" type="text/css" media="all"/>
+<script src="Style/Touch/js/jquery-1.8.2.min.js" type="text/javascript"></script>
+<script src="Style/Touch/js/common.js" type="text/javascript"></script>
+</head>
+<style>
+	body,html{
+		width: 100%;
+		height: 100%;
+		background: #234255;
+	}
+</style>
+<body>
+<!--一封信开始 B-->
+	<div class="m_Christmas_wrap">
+		<img src="Style/Touch/images/sep/wap_shengdan_02.png" />
+		<img src="Style/Touch/images/sep/wap_youbi_03.png" />
+		<img src="Style/Touch/images/sep/wap_laoren_03.png" />
+		<p>12月23日——1月5日，每日累计投标前五名，奖励100元航天纪念钞一张</p>
+		<p>您今日总投标：<span class="Christmas_num">2000000</span>元</p>
+		<p>您当前的排名：<span class="Christmas_Rank">3</span>名 <a class="Christmas_Refresh">刷新</a></p>
+		<p>胜利再望，要保持住哦，小心被别人反超～</p>
+		<a href="javascript:;">查看活动详情</a>
+	</div>
+	<script>
+    	$(".Christmas_Refresh").on("click",function(){
+    		$.ajax({ 
+				type:"GET", 
+				url:"", 
+				dataType:"json", 
+				success:function(data){ 
+					$.each(data, function(i,k) {
+						$(".Christmas_num").html(k.jian);
+						$(".Christmas_Rank").html(k.mingci);
+					});
+				},
+			}); 
+    	})
+    </script>
+<!--一封信结束-->
+<!--底栏 B-->
+		<div class="bar_fixd">
+			<ul class="bar_con">
+		    	<li class="icon1"><a href="#"></a></li>
+		    	<li class="icon2"><a href="#"></a></li>
+		    	<li class="icon3 on"><a href="#"></a></li>
+		    	<li class="icon4"><a href="#"></a></li>
+		    	<li id="more" class="icon5"><a href="#"></a></li>
+		    </ul>
+		</div>
+		<!--底栏 E-->
+		<!--更多 B-->
+		<script type="text/javascript" src="Style/Touch/js/common.js"></script>
+		<ul class="more_box" style="display:none;">
+			<li><a href="#">i主播</a></li>
+			<li><a href="#">了解手投</a></li>
+			<li><a href="#">联系客服</a></li>
+			<li><a href="#">帮助中心</a></li>
+		</ul>
+<!--更多 E-->
+</body>
+</html>

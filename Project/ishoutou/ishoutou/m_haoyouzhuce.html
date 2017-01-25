@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Cache-Control" content="no-cache" />
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=no;" />
+<title>手投网_好友注册</title>
+<meta name="MobileOptimized" content="320"/>
+<meta name="HandheldFriendly" content="True">
+<meta name="format-detection" content="telephone=no" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-touch-fullscreen" content="yes">
+<link rel="stylesheet" href="Style/Touch/css/style.css" type="text/css" media="all"/>
+<script src="Style/Touch/js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript">
+	(function (doc, win) {
+		var docEl = doc.documentElement,
+			resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+		recalc = function () {
+		var clientWidth = docEl.clientWidth;
+		//console.log(clientWidth);
+		if (!clientWidth) return;
+		if(clientWidth>640)	clientWidth=640;
+		//console.log(100 *(clientWidth/640));
+		docEl.style.fontSize = 100 * (clientWidth / 640) + 'px';
+		};
+		if (!doc.addEventListener) return;
+		win.addEventListener(resizeEvt, recalc, false);
+		doc.addEventListener('DOMContentLoaded', recalc, false);
+	})(document, window);
+</script>
+</script>
+<style>
+	body,html{width: 100%;}
+	body{font-family:"微软雅黑";}
+	
+</style>
+</head>
+
+<body>
+<!--头部 B-->
+<header class="head_top"><i><a href="#">返回</a></i>注册</header>
+<div class="kongDivTop"></div>
+<!--头部 E-->
+
+<!--主体 B-->
+<div class="Registration_mian">
+	<div class="Registration_top">
+		<img src="Style/Touch/images/temp/img_32_02.jpg" style="display: block;width: 100%;" />
+		<div>
+			<p>您的好友<em style="color: #ffe71f;">XXX</em></p>
+			<p>邀请您一起来手投网理财</p>
+		</div>
+	</div>
+	<section class="Registration_box1">
+		<p><em></em><input type="text" placeholder="用户名"/></p>
+		<p><em></em><input type="password" placeholder="设置登录密码"/></p>
+		<p><em></em><input type="password" placeholder="确认登录密码"/></p>
+		<p><em></em><input type="text" placeholder="推荐人用户名（没有可以不填）"/></p>
+		<p class="zhucexieyi" style="border: 0;margin-top: 0;font-size: 0.26rem;color: #1a94b5;line-height: 0.78rem;background: none;box-shadow: none;"><label class="chek"></label>同意并接受《手投网注册协议》</p>
+		<button>立即注册领红包</button>
+	</section>
+	<div style="width: 100%;height: 0.03rem;background: url(Style/Touch/images/temp/img_37_02.png) repeat-x;background-size: auto 0.03rem;"></div>
+	<section class="Registration_box2">
+		<img src="Style/Touch/images/temp/img_38_03.png" style="display: block;margin-bottom: 0.64rem;"/>
+		<img src="Style/Touch/images/temp/img_39_03.png" style="display: block;"/>
+		<img src="Style/Touch/images/temp/img_40_03.png" style="display: block;"/>
+		<img src="Style/Touch/images/temp/img_41_03.png" style="display: block;"/>
+		<img src="Style/Touch/images/temp/img_42_03.png" style="display: block;"/>
+		<img src="Style/Touch/images/temp/img_43_03.png" style="display: block;"/>
+	</section>
+	<section class="Registration_box3">
+		<ul>
+			<li><img src="Style/Touch/images/temp/img_45_03.png"/></li>
+			<li><img src="Style/Touch/images/temp/img_46_03.png"/></li>
+			<li><img src="Style/Touch/images/temp/img_47_03.png"/></li>
+		</ul>
+		<p>北京市石景山区鲁谷路74号中国瑞达大厦A座5层551、552室</p>
+		<p>服务热线：400-047-5588  (工作日9:00-18:00)</p>
+		<p style="color: #c1e5f1;"><em></em>2015 ishoutou.com All Rights Reserved</p>
+	</section>
+	<script>
+		$(".zhucexieyi label").on("click",function(){
+			if($(this).hasClass("chek")){
+				$(this).removeClass("chek")
+			}else{
+				$(this).addClass("chek")
+			}
+		})
+	</script>
+	
+</div>
+<!--主体 E-->
+
+<!--底栏 B-->
+<div class="bar_fixd">
+	<ul class="bar_con">
+    	<li class="icon1"><a href="#"></a></li>
+    	<li class="icon2"><a href="#"></a></li>
+    	<li class="icon3"><a href="#"></a></li>
+    	<li class="icon4"><a href="#"></a></li>
+    	<li class="icon5"><a href="#"></a></li>
+    </ul>
+</div>
+<!--底栏 E-->
+
+<!--引导B-->
+<div class="yindao_fen" style="display: none;">
+	<div class="yindao_zhezhao"></div>
+	<img src="Style/Touch/images/temp/img_30_03.png" style="display: block;position: fixed;right:0.77rem;top: 0.14rem;width: 3.85rem;z-index: 9999;" />
+	
+	<script>
+		$(window).on("load",function(){
+			var h=$(document).height();
+			$(".yindao_zhezhao").css({"height":h});
+		})
+		$(".weixin_fen").on("click",function(){
+			$(".yindao_fen").css({"display":"block"});
+		})
+		$(".yindao_fen").on("click",function(){
+			$(this).css({"display":"none"});
+		})
+	</script>
+</div>
+<!--引导E-->
+
+</body>
+</html>

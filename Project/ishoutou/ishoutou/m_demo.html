@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Cache-Control" content="no-cache" />
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=no;" />
+<title>手投网_邀请好友</title>
+<meta name="MobileOptimized" content="320"/>
+<meta name="HandheldFriendly" content="True">
+<meta name="format-detection" content="telephone=no" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-touch-fullscreen" content="yes">
+<link rel="stylesheet" href="Style/Touch/css/style.css" type="text/css" media="all"/>
+
+<script type="text/javascript">
+	(function (doc, win) {
+		var docEl = doc.documentElement,
+			resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+		recalc = function () {
+		var clientWidth = docEl.clientWidth;
+		//console.log(clientWidth);
+		if (!clientWidth) return;
+		if(clientWidth>640)	clientWidth=640;
+		//console.log(100 *(clientWidth/640));
+		docEl.style.fontSize = 100 * (clientWidth / 640) + 'px';
+		};
+		if (!doc.addEventListener) return;
+		win.addEventListener(resizeEvt, recalc, false);
+		doc.addEventListener('DOMContentLoaded', recalc, false);
+	})(document, window);
+</script>
+
+<style>
+	body,html{width: 100%;}
+	body{font-family:"微软雅黑";}
+	a:hover{background: none;}
+	.show_box ul{width: 100%;}
+	.show_box ul li{width: 100%;height: 0.5rem;text-align: center;font-size: 0.2rem;}
+	.show_box ul li a{width: 100%;height: 0.5rem; display: block;line-height: 0.5rem;}
+	.show_box ul li span{display: block;}
+	.show_box ul.oul li{line-height: 0.5rem;}
+	.friends_Main .show_box table{border:1px solid #999; width: 100%;}
+	.friends_Main .show_box table td{border: 0;}
+	.friends_Main .show_box table td i{color: red;}
+</style>
+</head>
+
+<body>
+
+<!--主体 B-->
+<div class="friends_Main">
+    <section class="show_box">
+    	<ul>
+    		<li><a href="http://www.baidu.com">点我链接</a></li>
+    		<li><a href="http://www.baidu.com">点我链接</a></li>
+    		<li><a href="http://www.baidu.com">点我链接</a></li>
+    		<li><a href="http://www.baidu.com">点我链接</a></li>
+    		<li><a href="http://www.baidu.com">点我链接</a></li>
+    	</ul>
+    	<ul class="oul">
+    		<li><span>点我链接点我链接</span></li>
+    		<li><span>点我链接点我链接</span></li>
+    		<li><span>点我链接点我链接</span></li>
+    		<li><span>点我链接点我链接</span></li>
+    		<li><span>点我链接点我链接</span></li>
+    	</ul>
+    	<table cellpadding="0" cellspacing="0" class="dataTable list" border="0">
+			<tbody>
+				<tr onClick="window.location.href='#'">
+					<td width="35%" class="one" style="background: none;"><i class="black">04年生肖猴币</i><br/><i class="hui small">221001</i></td>
+					<td width="22%"><i class="red">200.5</i></td>
+					<td width="22%"><i class="red">10.01</i></td>
+					<td width="21%"><i class="red">1.22%</i></td>
+				</tr>
+			</tbody>
+		</table>
+
+    </section>
+</div>
+<!--主体 E-->
+
+
+	<script src="Style/Touch/js/zepto.js"></script>
+	<script type="text/javascript">
+	    $("li a").on("touchstart",function(){
+	    	$(this).css("background","red");
+		}).on("touchend",function(){
+			$(this).css("background","none");
+		})
+		$(".oul li span").on("touchstart",function(){
+	    	$(this).css("background","#ccc");
+		}).on("touchend",function(){
+			$(this).css("background","none");
+		})
+		/*$("tr td").on("touchstart",function(){
+	    	$(this).parent().css("background","#ccc");
+		}).on("touchend",function(){
+			$(this).parent().css("background","none");
+		})*/
+		$("tr").on("touchstart",function(){
+	    	$(this).css("background","#ccc");
+		}).on("touchend",function(){
+			$(this).css("background","none");
+		})
+		$("li a").on("click",function(){
+			alert();
+		})
+	</script>
+	
+
+
+</body>
+</html>

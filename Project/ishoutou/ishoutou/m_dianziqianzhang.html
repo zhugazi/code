@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Cache-Control" content="no-cache" />
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=no;" />
+<title>手投网_个人设置</title>
+<meta name="MobileOptimized" content="320"/>
+<meta name="HandheldFriendly" content="True">
+<meta name="format-detection" content="telephone=no" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-touch-fullscreen" content="yes">
+<link rel="stylesheet" href="Style/Touch/css/style.css" type="text/css" media="all"/>
+<script src="Style/Touch/js/jquery-1.8.2.min.js" type="text/javascript"></script>
+<script src="Style/Touch/js/common.js" type="text/javascript"></script>
+<script type="text/javascript">
+(function (doc, win) {
+        var docEl = doc.documentElement,
+            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+        recalc = function () {
+        var clientWidth = docEl.clientWidth;
+        //console.log(clientWidth);
+        if (!clientWidth) return;
+        if(clientWidth>640) clientWidth=640;
+        docEl.style.fontSize = 100 * (clientWidth / 640) + 'px';
+        };
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, recalc, false);
+        doc.addEventListener('DOMContentLoaded', recalc, false);
+        })(document, window);
+</script>
+</head>
+
+<body>
+<!--头部 B-->
+<header class="head_top"><i><a href="#">返回</a></i>电子签章</header>
+<div class="kongDivTop"></div>
+<!--头部 E-->
+
+<!--主体 B-->
+<div class="set_Main" style="margin-top: 0.35rem;">
+    <section class="set_box" style="margin-bottom: 0.45rem;box-shadow: none;border-top: 1px solid #dfdfdf;border-bottom: 1px solid #dfdfdf;">
+        <p class="qian_op1">
+            <a href="#">
+                <img src="Style/Touch/images/img_24_03.png" style="width: 0.76rem;display: inline-block;vertical-align: middle;" />
+                您还未设置电子签章，请立即设置
+                <span class="ospan"></span>
+            </a>
+        </p>
+    </section>
+    <p class="qian_op2">温馨提示： </p>
+    <p class="qian_op3">1.手投网的电子签章服务由e签宝提供，e签宝是由公安部、国密局权威认证，国内领先的第三方电子签名云平台。<a href="">了解e签宝</a></p>
+    <p class="qian_op3">2.电子签章应用于手投网的出借、投资合同中，下载合同可以查看您的电子签章。</p>
+    <p class="qian_op3">3.使用电子签章和电子签名技术可以保证电子合同的法律效力，保证手投网平台业务数据的完整性和不可否认性。</p>
+</div>
+<!--主体 E-->
+
+<!--底部 B-->
+<!--底部 E-->
+
+<!--底栏 B-->
+<div class="bar_fixd">
+	<ul class="bar_con">
+    	<li class="icon1"><a href="#"></a></li>
+    	<li class="icon2"><a href="#"></a></li>
+    	<li class="icon3"><a href="#"></a></li>
+    	<li class="icon4"><a href="#"></a></li>
+    	<li class="icon5"><a href="#"></a></li>
+    </ul>
+</div>
+<!--底栏 E-->
+
+</body>
+</html>
