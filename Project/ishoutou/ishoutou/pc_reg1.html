@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>注册手投网账户</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link rel="stylesheet" href="File/css/style.css" type="text/css"/>
+<script src="File/js/jquery-1.8.2.min.js" type="text/javascript" ></script>
+<script src="File/js/common.js" type="text/javascript"></script>
+</head>
+
+<body class="childBg">
+	
+<div id="header" class="headBox" style="position: static;">
+    <div class="header">
+        <div class="logo"><img src="File/images/login.png"></div>
+        <ul class="navBox">
+            <li><a href="#" target="_blank">首页</a></li>
+            <li><a href="#" target="_blank">我要理财</a></li>
+            <li><a href="#" target="_blank">贷款俱乐部</a></li>
+            <li><a href="#" target="_blank">新手指引</a></li>
+            <li><a href="#" target="_blank">关于我们</a></li>
+        </ul>
+        <!--登录前 B-->
+        <div class="regBox" style="display:none;">
+            <a href="#" class="regBtn" target="_blank">注册</a>
+            <a href="#" class="regBtn logoBtn" target="_blank">登录</a>
+        </div>
+        <!--登录前 E-->
+        <!--登录后 B-->
+        <div class="regBox">
+            <a href="#" class="accountBox" target="_blank"><i class="account">我的帐户</i></a>
+        </div>
+        <!--登录后 E-->
+        <div class="clr"></div>
+    </div>
+</div>
+
+<!--主体 B-->
+<div class="indexBox3" style="background:#dbeaf2;">
+    <div style="height:50px;overflow:hidden;"></div>
+    <div class="loginMain">
+        <div class="loginTitle2"></div>
+        <div class="regStep step1"></div>
+        <div class="loginArea">
+            <p><em><i>*</i>用户名</em><input type="text" class="inp6" placeholder="4-20个字母、数字、汉字、下划线"></p>
+            <p><em><i>*</i>登录密码</em><input type="password" class="inp6" placeholder="请输入密码"></p>
+            <p><em><i>*</i>确认密码</em><input type="password" class="inp6" placeholder="请再次输入密码"></p>
+            <p><em>推荐人</em><input type="text" class="inp6" placeholder="填写推荐人用户名，若没有可不填"></p>
+            <p class="login_tips" style="text-align:left;">
+                <em>&nbsp;</em>
+                <!--warn为警告，error为错误提示-->
+                <span class="tipsCon error">用户名格式填写错误。</span>
+            </p>
+            <p class="regXy"><em>&nbsp;</em><label for="agree"><span class="selected"></span><input name="" id="agree" type="hidden" />同意</label><a href="javascript:;" onclick="showPop('#areaPop1','areaPop')">《注册手投网服务协议》</a></p>
+            <p class="loginBtn" style="margin:30px 0 0;"><a href="pc_reg2.html" class="nextBtn" style="width:293px;margin-left:28px;">完成注册，进入下一步</a></p>
+            <p style="text-align: right;">已有账号？<a href="#" style="color:#e94c1b;">立即登录</a></p>
+        </div>
+    </div>
+    <div class="clr"></div>
+    <div class="loginBg"></div>
+    <div style="height:30px;overflow:hidden;"></div>
+</div>
+<!--主体 E-->
+
+<!--底部 B-->
+<div class="indexBox Bg4">
+    <div class="footerBox">
+        <ul class="aboutUs">
+            <li><a href="#" target="_blank">安全保障</a></li>
+            <li><a href="#" target="_blank">诚聘英才</a></li>
+            <li><a href="#" target="_blank">帮助中心</a></li>
+            <li><a href="#" target="_blank">法律声明</a></li>
+            <li><a href="#" target="_blank">平台数据</a></li>
+            <li><a href="#" target="_blank">联系我们</a></li>
+            <li><a href="#" target="_blank">网站地图</a></li>
+        </ul>
+        <p>我们的建议依赖历史数据。未来收益的历史表现并不是一个保证。</p>
+        <p>©2015手投网 (www.ishoutou.com) | 北京手投网投资控股有限公司　|　京ICP备15028302号　|　版权所有：手投网</p>
+        <div class="followUs">
+            <span>关注我们
+                <a class="wb"><img src="File/images/wb3.png" alt="" style="display: none;"></a>
+                <a class="wx"><img src="File/images/wx3.jpg" alt="" style="display: none;"></a>
+            </span>
+            <span style="margin-left:40px;">客服电话  400-047-5588</span>
+        </div>
+        <ul class="attestation">
+            <li><a href="#" class="tu1" target="_blank"></a></li>
+            <li style="width:126px;"><a href="#" class="tu2" target="_blank"></a></li>
+            <li style="width:126px;margin-right:0;"><a href="#" class="tu3" target="_blank"></a></li>
+        </ul>
+    </div>
+</div>
+<!--底部 E-->
+
+<!--弹出层 开始-->
+<div class="popWrap popWrap_xy" id="areaPop1">
+    <iframe class="popIframe popIframe_xy" scrolling="0" frameborder="0"></iframe>
+    <div class="popWrap_sub popWrap_sub_xy"></div>
+    <div class="popBox popBox_xy">
+        <h3>注册协议<a href="javascript:;" class="popClose" title="关闭" onclick="hidePop('#areaPop1','areaPop')"></a></h3>
+        <div class="agreementCon">
+            <p>
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;line-height:2;color:#007dad;">手投网与用户共同确认：</span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;"><span style="font-size:14px;line-height:2;">1. 用户点击手投网网站注册页面的同意注册按钮并完成注册程序、获得手投网</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">网站</span><span style="font-size:14px;line-height:2;">账号和密码时， 视为用户与手投网</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">网站</span><span style="font-size:14px;line-height:2;">已达成《手投网用户协议》(下称“本协议”)，就用户进入手投网</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">网站</span><span style="font-size:14px;line-height:2;">使用手投网</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">网站</span><span style="font-size:14px;line-height:2;">相应的交易服务达成本协议的全部约定。</span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;"><span style="font-size:14px;line-height:2;">2. &nbsp; 手投网</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">网站</span><span style="font-size:14px;line-height:2;">及用户均已认真阅读本《手投网用户协议》中全部条款及手投网</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">网站</span><span style="font-size:14px;line-height:2;">发布的法律声明和操作规则的内容， 对本协议及前述服务条款、法律声明和操作规则均已知晓、理解并接受，同意将其作为确定双方权利义务的依据。 手投网</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">网站</span><span style="font-size:14px;line-height:2;">《法律声明》为本协议的必要组成部分，用户接受本协议的同时即视为接受手投网《法律声明》的全部内容。 本协议内容包括本协议正文以及手投网已经发布的或将来可能发布的各类规则、声明、说明。 所有规则、声明、说明为协议不可分割的一部分，与协议正文具有同等法律效力。</span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;"><span style="font-size:14px;line-height:2;">3. &nbsp; 本协议不涉及手投网</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">网站</span><span style="font-size:14px;line-height:2;">用户与其他用户之间因投资交易而产生的法律关系及法律纠纷。</span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;color:#007dad;line-height:2;"><span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;line-height:2;"><span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;line-height:2;">一、定义条款</span></span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;line-height:2;">1.1. &nbsp; “手投网”：北京手投网投资控股有限公司运营和管理的投资交易平台, 北京手投网投资控股有限公司通过该网络交易平台为用户提供网络投资交易平台服务。 本协议下文中，“手投网”既指网络交易平台，亦指北京手投网投资控股有限公司。</span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;"><span style="font-size:14px;line-height:2;">1.2. &nbsp;“用户”：接受并同意本协议全部条款及手投网</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">网站</span><span style="font-size:14px;line-height:2;">不时发布和更新的法律条款和操作规则、通过手投网</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">网站</span><span style="font-size:14px;line-height:2;">进行投资交易的手投网</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">网站</span><span style="font-size:14px;line-height:2;">注册会员。</span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;line-height:2;">1.3. &nbsp;“用户注册”：用户注册是指用户登录手投网，并按要求填写相关信息并确认同意履行相关用户协议的过程。</span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;"><span style="font-size:14px;line-height:2;">1.4. “投资交易”：用户通过手投网</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">网站</span><span style="font-size:14px;line-height:2;">进行的各种投资交易活动。</span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;"><span style="font-size:14px;line-height:2;">1.5. “充值款”：用户为投资交易而向手投网</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">网站</span><span style="font-size:14px;line-height:2;">平台预充入的款项。</span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;color:#007dad;line-height:2;"><span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;line-height:2;"><span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;line-height:2;">二、用户注册</span></span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;line-height:2;">2.1. 注册资格</span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;"><span style="font-size:14px;line-height:2;">用户承诺：用户具有完全民事权利能力和行为能力，或虽不具有完全民事权利能力和行为能力,但点击同意注册按钮， 本网即视为经其法定代理人同意并由其法定代理人代理注册及应用手投网</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">网站</span><span style="font-size:14px;line-height:2;">服务。</span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;line-height:2;">2.2. 注册目的</span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;"><span style="font-size:14px;line-height:2;">用户承诺：用户进行用户注册并非出于违反法律法规或破坏手投网</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">网站</span><span style="font-size:14px;line-height:2;">交易秩序的目的。</span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;line-height:2;">2.3. 注册流程</span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;"><span style="font-size:14px;line-height:2;">2.3.1. 用户同意根据手投网</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">网站</span><span style="font-size:14px;line-height:2;">注册页面的要求提供有效电子邮箱等信息，设置手投网</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">网站</span><span style="font-size:14px;line-height:2;">账号及密码，用户应确保所提供全部信息的真实性、完整性和准确性。</span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;"><span style="font-size:14px;line-height:2;">2.3.2. 用户合法、完整并有效提供注册所需信息的，有权获得手投网</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">网站</span><span style="font-size:14px;line-height:2;">账号和密码，手投网</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">网站</span><span style="font-size:14px;line-height:2;">账号和密码用于用户在手投网</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">网站</span><span style="font-size:14px;line-height:2;">进行会员登录。</span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;"><span style="font-size:14px;line-height:2;">2.3.3. 用户获得手投网</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">网站</span><span style="font-size:14px;line-height:2;">账号及密码时视为用户注册成功，用户同意接收手投网</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">网站</span><span style="font-size:14px;line-height:2;">发送的与手投网</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">网站</span><span style="font-size:14px;line-height:2;">管理、运营相关的电子邮件和/或短消息。</span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;line-height:2;">2.3.4 用户注册成功后进行投资交易，应当提供本人的真实身份证号码，进行实名认证。</span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;color:#007dad;line-height:2;"><span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;line-height:2;"><span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;line-height:2;">三、用户服务</span></span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;"><span style="font-size:14px;line-height:2;">手投网</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">网站</span><span style="font-size:14px;line-height:2;">为用户通过手投网</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">网站</span><span style="font-size:14px;line-height:2;">进行投资交易活动提供网络交易平台服务。手投网</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">网站</span><span style="font-size:14px;line-height:2;">不作为买家或是卖家参与买卖行为本身。</span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;line-height:2;">3.1. 服务内容</span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;"><span style="font-size:14px;line-height:2;">3.1.1. 用户有权在手投网</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">网站</span><span style="font-size:14px;line-height:2;">浏览投资交易实时行情及交易信息、有权通过手投网</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">网站</span><span style="font-size:14px;line-height:2;">提交交易指令并完成投资交易。</span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;"><span style="font-size:14px;line-height:2;">3.1.2. 用户有权在手投网</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">网站</span><span style="font-size:14px;line-height:2;">查看其手投网会员账号下的信息，有权应用手投网</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">网站</span><span style="font-size:14px;line-height:2;">提供的功能进行操作。</span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;"><span style="font-size:14px;line-height:2;">3.1.3. 用户有权按照手投网</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">网站</span><span style="font-size:14px;line-height:2;">发布的活动规则参与手投网</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">网站</span><span style="font-size:14px;line-height:2;">组织的网站活动。</span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;"><span style="font-size:14px;line-height:2;">3.1.4. 手投网</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">网站</span><span style="font-size:14px;line-height:2;">承诺为用户提供的其他服务。</span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;line-height:2;">3.2. 服务规则</span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;"><span style="font-size:14px;line-height:2;">用户承诺遵守下列手投网</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">网站</span><span style="font-size:14px;line-height:2;">服务规则：</span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;"><span style="font-size:14px;line-height:2;">3.2.1. &nbsp;用户应当遵守法律法规、规章、规范性文件及政策要求的规定，保证账户中所有资金的合法性， 不得在手投网</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">网站</span><span style="font-size:14px;line-height:2;">或利用手投网</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">网站</span><span style="font-size:14px;line-height:2;">服务从事非法或其他损害手投网</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">网站</span><span style="font-size:14px;line-height:2;">或第三方权益的活动，如发送或接收任何违法、违规、违反公序良俗、侵犯他人权益的信息， 发送或接收传销材料或存在其他危害的信息或言论，未经手投网</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">网站</span><span style="font-size:14px;"><span style="line-height:2;">授权使用或伪造手投网</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">网站</span><span style="line-height:2;">电子邮件题头信息等。</span></span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;"><span style="font-size:14px;line-height:2;">3.2.2. 用户应当遵守法律法规应当妥善使用和保管其手投网</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">网站</span><span style="font-size:14px;line-height:2;">账号及密码、资金密码、和其注册时绑定的手机号码、以及手机接收的手机验证码的安全。 用户对使用其手投网</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">网站</span><span style="font-size:14px;line-height:2;">账号和密码、资金密码、手机验证码进行的任何操作和后果承担全部责任。 当用户发现手投网</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">网站</span><span style="font-size:14px;line-height:2;">账号、密码、或资金密码、验证码被未经其授权的第三方使用，或存在其他账号安全问题时，应立即有效通知手投网</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">网站</span><span style="font-size:14px;line-height:2;">，要求手投网</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">网站</span><span style="font-size:14px;line-height:2;">暂停该手投网</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">网站</span><span style="font-size:14px;"><span style="line-height:2;">账号的服务。手投网</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">网站</span><span style="line-height:2;">有权在合理时间内对用户的该等请求采取行动，但对手投网</span></span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">网站</span><span style="font-size:14px;"><span style="line-height:2;">采取行动前用户已经遭受的损失不承担任何责任。 用户在未经手投网网站同意的情况下不得将手投网</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">网站</span><span style="line-height:2;">账号以赠与、借用、租用、转让或其他方式处分给他人。</span></span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;"><span style="font-size:14px;line-height:2;">3.2.3. 用户应当遵守手投网</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">网站</span><span style="font-size:14px;line-height:2;">不时发布和更新的用户协议以及其他服务条款和操作规则。</span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;color:#007dad;line-height:2;"><span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;line-height:2;"><span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;line-height:2;">四、投资交易规则</span></span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;"><span style="line-height:2;">用户承诺在其进入手投网网站交易，通过</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">进行投资交易的过程中良好遵守如下</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">交易规则。</span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;line-height:2;">4.1. 浏览交易信息</span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;"><span style="line-height:2;">用户在</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">浏览交易信息时，应当仔细阅读交易信息中包含的全部内容，包括但不限于价格、委托量、手续费、买入或卖出方向， 用户完全接受交易信息中包含的全部内容后方可点击按钮进行交易。</span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;line-height:2;">4.2. 提交委托</span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;"><span style="line-height:2;">在浏览完交易信息确认无误之后用户可以提交交易委托。用户提交交易委托后， 即用户授权</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">代理用户进行相应的交易提交，</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">在收到交易确认信息后，将通知用户。</span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;line-height:2;">4.3 &nbsp;查看交易明细</span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;line-height:2;">用户可以通过交易中心的交易明细中查看相应的成交记录，确认自己的详情交易记录。</span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;line-height:2;">4.4 撤销/修改委托</span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;line-height:2;">在委托未达成交易之前，用户有权随时撤销或修改委托。</span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;color:#007dad;line-height:2;"><span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;line-height:2;"><span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;line-height:2;">五、用户的权利和义务</span></span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;"><span style="line-height:2;">5.1 用户有权按照本协议约定接受</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">提供的投资交易平台服务。</span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;"><span style="line-height:2;">5.2 &nbsp;用户有权随时终止使用</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">服务。</span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;"><span style="line-height:2;">5.3 &nbsp;用户有权随时提取在</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">的资金余额。</span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;line-height:2;">5.4 &nbsp;用户对注册时提供的个人资料的真实性、有效性及安全性负责。</span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;"><span style="line-height:2;">5.5 用户在</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">进行投资交易时不得恶意干扰投资交易的正常进行、破坏交易秩序。</span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;"><span style="line-height:2;">5.6 用户不得以任何技术手段或其他方式干扰</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">正常运行或干扰其他用户对</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">服务的使用。</span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;"><span style="line-height:2;">5.7 如用户因网上交易与其他用户产生诉讼的，不得通过司法或行政以外的途径要求</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">提供相关资料。</span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;"><span style="line-height:2;">5.8 &nbsp;用户不得以虚构事实等方式恶意诋毁</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">的商誉。</span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;color:#007dad;line-height:2;"><span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;line-height:2;"><span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;line-height:2;">六、手投网网站的权利和义务</span></span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;"><span style="line-height:2;">6.1 如用户不具备本协议约定的注册资格，则</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">有权拒绝用户进行注册，对已注册的用户有权注销其</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">会员账号，</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">因此而遭受损失的有权向前述用户或其法定代理人主张赔偿。同时，</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">保留其他任何情况下决定是否接受用户注册的权利。</span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;"><span style="line-height:2;">6.2 &nbsp;</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">发现账户使用者并非账户初始注册人时，有权中止该账户的使用。</span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;"><span style="line-height:2;">6.3 </span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">通过技术检测、人工抽检等检测方式合理怀疑用户提供的信息错误、不实、失效或不完整时，有权通知用户更正、更新信息或中止、终止为其提供</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">服务。</span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;"><span style="line-height:2;">6.4 &nbsp;</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">有权在发现</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">上显示的任何信息存在明显错误时，对信息予以更正。</span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;"><span style="line-height:2;">6.5 </span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">保留随时修改、中止或终止</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">服务的权利，</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">行使修改或中止服务的权利不需事先告知用户， </span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">终止</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">一项或多项服务的，终止自</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">在网站上发布终止公告之日生效。</span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;"><span style="line-height:2;">6.6 &nbsp;</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">应当采取必要的技术手段和管理措施保障</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">的正常运行，并提供必要、可靠的交易环境和交易服务，维护投资交易秩序。</span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;"><span style="line-height:2;">6.7 &nbsp;如用户连续一年未使用</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">会员账号和密码登录</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">，则</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">有权注销用户的</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">账号。账号注销后，</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">有权将相应的会员名开放给其他用户注册使用。</span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;"><span style="line-height:2;">6.8 &nbsp;</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">通过加强技术投入、提升安全防范等措施保障用户的人民币资金托管安全，有义务在用户资金出现可以预见的安全风险时提前通知用户。</span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;"><span style="line-height:2;">6.9 </span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">有权在本协议履行期间及本协议终止后保留用户的注册信息及用户应用</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">服务期间的全部交易信息，但不得非法使用该等信息。</span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;"><span style="line-height:2;">6.10.</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">有权随时删除</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">内各类不符合国家法律法规、规范性文件或</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">规定的用户评价等内容信息，</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">行使该等权利不需提前通知用户。</span></span>
+            </p>
+
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;"><span style="line-height:2;">6.11.</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站有权向手投网用户发布站内信、通知短信和邮件等，告知用户注册、充值、投标等情况。</span></span>
+            </p>
+
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;color:#007dad;line-height:2;"><span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;line-height:2;"><span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;line-height:2;">七、特别声明</span></span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+	<span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;"><span style="line-height:2;">7.1 在法律允许的范围内，不论在何种情况下，</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">对
+由于信息网络设备维护、信息网络连接故障、电脑、通讯
+或其他系统的故障、电力故障、罢工、劳动争议、暴乱、起义、骚乱、生产力或生产资料不足、火灾、洪水、风暴、爆炸、战争、政府行为、
+司法行政机关的命令、其他不可抗力或第三方的不作为而造成的不能服务或延迟服务，以及用户因此而遭受的损失不承担责任。</span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;color:#007dad;line-height:2;"><span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;line-height:2;"><span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;line-height:2;">八、知识产权</span></span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;"><span style="line-height:2;">8.1 </span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">所包含的全部智力成果包括但不限于网站标志、数据库、网站设计、文字和图表、软件、照片、录像、音乐、声音及其前述组合， 软件编译、相关源代码和软件 (包括小应用程序和脚本) 的知识产权权利均归</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">所有。用户不得为商业目的复制、更改、拷贝、发送或使用前述任何材料或内容。</span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;"><span style="line-height:2;">8.2 </span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">名称中包含的所有权利 (包括但不限于商誉和商标、标志) 均归北京手投网投资控股有限公司所有。</span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;"><span style="line-height:2;">8.3 用户接受本协议即视为用户主动将其在</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">发表的任何形式的信息的著作权， 包括但不限于：复制权、发行权、出租权、展览权、表演权、放映权、广播权、信息网络传播权、摄制权、改编权、翻译权、汇编权 以及应当由著作权人享有的其他可转让权利无偿独家转让给</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">所有，</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">有权利就任何主体侵权单独提起诉讼并获得全部赔偿。 本协议属于《中华人民共和国著作权法》第二十五条规定的书面协议，其效力及于用户在</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">发布的任何受著作权法保护的作品内容， 无论该内容形成于本协议签订前还是本协议签订后。</span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;"><span style="line-height:2;">8.4 &nbsp;用户在使用</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">服务过程中不得非法使用或处分</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">或他人的知识产权权利。用户不得将已发表于</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">的信息以任何形式发布或授权其它网站（及媒体）使用。</span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;color:#007dad;line-height:2;"><span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;line-height:2;"><span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;line-height:2;">九、客户服务</span></span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;"><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">建立专业的客服团队，并建立完善的客户服务制度，从技术、人员和制度上保障用户提问及投诉渠道的畅通，为用户提供及时的疑难解答与投诉反馈。</span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;color:#007dad;line-height:2;"><span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;line-height:2;"><span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;line-height:2;">十、协议的变更和终止</span></span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;"><span style="line-height:2;">10.1. 协议的变更：</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">有权随时对本协议内容或</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">发布的其他服务条款及操作规则的内容进行变更，变更时</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">将在</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">内显著位置发布公告， 变更自公告发布之时生效，如用户继续使用</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">提供的服务即视为用户同意该等内容变更，如用户不同意变更后的内容则用户有权注销</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">账户、停止使用</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">服务。</span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;line-height:2;">10.2. 协议的终止</span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;"><span style="line-height:2;">10.2.1. </span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">有权依据本协议约定注销用户的</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">账号，本协议于账号注销之日终止。</span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;"><span style="line-height:2;">10.2.2. &nbsp;</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">有权依据本协议约定终止全部</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">服务，本协议于</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">全部服务终止之日终止。</span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;"><span style="line-height:2;">10.2.3. 本协议终止后，用户无权要求</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">继续向其提供任何服务或履行任何其他义务，包括但不限于要求</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">为用户保留或向用户披露其原</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">账号中的任何信息， 向用户或第三方转发任何其未曾阅读或发送过的信息等。</span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;line-height:2;">10.2.4. &nbsp;本协议的终止不影响守约方向违约方追究违约责任。</span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;color:#007dad;line-height:2;"><span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;line-height:2;"><span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;line-height:2;">十一、隐私权政策</span></span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;line-height:2;">11.1. 适用范围</span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;"><span style="line-height:2;">11.1.1. &nbsp;在用户注册</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">账号或者支付账户时，用户根据</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">要求提供的个人注册信息，包括但不限于身份证信息；</span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;"><span style="line-height:2;">11.1.2. &nbsp;在用户使用</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">服务时，或访问</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">网页时，</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">动接收并记录的用户浏览器上的服务器数值，包括但不限于IP地址等数据及用户要求取用的网页记录；</span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;"><span style="line-height:2;">11.1.3. &nbsp;</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">收集到的用户在</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">进行交易的有关数据，包括但不限于出价、购买等记录；</span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;"><span style="line-height:2;">11.1.4. &nbsp;</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">通过合法途径取得的其他用户个人信息。</span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;line-height:2;">11.2. 信息使用</span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;"><span style="line-height:2;">11.2.1. </span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">不会向任何人出售或出借用户的个人信息，除非事先得到用户的许可。</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">也不允许任何第三方以任何手段收集、编辑、出售或者无偿传播用户的个人信息。</span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;"><span style="line-height:2;">11.3. &nbsp;</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">对所获得的客户身份资料和交易信息进行保密，不得向任何单位和个人提供客户身份资料和交易信息，法律法规另有规定的除外。</span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;color:#007dad;line-height:2;"><span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;line-height:2;"><span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;line-height:2;">十二、反洗钱</span></span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;"><span style="line-height:2;">12.1 </span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">遵守和执行《中华人民共和国反洗钱法》的规定，对用户进行身份识别、客户身份资料和交易记录保存制度，以及大额的和可疑交易报告的制度。</span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;"><span style="line-height:2;">12.2 &nbsp;用户注册、挂失交易密码或者资金密码时，应当提供并上传身份证复印件，</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">对用户提供的身份证信息进行识别和比对。 </span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">有合理的理由怀疑用户使用虚假身份注册时，有权拒绝注册或者注销已经注册的账户。</span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;"><span style="line-height:2;">12.3 </span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">参照《金融机构大额交易和可疑交易报告管理办法》的规定，保存大额交易和有洗钱嫌疑的交易记录，在监管机构要求提供大额交易和可疑交易的记录时，向监管机构提供。</span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;"><span style="line-height:2;">12.4 </span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">对用户身份信息以及大额交易、可疑交易记录进行保存，依法协助、配合司法机关和行政执法机关打击洗钱活动， 依照法律法规的规定协助司法机关、海关、税务等部门查询、冻结和扣划客户存款。</span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;color:#007dad;line-height:2;"><span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;line-height:2;"><span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;line-height:2;">十三、风险提示</span></span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;line-height:2;">13.1 &nbsp;技术风险：由于交易撮合及行情揭示等是通过电子通讯技术和电脑技术来实现的，这些技术存在着被网络黑客和计算机病毒攻击的可能，由此可能给用户带来损 失，用户将不得不承担由此导致的损失。</span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;"><span style="line-height:2;">不可抗力因素导致的风险：诸如地震、火灾、水灾、战争等不可抗力因素可能导致交易系统的瘫痪；与</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">系统 连接的证券营业部、服务器托管机房和网络运营商，他们无法控制和不可预测的系统故障、设备故障、通讯故障、电力故障等也可能导致</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">系统非正常运行甚至瘫痪，这些都会使用户的交易委托无法成交或者无法全部成交，用户将不得 不承担由此导致的损失。其他风险：由于用户密码失密、操作不当、投资决策失误等原因可能会导致的损失，该损失将由用户自行承担；</span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;"><span style="line-height:2;">如果由于某种原因使用户无法通过互联网进行正常的交易委托，请立即与</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">在线客服或及时通过客服联系，我们会尽快帮助用户解决出现的问题，并且 提供全面的人工咨询服务。</span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;"><span style="line-height:2;">如果由于某种原因使用户无法进行正常的交易委托，请立即与</span><span style="color:#666666;font-family:'Microsoft YaHei';font-size:14px;line-height:2;">手投网网站</span><span style="line-height:2;">在线客服联系，我们会尽快帮助用户解决出现的问题，并且 提供全面的咨询服务。</span></span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;line-height:2;">证券风险申明</span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;line-height:2;">13.2 宏观经济风险：由于我国宏观经济形势的变化以及周边国家、地区宏观经济环境和周边证券市场的变化，可能会引起国内证券市场的波动，使用户存在亏损的可 能，用户将不得不承担由此造成的损失。</span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;line-height:2;">政策风险：有关证券市场的法律、法规及相关政策、规则发生变化，可能引起证券市场价格波动，使用户存在亏损的可 能，用户将不得不承担由此造成的损失。</span>
+            </p>
+            <p style="font-family:'Microsoft YaHei';vertical-align:baseline;color:#666666;">
+
+                <span style="font-family:inherit;font-size:14px;font-style:inherit;font-weight:inherit;vertical-align:baseline;line-height:2;">上市公司经营风险：由于上市公司所处行业整体经营形势的变化；上市公司经营管理等方面的因素，如经营决策重大失 误、高级管理人员变更、重大诉讼等都可能引起该公司证券价格的波动；由于上市公司经营不善甚至于会导致该公司被停牌、摘牌，这些都使用户存在亏损的可能。</span>
+            </p>
+            <p>
+                <br>
+            </p>
+        </div>
+        <div class="agreementBtn"><a href="javascript:;" onclick="hidePop('#areaPop1','areaPop')">我已阅读</a></div>
+    </div>
+</div>
+<!--弹出层 结束-->
+
+<!--背景遮罩层 开始-->
+<iframe id="bgIframe" class="bgIframe" frameborder="0"></iframe>
+<div id="bgDiv" class="bgDiv"></div>
+<!--背景遮罩层 结束-->
+</body>
+</html>
