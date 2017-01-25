@@ -1,0 +1,32 @@
+﻿@charset "utf-8";
+/* CSS Document *//*重置样式*/
+.h_top,.h_btm{ background:#434343;}
+.h_nav{ background:#fff;}
+.h_main{ background:#f5f5f5; padding:16px 0;width: 100%}
+b.h_prize{ width:87px; background:url(../img/icon.gif?v=1) no-repeat left -73px;
+    margin-left:10px;
+    font-size:14px;
+    color:#fff;
+    display:inline-block;
+    line-height:20px;
+    padding-left:10px;
+}
+/*--index--*/
+
+
+.bgIframe,.popIframe{filter:alpha(opacity=0);opacity:0;}
+.bgDiv,.bgIframe{width:100%;height:100%;display:none;position:absolute;left:0;top:0;filter:alpha(opacity=50);opacity:0.5;z-index:2999;background:#000;}
+
+.popWrap,.bgDiv,.bgIframe{
+    display:none;
+    position:fixed !important;/*FF IE7*/
+    position:absolute;/*IE6*/
+    _top:expression(eval(document.compatMode &&
+         document.compatMode=='CSS1Compat') ?
+         documentElement.scrollTop + (document.documentElement.clientHeight-this.offsetHeight)/2 :/*IE6*/
+         document.body.scrollTop + (document.body.clientHeight - this.clientHeight)/2);/*IE5 IE5.5*/
+}
+
+
+
+

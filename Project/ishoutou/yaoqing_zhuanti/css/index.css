@@ -1,0 +1,42 @@
+body {
+  color: #76583b;
+  font-size: 17px;
+  padding-bottom: 90px;
+  font-family: "微软雅黑"; 
+  background: #51c7dc url(../images/yao3_02.jpg) repeat-x left 656px;
+
+}
+.yao_top{width: 100%;height: 656px;background: url(../images/yao1.jpg) no-repeat center center;}
+.yao_mian{width: 1100px;margin: 0 auto;}
+.yao_box{width: 100%;}
+.box1_top{width: 1100px;height: 165px;position: relative; background: url(../images/yao2_03.png) no-repeat center center;}
+.box1_top p{width: 308px;height: 37px;position: absolute; text-align: center;line-height: 37px;color: 000;font-size: 18px;top: 113px;left: 396px;}
+.box1_center{width: 1100px;height: 378px;position: relative; background: url(../images/yao4_03.jpg) no-repeat center center;}
+.box1_center h3{width: 232px;height: 40px;position: absolute; text-align: center;line-height: 40px;color: 000;font-size: 15px;}
+.box1_center h3 em{font-size: 18px;color: #e80f3d;}
+.box1_center h3.oh1{left: 82px;top: 75px;}
+.box1_center h3.oh2{left: 436px;top: 58px;}
+.box1_center h3.oh3{left: 790px;top: 40px;}
+.box1_center p.op1,.box1_center p.op2,.box1_center p.op3{width: 232px;height: 87px;position: absolute; text-align: center; color: #fff;font-size: 14px;}
+.box1_center p.op1{left: 82px;top: 149px;padding-top: 17px;height: 70px;}
+.box1_center p.op2{left: 436px;top: 134px;padding-top: 27px;height: 60px;}
+.box1_center p.op3{left: 790px;top: 115px;padding-top: 33px;height: 54px;}
+.box1_center p.op1 em,.box1_center p.op2 em,.box1_center p.op3 em{color: #fffd34;}
+.box1_center p.op4{position: absolute;bottom: 82px; padding-left: 38px; font-size: 14px;color: #7d8687;}
+.box1_center p.op5{position: absolute;bottom: 45px; padding-left: 38px; color: #d32d24;font-size: 14px;}
+
+.box2_center{width: 100%;height: 602px;background: url(../images/yao6_03.jpg) repeat-x;}
+.box2_center p.op1{font-size: 15px; color: #df1e42;padding: 73px 0 0 42px;}
+.box2_center table{width: 510px;height: 88px;margin: 30px 0 0 50px;}
+.box2_center table td{ background: #f8fdfe;text-align: center;border: 1px solid #bfc3c4;}
+.box2_box{width: 1004px;height: 128px; margin-left: 50px;margin-top: 32px}
+.box2_box>span{font-size: 14px;color: #343a3b;display: block;float: left;line-height: 14px;}
+.box2_box p{width: 750px;height: 103px;float: left;position: relative;top: 2px; background: #d7ecf0;border-radius: 3px;margin-left: 22px;padding: 24px 0 0 32px; }
+.box2_box p>span{display: block;font-size: 13px;color: #576061;line-height: 24px;}
+.box2_box p>span em{color:#168cb6;}
+.box2_box p>em{display: block;width: 22px;height: 12px;position: absolute;left: -21px;top: 0;background: url(../images/yao7_03.png) no-repeat;}
+.box2_center p.op2{padding: 34px 0 0 50px; font-size: 14px;color: #7d8687; }
+.box2_center>h3{font-size: 16px; color: #343a3b;margin-left: 50px;padding-top: 30px;margin-bottom: 7px; font-weight: bold;}
+.box2_center p.op3{margin-left: 50px;font-size:14px;color: #576061;line-height: 28px; }
+
+
