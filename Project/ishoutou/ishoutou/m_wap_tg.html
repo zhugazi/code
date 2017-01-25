@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Cache-Control" content="no-cache" />
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=no;" />
+<title>手投网_wap推广</title>
+<meta name="MobileOptimized" content="320"/>
+<meta name="HandheldFriendly" content="True">
+<meta name="format-detection" content="telephone=no" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-touch-fullscreen" content="yes">
+<link rel="stylesheet" href="Style/Touch/css/style.css" type="text/css" media="all"/>
+<link rel="stylesheet" href="Style/Touch/css/sep.css" type="text/css" media="all"/>
+<link rel="stylesheet" href="Style/Touch/css/lightGallery.css" type="text/css" media="all"/>
+<script src="Style/Touch/js/jquery-1.8.2.min.js" type="text/javascript"></script>
+<script src="Style/Touch/js/common.js" type="text/javascript"></script>
+<script type="text/javascript">
+    setInterval("redireact()",1000);
+    function redireact() {
+        var seconds = $('#seconds').html();
+        seconds = parseInt(seconds);
+        if(seconds==0) {
+            location.href = '/';
+        }else {
+            $('#seconds').html(seconds-1);
+        }
+    }
+</script>
+<script type="text/javascript">
+(function (doc, win) {
+        var docEl = doc.documentElement,
+            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+        recalc = function () {
+        var clientWidth = docEl.clientWidth;
+        //console.log(clientWidth);
+        if (!clientWidth) return;
+        if(clientWidth>640) clientWidth=640;
+        docEl.style.fontSize = 100 * (clientWidth / 640) + 'px';
+        };
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, recalc, false);
+        doc.addEventListener('DOMContentLoaded', recalc, false);
+        })(document, window);
+</script>
+<style>
+  body{line-height: 0.24rem;padding-bottom: 0rem;}
+  #lightGallery-action a,#lightGallery-close,#lightGallery-Gallery .thumb_cont .thumb_info .close{line-height: 20px;}
+.gallery{display:block;width: 100%; margin:10px auto; position: relative;}
+.gallery li{ display: block;width:1.3rem;float: left;margin-left: 0.28rem;}
+.gallery li a {width:100%;display: block;}
+.gallery li a img { max-width:100%; display: block;}
+.gallery li:nth-of-type(2){margin-left: 0.23rem;}
+.gallery li:nth-of-type(3){margin-left: 0.21rem;}
+.gallery li:nth-of-type(4){margin-left: 0.21rem;}
+</style>
+<script type="text/javascript" src="Style/Touch/js/lightGallery.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $("#auto-loop").lightGallery({
+            loop:true,
+            auto:false,
+            pause:4000
+        });
+    });
+    
+</script>
+</head>
+
+<body>
+<!--头部 B-->
+<!--头部 E-->
+
+<!--主体 B-->
+<div class="tg_Main location" style="padding-bottom: 1.5rem;">
+    <div class="tg_adv"><img src="Style/Touch/images/sep/tg_1_01.jpg"></div>
+    <!--注册 B-->
+    <div class="location_con" id="zhuce" name="zhece">
+        <div class="reg_Main tg_reg">
+                  <div class="tg_tit1">
+                    10秒注册，体验理财快感
+                    <a href="###">已有账号？点此登录</a>
+                  </div>
+                  <ul>
+                      <li>
+                          <em>手机号：</em>
+                          <input type="text" name="name" class="inp1 phone_num" placeholder="请输入您的手机号" />
+                          <p></p>
+                      </li>
+                      <li>
+                          <em>图片验证码：</em>
+                          <input type="text" name="name" class="inp2 img_yan"/>
+                          <div style="width: 38%;display:block;float: left; height: 0.64rem;line-height: 0.64rem;padding-left: 0.07rem;box-sizing: border-box;">
+                              <img src="Style/Touch/images/temp/wap_zhaohui.jpg" width="73" style="vertical-align: middle;display:inline-block;float: left;margin-top: 0.07rem;margin-right: 0.12rem;"/>
+                              <a href="javascript:;" style="text-decoration: underline;width: 17px;height: 17px;display:inline-block;float: left;margin-top: 0.2rem;"><img src="Style/Touch/images/sep/wap_zhuolu01_refresh_03.jpg" width="17" style="vertical-align: middle;display: block;"/></a>
+                          </div>
+                          <p></p>
+                      </li>
+                      <li>
+                          <em>短信验证码：</em> 
+                          <input type="text" name="name" class="inp2 phone_yan" />
+                          <a href="javascript:;" class="code getCode" id="getCode" style="color: #58a1bf;font-size: 0.22rem;width:38%;height: 0.64rem;text-align: center;display: inline-block;line-height:0.64rem;background: #e8e8e8;float: left;margin-left: 0.07rem;">获取短信验证码</a>
+                          <a style="display:none;color: #58a1bf;font-size: 0.22rem;width:38%;height:0.64rem;text-align: center;line-height: 32px;background: #e8e8e8;float: left;margin-left: 0.07rem;" hidefocus="true" class="code" id="getCodeTime" href="javascript:;"><font id="seconds">60</font>秒后重新获取</a>
+                          <div class="clr"></div>
+                          <p></p>
+                      </li>
+                      <li>
+                          <em>登录密码：</em>
+                          <input type="password" name="name" class="inp1 login_yan" placeholder="6-16个字母、数字、下划线" />
+                          <p></p>
+                      </li>
+                      <li>
+                          <em>推荐人：</em>
+                          <input type="text" name="name" class="inp1 ren_yan" placeholder="请填写推荐人（可不填）" />
+                          <p></p>
+                      </li>
+                      <li style="height: 0.22rem;"><em></em><label><span class="cheked" style="display: block;float: left; width: 12px;height: 12px;"></span>同意并接受</label><a href="http://m.ishoutou.com/member/common/agreement" style="font-size:0.2rem;color: #178cb4;float: left;line-height: 0.22rem;">《手投网注册协议》</a></li>
+                      <li style="margin: 0.37rem 0 0 0;">
+                          <a href="javascript:void(0)" class="run" id="demoBtn2" style="display: block;width: 5.25rem;height: 0.68rem;line-height:0.68rem;font-size: 0.24rem;padding-left: 2.36rem;box-sizing: border-box; margin: 0 auto; color: #fff; background: #ed8c19;">注册</a>
+                      </li>
+                  </ul>
+              </div>
+    </div>
+    <!--注册 E-->
+
+    <!--模块二 B-->
+    <section class="activity_box1" id="actOne" name="actOne">
+        <img src="Style/Touch/images/sep/may_02_02.png" />
+        <div class="actOne_box">
+            <p class="op1">活动日期:5月16日-5月20日</p>
+            <p class="op2">518互联网金融理财节，手投网携手网贷之家</p>
+            <p class="op2" style="margin-bottom: 0.2rem;">倾情打造史上最<em>“壕气”</em>理财盛宴！</p>
+            <p class="op2">5月16日—5月20日，连续五天，手投网全场</p>
+            <p class="op2" style="margin-bottom: 0.76rem;">所有标统统<em>加息1%</em>！！</p>
+            <div class="actOne_box01">
+                <p class="op3">月月盈</p>
+                <p class="op4"><span>期限：一个月</span><span>年化收益：14%</span></p>
+            </div>
+            <div class="actOne_box01">
+                <p class="op3">月月盈</p>
+                <p class="op4"><span>期限：一个月</span><span>年化收益：14%</span></p>
+            </div>
+            <div class="actOne_box01" style="margin-bottom:0;">
+                <p class="op3">月月盈</p>
+                <p class="op4"><span>期限：一个月</span><span>年化收益：14%</span></p>
+            </div>
+            <a href="#zhuce">马上投标</a>
+        </div>
+    </section>
+    <!--模块三 E-->
+    <!-- <div class="bgpian"></div> -->
+  <!--模块一 B-->
+    <section class="activity_box2" id="actTwo" name="actTwo">
+        <img src="Style/Touch/images/sep/may_04_02.png" />        
+        <div class="actTwo_box">           
+            <p class="op1" style="margin-top: 2.72rem;margin-bottom: 0.24rem;"><span>活动日期：</span>5月1日—5月31日</p>
+            <p class="op1" style="margin-bottom: 0.22rem;"><span>活动规则：</span>5月狂欢盛宴，当月加权投标总额<em>前十名</em>的手投英雄们，都可获得我们为您精心准备的英雄奖励！加权投标排行榜会在每日的发标公告中公布英雄排名哦~</p>
+            <p class="op1"><span>什么是加权投标值？</span></p>
+            <p class="op1">加权投标值=投标金额*投标期限（月）</p>
+            <p class="op2"><em></em>举个例子：手族A有10万元，投资了6月标，则加权投标值为10*6=60万</p>
+            <dl>
+                <dt>
+                    <img src="Style/Touch/images/sep/may_11_03.jpg"/>
+                </dt>
+                <dd>
+                    <p class="op3">第一名：<em></em></p>
+                    <p class="op4">iPhone 6S plus 64G玫瑰金</p>
+                    <p class="op5">价值6088元</p>
+                </dd>
+            </dl>
+            <dl style="height: 2.23rem;">
+                <dt>
+                    <img src="Style/Touch/images/sep/may_12_03.jpg"/>
+                </dt>
+                <dd>
+                    <p class="op3">第二名：<em></em></p>
+                    <p class="op4">千足金投资猴年系列金条</p>
+                    <p class="op4">猴福齐天 10克</p>
+                    <p class="op5">价值2770元</p>
+                </dd>
+            </dl>
+            <dl>
+                <dt>
+                    <img src="Style/Touch/images/sep/may_13_03.jpg"/>
+                </dt>
+                <dd>
+                    <p class="op3">第三名：<em></em></p>
+                    <p class="op4">iPad mini 2</p>
+                    <p class="op5">价值1988元</p>
+                </dd>
+            </dl>
+            <dl style="height: 2.23rem;">
+                <dt>
+                    <img src="Style/Touch/images/sep/may_14_03.jpg"/>
+                </dt>
+                <dd>
+                    <p class="op3">第四名：<em></em></p>
+                    <p class="op4">中国金币2016年丙申猴年</p>
+                    <p class="op4">贺岁银条 100克</p>
+                    <p class="op5">价值798元</p>
+                </dd>
+            </dl>
+            <dl>
+                <dt>
+                    <img src="Style/Touch/images/sep/may_15_03.jpg"/>
+                </dt>
+                <dd>
+                    <p class="op3" style="width: 2.24rem">第五、六、七名：<em></em></p>
+                    <p class="op4">iHealth 智能血压计</p>
+                    <p class="op5">价值199元</p>
+                </dd>
+            </dl>
+            <dl>
+                <dt>
+                    <img src="Style/Touch/images/sep/may_16_03.jpg"/>
+                </dt>
+                <dd>
+                    <p class="op3" style="width: 2.24rem">第八、九、十名：<em></em></p>
+                    <p class="op4">暴风魔镜VR</p>
+                    <p class="op5">价值99元</p>
+                </dd>
+            </dl>
+            <a href="#zhuce" class="oa1">我要做英雄</a>
+        </div>
+        
+    </section>
+    <!--模块一 E-->
+    <!-- <div class="bgpian"></div> -->
+    <!--模块四 B-->
+    <section class="activity_box3" id="actThree" name="actThree">
+        <img src="Style/Touch/images/sep/may_08_02.png" />
+        <div class="actThree_box">
+            <p class="op1" style="margin-top: 2.55rem;margin-bottom: 0.24rem;"><span>活动日期：</span>5月1日—5月31日</p>
+            <p class="op1"><span>活动规则：</span>5月份四个周期，每个周期内投标金额达到一定额度，即可获得现金奖励，每周期最高奖励<em>188.8元</em>。</p>
+            <table cellspacing="0" cellpadding="0" border="1" bordercolor='a0a0a0'>
+                <tr>
+                    <td>&nbsp;每周投标金额（元）</td>
+                    <td>&nbsp;奖励金额（元）</td>
+                </tr>
+                <tr>
+                    <td>5000</td>
+                    <td>5.18</td>
+                </tr>
+                <tr>
+                    <td>10000</td>
+                    <td>15.8</td>
+                </tr>
+                <tr>
+                    <td>30000</td>
+                    <td>51.8</td>
+                </tr>
+                <tr>
+                    <td>50000</td>
+                    <td>88.8</td>
+                </tr>
+                <tr>
+                    <td>100000</td>
+                    <td>188.8</td>
+                </tr>
+            </table>
+            <p class="op1" style="margin-bottom: 0.23rem;"><span>四个统计周期：</span>5.1-5.8；5.9-5.15；5.16-5.22；5.23-5.31</p>
+            <p class="op1"><span>奖励发放：</span>统计周期结束后第二个工作日发放，如遇节假日则顺延。</p>
+            <a href="#zhuce" class="oa1">马上投标领奖</a>
+        </div>
+        
+    </section>
+    <!--模块一 E-->
+    <!-- <div class="bgpian"></div> -->
+    <!--模块五 B-->
+    <section class="activity_box4" id="actFour" name="actFour">
+        <img src="Style/Touch/images/sep/may_09_02.png" />
+        <div class="actFour_box">
+            <p class="op1" style="margin-top: 2.55rem;margin-bottom: 0.23rem;"><span>1）微信注册红包：</span>关注手投网官方微信，通过订阅号进行注册既有机会领取<em>百元红包</em>。</p>
+            <p class="op1" style="margin-bottom: 0.23rem;"><span>2）微信投标奖励：</span>首次使用微信进行投标，奖励投标金额的<em>2‰</em>。</p>
+            <p class="op2" style="margin-bottom: 0.23rem;"><span>注：</span>已获微信首次投标奖励的用户不可再次获得此奖励；约标不参与微信投标奖励活动。</p>
+            <p class="op1" style="margin-bottom: 0.23rem;position: relative;"><span>奖励发放：</span>微信注册红包系统立即自动发放；微信投标奖励第二个工作日发放<a>（如遇节假日则顺延）</a></p>
+            <p class="op1"><span>微信拿奖流程：</span></p>
+            <div class="actFour_box02">
+                <img src="Style/Touch/images/sep/may_10_02.png" style="display: block;" />
+                <ul id="auto-loop"  class="gallery">
+                    <li data-src="Style/Touch/images/sep/12_shouji01.png"><a href="javascript:;"><img src="Style/Touch/images/sep/wap_jan_16_06.png"/></a></li>
+                    <li data-src="Style/Touch/images/sep/12_shouji02.png"><a href="javascript:;"><img src="Style/Touch/images/sep/wap_jan_17_03.png"/></a></li>
+                    <li data-src="Style/Touch/images/sep/12_shouji03.png"><a href="javascript:;"><img src="Style/Touch/images/sep/wap_jan_18_03.png"/></a></li>
+                    <li data-src="Style/Touch/images/sep/12_shouji04.png"><a href="javascript:;"><img src="Style/Touch/images/sep/wap_jan_19_03.png"/></a></li>
+                </ul>
+            </div>
+            
+        </div>
+    </section>
+    <!--模块一 E-->
+</div>
+<!--主体 E-->
+
+<!--底栏 B-->
+<div class="zhe_fixd" style="bottom: 0;">
+   <div class="zhe_fixd_box01"></div>
+   <a href="#zhuce">马上注册拿大奖</a>
+</div>
+
+<script type="text/javascript">
+    var u = navigator.userAgent;
+    var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1; //android终端
+    var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+    var winWidth=$(window).width();
+    if(isiOS){
+
+    }else if(isAndroid){        
+        $(".actFour_box p.op1").css({'letter-spacing':'-1px'})
+        if(navigator.userAgent.indexOf('UCBrowser') > -1){
+           if(winWidth<=360 && winWidth>=320){
+                $(".actOne_box p.tiao").css({'margin-bottom':'0.78rem'});
+                $('.actFour_box p.tiao').css({'margin-bottom':'0.58rem'});
+                $('#auto-loop li.tiao').css({'margin-left':'0.3rem'});
+                $('#auto-loop li.tiao2').css({'margin-left':'0.24rem'});
+           }else if(winWidth<=414 && winWidth>=383){
+                $(".actOne_box p.tiao").css({'margin-bottom':'0.95rem'});
+                $('.actFour_box p.tiao').css({'margin-bottom':'0.75rem'});
+                $('#auto-loop li.tiao').css({'margin-left':'0.3rem'});
+                $('#auto-loop li.tiao2').css({'margin-left':'0.24rem'});
+                $('.actFour_box p.tiao3').css({'margin-top':'2.65rem'});
+           }
+        }
+    }
+</script>
+<!--底栏 E-->
+
+</body>
+</html>
