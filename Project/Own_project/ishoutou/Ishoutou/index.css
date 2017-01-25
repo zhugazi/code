@@ -1,0 +1,37 @@
+
+/* progress */
+.progress,.progress .progress_bg,.progress .progress_bg_left,.progress .progress_bg_right,.proinfo{width: 132px;}
+.progress {
+	margin-bottom:-2px;
+display: inline-block;
+height: 12px;
+  background-color: #dddddd;
+overflow: hidden;
+-moz-border-radius: 6px; /* Firefox */
+-webkit-border-radius: 6px; /* Safari and Chrome */
+border-radius: 6px; /* Opera 10.5+, future browsers, and now also Internet Explorer 6+ using IE-CSS3 */
+behavior: url(ie-css3.htc); /* This lets IE know to call the script on all elements which get the 'box' class */
+}
+.precent {
+background-color: #da471c;
+display: inline-block;
+height: 12px;
+line-height: 12px;
+color: white;
+font-weight: bolder;
+float: left;
+overflow: hidden;
+}
+.progress .progress_bg,.progress .progress_bg_left,.progress .progress_bg_right{height:10px;overflow:hidden;}
+.progress .progress_bg{background:url(../images/progress.gif) repeat-x 0 -24px;}
+.progress .progress_bg_left{background:url(../images/progress.gif) no-repeat 0 -4px;}
+.progress .progress_bg_right{background:url(../images/progress.gif) no-repeat right -44px;}
+.progress .mark{float:left;height:12px;overflow:hidden;}
+.progress .mark_bg{background:url(../images/progress.gif) repeat-x 0 -84px;height:12px;}
+.progress .mark_bg_left{background:url(../images/progress.gif) no-repeat 0 -64px;height:12px;padding:0 0 0 4px;}
+.progress .mark_bg_right{background:url(../images/progress.gif) no-repeat right -104px;height:12px;padding:0 4px 0 0;}
+.number{padding:0 0 0 4px;}
+.numberL{padding:0 4px 0 0;}
+.pro-num{margin:0 0 0 20px;}
+.proinfo{margin:0 0 3px;text-align:center;color:#000;}
+.proinfo b{color:#215e86;}

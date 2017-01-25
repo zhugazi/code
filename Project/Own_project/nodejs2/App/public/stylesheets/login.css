@@ -1,0 +1,21 @@
+@font-face {
+	font-family: icons;
+	font-style: normal;
+	font-weight: 400;
+	src: url(../fonts/mui.ttf) format("truetype");
+}
+body{background: #ecedf1;}
+img.logon_tx{display: block;width: 1.25rem;height: 1.25rem;margin: 0 auto 0.1rem;}
+ul.login_init{width: 100%;background: #f9fafb;}
+ul.login_init li{position: relative;height: 0.67rem;font-size: 0.24rem;color: #242526;text-align: center;}
+ul.login_init li input{width: 2.5rem;height: 0.63rem;line-height: 0.67rem;background: #f9fafb; text-align: center; border:0;color: #6a6a6c;}
+ul.login_init li em{display: block;position: absolute;width: 0.2rem;height: 100%;right: 0.26rem;top: 0;margin-top: 0; line-height:0.67rem;font-size: 0.26rem;font-family:'icons'; color:#d1d2d4;}
+ul.login_init li em:before{content: "\e581";}
+ul.login_init li:nth-of-type(1){border-bottom: 1px solid #eeeff1;}
+ul.login_init li input.pwd{font-size: 0.35rem;}
+p.login_bot{position: absolute;bottom: 0.2rem;width: 100%;}
+p.login_bot a{font-size: 0.24rem;color: #00aeef;}
+p.login_bot a:first-child{float: left;margin-left: 0.3rem;}
+p.login_bot a:last-child{float: right;margin-right: 0.3rem;}
+
+

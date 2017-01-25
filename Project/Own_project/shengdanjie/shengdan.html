@@ -1,0 +1,887 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-Strict.dtd">
+<!-- saved from url=(0024)http://www.ishoutou.com/ -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=8">
+    
+    <!--
+    <meta http-equiv="X-UA-Compatible" content="IE=8" />
+    -->
+    <!--shoutou -->
+    <link type="text/css" rel="stylesheet" href="./shengdan/y_style.css">
+    <script src="./shengdan/hm.js"></script><script type="text/javascript" src="./shengdan/jquery.min.js"></script>
+    <!-- <script type="text/javascript" src="/Style/H/qjs/topanv.js"></script> -->
+    <!--end -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="ie-comp">
+    <meta name="viewport" content="width=1100, initial-scale=0.9">
+    <link rel="Shortcut icon" href="http://www.ishoutou.com/Style/H/images/ico.png">
+    <meta name="renderer" content="ie-stand">
+    <link rel="stylesheet" type="text/css" href="./shengdan/index.css">
+    <link rel="stylesheet" type="text/css" href="./shengdan/css.css">
+    <link rel="stylesheet" type="text/css" href="./shengdan/kefu.css">
+    <link rel="stylesheet" type="text/css" href="./shengdan/style.css">
+    <link type="text/css" rel="stylesheet" href="./shengdan/jbox.css">
+    <link rel="stylesheet" type="text/css" href="./shengdan/style(1).css">
+    
+    <link rel="stylesheet" type="text/css" href="./shengdan/index(1).css">
+    <link rel="stylesheet" type="text/css" href="./shengdan/style(2).css">
+    <link rel="stylesheet" type="text/css" href="css/font.css"/> 
+    <!-- <link rel="stylesheet" type="text/css" href="/Style/Stock/css/headerandfooter.css"> -->
+    <script type="text/javascript" src="./shengdan/jquery.min(1).js"></script>
+    <script type="text/javascript" src="./shengdan/jquery.js"></script>
+    <script src="./shengdan/jquery.jBox.min.js" type="text/javascript"></script>
+    <script src="./shengdan/jquery.jBoxConfig.js" type="text/javascript"></script>
+    <script type="text/javascript" src="./shengdan/utils.js"></script>
+    <script language="javaScript" type="text/javascript" src="./shengdan/backtotop.js"></script>
+    <script src="./shengdan/jquery.darktooltip.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="./shengdan/blue.css">
+    <script type="text/javascript" src="./shengdan/jquery.artDialog.source.js"></script>
+    <!-- <script src="/Style/H/js/jquery-1.8.3.min.js" type="text/javascript"></script> -->
+    <script src="./shengdan/jquery.SuperSlide.2.1.1.js" type="text/javascript"></script>
+    <!-- <script src="/Style/H/js/jquery.darktooltip.min.js" type="text/javascript"></script> -->
+
+    <script type="text/javascript">
+        var browser=navigator.appName;
+        var b_version=navigator.appVersion;
+        var version=b_version.split(";");
+        if(version.length>1) var trim_Version=version[1].replace(/[ ]/g,"");
+
+        if(browser=="Microsoft Internet Explorer" && (trim_Version=="MSIE5.0" || trim_Version=="MSIE6.0"))
+            alert("您正在使用的浏览器版本过低，有些网站效果会显示不出来，建议升级后再使用本网站。");
+
+        function makevar(v){
+            var d={};
+            for(i in v){
+                var id = v[i];
+                d[id] = $("#"+id).val();
+                if(!d[id]) d[id] = $("input[name='"+id+"']:checked").val();
+                if(!d[id]) d[id] = $("input[name='"+id+"']").val();
+                if(typeof d[id] == "undefined") d[id] = "";
+            }
+            return d;
+        }
+        function addBookmark(title, url) {
+            if (window.sidebar) {
+                window.sidebar.addPanel(title, url, "");
+            }
+            else if (document.all) {
+                window.external.AddFavorite(url, title);
+            }
+            else if (window.opera && window.print) {
+                return true;
+            }
+        }
+        function SetHome(obj, vrl) {
+            try {
+                obj.style.behavior = 'url(#default#homepage)'; obj.setHomePage(vrl);
+                NavClickStat(1);
+            }
+            catch (e) {
+                if (window.netscape) {
+                    try {
+                        netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+                    }
+                    catch (e) {
+                        alert("抱歉！您的浏览器不支持直接设为首页。请在浏览器地址栏输入“about:config”并回车然后将[signed.applets.codebase_principal_support]设置为“true”，点击“加入收藏”后忽略安全提示，即可设置成功。");
+                    }
+                    var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+                    prefs.setCharPref('browser.startup.homepage', vrl);
+                }
+            }
+        }
+
+        // 修复 IE 下 PNG 图片不能透明显示的问题
+        function fixPNG(myImage) {
+            var arVersion = navigator.appVersion.split("MSIE");
+            var version = parseFloat(arVersion[1]);
+            if ((version >= 5.5) && (version < 7) && (document.body.filters))
+            {
+                var imgID = (myImage.id) ? "id='" + myImage.id + "' " : "";
+                var imgClass = (myImage.className) ? "class='" + myImage.className + "' " : "";
+                var imgTitle = (myImage.title) ? "title='" + myImage.title   + "' " : "title='" + myImage.alt + "' ";
+                var imgStyle = "display:inline-block;" + myImage.style.cssText;
+                var strNewHTML = "<span " + imgID + imgClass + imgTitle
+
+                        + " style=\"" + "width:" + myImage.width
+
+                        + "px; height:" + myImage.height
+
+                        + "px;" + imgStyle + ";"
+
+                        + "filter:progid:DXImageTransform.Microsoft.AlphaImageLoader"
+
+                        + "(src=\'" + myImage.src + "\', sizingMethod='scale');\"></span>";
+                myImage.outerHTML = strNewHTML;
+            } }
+    </script>
+<title>手投网-中国文化金融C2P第一平台【官网】</title>
+<meta name="keywords" content="手投,手投网,手投理财,p2p理财,C2P">
+<meta name="description" content="手投网:国资背景p2p理财更安全，零风险的互联网创新金融产品,选手投，随时随地都能投。TEL:400-047-5588">
+<link rel="stylesheet" href="./shengdan/base.css">
+<link rel="stylesheet" href="./shengdan/style(3).css">
+<script src="./shengdan/tab.js"></script>
+<script src="./shengdan/banner.js"></script>
+
+<style>
+.zixunbox {
+    background: none repeat scroll 0 0 #fff;
+    left: 50%;
+    margin-left: -116px;
+    margin-top: -256px;
+    position: fixed;
+    top: 50%;
+    z-index: 1004;
+}
+.zixunbox ul li {
+    border-bottom: 1px dashed #c8c8c8;
+    height: 47px;
+    line-height: 47px;
+    margin: 0 20px;
+    overflow: hidden;
+}
+.zixunbox .over_icon{
+	background-image:url("/Style/H/images/over_icon.png");
+
+    height: 21px;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    width: 20px;
+    z-index: 1003;
+}
+.zixunbox ul li a {
+    background-image: url("/Style/H/images/qq_icon.png");
+	background-repeat:no-repeat;
+	background-position:0px center;
+    color: #858585;
+    display: inline-block;
+    height: 47px;
+    text-indent: 20px;
+    width: 92px;
+}
+.zixunbox p {
+    background: url("/Style/H/images/dianh.png");
+	background-repeat:no-repeat;
+	background-position:40px center;
+    color: #2382ba;
+    font-size: 16px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-top: 20px;
+    text-align: center;
+}
+.zixunbox h3 {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+.zixunbox span {
+    display: block;
+    padding-bottom: 20px;
+    
+    text-align: center;
+}
+.NewYear{
+	width: 100%;
+	position: relative;
+	height: 112px;
+	overflow: hidden;
+	background: url(images/NewYear_01_02.png) no-repeat center center;
+	background-size: 1920px 112px;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/NewYear_01_02.png',sizingMethod='scale'); 
+}
+
+.NewYear>img.NewYear_close{
+	position: absolute;
+	display: block;
+	width: 35px;
+	right: 5px;
+	top: 5px;
+	cursor: pointer;
+	opacity: 0.8;
+	filter:alpha(opacity=80);       /* IE */
+	-moz-opacity:0.8;              /* 老版Mozilla */
+	-khtml-opacity:0.8;              /* 老版Safari */
+}
+.NewYear>img.NewYear_close:hover{
+	opacity: 1;
+	filter:alpha(opacity=100);       /* IE */
+	-moz-opacity:100;              /* 老版Mozilla */
+	-khtml-opacity:100;              /* 老版Safari */
+}
+</style>
+
+<!--导航-->
+
+  </head><body>
+  	<div class="NewYear">
+  		<img src="images/NewYear2_03.png" class="NewYear_close"/>
+  	</div>
+  	<script>
+  		$(".NewYear_close").on("click",function(){
+  			$(".NewYear").animate({
+  				"height":"0"
+  			})
+  		})
+  	</script>
+  	<div class="" style="display: none; position: absolute;"><div class="aui_outer"><table class="aui_border"><tbody><tr><td class="aui_nw"></td><td class="aui_n"></td><td class="aui_ne"></td></tr><tr><td class="aui_w"></td><td class="aui_c"><div class="aui_inner"><table class="aui_dialog"><tbody><tr><td colspan="2" class="aui_header"><div class="aui_titleBar"><div class="aui_title" style="cursor: move;"></div><a class="aui_close" href="javascript:/*TW-artDialog*/;">×</a></div></td></tr><tr><td class="aui_icon" style="display: none;"><div class="aui_iconBg" style="background: none;"></div></td><td class="aui_main" style="width: auto; height: auto;"><div class="aui_content" style="padding: 20px 25px;"></div></td></tr><tr><td colspan="2" class="aui_footer"><div class="aui_buttons" style="display: none;"></div></td></tr></tbody></table></div></td><td class="aui_e"></td></tr><tr><td class="aui_sw"></td><td class="aui_s"></td><td class="aui_se" style="cursor: se-resize;"></td></tr></tbody></table></div></div><div class="top">
+	<div class="top_main">
+    	<span class="top_l"><img src="./shengdan/phone.png">客服热线：400-047-5588&nbsp;&nbsp;(工作日9:00-18:00)</span>
+        <span class="top_r">
+		<a href="http://www.ishoutou.com/help/help">帮助中心</a>
+		<a href="http://www.ishoutou.com/member/common/register/" style="color:#33a2f0;">免费注册</a>
+		<a href="http://www.ishoutou.com/member/common/login/" style="color:#ff9900;">立即登录</a></span>
+    </div>
+</div>  <div class="nav">
+	<div class="nav_main">
+    	<div class="logo"><a href="./shengdan/shengdan.html"><img alt="" style="float:none;margin:0px;" src="./shengdan/20150717164251.jpg"></a> </div>
+        <div class="nav_list">
+        	<div id="topnavbar" style="display: block;">
+              <div id="topnanv">
+			  <div class="my_zh">
+        	</div>
+			
+			 <div class="defu"> <a href="http://www.ishoutou.com/index.html">首页</a> </div>
+                <div class="defu"> <a href="http://www.ishoutou.com/freestock/index" target="_blank">热销活动</a> </div>
+                <div id="anvlfteb">
+                  <div selec="bbs" class="posbox"> <a href="http://www.ishoutou.com/invest/index">我要理财</a> <i></i></div>
+                  <div class="defu"><a href="http://www.ishoutou.com/capital/index">我要融资</a> <i></i></div>
+				   <div class="defu"> <a href="http://www.ishoutou.com/Help/novice" target="_blank">新手指引</a> </div>
+                <!--   <div selec="post" class="posbox"><a href="/Help/novice">新手指引</a> <i></i></div> -->
+                  <div selec="youhui" class="posbox"><a href="http://www.ishoutou.com/aboutus/jianjie.html">关于我们</a> <i></i></div>
+                  <div id="seledbox" class="posiabox" style="left: 301px; display: none;"><div><a href="http://www.ishoutou.com/aboutus/jianjie.html">公司简介</a><a href="http://www.ishoutou.com/aboutus/anquan.html">安全保障</a><a href="http://www.ishoutou.com/aboutus/tdjs.html">团队介绍</a><a href="http://www.ishoutou.com/aboutus/zizhi.html">证件资质</a><a href="http://www.ishoutou.com/aboutus/licheng.html">发展历程</a><a href="http://www.ishoutou.com/aboutus/lianxi.html">联系我们</a><a href="http://www.ishoutou.com/aboutus/yingcai.html">诚聘英才</a><a href="http://www.ishoutou.com/aboutus/partner.html">合作伙伴</a></div></div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+
+/* 导航 */
+$(function(){
+	var $anvlfteb=$('#anvlfteb'),
+		$posbox=$anvlfteb.find('div.posbox'),
+		$seledbox=$("#seledbox"),
+		anvjson={
+			bbs:'<a href="/invest/index?type=search&&stock_type=1">天天盈</a>'+
+				'<a href="/invest/index?type=search&&stock_type=2">月月盈</a>'+
+				'<a href="/invest/index?type=search&&stock_type=4">打新宝</a>',
+				//'<a href="/debt/index">债权转让</a>',
+        	news:'<a href="/daystock/index">按天融资</a>'+
+				'<a href="/Monthstock/index">按月融资</a>'+
+				'<a href="/Imtrader/index">我是操盘手</a>',
+        	 post:'<a href="/Help/novice">新手指引</a>',
+			youhui:'<a href="/aboutus/jianjie.html">公司简介</a>'+
+			'<a href="/aboutus/anquan.html">安全保障</a>'+
+			'<a href="/aboutus/tdjs.html">团队介绍</a>'+
+			'<a href="/aboutus/zizhi.html">证件资质</a>'+
+			'<a href="/aboutus/licheng.html">发展历程</a>'+
+			'<a href="/aboutus/lianxi.html">联系我们</a>'+
+			'<a href="/aboutus/yingcai.html">诚聘英才</a>'+
+			'<a href="/aboutus/partner.html">合作伙伴</a>'
+		};
+		 
+
+		$posbox.mouseover(function(){
+			var i=$(this).index();
+			$(this).addClass("anvh").siblings().removeClass("anvh");
+			var selec=$(this).attr("selec");
+			if($seledbox.is(":hidden")){
+				$seledbox.show().css("left",100*i+1).html("<div>"+anvjson[selec]+"</div>")
+			}else{
+				$seledbox.stop().animate({left:100*i+1},200,function(){
+					$("#seledbox").html("<div>"+anvjson[selec]+"</div>")
+				})
+			}
+		});
+		$anvlfteb.mouseleave(function(){
+			$seledbox.hide();
+			$posbox.removeClass("anvh");
+		})
+})
+
+/*微博二维码显示效果*/
+
+$(document).ready(function() {
+ 	$(".footer .footerC .guanzhu span a").hover(function() {
+ 		$(this).children('img').show()
+ 	}, function() {
+ 		$(this).children('img').hide()
+ 	});
+
+ })
+
+</script>
+<script type="text/javascript">
+
+    var dl_num=$(".header .main dl").length;
+    for(var i=0;i<dl_num;i++){
+        var dd_num=$(".header .main dl:eq("+i+") dd").length;
+        if(dd_num<=1){
+            $(".header .main dl:eq("+i+") dd").remove();
+            $(".header .main dl:eq("+i+") dt em").remove();
+        }
+    }
+
+</script>
+
+
+<script type="text/javascript">
+    function bodyTop(){
+        $("html,body").animate({
+            scrollTop:"0px"
+        },1000);
+    }
+	$(".header .main .fr dl dd").css("float","none");
+</script>
+<script type="text/javascript">
+$(function(){
+	$(".kefu").click(function(){
+		$(".zixunbox").fadeIn("slow");
+		$(".body_box").fadeIn("slow");
+	});
+	$(".liuyan").click(function(){
+		$(".liuy_box").fadeIn("slow");
+		$(".body_box").fadeIn("slow");
+	});
+	
+	$(".over_icon").click(function(){
+		$(".zixunbox").fadeOut("slow");
+		$(".body_box").fadeOut("slow");
+		$(".liuy_box").fadeOut("slow");
+	});
+	
+	$(".over_cionn").click(function(){
+		$(".video").fadeOut("slow");
+	});
+});
+
+    $(".header .fr dl").hover(function(){
+        $(".header .fr dl dd").stop();
+        $(".header .fr dl dd").hide();
+        $(this).children("dd").fadeIn(500);
+    },function(){
+        $(this).children("dd").fadeOut(500);
+    });
+$(window).scroll(function(){
+    var topnum=$(window).scrollTop();
+    if(topnum>510){
+        $(".header").addClass("header-on");
+    }else{
+        $(".header").removeClass("header-on");
+    }
+});
+</script>
+
+
+
+<div class="float-box"></div>
+<script type="text/javascript">
+    var w_width= $(window).width();
+    $(window).resize(function(){
+        w_width= $(window).width();
+        fix_hie(w_width);
+    });
+    function fix_hie(w_wid){
+        if(w_wid<1340){
+            $("body").addClass("body-small");
+            $(".float-login").fadeOut(500);
+        }else{
+            $("body").removeClass("body-small");
+            $(".float-login").fadeIn(500);
+
+        }
+    }
+    fix_hie(w_width);
+
+    $(".float-box").click(function(){
+        if($(".float-login").css("display")=="none"){
+            $(".float-login").fadeIn(500);
+        }else{
+            $(".float-login").fadeOut(500);
+        }
+    });
+</script>
+
+
+
+<!--页眉end-->
+<div class="h_ban" style="width: 1903px; height: 380px; position: relative; overflow: hidden; margin: 0px auto; display: block;">
+   <ul style="position: absolute; left: 0px; width: 9515px; background: rgb(0, 204, 255);">
+      <li style="float: left; display: inline; width: 1903px; height: 380px; background: url(&quot;/UF/Uploads/Ad/20151217103538831.jpg&quot;) 50% 50% no-repeat;"><a target="_blank" href="http://www.ishoutou.com/gonggao/news/902.html">&nbsp;</a> </li>
+         <!-- <li> <a href="http://www.ishoutou.com/gonggao/news/902.html"><img src="/UF/Uploads/Ad/20151217103538831.jpg" /></a> </li> --><li style="float: left; display: inline; width: 1903px; height: 380px; background: url(&quot;/UF/Uploads/Ad/20151130172104162.jpg&quot;) 50% 50% no-repeat;"><a target="_blank" href="http://www.ishoutou.com/freestock/index">&nbsp;</a> </li>
+         <!-- <li> <a href="http://www.ishoutou.com/freestock/index"><img src="/UF/Uploads/Ad/20151130172104162.jpg" /></a> </li> --><li style="float: left; display: inline; width: 1903px; height: 380px; background: url(&quot;/UF/Uploads/Ad/20151130131342749.png&quot;) 50% 50% no-repeat;"><a target="_blank" href="http://www.ishoutou.com/gonggao/news/490.html">&nbsp;</a> </li>
+         <!-- <li> <a href="http://www.ishoutou.com/gonggao/news/490.html"><img src="/UF/Uploads/Ad/20151130131342749.png" /></a> </li> --><li style="float: left; display: inline; width: 1903px; height: 380px; background: url(&quot;/UF/Uploads/Ad/20150819175138417.jpg&quot;) 50% 50% no-repeat;"><a target="_blank" href="http://www.ishoutou.com/gonggao/news/356.html">&nbsp;</a> </li>
+         <!-- <li> <a href="http://www.ishoutou.com/gonggao/news/356.html"><img src="/UF/Uploads/Ad/20150819175138417.jpg" /></a> </li> --><li style="float: left; display: inline; width: 1903px; height: 380px; background: url(&quot;/UF/Uploads/Ad/20150827180946939.jpg&quot;) 50% 50% no-repeat;"><a target="_blank" href="http://www.ishoutou.com/Help/yaoqing">&nbsp;</a> </li>
+         <!-- <li> <a href="http://www.ishoutou.com/Help/yaoqing"><img src="/UF/Uploads/Ad/20150827180946939.jpg" /></a> </li> -->   </ul>
+   <div class="fix_wrap" style="position:relative;">
+      <div class="h_loginbg"></div>
+      <div class="h_login">
+         <p class="font18">手投网年化收益率</p>
+         <p>最高<i class="red font40">18.00%</i></p>
+         <p><span class="fl" style="color: rgb(102, 102, 102);"><i class="red">51.43</i>倍活期存款</span><span class="fr"><i class="red">6.00</i>倍定期存款</span></p>
+                     <p class="h_login_btn"><a href="http://www.ishoutou.com/member/common/register.html">立即注册<em class="font16" style="color: #fff;margin-left: 10px;">领红包</em></a></p>
+            <p class="h_long2">已有账号？<a href="http://www.ishoutou.com/member/common/login.html"><u>立即登录</u></a></p>      </div>
+   </div>
+<div class="h_focus" style="min-height: 0px; position: relative; margin-top: 360px; width: 1903px; height: 57px; z-index: 2;"><div class="fix_wrap" style="width: 130px; position: relative; margin-top: 0px;"><span class="h_current" style="display: inline-block; cursor: pointer;"></span><span class="" style="display: inline-block; cursor: pointer;"></span><span class="" style="display: inline-block; cursor: pointer;"></span><span class="" style="display: inline-block; cursor: pointer;"></span><span class="" style="display: inline-block; cursor: pointer;"></span></div></div></div>
+<div style="clear: both;"></div>
+<div class="h_ban_btm">
+   <ul class="fix_wrap">
+      <li class="fl h_ban_btm1"><p><b class="red font26">35247</b>人</p><p>服务用户数</p></li>
+      <li class="fl h_ban_btm2"><p><b class="red font26">10459万</b>元</p><p>成交金额</p></li>
+      <li class="fl h_ban_btm3"><p><b class="red font26">3477841.45</b><cite class="red"> </cite>元</p><p>理财收益</p></li>
+      <li class="fr h_ban_mor" style="display: none"><a href="http://www.ishoutou.com/invest/index">更多&gt;&gt;</a></li>
+   </ul>
+</div>
+<div class="h_main wrap">
+   <div class="fix_wrap">
+      <div class="h_left fl">
+         <ul class="h_left_top">
+            <li><a href="http://www.ishoutou.com/aboutus/jianjie.html" target="_blank"><i class="h_licona"></i><span class="fl" style="font-size: 22px;"><br><h2 class="font22">国资背景</h2><p>理财安心</p></span></a></li>
+            <li><a href="http://www.ishoutou.com/aboutus/jianjie.html#wenhua" target="_blank"><i class="h_liconb"></i><span class="fl" style="font-size: 22px;"><br><h2 class="font22">文化金融</h2><p>潜力之选</p></span></a></li>
+            <li><a href="http://www.ishoutou.com/aboutus/jianjie.html#hangye" target="_blank"><i class="h_liconc"></i><span class="fl" style="font-size: 22px;"><br><h2 class="font22">创新模式</h2><p>趋零风险</p></span></a></li>
+         </ul>
+        
+        <!-- 首页修改开始 -->
+        <style type="text/css">
+            .h_left_main{-webkit-font-smoothing: antialiased;font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
+            .h_left_main h1 em{color: #707070;}
+            .h_left_main em{color: #999;}
+            .h_left_main i.red{font-size: 14px;}
+            .h_left_main table th h2{margin-bottom: 4px;}
+            .rote{width: 47px;height: 47px;line-height: 47px;font-size: 12px; position: relative;top: -20px;}
+            .h_touzi_btn, .h_touzi_btnno{position: relative;top: -12px;width: 132px; font-size: 13px;line-height: 32px;height: 33px;background: #0b98c8;}
+            .h_touzi_btnno{background: #dedede;}
+            .h_line{margin-top: 8px;border-top: 1px dashed #dedede;}
+            .qishu{font-size: 14px;color: #999;position: relative;top: -4px;}
+            .qishu em{display: block;font-size: 22px;color: #1295c3;padding-left: 3px;}
+            .h_left_mainbot .h_touzi_btn{background: #fb9a00;}
+            .h_left_mainbot .h_touzi_btn,.h_left_mainbot .h_touzi_btnno{position: relative;top: -4px;}
+            .h_touzi_btn:hover{background: #00a7d1;color: #fff !important;}
+            .h_touzi_btnno:hover{background: #d1d1d1;color: #fff !important;}
+            .h_left_mainbot .h_touzi_btn:hover{background: #ffa800;color: #fff !important;}
+            .h_left_main table td em, .h_left_main table td i, .h_left_main table td cite{vertical-align: baseline;}
+            .h_left_main em.font50{font-size: 22px;color: #000;}
+            .h_left_main em.font49{font-size: 22px;color: #da471c;}
+            .h_left_main i.color3{font-size: 14px;color: #000;}
+            .h_left_main table th a em.font50{font-size: 18px;color: #333;}
+            .h_left_main table th a:hover em.font50{color:#008cb4 !important;}
+        </style>
+
+         <div class="h_left_main">
+            <h1 style="margin-bottom: 25px;"><b>推荐项目</b><em class="fl">轻松投标，坐享收益</em><a href="http://www.ishoutou.com/invest/index" class="fr">更多&gt;&gt;</a></h1>
+            
+            <table>
+               <tbody>
+                  <tr><th colspan="5"><h2><i class="h_tbao"></i><a title="［打新宝］刘先生质押邮票借款40万六个月" href="http://www.ishoutou.com/invest/560.html">［打新宝］刘先生质押邮票借款<em class="font50">40</em>万六个月</a></h2></th></tr>
+                  <tr>
+                     <td width="194px"><p><em>年利率：</em><i class="font22 red"><em class="font49">14.00</em>%</i></p></td>
+                     <td width="180px"><p><em>借款期限：</em><i class="font22 color3"><em class="font50">1 </em>个月</i></p></p></td>
+                     <td width="186px"><p><em>金额：</em><i class="font22 color3"><em class="font50">30.00</em>万元</i></p></td>
+                     <td><div class="rote" style="background-position: -4810px 0px;"><em class="font50">74%</em></div></td>
+                     <td width="133px">
+                                                   <a href="http://www.ishoutou.com/invest/560.html" class="h_touzi_btn">立即投标</a>                     </td>
+                  </tr>
+                  <tr><th colspan="5"><div class="h_line"></div></th></tr>
+                  <tr><th colspan="5"><h2><i class="h_month"></i><a title="【月月盈】顾先生质押邮票续借350万一个月第一期30万" href="http://www.ishoutou.com/invest/557.html">［月月盈］顾先生质押邮票续借<em class="font50">350</em>万一个月第一期<em class="font50">30</em>万</a></h2></th></tr>
+                  <tr>
+                     <td width="194px"><p><em>年利率：</em><i class="font22 red"><em class="font49">14.00</em>%</i></p></td>
+                     <td width="180px"><p><em>借款期限：</em><i class="font22 color3"><em class="font50">1 </em>个月</i></p></p></td>
+                     <td width="186px"><p><em>金额：</em><i class="font22 color3"><em class="font50">30.00</em>万元</i></p></td>
+                     <td width="103"><div class="rote" style="background-position: -6500px 0px;"><em class="font50">100%</em></div></td>
+                     <td width="133px">
+                                                   <a href="http://www.ishoutou.com/invest/557.html" class="h_touzi_btn">立即投标</a>
+                                                </td>
+                  </tr>
+
+                  <tr><th colspan="5"><div class="h_line"></div></th></tr>
+                  <tr><th colspan="5"><h2><i class="h_tbao"></i><a title="［打新宝］刘先生质押邮票借款40万六个月" href="http://www.ishoutou.com/invest/560.html">［打新宝］刘先生质押邮票借款<em class="font50">40</em>万六个月</a></h2></th></tr>
+                  <tr>
+                     <td width="194px"><p><em>年利率：</em><i class="font22 red"><em class="font49">14.00</em>%</i></p></td>
+                     <td width="180px"><p><em>借款期限：</em><i class="font22 color3"><em class="font50">1 </em>个月</i></p></p></td>
+                     <td width="186px"><p><em>金额：</em><i class="font22 color3"><em class="font50">30.00</em>万元</i></p></td>
+                     <td width="103"><div class="rote" style="background-position: -4810px 0px;"><em class="font50">74%</em></div></td>
+                     <td width="133px">
+                                                   <a href="http://www.ishoutou.com/invest/560.html" class="h_touzi_btnno">还款中</a>                     </td>
+                  </tr>
+                  <tr><th colspan="5"><div class="h_line"></div></th></tr><tr><th colspan="5"><h2><i class="h_month"></i><a title="【月月盈】顾先生质押邮票续借350万一个月第一期30万" href="http://www.ishoutou.com/invest/557.html">［月月盈］顾先生质押邮票续借<em class="font50">350</em>万一个月第一期<em class="font50">30</em>万</a></h2></th></tr>
+                  <tr>
+                     <td width="194px"><p><em>年利率：</em><i class="font22 red"><em class="font49">14.00</em>%</i></p></td>
+                     <td width="180px"><p><em>借款期限：</em><i class="font22 color3"><em class="font50">1 </em>个月</i></p></p></td>
+                     <td width="186px"><p><em>金额：</em><i class="font22 color3"><em class="font50">30.00</em>万元</i></p></td>
+                     <td width="103"><div class="rote" style="background-position: -6500px 0px;"><em class="font50">100%</em></div></td>
+                     <td width="133px">
+                                                   <a href="http://www.ishoutou.com/invest/557.html" class="h_touzi_btnno">还款中</a>
+                                                </td>
+                  </tr>
+
+                  <tr><th colspan="5"><div class="h_line"></div></th></tr><tr><th colspan="5"><h2><i class="h_tbao"></i><a title="［打新宝］刘先生质押邮票借款40万六个月" href="http://www.ishoutou.com/invest/560.html">［打新宝］刘先生质押邮票借款<em class="font50">40</em>万六个月</a></h2></th></tr>
+                  <tr>
+                     <td width="194px"><p><em>年利率：</em><i class="font22 red"><em class="font49">14.00</em>%</i></p></td>
+                     <td width="180px"><p><em>借款期限：</em><i class="font22 color3"><em class="font50">1 </em>个月</i></p></p></td>
+                     <td width="186px"><p><em>金额：</em><i class="font22 color3"><em class="font50">30.00</em>万元</i></p></td>
+                     <td width="103"><div class="rote" style="background-position: -4810px 0px;"><em class="font50">74%</em></div></td>
+                     <td width="133px">
+                                                   <a href="http://www.ishoutou.com/invest/560.html" class="h_touzi_btnno">还款中</a>                     </td>
+                  </tr>
+                  <tr><th colspan="5"><div class="h_line"></div></th></tr>
+            </tbody>
+            </table>
+
+
+         </div>
+
+         <div class="h_left_main h_left_mainbot" style="margin-top: 16px">
+            <h1 style="margin-bottom: 18px;"><b>债权转让</b><em class="fl">更短期限、更高收益率，不定时更新</em><a href="http://www.ishoutou.com/invest/index" class="fr">更多&gt;&gt;</a></h1>
+            
+            <table>
+               <tbody>
+                  <tr>
+                     <td width="160"><p><em>年利率：</em><i class="font22 red"><em class="font49">10.00</em>%</i></p></td>
+                     <td width="210"><p><em>转让价格：</em><i class="font22 color3"><em class="font50">99999.9</em>元</i></p></p></td>
+                     <td width="210"><p><em>代收本金：</em><i class="font22 color3"><em class="font50">99999.9</em>元</i></p></td>
+                     <td width="103"><div class="qishu" style="background-position: -3250px 0px;"><em>4/6</em>期剩余</div></td>
+                     <td width="133">
+                                                   <a href="http://www.ishoutou.com/invest/559.html" class="h_touzi_btn">立即承接</a>                     </td>
+                  </tr>
+                  <tr><th colspan="5"><div class="h_line" style="margin-bottom: 16px;"></div></th></tr>
+                  <tr>
+                     <td width="160"><p><em>年利率：</em><i class="font22 red"><em class="font49">14.00</em>%</i></p></td>
+                     <td width="210"><p><em>转让价格：</em><i class="font22 color3"><em class="font50">99999.9</em>元</i></p></p></td>
+                     <td width="210"><p><em>代收本金：</em><i class="font22 color3"><em class="font50">99999.9</em>元</i></p></td>
+                     <td width="103"><div class="qishu" style="background-position: -4810px 0px;"><em>2/3</em>期剩余</div></td>
+                     <td width="133">
+                                                   <a href="http://www.ishoutou.com/invest/560.html" class="h_touzi_btnno">已结束</a>                     </td>
+                  </tr>
+                  <tr><th colspan="5"><div class="h_line" style="margin-bottom: 16px;"></div></th></tr>
+                  <tr>
+                     <td width="160"><p><em>年利率：</em><i class="font22 red"><em class="font49">14.00</em>%</i></p></td>
+                     <td width="210"><p><em>转让价格：</em><i class="font22 color3"><em class="font50">99999.9</em>元</i></p></p></td>
+                     <td width="210"><p><em>代收本金：</em><i class="font22 color3"><em class="font50">99999.9</em>元</i></p></td>
+                     <td width="103"><div class="qishu" style="background-position: -6500px 0px;"><em>1/3</em>期剩余</div></td>
+                     <td width="133">
+                                                   <a href="http://www.ishoutou.com/invest/557.html" class="h_touzi_btnno">已结束</a>
+                                                </td>
+                  </tr>
+                  <tr><th colspan="5"><div class="h_line" style="margin-bottom: 11px;"></div></th></tr>
+                  </tbody>
+                </table>
+                
+
+         </div>
+         <!-- 首页修改结束 -->
+      </div>
+      <div class="h_right fr">
+         <div class="h_right_top">
+            <h1></h1>
+            <ul>
+               <li class="h_right_topl"><a target="_blank" href="http://www.ishoutou.com/aboutus/jianjie.html"><i></i><p style="text-align: center">认识手投网</p><span><em>选择手投</em><br><em class="font18">钱途无忧</em></span></a></li>
+               <li class="h_right_topr"><a target="_blank" href="http://www.ishoutou.com/Help/novice"><i></i><p style="text-align: center">玩转理财</p><span><em class="font18">1分钟</em><br><em>教你玩转理财</em></span></a></li>
+            </ul>
+         </div>
+         <div class="h_pub">
+            <h1 class="h_title"><b class="font18">网站公告</b><a href="http://www.ishoutou.com/gonggao/gonggao.html" class="fr">更多&gt;&gt;</a></h1>
+            <ul>
+                              <li><a href="http://www.ishoutou.com/gonggao/news/902.html">手投网CEO杨清华：科学的产品模…</a></li>
+                              <li><a href="http://www.ishoutou.com/gonggao/news/604.html">手投网联合招商银行托管风险准备金…</a></li>
+                              <li><a href="http://www.ishoutou.com/gonggao/news/2582.html"> 网贷之家专访手投网CEO杨清华…</a></li>
+                              <li><a href="http://www.ishoutou.com/gonggao/news/578.html">12月活动再度升级！现金直接送！…</a></li>
+                              <li><a href="http://www.ishoutou.com/gonggao/news/591.html">手投网风险准备金（15年11月）</a></li>
+                              <li><a href="http://www.ishoutou.com/gonggao/news/2585.html">12月19日、20日、21日发标…</a></li>
+                              <li><a href="http://www.ishoutou.com/gonggao/news/422.html">微信端快捷充值功能上线公告</a></li>
+                           </ul>
+         </div>
+         <div class="h_move">
+            <h1 class="h_title" style="margin-bottom: 10px;"><b class="font18">i 主播</b><a href="http://www.ishoutou.com/Help/videos" class="fr">更多&gt;&gt;</a></h1>
+            <ul>
+               <li><a href="http://www.ishoutou.com/Help/videos" target="_blank"><img src="./shengdan/izhubo2.jpg" border="0"></a>
+               </li>
+               <li><a href="http://www.ishoutou.com/Help/videos" class="h_move_txt">了解更多如何安全高效理财</a></li>
+            </ul>
+         </div>
+         <div class="h_img"><a href="http://www.ishoutou.com/tools/tool2.html"><img src="./shengdan/a_45.jpg" width="274px" height="127px"></a></div>
+      </div>
+   </div>
+   <div class="clear"></div>
+</div>
+<div class="clear"></div>
+<div class="media">
+   <div class="media_main">
+      <h3>媒体报道</h3>
+
+      <a href="http://life.stockstar.com/2015/news_12/55170.html" target="_blank">
+            <img src="./shengdan/20151217115417962.jpg">
+            <div class="media-tip">
+               <p>2015互联网金融高峰论坛圆满落幕，听听三方声音</p>
+            </div>
+         </a><a href="http://money.china.com/fin/lc/201512/16/4923617.html?qq-pf-to=pcqq.c2c" target="_blank">
+            <img src="./shengdan/20151012163102825.jpg">
+            <div class="media-tip">
+               <p>手投网CEO杨清华：科学的商业模式本身就是一种有效的风控手段</p>
+            </div>
+         </a><a href="http://economy.gmw.cn/2015-12/16/content_18118706.htm" target="_blank">
+            <img src="./shengdan/20151012162924938.jpg">
+            <div class="media-tip">
+               <p>手投网CEO杨清华：科学的商业模式本身就是一种有效的风控手段</p>
+            </div>
+         </a><a href="http://toutiao.com/i6228721203528335874/" target="_blank">
+            <img src="./shengdan/20151012162904373.jpg">
+            <div class="media-tip">
+               <p>手投网CEO杨清华：科学的商业模式本身就是一种有效的风控手段</p>
+            </div>
+         </a><a href="http://mt.sohu.com/20151207/n430024557.shtml?qq-pf-to=pcqq.c2c" target="_blank">
+            <img src="./shengdan/2015111709352143.jpg">
+            <div class="media-tip">
+               <p>互联网金融过冬，其实心里暖暖的</p>
+            </div>
+         </a><a href="http://iof.hexun.com/2015-09-28/179530525.html" target="_blank">
+            <img src="./shengdan/20151012162933860.jpg">
+            <div class="media-tip">
+               <p>手投网CEO杨清华受邀参加新华网圆桌论坛：深入分享C2P理财新模式</p>
+            </div>
+         </a><a href="http://news.xinhuanet.com/expo/2015-09/24/c_128264258.htm" target="_blank">
+            <img src="./shengdan/20151012162915638.jpg">
+            <div class="media-tip">
+               <p>新华网独家专访手投网CEO杨清华：新形势下互联网金融要搞好创新与安全</p>
+            </div>
+         </a><a href="http://xiyou.cntv.cn/v-8584ff09-3045-11e5-89a6-d29fa354baaa.html" target="_blank">
+            <img src="./shengdan/20151012162945179.jpg">
+            <div class="media-tip">
+               <p>手投网 - 为爱回报一点点</p>
+            </div>
+         </a>
+
+
+
+   </div>
+</div>
+
+<script type="text/javascript">	var width = document.body.offsetWidth;
+$(".h_ban").yxMobileSlider({width:width,during:3000})
+$(function () {
+   function loadImg(obj, data) {
+      var i = 0;
+      setInterval(function () {
+         i++
+         if (i > data) {
+            i = data
+         }
+         var imgLeft = -(i * 47 + (i * 4)) + 'px';
+         var imgLeft = imgLeft + '\t' + '0px';
+         obj.css("backgroundPosition", imgLeft);
+         obj.html(i + '%');
+      }, 1)
+   }
+   var arr = [50,74,100,100,100];
+   if(arr){
+      $(".rote").each(function (index, element) {
+         loadImg($(element),arr[index]);
+      });
+   }
+})
+</script>
+<div class="VdFooter">
+		<div class="footer">
+			<div class="footerT">
+				<span class="yqlj">友情链接:</span>
+				<p>
+				<span><a href="http://www.jmjyb.com/" target="_blank"><img src="./shengdan/20150723133207642.jpg" border="0" alt="北京金马甲"> </a></span><span><a href="http://dzp.wjybk.com/?action-viewnews-itemid-1737" target="_blank"><img src="./shengdan/20150723133639617.jpg" border="0" alt="北交所福丽特"> </a></span><span><a href="http://www.njscae.com/" target="_blank"><img src="./shengdan/20150723133719656.png" border="0" alt="南京文交所"> </a></span><span><a href="http://www.jscaee.cn/web/index.jsp" target="_blank"><img src="./shengdan/20150727103843289.jpg" border="0" alt="江苏文交所"> </a></span><span><a href="http://www.shscce.com/" target="_blank"><img src="./shengdan/20150727103906661.jpg" border="0" alt="上海文交所"> </a></span><span><a href="http://www.cnscee.com/" target="_blank"><img src="./shengdan/20150723134718659.jpg" border="0" alt="南方文交所"> </a></span><span><a href="http://www.znypjy.com/" target="_blank"><img src="./shengdan/20150723133832409.jpg" border="0" alt="中南文交所"> </a></span>                </p>
+			</div>
+			<div class="footerC">
+				<div class="f_l">
+                    <p><span><a href="http://www.ishoutou.com/aboutus/partner.html" target="_blank">合作伙伴</a></span>
+					<span><a href="http://www.ishoutou.com/aboutus/yingcai.html" target="_blank">诚聘英才</a></span>
+					<span><a href="http://www.ishoutou.com/aboutus/lianxi.html" target="_blank">联系我们</a></span>
+                    <span style="display: none"><a href="http://www.ishoutou.com/Index/download" target="_blank">交易软件</a></span>
+					<span><a href="http://www.ishoutou.com/aboutus/anquan.html" target="_blank">安全保障</a></span>
+					<span><a href="http://www.ishoutou.com/xueyuan/redian.html">文投学院</a></span>
+					</p>
+                    <div class="guanzhu">
+                        <span class="txt1">关注我们</span>
+                        <span><a class="wb"><img style="float:none;margin:0px;" alt="" src="./shengdan/20150709172433.png"></a></span>
+                        <span><a class="wx"><img alt="" style="float:none;margin:0px;" src="./shengdan/20150716110549.jpg">&nbsp;</a></span>
+                        <span class="txt2" style="display: none">手机手投</span>
+                        <span style="display: none"><a class="pg">广告未上传或已过期</a></span>
+                        <span style="display: none"><a class="az">广告未上传或已过期</a></span>
+                    </div>
+                </div>
+                <div class="kefu">
+					<span>客服电话</span><br>
+					<span class="nber">400-047-5588</span><br>
+					<span class="wangzhi"><p>kf@ishoutou.com</p></span>
+				</div>
+			</div>
+			<div class="footerB">
+				<p>
+                    <span style="display: none"><a class="tu1" href="http://http//webscan.360.cn/" target="_blank"></a></span>
+                    <span style="width: 130px;"><a style="width: 130px;" class="tu2" id="___szfw_logo___" href="https://credit.szfw.org/CX20150725010868110192.html" target="_blank"></a></span>
+                    <span><a class="tu6" href="http://si.trustutn.org/info?sn=535150827000267215688" target="_blank"></a></span>
+                    <span><a class="tu7" href="https://webverify.cfca.com.cn/WebVerify/webVerifyServlet?domain=www.ishoutou.com" target="_blank"></a></span>
+				    <span style="display: none"><a class="tu3" href="http://kx.zw.cn/" target="_blank"></a></span>
+				    <span style="display: none"><a class="tu4" href="http://www.cec9000.com/" target="_blank"></a></span>
+				    <span style="display: none;"><a class="tu5" href="http://www.ccig.org.cn/" target="_blank"></a></span></p>
+				    <p></p><p>©2015&nbsp;手投网 (www.ishoutou.com) All&nbsp;Rights&nbsp;Reserved　|　北京手投网投资控股有限公司　|　京ICP备15028302号</p><p>版权所有：手投网</p><p></p>
+				<p></p>
+			</div>
+		</div>
+	</div>
+	
+<!-- new kefu -->
+<div class="tools_bar" id="tools_bar">
+    <ul class="kfBox" style="background: #000;">
+        <li class="qqKf">
+            <a class="icon1" href="javascript:;"></a>
+            <div class="qqKf_list" style="display: none;">
+                <p><a href="tencent://Message/?Uin=2853950306&amp;websiteName=%E5%AE%A2%E6%9C%8D2%E5%8F%B7&amp;Menu=yes">客服2号</a></p><p><a href="tencent://Message/?Uin=2853950301&amp;websiteName=%E5%AE%A2%E6%9C%8D1%E5%8F%B7&amp;Menu=yes">客服1号</a></p><p><a href="tencent://Message/?Uin=2853950300&amp;websiteName=%E5%AE%A2%E6%9C%8D3%E5%8F%B7&amp;Menu=yes">客服3号</a></p>                <span></span>
+                <p class="last"><a target="_blank" href="http://shang.qq.com/wpa/qunwpa?idkey=0b54bf9b1e47d54b596651b0539ef7ee0a04c8f7cdcab2d03a3a1da1b1a32c7a">QQ群：239166306</a></p>            </div>
+        </li>
+        <li class="hotLine">
+            <a class="icon2" href="javascript:;"></a>
+            <div class="qqKf_list2" style="display: none;">
+                <p class="first">400-047-5588</p>                <span></span>
+                <p>每个工作日9:00-18:00</p>
+            </div>
+        </li>
+    </ul>
+</div>
+<style>
+	
+	.Christmas_popBox{
+		width:884px;
+		height:460px;
+		position: fixed;
+		top: 50%;
+	    left: 50%;
+	    margin:-230px 0 0 -442px;
+	    z-index: 501;
+	    background: url(images/tuan_5yue.png)no-repeat;
+		background-size: 100% 100%;
+		filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/tuan_5yue.png',sizingMethod='scale');
+	}
+	.Christmas_popBox button{
+        position: absolute;
+        bottom: 31px;
+        left: 50%;
+        margin-left: -115px;
+        display: block;
+        width: 226px;
+        height: 45px;
+        border:0; 
+        background:#1396c5;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+    .Christmas_popBox button span{
+        display: block;
+        width: 100%;
+        height: 100%;
+        line-height: 45px;
+        text-align: center;
+        font-size: 14px;
+        color: #fff;
+        background: url(images/tan_5lian_03.png)no-repeat;
+        background-size: 100% 100%;
+        filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/tan_5lian_03.png',sizingMethod='scale');
+    }
+    .Christmas_popBox button:hover{
+        background:#0f9bce;
+    }
+	.cha_2{
+		display: block;
+		position: absolute;
+		width: 43px;
+		right: 140px;
+		top: 78px;
+		filter:alpha(opacity=80);       /* IE */
+		-moz-opacity:0.8;              /* 老版Mozilla */
+		-khtml-opacity:0.8;              /* 老版Safari */
+		opacity: 0.8;      
+		cursor: pointer;   
+	}
+	.Christmas_popBox .cha_2:hover{
+		filter:alpha(opacity=100);       /* IE */
+		-moz-opacity:1;              /* 老版Mozilla */
+		-khtml-opacity:1;              /* 老版Safari */
+		opacity: 1;
+	}
+	#Christmas_zhe{
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		width: 100%;
+		background: #05161c;
+		filter:alpha(opacity=70);       /* IE */
+		-moz-opacity:0.7;              /* 老版Mozilla */
+		-khtml-opacity:0.7;              /* 老版Safari */
+		opacity: 0.7;
+		z-index: 500;
+	}
+@media screen and (max-width:1380px){
+#tools_bar{top:152px;z-index: 210;}
+.Father_Christmas{width:115px;margin-top:-40px}
+}
+
+</style>
+
+<!--弹出层 开始-->
+<!-- <div class="Christmas_popBox">
+    <img src="images/newCha_03.png" class="cha_2" />
+    <button><span>去看看</span></button>
+</div> -->
+
+<!--遮罩B-->
+<!-- <div id="Christmas_zhe"></div> -->
+
+<script src="js/common.js"></script>
+
+
+
+<script type="text/javascript">(function(){document.getElementById('___szfw_logo___').oncontextmenu = function(){return false;}})();</script>
+<link type="text/css" rel="stylesheet" href="./shengdan/kf.css">
+<script>
+    $(function(){
+
+        $(".kfBox .qqKf").hover(
+                function(){
+                    $(this).find(".icon1").addClass("on");
+                    $(this).find(".qqKf_list").show();
+                },
+                function(){
+                    $(this).find(".icon1").removeClass("on");
+                    $(this).find(".qqKf_list").hide();
+                }
+        );
+
+        $(".kfBox .hotLine").hover(
+                function(){
+                    $(this).find(".icon2").addClass("on");
+                    $(this).find(".qqKf_list2").show();
+                },
+                function(){
+                    $(this).find(".icon2").removeClass("on");
+                    $(this).find(".qqKf_list2").hide();
+                }
+        );
+
+       
+
+    });
+</script>
+<!-- en kefu-->
+	<div class="erweima"><p><img alt="" style="float:none;margin:0px;" src="./shengdan/20150901104656.png"></p></div>
+	<div style="display: none"><!-- 百度监控代码 -->
+<script>
+            var _hmt = _hmt || [];
+            (function() {
+                var hm = document.createElement("script");
+                hm.src = "//hm.baidu.com/hm.js?9f9f881afd9153f6638fc8a471948568";
+                var s = document.getElementsByTagName("script")[0];
+                s.parentNode.insertBefore(hm, s);
+            })();
+        </script>
+<!-- CNZZ监控代码
+        <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1255512545'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1255512545%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script> -->
+<!-- DSP监控代码 --></div>
+<div id="topcontrol" title="返回顶部" style="position: fixed; bottom: 10px; right: 125px; opacity: 1; cursor: pointer;"><img src="./shengdan/top.png" style="width:59px; height:38px"></div></body></html>

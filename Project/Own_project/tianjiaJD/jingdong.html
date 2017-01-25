@@ -1,0 +1,938 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0048)http://www.ishoutou.com/member/charge#fragment-1 -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=8">
+	
+<link rel="stylesheet" type="text/css" href="./css/css.css">
+<link type="text/css" rel="stylesheet" href="./css/jbox.css">
+<link href="./css/Mbmber.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="./css/style.css">
+<link rel="stylesheet" type="text/css" href="./css/style(1).css">
+<!-- qingfu -->
+<link type="text/css" rel="stylesheet" href="./css/y_style.css"> 
+
+<!--end -->
+	<link rel="stylesheet" type="text/css" href="./css/kefu.css">
+<link rel="stylesheet" type="text/css" href="./css/headerandfooter.css">
+<script src="./js/hm.js"></script><script language="javascript" type="text/javascript" src="./js/jquery.js"></script>
+<script language="javascript" src="./js/jquery.jBox.min.js" type="text/javascript"></script>
+<script language="javascript" src="./js/jquery.jBoxConfig.js" type="text/javascript"></script>
+<script type="text/javascript" src="./js/ui.core.js"></script>
+<script type="text/javascript" src="./js/ui.tabs.js"></script>
+<script type="text/javascript" src="./js/WdatePicker.js" language="javascript"></script><link href="./css/WdatePicker.css" rel="stylesheet" type="text/css">
+<script language="javaScript" type="text/javascript" src="./js/backtotop.js"></script>
+<script type="text/javascript" src="./js/utils.js"></script>
+<link rel="stylesheet" href="./css/aero.css"><script type="text/javascript" src="./js/jquery.artDialog.source.js"></script>
+<script type="text/javascript">
+	function makevar(v){
+		var d={};
+		for(i in v){
+			var id = v[i];
+			d[id] = $("#"+id).val();
+			if(!d[id]) d[id] = $("input[name='"+id+"']:checked").val();
+		}
+		return d;
+	}
+
+	function ajaxGetData(url,targetid,data){
+			if(!url) return;
+			data = data||{};
+			var thtml = '<div class="loding"><img src="/Style/Js/008.gif"align="absmiddle" /></div>';
+			$("#"+targetid).html(thtml);
+			
+			$.ajax({
+				url: url,
+				data: data,
+				timeout: 10000,
+				cache: true,
+				type: "get",
+				dataType: "json",
+				success: function (d, s, r) {
+					if(d) $("#"+targetid).html(d.html);
+				},
+				error: '',
+				complete: ''
+			});
+		
+	}
+	var currentUrl = window.location.href.toLowerCase();
+	$(document).ready(function() {
+		$('#rotate > ul').tabs();/* 第一个TAB渐隐渐现（{ fx: { opacity: 'toggle' } }），第二个TAB是变换时间（'rotate', 2000） */
+		$('.dw_navlist li a').click(function() { // 绑定单击事件
+			var nowurl = $(this).attr('href');
+			var vid = nowurl.split("#");
+			try{
+				if(currentUrl.indexOf(vid[0]) != -1 ){
+					$('#rotate > ul').tabs('select', "#"+vid[1]); // 切换到第三个选项卡标签
+					var geturl= $('#rotate > ul li a [href="#'+vid[1]+'"]').attr("ajax_href");
+					ajaxGetData(geturl,vid[1]);
+					return false;
+				}
+			}catch(ex){};
+				return true;
+		});
+		
+		$('.ajaxdata a').click(function(){
+			var geturl = $(this).attr('ajax_href');
+			var hasget = $(this).attr('get')||0;
+			var nowurl = $(this).attr('href');
+			var vid = nowurl.split("#");
+			if(hasget!=1) ajaxGetData(geturl,vid[1]);
+			$(this).attr('get','1');
+			$('html,body').animate({scorllTop:0},1000);
+			return false;
+		})
+	});
+	//ui
+    function addBookmark(title, url) {
+        if (window.sidebar) {
+            window.sidebar.addPanel(title, url, "");
+        }
+        else if (document.all) {
+            window.external.AddFavorite(url, title);
+        }
+        else if (window.opera && window.print) {
+            return true;
+        }
+    }
+    function SetHome(obj, vrl) {
+        try {
+            obj.style.behavior = 'url(#default#homepage)'; obj.setHomePage(vrl);
+            NavClickStat(1);
+        }
+        catch (e) {
+            if (window.netscape) {
+                try {
+                    netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+                }
+                catch (e) {
+                    alert("抱歉！您的浏览器不支持直接设为首页。请在浏览器地址栏输入“about:config”并回车然后将[signed.applets.codebase_principal_support]设置为“true”，点击“加入收藏”后忽略安全提示，即可设置成功。");
+                }
+                var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+                prefs.setCharPref('browser.startup.homepage', vrl);
+            }
+        }
+    }
+        $(function() {
+            $(".dw_navlist li,.dv_r_5 li").mousemove(function() {
+                $(this).addClass("current");
+            }).mouseout(function() {
+                $(this).removeClass("current");
+            });
+        });
+</script>
+</head><body><div class="" style="display: none; position: absolute;"><div class="aui_outer"><table class="aui_border"><tbody><tr><td class="aui_nw"></td><td class="aui_n"></td><td class="aui_ne"></td></tr><tr><td class="aui_w"></td><td class="aui_c"><div class="aui_inner"><table class="aui_dialog"><tbody><tr><td colspan="2" class="aui_header"><div class="aui_titleBar"><div class="aui_title" style="cursor: move;"></div><a class="aui_close" href="javascript:/*TW-artDialog*/;">×</a></div></td></tr><tr><td class="aui_icon" style="display: none;"><div class="aui_iconBg" style="background: none;"></div></td><td class="aui_main" style="width: auto; height: auto;"><div class="aui_content" style="padding: 20px 25px;"></div></td></tr><tr><td colspan="2" class="aui_footer"><div class="aui_buttons" style="display: none;"></div></td></tr></tbody></table></div></td><td class="aui_e"></td></tr><tr><td class="aui_sw"></td><td class="aui_s"></td><td class="aui_se" style="cursor: se-resize;"></td></tr></tbody></table></div></div>
+
+    
+<!-- <div class="sub_banner" style="width:100%; height:320px; background:url(/Style/Stock/img/sub_bannerr.jpg) no-repeat center;">
+</div> -->
+<title>我的账户-- 手投网</title>
+
+<style>
+.zixunbox {
+    background: none repeat scroll 0 0 #fff;
+    left: 50%;
+    margin-left: -116px;
+    margin-top: -256px;
+    position: fixed;
+    top: 50%;
+    z-index: 1004;
+}
+
+
+
+.zixunbox ul li {
+    border-bottom: 1px dashed #c8c8c8;
+    height: 47px;
+    line-height: 47px;
+    margin: 0 20px;
+    overflow: hidden;
+}
+.zixunbox .over_icon{
+	background-image:url("/Style/H/images/over_icon.png");
+
+    height: 21px;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    width: 20px;
+    z-index: 1003;
+}
+
+.zixunbox ul li a {
+    background-image: url("/Style/H/images/qq_icon.png");
+	background-repeat:no-repeat;
+	background-position:0px center;
+    color: #858585;
+    display: inline-block;
+    height: 47px;
+    text-indent: 20px;
+    width: 92px;
+}
+.zixunbox p {
+    background: url("/Style/H/images/dianh.png");
+	background-repeat:no-repeat;
+	background-position:40px center;
+    color: #2382ba;
+    font-size: 16px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-top: 20px;
+    text-align: center;
+}
+.zixunbox h3 {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+.zixunbox span {
+    display: block;
+    padding-bottom: 20px;
+    
+    text-align: center;
+}
+</style>
+
+<!--导航-->
+
+<style>
+.top_main span.top_l img{vertical-align:middle;}
+</style>
+
+
+<div class="top">
+	<div class="top_main">
+    	<span class="top_l"><img src="./images/phone.png">客服热线：400-047-5588&nbsp;&nbsp;(工作日9:00-18:00)</span>
+        <span class="top_r">
+			<a href="http://www.ishoutou.com/help/help">帮助中心</a>
+		<a href="http://www.ishoutou.com/member/index" style="color:#ff9900;">18703101608</a>&nbsp;&nbsp; 
+				<a href="http://www.ishoutou.com/member/msg#fragment-1">消息(0)</a>
+				<a href="http://www.ishoutou.com/Member/common/actlogout">退出</a></span>
+    </div>
+</div>
+    <div class="nav">
+	<div class="nav_main">
+    	<div class="logo"><a href="http://www.ishoutou.com/"><img alt="" style="float:none;margin:0px;" src="./images/20150717164251.jpg"></a> </div>
+        <div class="nav_list">
+        	<div id="topnavbar" style="display: block;">
+              <div id="topnanv">
+			  <div class="my_zh">
+        	</div>
+			
+			 <div class="defu"> <a href="http://www.ishoutou.com/index.html">首页</a> </div>
+                <div class="defu"> <a href="http://www.ishoutou.com/freestock/index" target="_blank">热销活动</a> </div>
+                <div id="anvlfteb">
+                  <div selec="bbs" class="posbox"> <a href="http://www.ishoutou.com/invest/index">我要理财</a> <i></i></div>
+                  <div class="defu"><a href="http://www.ishoutou.com/capital/index">我要融资</a> <i></i></div>
+				   <div class="defu"> <a href="http://www.ishoutou.com/Help/novice" target="_blank">新手指引</a> </div>
+                <!--   <div selec="post" class="posbox"><a href="/Help/novice">新手指引</a> <i></i></div> -->
+                  <div selec="youhui" class="posbox"><a href="http://www.ishoutou.com/aboutus/jianjie.html">关于我们</a> <i></i></div>
+                  <div id="seledbox" class="posiabox" style="display: none; left: 1px;">
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+
+/* 导航 */
+$(function(){
+	var $anvlfteb=$('#anvlfteb'),
+		$posbox=$anvlfteb.find('div.posbox'),
+		$seledbox=$("#seledbox"),
+		anvjson={
+			bbs:'<a href="/invest/index?type=search&&stock_type=1">天天盈</a>'+
+				'<a href="/invest/index?type=search&&stock_type=2">月月盈</a>'+
+				'<a href="/invest/index?type=search&&stock_type=4">打新宝</a>',
+				//'<a href="/debt/index">债权转让</a>',
+        	news:'<a href="/daystock/index">按天融资</a>'+
+				'<a href="/Monthstock/index">按月融资</a>'+
+				'<a href="/Imtrader/index">我是操盘手</a>',
+        	 post:'<a href="/Help/novice">新手指引</a>',
+			youhui:'<a href="/aboutus/jianjie.html">公司简介</a>'+
+			'<a href="/aboutus/anquan.html">安全保障</a>'+
+			'<a href="/aboutus/tdjs.html">团队介绍</a>'+
+			'<a href="/aboutus/zizhi.html">证件资质</a>'+
+			'<a href="/aboutus/licheng.html">发展历程</a>'+
+			'<a href="/aboutus/lianxi.html">联系我们</a>'+
+			'<a href="/aboutus/yingcai.html">诚聘英才</a>'+
+			'<a href="/aboutus/partner.html">合作伙伴</a>'
+		};
+		 
+
+		$posbox.mouseover(function(){
+			var i=$(this).index();
+			$(this).addClass("anvh").siblings().removeClass("anvh");
+			var selec=$(this).attr("selec");
+			if($seledbox.is(":hidden")){
+				$seledbox.show().css("left",100*i+1).html("<div>"+anvjson[selec]+"</div>")
+			}else{
+				$seledbox.stop().animate({left:100*i+1},200,function(){
+					$("#seledbox").html("<div>"+anvjson[selec]+"</div>")
+				})
+			}
+		});
+		$anvlfteb.mouseleave(function(){
+			$seledbox.hide();
+			$posbox.removeClass("anvh");
+		})
+})
+
+/*微博二维码显示效果*/
+
+$(document).ready(function() {
+ 	$(".footer .footerC .guanzhu span a").hover(function() {
+ 		$(this).children('img').show()
+ 	}, function() {
+ 		$(this).children('img').hide()
+ 	});
+
+ })
+
+</script>
+<script type="text/javascript">
+
+    var dl_num=$(".header .main dl").length;
+    for(var i=0;i<dl_num;i++){
+        var dd_num=$(".header .main dl:eq("+i+") dd").length;
+        if(dd_num<=1){
+            $(".header .main dl:eq("+i+") dd").remove();
+            $(".header .main dl:eq("+i+") dt em").remove();
+        }
+    }
+
+</script>
+
+
+<script type="text/javascript">
+    function bodyTop(){
+        $("html,body").animate({
+            scrollTop:"0px"
+        },1000);
+    }
+	$(".header .main .fr dl dd").css("float","none");
+</script>
+<script type="text/javascript">
+$(function(){
+	$(".kefu").click(function(){
+		$(".zixunbox").fadeIn("slow");
+		$(".body_box").fadeIn("slow");
+	});
+	$(".liuyan").click(function(){
+		$(".liuy_box").fadeIn("slow");
+		$(".body_box").fadeIn("slow");
+	});
+	
+	$(".over_icon").click(function(){
+		$(".zixunbox").fadeOut("slow");
+		$(".body_box").fadeOut("slow");
+		$(".liuy_box").fadeOut("slow");
+	});
+	
+	$(".over_cionn").click(function(){
+		$(".video").fadeOut("slow");
+	});
+});
+
+    $(".header .fr dl").hover(function(){
+        $(".header .fr dl dd").stop();
+        $(".header .fr dl dd").hide();
+        $(this).children("dd").fadeIn(500);
+    },function(){
+        $(this).children("dd").fadeOut(500);
+    });
+$(window).scroll(function(){
+    var topnum=$(window).scrollTop();
+    if(topnum>510){
+        $(".header").addClass("header-on");
+    }else{
+        $(".header").removeClass("header-on");
+    }
+});
+</script>
+
+
+
+<div class="float-box"></div>
+<script type="text/javascript">
+    var w_width= $(window).width();
+    $(window).resize(function(){
+        w_width= $(window).width();
+        fix_hie(w_width);
+    });
+    function fix_hie(w_wid){
+        if(w_wid<1340){
+            $("body").addClass("body-small");
+            $(".float-login").fadeOut(500);
+        }else{
+            $("body").removeClass("body-small");
+            $(".float-login").fadeIn(500);
+
+        }
+    }
+    fix_hie(w_width);
+
+    $(".float-box").click(function(){
+        if($(".float-login").css("display")=="none"){
+            $(".float-login").fadeIn(500);
+        }else{
+            $(".float-login").fadeOut(500);
+        }
+    });
+</script>
+
+
+
+<!--页眉end-->
+<!--中部开始-->
+<div class="wrap2">
+	<div id="hy_left">
+		<div class="user_list"> <a class="dw_top" href="http://www.ishoutou.com/member" style=" background:#e74a4a; border:0px; color:#fff; font-size:18px;">帐户总览</a>
+  <div id="dw_m_left">
+  
+    <div class="dv_r_5"> <a class="bt3"><span></span>资金管理</a> </div>
+    <div class="dw_navlist">
+      <ul>
+        <li class=""><a href="http://www.ishoutou.com/member/capital#fragment-2">资金流水</a></li>     
+        <li class=""><a href="./css/我的账户-- 手投网.html" style="color: rgb(0, 140, 180); font-weight: bold;">我要充值</a></li>
+        <li class=""><a href="http://www.ishoutou.com/member/withdraw#fragment-1">我要提现</a></li>
+        <li><a href="http://www.ishoutou.com/member/bank#fragment-1">银行帐户</a></li>
+      </ul>
+    </div>
+    
+    <div class="dv_r_5"> <a class="bt5"><span></span>理财管理</a> </div>
+    <div class="dw_navlist">
+      <ul>
+        <li><a href="http://www.ishoutou.com/member/tendout#fragment-3">投标记录</a></li>
+        <!-- <li><a href="/member/current#fragment-1">活期理财</a></li> -->
+		<li><a href="http://www.ishoutou.com/member/borrowin#fragment-3">借款记录</a></li>
+		<!--<li><a href="/member/debt#fragment-1">债权转让</a></li> -->
+        <li class="last"><a href="http://www.ishoutou.com/member/auto/index.html">自动投标</a></li>
+      </ul>
+    </div>
+	
+  
+  <!---
+	<div class="dv_r_5"> <a class="bt4"><span></span>股票配资</a> </div>
+    <div class="dw_navlist">
+      <ul>
+        <li><a href="/member/daystock#fragment-1">按天配资</a></li>
+        <li><a href="/member/Monthstock#fragment-1">按月配资</a></li>
+        <li><a href="/member/Imtrader#fragment-1">我是操盘手</a></li>
+        <li><a href="/member/Freestock#fragment-1">免费体验</a></li>
+      </ul>
+    </div>
+	-->
+
+	<div class="dv_r_5"> <a class="bt7"><span></span>邀请好友</a></div>
+    <div class="dw_navlist">
+      <ul>
+        <li><a href="http://www.ishoutou.com/member/promotion#fragment-1">邀请好友</a></li>
+        <li><a href="http://www.ishoutou.com/member/promotion#fragment-2">奖金记录</a></li>
+      </ul>
+    </div>
+	
+    <div class="dv_r_5"> <a class="bt6"><span></span>基本设置</a> </div>
+    <div class="dw_navlist">
+      <ul>
+        <li><a href="http://www.ishoutou.com/member/memberinfo#fragment-1">基本资料</a></li>
+        <li><a href="http://www.ishoutou.com/member/user#fragment-1">头像与密码</a></li>
+        <li><a href="http://www.ishoutou.com/member/verify?id=1#fragment-2">认证中心</a></li>
+        <li><a href="http://www.ishoutou.com/member/msg#fragment-1">系统消息</a></li>
+      </ul>
+    </div>
+  
+  </div>
+</div>
+
+
+<!--<script type="text/javascript">
+
+dw_solid =function (a,b,c){
+var a1=$(a).children(),
+b1=$(a).children(b),
+c1=$(a).children(c),
+lh=location.href;
+lh=lh.split(location.host)[1];
+c1.hide();
+lh=="/member/verify?id=1#fragment-3" && a1.eq(1).show();
+
+b1.each(function(){
+var next=$(this).next(),
+index=next.index(),
+sp=$('span',this),
+sibp=$('span',$(this).siblings(b)),
+aa=$('a',next);
+aa.each(function(){
+var ah=$(this).attr('href');
+if(lh==ah){
+a1.eq(index).show();
+sp.addClass('on');
+}
+});
+$(this).click(function(){
+sp.toggleClass('on');
+sibp.removeClass('on');
+next.slideToggle().siblings(c).slideUp();
+})
+});
+
+}
+dw_solid("#dw_m_left",".dv_r_5",".dw_navlist");
+$(window).load(function(){
+$('body,html').animate({scrollTop:0},1);
+});
+</script>-->
+
+	</div>
+	
+	<script type="text/javascript">
+	$("#dw_m_left li:eq(1) a").css({"color":"#008CB4","font-weight":"bold"});
+	</script>
+	<div id="hy_right">
+            <div class="box">
+				<div class="Menubox1" id="rotate">
+					<ul class="menu ajaxdata ui-tabs-nav">
+						<li class="ui-tabs-selected"><a href="jingdong.html" ajax_href="/Member/charge/charge/" get="1">在线充值</a></li>
+						<!-- <li><a href="#fragment-3" ajax_href="/Member/charge/chargeoff/">线下充值</a></li> -->
+						<!--<li><a href="#fragment-4" ajax_href="/Member/charge/chargealipay/">支付宝充值</a></li>-->
+						<!--<li><a href="#fragment-5" ajax_href="/Member/charge/chargeatm/">线下充值</a></li>-->
+						<li class=""><a href="http://www.ishoutou.com/member/charge#fragment-2" ajax_href="/Member/charge/chargelog/" get="1">充值记录</a></li>
+					</ul>
+				</div> 
+				<div class="contentright">
+					<style>
+						.contentright-jingdongPay{
+							width: 792px;
+							margin: 20px auto 0;
+						}
+						.contentright-jingdongPay>ul{
+							width: 72px;
+							float: left;
+							color: #475058;
+							font-size: 13px;
+						}
+						.contentright-jingdongPay>ul>li{
+							margin:7px 0 36px 0;
+						}
+						.contentright-jingdongPay-right{
+							width: 720px;
+							float: left;
+							padding-top: 2px;
+						}
+						.contentright-jingdongPay-right>p{
+							color: #475058;
+							font-size: 13px;
+						}
+						.contentright-jingdongPay-right>p>input{
+							width: 193px;
+							height: 34px;
+							margin-right: 10px;
+							border: 1px solid #dadada;
+							color: #475058;
+						}
+						.jingdongPay-right-tab{
+							width: 100%;
+						}
+						.jingdongPay-right-tab>ul{
+							width: 100%;
+							height: 40px;
+						}
+						.jingdongPay-right-tab>ul>li{
+							width: 130px;
+							height: 40px;
+							float: left;
+							background: url(images/pay_1_03.jpg)no-repeat;
+							margin-right: 10px;
+							text-align: center;
+							line-height: 40px;
+							color: #475058;
+						}
+						.jingdongPay-right-tab>ul>li.right-tab-bgColor{
+							background: url(images/pay_2_03.jpg) repeat-x;
+							color: #178cb6;
+						}
+						.jingdongPay-right-bank{
+							width: 711px;
+							height: 159px;
+							background: #f7f7f7;
+							padding: 16px 0 0 13px;
+						}
+						.jingdongPay-right-bank>label{
+							display: block;
+							width: 135px;
+							height: 43px;
+							float: left;
+							margin: 0 3px 3px 0;
+							border: 1px solid #f7f7f7;
+							border-radius: 2px;
+							overflow: hidden;
+							position: relative;
+						}
+						.jingdongPay-right-bank>label>span{
+							width: 15px;
+							height: 15px;
+							position: absolute;
+							right: 0;
+							bottom: 0;
+							background: url(images/pay_sanjiao_03.jpg) no-repeat;
+							background-size: 100%;
+							filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/pay_sanjiao_03.jpg',  sizingMethod='scale');
+							display: none;
+						}
+						
+						.jingdongPay-right-bank>label:hover{
+							border: 1px solid #3ea9ce;
+						}
+						
+						.jingdongPay-right-bank>label.ICBC{
+							background: #fff url(images/ICBC_03.png) no-repeat;background-size: 100%;
+							filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/ICBC_03.png',  sizingMethod='scale');
+						}
+						.jingdongPay-right-bank>label.CCB{
+							background: #fff url(images/CCB_03.png) no-repeat;background-size: 100%;
+							filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/CCB_03.png',  sizingMethod='scale');
+						}
+						.jingdongPay-right-bank>label.CMB{
+							background: #fff url(images/CMB_03.png) no-repeat;background-size: 100%;
+							filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/CMB_03.png',  sizingMethod='scale');
+						}
+						.jingdongPay-right-bank>label.BOCOM{
+							background: #fff url(images/BOCOM_03.png) no-repeat;background-size: 100%;
+							filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/BOCOM_03.png',  sizingMethod='scale');
+						}
+						.jingdongPay-right-bank>label.GDB{
+							background: #fff url(images/GDB_03.png) no-repeat;background-size: 100%;
+							filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/GDB_03.png',  sizingMethod='scale');
+						}
+						.jingdongPay-right-bank>label.CIB{
+							background: #fff url(images/CIB_03.png) no-repeat;background-size: 100%;
+							filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/CIB_03.png',  sizingMethod='scale');
+						}
+						.jingdongPay-right-bank>label.CMSB{
+							background: #fff url(images/CMSB_03.png) no-repeat;background-size: 100%;
+							filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/CMSB_03.png',  sizingMethod='scale');
+						}
+						.jingdongPay-right-bank>label.BOC{
+							background: #fff url(images/BOC_03.png) no-repeat;background-size: 100%;
+							filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/BOC_03.png',  sizingMethod='scale');
+						}
+						.jingdongPay-right-bank>label.HXB{
+							background: #fff url(images/HXB_03.png) no-repeat;background-size: 100%;
+							filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/HXB_03.png',  sizingMethod='scale');
+						}
+						.jingdongPay-right-bank>label.CITIC{
+							background: #fff url(images/CITIC_03.png) no-repeat;background-size: 100%;
+							filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/CITIC_03.png',  sizingMethod='scale');
+						}
+						.jingdongPay-right-bank>label.PAB{
+							background: #fff url(images/PAB_03.png) no-repeat;background-size: 100%;
+							filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/PAB_03.png',  sizingMethod='scale');
+						}
+						.jingdongPay-right-bank>label.SPD{
+							background: #fff url(images/SPD_03.png) no-repeat;background-size: 100%;
+							filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/SPD_03.png',  sizingMethod='scale');
+						}
+						.jingdongPay-right-bank>label.ABC{
+							background: #fff url(images/ABC_03.png) no-repeat;background-size: 100%;
+							filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/ABC_03.png',  sizingMethod='scale');
+						}
+						.jingdongPay-right-bank>label.CEB{
+							background: #fff url(images/CEB_03.png) no-repeat;background-size: 100%;
+							filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/CEB_03.png',  sizingMethod='scale');
+						}
+						.jingdongPay-right-bank>label.POS{
+							background: #fff url(images/POS_03.png) no-repeat;background-size: 100%;
+							filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/POS_03.png',  sizingMethod='scale');
+						}
+						.contentright-jingdongPay-right>button{
+							width: 166px;
+							height: 40px;
+							border-radius: 3px;
+							background: #178cb5;
+							color: #fff;
+							text-align: center;
+							line-height: 40px;
+							display: block;
+							border: 0;
+							font-size: 13px;
+							margin-top: 24px;
+							font-weight: bold;
+							cursor: pointer;
+						}
+						.jingdongPay-right-bank_san>label.JDPAY{
+							background: #fff url(images/JDPAY_03.jpg) no-repeat;background-size: 100%;
+							filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/JDPAY_03.jpg',  sizingMethod='scale');
+						}
+						.jingdongPay-right-bank_san>label.ICBCPAY{
+							background: #fff url(images/ICBCPAY_03.jpg) no-repeat;background-size: 100%;
+							filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/ICBCPAY_03.jpg',  sizingMethod='scale');
+						}
+					</style>
+					<!--添加京东支付B-->
+					<div class="contentright-jingdongPay">
+						<ul>
+							<li>可用资金：</li>
+							<li style="margin-bottom: 50px;">充值金额：</li>
+							<li>充值方式：</li>
+						</ul>
+						<div class="contentright-jingdongPay-right">
+							<p style="margin-bottom: 25px;"><span style="color: #e74a4a;font-size: 18px;">50.66</span>元</p>
+							<p style="line-height: 36px;margin-bottom: 30px;"><input type="text" />元</p>
+							<div class="jingdongPay-right-tab">
+								<ul>
+									<li>网上银行</li>
+									<li class="right-tab-bgColor">第三方支付</li>
+								</ul>
+								<div class="jingdongPay-right-bank" style="display: none;">
+									<label class="ICBC"><span></span></label>
+									<label class="CCB"><span></span></label>
+									<label class="CMB"><span></span></label>
+									<label class="BOCOM"><span></span></label>
+									<label class="GDB"><span></span></label>
+									<label class="CIB"><span></span></label>
+									<label class="CMSB"><span></span></label>
+									<label class="BOC"><span></span></label>
+									<label class="HXB"><span></span></label>
+									<label class="CITIC"><span></span></label>
+									<label class="PAB"><span></span></label>
+									<label class="SPD"><span></span></label>
+									<label class="ABC"><span></span></label>
+									<label class="CEB"><span></span></label>
+									<label class="POS"><span></span></label>
+								</div>
+								<div class="jingdongPay-right-bank jingdongPay-right-bank_san Tab-visb">
+									<label class="JDPAY" style="border:1px solid #3ea9ce;"><span style="display: block;" class="Fanospan"></span></label>
+									<label class="ICBCPAY"><span></span></label>									
+								</div>
+							</div>
+							<button class="jingdongPay-right-tab-queren">确认充值</button>
+							<h3 style="color: #ee7400;margin: 38px 0 8px 0;">温馨提示：</h3>
+							<p style="color: #909090;line-height: 24px;font-size: 12px;">1.为了您的账户安全，请在充值前进行身份认证、手机认证。<br />2.充值过程中请不要关闭浏览器，耐心等待；充值成功后金额将及时汇入您的账户中。 <br />3.请注意您的银行卡充值限制，以免造成不便；每日的充值限额依据各银行限额为准。 <br />4.禁止洗钱、虚假交易等行为，一经发现并确认，将终止该账户的使用。<br />5.如果充值金额没有及时到账，请联系客服进行确认。</p>
+						</div>
+						<script>
+							$(function(){
+								$(".jingdongPay-right-tab>ul>li").on("click",function(){
+									var index=$(this).index();
+									$(this).addClass("right-tab-bgColor").siblings().removeClass("right-tab-bgColor");
+									$(".jingdongPay-right-tab>div").eq(index).addClass("Tab-visb").css("display","block").siblings("div").removeClass("Tab-visb").css("display","none");
+								})
+								$(".jingdongPay-right-bank>label").on("click",function(){
+									$(this).css({"border":"1px solid #3ea9ce"}).find("span").css("display","block").addClass("Fanospan").parent().siblings().css({"border":"1px solid #f7f7f7"}).find("span").css("display","none").removeClass("Fanospan");
+								})
+								$(".jingdongPay-right-tab-queren").on("click",function(){
+									var $Tabvisb=$(".Tab-visb>label");
+									var $fan=$Tabvisb.find("span.Fanospan"),c=0,str="";
+									for(var i=0,j=$Tabvisb.length;i<j;i++){
+										if($Tabvisb.eq(i).find("span").hasClass("Fanospan")){
+											str=$fan.parent().attr("class")
+											break;
+										}
+									}
+									if(str!=""){
+										console.log(str)
+									}else{
+										console.log(0)
+									}
+								})
+							})
+							
+						</script>
+					</div>
+					
+					<!--添加京东支付E-->
+					
+					<div id="fragment-2" style="min-width: 0px;" class="ui-tabs-panel ui-tabs-hide"><style type="text/css">
+.operaframe { width: 600px; text-align: left; overflow: hidden; margin-left: 20px; line-height: 27px; padding-left: 28px; float: left; margin-top: 20px; }
+        .operaframe ul { padding: 0px; margin: 0px; text-align: left; overflow: hidden; line-height: 25px; }
+        .operaframe ul li { float: left; line-height: 25px; }
+	.tdTitle { text-align: right; padding-left: 10px; font-size: 12px; height: 40; line-height: 40px; vertical-align: middle; width: 160px; font-weight: bold; background-color: #F9F9F9; }
+	.tdContent1 { text-align: left; padding-left: 10px; font-size: 12px; height: 40; line-height: 40px; vertical-align: middle; width: 535px; }
+	.tdContent { line-height: 28px; border: 1px solid #ccc; }
+	.tdHeard { border: 1px solid #ccc; }
+.txtInput{   background-color: #FFFFFF;
+                    background-position: right center;
+                    background-repeat: no-repeat;
+                    border: 1px solid #CCCCCC;
+                    font-size: 12px;
+                    height: 15px;
+                    margin-right: 4px;
+                    padding: 2px;
+                    text-align: left;
+                    vertical-align: middle;
+                    width: 95px;
+                }
+</style>
+<div style="height: 25px; line-height: 25px; padding: 16px 0px; width: 640px; margin-left: 56px;text-align: left; float: left;">
+	截止<span class="fontred">2015-12-07 16:10:04</span>	您的充值成功金额是：<span class="fontred"> ￥0.00</span>，充值失败金额是：<span class="fontred"> ￥0.00</span>。
+</div>
+<div style="margin-top: 5px;margin-bottom: 5px;" class="operaframe">
+<table>
+<tbody>
+<tr><td></td>
+<td> 时间从：<input type="text" id="start_time" value="" readonly="readonly" class="Wdate timeInput_Day" onfocus="WdatePicker({maxDate:&#39;#F{$dp.$D(\&#39;end_time\&#39;)||\&#39;2020-10-01\&#39;}&#39;})">至<input type="text" value="" id="end_time" readonly="readonly" class="Wdate timeInput_Day" onfocus="WdatePicker({minDate:&#39;#F{$dp.$D(\&#39;start_time\&#39;)||\&#39;2020-10-01\&#39;}&#39;})">
+</td>
+<td><img style="cursor: pointer; margin-left:20px;" id="btn_search" src="./images/chakan.jpg" onclick="getBind();" alt=""></td>
+</tr>
+<tr style="display:none">
+<td></td>
+<td>金额从：<input type="text" class="txtInput" onblur="NumberCheck(this)" id="moneyBegin">至<input type="text" onblur="NumberCheck(this)" class="txtInput" id="moneyEnd"></td>
+<td>
+		 <img style="cursor: pointer; margin-left:20px;" id="btn_search" src="./images/chakan.jpg" onclick="getBind();" alt="">
+</td>
+</tr>
+</tbody></table>
+</div>
+<div style="width: 100%;">
+	<table id="content" style="width: 870px; margin-left: 24px; float: left;
+		border-collapse: collapse;" cellspacing="0">
+		<tbody><tr id="tdHead">
+			<th scope="col" class="tdHeard" style="width: 180px;">
+				编号
+			</th>
+			<th scope="col" class="tdHeard" style="width: 180px;">
+				充值时间
+			</th>
+			<th scope="col" class="tdHeard" style="width: 180px;">
+				充值金额
+			</th>
+			<th scope="col" class="tdHeard" style="width: 180px;">
+				充值状态
+			</th>
+		</tr>
+	
+		
+	</tbody></table>
+	<div style="clear: both; height: 0px;">
+	</div>
+	<div style=" float:left; margin:10px 30px 10px 25px;">
+	</div>
+	<div data="fragment-2" id="pager" style="float: right; text-align: right; width: 500px; padding-right: 0px;" class="yahoo2 ajaxpagebar"></div>
+	<div style="clear: both; height: 0px;">
+	</div>
+</div>
+</div>
+					<!-- <div id="fragment-3" style="display:none"> -->
+						<!--线下充值-->
+					<!-- </div> -->
+					<div id="fragment-4" style="display:none">
+						<!--支付宝充值-->
+					</div>
+					<div id="fragment-5" style="display:none">
+						<!--ATM充值-->
+					</div>
+				</div>
+			</div>
+    </div>
+</div>
+<div class="VdFooter">
+		<div class="footer">
+			<div class="footerT">
+				<span class="yqlj">友情链接:</span>
+				<p>
+				<span><a href="http://www.jmjyb.com/" target="_blank"><img src="./images/20150723133207642.jpg" border="0" alt="北京金马甲"> </a></span><span><a href="http://dzp.wjybk.com/?action-viewnews-itemid-1737" target="_blank"><img src="./images/20150723133639617.jpg" border="0" alt="北交所福丽特"> </a></span><span><a href="http://www.njscae.com/" target="_blank"><img src="./images/20150723133719656.png" border="0" alt="南京文交所"> </a></span><span><a href="http://www.jscaee.cn/web/index.jsp" target="_blank"><img src="./images/20150727103843289.jpg" border="0" alt="江苏文交所"> </a></span><span><a href="http://www.shscce.com/" target="_blank"><img src="./images/20150727103906661.jpg" border="0" alt="上海文交所"> </a></span><span><a href="http://www.cnscee.com/" target="_blank"><img src="./images/20150723134718659.jpg" border="0" alt="南方文交所"> </a></span><span><a href="http://www.znypjy.com/" target="_blank"><img src="./images/20150723133832409.jpg" border="0" alt="中南文交所"> </a></span>                </p>
+			</div>
+			<div class="footerC">
+				<div class="f_l">
+                    <p><span><a href="http://www.ishoutou.com/aboutus/partner.html" target="_blank">合作伙伴</a></span>
+					<span><a href="http://www.ishoutou.com/aboutus/yingcai.html" target="_blank">诚聘英才</a></span>
+					<span><a href="http://www.ishoutou.com/aboutus/lianxi.html" target="_blank">联系我们</a></span>
+                    <span style="display: none"><a href="http://www.ishoutou.com/Index/download" target="_blank">交易软件</a></span>
+					<span><a href="http://www.ishoutou.com/aboutus/anquan.html" target="_blank">安全保障</a></span>
+					<span><a href="http://www.ishoutou.com/xueyuan/redian.html">文投学院</a></span>
+					</p>
+                    <div class="guanzhu">
+                        <span class="txt1">关注我们</span>
+                        <span><a class="wb"><img style="float:none;margin:0px;" alt="" src="./images/20150709172433.png"></a></span>
+                        <span><a class="wx"><img alt="" style="float:none;margin:0px;" src="./images/20150716110549.jpg">&nbsp;</a></span>
+                        <span class="txt2" style="display: none">手机手投</span>
+                        <span style="display: none"><a class="pg">广告未上传或已过期</a></span>
+                        <span style="display: none"><a class="az">广告未上传或已过期</a></span>
+                    </div>
+                </div>
+                <div class="kefu">
+					<span>客服电话</span><br>
+					<span class="nber">400-047-5588</span><br>
+					<span class="wangzhi"><p>kf@ishoutou.com</p></span>
+				</div>
+			</div>
+			<div class="footerB">
+				<p>
+                    <span style="display: none"><a class="tu1" href="http://http//webscan.360.cn/" target="_blank"></a></span>
+                    <span style="width: 130px;"><a style="width: 130px;" class="tu2" id="___szfw_logo___" href="https://credit.szfw.org/CX20150725010868110192.html" target="_blank"></a></span>
+                    <span><a class="tu6" href="http://si.trustutn.org/info?sn=535150827000267215688" target="_blank"></a></span>
+                    <span><a class="tu7" href="https://webverify.cfca.com.cn/WebVerify/webVerifyServlet?domain=www.ishoutou.com" target="_blank"></a></span>
+				    <span style="display: none"><a class="tu3" href="http://kx.zw.cn/" target="_blank"></a></span>
+				    <span style="display: none"><a class="tu4" href="http://www.cec9000.com/" target="_blank"></a></span>
+				    <span style="display: none;"><a class="tu5" href="http://www.ccig.org.cn/" target="_blank"></a></span></p>
+				    <p></p><p>©2015&nbsp;手投网 (www.ishoutou.com) All&nbsp;Rights&nbsp;Reserved　|　北京手投网投资控股有限公司　|　京ICP备15028302号</p><p>版权所有：手投网</p><p></p>
+				<p></p>
+			</div>
+		</div>
+	</div>
+	
+<!-- new kefu -->
+<div class="tools_bar">
+    <ul class="kfBox">
+        <li class="qqKf">
+            <a class="icon1" href="javascript:;"></a>
+            <div class="qqKf_list" style="display:none;">
+                <p><a href="tencent://Message/?Uin=2853950301&websiteName=%E5%AE%A2%E6%9C%8D1%E5%8F%B7&Menu=yes">客服1号</a></p><p><a href="tencent://Message/?Uin=2853950306&websiteName=%E5%AE%A2%E6%9C%8D2%E5%8F%B7&Menu=yes">客服2号</a></p><p><a href="tencent://Message/?Uin=2853950300&websiteName=%E5%AE%A2%E6%9C%8D3%E5%8F%B7&Menu=yes">客服3号</a></p>                <span></span>
+                <p class="last"><a target="_blank" href="http://shang.qq.com/wpa/qunwpa?idkey=0b54bf9b1e47d54b596651b0539ef7ee0a04c8f7cdcab2d03a3a1da1b1a32c7a">QQ群：239166306</a></p>            </div>
+        </li>
+        <li class="hotLine">
+            <a class="icon2" href="javascript:;"></a>
+            <div class="qqKf_list2" style="display: none;">
+                <p class="first">400-047-5588</p>                <span></span>
+                <p>每个工作日9:00-18:00</p>
+            </div>
+        </li>
+    </ul>
+</div>
+<script type="text/javascript">(function(){document.getElementById('___szfw_logo___').oncontextmenu = function(){return false;}})();</script>
+<link type="text/css" rel="stylesheet" href="./css/kf.css">
+<script>
+    $(function(){
+
+        $(".kfBox .qqKf").hover(
+                function(){
+                    $(this).find(".icon1").addClass("on");
+                    $(this).find(".qqKf_list").show();
+                },
+                function(){
+                    $(this).find(".icon1").removeClass("on");
+                    $(this).find(".qqKf_list").hide();
+                }
+        );
+
+        $(".kfBox .hotLine").hover(
+                function(){
+                    $(this).find(".icon2").addClass("on");
+                    $(this).find(".qqKf_list2").show();
+                },
+                function(){
+                    $(this).find(".icon2").removeClass("on");
+                    $(this).find(".qqKf_list2").hide();
+                }
+        );
+
+    });
+</script>
+<!-- en kefu-->
+	<div class="erweima"><p><img alt="" style="float:none;margin:0px;" src="./images/20150901104656.png"></p></div>
+	<div style="display: none"><!-- 百度监控代码 -->
+<script>
+            var _hmt = _hmt || [];
+            (function() {
+                var hm = document.createElement("script");
+                hm.src = "//hm.baidu.com/hm.js?9f9f881afd9153f6638fc8a471948568";
+                var s = document.getElementsByTagName("script")[0];
+                s.parentNode.insertBefore(hm, s);
+            })();
+        </script>
+<!-- CNZZ监控代码
+        <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1255512545'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1255512545%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script> -->
+<!-- DSP监控代码 --></div><div id="topcontrol" title="返回顶部" style="position: fixed; bottom: 10px; right: 125px; opacity: 0; cursor: pointer;"><img src="./images/top.png" style="width:59px; height:38px"></div><div id="_my97DP" style="position: absolute; top: -1970px; left: -1970px;"><iframe style="width: 186px; height: 198px;" src="./html/My97DatePicker.html" frameborder="0" border="0" scrolling="no"></iframe></div></body></html>

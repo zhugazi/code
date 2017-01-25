@@ -1,0 +1,218 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>专题图片</title>
+<style type="text/css">
+<!--
+#f_div {MARGIN: 0px auto; OVERFLOW: hidden; WIDTH: 699; HEIGHT: 96px}
+#f_imgDiv {OVERFLOW: hidden; WIDTH: 100%; HEIGHT: 96px}
+#f_img {BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; FILTER: progid:DXImageTransform.Microsoft.Fade(Overlap=1.00); BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px}
+#f_infoDiv {LEFT: 2px; WIDTH: 120px; POSITION: relative; TOP: -14px; HEIGHT: 12px}
+#f_buttonDiv {OVERFLOW: hidden; WIDTH: 120px; HEIGHT: 12px; TEXT-ALIGN: left}
+#f_buttonDiv DIV {OVERFLOW: hidden; WIDTH: 12px; HEIGHT: 0px}
+#f_buttonDiv .bg {FILTER: Alpha(Opacity=40); FLOAT: left; OVERFLOW: hidden; WIDTH: 12px; HEIGHT: 12px; BACKGROUND-COLOR: #ffffff}
+#f_buttonDiv A {DISPLAY: block; FONT-SIZE: 10px; FILTER: Alpha(Opacity=60); OVERFLOW: hidden; WIDTH: 12px; COLOR: #990000; LINE-HEIGHT: 12px; FONT-FAMILY: Arial; POSITION: absolute; HEIGHT: 12px; TEXT-ALIGN: center;}
+#f_buttonDiv A:link {COLOR: #990000; TEXT-ALIGN: center}
+#f_buttonDiv A:visited {COLOR: #990000; TEXT-ALIGN: center}
+#f_buttonDiv A:active {COLOR: #990000; TEXT-ALIGN: center}
+#f_buttonDiv A:hover {COLOR: #990000; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: center}
+#f_buttonDiv A.on:link {BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: center}
+#f_buttonDiv A.on:visited {BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: center}
+#f_buttonDiv A.on:active {BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: center}
+#f_buttonDiv A.on:hover {BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: center}
+#f_buttonDiv A.on:hover {BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: center}
+#f_text {FONT-WEIGHT: bold; BACKGROUND: url(http://www.pclady.com.cn/images/07/jt7.gif) no-repeat 10px 8px; OVERFLOW: hidden; TEXT-INDENT: 20px; LINE-HEIGHT: 26px; HEIGHT: 26px; TEXT-ALIGN: left}
+#f_text A:link {COLOR: #000}
+#f_text A:visited {COLOR: #000}
+#f_text A:active {COLOR: #000}
+#f_text A:hover {COLOR: #ff6600}
+BODY {FONT-SIZE: 12px; BACKGROUND: #fff; MARGIN: 0px}
+.f14 {FONT-SIZE: 14px}
+A:link {COLOR: #000}
+A:visited {COLOR: #000}
+A:active {COLOR: #000}
+A:hover {COLOR: #e64393}
+.white A:link {COLOR: #ffffff}
+.white A:visited {COLOR: #ffffff}
+.white A:active {COLOR: #ffffff}
+.white A:hover {COLOR: #ffffff}
+.white2 {COLOR: #fff}
+.white2 A:link {COLOR: #fff}
+.white2 A:visited {COLOR: #fff}
+.white2 A:active {COLOR: #fff}
+.white2 A:hover {COLOR: #000}
+.gray2 {COLOR: #000}
+.gray2 A:link {COLOR: #000}
+.gray2 A:visited {COLOR: #000}
+.gray2 A:active {COLOR: #000}
+.gray2 A:hover {COLOR: #e64393}
+.green {COLOR: #008100}
+.green A:link {COLOR: #008100}
+.green A:visited {COLOR: #008100}
+.green A:active {COLOR: #008100}
+.green A:hover {COLOR: #e64393}
+#body1_1_1 {FLOAT: left; WIDTH: 569px; BACKGROUND-COLOR: #f1f1f1}
+#body1_1_1_a {MARGIN: 0px; WIDTH: 699px; HEIGHT: 96px}
+-->
+</style></head>
+
+<body>
+<div id="body1_1_1">
+<div id="body1_1_1_a">
+<div id="f_div">
+<!--图片区域-->
+<div id="f_imgDiv"><a href="http://xiaotugesp.tmall.com/" target="_blank" id="f_imgLink"><img alt="吉林林产品馆" src="./201406/W020150316410439829735.jpg" id="f_img" height="96" width="699"></a></div>
+<div id="f_infoDiv">
+<!--数字按钮区域-->
+<div id="f_buttonDiv"><div class="bg" id="div_bg0"><a href="javascript:b_change(0)" title="吉林省林业厅行政权力清单" class="button" id="b0">1</a></div><div></div><div class="bg" id="div_bg1"><a href="javascript:b_change(1)" title="吉林林产品馆" class="on" id="b1">2</a></div><div></div><div class="bg" id="div_bg2"><a href="javascript:b_change(2)" title="“莫莫格杯”美丽中国摄影大赛" class="button" id="b2">3</a></div><div></div><div class="bg" id="div_bg3"><a href="javascript:b_change(3)" title="林业自然保护标识设计有奖征集" class="button" id="b3">4</a></div><div></div></div>
+</div>
+</div>
+
+<!--焦点文字区域
+<div id="f_text" class="f12b"></div>-->
+<script>
+
+//可修改区域
+var imgWidth=699;
+var imgHeight=96;
+var _timeOut_=5000;
+var show_text = false; //是否显示焦点文字
+var timeOut=_timeOut_;
+var timeOut2=_timeOut_/2;//onmouseout img后需要切换的时间
+var now=0;              //第一张图
+var target="_blank";   //打开方式
+var button_on ='on'; //当前焦点对应按钮的样式名
+var button_off ='';//非当前焦点对应按钮的样式名
+//不可修改区域
+var imgUrl = new Array();
+var imgText = new Array();
+var imgLink = new Array();
+var imgAlt= new Array();
+//var menuList = new Array();//菜单menu
+var ver=2; //兼容浏览器版本 默认2 为非ie
+var firstTime=true;
+var n =-1;
+var countNum=1;
+
+imgUrl[++n]='./201409/W020140910578649137642.jpg';
+imgText[n]=countNum++;
+imgLink[n]='http://jl.gov.cn/rdzt/zwzt/qlqd/anbm/fgw_46635/';
+imgAlt[n]='吉林省林业厅行政权力清单';
+
+imgUrl[++n]='./201406/W020150316410439829735.jpg';
+imgText[n]=countNum++;
+imgLink[n]='http://xiaotugesp.tmall.com';
+imgAlt[n]='吉林林产品馆';
+
+imgUrl[++n]='./201405/W020140523551327877561.jpg';
+imgText[n]=countNum++;
+imgLink[n]='http://lyt.jl.gov.cn/ztzl/mlzgsyds/';
+imgAlt[n]='“莫莫格杯”美丽中国摄影大赛';
+
+imgUrl[++n]='./201404/W020140425328016799598.jpg';
+imgText[n]=countNum++;
+imgLink[n]='http://lyt.jl.gov.cn/ztzl/zrbhbssjyjzj/';
+imgAlt[n]='林业自然保护标识设计有奖征集';
+
+
+var count=0;
+for (i=0;i<imgUrl.length;i++) {
+if( (imgUrl[i]!="") && (imgText[i]!="")&& (imgLink[i]!="")&& (imgAlt[i]!="")) {
+count++;
+} else {
+break;
+}
+}
+function p$(string){
+document.write(string);
+}
+function $(id){
+return document.getElementById(id);
+}
+//固定图片size
+p$("<style> #f_img { width:"+imgWidth+"px;height:"+imgHeight+"px;</style>");
+function change(){
+if (ver==1){
+with($('f_img').filters[0]){
+Transition=1;
+apply();
+play();
+}
+}
+if (firstTime){ firstTime=false;timeOut=_timeOut_/1000;}
+else{
+$('f_img').src=imgUrl[now];
+$('f_img').alt=imgAlt[now];
+$('f_imgLink').href=imgLink[now];
+if (show_text) $('f_text').innerHTML=imgText[now];
+for (var i=0;i<count;i++) {
+$('b'+i).className="button";
+//$('f_menu'+i).className="";
+}
+$('b'+now).className="on";
+//$('f_menu'+now).className="on";
+now=(now>=imgUrl.length-1)?0:now+1;
+timeOut=_timeOut_;
+}
+theTimer=setTimeout("change()", timeOut);
+}
+function b_change(num){
+window.clearInterval(theTimer);
+now=num;
+firstTime=false;
+change();
+}
+//draw 渐变line （即css:f_line)
+function draw_line(){
+var div = document.createElement("div");
+div.id = 'f_line';
+$('f_infoDiv').insertBefore(div,$('f_infoDiv').childNodes.item(0));
+}
+//表现层 start
+//图片
+var a = document.createElement("a");
+a.id="f_imgLink";
+a.target=target;
+
+a.href=imgLink[now];
+$('f_imgDiv').appendChild(a);
+var img = document.createElement("img");
+img.id="f_img";
+img.width=imgWidth;
+img.height=imgHeight;
+img.src=imgUrl[now];
+img.alt=imgAlt[now];
+a.appendChild(img);
+//数字按钮
+for (var i=0;i<count;i++){
+var div_bg = document.createElement("div");
+div_bg.id = 'div_bg'+i;
+div_bg.className='bg';
+$('f_buttonDiv').appendChild(div_bg);
+var a = document.createElement("a");
+a.id = 'b'+i;
+a.className = (i==now+1)?"button_on":"button_off";
+a.title=imgAlt[i];
+a.innerHTML=i+1;
+a.href='javascript:b_change('+i+')';
+$('div_bg'+i).appendChild(a);
+var div= document.createElement("div");
+$('f_buttonDiv').appendChild(div);
+}
+if (show_text) $('f_text').innerHTML = imgText[now];
+//表现层 end
+$('f_img').onmouseover=function(){window.clearInterval(theTimer);}
+$('f_img').onmouseout=function(){theTimer=setTimeout("change()", timeOut2);}
+try{  //滤镜版本
+new ActiveXObject("DXImageTransform.Microsoft.Fade");
+$('f_img').filters[0].play();
+ver=1;
+draw_line();
+}
+catch (e){ver=2;}
+var theTimer = setTimeout("change()", _timeOut_/1000);
+</script><style> #f_img { width:699px;height:96px;</style>
+</div>
+</div> 
+
+</body></html>

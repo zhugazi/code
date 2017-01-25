@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>   
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link rel='stylesheet' href='/stylesheets/reset.css' />
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" href="/stylesheets/login.css">
+    <script type="text/javascript" src="javascripts/jquery1.8.3.min.js"></script>
+    <script type="text/javascript">
+    	(function (doc, win) {
+	        var docEl = doc.documentElement,
+	            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+	        recalc = function () {
+	        var clientWidth = docEl.clientWidth;
+	        //console.log(clientWidth);
+	        if (!clientWidth) return;
+	        if(clientWidth>640) clientWidth=640;
+	        docEl.style.fontSize = 100 * (clientWidth / 640) + 'px';
+	        };
+	        if (!doc.addEventListener) return;
+	        win.addEventListener(resizeEvt, recalc, false);
+	        doc.addEventListener('DOMContentLoaded', recalc, false);
+	    })(document, window);
+    </script>
+  </head>
+  <body>
+
+    <%-body%>
+
+  </body>
+</html>

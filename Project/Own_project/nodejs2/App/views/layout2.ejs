@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link rel='stylesheet' href='/stylesheets/reset.css' />
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script type="text/javascript" src="/javascripts/jquery1.8.3.min.js"></script>
+    <script type="text/javascript" src="/javascripts/common.js"></script>
+    <script type="text/javascript">
+    	(function (doc, win) {
+	        var docEl = doc.documentElement,
+	            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+	        recalc = function () {
+	        var clientWidth = docEl.clientWidth;
+	        //console.log(clientWidth);
+	        if (!clientWidth) return;
+	        if(clientWidth>640) clientWidth=640;
+	        docEl.style.fontSize = 100 * (clientWidth / 640) + 'px';
+	        };
+	        if (!doc.addEventListener) return;
+	        win.addEventListener(resizeEvt, recalc, false);
+	        doc.addEventListener('DOMContentLoaded', recalc, false);
+	    })(document, window);
+    </script>
+  </head>
+  <body>
+      <div class="shouye_box1">
+          <!--头部开始-->
+          
+          <!--头部结束-->
+          
+          <!--内容区开始-->
+          
+            <%-body%>
+          
+          <!--内容区结束-->
+          
+      </div>
+
+      <!-- 设置区开始 -->
+      <div class="shouye_box2">
+          <div class="shouye_box2_top">
+            <img src="/images/22.png" class="touxiang" />
+            <div class="dengji">
+              <p class="nicheng">Buring youth</p>
+              <p class="djbiaozhi"><img src="/images/23_09.png"/></p>
+              <img src="/images/24_03.png" class="erweima" />
+            </div>
+            <p class="qianming"><img src="/images/25_03.png"/>年轻即出发 不思进取，终会落后</p>
+          </div>
+          <ul class="gxdaohang">
+            <li>开通会员</li>
+            <li>QQ钱包</li>
+            <li>个性装扮</li>
+            <li>我的收藏</li>
+            <li>我的相册</li>
+            <li>我的文件</li>
+            <li>办公应用</li>
+            <li>我的名片夹</li>
+          </ul>
+          <p class="shezhi_bot">
+            <span class="gxshezhi"><em></em>设置</span>
+            <span class="yejian">夜间</span>
+          </p>
+      </div>
+      <!-- 设置区结束 -->
+
+  </body>
+</html>

@@ -1,0 +1,764 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0046)http://www.ishoutou.com/member/user#fragment-1 -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=8">
+	
+<link rel="stylesheet" type="text/css" href="css/css.css">
+<link type="text/css" rel="stylesheet" href="css/jbox.css">
+<link href="css/Mbmber.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/style(1).css">
+<!-- qingfu -->
+<link type="text/css" rel="stylesheet" href="css/y_style.css"> 
+
+<!--end -->
+	<link rel="stylesheet" type="text/css" href="css/kefu.css">
+<link rel="stylesheet" type="text/css" href="css/headerandfooter.css">
+<script src="js/hm.js"></script><script language="javascript" type="text/javascript" src="js/jquery.js"></script>
+<script language="javascript" src="js/jquery.jBox.min.js" type="text/javascript"></script>
+<script language="javascript" src="js/jquery.jBoxConfig.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/ui.core.js"></script>
+<script type="text/javascript" src="js/ui.tabs.js"></script>
+<script type="text/javascript" src="js/WdatePicker.js" language="javascript"></script><link href="css/WdatePicker.css" rel="stylesheet" type="text/css">
+<script language="javaScript" type="text/javascript" src="js/backtotop.js"></script>
+<script type="text/javascript" src="js/utils.js"></script>
+<link rel="stylesheet" href="css/aero.css"><script type="text/javascript" src="js/jquery.artDialog.source.js"></script>
+<script type="text/javascript">
+	function makevar(v){
+		var d={};
+		for(i in v){
+			var id = v[i];
+			d[id] = $("#"+id).val();
+			if(!d[id]) d[id] = $("input[name='"+id+"']:checked").val();
+		}
+		return d;
+	}
+
+	function ajaxGetData(url,targetid,data){
+			if(!url) return;
+			data = data||{};
+			var thtml = '<div class="loding"><img src="/Style/Js/008.gif"align="absmiddle" /></div>';
+			$("#"+targetid).html(thtml);
+			
+			$.ajax({
+				url: url,
+				data: data,
+				timeout: 10000,
+				cache: true,
+				type: "get",
+				dataType: "json",
+				success: function (d, s, r) {
+					if(d) $("#"+targetid).html(d.html);
+				},
+				error: '',
+				complete: ''
+			});
+		
+	}
+	var currentUrl = window.location.href.toLowerCase();
+	$(document).ready(function() {
+		$('#rotate > ul').tabs();/* 第一个TAB渐隐渐现（{ fx: { opacity: 'toggle' } }），第二个TAB是变换时间（'rotate', 2000） */
+		$('.dw_navlist li a').click(function() { // 绑定单击事件
+			var nowurl = $(this).attr('href');
+			var vid = nowurl.split("#");
+			try{
+				if(currentUrl.indexOf(vid[0]) != -1 ){
+					$('#rotate > ul').tabs('select', "#"+vid[1]); // 切换到第三个选项卡标签
+					var geturl= $('#rotate > ul li a [href="#'+vid[1]+'"]').attr("ajax_href");
+					ajaxGetData(geturl,vid[1]);
+					return false;
+				}
+			}catch(ex){};
+				return true;
+		});
+		
+		$('.ajaxdata a').click(function(){
+			var geturl = $(this).attr('ajax_href');
+			var hasget = $(this).attr('get')||0;
+			var nowurl = $(this).attr('href');
+			var vid = nowurl.split("#");
+			if(hasget!=1) ajaxGetData(geturl,vid[1]);
+			$(this).attr('get','1');
+			$('html,body').animate({scorllTop:0},1000);
+			return false;
+		})
+	});
+	//ui
+    function addBookmark(title, url) {
+        if (window.sidebar) {
+            window.sidebar.addPanel(title, url, "");
+        }
+        else if (document.all) {
+            window.external.AddFavorite(url, title);
+        }
+        else if (window.opera && window.print) {
+            return true;
+        }
+    }
+    function SetHome(obj, vrl) {
+        try {
+            obj.style.behavior = 'url(#default#homepage)'; obj.setHomePage(vrl);
+            NavClickStat(1);
+        }
+        catch (e) {
+            if (window.netscape) {
+                try {
+                    netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+                }
+                catch (e) {
+                    alert("抱歉！您的浏览器不支持直接设为首页。请在浏览器地址栏输入“about:config”并回车然后将[signed.applets.codebase_principal_support]设置为“true”，点击“加入收藏”后忽略安全提示，即可设置成功。");
+                }
+                var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+                prefs.setCharPref('browser.startup.homepage', vrl);
+            }
+        }
+    }
+        $(function() {
+            $(".dw_navlist li,.dv_r_5 li").mousemove(function() {
+                $(this).addClass("current");
+            }).mouseout(function() {
+                $(this).removeClass("current");
+            });
+        });
+</script>
+</head><body><div class="aui_state_focus" style="position: absolute; left: -9999em; top: 527px; width: auto; z-index: 1987;"><div class="aui_outer"><table class="aui_border"><tbody><tr><td class="aui_nw"></td><td class="aui_n"></td><td class="aui_ne"></td></tr><tr><td class="aui_w"></td><td class="aui_c"><div class="aui_inner"><table class="aui_dialog"><tbody><tr><td colspan="2" class="aui_header"><div class="aui_titleBar"><div class="aui_title" style="cursor: move;">消息</div><a class="aui_close" href="javascript:/*TW-artDialog*/;">×</a></div></td></tr><tr><td class="aui_icon" style="display: none;"><div class="aui_iconBg" style="background: none;"></div></td><td class="aui_main" style="width: auto; height: auto;"><div class="aui_content" style="padding: 20px 25px;"><div class="aui_loading"><span>loading..</span></div></div></td></tr><tr><td colspan="2" class="aui_footer"><div class="aui_buttons" style="display: none;"></div></td></tr></tbody></table></div></td><td class="aui_e"></td></tr><tr><td class="aui_sw"></td><td class="aui_s"></td><td class="aui_se" style="cursor: se-resize;"></td></tr></tbody></table></div></div>
+
+    
+<!-- <div class="sub_banner" style="width:100%; height:320px; background:url(/Style/Stock/img/sub_bannerr.jpg) no-repeat center;">
+</div> -->
+<title>我的账户-- 手投网</title>
+
+<style>
+.zixunbox {
+    background: none repeat scroll 0 0 #fff;
+    left: 50%;
+    margin-left: -116px;
+    margin-top: -256px;
+    position: fixed;
+    top: 50%;
+    z-index: 1004;
+}
+
+
+
+.zixunbox ul li {
+    border-bottom: 1px dashed #c8c8c8;
+    height: 47px;
+    line-height: 47px;
+    margin: 0 20px;
+    overflow: hidden;
+}
+.zixunbox .over_icon{
+	background-image:url("/Style/H/images/over_icon.png");
+
+    height: 21px;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    width: 20px;
+    z-index: 1003;
+}
+
+.zixunbox ul li a {
+    background-image: url("/Style/H/images/qq_icon.png");
+	background-repeat:no-repeat;
+	background-position:0px center;
+    color: #858585;
+    display: inline-block;
+    height: 47px;
+    text-indent: 20px;
+    width: 92px;
+}
+.zixunbox p {
+    background: url("/Style/H/images/dianh.png");
+	background-repeat:no-repeat;
+	background-position:40px center;
+    color: #2382ba;
+    font-size: 16px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-top: 20px;
+    text-align: center;
+}
+.zixunbox h3 {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+.zixunbox span {
+    display: block;
+    padding-bottom: 20px;
+    
+    text-align: center;
+}
+</style>
+
+<!--导航-->
+
+<style>
+.top_main span.top_l img{vertical-align:middle;}
+</style>
+
+
+<div class="top">
+	<div class="top_main">
+    	<span class="top_l"><img src="images/phone.png">客服热线：400-047-5588&nbsp;&nbsp;(工作日9:00-18:00)</span>
+        <span class="top_r">
+			<a href="http://www.ishoutou.com/help/help">帮助中心</a>
+		<a href="http://www.ishoutou.com/member/index" style="color:#ff9900;">18703101608</a>&nbsp;&nbsp; 
+				<a href="http://www.ishoutou.com/member/msg#fragment-1">消息(0)</a>
+				<a href="http://www.ishoutou.com/Member/common/actlogout">退出</a></span>
+    </div>
+</div>
+    <div class="nav">
+	<div class="nav_main">
+    	<div class="logo"><a href="http://www.ishoutou.com/"><img alt="" style="float:none;margin:0px;" src="images/20150717164251.jpg"></a> </div>
+        <div class="nav_list">
+        	<div id="topnavbar" style="display: block;">
+              <div id="topnanv">
+			  <div class="my_zh">
+        	</div>
+			
+			 <div class="defu"> <a href="http://www.ishoutou.com/index.html">首页</a> </div>
+                <div class="defu"> <a href="http://www.ishoutou.com/freestock/index" target="_blank">热销活动</a> </div>
+                <div id="anvlfteb">
+                  <div selec="bbs" class="posbox"> <a href="http://www.ishoutou.com/invest/index">我要理财</a> <i></i></div>
+                  <div class="defu"><a href="http://www.ishoutou.com/capital/index">我要融资</a> <i></i></div>
+				   <div class="defu"> <a href="http://www.ishoutou.com/Help/novice" target="_blank">新手指引</a> </div>
+                <!--   <div selec="post" class="posbox"><a href="/Help/novice">新手指引</a> <i></i></div> -->
+                  <div selec="youhui" class="posbox"><a href="http://www.ishoutou.com/aboutus/jianjie.html">关于我们</a> <i></i></div>
+                  <div id="seledbox" class="posiabox" style="display: none; left: 1px;">
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+
+/* 导航 */
+$(function(){
+	var $anvlfteb=$('#anvlfteb'),
+		$posbox=$anvlfteb.find('div.posbox'),
+		$seledbox=$("#seledbox"),
+		anvjson={
+			bbs:'<a href="/invest/index?type=search&&stock_type=1">天天盈</a>'+
+				'<a href="/invest/index?type=search&&stock_type=2">月月盈</a>'+
+				'<a href="/invest/index?type=search&&stock_type=4">打新宝</a>',
+				//'<a href="/debt/index">债权转让</a>',
+        	news:'<a href="/daystock/index">按天融资</a>'+
+				'<a href="/Monthstock/index">按月融资</a>'+
+				'<a href="/Imtrader/index">我是操盘手</a>',
+        	 post:'<a href="/Help/novice">新手指引</a>',
+			youhui:'<a href="/aboutus/jianjie.html">公司简介</a>'+
+			'<a href="/aboutus/anquan.html">安全保障</a>'+
+			'<a href="/aboutus/tdjs.html">团队介绍</a>'+
+			'<a href="/aboutus/zizhi.html">证件资质</a>'+
+			'<a href="/aboutus/licheng.html">发展历程</a>'+
+			'<a href="/aboutus/lianxi.html">联系我们</a>'+
+			'<a href="/aboutus/yingcai.html">诚聘英才</a>'+
+			'<a href="/aboutus/partner.html">合作伙伴</a>'
+		};
+		 
+
+		$posbox.mouseover(function(){
+			var i=$(this).index();
+			$(this).addClass("anvh").siblings().removeClass("anvh");
+			var selec=$(this).attr("selec");
+			if($seledbox.is(":hidden")){
+				$seledbox.show().css("left",100*i+1).html("<div>"+anvjson[selec]+"</div>")
+			}else{
+				$seledbox.stop().animate({left:100*i+1},200,function(){
+					$("#seledbox").html("<div>"+anvjson[selec]+"</div>")
+				})
+			}
+		});
+		$anvlfteb.mouseleave(function(){
+			$seledbox.hide();
+			$posbox.removeClass("anvh");
+		})
+})
+
+/*微博二维码显示效果*/
+
+$(document).ready(function() {
+ 	$(".footer .footerC .guanzhu span a").hover(function() {
+ 		$(this).children('img').show()
+ 	}, function() {
+ 		$(this).children('img').hide()
+ 	});
+
+ })
+
+</script>
+<script type="text/javascript">
+
+    var dl_num=$(".header .main dl").length;
+    for(var i=0;i<dl_num;i++){
+        var dd_num=$(".header .main dl:eq("+i+") dd").length;
+        if(dd_num<=1){
+            $(".header .main dl:eq("+i+") dd").remove();
+            $(".header .main dl:eq("+i+") dt em").remove();
+        }
+    }
+
+</script>
+
+
+<script type="text/javascript">
+    function bodyTop(){
+        $("html,body").animate({
+            scrollTop:"0px"
+        },1000);
+    }
+	$(".header .main .fr dl dd").css("float","none");
+</script>
+<script type="text/javascript">
+$(function(){
+	$(".kefu").click(function(){
+		$(".zixunbox").fadeIn("slow");
+		$(".body_box").fadeIn("slow");
+	});
+	$(".liuyan").click(function(){
+		$(".liuy_box").fadeIn("slow");
+		$(".body_box").fadeIn("slow");
+	});
+	
+	$(".over_icon").click(function(){
+		$(".zixunbox").fadeOut("slow");
+		$(".body_box").fadeOut("slow");
+		$(".liuy_box").fadeOut("slow");
+	});
+	
+	$(".over_cionn").click(function(){
+		$(".video").fadeOut("slow");
+	});
+});
+
+    $(".header .fr dl").hover(function(){
+        $(".header .fr dl dd").stop();
+        $(".header .fr dl dd").hide();
+        $(this).children("dd").fadeIn(500);
+    },function(){
+        $(this).children("dd").fadeOut(500);
+    });
+$(window).scroll(function(){
+    var topnum=$(window).scrollTop();
+    if(topnum>510){
+        $(".header").addClass("header-on");
+    }else{
+        $(".header").removeClass("header-on");
+    }
+});
+</script>
+
+
+
+<div class="float-box"></div>
+<script type="text/javascript">
+    var w_width= $(window).width();
+    $(window).resize(function(){
+        w_width= $(window).width();
+        fix_hie(w_width);
+    });
+    function fix_hie(w_wid){
+        if(w_wid<1340){
+            $("body").addClass("body-small");
+            $(".float-login").fadeOut(500);
+        }else{
+            $("body").removeClass("body-small");
+            $(".float-login").fadeIn(500);
+
+        }
+    }
+    fix_hie(w_width);
+
+    $(".float-box").click(function(){
+        if($(".float-login").css("display")=="none"){
+            $(".float-login").fadeIn(500);
+        }else{
+            $(".float-login").fadeOut(500);
+        }
+    });
+</script>
+
+
+
+<!--页眉end-->
+<!--中部开始-->
+<div class="wrap2">
+	<div id="hy_left">
+		<div class="user_list"> <a class="dw_top" href="http://www.ishoutou.com/member" style=" background:#e74a4a; border:0px; color:#fff; font-size:18px;">帐户总览</a>
+  <div id="dw_m_left">
+  
+    <div class="dv_r_5"> <a class="bt3"><span></span>资金管理</a> </div>
+    <div class="dw_navlist">
+      <ul>
+        <li><a href="http://www.ishoutou.com/member/capital#fragment-2">资金流水</a></li>     
+        <li><a href="http://www.ishoutou.com/member/charge#fragment-1">我要充值</a></li>
+        <li><a href="http://www.ishoutou.com/member/withdraw#fragment-1">我要提现</a></li>
+        <li><a href="http://www.ishoutou.com/member/bank#fragment-1">银行帐户</a></li>
+      </ul>
+    </div>
+    
+    <div class="dv_r_5"> <a class="bt5"><span></span>理财管理</a> </div>
+    <div class="dw_navlist">
+      <ul>
+        <li><a href="http://www.ishoutou.com/member/tendout#fragment-3">投标记录</a></li>
+        <!-- <li><a href="/member/current#fragment-1">活期理财</a></li> -->
+		<li><a href="http://www.ishoutou.com/member/borrowin#fragment-3">借款记录</a></li>
+		<!--<li><a href="/member/debt#fragment-1">债权转让</a></li> -->
+        <li class="last"><a href="http://www.ishoutou.com/member/auto/index.html">自动投标</a></li>
+      </ul>
+    </div>
+	
+  
+  <!---
+	<div class="dv_r_5"> <a class="bt4"><span></span>股票配资</a> </div>
+    <div class="dw_navlist">
+      <ul>
+        <li><a href="/member/daystock#fragment-1">按天配资</a></li>
+        <li><a href="/member/Monthstock#fragment-1">按月配资</a></li>
+        <li><a href="/member/Imtrader#fragment-1">我是操盘手</a></li>
+        <li><a href="/member/Freestock#fragment-1">免费体验</a></li>
+      </ul>
+    </div>
+	-->
+
+	<div class="dv_r_5"> <a class="bt7"><span></span>邀请好友</a></div>
+    <div class="dw_navlist">
+      <ul>
+        <li><a href="http://www.ishoutou.com/member/promotion#fragment-1">邀请好友</a></li>
+        <li><a href="http://www.ishoutou.com/member/promotion#fragment-2">奖金记录</a></li>
+      </ul>
+    </div>
+	
+    <div class="dv_r_5"> <a class="bt6"><span></span>基本设置</a> </div>
+    <div class="dw_navlist">
+      <ul>
+        <li><a href="http://www.ishoutou.com/member/memberinfo#fragment-1">基本资料</a></li>
+        <li><a href="zhanghu/我的账户-- 手投网.html">头像与密码</a></li>
+        <li><a href="http://www.ishoutou.com/member/verify?id=1#fragment-1">认证中心</a></li>
+        <li><a href="http://www.ishoutou.com/member/msg#fragment-1">系统消息</a></li>
+      </ul>
+    </div>
+  
+  </div>
+</div>
+
+
+<!--<script type="text/javascript">
+
+dw_solid =function (a,b,c){
+var a1=$(a).children(),
+b1=$(a).children(b),
+c1=$(a).children(c),
+lh=location.href;
+lh=lh.split(location.host)[1];
+c1.hide();
+lh=="/member/verify?id=1#fragment-3" && a1.eq(1).show();
+
+b1.each(function(){
+var next=$(this).next(),
+index=next.index(),
+sp=$('span',this),
+sibp=$('span',$(this).siblings(b)),
+aa=$('a',next);
+aa.each(function(){
+var ah=$(this).attr('href');
+if(lh==ah){
+a1.eq(index).show();
+sp.addClass('on');
+}
+});
+$(this).click(function(){
+sp.toggleClass('on');
+sibp.removeClass('on');
+next.slideToggle().siblings(c).slideUp();
+})
+});
+
+}
+dw_solid("#dw_m_left",".dv_r_5",".dw_navlist");
+$(window).load(function(){
+$('body,html').animate({scrollTop:0},1);
+});
+</script>-->
+
+	</div>
+	<script type="text/javascript">
+	$("#dw_m_left li:eq(13) a").css({"color":"#008CB4","font-weight":"bold"});
+	</script>
+	<div id="hy_right">
+            <div class="box">
+				<div class="Menubox1" id="rotate">
+					<ul class="menu ajaxdata ui-tabs-nav">
+                        <li class=""><a href="zhanghu/我的账户-- 手投网.html" ajax_href="/Member/user/header/" get="1">我的头像</a></li>
+                        <li><a href="http://www.ishoutou.com/member/user#fragment-2" ajax_href="/Member/user/password/">修改密码</a></li>
+                        <li class="ui-tabs-selected"><a href="http://www.ishoutou.com/member/user#fragment-3" ajax_href="/Member/user/pinpass/" get="1">修改支付密码</a></li>
+                        <!-- <li><a href="#fragment-4" ajax_href="/Member/user/msgset/">消息设置</a></li> -->
+					</ul>
+				</div> 
+				<div class="contentright">
+					<div id="fragment-1" style="min-width: 0px;" class="ui-tabs-panel ui-tabs-hide">    <style type="text/css">
+.clear { clear: both; }
+.mt0 { margin-top: 0 !important; }
+.box_head { width: 766px; }
+.box_head_t01 { height: 32px; line-height: 32px; background: url(box_head.gif) 10px -514px no-repeat #f6f6f6; font-weight: bold; padding-left: 30px; }
+.box_head_info { padding: 10px 50px; }
+.box_head_info p { line-height: 30px; }
+.box_head_main { padding: 0 24px; }
+.box_head_main_HEADER { width: 177px; height: 194px; padding: 10px 1px; border: 1px solid #dbdbdb; border-right: none 0; background: #f7f7f7; float: left; }
+.dqtx { height: 25px; background: #fff; line-height: 25px; padding-left: 10px; text-align: left; text-indent: 15px; }
+
+.dqtx_img { width: 136px; height: 136px; padding: 5px; overflow: hidden; margin: 10px auto 0 auto; }
+
+.box_head_main_content { float: left; border: 1px solid #dbdbdb; width: 603px; padding: 0px 0px 10px 0px; }
+.box_head_t02 { height: 25px; line-height: 25px; margin: 10px 2px 10px; background: #f7f7f7; padding-left: 10px; text-align: left; text-indent: 15px; }
+.box_head_hlist_main { float: left; width: 450px; overflow: hidden; padding-left: 20px; text-align: left;   _padding-left: 16px;  }
+.box_head_hlist_main a { float: left; display: block; display: inline; width: 60px; height: 60px; padding: 4px; overflow: hidden; background-image: url(/Style/H/images/bam_head.jpg); margin: 10px; }
+.box_head_hlist_main a img { width: 60px; height: 60px; }
+.box_head_more { float: right; width: 28px; padding:5px 13px; padding-top:6px; border-left: 2px #ccc solid; }
+.box_head_more a { float: left; display: block; width: 23px; height: 23px;   line-height:23px;
+                   background-image: url(/Style/H/images/ym02.jpg);
+                  background-repeat:no-repeat;display: inline; margin: 5px 0px; margin-left:1px;  }
+
+.box_head_more a.current,.box_head_more a:hover{ background-image: url(/Style/H/images/ym01.jpg); color:#fff; font-weight:bold; }      
+.viewbk { width: 140px; height: 140px; padding: 3px; overflow: hidden; background: url(box_head.gif) 0 0 no-repeat; }
+.box_head_file { text-align: left; vertical-align: top; padding: 10px 34px; }
+.box_head_bt01, .box_head_bt02 { margin: 0 0 10px 20px; }
+    </style>
+<div style="padding: 10px 50px; text-align: left; line-height: 22px;">
+	<p>
+		1、用户头像能直观的向其他用户展示自己，推荐使用真实照片以作为头像，也可以使用系统推荐头像。</p>
+	<p>
+		2、使用上传图片时请不要小于200 * 200 像素，不要大于512KB。</p>
+</div>
+<div style="width: 785px; margin: 10px auto;">
+	<div class="box_head_main_HEADER">
+		<div class="dqtx">
+			当前头像</div>
+		<div class="dqtx_img" style="background-image: url(/Style/H/images/bav_head.jpg)">
+			<img src="images/noavatar_middle.gif" style="width: 136px; height: 136px;" alt=""></div>
+	</div>
+	<div class="box_head_main_content">
+		<div class="box_head_t02">上传头像</div>
+		<div class="sctx">
+			<table style="text-align: left; float: left;" border="0" cellpadding="0" cellspacing="0">
+				<tbody><tr>
+					<td style="height: 223px; padding: 0px 69px;" valign="top">
+					<iframe style="border-top:#ccc solid 1px;" width="450px" scrolling="no" height="485px" frameborder="0" marginwidth="0" marginheight="0" src="zhanghu/upload.html"></iframe>
+					</td>
+				</tr>
+			</tbody></table>
+		</div>
+	</div>
+</div></div>
+					<div id="fragment-2" style="display:none" class="ui-tabs-panel ui-tabs-hide">
+						<!--修改密码-->
+					</div>
+					<div id="fragment-3" style="min-width: 0px;" class="ui-tabs-panel"><style type="text/css">
+body { margin: 0; _height: 100%; }
+.tdTitle { text-align: right; padding-left: 10px; font-size: 12px; height: 40; line-height: 40px; vertical-align: middle; width: 160px; font-weight: bold; background-color: #F9F9F9; border: #E9E8E7 solid 1px; }
+.tdContent { text-align: left; padding-left: 10px; font-size: 12px; height: 40; line-height: 40px; vertical-align: middle; border: #E9E8E7 solid 1px; }
+.alertDiv_pin { margin: 0px auto; background-color: #FEFACF; border: 1px solid green; line-height: 25px; background-image: url(http://img.anxindai.com/images/info/001_30.png); background-position: 20px 4px; background-repeat: no-repeat; }
+.alertDiv_pin li { margin: 5px 0; list-style-type: decimal; color: #005B9F; padding: 0px; line-height: 20px; }
+.alertDiv_pin ul { text-align: left; list-style-type: decimal; display: block; padding: 0px; margin: 0px 0px 0px 75px; }
+.font666 { color: #666; }
+.dv_header_8 { background-image: url(); }
+.dv_account_0 { margin-top: 8px; }
+.img_button_img{display: block;float: left;}
+.No_password{padding:0 15px;box-sizing: border-box;margin: 2px 0 0 0px;display: block;float: left;cursor: pointer;color: #188cb6;font-size: 12px;}
+</style>
+
+<div style="width: 766px; display: none;" class="alertDiv_pin">
+	<ul style="display: block;">
+	</ul>
+</div>
+<div class="top_account_bg">
+	<img src="images/ministar.gif" style="margin-right: 5px;">
+	您可以通过经常性修改支付密码更好的保护您的账号安全，以避免您受到意外损失
+</div>
+<div style="width: 100%; height: 167px; margin-top: 15px;">
+	<table style="width: 762px; float: left; margin: 0px 20px;
+		padding: 0px; border-collapse: collapse; text-align: left;" id="formTb" cellpadding="0" cellspacing="0">
+		<tbody><tr>
+			<td class="tdTitle">
+				用户名：
+			</td>
+			<td class="tdContent">
+				<span id="name">
+					18703101608				</span>
+			</td>
+		</tr>
+		<tr>
+			<td class="tdTitle">
+				请输入原支付密码：
+			</td>
+			<td class="tdContent">
+				<input id="oldpassword_pin" name="oldpassword_pin" class="text2" type="password"><span class="font666">(如未修改过，则与原登录密码相同)</span>
+			</td>
+		</tr>
+		<tr>
+			<td class="tdTitle">
+				请输入新支付密码：
+			</td>
+			<td class="tdContent">
+				<input id="newpassword_pin" name="newpassword_pin" class="text2" type="password">
+				<span class="font666">(输入您的新支付密码&nbsp;&nbsp;,最少4位 )</span>
+			</td>
+		</tr>
+		<tr>
+			<td class="tdTitle">
+				请再输入新支付密码：
+			</td>
+			<td class="tdContent">
+				<input id="newpassword_pin1" name="newpassword_pin1" class="text2" type="password">
+				<span class="font666">(再输入一次您的新支付密码&nbsp;&nbsp;,最少4位)</span>
+			</td>
+		</tr>
+		<tr>
+			<td class="tdTitle">&nbsp;
+				
+			</td>
+			<td class="tdContent">
+				<img id="btn_set" class="img_button img_button_img" style="cursor:pointer; margin-top:10px;" onclick="UpdatePwd_pin()" src="images/btnsubupdate.jpg">
+				<span class="No_password">忘记支付密码？</span>
+			</td>
+			<script>
+				$(".No_password").on("click",function(){
+					location.href="mimayanzheng.html";
+				})
+			</script>
+		</tr>
+	</tbody></table>
+</div>
+<div style="clear: both; margin-bottom: 30px; padding-left: 20px;">
+	<div style="float: left; height: 84px; width: 20px;">
+		<img src="images/minilogo.gif" style="width: 17px; height: 17px;
+			margin: 3px; margin-top: 6px;">
+	</div>
+	<div style="width: 666px; float: left; padding: 4px; line-height: 20px; font-size: 12px;
+		text-align: left; color: #aaaaaa;">
+	忘记支付密码？请与客服联系，进行身份认证后找回支付密码。
+	</div>
+</div>
+
+</div>
+					<!-- <div id="fragment-4" style="display:none">
+						
+					</div> -->
+				</div>
+			</div>
+    </div>
+</div>
+<div class="VdFooter">
+		<div class="footer">
+			<div class="footerT">
+				<span class="yqlj">友情链接:</span>
+				<p>
+				<span><a href="http://www.jmjyb.com/" target="_blank"><img src="images/20150723133207642.jpg" border="0" alt="北京金马甲"> </a></span><span><a href="http://dzp.wjybk.com/?action-viewnews-itemid-1737" target="_blank"><img src="images/20150723133639617.jpg" border="0" alt="北交所福丽特"> </a></span><span><a href="http://www.njscae.com/" target="_blank"><img src="images/20150723133719656.png" border="0" alt="南京文交所"> </a></span><span><a href="http://www.jscaee.cn/web/index.jsp" target="_blank"><img src="images/20150727103843289.jpg" border="0" alt="江苏文交所"> </a></span><span><a href="http://www.shscce.com/" target="_blank"><img src="images/20150727103906661.jpg" border="0" alt="上海文交所"> </a></span><span><a href="http://www.cnscee.com/" target="_blank"><img src="images/20150723134718659.jpg" border="0" alt="南方文交所"> </a></span><span><a href="http://www.znypjy.com/" target="_blank"><img src="images/20150723133832409.jpg" border="0" alt="中南文交所"> </a></span>                </p>
+			</div>
+			<div class="footerC">
+				<div class="f_l">
+                    <p><span><a href="http://www.ishoutou.com/aboutus/partner.html" target="_blank">合作伙伴</a></span>
+					<span><a href="http://www.ishoutou.com/aboutus/yingcai.html" target="_blank">诚聘英才</a></span>
+					<span><a href="http://www.ishoutou.com/aboutus/lianxi.html" target="_blank">联系我们</a></span>
+                    <span style="display: none"><a href="http://www.ishoutou.com/Index/download" target="_blank">交易软件</a></span>
+					<span><a href="http://www.ishoutou.com/aboutus/anquan.html" target="_blank">安全保障</a></span>
+					<span><a href="http://www.ishoutou.com/xueyuan/redian.html">文投学院</a></span>
+					</p>
+                    <div class="guanzhu">
+                        <span class="txt1">关注我们</span>
+                        <span><a class="wb"><img style="float:none;margin:0px;" alt="" src="zhanghu/20150709172433.png"></a></span>
+                        <span><a class="wx"><img alt="" style="float:none;margin:0px;" src="zhanghu/20150716110549.jpg">&nbsp;</a></span>
+                        <span class="txt2" style="display: none">手机手投</span>
+                        <span style="display: none"><a class="pg">广告未上传或已过期</a></span>
+                        <span style="display: none"><a class="az">广告未上传或已过期</a></span>
+                    </div>
+                </div>
+                <div class="kefu">
+					<span>客服电话</span><br>
+					<span class="nber">400-047-5588</span><br>
+					<span class="wangzhi"><p>kf@ishoutou.com</p></span>
+				</div>
+			</div>
+			<div class="footerB">
+				<p>
+                    <span style="display: none"><a class="tu1" href="http://http//webscan.360.cn/" target="_blank"></a></span>
+                    <span style="width: 130px;"><a style="width: 130px;" class="tu2" id="___szfw_logo___" href="https://credit.szfw.org/CX20150725010868110192.html" target="_blank"></a></span>
+                    <span><a class="tu6" href="http://si.trustutn.org/info?sn=535150827000267215688" target="_blank"></a></span>
+                    <span><a class="tu7" href="https://webverify.cfca.com.cn/WebVerify/webVerifyServlet?domain=www.ishoutou.com" target="_blank"></a></span>
+				    <span style="display: none"><a class="tu3" href="http://kx.zw.cn/" target="_blank"></a></span>
+				    <span style="display: none"><a class="tu4" href="http://www.cec9000.com/" target="_blank"></a></span>
+				    <span style="display: none;"><a class="tu5" href="http://www.ccig.org.cn/" target="_blank"></a></span></p>
+				    <p></p><p>©2015&nbsp;手投网 (www.ishoutou.com) All&nbsp;Rights&nbsp;Reserved　|　北京手投网投资控股有限公司　|　京ICP备15028302号</p><p>版权所有：手投网</p><p></p>
+				<p></p>
+			</div>
+		</div>
+	</div>
+	
+<!-- new kefu -->
+<div class="tools_bar">
+    <ul class="kfBox">
+        <li class="qqKf">
+            <a class="icon1" href="javascript:;"></a>
+            <div class="qqKf_list" style="display:none;">
+                <p><a href="tencent://Message/?Uin=2853950301&websiteName=%E5%AE%A2%E6%9C%8D1%E5%8F%B7&Menu=yes">客服1号</a></p><p><a href="tencent://Message/?Uin=2853950306&websiteName=%E5%AE%A2%E6%9C%8D2%E5%8F%B7&Menu=yes">客服2号</a></p><p><a href="tencent://Message/?Uin=2853950300&websiteName=%E5%AE%A2%E6%9C%8D3%E5%8F%B7&Menu=yes">客服3号</a></p>                <span></span>
+                <p class="last"><a target="_blank" href="http://shang.qq.com/wpa/qunwpa?idkey=0b54bf9b1e47d54b596651b0539ef7ee0a04c8f7cdcab2d03a3a1da1b1a32c7a">QQ群：239166306</a></p>            </div>
+        </li>
+        <li class="hotLine">
+            <a class="icon2" href="javascript:;"></a>
+            <div class="qqKf_list2" style="display:none;">
+                <p class="first">400-047-5588</p>                <span></span>
+                <p>每个工作日9:00-18:00</p>
+            </div>
+        </li>
+    </ul>
+</div>
+<script type="text/javascript">(function(){document.getElementById('___szfw_logo___').oncontextmenu = function(){return false;}})();</script>
+<link type="text/css" rel="stylesheet" href="zhanghu/kf.css">
+<script>
+    $(function(){
+
+        $(".kfBox .qqKf").hover(
+                function(){
+                    $(this).find(".icon1").addClass("on");
+                    $(this).find(".qqKf_list").show();
+                },
+                function(){
+                    $(this).find(".icon1").removeClass("on");
+                    $(this).find(".qqKf_list").hide();
+                }
+        );
+
+        $(".kfBox .hotLine").hover(
+                function(){
+                    $(this).find(".icon2").addClass("on");
+                    $(this).find(".qqKf_list2").show();
+                },
+                function(){
+                    $(this).find(".icon2").removeClass("on");
+                    $(this).find(".qqKf_list2").hide();
+                }
+        );
+
+    });
+</script>
+<!-- en kefu-->
+	<div class="erweima"><p><img alt="" style="float:none;margin:0px;" src="zhanghu/20150901104656.png"></p></div>
+	<div style="display: none"><!-- 百度监控代码 -->
+<script>
+            var _hmt = _hmt || [];
+            (function() {
+                var hm = document.createElement("script");
+                hm.src = "//hm.baidu.com/hm.js?9f9f881afd9153f6638fc8a471948568";
+                var s = document.getElementsByTagName("script")[0];
+                s.parentNode.insertBefore(hm, s);
+            })();
+        </script>
+<!-- CNZZ监控代码
+        <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1255512545'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1255512545%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script> -->
+<!-- DSP监控代码 --></div><div id="topcontrol" title="返回顶部" style="position: fixed; bottom: 10px; right: 125px; opacity: 0; cursor: pointer;"><img src="images/top.png" style="width:59px; height:38px"></div><div id="_my97DP" style="position: absolute; top: -1970px; left: -1970px;"><iframe style="width: 186px; height: 198px;" src="zhanghu/My97DatePicker.html" frameborder="0" border="0" scrolling="no"></iframe></div></body></html>

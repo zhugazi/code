@@ -1,0 +1,262 @@
+body {
+  color: #76583b;
+  font-size: 17px;
+  padding-bottom: 90px;
+  background: #efba00 url("../image/bottom.png") center bottom no-repeat;
+}
+
+.act-color-deep {
+  color: #7d4e1f;
+  font-weight: bold;
+}
+
+.act-color-red {
+  color: #b72710;
+}
+
+.act-color-blue {
+  color: #0088b5;
+  font-size: 22px;
+  vertical-align: bottom;
+}
+
+.act-color-gray {
+  color: #998e8a;
+  font-size: 16px;
+}
+
+.act-color-green {
+  color: #e8f767;
+}
+
+.act-btn {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  width: 375px;
+  height: 56px;
+  text-align: center;
+  background: url("../image/btn.png");
+  color: #fff;
+  line-height: 46px;
+  font-size: 22px;
+}
+
+.ui-container {
+  width: 1120px;
+  margin: 0 auto;
+}
+
+.act-banner {
+  height: 690px;
+  background: #68ceeb url("../image/banner.jpg") center no-repeat;
+  margin-bottom: 30px;
+}
+.act-banner .act-top {
+  height: 54px;
+  line-height: 54px;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+.act-banner .act-top a {
+  color: #454545;
+}
+.act-banner .act-top ul li {
+  margin-left: 40px;
+  float: left;
+}
+.act-banner .ui-container {
+  position: relative;
+  height: 636px;
+}
+.act-banner .banner-title {
+  color: #491805;
+  font-size: 16px;
+  position: absolute;
+  top: 316px;
+  left: 365px;
+}
+.act-banner .banner-title h2 {
+  font-size: 20px;
+  color: #552713;
+  font-weight: bold;
+}
+.act-banner .act-nav {
+  position: absolute;
+  bottom: 60px;
+  left: 0;
+}
+.act-banner .act-nav a {
+    color: #76583b;
+}
+.act-banner .act-nav .red {
+    color: #df0101;
+    font-weight: bold;
+}
+.act-banner .act-nav ul {
+  margin-left: 138px;
+}
+.act-banner .act-nav ul li {
+  float: left;
+  width: 150px;
+  height: 160px;
+  margin-right: 80px;
+  background: url("../image/nav.png");
+  text-align: center;
+  color: #6d3d25;
+  font-size: 17px;
+}
+.act-banner .act-nav ul li h2 {
+  color: #562713;
+  padding-top: 24px;
+  padding-bottom: 16px;
+  font-weight: bold;
+}
+
+.act-box {
+  padding: 120px 0 0 160px;
+  line-height: 40px;
+  margin-bottom: 80px;
+}
+.act-box.act1 {
+  height: 377px;
+  background: url("../image/no1.png");
+    position: relative;
+}
+.act-box.act1 .desc {
+  margin-top: -45px;
+  margin-bottom: 60px;
+}
+.act-box.act1 .act-color-red {
+  padding: 20px 0 25px 0;
+}
+.act-box.act1 .act1-award {
+    position: absolute;
+    right: 80px;
+    bottom: 60px;
+}
+.act-box.act2 {
+  position: relative;
+  height: 970px;
+  background: url("../image/no2.png");
+}
+.act-box.act2 .note {
+  font-size: 16px;
+  padding: 15px 0;
+}
+.act-box.act2 .liucheng {
+  padding-top: 10px;
+}
+.act-box.act2 .time {
+ /* position: absolute;
+  bottom: 50px;
+  left: 160px;*/
+}
+.act2-liucheng {
+    margin-left: -160px;
+}
+.act-box.act3 {
+  height: 386px;
+  background: url("../image/no3.png");
+  position: relative;
+}
+.act-box.act3 ul {
+  margin-top: 5px;
+}
+.act-box.act3 ul li {
+  background-color: #fff;
+  float: left;
+  padding: 0 20px;
+  font-size: 26px;
+  position: relative;
+}
+.act-box.act3 ul li .act-color-gray {
+  font-size: 16px;
+  text-align: center;
+  line-height: 18px;
+  padding-bottom: 10px;
+}
+.act-box.act3 ul li i {
+  position: absolute;
+  height: 30px;
+  width: 1px;
+  background-color: #dbcdc3;
+  right: 0;
+  top: 20px;
+}
+.act-box.act3 ul li .red {
+  color: #df0101;
+}
+.act-box.act3 .act3-time {
+  padding: 20px 0 40px 0;
+}
+.act-box.act3 .act-btn {
+  font-size: 18px;
+}
+.act-box.act3 .act3-note {
+  position: absolute;
+  right: 19px;
+  line-height: 30px;
+  top: 141px;
+}
+.act-box.act4 {
+  height: 532px;
+  background: url("../image/no4.png");
+  padding-right: 160px;
+}
+.act-box.act4 .tip-wrap {
+  margin: 30px 25px 0 22px;
+}
+.act-box.act4 .act4-tip {
+  width: 293px;
+  height: 171px;
+  background: url("../image/act4-tip.png");
+}
+.act-box.act4 .act4-tip p {
+  padding: 20px 30px 50px 36px;
+  line-height: 32px;
+  color: #fff;
+}
+.act-box.act4 .act4-tip p .yellow {
+  color: #fff000;
+  font-size: 24px;
+  vertical-align: bottom;
+}
+.act-box.act4 .act4-desc {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #7d4e1f;
+}
+.act-box.act4 .act4-desc .ma {
+  padding: 0 370px 0 40px;
+}
+.act-box.act4 .act4-zhu {
+  font-size: 16px;
+  margin-top: 55px;
+}
+.act-box.act4 .act-btn {
+  margin-top: 16px;
+}
+
+.act-bottom {
+  height: 80px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+}
+.act-bottom .act-btn-green {
+  margin-top: 15px;
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  height: 55px;
+  line-height: 55px;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  background-color: #009944;
+  width: 360px;
+  border-radius: 5px;
+}

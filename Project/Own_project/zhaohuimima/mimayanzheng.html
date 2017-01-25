@@ -1,0 +1,818 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0046)http://www.ishoutou.com/member/user#fragment-1 -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=8">
+	
+<link rel="stylesheet" type="text/css" href="css/css.css">
+<link type="text/css" rel="stylesheet" href="css/jbox.css">
+<link href="css/Mbmber.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/style(1).css">
+<!-- qingfu -->
+<link type="text/css" rel="stylesheet" href="css/y_style.css"> 
+
+<!--end -->
+	<link rel="stylesheet" type="text/css" href="css/kefu.css">
+<link rel="stylesheet" type="text/css" href="css/headerandfooter.css">
+<script src="js/hm.js"></script><script language="javascript" type="text/javascript" src="js/jquery.js"></script>
+<script language="javascript" src="js/jquery.jBox.min.js" type="text/javascript"></script>
+<script language="javascript" src="js/jquery.jBoxConfig.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/ui.core.js"></script>
+<script type="text/javascript" src="js/ui.tabs.js"></script>
+<script type="text/javascript" src="js/WdatePicker.js" language="javascript"></script>
+<link href="css/WdatePicker.css" rel="stylesheet" type="text/css">
+<script language="javaScript" type="text/javascript" src="js/backtotop.js"></script>
+<script type="text/javascript" src="js/utils.js"></script>
+<link rel="stylesheet" href="css/aero.css">
+<script type="text/javascript" src="js/jquery.artDialog.source.js"></script>
+<script type="text/javascript">
+	function makevar(v){
+		var d={};
+		for(i in v){
+			var id = v[i];
+			d[id] = $("#"+id).val();
+			if(!d[id]) d[id] = $("input[name='"+id+"']:checked").val();
+		}
+		return d;
+	}
+
+	function ajaxGetData(url,targetid,data){
+			if(!url) return;
+			data = data||{};
+			var thtml = '<div class="loding"><img src="/Style/Js/008.gif"align="absmiddle" /></div>';
+			$("#"+targetid).html(thtml);
+			
+			$.ajax({
+				url: url,
+				data: data,
+				timeout: 10000,
+				cache: true,
+				type: "get",
+				dataType: "json",
+				success: function (d, s, r) {
+					if(d) $("#"+targetid).html(d.html);
+				},
+				error: '',
+				complete: ''
+			});
+		
+	}
+	var currentUrl = window.location.href.toLowerCase();
+	$(document).ready(function() {
+		$('#rotate > ul').tabs();/* 第一个TAB渐隐渐现（{ fx: { opacity: 'toggle' } }），第二个TAB是变换时间（'rotate', 2000） */
+		$('.dw_navlist li a').click(function() { // 绑定单击事件
+			var nowurl = $(this).attr('href');
+			var vid = nowurl.split("#");
+			try{
+				if(currentUrl.indexOf(vid[0]) != -1 ){
+					$('#rotate > ul').tabs('select', "#"+vid[1]); // 切换到第三个选项卡标签
+					var geturl= $('#rotate > ul li a [href="#'+vid[1]+'"]').attr("ajax_href");
+					ajaxGetData(geturl,vid[1]);
+					return false;
+				}
+			}catch(ex){};
+				return true;
+		});
+		
+		$('.ajaxdata a').click(function(){
+			var geturl = $(this).attr('ajax_href');
+			var hasget = $(this).attr('get')||0;
+			var nowurl = $(this).attr('href');
+			var vid = nowurl.split("#");
+			if(hasget!=1) ajaxGetData(geturl,vid[1]);
+			$(this).attr('get','1');
+			$('html,body').animate({scorllTop:0},1000);
+			return false;
+		})
+	});
+	//ui
+    function addBookmark(title, url) {
+        if (window.sidebar) {
+            window.sidebar.addPanel(title, url, "");
+        }
+        else if (document.all) {
+            window.external.AddFavorite(url, title);
+        }
+        else if (window.opera && window.print) {
+            return true;
+        }
+    }
+    function SetHome(obj, vrl) {
+        try {
+            obj.style.behavior = 'url(#default#homepage)'; obj.setHomePage(vrl);
+            NavClickStat(1);
+        }
+        catch (e) {
+            if (window.netscape) {
+                try {
+                    netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+                }
+                catch (e) {
+                    alert("抱歉！您的浏览器不支持直接设为首页。请在浏览器地址栏输入“about:config”并回车然后将[signed.applets.codebase_principal_support]设置为“true”，点击“加入收藏”后忽略安全提示，即可设置成功。");
+                }
+                var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+                prefs.setCharPref('browser.startup.homepage', vrl);
+            }
+        }
+    }
+        $(function() {
+            $(".dw_navlist li,.dv_r_5 li").mousemove(function() {
+                $(this).addClass("current");
+            }).mouseout(function() {
+                $(this).removeClass("current");
+            });
+        });
+</script>
+</head><body><div class="aui_state_focus" style="position: absolute; left: -9999em; top: 527px; width: auto; z-index: 1987;"><div class="aui_outer"><table class="aui_border"><tbody><tr><td class="aui_nw"></td><td class="aui_n"></td><td class="aui_ne"></td></tr><tr><td class="aui_w"></td><td class="aui_c"><div class="aui_inner"><table class="aui_dialog"><tbody><tr><td colspan="2" class="aui_header"><div class="aui_titleBar"><div class="aui_title" style="cursor: move;">消息</div><a class="aui_close" href="javascript:/*TW-artDialog*/;">×</a></div></td></tr><tr><td class="aui_icon" style="display: none;"><div class="aui_iconBg" style="background: none;"></div></td><td class="aui_main" style="width: auto; height: auto;"><div class="aui_content" style="padding: 20px 25px;"><div class="aui_loading"><span>loading..</span></div></div></td></tr><tr><td colspan="2" class="aui_footer"><div class="aui_buttons" style="display: none;"></div></td></tr></tbody></table></div></td><td class="aui_e"></td></tr><tr><td class="aui_sw"></td><td class="aui_s"></td><td class="aui_se" style="cursor: se-resize;"></td></tr></tbody></table></div></div>
+
+    
+<!-- <div class="sub_banner" style="width:100%; height:320px; background:url(/Style/Stock/img/sub_bannerr.jpg) no-repeat center;">
+</div> -->
+<title>找回密码</title>
+
+<style>
+.zixunbox {
+    background: none repeat scroll 0 0 #fff;
+    left: 50%;
+    margin-left: -116px;
+    margin-top: -256px;
+    position: fixed;
+    top: 50%;
+    z-index: 1004;
+}
+
+
+
+.zixunbox ul li {
+    border-bottom: 1px dashed #c8c8c8;
+    height: 47px;
+    line-height: 47px;
+    margin: 0 20px;
+    overflow: hidden;
+}
+.zixunbox .over_icon{
+	background-image:url("/Style/H/images/over_icon.png");
+
+    height: 21px;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    width: 20px;
+    z-index: 1003;
+}
+
+.zixunbox ul li a {
+    background-image: url("/Style/H/images/qq_icon.png");
+	background-repeat:no-repeat;
+	background-position:0px center;
+    color: #858585;
+    display: inline-block;
+    height: 47px;
+    text-indent: 20px;
+    width: 92px;
+}
+.zixunbox p {
+    background: url("/Style/H/images/dianh.png");
+	background-repeat:no-repeat;
+	background-position:40px center;
+    color: #2382ba;
+    font-size: 16px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-top: 20px;
+    text-align: center;
+}
+.zixunbox h3 {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+.zixunbox span {
+    display: block;
+    padding-bottom: 20px;
+    
+    text-align: center;
+}
+</style>
+
+<!--导航-->
+
+<style>
+.top_main span.top_l img{vertical-align:middle;}
+</style>
+
+
+<div class="top">
+	<div class="top_main">
+    	<span class="top_l"><img src="images/phone.png">客服热线：400-047-5588&nbsp;&nbsp;(工作日9:00-18:00)</span>
+        <span class="top_r">
+			<a href="http://www.ishoutou.com/help/help">帮助中心</a>
+		<a href="http://www.ishoutou.com/member/index" style="color:#ff9900;">18703101608</a>&nbsp;&nbsp; 
+				<a href="http://www.ishoutou.com/member/msg#fragment-1">消息(0)</a>
+				<a href="http://www.ishoutou.com/Member/common/actlogout">退出</a></span>
+    </div>
+</div>
+    <div class="nav">
+	<div class="nav_main">
+    	<div class="logo"><a href="http://www.ishoutou.com/"><img alt="" style="float:none;margin:0px;" src="images/20150717164251.jpg"></a> </div>
+        <div class="nav_list">
+        	<div id="topnavbar" style="display: block;">
+              <div id="topnanv">
+			  <div class="my_zh">
+        	</div>
+			
+			 <div class="defu"> <a href="http://www.ishoutou.com/index.html">首页</a> </div>
+                <div class="defu"> <a href="http://www.ishoutou.com/freestock/index" target="_blank">热销活动</a> </div>
+                <div id="anvlfteb">
+                  <div selec="bbs" class="posbox"> <a href="http://www.ishoutou.com/invest/index">我要理财</a> <i></i></div>
+                  <div class="defu"><a href="http://www.ishoutou.com/capital/index">我要融资</a> <i></i></div>
+				   <div class="defu"> <a href="http://www.ishoutou.com/Help/novice" target="_blank">新手指引</a> </div>
+                <!--   <div selec="post" class="posbox"><a href="/Help/novice">新手指引</a> <i></i></div> -->
+                  <div selec="youhui" class="posbox"><a href="http://www.ishoutou.com/aboutus/jianjie.html">关于我们</a> <i></i></div>
+                  <div id="seledbox" class="posiabox" style="display: none; left: 1px;">
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+
+/* 导航 */
+$(function(){
+	var $anvlfteb=$('#anvlfteb'),
+		$posbox=$anvlfteb.find('div.posbox'),
+		$seledbox=$("#seledbox"),
+		anvjson={
+			bbs:'<a href="/invest/index?type=search&&stock_type=1">天天盈</a>'+
+				'<a href="/invest/index?type=search&&stock_type=2">月月盈</a>'+
+				'<a href="/invest/index?type=search&&stock_type=4">打新宝</a>',
+				//'<a href="/debt/index">债权转让</a>',
+        	news:'<a href="/daystock/index">按天融资</a>'+
+				'<a href="/Monthstock/index">按月融资</a>'+
+				'<a href="/Imtrader/index">我是操盘手</a>',
+        	 post:'<a href="/Help/novice">新手指引</a>',
+			youhui:'<a href="/aboutus/jianjie.html">公司简介</a>'+
+			'<a href="/aboutus/anquan.html">安全保障</a>'+
+			'<a href="/aboutus/tdjs.html">团队介绍</a>'+
+			'<a href="/aboutus/zizhi.html">证件资质</a>'+
+			'<a href="/aboutus/licheng.html">发展历程</a>'+
+			'<a href="/aboutus/lianxi.html">联系我们</a>'+
+			'<a href="/aboutus/yingcai.html">诚聘英才</a>'+
+			'<a href="/aboutus/partner.html">合作伙伴</a>'
+		};
+		 
+
+		$posbox.mouseover(function(){
+			var i=$(this).index();
+			$(this).addClass("anvh").siblings().removeClass("anvh");
+			var selec=$(this).attr("selec");
+			if($seledbox.is(":hidden")){
+				$seledbox.show().css("left",100*i+1).html("<div>"+anvjson[selec]+"</div>")
+			}else{
+				$seledbox.stop().animate({left:100*i+1},200,function(){
+					$("#seledbox").html("<div>"+anvjson[selec]+"</div>")
+				})
+			}
+		});
+		$anvlfteb.mouseleave(function(){
+			$seledbox.hide();
+			$posbox.removeClass("anvh");
+		})
+})
+
+/*微博二维码显示效果*/
+
+$(document).ready(function() {
+ 	$(".footer .footerC .guanzhu span a").hover(function() {
+ 		$(this).children('img').show()
+ 	}, function() {
+ 		$(this).children('img').hide()
+ 	});
+
+ })
+
+</script>
+<script type="text/javascript">
+
+    var dl_num=$(".header .main dl").length;
+    for(var i=0;i<dl_num;i++){
+        var dd_num=$(".header .main dl:eq("+i+") dd").length;
+        if(dd_num<=1){
+            $(".header .main dl:eq("+i+") dd").remove();
+            $(".header .main dl:eq("+i+") dt em").remove();
+        }
+    }
+
+</script>
+
+
+<script type="text/javascript">
+    function bodyTop(){
+        $("html,body").animate({
+            scrollTop:"0px"
+        },1000);
+    }
+	$(".header .main .fr dl dd").css("float","none");
+</script>
+<script type="text/javascript">
+$(function(){
+	$(".kefu").click(function(){
+		$(".zixunbox").fadeIn("slow");
+		$(".body_box").fadeIn("slow");
+	});
+	$(".liuyan").click(function(){
+		$(".liuy_box").fadeIn("slow");
+		$(".body_box").fadeIn("slow");
+	});
+	
+	$(".over_icon").click(function(){
+		$(".zixunbox").fadeOut("slow");
+		$(".body_box").fadeOut("slow");
+		$(".liuy_box").fadeOut("slow");
+	});
+	
+	$(".over_cionn").click(function(){
+		$(".video").fadeOut("slow");
+	});
+});
+
+    $(".header .fr dl").hover(function(){
+        $(".header .fr dl dd").stop();
+        $(".header .fr dl dd").hide();
+        $(this).children("dd").fadeIn(500);
+    },function(){
+        $(this).children("dd").fadeOut(500);
+    });
+$(window).scroll(function(){
+    var topnum=$(window).scrollTop();
+    if(topnum>510){
+        $(".header").addClass("header-on");
+    }else{
+        $(".header").removeClass("header-on");
+    }
+});
+</script>
+
+
+
+<div class="float-box"></div>
+<script type="text/javascript">
+    var w_width= $(window).width();
+    $(window).resize(function(){
+        w_width= $(window).width();
+        fix_hie(w_width);
+    });
+    function fix_hie(w_wid){
+        if(w_wid<1340){
+            $("body").addClass("body-small");
+            $(".float-login").fadeOut(500);
+        }else{
+            $("body").removeClass("body-small");
+            $(".float-login").fadeIn(500);
+
+        }
+    }
+    fix_hie(w_width);
+
+    $(".float-box").click(function(){
+        if($(".float-login").css("display")=="none"){
+            $(".float-login").fadeIn(500);
+        }else{
+            $(".float-login").fadeOut(500);
+        }
+    });
+</script>
+<!--页眉end-->
+<!--中部验证开始-->
+<style>
+	.hy_yanzheng{
+		width: 1098px; 
+		height: 445px;
+		border: 1px solid #fef6f6;
+		position: relative;
+		background: #f5f6f7;
+	}
+	.hy_yanzheng>h2{
+		width: 100%;
+		height: 50px;
+		border-bottom: 1px solid #c9c9c9;
+	}
+	.hy_yanzheng>h2>span{
+		color: #757576;
+		font-size: 14px;
+		display: block;
+		width: 93px;
+		height: 49px;
+		padding-left: 37px;
+		float: left;
+		line-height: 62px;
+		border-bottom: 2px solid #ee5c35;
+		background: url(images/reset_1_03.jpg) no-repeat 10px 20px;
+	}
+	
+	.hy_regfrom{
+		width: 775px;
+		height: 300px;
+		position: absolute;
+		left: 50%;
+		margin-left: -350px;
+		top: 50%;
+		margin-top: -150px;
+		background:url(images/gai_suo_03.png) no-repeat 145px 55px;
+	}
+	.hy_regfrom>p{
+		position: absolute;
+		line-height: 40px;
+	}
+	.hy_regfrom>p label,.hy_regfrom>p input{
+		line-height: 40px;
+	}
+	.hy_regfrom>p>input{
+		height: 38px;
+		width: 272px;
+		border-radius: 3px;
+		border: 1px solid #c7c7c7;
+		
+	}
+	.hy_regfrom>p>span{
+		vertical-align: middle;
+		color: #ee5c35;
+		line-height: 40px;
+    	padding-left: 10px;
+    	display: inline-block;
+	}
+	.hy_regfrom p span img{
+		vertical-align: middle;
+		display: inline-block;
+		margin-top: -3px;
+		margin-right: 2px;
+	}
+	/*第一步*/
+	.hy_regfrom_op{
+		color: #fa6458;
+		left: 258px;
+		top: 58px;
+	}
+	.hy_regfrom_pwd{
+		top: 150px;
+		left: 190px;
+	}
+	.hy_regfrom_yan{
+		top: 189px;
+		left: 164px;
+	}
+	.hy_regfrom_queren{
+		left: 259px;
+		top: 235px;
+	}
+	.hy_regfrom_queren>button{
+		width: 130px;
+		height: 23px;
+		background: #fa6458;
+		border: 0;
+		border-top: 1px solid #fed8d5;
+		color: #fee8d9;
+		cursor: pointer;
+	}
+	.hy_regfrom_user{
+		left: 203px;
+		top: 110px;
+		color: #333;
+	}
+	.hy_regfrom_user>input{
+		height: 20px;
+		border: 0;
+		background: none;
+		color: #fa5d56;
+	}
+	/*第二步*/
+	.hy_regfrom_op2{
+		color: #fa6458;
+		left: 180px;
+		top: 58px;
+		font-size: 14px;
+	}
+	.hy_regfrom_pwd2{
+		top: 125px;
+		left: 150px;
+	}
+	.hy_regfrom_yan2{
+		top: 178px;
+		left: 163px;
+	}
+	
+	.hy_regfrom_queren2{
+		left: 219px;
+		top: 240px;
+	}
+	.hy_regfrom_queren2>button{
+		width: 150px;
+		height: 38px;
+		background: #198db5;
+		border: 0;
+		border-top: 1px solid #fed8d5;
+		color: #fff;
+		cursor: pointer;
+		border-radius: 3px;
+		border: 0;
+	}
+	.loginCode{
+		margin: 175px 0 0 363px;
+	}
+	
+	/*第三步*/
+	.hy_regfrom_op3{
+		left: 160px;
+		top: 70px;
+		font-size: 12px;
+	}
+	.hy_regfrom_queren3{
+		left: 160px;
+		top: 155px;
+	}
+	.hy_regfrom_queren3>button{
+		width: 130px;
+		height: 23px;
+		background: #fa6458;
+		border: 0;
+		border-top: 1px solid #fed8d5;
+		color: #fee8d9;
+		cursor: pointer;
+	}
+	
+	.hy_yanzheng input.borderColor{
+		border: 1px solid #59afcd;
+		box-shadow:0px 0px 2px 2px #dce8ee;
+	}
+	.yan_YZM_text2{
+		color:#ee5c35;
+	}
+	.yan_YZM_text2>img{
+		vertical-align: middle;
+		margin: -3px 2px 0 9px;
+	}
+	#hy_yanzheng2,#hy_yanzheng3{
+		display: none;
+	}
+</style>
+<div class="wrap2">
+	<!--第一步开始-->
+	<div class="hy_yanzheng" id="hy_yanzheng1">
+		<h2><span>登录密码验证</span></h2>
+		<div class="hy_regfrom">
+			<p class="hy_regfrom_op2">提示：为保障您的账号安全，请再次输入登录密码</p>
+			<p class="hy_regfrom_pwd2">
+				<label>登录密码：</label>
+				<input type="password" class="yan_Pwd2"/>
+				<span class="yan_Pwd_text2" style="visibility: hidden;"><img src='images/zhuce1.gif' />请输入登录密码！</span>
+			</p>
+			<p class="hy_regfrom_yan2">
+				<label>验证码：</label>
+				<input type="text"  class="yan_YZM2" style="width: 138px;"/>
+				<div class="loginCode" style="display: inline-block;">
+                    <img src="https://www.ishoutou.com/Member/common/verify?t=0.21877155063279707?t=0.38135361793017897" style=" width:83px; height:38px;border: 0;margin:4px 0px 0 5px;background:#f7ffec;" alt="点击换一个校验码" id="imVcode" onclick="this.src=this.src+'?t='+Math.random()" />
+                    <a href="javascript:document.getElementById('imVcode').onclick();" style="text-decoration: underline;line-height: 40px;color:#666 ;">换一张</a>
+                </div>
+				<span class="yan_YZM_text2" style="visibility: hidden;"><img src="images/zhuce1.gif"/>请输入验证码</span>
+			</p>
+			<p class="hy_regfrom_queren2">
+				<button class="hy_true2">确认</button>
+			</p>
+		</div>
+		<script>
+			$(function(){
+				var img1="images/zhuce1.gif",img2="images/zhuce2.gif",img3="images/zhuce3.gif";
+				$(".yan_Pwd2").on("focus",function(){
+					$(this).addClass("borderColor");
+					$(".yan_Pwd_text2").css("visibility","visible").html("<img src='"+img1+"' />请输入登录密码！");
+				}).on("blur",function(){
+					$(this).removeClass("borderColor");
+					var pwdVal=$(this).val();
+					hy_reg_queren(pwdVal)
+				})
+				$(".yan_YZM2").on("focus",function(){
+					$(this).addClass("borderColor");
+					$(".yan_YZM_text2").css("visibility","visible");
+				}).on("blur",function(){
+					$(this).removeClass("borderColor");
+					var yanzheng=$(this).val();
+					hy_reg_queren2(yanzheng)
+				})
+				
+				$(".hy_true2").on("click",function(){
+					var pwdVal=$(".yan_Pwd2").val(),
+						yanzheng=$(".yan_YZM2").val();
+					var yan_Pwd_text=$(".yan_Pwd_text2");
+					var yan_YZM_text=$(".yan_YZM_text2");
+						if(!hy_reg_queren(pwdVal)){
+							yan_Pwd_text.css("visibility","visible").html("<img src='"+img1+"'/>请输入验证码");
+						}else if(!hy_reg_queren2(yanzheng)){
+							yan_YZM_text.css("visibility","visible");
+						}else{
+							$("#hy_yanzheng1").css("display","none");
+							$("#hy_yanzheng2").css("display","block");
+						}
+				})
+				function hy_reg_queren(pwdVal){
+					var yan_Pwd_text=$(".yan_Pwd_text2");
+					if(pwdVal.replace(/\s+/g,"")==""){
+						yan_Pwd_text.html("<img src='"+img2+"'/>密码错误");
+						return false;
+					}else if(!(pwdVal=="123456")){
+						yan_Pwd_text.html("<img src='"+img2+"'/>密码错误");
+						return false;
+					}else{
+						yan_Pwd_text.html("<img src='"+img3+"'/>密码正确");
+						return true;
+					}
+				}
+				function hy_reg_queren2(yanzheng){
+					var yan_YZM_text=$(".yan_YZM_text2");
+					if(yanzheng.replace(/\s+/g,"")==""){
+						yan_YZM_text.html("<img src='"+img2+"'/>请输入验证码");
+						return false;
+					}else if(!(yanzheng=="123456")){
+						yan_YZM_text.html("<img src='"+img2+"'/>验证码错误");
+						return false;
+					}else{
+						yan_YZM_text.html("<img src='"+img3+"'/>验证码正确");
+						return true;
+					}
+				}
+			})
+		</script>
+	</div>
+	
+	
+	<!--第二步开始-->
+	<div class="hy_yanzheng" id="hy_yanzheng2">
+		<h2><span>设置支付密码</span></h2>
+		<div class="hy_regfrom" style="background-position: 225px 55px;width: 849px;">
+			<p class="hy_regfrom_op">请重新设置您的交易密码</p>
+			<p class="hy_regfrom_user">
+				<label>用户名：</label>
+				<input type="text" class="yan_User" value="18910528952" style="border: 0;"/>
+			</p>
+			<p class="hy_regfrom_pwd">
+				<label>交易密码：</label>
+				<input type="password" class="yan_Pwd"/>
+				<span class="yan_Pwd_text" style="visibility: hidden;">8-16个字符，建议使用字母数字和符号的组合！</span>
+			</p>
+			<p class="hy_regfrom_yan" style="top: 200px;">
+				<label>确认交易密码：</label>
+				<input type="text"  class="yan_Qpwd"/>
+				<span class="yan_Qpwd_text" style="visibility: hidden;">请再次输入交易密码！</span>
+			</p>
+			<p class="hy_regfrom_queren2" style="top: 260px;left: 260px;">
+				<button class="hy_true3">确认修改</button>
+			</p>
+		</div>
+		<script>
+			$(function(){
+				var img1="images/zhuce1.gif",img2="images/zhuce2.gif",img3="images/zhuce3.gif";
+				$(".yan_Pwd").on("focus",function(){
+					$(".yan_Pwd_text").css("visibility","visible").html("<img src='"+img1+"' />8-16个字符，建议使用字母数字和符号的组合！");
+				}).on("blur",function(){
+					var pwdVal=$(this).val();
+						hy_reg_reset(pwdVal);
+				})
+				$(".yan_Qpwd").on("focus",function(){
+					$(".yan_Qpwd_text").css("visibility","visible").html("<img src='"+img1+"' />请再次输入交易密码！");
+				}).on("blur",function(){
+					var pwdVal=$(".yan_Pwd").val(),
+						yan_Qpwd=$(this).val();
+						hy_reg_reset2(pwdVal,yan_Qpwd)
+				})
+				function hy_reg_reset(pwdVal){
+					var yan_Pwd_text=$(".yan_Pwd_text");
+						if(pwdVal.replace(/\s+/g,"")==""){
+							yan_Pwd_text.html("<img src='"+img2+"' />请输入新密码");
+							return false;
+						}else if(pwdVal.length<8 || pwdVal.length>16){
+							yan_Pwd_text.html("<img src='"+img2+"' />只能输入8-16个字符");
+							return false;
+						}else{
+							yan_Pwd_text.html("<img src='"+img3+"' />符合");
+							return true;
+						}
+				}
+				function hy_reg_reset2(pwdVal,yan_Qpwd){
+					var yan_Qpwd_text=$(".yan_Qpwd_text");
+						if(yan_Qpwd.replace(/\s+/g,"")==""){
+							yan_Qpwd_text.html("<img src='"+img2+"' />请再次输入交易密码!");
+							return false;
+						}else if(!(yan_Qpwd==pwdVal)){
+							yan_Qpwd_text.html("<img src='"+img2+"' />两次密码输入不一致!");
+							return false;
+						}else{
+							yan_Qpwd_text.html("<img src='"+img3+"' />一致");
+							return true;
+						}
+				}
+				$(".hy_true3").on("click",function(){
+					var pwdVal=$(".yan_Pwd").val(),
+						yan_Qpwd=$(".yan_Qpwd").val();
+					var yan_Pwd_text=$(".yan_Pwd_text");
+					var yan_Qpwd_text=$(".yan_Qpwd_text");
+					if(!hy_reg_reset(pwdVal)){
+						yan_Pwd_text.css("visibility","visible");
+					}else if(!hy_reg_reset2(pwdVal,yan_Qpwd)){
+						yan_Qpwd_text.css("visibility","visible");
+					}else{
+						$("#hy_yanzheng2").css("display","none");
+						$("#hy_yanzheng3").css("display","block");
+					}
+				})
+			})
+		</script>
+	</div>
+	
+	<!--第三步开始-->
+	<div class="hy_yanzheng" id="hy_yanzheng3" style="background:#f5f6f7 url(images/yaoshi_03.jpg) no-repeat top center;">
+		<div class="hy_regfrom" style="background: none;">
+			<p class="hy_regfrom_op3" style="text-align: center;left: 263px;top: 110px;line-height: 10px;">
+				系统提示：
+				<br />
+				<span style="color: #ee5c35;padding: 0;border: 0;font-size: 24px;">交易密码设置成功</span>
+			</p>
+			
+			<p class="hy_regfrom_queren2" style="left: 280px;top: 188px;">
+				<button class="hy_true4">进入我的账户</button>
+			</p>
+		</div>
+		<script>
+			$(function(){
+				$(".hy_true4").on("click",function(){
+					location.href="http://www.ishoutou.com/Member/index";
+				})
+			})
+		</script>
+	</div>
+	
+</div>
+	
+<!-- new kefu -->
+<div class="tools_bar">
+    <ul class="kfBox">
+        <li class="qqKf">
+            <a class="icon1" href="javascript:;"></a>
+            <div class="qqKf_list" style="display:none;">
+                <p><a href="tencent://Message/?Uin=2853950301&websiteName=%E5%AE%A2%E6%9C%8D1%E5%8F%B7&Menu=yes">客服1号</a></p><p><a href="tencent://Message/?Uin=2853950306&websiteName=%E5%AE%A2%E6%9C%8D2%E5%8F%B7&Menu=yes">客服2号</a></p><p><a href="tencent://Message/?Uin=2853950300&websiteName=%E5%AE%A2%E6%9C%8D3%E5%8F%B7&Menu=yes">客服3号</a></p>                <span></span>
+                <p class="last"><a target="_blank" href="http://shang.qq.com/wpa/qunwpa?idkey=0b54bf9b1e47d54b596651b0539ef7ee0a04c8f7cdcab2d03a3a1da1b1a32c7a">QQ群：239166306</a></p>            </div>
+        </li>
+        <li class="hotLine">
+            <a class="icon2" href="javascript:;"></a>
+            <div class="qqKf_list2" style="display:none;">
+                <p class="first">400-047-5588</p>                <span></span>
+                <p>每个工作日9:00-18:00</p>
+            </div>
+        </li>
+    </ul>
+</div>
+<script type="text/javascript">(function(){document.getElementById('___szfw_logo___').oncontextmenu = function(){return false;}})();</script>
+<link type="text/css" rel="stylesheet" href="css/kf.css">
+<script>
+    $(function(){
+
+        $(".kfBox .qqKf").hover(
+                function(){
+                    $(this).find(".icon1").addClass("on");
+                    $(this).find(".qqKf_list").show();
+                },
+                function(){
+                    $(this).find(".icon1").removeClass("on");
+                    $(this).find(".qqKf_list").hide();
+                }
+        );
+
+        $(".kfBox .hotLine").hover(
+                function(){
+                    $(this).find(".icon2").addClass("on");
+                    $(this).find(".qqKf_list2").show();
+                },
+                function(){
+                    $(this).find(".icon2").removeClass("on");
+                    $(this).find(".qqKf_list2").hide();
+                }
+        );
+
+    });
+</script>
+<!-- en kefu-->
+	<div class="erweima"><p><img alt="" style="float:none;margin:0px;" src="zhanghu/20150901104656.png"></p></div>
+	<div style="display: none"><!-- 百度监控代码 -->
+<script>
+            var _hmt = _hmt || [];
+            (function() {
+                var hm = document.createElement("script");
+                hm.src = "//hm.baidu.com/hm.js?9f9f881afd9153f6638fc8a471948568";
+                var s = document.getElementsByTagName("script")[0];
+                s.parentNode.insertBefore(hm, s);
+            })();
+        </script>
+<!-- CNZZ监控代码
+        <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1255512545'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1255512545%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script> -->
+<!-- DSP监控代码 --></div><div id="topcontrol" title="返回顶部" style="position: fixed; bottom: 10px; right: 125px; opacity: 0; cursor: pointer;"><img src="images/top.png" style="width:59px; height:38px"></div><div id="_my97DP" style="position: absolute; top: -1970px; left: -1970px;"><iframe style="width: 186px; height: 198px;" src="zhanghu/My97DatePicker.html" frameborder="0" border="0" scrolling="no"></iframe></div></body></html>

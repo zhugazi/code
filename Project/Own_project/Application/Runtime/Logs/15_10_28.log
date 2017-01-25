@@ -1,0 +1,6 @@
+[ 2015-10-28T11:20:44+08:00 ] / | INFO: Tag[ app_begin ] --START--
+[ 2015-10-28T11:20:44+08:00 ] / | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001005s ]
+[ 2015-10-28T11:20:44+08:00 ] / | INFO: Tag[ app_begin ] --END-- [ RunTime:0.046873s ]
+[ 2015-10-28T11:21:20+08:00 ] / | INFO: Tag[ app_begin ] --START--
+[ 2015-10-28T11:21:20+08:00 ] / | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001379s ]
+[ 2015-10-28T11:21:20+08:00 ] / | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002306s ]

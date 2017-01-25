@@ -1,0 +1,23 @@
+@import url('b.css');
+body { width:100%; }
+td {  }
+.container #b { display: none; }
+.container #a {line-height: 2em; padding-top: 0px;height: 26px;display: block;overflow: hidden;text-align:center; padding-top:1px;}
+
+.container.b #b { display: block; height: 24px; }
+.container.b #a { display: none; }
+/*城市，搜索安钮*/
+#city { }
+#city-name {font-size: 12px; font-family: '宋体';  display: inline-block; margin-left: 1%; text-align: right; vertical-align:top; *margin-right:4px; _position:relative; _top:1px;}
+#city-name .en, #city-btn { display: none; }
+/*预报*/
+#fc-s1 {line-height: 0;display: inline-block; margin-left: 0%; margin-top:2px;}
+#fc-w1 { margin-right: 1%; font-size: 12px; font-family: '宋体'; display: inline-block; text-align: center;vertical-align:top;  *margin-left:4px; _position:relative; _top:1px;  }
+#fc-temp { font-family: 'Arial';font-size: 12px; display: inline-block;text-align: center;  vertical-align:top;  *margin-left:6px; line-height: 25px; _font-family:'微软雅黑';_position:relative; _top:-1px; }
+#fc-l1{letter-spacing:-1px;margin-right: 3px; _margin-right:1px;}
+#fc-h1{letter-spacing:-1px; margin-left: 3px; _margin-left:-1px;}
+#fc-temp em{ _position:relative; _top:-1px;_margin:0 0 0 1px;}
+
+/*字幕*/
+#slider,#slider1 { height: 23px; padding: 0 5px; }
+#slider a,#slider1 a { color: #6699FF; }
