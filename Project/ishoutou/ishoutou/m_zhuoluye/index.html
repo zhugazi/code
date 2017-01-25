@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Cache-Control" content="no-cache" />
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=no;" />
+<title>手投网_最新活动</title>
+<meta name="MobileOptimized" content="320"/>
+<meta name="HandheldFriendly" content="True">
+<meta name="format-detection" content="telephone=no" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-touch-fullscreen" content="yes">
+<script type="text/javascript">
+(function (doc, win) {
+        var docEl = doc.documentElement,
+            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+        recalc = function () {
+        var clientWidth = docEl.clientWidth;
+        if (!clientWidth) return;
+        if(clientWidth>640) clientWidth=640;
+        docEl.style.fontSize = 100 * (clientWidth / 640) + 'px';
+        };
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, recalc, false);
+        doc.addEventListener('DOMContentLoaded', recalc, false);
+        })(document, window);
+</script>
+<style type="text/css">
+/* gallery */
+
+.gallery{display:block;width: 100%; margin:10px auto; position: relative;}
+.gallery li{ display: block;width:18.6%;position: absolute;left: 50%;}
+.gallery li a {width:100%;display: block;}
+.gallery li a img { max-width:100%; display: block;}
+.gallery li:nth-of-type(1){margin-left: -46%;}
+.gallery li:nth-of-type(2){margin-left: -21.2%;}
+.gallery li:nth-of-type(3){margin-left: 3%;}
+.gallery li:nth-of-type(4){margin-left:28%;}
+.dowebok { height: 200px; font-size: 14px;}
+
+/*Plugin CSS*/
+.str_wrap {
+	overflow:hidden;
+	//zoom:1;
+	width:100%;
+	font-size:12px;
+	line-height:16px;
+	position:relative;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	user-select: none;  
+	white-space:nowrap;
+}
+
+.str_wrap.str_active {
+}
+.str_move { 
+	white-space:nowrap;
+	position:absolute; 
+	top:0; 
+	left:0;
+	cursor:move;
+}
+.str_move_clone {
+	display:inline-block;
+	//display:inline;
+	//zoom:1;
+	vertical-align:top;
+	position:absolute; 
+	left:100%;
+	top:0;
+}
+.str_vertical .str_move_clone {
+	left:0;
+	top:100%;
+}
+.str_down .str_move_clone {
+	left:0;
+	bottom:100%;
+}
+.str_vertical .str_move,
+.str_down .str_move {
+	white-space:normal;
+	width:100%;
+}
+.str_static .str_move,
+.no_drag .str_move,
+.noStop .str_move{
+	cursor:inherit;
+}
+.str_wrap img {
+	max-width:none !important;	
+}
+</style>
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all"/>
+<link rel="stylesheet" href="css/sep.css" type="text/css" media="all"/>
+<link rel="stylesheet" href="css/lightGallery.css" type="text/css" media="all"/>
+<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="js/scroll.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.list_lh li:even').addClass('lieven');
+    })
+    $(function(){
+        $("div.list_lh").myScroll({
+            speed:40, //数值越大，速度越慢
+            rowHeight:30 //li的高度
+        });
+    });
+$(function(){
+    var liW=Math.round($("#auto-loop li").width());
+    $(".activity_box3_Box2").css({"height":liW / .48+"px"});
+    
+    $(".Lottery5").on("click",function(){
+        if($(this).hasClass("on")){
+            var h=$(".Lottery4").height(),scr=$(window).scrollTop();
+            $(".Lottery4").animate({'height':'0'},500);
+            $(this).removeClass("on").html("点击查看更多抽奖信息<em></em>");
+            $('html,body').animate({
+                'scrollTop':scr-h
+            },500)
+            console.log($(window).scrollTop())
+            
+        }else{
+            $(".Lottery4").animate({'height':'12.09rem'},500);
+            $(this).addClass("on").html("点击收起更多抽奖信息<em></em>");
+            
+        }
+    })
+    $(".Lottery2_box3").on("click",function(){
+        location.href='#hdshijian'
+    })  
+
+    $(".pointer").on('click',function(){
+        location.href='#zhuce';
+    })
+
+})
+</script>
+<script type="text/javascript" src="js/lightGallery.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $("#auto-loop").lightGallery({
+            loop:true,
+            auto:false,
+            pause:4000
+        });
+    });
+    
+</script>
+
+</head>
+
+<body style="background: #81cb16;overflow-x:hidden;line-height: 0.24rem;">
+<!--主体 B-->
+<div class="activity_Main" style="background: #ffe455;">
+    <div class="activity_adv">
+    	<img src="images/hdye/wap7_01_01.jpg">  	
+    </div>
+
+    <!--注册 B-->
+    <div class="location_con" id="zhuce" name="zhece">
+        <div class="reg_Main tg_reg">
+                  <div class="tg_tit1">
+                    10秒注册，体验理财快感
+                    <a href="###">已有账号？点此登录</a>
+                  </div>
+                  <ul>
+                      <li>
+                          <em>手机号：</em>
+                          <input type="text" name="name" class="inp1 phone_num" placeholder="请输入您的手机号" />
+                          <p></p>
+                      </li>
+                      <li>
+                          <em>图片验证码：</em>
+                          <input type="text" name="name" class="inp2 img_yan"/>
+                          <div style="width: 38%;display:block;float: left; height: 0.64rem;line-height: 0.64rem;padding-left: 0.07rem;box-sizing: border-box;">
+                              <img src="images/hdye/wap_zhaohui.jpg" width="73" style="vertical-align: middle;display:inline-block;float: left;margin-top: 0.07rem;margin-right: 0.12rem;"/>
+                              <a href="javascript:;" style="text-decoration: underline;width: 17px;height: 17px;display:inline-block;float: left;margin-top: 0.2rem;"><img src="images/sep/wap_zhuolu01_refresh_03.jpg" width="17" style="vertical-align: middle;display: block;"/></a>
+                          </div>
+                          <p></p>
+                      </li>
+                      <li>
+                          <em>短信验证码：</em> 
+                          <input type="text" name="name" class="inp2 phone_yan" />
+                          <a href="javascript:;" class="code getCode" id="getCode" style="color: #58a1bf;font-size: 0.22rem;width:38%;height: 0.64rem;text-align: center;display: inline-block;line-height:0.64rem;background: #e8e8e8;float: left;margin-left: 0.07rem;">获取短信验证码</a>
+                          <a style="display:none;color: #58a1bf;font-size: 0.22rem;width:38%;height:0.64rem;text-align: center;line-height: 32px;background: #e8e8e8;float: left;margin-left: 0.07rem;" hidefocus="true" class="code" id="getCodeTime" href="javascript:;"><font id="seconds">60</font>秒后重新获取</a>
+                          <div class="clr"></div>
+                          <p></p>
+                      </li>
+                      <li>
+                          <em>登录密码：</em>
+                          <input type="password" name="name" class="inp1 login_yan" placeholder="6-16个字母、数字、下划线" />
+                          <p></p>
+                      </li>
+                      <li>
+                          <em>推荐人：</em>
+                          <input type="text" name="name" class="inp1 ren_yan" placeholder="请填写推荐人（可不填）" />
+                          <p></p>
+                      </li>
+                      <li style="height: 0.22rem;"><em></em><label><span class="cheked" style="display: block;float: left; width: 12px;height: 12px;"></span>同意并接受</label><a href="http://m.ishoutou.com/member/common/agreement" style="font-size:0.2rem;color: #178cb4;float: left;line-height: 0.22rem;">《手投网注册协议》</a></li>
+                      <li style="margin: 0.37rem 0 0 0;">
+                          <a href="javascript:void(0)" class="run" id="demoBtn2" style="display: block;width: 5.25rem;height: 0.68rem;line-height:0.68rem;font-size: 0.24rem;padding-left: 2.36rem;box-sizing: border-box; margin: 0 auto; color: #fff; background: #ed8c19;border-radius: 0.05rem;">注册</a>
+                      </li>
+                  </ul>
+              </div>
+    </div>
+    <!--注册 E-->
+    <!--模块一 B-->
+    <section class="activity_box1" id="actOne" name="actOne" style="margin-top: -0.6rem;">
+        <img src="images/hdye/wap7_02_02.png"/>
+        <div class="activity_box1_box">
+        	<div class="Lottery">  			
+    			<img src="images/hdye/hd7_04_03.png" id="rotate" class="img2 rotate" style="display: block; width: 5.8rem;margin: 0 auto;" />
+				<div class="pointer" style="width:1.64rem;height:1.89rem;position:absolute;top:50%; left:50%; z-index:9;cursor:pointer;margin-left:-0.82rem;margin-top:-0.945rem;"><img src="images/hdye/wap7_18_03.png" width="100%" alt="pointer"/></div>
+    		</div>
+    		<div class="Lottery2">
+    			<h3>获奖名单：</h3>
+    			<div class="Lottery2_box1">
+    				<div class="Lottery2_box2">
+    					<ul class="oul1">
+    						<li>用户名</li>
+    						<li>中奖日期</li>
+    						<li>奖品</li>
+    					</ul>
+						<div class="dowebok" style="font-size:16px; height:190px;">
+        					<ul id="ulMoney" class="oul2">  
+                                <li>
+                                    <em>我是大帅哥</em>
+                                    <em>2016-06-16</em>
+                                    <em>iPhone 6s</em>
+                                </li>
+                                <li>
+                                    <em>我是大帅哥</em>
+                                    <em>2016-06-16</em>
+                                    <em>iPhone 6s</em>
+                                </li>
+                                <li>
+                                    <em>我是大帅哥</em>
+                                    <em>2016-06-16</em>
+                                    <em>iPhone 6s</em>
+                                </li>
+                                <li>
+                                    <em>我是大帅哥</em>
+                                    <em>2016-06-16</em>
+                                    <em>iPhone 6s</em>
+                                </li>
+                                <li>
+                                    <em>我是大帅哥</em>
+                                    <em>2016-06-16</em>
+                                    <em>iPhone 6s</em>
+                                </li>
+                                <li>
+                                    <em>我是大帅哥</em>
+                                    <em>2016-06-16</em>
+                                    <em>定制银条10克</em>
+                                </li>
+                                <li>
+                                    <em>我是大帅哥</em>
+                                    <em>2016-06-16</em>
+                                    <em>定制银条10克</em>
+                                </li>
+                                <li>
+                                    <em>我是大帅哥</em>
+                                    <em>2016-06-16</em>
+                                    <em>定制银条10克</em>
+                                </li>
+                                <li>
+                                    <em>我是大帅哥</em>
+                                    <em>2016-06-16</em>
+                                    <em>定制银条10克</em>
+                                </li>
+                                <li>
+                                    <em>我是大帅哥</em>
+                                    <em>2016-06-16</em>
+                                    <em>定制银条10克</em>
+                                </li>
+                                <li>
+                                    <em>我是大帅哥</em>
+                                    <em>2016-06-16</em>
+                                    <em>定制银条10克</em>
+                                </li>
+                                <li>
+                                    <em>我是大帅哥</em>
+                                    <em>2016-06-16</em>
+                                    <em>定制银条10克</em>
+                                </li>
+                                <li>
+                                    <em>我是大帅哥</em>
+                                    <em>2016-06-16</em>
+                                    <em>定制银条10克</em>
+                                </li>
+                                <li>
+                                    <em>我是大帅哥</em>
+                                    <em>2016-06-16</em>
+                                    <em>定制银条10克</em>
+                                </li>  						
+        					</ul>
+						</div>
+    				</div>
+                    <div class="Lottery2_box3">
+                        我要获取更多抽奖机会
+                    </div>
+    			</div>
+    			<h3 style="margin-top: 0rem;padding-top: 0.46rem;" id="hdshijian" name='hdshijian'>活动时间：</h3>
+                <p class="op2">2016年7月1日10点—2016年7月31日24点</p>
+                <h3 style="margin-top: 0.46rem;">抽奖规则：</h3>
+                <div class="actOne_box3">
+                    <p><em>1、完成认证抽奖：</em>同时完成实名认证和手机认证，可抽奖3次。</p>
+                    <p><em>2、邀请好友抽奖：</em>成功邀请一位好友，并且好友完成实名认证和手机认证，邀请人可抽奖1次，每天最高5次。</p>
+                    <p><em>3、待收金额抽奖：</em>待收金额≥1万，每天抽奖1次；待收金额≥3万，每天抽奖2次；待收金额≥5万，每天抽奖3次。</p>
+                    <p><em>4、投标抽奖：</em>每投标1万，即可抽奖1次， 每天最高10次。</p>
+                    <p class="line"></p>
+                    <p style="margin-top: 0.24rem; font-size: 0.22rem;color: #a1a1a1;line-height: 0.42rem;"><em style="color: #e42b1a;">注：</em>除完成认证的3次抽奖外，其他抽奖次数不累计，每天24点清零。第二天0点重新计算抽奖次数。</p>
+                    <p>例：用户完成手机认证和实名认证，当天成功投标3万元，则最高可以获得8次抽奖次数（完成认证抽奖3次；待收金额≥3万抽奖2次；投标金额3万抽奖3次）<img src="images/hdye/wap7_05_14.png" /></p>
+                </div>
+    			
+    		</div>
+    		
+    		<div class="Lottery4" style="height: 0;overflow: hidden;">
+                <h3 style="margin-top: 0.46rem;">奖品设置</h3>
+                <div class="actOne_box4">
+                    <ul>
+                        <li>
+                            <span>1等奖</span>
+                            <span>iPhone6s PluS 64G</span>
+                            <span>3台</span>
+                        </li>
+                        <li>
+                            <span>2等奖</span>
+                            <span>金条10克</span>
+                            <span>5根</span>
+                        </li>
+                        <li>
+                            <span>3等奖</span>
+                            <span>定制银条10克</span>
+                            <span>20根</span>
+                        </li>
+                        <li>
+                            <span>4等奖</span>
+                            <span>100元现金</span>
+                            <span>50份</span>
+                        </li>
+                        <li>
+                            <span>5等奖</span>
+                            <span>50元现金</span>
+                            <span>200份</span>
+                        </li>
+                        <li>
+                            <span>6等奖</span>
+                            <span>10元现金</span>
+                            <span>500份</span>
+                        </li>
+                        <li>
+                            <span>7等奖</span>
+                            <span>5元现金</span>
+                            <span>1000份</span>
+                        </li>
+                        <li>
+                            <span>8等奖</span>
+                            <span>2元现金</span>
+                            <span>1万份</span>
+                        </li>
+                        <li>
+                            <span>9等奖</span>
+                            <span>1元现金</span>
+                            <span>2万份</span>
+                        </li>
+
+                    </ul>
+                </div>
+                <h3 style="margin-top: 0.46rem;">奖品发放：</h3>
+                <div class="actOne_box5">
+                    <p><em>现金类奖品：</em>自抽奖系统后台导出中奖客户名单后，<span>第二个工作日</span>发放奖励到客户在手投网的账户内（如遇节假日则顺延至第一个工作日）。</p>
+                    <p><em>实物类奖品：</em>自抽奖系统后台导出中奖客户名单后，由手投网客服与中奖客户打电话获取收货地址后发放奖品。</p>
+                </div>
+            </div>
+    		<div class="Lottery5">
+                <em></em>
+                点击查看更多抽奖信息
+            </div>
+        </div>
+    </section>
+    <!--模块一 E-->
+    
+	<!--模块一 B-->
+    <section class="activity_box2" id="actTwo" name="actTwo">
+        <img src="images/hdye/wap7_08_02.png" />        
+        <div class="actTwo_box">           
+            <p><em>活动时间：</em></p>
+            <p style="margin-bottom: 0.3rem;padding-right: 0.2rem;">2016年7月18日—2016年7月24日（周一到周日）</p>
+            <p style="margin-bottom: 0.3rem;"><em>活动简介：</em>周年庆壕气冲天，感恩大回馈，一岁生日当周你投标我发钱！<span>每天只要投1万元（含）以上就额外奖励您18元现金，连续7天。</span>也就是说如果您这7天内每天的投标金额都≥1万元，那么7天就可获得18*7=126元奖励。</p>
+            <p><em>奖励发放：</em>统计后第二个工作日发放（如遇节假日则顺延至第一个工作日）。</p>
+            <p class="line"></p>
+            <a href="#zhuce" class="oa1">我要投标</a>
+        </div>
+    </section>
+    <!--模块一 E-->
+    
+    <!--模块一 B-->
+    <section class="activity_box3" id="actThree" name="actThree">
+        <img src="images/hdye/wap7_09_04.png" />
+        <div class="actThree_box">
+            <h3>邀请好友，双赢双利。致富路上，你我携手同行！</h3>
+            <p><em>1、首次奖：</em>好友首次投标，立即奖励您现金！</p>
+            <table cellspacing="0" cellpadding="0" border="1" bordercolor='#a0a0a0'>
+                <tr>
+                    <td>&nbsp;投标金额（元）</td>
+                    <td>&nbsp;奖励金额（元）</td>
+                </tr>
+                <tr>
+                    <td>1000</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>10000</td>
+                    <td>50</td>
+                </tr>
+                <tr>
+                    <td>20000</td>
+                    <td>200</td>
+                </tr>
+            </table>
+            <p style="line-height: 0.4rem;padding-bottom: 0;"><em>2、天天奖：</em>只要好友账户有待收金额，您就天天有奖励，上不封顶！</p>
+            <p style="font-size: 0.22rem;color: #e70101;line-height: 0.4rem;padding-bottom: 0;padding-top: 0;">奖励金额 = 好友当天的待收本金 * 您的奖励系数 / 365</p>
+            <table cellspacing="0" cellpadding="0" border="1" bordercolor='#a0a0a0' style="margin-bottom: 0.38rem;margin-top: 0.2rem;">
+                <tr>
+                    <td>&nbsp;好友待收本金（元）</td>
+                    <td>&nbsp;您的奖励系数（元）</td>
+                </tr>
+                <tr>
+                    <td>小于5万</td>
+                    <td>0.5%</td>
+                </tr>
+                <tr>
+                    <td>5万-50万</td>
+                    <td>0.8%</td>
+                </tr>
+                <tr>
+                    <td>50万及以上</td>
+                    <td>1.0%</td>
+                </tr>
+            </table>
+            <a href="http://www.ishoutou.com/Help/yaoqing" class="oa2">了解详情>></a>
+            <p class="line" style="height: 0.4rem;width: 5.25rem;border-bottom: 1px dashed #dbdbdb;margin-left: 0.38rem;clear: both;padding: 0;"></p>
+            <a href="#zhuce" class="oa1">马上邀请好友</a>
+        </div>
+    </section>
+    <!--模块一 E-->
+    
+    <!--模块一 B-->
+    <section class="activity_box4" id="actFour" name="actFour">
+        <img src="images/hdye/wap7_10_08.png" />
+        <div class="actFour_box">
+            <p><em>1）微信注册红包：</em>关注手投网官方微信，通过订阅号进行注册既有机会领取<span>百元红包</span></p>
+            <p style="margin-bottom: 0.33rem;"><em>2）微信投标奖励：</em>首次使用微信进行投标，奖励投标金额的<span>2‰</span></p>
+            <p style="margin-bottom: 0.33rem;line-height: 0.42rem;font-size: 0.22rem;color: #a1a1a1;"><em style="color: #e65700;">注：</em>已获微信首次投标奖励的用户不可再次获得此奖励；约标不参与微信投标奖励活动。</p>
+            <p><em>奖励发放：</em>微信注册红包系统立即自动发放；微信投标奖励第二个工作日发放（如遇节假日则顺延）</p>
+            <img src="images/hdye/wap7_11_12.png" />
+            <p>扫一扫，注册有惊喜</p>
+        </div>
+    </section>
+    <!--模块一 E-->
+    
+</div>
+<!--主体 E-->
+
+<!--底栏 B-->
+<div class="zhe_fixd">
+   <div class="zhe_fixd_box01"></div>
+   <a href="#zhuce">马上注册抽大奖</a>
+</div>
+
+
+<!--底栏 E-->
+
+<script src="../js/jquery.liMarquee.js"></script>
+<script src="js/dialog.js"></script>
+<script type="text/javascript" src="js/awardRotate.js"></script>	
+<script type="text/javascript">
+
+var win_height = 0;
+var prizeNum = 0;
+var prizeArr = [0,36,72,108,144,180,216,252,288,324];
+
+var resultId = '';
+var resultMsg = '';
+
+var bRotate = false;
+
+$(function (){	
+
+	$('.pointer').click(function (){
+
+		if(bRotate)return;
+		
+		$.ajax({
+			url: "../bonus1.php",
+			type: "POST",
+			dataType: "json",
+			async: true,
+			success: function(obj) {
+				switch (obj.stat) {
+					case '-1':
+						on_modifyword_click();
+						window.islotting = false;
+						break;
+					case '-2':
+						alert(obj.msg);
+						window.islotting = false;
+						break;
+					case '5':
+						alert(obj.desc);
+						window.islotting = false;
+						break;
+					case '0':
+						resultId = obj.pId;
+						resultMsg = obj.msg;
+						rotateFn(resultId, prizeArr[resultId-1], resultMsg);
+						break;
+					default:
+						alert('网络错误,请稍后再抽奖!');
+						window.islotting = false;
+						break;
+				}
+			},error: function(XMLHttpRequest, textStatus, errorThrown) {
+					var x = 1;
+			}
+		});
+
+	});
+	
+	checkLogin();
+	
+	lotterylist();
+	
+	
+});
+
+function rotateFn(awards, angles, txt){
+	bRotate = !bRotate;
+	$('.rotate').stopRotate();
+	$('.rotate').rotate({
+			angle:0,
+			animateTo:angles+1800,
+			duration:8000,
+			callback:function (){
+				msgBox(txt);
+				bRotate = !bRotate;
+				checkLogin();
+		}
+	})
+};
+
+//关闭弹出内容
+function closeBox(){
+	$("#resultBox").hide();
+	$(".share_box").hide();
+	$(".nochance_box").hide();
+	$(".pop_layer").hide();
+}
+
+function msgBox(content){
+	dialog({
+			type: 'alert',
+			okText: '确定',
+			message: content,
+			okCallback: function() {}
+		});
+}
+
+	function logBox(){
+		var _username = $("#login-user").val();
+				var _userphone = $("#login-phone").val();
+				var _usercode = $("#login-code").val();
+				if(_username==""||_userphone==""||_usercode==""){
+					alert("请检查输入内容不能为空!");
+					return false;
+				}
+				
+				var l = $("#login-phone").val().length;
+				
+				
+				
+				var _obj = this;
+				$.ajax({
+					url: '../user.php?action=login_m',
+					dataType: 'json',
+					cache: false,
+					data : {username:_username,userphone:_userphone,usercode:_usercode},
+					type: 'POST',
+					success: function (obj) {
+						switch(obj.stat){
+							case "-1":
+								alert("账户名或者密码错误!");
+								break;
+							case "-3":
+								alert("验证码错误!");
+								break;
+							case "11":
+								alert("尊敬的用户，请通过三项认证后再进行抽奖!");
+								break;
+							case "0":
+								alert("登录成功!");
+								$("#lottery_id_info").html(obj.user+' ('+obj.count+'次)<br/><a class="a3" href="../winprize1.php">我的礼品</a>&nbsp;<a class="a3" href="../user.php?action=logout" >退出</a>');
+								closeTBt();
+								break;
+						}						
+					},
+					error: function(XMLHttpRequest, textStatus, errorThrown) {
+						var x = 1;
+					}
+				})
+	}
+	
+function on_modifyword_click()
+{
+
+    createTBt();                  
+    var html_body = '';
+    html_body += '<div style="position:relative; width:100%;background:rgb(100,86,86);height:70px;-webkit-border-radius:5px 5px 0px 0px;border-bottom:0px;">';
+    html_body += '<div style="position:relative;float:left;color:white;font-size:18pt;height:70px;line-height:70px;left:6%;">登录网站</div>';
+    html_body += '<div  onclick="closeTBt()" style="position:relative;float:right;height:70px;line-height:70px;width:70px;color:white;font-size:40pt;">×</div></div>';
+
+    html_body += '<div style="width:90%;position:relative;top:20px;left:5%;height:500px;">';
+
+    html_body += '<div style="width:100%;-webkit-border-radius: 7px;background-color:#e3e3e3; padding-right:10px;">';
+    
+    html_body += '<input type="text"  id="login-user"  placeholder="手投网用户名" style="text-align:left;background: rgba(227, 227, 227,1);border:none;margin-top:10px;height:65px;line-height:65px;font-size:18pt;padding-left:10px;width:100%;-webkit-border-radius: 7px;"/></div>';
+	
+	html_body += '<br/><div style="width:100%;-webkit-border-radius: 7px;background-color:#e3e3e3; padding-right:10px;">';
+    
+    html_body += '<input type="password"  id="login-phone"  placeholder="手投网密码" style="text-align:left;background: rgba(227, 227, 227,1);border:none;margin-top:10px;height:65px;line-height:65px;font-size:18pt;padding-left:10px;width:100%;-webkit-border-radius: 7px;"/></div>';
+
+    html_body += '<br/><div onclick="logBox()" style="position:relative;width:89%;left:5%;color:white;font-size:20pt;font-weight:bold;height:70px;line-height:70px;text-align:center;background-color:rgb(255,102,0);-webkit-border-radius:7px 7px 10px 10px;">';
+    html_body += '登录系统</div>';
+   
+    
+    document.getElementById('wind').innerHTML = html_body;
+
+}
+
+function createTBt()
+{
+    closeTBt();                  
+    var div = document.createElement('div');
+    div.style.position = 'absolute';
+    div.style.zIndex = '90002';
+    div.style.top = '0px';
+    div.style.backgroundColor = 'white';
+    div.style.width = '100%';
+    div.style.left = '0px';              
+    div.style.minHeight = (win_height - 70) + 'px';
+    div.style.webkitAnimation = 'wind_down 0.3s 0s 1 linear both';
+    div.id = 'wind';
+    div.style.webkitBorderRadius = "10px 10px 0px 0px";
+    document.body.appendChild(div);
+}	
+
+function closeTBt()
+{
+    var TBwind = document.getElementById("wind");
+	
+    if(TBwind != null)
+    {
+        document.body.removeChild(TBwind);		
+    }
+}
+
+	//中奖列表
+	function lotterylist(){
+    	$.ajax({
+            url: '../ajax.php?action=lotterylist',
+            dataType: 'json',
+            cache: false,
+            type: 'POST',
+            success: function (obj) {     
+                    var sAwardEle = "";
+                	$.each(obj, function(i, award){
+						//sAwardEle += '<li><span class="win_user">'+award.user+'</span><span class="win_tel">'+award.phone+'</span></li></li>';
+						sAwardEle += '<li style="height:22px; line-height:22px;"><em class="em1">'+award.user+'</em><em class="em1">'+award.date+'</em><em class="em1">'+award.prize+'</em></li>';
+         				});
+					$("#ulMoney").html(sAwardEle);
+					
+					$('.dowebok').liMarquee({
+						direction: 'up',
+						scrollamount: 25
+					})
+					
+					
+			},
+			error: function(XMLHttpRequest, textStatus, errorThrown) {
+                    var x = 1;
+            }
+        }) 
+    }
+	
+		function checkLogin(){
+				$.ajax({
+					url: '../user.php?action=checkLogin',
+					dataType: 'json',
+					cache: false,
+					type: 'POST',
+					success: function (obj) {
+						switch(obj.stat){
+							case "-1":								
+								break;
+							case "0":
+								$("#lottery_id_info").html(obj.user+' ('+obj.count+'次)<br/><a class="a3" href="../winprize1.php">我的礼品</a>&nbsp;<a class="a3" href="../user.php?action=logout" >退出</a>');
+								break;
+						}						
+					},
+					error: function(XMLHttpRequest, textStatus, errorThrown) {
+						var x = 1;
+					}
+				})		
+	}
+	
+</script>
+<!--底栏 B-->
+        <div class="bar_fixd">
+            <ul class="bar_con">
+                <li class="icon1 on"><a href="http://choujiang.ishoutou.com/m"></a></li>
+                <li class="icon2"><a href="http://www.ishoutou.com/invest"></a></li>
+                <li class="icon3"><a href="http://www.ishoutou.com/"></a></li>
+                <li class="icon4"><a href="http://www.ishoutou.com/member"></a></li>
+                <li id="more" class="icon5"><a href="#"></a></li>
+            </ul>
+        </div>
+        <!--底栏 E-->
+        <!--更多 B-->
+        <script type="text/javascript" src="js/common.js"></script>
+        <ul class="more_box" style="display:none;">
+            <li><a href="http://www.ishoutou.com/Help/videos">i主播</a></li>
+            <li><a href="http://www.ishoutou.com/Help/novice">了解手投</a></li>
+            <li><a href="http://www.ishoutou.com/Help/novice">联系客服</a></li>
+            <li><a href="http://www.ishoutou.com/Help/help">帮助中心</a></li>
+        </ul>
+<!--更多 E-->
+</body>
+</html>
