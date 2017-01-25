@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ng-app="anglar">
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script src="js/angular.js"></script>
+		<script src="js/anglar.js"></script>
+	</head>
+	<body>
+		<div ng-controller="ajaxdemo">
+			<ul ng-repeat="user in users">
+				<li>
+					{{user.name}}
+				</li>
+			</ul>
+		</div>
+		
+	</body>
+</html>

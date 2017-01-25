@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+		table, th , td {
+		  border: 1px solid grey;
+		  border-collapse: collapse;
+		  padding: 5px;
+		}
+		table tr:nth-child(odd) {
+		  background-color: #f1f1f1;
+		}
+		table tr:nth-child(even) {
+		  background-color: #ffffff;
+		}
+		</style>
+
+	</head>
+	<body>
+		
+		
+		<div ng-app="myapp" ng-controller="Myfor">
+			<form novalidate>
+				First Name:<br>
+				<input type="text" ng-model="user.firstName"><br>
+			    Last Name:<br>
+			    <input type="text" ng-model="user.lastName">
+			    <br><br>
+			    <button ng-click="reset()">RESET</button>
+			</form>
+			<p>form = {{user }}</p>
+  			<p>master = {{master}}</p>
+		</div>
+		
+		
+		<script src="http://apps.bdimg.com/libs/angular.js/1.3.9/angular.min.js"></script>
+		<script src="controler/mymo.js"></script>
+		<script src="controler/mycontr.js"></script>
+		
+	</body>
+</html>

@@ -1,0 +1,40 @@
+<!doctype html>
+<html ng-app="HelloAngular">
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <div ng-controller="helloNgCtrl">
+            {{greeting.text}},Angular
+        </div>
+    </body>
+    <script src="js/angular-1.3.0.js"></script>
+    <!--<script src="NgModule1.js"></script>-->
+    <script>
+
+        /*此时的helloNgCtrl为全局的控制器，这样写的时候，ng-app后不可以赋值*/
+        /*function helloNgCtrl($scope){
+            $scope.greeting={
+                text:"qian qian"
+            }
+        }*/
+
+        /*先定义一个局部模型，helloModule,
+        * 局部模型的有一个名为helloNgCtrl的控制器。并为控制器中的￥scope赋值*/
+    	/*var helloModule=angular.module("HelloAngular",[]);
+        helloModule.controller("helloNgCtrl",["$scope",function($scope){
+            $scope.greeting={
+                text:"qianqian"
+            }
+        }])*/
+
+
+
+        /*var helloModule=angular.module("HelloAngular",[]);
+        helloModule.controller("helloNgCtrl",["$scope",function($scope){
+            $scope.greeting={
+                text:"qian qian "
+            }
+        }])*/
+    </script>
+</html>
