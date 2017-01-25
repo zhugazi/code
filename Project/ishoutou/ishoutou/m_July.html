@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Cache-Control" content="no-cache" />
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=no;" />
+
+<title>手投网_最新活动</title>
+<meta name="MobileOptimized" content="320"/>
+<meta name="HandheldFriendly" content="True">
+<meta name="format-detection" content="telephone=no" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-touch-fullscreen" content="yes">
+<link rel="stylesheet" href="Style/Touch/css/style.css" type="text/css" media="all"/>
+<link rel="stylesheet" href="Style/Touch/css/sep.css" type="text/css" media="all"/>
+<link rel="stylesheet" href="Style/Touch/css/lightGallery.css" type="text/css" media="all"/>
+<script type="text/javascript" src="Style/Touch/js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="Style/Touch/js/scroll.js"></script>
+<script type="text/javascript">
+(function (doc, win) {
+        var docEl = doc.documentElement,
+            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+        recalc = function () {
+        var clientWidth = docEl.clientWidth;
+        if (!clientWidth) return;
+        if(clientWidth>640) clientWidth=640;
+        docEl.style.fontSize = 100 * (clientWidth / 640) + 'px';
+        };
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, recalc, false);
+        doc.addEventListener('DOMContentLoaded', recalc, false);
+        })(document, window);
+</script>
+<style type="text/css">
+/* gallery */
+body{line-height: 0.24rem;}
+#lightGallery-action a,#lightGallery-close,#lightGallery-Gallery .thumb_cont .thumb_info .close{line-height: 20px;}
+.gallery{display:block;width: 100%; margin:10px auto; position: relative;}
+.gallery li{ display: block;width:1.3rem;float: left;margin-left: 0.35rem;}
+.gallery li a {width:100%;display: block;}
+.gallery li a img { max-width:100%; display: block;}
+.gallery li:nth-of-type(2){margin-left: 0.16rem;}
+.gallery li:nth-of-type(3){margin-left: 0.16rem;}
+.gallery li:nth-of-type(4){margin-left: 0.16rem;}
+</style>
+
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.list_lh li:even').addClass('lieven');
+    })
+    $(function(){
+        $("div.list_lh").myScroll({
+            speed:40, //数值越大，速度越慢
+            rowHeight:30 //li的高度
+        });
+    });
+$(function(){
+	var liW=Math.round($("#auto-loop li").width());
+	$(".activity_box3_Box2").css({"height":liW / .48+"px"});
+	
+    $(window).on('load',function(){
+        $('html,body').animate({
+            'scrollTop':'0'
+        },0)
+    })
+    
+
+	$(".activity_box1>p.op3").on("click",function(){
+		if($(this).hasClass("on")){
+            var h=$(".togtb").height(),scr=$(window).scrollTop();
+			$(".togtb").animate({'height':'0'},500);
+			$(this).removeClass("on").html("点击查看更多抽奖信息<em></em>");
+            $('html,body').animate({
+                'scrollTop':scr-h
+            },500)
+            console.log($(window).scrollTop())
+			
+		}else{
+			$(".togtb").animate({'height':'12.09rem'},500);
+			$(this).addClass("on").html("点击收起更多抽奖信息<em></em>");
+            
+		}
+	})
+	$(".actOne_box2>a").on("click",function(){
+        var h=($('html,body').height())*0.29;
+		$(".Lottery4").show();
+		$(".Lottery5").addClass("on").html("点击收起更多抽奖信息<em></em>");
+        $('html,body').animate({
+            'scrollTop':h
+        },300)
+	})	
+	
+})
+</script>
+<script type="text/javascript" src="Style/Touch/js/lightGallery.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $("#auto-loop").lightGallery({
+            loop:true,
+            auto:false,
+            pause:4000
+        });
+    });
+    
+</script>
+
+</head>
+
+<body style="background: #81cb16;overflow-x:hidden; ">
+<!--主体 B-->
+<div class="activity_Main">
+    <div class="activity_adv">
+    	<img src="Style/Touch/images/hdye/wap7_01_01.jpg">  	
+    </div>
+    <!--模块一 B-->
+    <section class="activity_box1" id="actOne" name="actOne">
+        <img src="Style/Touch/images/hdye/wap7_02_02.png" />
+        <p class="op1">请先<a>登录</a>再抽奖！<br/>登录后可查看您的抽奖次数</p>
+        <div class="actOne_box1">
+            <img src="Style/Touch/images/hdye/wap7_03_02.jpg"/>
+        </div>
+        <h3>获奖名单：</h3>
+        <div class="actOne_box2">
+            <p>
+                <em>用户名</em>
+                <em>中奖日期</em>
+                <em>奖品</em>
+            </p>
+            <ul class="oul1">
+                <li>
+                    <span>我是大帅哥</span>
+                    <span>2016-06-16</span>
+                    <span>iPhone 6s</span>
+                </li>
+                <li>
+                    <span>我是大帅哥</span>
+                    <span>2016-06-16</span>
+                    <span>iPhone 6s</span>
+                </li>
+                <li>
+                    <span>我是大帅哥</span>
+                    <span>2016-06-16</span>
+                    <span>iPhone 6s</span>
+                </li>
+                <li>
+                    <span>我是大帅哥</span>
+                    <span>2016-06-16</span>
+                    <span>iPhone 6s</span>
+                </li>
+                <li>
+                    <span>我是大帅哥</span>
+                    <span>2016-06-16</span>
+                    <span>iPhone 6s</span>
+                </li>
+                <li>
+                    <span>我是大帅哥</span>
+                    <span>2016-06-16</span>
+                    <span>定制银条10克</span>
+                </li>
+                <li>
+                    <span>我是大帅哥</span>
+                    <span>2016-06-16</span>
+                    <span>定制银条10克</span>
+                </li>
+                <li>
+                    <span>我是大帅哥</span>
+                    <span>2016-06-16</span>
+                    <span>定制银条10克</span>
+                </li>
+                <li>
+                    <span>我是大帅哥</span>
+                    <span>2016-06-16</span>
+                    <span>定制银条10克</span>
+                </li>
+                <li>
+                    <span>我是大帅哥</span>
+                    <span>2016-06-16</span>
+                    <span>定制银条10克</span>
+                </li>
+                <li>
+                    <span>我是大帅哥</span>
+                    <span>2016-06-16</span>
+                    <span>定制银条10克</span>
+                </li>
+                <li>
+                    <span>我是大帅哥</span>
+                    <span>2016-06-16</span>
+                    <span>定制银条10克</span>
+                </li>
+                <li>
+                    <span>我是大帅哥</span>
+                    <span>2016-06-16</span>
+                    <span>定制银条10克</span>
+                </li>
+                <li>
+                    <span>我是大帅哥</span>
+                    <span>2016-06-16</span>
+                    <span>定制银条10克</span>
+                </li>
+            </ul>
+            <a>我要获取更多抽奖机会</a>
+        </div>
+        <h3 style="margin-top: 0rem;padding-top: 0.46rem;" id="stop" name='stop'>活动时间：</h3>
+        <p class="op2">2016年7月1日10点—2016年7月31日24点</p>
+        <h3 style="margin-top: 0.46rem;">抽奖规则：</h3>
+        <div class="actOne_box3">
+            <p><em>1、完成认证抽奖：</em>同时完成实名认证和手机认证，可抽奖3次。</p>
+            <p><em>2、邀请好友抽奖：</em>成功邀请一位好友，并且好友完成实名认证和手机认证，邀请人可抽奖1次，每天最高5次。</p>
+            <p><em>3、待收金额抽奖：</em>待收金额≥1万，每天抽奖1次；待收金额≥3万，每天抽奖2次；待收金额≥5万，每天抽奖3次。</p>
+            <p><em>4、投标抽奖：</em>每投标1万，即可抽奖1次， 每天最高10次。</p>
+            <p class="line"></p>
+            <p style="margin-top: 0.24rem; font-size: 0.22rem;color: #a1a1a1;line-height: 0.42rem;"><em style="color: #e42b1a;">注：</em>除完成认证的3次抽奖外，其他抽奖次数不累计，每天24点清零。第二天0点重新计算抽奖次数。</p>
+            <p>例：用户完成手机认证和实名认证，当天成功投标3万元，则最高可以获得8次抽奖次数（完成认证抽奖3次；待收金额≥3万抽奖2次；投标金额3万抽奖3次）<img src="Style/Touch/images/hdye/wap7_05_14.png" /></p>
+        </div>
+        <div class="togtb" style="height: 0;overflow: hidden;">
+            <h3 style="margin-top: 0.46rem;">奖品设置</h3>
+            <div class="actOne_box4">
+                <ul>
+                    <li>
+                        <span>1等奖</span>
+                        <span>iPhone6s PluS 64G</span>
+                        <span>3台</span>
+                    </li>
+                    <li>
+                        <span>2等奖</span>
+                        <span>金条10克</span>
+                        <span>5根</span>
+                    </li>
+                    <li>
+                        <span>3等奖</span>
+                        <span>定制银条10克</span>
+                        <span>20根</span>
+                    </li>
+                    <li>
+                        <span>4等奖</span>
+                        <span>100元现金</span>
+                        <span>50份</span>
+                    </li>
+                    <li>
+                        <span>5等奖</span>
+                        <span>50元现金</span>
+                        <span>200份</span>
+                    </li>
+                    <li>
+                        <span>6等奖</span>
+                        <span>10元现金</span>
+                        <span>500份</span>
+                    </li>
+                    <li>
+                        <span>7等奖</span>
+                        <span>5元现金</span>
+                        <span>1000份</span>
+                    </li>
+                    <li>
+                        <span>8等奖</span>
+                        <span>2元现金</span>
+                        <span>1万份</span>
+                    </li>
+                    <li>
+                        <span>9等奖</span>
+                        <span>1元现金</span>
+                        <span>2万份</span>
+                    </li>
+
+                </ul>
+            </div>
+            <h3 style="margin-top: 0.46rem;">奖品发放：</h3>
+            <div class="actOne_box5">
+                <p><em>现金类奖品：</em>自抽奖系统后台导出中奖客户名单后，<span>第二个工作日</span>发放奖励到客户在手投网的账户内（如遇节假日则顺延至第一个工作日）。</p>
+                <p><em>实物类奖品：</em>自抽奖系统后台导出中奖客户名单后，由手投网客服与中奖客户打电话获取收货地址后发放奖品。</p>
+            </div>
+        </div>
+        <p class="op3">点击查看更多抽奖信息<em></em></p>
+    </section>
+    <!--模块一 E-->
+    <!-- <div class="bgpian"></div> -->
+	<!--模块一 B-->
+    <section class="activity_box2" id="actTwo" name="actTwo">
+        <img src="Style/Touch/images/hdye/wap7_08_02.png" />        
+        <div class="actTwo_box">           
+            <p><em>活动时间：</em></p>
+            <p style="margin-bottom: 0.3rem;padding-right: 0.2rem;">2016年7月18日—2016年7月24日（周一到周日）</p>
+            <p style="margin-bottom: 0.3rem;"><em>活动简介：</em>周年庆壕气冲天，感恩大回馈，一岁生日当周你投标我发钱！<span>每天只要投1万元（含）以上就额外奖励您18元现金，连续7天。</span>也就是说如果您这7天内每天的投标金额都≥1万元，那么7天就可获得18*7=126元奖励。</p>
+            <p><em>奖励发放：</em>统计后第二个工作日发放（如遇节假日则顺延至第一个工作日）。</p>
+            <p class="line"></p>
+            <a href="http://www.ishoutou.com/invest/index" class="oa1">我要投标</a>
+        </div>
+        
+    </section>
+    <!--模块一 E-->
+    <!-- <div class="bgpian"></div> -->
+    <!--模块一 B-->
+    <section class="activity_box3" id="actThree" name="actThree">
+        <img src="Style/Touch/images/hdye/wap7_09_04.png" />
+        <div class="actThree_box">
+            <h3>邀请好友，双赢双利。致富路上，你我携手同行！</h3>
+            <p><em>1、首次奖：</em>好友首次投标，立即奖励您现金！</p>
+            <table cellspacing="0" cellpadding="0" border="1" bordercolor='#a0a0a0'>
+                <tr>
+                    <td>&nbsp;投标金额（元）</td>
+                    <td>&nbsp;奖励金额（元）</td>
+                </tr>
+                <tr>
+                    <td>1000</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>10000</td>
+                    <td>50</td>
+                </tr>
+                <tr>
+                    <td>20000</td>
+                    <td>200</td>
+                </tr>
+            </table>
+            <p style="line-height: 0.4rem;padding-bottom: 0;"><em>2、天天奖：</em>只要好友账户有待收金额，您就天天有奖励，上不封顶！</p>
+            <p style="font-size: 0.22rem;color: #e70101;line-height: 0.4rem;padding-bottom: 0;padding-top: 0;">奖励金额 = 好友当天的待收本金 * 您的奖励系数 / 365</p>
+            <table cellspacing="0" cellpadding="0" border="1" bordercolor='#a0a0a0' style="margin-bottom: 0.38rem;margin-top: 0.2rem;">
+                <tr>
+                    <td>&nbsp;好友待收本金（元）</td>
+                    <td>&nbsp;您的奖励系数（元）</td>
+                </tr>
+                <tr>
+                    <td>小于5万</td>
+                    <td>0.5%</td>
+                </tr>
+                <tr>
+                    <td>5万-50万</td>
+                    <td>0.8%</td>
+                </tr>
+                <tr>
+                    <td>50万及以上</td>
+                    <td>1.0%</td>
+                </tr>
+            </table>
+            <a href="" class="oa2">了解详情>></a>
+            <p class="line" style="height: 0.4rem;width: 5.25rem;border-bottom: 1px dashed #dbdbdb;margin-left: 0.38rem;clear: both;padding: 0;"></p>
+            <a href="https://www.ishoutou.com/member/common/register/" class="oa1">马上邀请好友</a>
+        </div>
+        
+    </section>
+    <!--模块一 E-->
+    <!-- <div class="bgpian"></div> -->
+    <!--模块一 B-->
+    <section class="activity_box4" id="actFour" name="actFour">
+        <img src="Style/Touch/images/hdye/wap7_10_08.png" />
+        <div class="actFour_box">
+            <p><em>1）微信注册红包：</em>关注手投网官方微信，通过订阅号进行注册既有机会领取<span>百元红包</span></p>
+            <p style="margin-bottom: 0.33rem;"><em>2）微信投标奖励：</em>首次使用微信进行投标，奖励投标金额的<span>2‰</span></p>
+            <p style="margin-bottom: 0.33rem;line-height: 0.42rem;font-size: 0.22rem;color: #a1a1a1;"><em style="color: #e65700;">注：</em>已获微信首次投标奖励的用户不可再次获得此奖励；约标不参与微信投标奖励活动。</p>
+            <p><em>奖励发放：</em>微信注册红包系统立即自动发放；微信投标奖励第二个工作日发放（如遇节假日则顺延）</p>
+            <img src="Style/Touch/images/hdye/wap7_11_12.png" />
+            <p>扫一扫，注册有惊喜</p>
+        </div>
+    </section>
+    <!--模块一 E-->
+    
+</div>
+<!--主体 E-->
+ 
+<!--底栏 B-->
+<div class="zhe_fixd">
+   <div class="zhe_fixd_box01"></div>
+   <a href="http://www.ishoutou.com/member/common/register/t/89">马上注册抽大奖</a>
+</div>
+<div class="bar_fixd">
+    <ul class="bar_con">
+        <li class="icon1"><a href="#"></a></li>
+        <li class="icon2"><a href="#"></a></li>
+        <li class="icon3"><a href="#"></a></li>
+        <li class="icon4"><a href="#"></a></li>
+        <li class="icon5"><a href="#"></a></li>
+    </ul>
+</div>
+<script type="text/javascript">
+    var u = navigator.userAgent;
+    var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1; //android终端
+    var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+    var winWidth=$(window).width();
+    if(isiOS){
+
+    }else if(isAndroid){        
+        $(".actFour_box p.op1").css({'letter-spacing':'-1px'})
+        if(navigator.userAgent.indexOf('UCBrowser') > -1){
+           if(winWidth<=360 && winWidth>=320){
+                $(".actOne_box p.tiao").css({'margin-bottom':'0.78rem'});
+                $('.actFour_box p.tiao').css({'margin-bottom':'0.58rem'});
+                $('#auto-loop li.tiao').css({'margin-left':'0.3rem'});
+                $('#auto-loop li.tiao2').css({'margin-left':'0.24rem'});
+           }else if(winWidth<=414 && winWidth>=383){
+                $(".actOne_box p.tiao").css({'margin-bottom':'0.95rem'});
+                $('.actFour_box p.tiao').css({'margin-bottom':'0.75rem'});
+                $('#auto-loop li.tiao').css({'margin-left':'0.3rem'});
+                $('#auto-loop li.tiao2').css({'margin-left':'0.24rem'});
+                $('.actFour_box p.tiao3').css({'margin-top':'2.65rem'});
+           }
+        }
+    }
+</script>
+
+<!--底栏 E-->
+
+</body>
+</html>

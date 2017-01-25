@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Cache-Control" content="no-cache" />
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=no;" />
+<title>手投网_邀请好友</title>
+<meta name="MobileOptimized" content="320"/>
+<meta name="HandheldFriendly" content="True">
+<meta name="format-detection" content="telephone=no" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-touch-fullscreen" content="yes">
+<link rel="stylesheet" href="Style/Touch/css/style.css" type="text/css" media="all"/>
+<link rel="stylesheet" href="Style/Touch/css/lightGallery.css" type="text/css" media="all"/>
+<script src="Style/Touch/js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="Style/Touch/js/scroll.js"></script>
+<script type="text/javascript" src="Style/Touch/js/lightGallery.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $("#auto-loop").lightGallery({
+            loop:true,
+            auto:false,
+            pause:4000
+        });
+    });
+    
+</script>
+<script type="text/javascript">
+	(function (doc, win) {
+		var docEl = doc.documentElement,
+			resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+		recalc = function () {
+		var clientWidth = docEl.clientWidth;
+		//console.log(clientWidth);
+		if (!clientWidth) return;
+		if(clientWidth>640)	clientWidth=640;
+		//console.log(100 *(clientWidth/640));
+		docEl.style.fontSize = 100 * (clientWidth / 640) + 'px';
+		};
+		if (!doc.addEventListener) return;
+		win.addEventListener(resizeEvt, recalc, false);
+		doc.addEventListener('DOMContentLoaded', recalc, false);
+	})(document, window);
+</script>
+<style>
+	body,html{width: 100%;}
+	body{font-family:"微软雅黑";}
+</style>
+</head>
+
+<body>
+<!--头部 B-->
+<header class="head_top"><i><a href="#">返回</a></i>邀请好友</header>
+<div class="kongDivTop"></div>
+<!--头部 E-->
+
+<!--主体 B-->
+<div class="friends_Main">
+    <section class="show_box">
+    	<p class="show_box1_op1" style="margin-bottom: 0.38rem;">邀请好友，拿双重好礼！</p>
+    	<h4>好礼1</h4>
+    	<div style="width: 5.4rem; margin: 0 auto;">
+	    	<p style="font-size: 0.26rem;color: #4b5055;font-weight: bold;margin-bottom: 0.3rem;">好友首次投标，立即给您发奖！</p>
+	    	<p class="show_box1_op2">• 好友首笔投标金额达到一千元，奖励您 <em>5</em> 元</p>
+	    	<p class="show_box1_op2">• 好友首笔投标金额达到一万元，奖励您 <em>60</em> 元</p>
+	    	<p class="show_box1_op2">• 好友首笔投标金额达到五万元，奖励您 <em>360</em> 元</p>
+    	</div>
+    	<p style="width: 100%;height: 1px;padding: 0rem;margin-top: 0.4rem;margin-bottom: 0.45rem;"><span style="display: block; width: 100%;height: 1px;background: #dfdfdf;"></span></p>
+    	<h4>好礼2</h4>
+    	<div style="width: 5.4rem; margin: 0 auto;">
+	    	<p style="font-size: 0.26rem;color: #4b5055;font-weight: bold;">好友有待收本金，每天给您发奖！</p>
+	    	<p style="font-size: 0.22rem;color: #e74a4a;margin-top: 0.3rem;line-height: 0.38rem;margin-bottom: 0.2rem;">奖励金额 = 好友当天的待收本金 * 您的奖励系数 / 365</p>
+	    	<p style="font-size: 0.2rem;color: #888;line-height: 0.38rem;margin-bottom: 0.1rem;">注：奖励系数根据好友的待收本金额度而定，详情如下：</p>
+    	</div>
+    	<table cellpadding="0" cellspacing="0">
+    		<tr>
+    			<td>好友待收本金（元）</td>
+    			<td style="border-left: 0;">小于10万</td>
+    			<td style="border-left: 0;">10万-50万</td>
+    			<td style="border-left: 0;">大于50万</td>
+    		</tr>
+    		<tr>
+    			<td>您的奖励系数（元）</td>
+    			<td style="border-left: 0;">0.8%</td>
+    			<td style="border-left: 0;">1%</td>
+    			<td style="border-left: 0;">1.2%</td>
+    		</tr>
+    	</table>
+    	<div style="width: 100%;height: 0.24rem;background:url(Style/Touch/images/temp/img_31_03.png) repeat-x;background-size:auto 100%;margin-top: 0.88rem;"></div>
+    	<p class="show_box1_op1" style="margin-bottom: 0.38rem;margin-top: 0.3rem;">邀请方式</p>
+    	<h4 class="fangshi">方式1</h4>
+    	<div style="width: 5.4rem; margin: 0 auto;">
+	    	<p style="font-size: 0.26rem;color: #4b5055;font-weight: bold;margin-bottom: 0.35rem;">复制链接，让好友通过此链接进行注册</p>
+	    	<input type="text" value="http://www.ishoutou.com/member/common/register?invite=12775" class="show_box1_inp1" />
+	    	<div style="height: 1.04rem;padding-top: 0.1rem;box-sizing: border-box;">
+	    		<p style="padding-left: 0;font-size: 0.2rem;color: #a1a1a1;">（您可以尝试分享到各种论坛、社区、QQ群等地方，可能会收到意想不到的惊喜）</p>
+	    	</div>
+	    </div>
+	    <p style="width: 100%;height: 1px;padding: 0rem;margin-top: 0.1rem;margin-bottom: 0.45rem;"><span style="display: block; width: 100%;height: 1px;background: #dfdfdf;"></span></p>
+    	<h4 class="fangshi">方式2</h4>
+    	<div style="width: 5.4rem; margin: 0 auto;">
+	    	<p style="font-size: 0.26rem;color: #4b5055;font-weight: bold;margin-bottom: 0.3rem;line-height: 0.36rem;">告知好友，注册时在推荐人一栏中填入您的用户名</p>
+	    	<p class="show_box1_op3" style="font-size: 0.22rem;color: #777777;">您的用户名是：<em>llyyjj222</em></p>
+	    </div>
+	    <p style="width: 100%;height: 1px;padding: 0rem;margin-top: 0.45rem;margin-bottom: 0.45rem;"><span style="display: block; width: 100%;height: 1px;background: #dfdfdf;"></span></p>
+    	<h4 class="fangshi">方式3</h4>
+    	<div style="width: 5.4rem; margin: 0 auto;">
+	    	<p style="font-size: 0.26rem;color: #4b5055;font-weight: bold;margin-bottom: 0.35rem;line-height: 0.36rem;">让好友扫描您的专属二维码，进行注册</p>
+		    <div class="show_box1_box">	
+		    	<ul class="show_box1_odl gallery"  id="auto-loop">
+		    		<li data-src="Style/Touch/images/temp/img_23.png"><a href="javascript:;"><img src="Style/Touch/images/temp/img_23.png"/></a></li>
+		    	</ul>
+		    	<p class="oli2">（让您的朋友扫描二维码，并完成注册步骤即可）</p>
+		    </div>
+		</div>
+    	<div class="cler"></div>
+    	<p style="width: 100%;height: 1px;padding: 0rem;margin-top: 0.45rem;margin-bottom: 0.45rem;"><span style="display: block; width: 100%;height: 1px;background: #dfdfdf;"></span></p>
+    	<h4 class="fangshi">方式4</h4>
+    	<div style="width: 5.4rem; margin: 0 auto;">
+    		<p style="font-size: 0.26rem;color: #4b5055;font-weight: bold;margin-bottom: 0.35rem;line-height: 0.36rem;">分享到这里，让更多好友看到</p>
+    	</div>
+    	<ul class="show_box1_oul">
+    		<li>
+    			<a class="weixin_fen" style="margin-left: 0.45rem;">
+    				<img src="Style/Touch/images/temp/img_24_03.png" />
+    				<span>微信好友</span>
+    			</a>
+    			<a class="weixin_fen">
+    				<img src="Style/Touch/images/temp/img_25_03.png" />
+    				<span>朋友圈</span>
+    			</a>
+    			<a href="">
+    				<img src="Style/Touch/images/temp/img_26_03.png" />
+    				<span>新浪微博</span>
+    			</a>
+    		</li>
+    		<li>
+    			<a href="" style="margin-left: 0.45rem;">
+    				<img src="Style/Touch/images/temp/img_27_03.png" />
+    				<span>QQ好友</span>
+    			</a>
+    			<a href="">
+    				<img src="Style/Touch/images/temp/img_28_03.png" />
+    				<span>QQ空间</span>
+    			</a>
+    			<a href="">
+    				<img src="Style/Touch/images/temp/img_29_03.png" />
+    				<span>腾讯微博</span>
+    			</a>
+    		</li>
+    		
+    	</ul>
+    	
+    	
+    </section>
+    
+</div>
+<!--主体 E-->
+
+<!--底栏 B-->
+<div class="bar_fixd">
+	<ul class="bar_con">
+    	<li class="icon1"><a href="#"></a></li>
+    	<li class="icon2"><a href="#"></a></li>
+    	<li class="icon3"><a href="#"></a></li>
+    	<li class="icon4"><a href="#"></a></li>
+    	<li class="icon5"><a href="#"></a></li>
+    </ul>
+</div>
+<!--底栏 E-->
+
+<!--引导B-->
+<div class="yindao_fen" style="display: none;">
+	<div class="yindao_zhezhao"></div>
+	<img src="Style/Touch/images/temp/img_30_03.png" style="display: block;position: fixed;right:0.77rem;top: 0.14rem;width: 3.85rem;z-index: 9999;" />
+	
+	<script>
+		$(window).on("load",function(){
+			var h=$(document).height();
+			$(".yindao_zhezhao").css({"height":h});
+		})
+		$(".weixin_fen").on("click",function(){
+			$(".yindao_fen").css({"display":"block"});
+		})
+		$(".yindao_fen").on("click",function(){
+			$(this).css({"display":"none"});
+		})
+	</script>
+</div>
+<!--引导E-->
+
+</body>
+</html>
